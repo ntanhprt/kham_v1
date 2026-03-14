@@ -1,0 +1,1162 @@
+[
+  {
+    "id": "SYM_B02_001",
+    "symptom_code": "crushing_substernal_chest_pain",
+    "name_vi": "Đau ngực kiểu đè ép sau xương ức",
+    "name_en": "Crushing substernal chest pain",
+    "category": "cardiac",
+    "icd11_approximate": "BA80",
+    "severity_weight": 0.98,
+    "time_sensitivity": "acute",
+    "bat_cuong_weights": {
+      "cold": 0.4,
+      "heat": 0.2,
+      "deficiency": 0.3,
+      "excess": 0.8,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.1,
+      "heart": 1.0,
+      "spleen": 0.0,
+      "lung": 0.2,
+      "kidney": 0.2
+    },
+    "red_flag_level": "L1_emergency",
+    "cluster_contribution": ["acs_cluster", "aortic_dissection_cluster"],
+    "yhct_clinical_note": "Hung tý nặng — Tâm huyết ứ trở nặng hoặc Khí huyết lưỡng hư → CẤP CỨU",
+    "yhhd_clinical_note": "ACS (STEMI/NSTEMI/UA) until proven otherwise. ECG + troponin STAT"
+  },
+  {
+    "id": "SYM_B02_002",
+    "symptom_code": "chest_pain_left_arm_radiation",
+    "name_vi": "Đau ngực lan lên cánh tay trái / vai trái / hàm",
+    "name_en": "Chest pain with left arm / jaw radiation",
+    "category": "cardiac",
+    "icd11_approximate": "BA80",
+    "severity_weight": 0.97,
+    "time_sensitivity": "acute",
+    "bat_cuong_weights": {
+      "cold": 0.5,
+      "heat": 0.15,
+      "deficiency": 0.3,
+      "excess": 0.85,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.1,
+      "heart": 1.0,
+      "spleen": 0.0,
+      "lung": 0.1,
+      "kidney": 0.2
+    },
+    "red_flag_level": "L1_emergency",
+    "cluster_contribution": ["acs_cluster", "referred_pain_cluster"],
+    "yhct_clinical_note": "Tâm huyết ứ trở với kinh lạc bị tắc — đau lan theo đường Tâm kinh thủ thiếu âm → CẤP CỨU",
+    "yhhd_clinical_note": "Classic ACS radiation pattern. Immediate ECG, aspirin, troponin, activate cath lab protocol"
+  },
+  {
+    "id": "SYM_B02_003",
+    "symptom_code": "pleuritic_stabbing_chest_pain",
+    "name_vi": "Đau ngực kiểu dao đâm, tăng khi thở sâu / ho",
+    "name_en": "Pleuritic stabbing chest pain",
+    "category": "respiratory",
+    "icd11_approximate": "CA22",
+    "severity_weight": 0.75,
+    "time_sensitivity": "urgent",
+    "bat_cuong_weights": {
+      "cold": 0.3,
+      "heat": 0.4,
+      "deficiency": 0.2,
+      "excess": 0.7,
+      "exterior": 0.3,
+      "interior": 0.7
+    },
+    "zangfu_weights": {
+      "liver": 0.3,
+      "heart": 0.4,
+      "spleen": 0.0,
+      "lung": 0.9,
+      "kidney": 0.1
+    },
+    "red_flag_level": "L2_urgent",
+    "cluster_contribution": ["pleurisy_cluster", "pe_cluster", "pneumothorax_cluster"],
+    "yhct_clinical_note": "Phế lạc bị tổn thương — Phong hàn hoặc Nhiệt tà phạm Phế, huyết ứ tại lạc mạch; cần phân biệt với Hung tý",
+    "yhhd_clinical_note": "DDx: PE, pleuritis, pneumothorax, pericarditis. D-dimer / CTPA if PE suspected"
+  },
+  {
+    "id": "SYM_B02_004",
+    "symptom_code": "positional_chest_pain",
+    "name_vi": "Đau ngực thay đổi theo tư thế (giảm khi ngồi nghiêng ra trước)",
+    "name_en": "Positional chest pain (pericarditic posture relief)",
+    "category": "cardiac",
+    "icd11_approximate": "BC43",
+    "severity_weight": 0.70,
+    "time_sensitivity": "urgent",
+    "bat_cuong_weights": {
+      "cold": 0.2,
+      "heat": 0.6,
+      "deficiency": 0.2,
+      "excess": 0.6,
+      "exterior": 0.2,
+      "interior": 0.8
+    },
+    "zangfu_weights": {
+      "liver": 0.2,
+      "heart": 0.9,
+      "spleen": 0.0,
+      "lung": 0.3,
+      "kidney": 0.1
+    },
+    "red_flag_level": "L2_urgent",
+    "cluster_contribution": ["pericarditis_cluster", "aortic_dissection_cluster"],
+    "yhct_clinical_note": "Tâm bào lạc nhiệt — Nhiệt tà xâm phạm hoặc Tâm huyết ứ trở tại Tâm bào; tư thế cải thiện do giảm áp lực lên Tâm bào",
+    "yhhd_clinical_note": "Classic pericarditis sign. ECG (saddle ST), echo to exclude effusion/tamponade. NSAIDs + colchicine"
+  },
+  {
+    "id": "SYM_B02_005",
+    "symptom_code": "chest_tightness_pressure",
+    "name_vi": "Nặng ngực / tức ngực / cảm giác bị bóp chặt",
+    "name_en": "Chest tightness / pressure sensation",
+    "category": "cardiac",
+    "icd11_approximate": "BA80",
+    "severity_weight": 0.80,
+    "time_sensitivity": "urgent",
+    "bat_cuong_weights": {
+      "cold": 0.4,
+      "heat": 0.3,
+      "deficiency": 0.4,
+      "excess": 0.6,
+      "exterior": 0.1,
+      "interior": 0.9
+    },
+    "zangfu_weights": {
+      "liver": 0.3,
+      "heart": 0.85,
+      "spleen": 0.3,
+      "lung": 0.5,
+      "kidney": 0.2
+    },
+    "red_flag_level": "L2_urgent",
+    "cluster_contribution": ["acs_cluster", "angina_cluster", "asthma_cluster"],
+    "yhct_clinical_note": "Hung tý — Tâm khí hư hoặc Đàm trọc ứ trở hung cách; Tâm huyết ứ nhẹ hoặc Can khí uất kết",
+    "yhhd_clinical_note": "Angina equivalent or ACS. Risk stratify with HEART score. Also consider asthma, GERD if atypical"
+  },
+  {
+    "id": "SYM_B02_006",
+    "symptom_code": "burning_retrosternal_pain",
+    "name_vi": "Đau rát / nóng bỏng sau xương ức",
+    "name_en": "Burning retrosternal pain",
+    "category": "cardiac",
+    "icd11_approximate": "DA91",
+    "severity_weight": 0.55,
+    "time_sensitivity": "routine",
+    "bat_cuong_weights": {
+      "cold": 0.1,
+      "heat": 0.8,
+      "deficiency": 0.3,
+      "excess": 0.6,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.5,
+      "heart": 0.4,
+      "spleen": 0.6,
+      "lung": 0.1,
+      "kidney": 0.2
+    },
+    "red_flag_level": "L3_watch",
+    "cluster_contribution": ["gerd_cluster", "esophageal_cluster", "angina_cluster"],
+    "yhct_clinical_note": "Vị nhiệt thượng nghịch hoặc Can vị bất hòa — Trung tiêu nhiệt uất gây Can hỏa phạm Vị; phân biệt với Tâm hỏa cang thịnh",
+    "yhhd_clinical_note": "Most likely GERD. Must exclude ACS in risk patients. PPI trial; if atypical or risk factors → cardiac workup"
+  },
+  {
+    "id": "SYM_B02_007",
+    "symptom_code": "pericardial_chest_pain",
+    "name_vi": "Đau ngực kiểu viêm màng ngoài tim (lan lên vai trái, tăng khi nằm ngửa)",
+    "name_en": "Pericardial chest pain",
+    "category": "cardiac",
+    "icd11_approximate": "BC43",
+    "severity_weight": 0.78,
+    "time_sensitivity": "urgent",
+    "bat_cuong_weights": {
+      "cold": 0.2,
+      "heat": 0.65,
+      "deficiency": 0.2,
+      "excess": 0.65,
+      "exterior": 0.3,
+      "interior": 0.7
+    },
+    "zangfu_weights": {
+      "liver": 0.2,
+      "heart": 0.95,
+      "spleen": 0.0,
+      "lung": 0.2,
+      "kidney": 0.1
+    },
+    "red_flag_level": "L2_urgent",
+    "cluster_contribution": ["pericarditis_cluster", "tamponade_cluster"],
+    "yhct_clinical_note": "Tâm bào lạc bị nhiệt tà xâm nhập — thường sau ngoại cảm Phong nhiệt hoặc thấp nhiệt; Tâm huyết ứ tại bào lạc",
+    "yhhd_clinical_note": "Pericarditis. Check ECG, echo (effusion?), troponin (myopericarditis?). Assess for tamponade (Beck's triad)"
+  },
+  {
+    "id": "SYM_B02_008",
+    "symptom_code": "musculoskeletal_chest_pain",
+    "name_vi": "Đau ngực cơ xương (đau điểm ấn, tăng khi xoay người)",
+    "name_en": "Musculoskeletal chest pain",
+    "category": "cardiac",
+    "icd11_approximate": "FA70",
+    "severity_weight": 0.15,
+    "time_sensitivity": "routine",
+    "bat_cuong_weights": {
+      "cold": 0.5,
+      "heat": 0.2,
+      "deficiency": 0.3,
+      "excess": 0.4,
+      "exterior": 0.4,
+      "interior": 0.6
+    },
+    "zangfu_weights": {
+      "liver": 0.4,
+      "heart": 0.1,
+      "spleen": 0.1,
+      "lung": 0.2,
+      "kidney": 0.3
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["musculoskeletal_cluster", "costochondritis_cluster"],
+    "yhct_clinical_note": "Khí trệ huyết ứ cục bộ tại kinh lạc — Phong hàn thấp tý hoặc chấn thương; Can khí uất kết cũng gây đau cơ xương ngực",
+    "yhhd_clinical_note": "Costochondritis / Tietze syndrome / musculoskeletal. Reproducible on palpation. NSAIDs; exclude cardiac if any doubt"
+  },
+  {
+    "id": "SYM_B02_009",
+    "symptom_code": "regular_rapid_palpitations",
+    "name_vi": "Hồi hộp đánh trống ngực — nhịp nhanh đều",
+    "name_en": "Regular rapid palpitations (tachycardia)",
+    "category": "cardiac",
+    "icd11_approximate": "BC81",
+    "severity_weight": 0.70,
+    "time_sensitivity": "urgent",
+    "bat_cuong_weights": {
+      "cold": 0.1,
+      "heat": 0.6,
+      "deficiency": 0.5,
+      "excess": 0.5,
+      "exterior": 0.1,
+      "interior": 0.9
+    },
+    "zangfu_weights": {
+      "liver": 0.4,
+      "heart": 1.0,
+      "spleen": 0.2,
+      "lung": 0.1,
+      "kidney": 0.3
+    },
+    "red_flag_level": "L2_urgent",
+    "cluster_contribution": ["svt_cluster", "sinus_tachycardia_cluster", "vt_cluster"],
+    "yhct_clinical_note": "Tâm khí hư hoặc Tâm âm hư sinh nội nhiệt — Tâm thần bất an, hỏa nhiễu Tâm thần; phân biệt thực chứng (đàm hỏa) vs hư chứng",
+    "yhhd_clinical_note": "12-lead ECG during episode. DDx: SVT, sinus tach, VT. Vagal maneuver if AVNRT suspected. Holter if paroxysmal"
+  },
+  {
+    "id": "SYM_B02_010",
+    "symptom_code": "irregular_palpitations",
+    "name_vi": "Hồi hộp loạn nhịp — nhịp không đều",
+    "name_en": "Irregular palpitations",
+    "category": "cardiac",
+    "icd11_approximate": "BC81",
+    "severity_weight": 0.75,
+    "time_sensitivity": "urgent",
+    "bat_cuong_weights": {
+      "cold": 0.2,
+      "heat": 0.4,
+      "deficiency": 0.6,
+      "excess": 0.5,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.3,
+      "heart": 1.0,
+      "spleen": 0.3,
+      "lung": 0.1,
+      "kidney": 0.4
+    },
+    "red_flag_level": "L2_urgent",
+    "cluster_contribution": ["afib_cluster", "pvc_cluster", "pac_cluster"],
+    "yhct_clinical_note": "Tâm khí hư không thống nhiếp được huyết — mạch kết đại hoặc xúc; Đàm trọc ứ trở Tâm lạc gây loạn nhịp",
+    "yhhd_clinical_note": "ECG: AF vs frequent ectopics vs 2nd-degree block. CHA2DS2-VASc if AF confirmed. Echo, TFT, electrolytes"
+  },
+  {
+    "id": "SYM_B02_011",
+    "symptom_code": "skipped_beats_palpitations",
+    "name_vi": "Cảm giác tim bỏ nhịp / hẫng nhịp",
+    "name_en": "Skipped beats / missed beat sensation",
+    "category": "cardiac",
+    "icd11_approximate": "BC81",
+    "severity_weight": 0.40,
+    "time_sensitivity": "routine",
+    "bat_cuong_weights": {
+      "cold": 0.1,
+      "heat": 0.3,
+      "deficiency": 0.7,
+      "excess": 0.3,
+      "exterior": 0.0,
+      "interior": 0.9
+    },
+    "zangfu_weights": {
+      "liver": 0.2,
+      "heart": 0.9,
+      "spleen": 0.3,
+      "lung": 0.1,
+      "kidney": 0.4
+    },
+    "red_flag_level": "L3_watch",
+    "cluster_contribution": ["pvc_cluster", "pac_cluster"],
+    "yhct_clinical_note": "Tâm khí hư hoặc Tâm huyết hư — Tâm thần không được nuôi dưỡng, mạch xúc hoặc kết; thường gặp sau mệt mỏi hoặc hồi hộp lo âu",
+    "yhhd_clinical_note": "Typically benign PVCs/PACs. Holter monitor. Reassure if structurally normal heart. Reduce caffeine, stress"
+  },
+  {
+    "id": "SYM_B02_012",
+    "symptom_code": "slow_palpitations_with_dizziness",
+    "name_vi": "Tim đập chậm kèm chóng mặt / ngất xỉu",
+    "name_en": "Slow palpitations with dizziness / presyncope",
+    "category": "cardiac",
+    "icd11_approximate": "BC91",
+    "severity_weight": 0.88,
+    "time_sensitivity": "urgent",
+    "bat_cuong_weights": {
+      "cold": 0.5,
+      "heat": 0.1,
+      "deficiency": 0.8,
+      "excess": 0.2,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.2,
+      "heart": 0.95,
+      "spleen": 0.3,
+      "lung": 0.1,
+      "kidney": 0.5
+    },
+    "red_flag_level": "L1_emergency",
+    "cluster_contribution": ["bradycardia_cluster", "heart_block_cluster", "syncope_cluster"],
+    "yhct_clinical_note": "Tâm dương hư hoặc Tâm thận dương hư — dương khí bất túc, huyết không vận hành lên não; mạch trì hoặc kết đại",
+    "yhhd_clinical_note": "Bradycardia with haemodynamic compromise. ECG: SSS, heart block? Atropine if unstable. Pacing consultation"
+  },
+  {
+    "id": "SYM_B02_013",
+    "symptom_code": "nocturnal_palpitations",
+    "name_vi": "Hồi hộp về đêm, thức giấc vì tim đập mạnh",
+    "name_en": "Nocturnal palpitations",
+    "category": "cardiac",
+    "icd11_approximate": "BC81",
+    "severity_weight": 0.55,
+    "time_sensitivity": "routine",
+    "bat_cuong_weights": {
+      "cold": 0.1,
+      "heat": 0.5,
+      "deficiency": 0.7,
+      "excess": 0.3,
+      "exterior": 0.0,
+      "interior": 0.9
+    },
+    "zangfu_weights": {
+      "liver": 0.4,
+      "heart": 0.9,
+      "spleen": 0.2,
+      "lung": 0.1,
+      "kidney": 0.5
+    },
+    "red_flag_level": "L3_watch",
+    "cluster_contribution": ["afib_cluster", "pvc_cluster", "anxiety_cluster", "sleep_apnea_cluster"],
+    "yhct_clinical_note": "Tâm âm hư — âm hư hỏa vượng về đêm gây Tâm thần bất an; Can âm hư hoặc Thận âm hư không nuôi dưỡng Tâm",
+    "yhhd_clinical_note": "Holter monitor, TSH, electrolytes. Consider OSA (sleep study). Paroxysmal AF common at night"
+  },
+  {
+    "id": "SYM_B02_014",
+    "symptom_code": "exertional_dyspnea",
+    "name_vi": "Khó thở khi gắng sức",
+    "name_en": "Exertional dyspnea",
+    "category": "respiratory",
+    "icd11_approximate": "MB23",
+    "severity_weight": 0.65,
+    "time_sensitivity": "urgent",
+    "bat_cuong_weights": {
+      "cold": 0.2,
+      "heat": 0.3,
+      "deficiency": 0.7,
+      "excess": 0.3,
+      "exterior": 0.1,
+      "interior": 0.9
+    },
+    "zangfu_weights": {
+      "liver": 0.1,
+      "heart": 0.7,
+      "spleen": 0.3,
+      "lung": 0.8,
+      "kidney": 0.5
+    },
+    "red_flag_level": "L3_watch",
+    "cluster_contribution": ["heart_failure_cluster", "copd_cluster", "anemia_cluster", "deconditioning_cluster"],
+    "yhct_clinical_note": "Phế khí hư hoặc Tâm khí hư — khí hư không nạp; Thận không nạp khí (Thận hư); gắng sức làm hao tổn khí thêm",
+    "yhhd_clinical_note": "NYHA grading. Workup: CXR, Echo, PFT, BNP, CBC. Broad DDx: HF, COPD, ILD, deconditioning, anemia"
+  },
+  {
+    "id": "SYM_B02_015",
+    "symptom_code": "orthopnea",
+    "name_vi": "Khó thở khi nằm, phải kê cao đầu mới thở được",
+    "name_en": "Orthopnea",
+    "category": "cardiac",
+    "icd11_approximate": "MB23",
+    "severity_weight": 0.82,
+    "time_sensitivity": "urgent",
+    "bat_cuong_weights": {
+      "cold": 0.3,
+      "heat": 0.2,
+      "deficiency": 0.7,
+      "excess": 0.5,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.1,
+      "heart": 0.9,
+      "spleen": 0.4,
+      "lung": 0.8,
+      "kidney": 0.5
+    },
+    "red_flag_level": "L2_urgent",
+    "cluster_contribution": ["heart_failure_cluster", "pulmonary_edema_cluster"],
+    "yhct_clinical_note": "Tâm dương hư — dương hư không vận hóa thủy thấp, đàm ẩm ứ đọng tại Phế; nằm thì đàm ẩm tràn lên gây khó thở",
+    "yhhd_clinical_note": "Cardinal sign of left HF. BNP/NTproBNP, echo, CXR. Number of pillows = NYHA surrogate. Diuretics"
+  },
+  {
+    "id": "SYM_B02_016",
+    "symptom_code": "paroxysmal_nocturnal_dyspnea",
+    "name_vi": "Khó thở kịch phát về đêm (PND) — thức giấc vì ngạt thở",
+    "name_en": "Paroxysmal nocturnal dyspnea (PND)",
+    "category": "cardiac",
+    "icd11_approximate": "MB23",
+    "severity_weight": 0.88,
+    "time_sensitivity": "urgent",
+    "bat_cuong_weights": {
+      "cold": 0.3,
+      "heat": 0.2,
+      "deficiency": 0.7,
+      "excess": 0.6,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.1,
+      "heart": 0.95,
+      "spleen": 0.4,
+      "lung": 0.85,
+      "kidney": 0.5
+    },
+    "red_flag_level": "L2_urgent",
+    "cluster_contribution": ["heart_failure_cluster", "pulmonary_edema_cluster", "asthma_cluster"],
+    "yhct_clinical_note": "Tâm dương hư trọng — ban đêm dương khí suy, đàm ẩm xung lên Phế cấp; Thận dương hư không nạp khí",
+    "yhhd_clinical_note": "Highly specific for HF. Urgent BNP, echo. Differentiate from nocturnal asthma (spirometry, bronchodilator response)"
+  },
+  {
+    "id": "SYM_B02_017",
+    "symptom_code": "sudden_onset_dyspnea_at_rest",
+    "name_vi": "Khó thở đột ngột khi nghỉ ngơi",
+    "name_en": "Sudden onset dyspnea at rest",
+    "category": "respiratory",
+    "icd11_approximate": "MB23",
+    "severity_weight": 0.95,
+    "time_sensitivity": "acute",
+    "bat_cuong_weights": {
+      "cold": 0.2,
+      "heat": 0.4,
+      "deficiency": 0.4,
+      "excess": 0.7,
+      "exterior": 0.2,
+      "interior": 0.8
+    },
+    "zangfu_weights": {
+      "liver": 0.1,
+      "heart": 0.7,
+      "spleen": 0.1,
+      "lung": 0.9,
+      "kidney": 0.3
+    },
+    "red_flag_level": "L1_emergency",
+    "cluster_contribution": ["pe_cluster", "pneumothorax_cluster", "acute_hf_cluster", "anaphylaxis_cluster"],
+    "yhct_clinical_note": "Phế khí bạo thoát hoặc Tâm phế khí hư cực trọng — khí nghịch đột ngột; CẤP CỨU bất kể nguyên nhân",
+    "yhhd_clinical_note": "Emergency. DDx: PE, tension pneumothorax, acute severe asthma, acute HF, anaphylaxis. ABCDE approach"
+  },
+  {
+    "id": "SYM_B02_018",
+    "symptom_code": "inspiratory_stridor",
+    "name_vi": "Khó thở thì hít vào kèm tiếng rít (stridor)",
+    "name_en": "Inspiratory stridor",
+    "category": "respiratory",
+    "icd11_approximate": "CA0Z",
+    "severity_weight": 0.95,
+    "time_sensitivity": "acute",
+    "bat_cuong_weights": {
+      "cold": 0.3,
+      "heat": 0.5,
+      "deficiency": 0.2,
+      "excess": 0.8,
+      "exterior": 0.5,
+      "interior": 0.5
+    },
+    "zangfu_weights": {
+      "liver": 0.1,
+      "heart": 0.1,
+      "spleen": 0.1,
+      "lung": 1.0,
+      "kidney": 0.1
+    },
+    "red_flag_level": "L1_emergency",
+    "cluster_contribution": ["upper_airway_obstruction_cluster", "anaphylaxis_cluster", "croup_cluster"],
+    "yhct_clinical_note": "Phế quản tắc nghẽn cấp — Phong hàn hoặc nhiệt độc tắc tại hầu họng, khí đạo không thông; CẤP CỨU đường thở",
+    "yhhd_clinical_note": "Upper airway obstruction emergency. Anaphylaxis → epinephrine. Foreign body → Heimlich / bronchoscopy. Epiglottitis → antibiotics + airway"
+  },
+  {
+    "id": "SYM_B02_019",
+    "symptom_code": "expiratory_wheeze",
+    "name_vi": "Khó thở thì thở ra kèm tiếng khò khè (wheeze)",
+    "name_en": "Expiratory wheeze",
+    "category": "respiratory",
+    "icd11_approximate": "CA23",
+    "severity_weight": 0.72,
+    "time_sensitivity": "urgent",
+    "bat_cuong_weights": {
+      "cold": 0.4,
+      "heat": 0.4,
+      "deficiency": 0.3,
+      "excess": 0.7,
+      "exterior": 0.3,
+      "interior": 0.7
+    },
+    "zangfu_weights": {
+      "liver": 0.2,
+      "heart": 0.2,
+      "spleen": 0.4,
+      "lung": 1.0,
+      "kidney": 0.2
+    },
+    "red_flag_level": "L2_urgent",
+    "cluster_contribution": ["asthma_cluster", "copd_cluster", "cardiac_asthma_cluster"],
+    "yhct_clinical_note": "Phong hàn hoặc Phong nhiệt phạm Phế gây Phế khí nghịch — Đàm thấp trở Phế (hen phế quản); Tâm dương hư gây đàm ẩm (hen tim)",
+    "yhhd_clinical_note": "Asthma vs COPD vs cardiac asthma. PEFR, SpO2. Bronchodilator trial. If HF suspected: BNP, echo"
+  },
+  {
+    "id": "SYM_B02_020",
+    "symptom_code": "sighing_dyspnea",
+    "name_vi": "Khó thở kiểu thở dài / không hít đủ hơi sâu",
+    "name_en": "Sighing dyspnea / air hunger",
+    "category": "respiratory",
+    "icd11_approximate": "MB23",
+    "severity_weight": 0.25,
+    "time_sensitivity": "routine",
+    "bat_cuong_weights": {
+      "cold": 0.1,
+      "heat": 0.3,
+      "deficiency": 0.6,
+      "excess": 0.3,
+      "exterior": 0.0,
+      "interior": 0.9
+    },
+    "zangfu_weights": {
+      "liver": 0.7,
+      "heart": 0.5,
+      "spleen": 0.2,
+      "lung": 0.5,
+      "kidney": 0.2
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["anxiety_cluster", "functional_dyspnea_cluster", "depression_cluster"],
+    "yhct_clinical_note": "Can khí uất kết — khí uất không sơ tiết, Phế khí không tuyên; thường kèm theo buồn bã, ức chế; thở dài để giải tỏa uất khí",
+    "yhhd_clinical_note": "Functional / psychogenic dyspnea. Anxiety, depression, hyperventilation syndrome. Exclude organic causes first. CBT, breathing exercises"
+  },
+  {
+    "id": "SYM_B02_021",
+    "symptom_code": "dry_persistent_cough",
+    "name_vi": "Ho khan kéo dài",
+    "name_en": "Dry persistent cough",
+    "category": "respiratory",
+    "icd11_approximate": "CA22",
+    "severity_weight": 0.45,
+    "time_sensitivity": "routine",
+    "bat_cuong_weights": {
+      "cold": 0.2,
+      "heat": 0.5,
+      "deficiency": 0.6,
+      "excess": 0.3,
+      "exterior": 0.2,
+      "interior": 0.8
+    },
+    "zangfu_weights": {
+      "liver": 0.2,
+      "heart": 0.1,
+      "spleen": 0.2,
+      "lung": 1.0,
+      "kidney": 0.3
+    },
+    "red_flag_level": "L3_watch",
+    "cluster_contribution": ["phfe_yin_def_cluster", "acei_cough_cluster", "gerd_cluster", "malignancy_cluster"],
+    "yhct_clinical_note": "Phế âm hư — âm hư sinh nội nhiệt, hư hỏa hun đốt Phế lạc; ho khan không đờm hoặc ít đờm dính; cần phân biệt Phế nhiệt thực chứng",
+    "yhhd_clinical_note": "DDx: ACEi cough (stop drug), UACS, GERD, CVA cough, asthma, ILD, malignancy if >8 weeks. CXR baseline"
+  },
+  {
+    "id": "SYM_B02_022",
+    "symptom_code": "productive_cough_white_sputum",
+    "name_vi": "Ho có đờm trắng loãng hoặc dạng bọt",
+    "name_en": "Productive cough with white / frothy sputum",
+    "category": "respiratory",
+    "icd11_approximate": "CA22",
+    "severity_weight": 0.40,
+    "time_sensitivity": "routine",
+    "bat_cuong_weights": {
+      "cold": 0.7,
+      "heat": 0.1,
+      "deficiency": 0.4,
+      "excess": 0.5,
+      "exterior": 0.3,
+      "interior": 0.7
+    },
+    "zangfu_weights": {
+      "liver": 0.1,
+      "heart": 0.2,
+      "spleen": 0.6,
+      "lung": 0.9,
+      "kidney": 0.3
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["phlegm_cold_cluster", "copd_cluster", "hf_cluster"],
+    "yhct_clinical_note": "Đàm thấp trở Phế — Tỳ hư sinh đàm, đàm hàn phạm Phế; đờm trắng loãng là biểu hiện hàn đàm hoặc thủy ẩm tại Phế",
+    "yhhd_clinical_note": "Chronic bronchitis / COPD. White frothy sputum in HF (pink when severe). Sputum MC&S if infection suspected"
+  },
+  {
+    "id": "SYM_B02_023",
+    "symptom_code": "productive_cough_yellow_green_sputum",
+    "name_vi": "Ho có đờm vàng xanh / mủ",
+    "name_en": "Productive cough with yellow-green / purulent sputum",
+    "category": "respiratory",
+    "icd11_approximate": "CA22",
+    "severity_weight": 0.60,
+    "time_sensitivity": "urgent",
+    "bat_cuong_weights": {
+      "cold": 0.0,
+      "heat": 0.9,
+      "deficiency": 0.2,
+      "excess": 0.8,
+      "exterior": 0.3,
+      "interior": 0.7
+    },
+    "zangfu_weights": {
+      "liver": 0.1,
+      "heart": 0.1,
+      "spleen": 0.3,
+      "lung": 1.0,
+      "kidney": 0.1
+    },
+    "red_flag_level": "L2_urgent",
+    "cluster_contribution": ["pneumonia_cluster", "bronchiectasis_cluster", "lung_abscess_cluster"],
+    "yhct_clinical_note": "Phế nhiệt hoặc Đàm nhiệt uất Phế — nhiệt tà hun đốt, đờm hóa mủ; Phong nhiệt hoặc ôn nhiệt độc tà phạm Phế",
+    "yhhd_clinical_note": "Bacterial infection: pneumonia, acute exacerbation COPD, bronchiectasis, lung abscess. Sputum culture, CXR, CBC, CRP"
+  },
+  {
+    "id": "SYM_B02_024",
+    "symptom_code": "blood_tinged_sputum",
+    "name_vi": "Ho ra đờm lẫn máu (máu ít, đờm có vệt đỏ)",
+    "name_en": "Blood-tinged sputum / streaky hemoptysis",
+    "category": "respiratory",
+    "icd11_approximate": "MD91",
+    "severity_weight": 0.80,
+    "time_sensitivity": "urgent",
+    "bat_cuong_weights": {
+      "cold": 0.1,
+      "heat": 0.7,
+      "deficiency": 0.5,
+      "excess": 0.5,
+      "exterior": 0.1,
+      "interior": 0.9
+    },
+    "zangfu_weights": {
+      "liver": 0.3,
+      "heart": 0.2,
+      "spleen": 0.1,
+      "lung": 1.0,
+      "kidney": 0.3
+    },
+    "red_flag_level": "L2_urgent",
+    "cluster_contribution": ["malignancy_cluster", "tb_cluster", "bronchiectasis_cluster", "pe_cluster"],
+    "yhct_clinical_note": "Phế lạc tổn thương — Phế âm hư hỏa vượng hoặc Phế nhiệt hun đốt lạc mạch; Can hỏa phạm Phế (ho ra máu do stress, tức giận)",
+    "yhhd_clinical_note": "Red flag: lung cancer, TB, PE, bronchiectasis. Urgent CXR, CT chest, sputum AFB x3, bronchoscopy if indicated"
+  },
+  {
+    "id": "SYM_B02_025",
+    "symptom_code": "nocturnal_cough",
+    "name_vi": "Ho về đêm / sáng sớm",
+    "name_en": "Nocturnal / early morning cough",
+    "category": "respiratory",
+    "icd11_approximate": "CA22",
+    "severity_weight": 0.50,
+    "time_sensitivity": "routine",
+    "bat_cuong_weights": {
+      "cold": 0.4,
+      "heat": 0.3,
+      "deficiency": 0.5,
+      "excess": 0.4,
+      "exterior": 0.2,
+      "interior": 0.8
+    },
+    "zangfu_weights": {
+      "liver": 0.2,
+      "heart": 0.3,
+      "spleen": 0.3,
+      "lung": 0.9,
+      "kidney": 0.4
+    },
+    "red_flag_level": "L3_watch",
+    "cluster_contribution": ["asthma_cluster", "gerd_cluster", "hf_cluster", "uacs_cluster"],
+    "yhct_clinical_note": "Phế hàn ẩm — ban đêm dương khí suy, hàn ẩm không hóa được gây Phế khí nghịch; sáng sớm Phế kinh vượng thời (3-5h) gây ho nhiều",
+    "yhhd_clinical_note": "Classic asthma pattern. Also GERD (acid reflux at night), HF, UACS. PEF chart, spirometry, 24h pH monitoring"
+  },
+  {
+    "id": "SYM_B02_026",
+    "symptom_code": "exercise_triggered_cough",
+    "name_vi": "Ho sau gắng sức / ho do tập thể dục",
+    "name_en": "Exercise-triggered cough",
+    "category": "respiratory",
+    "icd11_approximate": "CA23",
+    "severity_weight": 0.35,
+    "time_sensitivity": "routine",
+    "bat_cuong_weights": {
+      "cold": 0.5,
+      "heat": 0.2,
+      "deficiency": 0.4,
+      "excess": 0.5,
+      "exterior": 0.4,
+      "interior": 0.6
+    },
+    "zangfu_weights": {
+      "liver": 0.1,
+      "heart": 0.2,
+      "spleen": 0.2,
+      "lung": 0.9,
+      "kidney": 0.3
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["exercise_induced_asthma_cluster", "eib_cluster"],
+    "yhct_clinical_note": "Phế khí hư — gắng sức hao khí, Phế không giữ được khí bình thường; Phế hàn gặp hơi lạnh khi thở sâu gây co thắt",
+    "yhhd_clinical_note": "Exercise-induced bronchoconstriction (EIB). Exercise challenge test or eucapnic voluntary hyperpnoea. Pre-exercise SABA"
+  },
+  {
+    "id": "SYM_B02_027",
+    "symptom_code": "positional_cough",
+    "name_vi": "Ho thay đổi theo tư thế (tăng khi nằm ngửa hoặc nghiêng một bên)",
+    "name_en": "Positional cough",
+    "category": "respiratory",
+    "icd11_approximate": "CA22",
+    "severity_weight": 0.45,
+    "time_sensitivity": "routine",
+    "bat_cuong_weights": {
+      "cold": 0.3,
+      "heat": 0.3,
+      "deficiency": 0.4,
+      "excess": 0.5,
+      "exterior": 0.1,
+      "interior": 0.9
+    },
+    "zangfu_weights": {
+      "liver": 0.2,
+      "heart": 0.3,
+      "spleen": 0.3,
+      "lung": 0.9,
+      "kidney": 0.2
+    },
+    "red_flag_level": "L3_watch",
+    "cluster_contribution": ["bronchiectasis_cluster", "gerd_cluster", "uacs_cluster", "lung_abscess_cluster"],
+    "yhct_clinical_note": "Đàm ẩm ứ đọng — tư thế thay đổi làm đàm dịch chuyển kích thích Phế lạc; thường gặp trong đàm thấp trở Phế nặng",
+    "yhhd_clinical_note": "Bronchiectasis (postural drainage effect), lung abscess, GERD. HRCT chest, postural drainage physio"
+  },
+  {
+    "id": "SYM_B02_028",
+    "symptom_code": "significant_hemoptysis",
+    "name_vi": "Ho ra máu đỏ tươi số lượng nhiều (≥100ml/24h)",
+    "name_en": "Significant hemoptysis (massive)",
+    "category": "respiratory",
+    "icd11_approximate": "MD91",
+    "severity_weight": 0.98,
+    "time_sensitivity": "acute",
+    "bat_cuong_weights": {
+      "cold": 0.0,
+      "heat": 0.8,
+      "deficiency": 0.4,
+      "excess": 0.7,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.4,
+      "heart": 0.3,
+      "spleen": 0.1,
+      "lung": 1.0,
+      "kidney": 0.2
+    },
+    "red_flag_level": "L1_emergency",
+    "cluster_contribution": ["massive_hemoptysis_cluster", "tb_cluster", "malignancy_cluster", "bronchiectasis_cluster"],
+    "yhct_clinical_note": "Phế lạc đại xuất huyết — Phế nhiệt hoặc Can hỏa phạm Phế, lạc mạch bị tổn thương nặng; hoặc Phế âm hư cực trọng; CẤP CỨU",
+    "yhhd_clinical_note": "Massive hemoptysis: protect airway (affected side down), bronchoscopy, CTPA, interventional radiology (bronchial artery embolization)"
+  },
+  {
+    "id": "SYM_B02_029",
+    "symptom_code": "sudden_severe_sob_chest_pain_pe",
+    "name_vi": "Khó thở nặng đột ngột + đau ngực kiểu màng phổi (nghi PE)",
+    "name_en": "Sudden severe SOB + pleuritic chest pain (suspected PE)",
+    "category": "respiratory",
+    "icd11_approximate": "BB01",
+    "severity_weight": 0.98,
+    "time_sensitivity": "acute",
+    "bat_cuong_weights": {
+      "cold": 0.1,
+      "heat": 0.3,
+      "deficiency": 0.3,
+      "excess": 0.8,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.2,
+      "heart": 0.8,
+      "spleen": 0.0,
+      "lung": 0.9,
+      "kidney": 0.1
+    },
+    "red_flag_level": "L1_emergency",
+    "cluster_contribution": ["pe_cluster", "dvt_pe_cluster"],
+    "yhct_clinical_note": "Huyết ứ tắc Phế lạc — huyết ứ cấp tính tắc Phế mạch, khí nghịch bạo phát; CẤP CỨU huyết khối",
+    "yhhd_clinical_note": "PE until proven otherwise. Wells score, D-dimer. If high probability: CTPA STAT. Anticoagulate without delay if likely. PESI score"
+  },
+  {
+    "id": "SYM_B02_030",
+    "symptom_code": "acute_severe_wheeze",
+    "name_vi": "Khò khè nặng cấp / cơn hen nặng",
+    "name_en": "Acute severe wheeze / severe asthma attack",
+    "category": "respiratory",
+    "icd11_approximate": "CA23",
+    "severity_weight": 0.95,
+    "time_sensitivity": "acute",
+    "bat_cuong_weights": {
+      "cold": 0.3,
+      "heat": 0.5,
+      "deficiency": 0.3,
+      "excess": 0.8,
+      "exterior": 0.2,
+      "interior": 0.8
+    },
+    "zangfu_weights": {
+      "liver": 0.2,
+      "heart": 0.2,
+      "spleen": 0.4,
+      "lung": 1.0,
+      "kidney": 0.3
+    },
+    "red_flag_level": "L1_emergency",
+    "cluster_contribution": ["severe_asthma_cluster", "status_asthmaticus_cluster"],
+    "yhct_clinical_note": "Phong hàn hoặc Phong nhiệt phạm Phế cấp — Đàm nhiệt tắc nghẽn Phế quản; Phế khí nghịch cực trọng; CẤP CỨU",
+    "yhhd_clinical_note": "Acute severe / life-threatening asthma. SABA nebulisation, IV magnesium, systemic steroids. SpO2, PEFR. ICU if silent chest, cyanosis, exhaustion"
+  },
+  {
+    "id": "SYM_B02_031",
+    "symptom_code": "pink_frothy_sputum",
+    "name_vi": "Ho ra đờm bọt hồng (dấu hiệu phù phổi cấp)",
+    "name_en": "Pink frothy sputum (acute pulmonary edema)",
+    "category": "cardiac",
+    "icd11_approximate": "BB21",
+    "severity_weight": 1.0,
+    "time_sensitivity": "acute",
+    "bat_cuong_weights": {
+      "cold": 0.2,
+      "heat": 0.3,
+      "deficiency": 0.7,
+      "excess": 0.7,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.1,
+      "heart": 1.0,
+      "spleen": 0.4,
+      "lung": 0.9,
+      "kidney": 0.5
+    },
+    "red_flag_level": "L1_emergency",
+    "cluster_contribution": ["acute_pulmonary_edema_cluster", "acute_hf_cluster"],
+    "yhct_clinical_note": "Tâm dương bạo thoát — dương hư thủy ẩm tràn lên Phế cấp; Tâm thận dương hư cực trọng gây thủy khí lăng Tâm; CẤP CỨU",
+    "yhhd_clinical_note": "Acute pulmonary oedema. IV furosemide, GTN (if SBP >90), O2, morphine, CPAP/NIV. Identify and treat precipitant (ACS, hypertensive crisis)"
+  },
+  {
+    "id": "SYM_B02_032",
+    "symptom_code": "central_cyanosis",
+    "name_vi": "Tím tái trung ương (môi, lưỡi tím)",
+    "name_en": "Central cyanosis",
+    "category": "respiratory",
+    "icd11_approximate": "MB23",
+    "severity_weight": 0.97,
+    "time_sensitivity": "acute",
+    "bat_cuong_weights": {
+      "cold": 0.4,
+      "heat": 0.2,
+      "deficiency": 0.7,
+      "excess": 0.5,
+      "exterior": 0.1,
+      "interior": 0.9
+    },
+    "zangfu_weights": {
+      "liver": 0.1,
+      "heart": 0.9,
+      "spleen": 0.1,
+      "lung": 0.9,
+      "kidney": 0.4
+    },
+    "red_flag_level": "L1_emergency",
+    "cluster_contribution": ["respiratory_failure_cluster", "cardiac_failure_cluster", "congenital_heart_cluster"],
+    "yhct_clinical_note": "Khí huyết lưỡng hư cực trọng — huyết không vận hành, Phế thận không nạp khí; Tâm dương hư bạo thoát; CẤP CỨU oxygen",
+    "yhhd_clinical_note": "SaO2 <85%. Immediate high-flow O2. ABG, CXR, ECG. DDx: severe respiratory failure, R→L shunt, methaemoglobinaemia"
+  },
+  {
+    "id": "SYM_B02_033",
+    "symptom_code": "bilateral_pitting_ankle_edema",
+    "name_vi": "Phù 2 chân (phù mềm, ấn lõm)",
+    "name_en": "Bilateral pitting ankle edema",
+    "category": "cardiac",
+    "icd11_approximate": "ME11",
+    "severity_weight": 0.65,
+    "time_sensitivity": "urgent",
+    "bat_cuong_weights": {
+      "cold": 0.4,
+      "heat": 0.1,
+      "deficiency": 0.8,
+      "excess": 0.4,
+      "exterior": 0.1,
+      "interior": 0.9
+    },
+    "zangfu_weights": {
+      "liver": 0.2,
+      "heart": 0.7,
+      "spleen": 0.7,
+      "lung": 0.3,
+      "kidney": 0.8
+    },
+    "red_flag_level": "L2_urgent",
+    "cluster_contribution": ["right_hf_cluster", "venous_insufficiency_cluster", "hypoalbuminemia_cluster", "renal_cluster"],
+    "yhct_clinical_note": "Tỳ Thận dương hư — dương hư không vận hóa thủy thấp, thủy thấp ứ đọng tại chi dưới; Tâm dương hư gây thủy không khí hóa",
+    "yhhd_clinical_note": "Bilateral: think systemic causes. BNP, echo (RHF), albumin, urine protein, TFT, LFT. Drug-induced (CCB, steroids)"
+  },
+  {
+    "id": "SYM_B02_034",
+    "symptom_code": "unilateral_leg_edema",
+    "name_vi": "Phù một chân (bắp chân đỏ, nóng, đau hoặc không đau)",
+    "name_en": "Unilateral leg edema",
+    "category": "vascular",
+    "icd11_approximate": "BD71",
+    "severity_weight": 0.80,
+    "time_sensitivity": "urgent",
+    "bat_cuong_weights": {
+      "cold": 0.3,
+      "heat": 0.5,
+      "deficiency": 0.2,
+      "excess": 0.7,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.6,
+      "heart": 0.3,
+      "spleen": 0.4,
+      "lung": 0.1,
+      "kidney": 0.2
+    },
+    "red_flag_level": "L2_urgent",
+    "cluster_contribution": ["dvt_cluster", "cellulitis_cluster", "lymphedema_cluster"],
+    "yhct_clinical_note": "Huyết ứ hoặc Thấp nhiệt hạ chú — huyết ứ tắc kinh lạc chi dưới; Thấp nhiệt gây viêm; nguy cơ huyết khối lan lên gây PE",
+    "yhhd_clinical_note": "DVT until proven otherwise. Wells DVT score, D-dimer, Doppler USS. Anticoagulate if confirmed. Cellulitis if erythema + warmth"
+  },
+  {
+    "id": "SYM_B02_035",
+    "symptom_code": "facial_morning_edema",
+    "name_vi": "Phù mặt vào buổi sáng (phù mí mắt, mặt sưng húp)",
+    "name_en": "Facial / periorbital morning edema",
+    "category": "cardiac",
+    "icd11_approximate": "ME11",
+    "severity_weight": 0.60,
+    "time_sensitivity": "routine",
+    "bat_cuong_weights": {
+      "cold": 0.5,
+      "heat": 0.2,
+      "deficiency": 0.7,
+      "excess": 0.3,
+      "exterior": 0.2,
+      "interior": 0.8
+    },
+    "zangfu_weights": {
+      "liver": 0.2,
+      "heart": 0.3,
+      "spleen": 0.6,
+      "lung": 0.4,
+      "kidney": 0.9
+    },
+    "red_flag_level": "L3_watch",
+    "cluster_contribution": ["nephrotic_cluster", "hypothyroid_cluster", "renal_failure_cluster"],
+    "yhct_clinical_note": "Thận dương hư — Thận chủ thủy bất lực, thủy tràn lên mặt; sáng sớm dương khí chưa vượng nên phù mặt; Tỳ hư thấp trở",
+    "yhhd_clinical_note": "Nephrotic syndrome (periorbital edema AM), hypothyroidism (myxedema), renal failure. Urine dipstick, albumin, TSH, creatinine"
+  },
+  {
+    "id": "SYM_B02_036",
+    "symptom_code": "ascites",
+    "name_vi": "Báng bụng / bụng phình to (dịch ổ bụng)",
+    "name_en": "Ascites",
+    "category": "cardiac",
+    "icd11_approximate": "ME11",
+    "severity_weight": 0.78,
+    "time_sensitivity": "urgent",
+    "bat_cuong_weights": {
+      "cold": 0.3,
+      "heat": 0.3,
+      "deficiency": 0.7,
+      "excess": 0.6,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.9,
+      "heart": 0.5,
+      "spleen": 0.8,
+      "lung": 0.1,
+      "kidney": 0.6
+    },
+    "red_flag_level": "L2_urgent",
+    "cluster_contribution": ["right_hf_cluster", "cirrhosis_cluster", "malignancy_cluster", "constrictive_pericarditis_cluster"],
+    "yhct_clinical_note": "Cổ trướng — Can Tỳ bất hòa, Tỳ hư thấp trở, Tâm thận dương hư; huyết ứ và thủy thấp tích tụ gây bụng phình; tiên lượng nặng",
+    "yhhd_clinical_note": "Ascites workup: SAAG (≥1.1 = portal HTN), diagnostic paracentesis. Cardiac: constrictive pericarditis, right HF. LFTs, echo"
+  },
+  {
+    "id": "SYM_B02_037",
+    "symptom_code": "claudication",
+    "name_vi": "Đau bắp chân khi đi bộ, nghỉ thì hết (đau cách hồi)",
+    "name_en": "Intermittent claudication",
+    "category": "vascular",
+    "icd11_approximate": "BD10",
+    "severity_weight": 0.70,
+    "time_sensitivity": "routine",
+    "bat_cuong_weights": {
+      "cold": 0.6,
+      "heat": 0.1,
+      "deficiency": 0.5,
+      "excess": 0.5,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.4,
+      "heart": 0.5,
+      "spleen": 0.2,
+      "lung": 0.1,
+      "kidney": 0.5
+    },
+    "red_flag_level": "L3_watch",
+    "cluster_contribution": ["pad_cluster", "atherosclerosis_cluster"],
+    "yhct_clinical_note": "Huyết ứ + hàn ngưng kinh lạc chi dưới — Tâm khí hư hoặc Can huyết hư không dưỡng kinh mạch; gắng sức làm huyết ứ trầm trọng hơn",
+    "yhhd_clinical_note": "Peripheral arterial disease. ABPI (ABI <0.9 diagnostic). Atherosclerosis risk modification, supervised exercise, revascularisation if severe"
+  },
+  {
+    "id": "SYM_B02_038",
+    "symptom_code": "raynauds_phenomenon",
+    "name_vi": "Hiện tượng Raynaud — ngón tay/chân trắng → tím → đỏ khi lạnh",
+    "name_en": "Raynaud's phenomenon",
+    "category": "vascular",
+    "icd11_approximate": "BD43",
+    "severity_weight": 0.40,
+    "time_sensitivity": "routine",
+    "bat_cuong_weights": {
+      "cold": 0.9,
+      "heat": 0.0,
+      "deficiency": 0.5,
+      "excess": 0.3,
+      "exterior": 0.5,
+      "interior": 0.5
+    },
+    "zangfu_weights": {
+      "liver": 0.6,
+      "heart": 0.4,
+      "spleen": 0.2,
+      "lung": 0.1,
+      "kidney": 0.4
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["raynauds_cluster", "connective_tissue_disease_cluster", "scleroderma_cluster"],
+    "yhct_clinical_note": "Hàn ngưng Can lạc — Can chủ sơ tiết kinh mạch, hàn tà xâm nhập gây khí huyết ngưng trệ; Dương hư hàn thịnh tại chi; ANA nếu thứ phát",
+    "yhhd_clinical_note": "Primary vs secondary (SLE, SSc, MCTD). ANA, anti-Scl70, anti-centromere. Nifedipine, avoid cold. Iloprost if severe/digital ulcers"
+  },
+  {
+    "id": "SYM_B02_039",
+    "symptom_code": "varicose_vein_pain",
+    "name_vi": "Đau/nặng chân do giãn tĩnh mạch",
+    "name_en": "Varicose vein pain / aching",
+    "category": "vascular",
+    "icd11_approximate": "BD70",
+    "severity_weight": 0.25,
+    "time_sensitivity": "routine",
+    "bat_cuong_weights": {
+      "cold": 0.2,
+      "heat": 0.3,
+      "deficiency": 0.5,
+      "excess": 0.4,
+      "exterior": 0.0,
+      "interior": 0.9
+    },
+    "zangfu_weights": {
+      "liver": 0.6,
+      "heart": 0.3,
+      "spleen": 0.5,
+      "lung": 0.0,
+      "kidney": 0.3
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["venous_insufficiency_cluster", "varicose_cluster"],
+    "yhct_clinical_note": "Tỳ hư khí hãm — Tỳ không thống huyết, khí hư hạ hãm gây huyết không vận hành; Can khí uất kết làm huyết ứ kinh lạc chi dưới",
+    "yhhd_clinical_note": "Chronic venous insufficiency. Duplex USS. Compression stockings, elevation. Sclerotherapy / EVLA if symptomatic. Watch for DVT / skin changes"
+  },
+  {
+    "id": "SYM_B02_040",
+    "symptom_code": "thrombophlebitis",
+    "name_vi": "Viêm tĩnh mạch huyết khối nông (dọc tĩnh mạch đỏ, đau, cứng)",
+    "name_en": "Superficial thrombophlebitis",
+    "category": "vascular",
+    "icd11_approximate": "BD72",
+    "severity_weight": 0.60,
+    "time_sensitivity": "urgent",
+    "bat_cuong_weights": {
+      "cold": 0.1,
+      "heat": 0.7,
+      "deficiency": 0.2,
+      "excess": 0.7,
+      "exterior": 0.1,
+      "interior": 0.9
+    },
+    "zangfu_weights": {
+      "liver": 0.7,
+      "heart": 0.3,
+      "spleen": 0.3,
+      "lung": 0.0,
+      "kidney": 0.2
+    },
+    "red_flag_level": "L2_urgent",
+    "cluster_contribution": ["thrombophlebitis_cluster", "dvt_cluster", "hypercoagulable_cluster"],
+    "yhct_clinical_note": "Thấp nhiệt huyết ứ kinh lạc — nhiệt tà và thấp tà làm huyết ứ tại lạc mạch nông; Can khí uất kết thúc đẩy huyết ứ; cần loại trừ huyết khối sâu",
+    "yhhd_clinical_note": "SVT: NSAIDs topically, compression. Doppler USS to exclude concomitant DVT (20% risk). Thrombophilia screen if recurrent / unprovoked"
+  }
+]

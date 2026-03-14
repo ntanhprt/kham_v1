@@ -1,0 +1,982 @@
+[
+  {
+    "pattern_id": "PAT_B03_001",
+    "chung_code": "spleen_qi_deficiency",
+    "name_vi": "Tỳ khí hư",
+    "name_en": "Spleen Qi Deficiency",
+    "zangfu_primary": "spleen",
+    "pathogenesis_code": "spleen_qi_deficiency",
+    "bat_cuong_summary": {
+      "dominant": ["interior", "deficiency"],
+      "secondary": ["cold"],
+      "absent": ["exterior", "heat"]
+    },
+    "diagnostic_criteria": {
+      "required": ["fatigue_post_meal", "digestive_weakness_loose_stool_or_poor_appetite"],
+      "two_or_more_of": ["abdominal_distension_post_meal", "pale_complexion", "heavy_limbs", "muscle_weakness", "easy_bruising"],
+      "tongue": "Nhạt, bệu, rìa có vết răng, rêu trắng mỏng",
+      "pulse": "Nhược, hoãn (yếu, chậm mềm)"
+    },
+    "key_distinguishing_features": "Tam chứng: mệt sau ăn + bụng đầy sau ăn + đại tiện lỏng/sệt. Lưỡi nhạt bệu có vết răng. Không có biểu hiện lạnh rõ ràng.",
+    "differential_diagnosis": [
+      {
+        "pattern_code": "spleen_yang_deficiency",
+        "distinguishing_feature": "Tỳ dương hư: thêm lạnh bụng rõ, tứ chi lạnh, ăn đồ lạnh nặng hơn, cải thiện với chườm ấm; Tỳ khí hư: yếu nhưng không lạnh"
+      },
+      {
+        "pattern_code": "phlegm_damp_encumbering_spleen",
+        "distinguishing_feature": "Đàm thấp khốn Tỳ: nặng nề rõ hơn, buồn nôn, miệng nhạt, đầu nặng, rêu lưỡi dày trắng nhờn; Tỳ khí hư: rêu mỏng hơn, không nhờn"
+      },
+      {
+        "pattern_code": "spleen_yin_deficiency",
+        "distinguishing_feature": "Tỳ âm hư: miệng khô, đói nhưng không muốn ăn, lưỡi đỏ ít rêu hoặc không rêu, mạch tế sác; Tỳ khí hư: lưỡi nhạt, không khô miệng"
+      }
+    ],
+    "phap_tri": {
+      "principle_vi": "Kiện Tỳ ích khí",
+      "principle_en": "Fortify Spleen, Supplement Qi",
+      "primary_formula": "Tứ Quân Tử Thang (Si Jun Zi Tang)",
+      "alternative_formulas": ["Bổ Trung Ích Khí Thang (kèm khí hãm/sa tạng)", "Sâm Linh Bạch Truật Tán (kèm thấp, tiêu chảy)"],
+      "key_herbs": ["Đảng sâm 12-16g", "Bạch truật 12g", "Phục linh 12g", "Cam thảo chích 6g"],
+      "acupuncture_points": ["Túc Tam Lý ST36", "Tỳ Du BL20", "Vị Du BL21", "Trung Quản CV12", "Tam Âm Giao SP6", "Chương Môn LV13"],
+      "lifestyle_advice": "Ăn đúng giờ, tránh đồ lạnh sống, nhai kỹ, không ăn quá no, nghỉ ngơi sau ăn, tránh lo lắng thái quá"
+    },
+    "yhhd_correlations": ["IBS-D", "Functional dyspepsia", "Chronic fatigue syndrome", "Anemia mild", "Malabsorption"],
+    "safety_notes": null,
+    "follow_up_timing": "4 tuần",
+    "red_flag_override": null,
+    "prevalence_vietnam": "very_common",
+    "common_demographics": "Tất cả lứa tuổi, đặc biệt người ăn uống thất thường, stress mạn tính, phụ nữ sau sinh, người cao tuổi"
+  },
+  {
+    "pattern_id": "PAT_B03_002",
+    "chung_code": "spleen_yang_deficiency",
+    "name_vi": "Tỳ dương hư",
+    "name_en": "Spleen Yang Deficiency",
+    "zangfu_primary": "spleen",
+    "pathogenesis_code": "spleen_yang_deficiency",
+    "bat_cuong_summary": {
+      "dominant": ["interior", "deficiency", "cold"],
+      "secondary": [],
+      "absent": ["exterior", "heat", "excess"]
+    },
+    "diagnostic_criteria": {
+      "required": ["cold_abdominal_pain_relieved_by_warmth", "loose_stool_or_diarrhea_with_undigested_food"],
+      "two_or_more_of": ["cold_limbs", "pale_face", "prefer_warm_food_drinks", "edema_lower_extremities", "fatigue", "reduced_urine_clear_copious"],
+      "tongue": "Nhạt trắng bệu, rêu trắng trơn ẩm, có thể có vết răng",
+      "pulse": "Trầm trì nhược (trầm, chậm, yếu)"
+    },
+    "key_distinguishing_features": "Tứ chứng: đau bụng lạnh + tiêu chảy lỏng có thức ăn chưa tiêu + tứ chi lạnh + chườm ấm dễ chịu. Phân biệt với Tỳ khí hư bởi yếu tố lạnh chiếm ưu thế.",
+    "differential_diagnosis": [
+      {
+        "pattern_code": "spleen_qi_deficiency",
+        "distinguishing_feature": "Tỳ khí hư: không có lạnh bụng rõ, tứ chi không lạnh, mạch nhược hoãn không trầm trì; Tỳ dương hư: lạnh rõ, thích ấm"
+      },
+      {
+        "pattern_code": "spleen_kidney_yang_deficiency",
+        "distinguishing_feature": "Tỳ Thận dương hư: thêm đau lưng lạnh, tiêu chảy sáng sớm (ngũ canh tả), di tinh/liệt dương, sợ lạnh toàn thân nặng hơn; Tỳ dương hư: chủ yếu triệu chứng tiêu hóa"
+      },
+      {
+        "pattern_code": "cold_stomach",
+        "distinguishing_feature": "Vị hàn: đau chủ yếu vùng thượng vị, nôn nước trong, ít ảnh hưởng đại tiện; Tỳ dương hư: đại tiện lỏng nổi bật, phù nề"
+      }
+    ],
+    "phap_tri": {
+      "principle_vi": "Ôn trung kiện Tỳ, tán hàn chỉ tả",
+      "principle_en": "Warm the Middle, Fortify Spleen, Scatter Cold, Stop Diarrhea",
+      "primary_formula": "Lý Trung Thang (Li Zhong Tang) / Phụ Tử Lý Trung Thang",
+      "alternative_formulas": ["Thực Tỳ Ẩm (kèm phù thũng)", "Hương Sa Lục Quân Tử Thang (kèm khí trệ)"],
+      "key_herbs": ["Phụ tử chế 6-12g", "Can khương 6-9g", "Đảng sâm 12g", "Bạch truật 12g", "Cam thảo chích 6g"],
+      "acupuncture_points": ["Quan Nguyên CV4", "Khí Hải CV6", "Trung Quản CV12", "Túc Tam Lý ST36", "Tỳ Du BL20", "Thận Du BL23 (ôn cứu)"],
+      "lifestyle_advice": "Tuyệt đối tránh đồ lạnh sống, uống nước ấm, mặc ấm vùng bụng, cứu ngải hàng ngày vùng bụng dưới"
+    },
+    "yhhd_correlations": ["IBS-D", "Chronic diarrhea", "Hypothyroidism", "Chronic gastroenteritis", "Celiac disease"],
+    "safety_notes": "Thận trọng khi dùng Phụ tử: kiểm tra liều, sắc trước 30-60 phút, không dùng khi có âm hư",
+    "follow_up_timing": "4-6 tuần",
+    "red_flag_override": null,
+    "prevalence_vietnam": "common",
+    "common_demographics": "Người cao tuổi, người ăn nhiều đồ lạnh mạn tính, sau điều trị kháng sinh dài ngày, vùng khí hậu lạnh"
+  },
+  {
+    "pattern_id": "PAT_B03_003",
+    "chung_code": "spleen_yin_deficiency",
+    "name_vi": "Tỳ âm hư",
+    "name_en": "Spleen Yin Deficiency",
+    "zangfu_primary": "spleen",
+    "pathogenesis_code": "spleen_yin_deficiency",
+    "bat_cuong_summary": {
+      "dominant": ["interior", "deficiency", "heat"],
+      "secondary": [],
+      "absent": ["exterior", "cold", "excess"]
+    },
+    "diagnostic_criteria": {
+      "required": ["dry_mouth_no_desire_to_drink_much", "hunger_without_desire_to_eat"],
+      "two_or_more_of": ["dry_lips", "constipation_dry_stool_or_loose_stool_without_form", "low_grade_afternoon_fever", "weight_loss", "fatigue", "muscle_wasting"],
+      "tongue": "Đỏ nhạt hoặc đỏ, ít rêu hoặc không rêu, khô, có thể có vết nứt",
+      "pulse": "Tế sác hoặc tế nhược (nhỏ nhanh hoặc nhỏ yếu)"
+    },
+    "key_distinguishing_features": "Đói nhưng không muốn ăn + miệng khô môi khô + lưỡi đỏ ít rêu khô. Phân biệt với Tỳ khí hư bởi đặc điểm âm hư sinh nhiệt.",
+    "differential_diagnosis": [
+      {
+        "pattern_code": "spleen_qi_deficiency",
+        "distinguishing_feature": "Tỳ khí hư: lưỡi nhạt có rêu, miệng không khô, không có triệu chứng nhiệt; Tỳ âm hư: lưỡi đỏ khô, miệng khô, đói không muốn ăn"
+      },
+      {
+        "pattern_code": "stomach_yin_deficiency",
+        "distinguishing_feature": "Vị âm hư: triệu chứng tập trung vùng thượng vị, nóng rát thượng vị, đói nhiều; Tỳ âm hư: tiêu hóa kém nổi bật hơn, gầy yếu cơ"
+      },
+      {
+        "pattern_code": "damp_heat_spleen",
+        "distinguishing_feature": "Thấp nhiệt Tỳ: rêu lưỡi vàng dày nhờn, miệng đắng, đại tiện phân sệt hôi; Tỳ âm hư: rêu ít khô, không nhờn"
+      }
+    ],
+    "phap_tri": {
+      "principle_vi": "Tư dưỡng Tỳ âm, kiện Tỳ hòa Vị",
+      "principle_en": "Nourish Spleen Yin, Fortify Spleen, Harmonize Stomach",
+      "primary_formula": "Sâm Linh Bạch Truật Tán gia giảm / Ích Vị Thang",
+      "alternative_formulas": ["Sa Sâm Mạch Đông Thang (kèm Vị âm hư)", "Nhất Quán Tiễn gia giảm (kèm Can âm hư)"],
+      "key_herbs": ["Sa sâm 12g", "Mạch môn 12g", "Hoài sơn 15g", "Liên nhục 12g", "Bạch truật 9g", "Biển đậu 12g", "Ngọc trúc 12g"],
+      "acupuncture_points": ["Tam Âm Giao SP6", "Túc Tam Lý ST36", "Tỳ Du BL20", "Vị Du BL21", "Trung Quản CV12", "Thái Khê KI3"],
+      "lifestyle_advice": "Ăn thức ăn mềm dễ tiêu, tránh cay nóng, bổ sung thực phẩm dưỡng âm (củ mài, hạt sen), ăn ít nhiều bữa"
+    },
+    "yhhd_correlations": ["Chronic atrophic gastritis", "Malnutrition", "Post-chemotherapy digestive impairment", "Diabetes mellitus type 2 (Tỳ âm hư thể)"],
+    "safety_notes": "Tránh dùng thuốc táo nhiệt; các vị bổ âm thường nê trệ — cần phối hợp kiện Tỳ lý khí",
+    "follow_up_timing": "6-8 tuần",
+    "red_flag_override": null,
+    "prevalence_vietnam": "uncommon",
+    "common_demographics": "Người sau bệnh nặng, người cao tuổi, bệnh nhân sau hóa trị xạ trị, trẻ em suy dinh dưỡng"
+  },
+  {
+    "pattern_id": "PAT_B03_004",
+    "chung_code": "spleen_failing_control_blood",
+    "name_vi": "Tỳ không thống huyết",
+    "name_en": "Spleen Failing to Control Blood",
+    "zangfu_primary": "spleen",
+    "pathogenesis_code": "spleen_failing_control_blood",
+    "bat_cuong_summary": {
+      "dominant": ["interior", "deficiency"],
+      "secondary": ["cold"],
+      "absent": ["exterior", "heat", "excess"]
+    },
+    "diagnostic_criteria": {
+      "required": ["chronic_bleeding_tendency_without_heat_signs", "spleen_qi_deficiency_background"],
+      "two_or_more_of": ["purpura_easy_bruising", "menorrhagia_or_metrorrhagia", "hematuria_chronic_pale", "melena_blood_in_stool_dark", "epistaxis_recurrent_pale_blood", "fatigue_pale_face"],
+      "tongue": "Nhạt, bệu, rêu trắng mỏng",
+      "pulse": "Tế nhược hoặc trầm nhược (nhỏ yếu hoặc trầm yếu)"
+    },
+    "key_distinguishing_features": "Chảy máu mạn tính màu nhạt/tối + nền Tỳ khí hư rõ + không có nhiệt chứng. Tỳ không thống huyết = khí hư không nhiếp huyết.",
+    "differential_diagnosis": [
+      {
+        "pattern_code": "blood_heat_bleeding",
+        "distinguishing_feature": "Huyết nhiệt xuất huyết: máu đỏ tươi, sốt hoặc cảm giác nóng, miệng khô, lưỡi đỏ rêu vàng; Tỳ không thống huyết: máu nhạt tối, lạnh, lưỡi nhạt"
+      },
+      {
+        "pattern_code": "blood_stasis_bleeding",
+        "distinguishing_feature": "Huyết ứ gây xuất huyết: máu có cục đen, đau cố định, lưỡi tím ứ; Tỳ không thống huyết: không đau, không ứ"
+      },
+      {
+        "pattern_code": "kidney_deficiency_bleeding",
+        "distinguishing_feature": "Thận hư xuất huyết: kèm đau lưng mỏi gối, tai ù, mạch trầm tế; Tỳ không thống huyết: chủ yếu triệu chứng tiêu hóa"
+      }
+    ],
+    "phap_tri": {
+      "principle_vi": "Kiện Tỳ ích khí, nhiếp huyết chỉ huyết",
+      "principle_en": "Fortify Spleen, Boost Qi, Astringe Blood, Stop Bleeding",
+      "primary_formula": "Quy Tỳ Thang (Gui Pi Tang)",
+      "alternative_formulas": ["Bổ Trung Ích Khí Thang (nặng về khí hãm)", "Hoàng Thổ Thang (tiêu huyết/tiện huyết hàn)"],
+      "key_herbs": ["Đảng sâm 12g", "Hoàng kỳ 15-20g", "Bạch truật 12g", "Long nhãn 12g", "Toan táo nhân 12g", "Mộc hương 6g", "Cam thảo chích 6g", "Đương quy 9g"],
+      "acupuncture_points": ["Tỳ Du BL20", "Túc Tam Lý ST36", "Tam Âm Giao SP6", "Huyết Hải SP10", "Khí Hải CV6", "Ẩn Bạch SP1 (cứu)"],
+      "lifestyle_advice": "Tránh vận động mạnh, ăn thực phẩm bổ huyết (thịt nạc, gan, táo đỏ, long nhãn), nghỉ ngơi đủ giấc"
+    },
+    "yhhd_correlations": ["ITP (Idiopathic thrombocytopenic purpura)", "Dysfunctional uterine bleeding", "Anemia iron deficiency", "Gastrointestinal bleeding chronic low-grade"],
+    "safety_notes": "Cần loại trừ bệnh ác tính (ung thư đại trực tràng, bệnh máu ác tính) trước khi điều trị YHCT",
+    "follow_up_timing": "4-6 tuần, theo dõi CBC",
+    "red_flag_override": "Xuất huyết cấp nhiều — chuyển cấp cứu Tây y ngay",
+    "prevalence_vietnam": "common",
+    "common_demographics": "Phụ nữ tuổi sinh sản (rong kinh), người cao tuổi, bệnh nhân mạn tính dùng thuốc chống đông"
+  },
+  {
+    "pattern_id": "PAT_B03_005",
+    "chung_code": "phlegm_damp_encumbering_spleen",
+    "name_vi": "Đàm thấp khốn Tỳ",
+    "name_en": "Phlegm-Damp Encumbering Spleen",
+    "zangfu_primary": "spleen",
+    "pathogenesis_code": "phlegm_damp_encumbering_spleen",
+    "bat_cuong_summary": {
+      "dominant": ["interior", "excess"],
+      "secondary": ["cold", "deficiency"],
+      "absent": ["exterior", "heat"]
+    },
+    "diagnostic_criteria": {
+      "required": ["heavy_sensation_body_limbs", "nausea_or_vomiting_mucus", "poor_appetite_with_epigastric_fullness"],
+      "two_or_more_of": ["loose_stool", "head_heavy_foggy", "chest_oppression", "white_profuse_vaginal_discharge", "obesity_or_overweight", "facial_puffiness"],
+      "tongue": "Nhạt hoặc bệu, rêu trắng dày nhờn trơn",
+      "pulse": "Hoạt hoặc nhu hoãn (trơn hoặc mềm chậm)"
+    },
+    "key_distinguishing_features": "Tứ chứng: đầu nặng + người nặng nề + buồn nôn/nôn đàm + rêu lưỡi trắng dày nhờn. Tỳ hư sinh đàm thấp — hư thực lẫn lộn.",
+    "differential_diagnosis": [
+      {
+        "pattern_code": "damp_heat_spleen",
+        "distinguishing_feature": "Thấp nhiệt Tỳ: rêu vàng nhờn, miệng đắng, sốt hoặc nóng bứt rứt, đại tiện hôi sệt; Đàm thấp khốn Tỳ: rêu trắng nhờn, không nóng, không đắng miệng"
+      },
+      {
+        "pattern_code": "spleen_qi_deficiency",
+        "distinguishing_feature": "Tỳ khí hư: không có biểu hiện đàm thấp nặng, rêu mỏng, người không nặng nề; Đàm thấp khốn Tỳ: rêu dày nhờn, nặng nề rõ"
+      },
+      {
+        "pattern_code": "liver_qi_stagnation",
+        "distinguishing_feature": "Can khí uất: chủ yếu cảm xúc kích thích triệu chứng, đau mạng sườn, ợ chua, mạch huyền; Đàm thấp: không liên quan cảm xúc, mạch hoạt nhu"
+      }
+    ],
+    "phap_tri": {
+      "principle_vi": "Kiện Tỳ táo thấp, hóa đàm hành khí",
+      "principle_en": "Fortify Spleen, Dry Dampness, Transform Phlegm, Move Qi",
+      "primary_formula": "Bình Vị Tán hợp Nhị Trần Thang (Ping Wei San + Er Chen Tang)",
+      "alternative_formulas": ["Hương Sa Lục Quân Tử Thang (nặng về khí hư)", "Ôn Đởm Thang (kèm lo lắng mất ngủ)"],
+      "key_herbs": ["Thương truật 9-12g", "Hậu phác 9g", "Trần bì 9g", "Bán hạ chế 9g", "Phục linh 12g", "Cam thảo 6g", "Sa nhân 6g"],
+      "acupuncture_points": ["Trung Quản CV12", "Túc Tam Lý ST36", "Phong Long ST40", "Âm Lăng Tuyền SP9", "Tỳ Du BL20", "Tam Âm Giao SP6"],
+      "lifestyle_advice": "Hạn chế thức ăn béo ngọt dầu mỡ, tránh bia rượu, vận động đều đặn, không ăn quá muộn"
+    },
+    "yhhd_correlations": ["Obesity", "Metabolic syndrome", "NAFLD", "Hyperlipidemia", "PCOS", "IBS"],
+    "safety_notes": "Táo thấp quá mức có thể tổn thương âm — cần cân bằng khi có âm hư kèm theo",
+    "follow_up_timing": "4-6 tuần",
+    "red_flag_override": null,
+    "prevalence_vietnam": "very_common",
+    "common_demographics": "Người trung niên thừa cân, người ít vận động, người ăn nhiều đường béo, phụ nữ PCOS"
+  },
+  {
+    "pattern_id": "PAT_B03_006",
+    "chung_code": "damp_heat_spleen",
+    "name_vi": "Thấp nhiệt uẩn Tỳ",
+    "name_en": "Damp-Heat Accumulating in Spleen",
+    "zangfu_primary": "spleen",
+    "pathogenesis_code": "damp_heat_spleen",
+    "bat_cuong_summary": {
+      "dominant": ["interior", "excess", "heat"],
+      "secondary": ["damp"],
+      "absent": ["exterior", "cold", "deficiency"]
+    },
+    "diagnostic_criteria": {
+      "required": ["epigastric_fullness_nausea", "yellow_greasy_tongue_coat"],
+      "two_or_more_of": ["bitter_taste_mouth", "loose_sticky_malodorous_stool", "scanty_dark_urine", "jaundice_mild", "fever_low_grade_or_heavy_hot_sensation", "thirst_without_desire_drink"],
+      "tongue": "Đỏ hoặc nhạt đỏ, rêu vàng dày nhờn",
+      "pulse": "Hoạt sác hoặc nhu sác (trơn nhanh hoặc mềm nhanh)"
+    },
+    "key_distinguishing_features": "Rêu lưỡi vàng nhờn là chủ chứng + miệng đắng/nhạt + bụng đầy buồn nôn + đại tiện sệt hôi. Thấp nặng hơn hay nhiệt nặng hơn cần phân biệt để điều trị.",
+    "differential_diagnosis": [
+      {
+        "pattern_code": "phlegm_damp_encumbering_spleen",
+        "distinguishing_feature": "Đàm thấp khốn Tỳ: rêu trắng nhờn, không nóng, không đắng miệng, tiểu bình thường; Thấp nhiệt: rêu vàng, miệng đắng, tiểu vàng sậm"
+      },
+      {
+        "pattern_code": "large_intestine_damp_heat",
+        "distinguishing_feature": "Đại trường thấp nhiệt: triệu chứng chính là tiêu chảy cấp, đau bụng quặn, có thể có máu/nhầy trong phân; Thấp nhiệt Tỳ: tiêu hóa toàn diện hơn, có thể vàng da"
+      },
+      {
+        "pattern_code": "liver_gallbladder_damp_heat",
+        "distinguishing_feature": "Can Đởm thấp nhiệt: vàng da rõ, đau mạng sườn phải, miệng đắng nhiều, mạch huyền sác; Tỳ thấp nhiệt: vàng da nhẹ hoặc không, đau vùng trung tiêu"
+      }
+    ],
+    "phap_tri": {
+      "principle_vi": "Thanh nhiệt lợi thấp, kiện Tỳ hòa Vị",
+      "principle_en": "Clear Heat, Resolve Dampness, Fortify Spleen, Harmonize Stomach",
+      "primary_formula": "Bình Vị Tán hợp Hoàng Liên Giải Độc Thang / Lục Nhất Tán",
+      "alternative_formulas": ["Nhân Trần Cao Thang (kèm vàng da)", "Cam Lộ Tiêu Độc Đan (thấp nhiệt nặng toàn thân)"],
+      "key_herbs": ["Hoàng liên 6-9g", "Hoàng bá 9g", "Thương truật 9g", "Hậu phác 9g", "Trần bì 6g", "Nhân trần 15-20g", "Phục linh 12g"],
+      "acupuncture_points": ["Âm Lăng Tuyền SP9", "Túc Tam Lý ST36", "Nội Đình ST44", "Trung Quản CV12", "Phong Long ST40", "Tam Âm Giao SP6"],
+      "lifestyle_advice": "Tránh thức ăn cay nóng béo ngọt, kiêng rượu bia, ăn nhạt, uống đủ nước, tránh môi trường ẩm nóng"
+    },
+    "yhhd_correlations": ["Acute gastroenteritis", "Hepatitis A/E", "Cholangitis", "Giardiasis", "Inflammatory bowel disease"],
+    "safety_notes": "Không dùng thuốc ôn táo (Phụ tử, Khương, Nhục quế); thanh nhiệt quá mức tổn thương Tỳ dương — điều chỉnh khi cải thiện",
+    "follow_up_timing": "2-4 tuần",
+    "red_flag_override": "Vàng da tăng nhanh, sốt cao, đau bụng dữ dội — chuyển nội khoa Tây y",
+    "prevalence_vietnam": "common",
+    "common_demographics": "Người trẻ trung niên, mùa hè ẩm nóng, người ăn đồ tươi sống không đảm bảo vệ sinh"
+  },
+  {
+    "pattern_id": "PAT_B03_007",
+    "chung_code": "stomach_qi_deficiency",
+    "name_vi": "Vị khí hư",
+    "name_en": "Stomach Qi Deficiency",
+    "zangfu_primary": "stomach",
+    "pathogenesis_code": "stomach_qi_deficiency",
+    "bat_cuong_summary": {
+      "dominant": ["interior", "deficiency"],
+      "secondary": [],
+      "absent": ["exterior", "heat", "cold_pronounced"]
+    },
+    "diagnostic_criteria": {
+      "required": ["poor_appetite", "epigastric_discomfort_or_mild_distension"],
+      "two_or_more_of": ["nausea_mild", "belching", "fatigue", "weight_loss_mild", "bland_taste_in_mouth", "loose_stools"],
+      "tongue": "Nhạt hoặc bình thường, rêu trắng mỏng, có thể ít rêu",
+      "pulse": "Hoãn nhược hoặc hư (chậm mềm yếu)"
+    },
+    "key_distinguishing_features": "Kém ăn + bụng thượng vị khó chịu nhẹ + ợ hơi + mệt mỏi. Nhẹ hơn Tỳ khí hư vì chỉ tổn thương Vị chưa ảnh hưởng nhiều vận hóa.",
+    "differential_diagnosis": [
+      {
+        "pattern_code": "spleen_qi_deficiency",
+        "distinguishing_feature": "Tỳ khí hư: vận hóa kém rõ hơn, đại tiện lỏng nổi bật, mệt mỏi toàn thân nặng hơn; Vị khí hư: chủ yếu kém ăn và thượng vị khó chịu"
+      },
+      {
+        "pattern_code": "stomach_yin_deficiency",
+        "distinguishing_feature": "Vị âm hư: miệng khô, đói nhưng không muốn ăn nhiều, lưỡi đỏ ít rêu, mạch tế sác; Vị khí hư: không khô miệng, lưỡi nhạt, mạch nhược"
+      },
+      {
+        "pattern_code": "food_stagnation_stomach",
+        "distinguishing_feature": "Thực trệ Vị: có bữa ăn quá mức gần đây, bụng đầy cứng, ợ chua hôi, rêu dày; Vị khí hư: không có tiền sử ăn quá, mạn tính"
+      }
+    ],
+    "phap_tri": {
+      "principle_vi": "Ích khí hòa Vị, kiện Tỳ giáng nghịch",
+      "principle_en": "Boost Qi, Harmonize Stomach, Fortify Spleen, Descend Counterflow",
+      "primary_formula": "Tứ Quân Tử Thang gia Trần bì, Bán hạ / Hương Sa Lục Quân Tử Thang",
+      "alternative_formulas": ["Bổ Trung Ích Khí Thang (kèm sa tạng)", "Lục Quân Tử Thang"],
+      "key_herbs": ["Đảng sâm 12g", "Bạch truật 12g", "Phục linh 12g", "Trần bì 9g", "Bán hạ chế 9g", "Sa nhân 6g", "Cam thảo chích 6g"],
+      "acupuncture_points": ["Túc Tam Lý ST36", "Trung Quản CV12", "Vị Du BL21", "Tỳ Du BL20", "Nội Quan PC6", "Công Tôn SP4"],
+      "lifestyle_advice": "Ăn nhỏ giọt nhiều bữa, thức ăn ấm mềm, tránh ăn vội, không bỏ bữa, hạn chế stress"
+    },
+    "yhhd_correlations": ["Functional dyspepsia", "Gastroparesis mild", "Post-gastrectomy syndrome", "Chemotherapy-induced nausea"],
+    "safety_notes": null,
+    "follow_up_timing": "4 tuần",
+    "red_flag_override": null,
+    "prevalence_vietnam": "common",
+    "common_demographics": "Người ăn uống không điều độ, nhân viên văn phòng, người cao tuổi, sau bệnh nặng hoặc phẫu thuật"
+  },
+  {
+    "pattern_id": "PAT_B03_008",
+    "chung_code": "stomach_heat",
+    "name_vi": "Vị nhiệt",
+    "name_en": "Stomach Heat",
+    "zangfu_primary": "stomach",
+    "pathogenesis_code": "stomach_heat_excess",
+    "bat_cuong_summary": {
+      "dominant": ["interior", "excess", "heat"],
+      "secondary": [],
+      "absent": ["exterior", "cold", "deficiency"]
+    },
+    "diagnostic_criteria": {
+      "required": ["burning_epigastric_pain_or_discomfort", "thirst_for_cold_drinks"],
+      "two_or_more_of": ["excessive_hunger", "bad_breath_halitosis", "bleeding_gums", "mouth_ulcers", "nausea_vomiting", "constipation_dry_stool", "fever_or_flushed_face"],
+      "tongue": "Đỏ, rêu vàng dày khô, có thể nứt vùng trung tâm",
+      "pulse": "Hồng sác hoặc hoạt sác (hồng to nhanh hoặc trơn nhanh)"
+    },
+    "key_distinguishing_features": "Đau rát thượng vị + khát nước muốn uống lạnh + hơi thở hôi + lưỡi đỏ rêu vàng. Phân biệt Vị nhiệt thực với Vị âm hư sinh nhiệt.",
+    "differential_diagnosis": [
+      {
+        "pattern_code": "stomach_yin_deficiency",
+        "distinguishing_feature": "Vị âm hư: nhiệt hư không mạnh, đói nhưng ít ăn, lưỡi đỏ ít rêu, không có rêu dày vàng, mạch tế sác; Vị nhiệt thực: nhiệt mạnh, khát nhiều, rêu vàng dày"
+      },
+      {
+        "pattern_code": "liver_fire_invading_stomach",
+        "distinguishing_feature": "Can hỏa phạm Vị: kèm căng thẳng cảm xúc kích thích, đau mạng sườn, ợ chua nhiều, mạch huyền sác; Vị nhiệt: ít liên quan cảm xúc, chủ yếu do ăn uống"
+      },
+      {
+        "pattern_code": "damp_heat_spleen",
+        "distinguishing_feature": "Thấp nhiệt Tỳ: rêu nhờn nổi bật, thấp nặng hơn nhiệt, buồn nôn nổi bật; Vị nhiệt: rêu khô hơn, nhiệt nổi bật, khát nước nhiều"
+      }
+    ],
+    "phap_tri": {
+      "principle_vi": "Thanh Vị tả hỏa, hòa Vị chỉ thống",
+      "principle_en": "Clear Stomach, Drain Fire, Harmonize Stomach, Stop Pain",
+      "primary_formula": "Thanh Vị Tán (Qing Wei San) / Ngọc Nữ Tiễn",
+      "alternative_formulas": ["Tả Tâm Thang (kèm nhiệt độc nặng, loét)", "Đại Hoàng Hoàng Liên Tả Tâm Thang (táo bón nhiệt kết)"],
+      "key_herbs": ["Hoàng liên 6-9g", "Sinh địa 12-15g", "Đan bì 9g", "Thăng ma 3g", "Đương quy 9g", "Thạch cao 20-30g (kèm nhiệt mạnh)"],
+      "acupuncture_points": ["Nội Đình ST44", "Lịch Đoài ST45", "Hợp Cốc LI4", "Trung Quản CV12", "Thiên Xu ST25", "Khúc Trì LI11"],
+      "lifestyle_advice": "Tránh thức ăn cay nóng, chiên rán, rượu bia, đường tinh chế, ăn rau xanh mát, uống đủ nước mát"
+    },
+    "yhhd_correlations": ["Peptic ulcer disease", "GERD", "Gastritis erosive", "Oral ulcers aphthous", "Gingivitis"],
+    "safety_notes": "Không dùng thuốc ôn bổ; tránh thức ăn kích thích; theo dõi H.pylori nếu loét",
+    "follow_up_timing": "2-4 tuần",
+    "red_flag_override": "Nôn ra máu, phân đen — chuyển cấp cứu ngay",
+    "prevalence_vietnam": "common",
+    "common_demographics": "Thanh thiếu niên và người trẻ, người ăn nhiều thức ăn cay nóng, người uống rượu bia thường xuyên"
+  },
+  {
+    "pattern_id": "PAT_B03_009",
+    "chung_code": "stomach_yin_deficiency",
+    "name_vi": "Vị âm hư",
+    "name_en": "Stomach Yin Deficiency",
+    "zangfu_primary": "stomach",
+    "pathogenesis_code": "stomach_yin_deficiency",
+    "bat_cuong_summary": {
+      "dominant": ["interior", "deficiency", "heat"],
+      "secondary": [],
+      "absent": ["exterior", "cold", "excess"]
+    },
+    "diagnostic_criteria": {
+      "required": ["dry_mouth_and_throat", "hunger_without_desire_to_eat_much"],
+      "two_or_more_of": ["epigastric_burning_dull_pain", "dry_retching_hiccup", "constipation", "low_grade_fever_afternoon", "five_center_heat", "weight_loss"],
+      "tongue": "Đỏ, ít rêu hoặc không rêu, khô, có thể có vết nứt vùng trung tâm",
+      "pulse": "Tế sác (nhỏ nhanh)"
+    },
+    "key_distinguishing_features": "Miệng họng khô + đói nhưng ăn ít + nóng rát thượng vị âm ỉ + lưỡi đỏ ít rêu khô. Nhiệt hư nhẹ, không mạnh như Vị nhiệt thực.",
+    "differential_diagnosis": [
+      {
+        "pattern_code": "stomach_heat",
+        "distinguishing_feature": "Vị nhiệt thực: rêu vàng dày, khát uống nhiều lạnh, nhiệt mạnh, mạch hồng sác; Vị âm hư: rêu ít khô, khát không muốn uống nhiều, nhiệt âm ỉ, mạch tế sác"
+      },
+      {
+        "pattern_code": "spleen_yin_deficiency",
+        "distinguishing_feature": "Tỳ âm hư: tiêu hóa kém nổi bật, ăn kém hơn, gầy mòn cơ; Vị âm hư: nóng rát thượng vị nổi bật, đói nhiều hơn, nôn khan"
+      },
+      {
+        "pattern_code": "liver_yin_deficiency",
+        "distinguishing_feature": "Can âm hư: mắt khô, chóng mặt, chuột rút, đau mạng sườn; Vị âm hư: triệu chứng tiêu hóa thượng vị nổi bật"
+      }
+    ],
+    "phap_tri": {
+      "principle_vi": "Dưỡng Vị âm, thanh hư nhiệt, hòa giáng Vị khí",
+      "principle_en": "Nourish Stomach Yin, Clear Deficiency Heat, Harmonize and Descend Stomach Qi",
+      "primary_formula": "Ích Vị Thang (Yi Wei Tang) / Sa Sâm Mạch Đông Thang",
+      "alternative_formulas": ["Mạch Môn Đông Thang (kèm nôn khan, ho khan)", "Nhất Quán Tiễn (kèm Can âm hư)"],
+      "key_herbs": ["Sa sâm 12g", "Mạch môn 12-15g", "Ngọc trúc 12g", "Sinh địa 12g", "Biển đậu 9g", "Cam thảo 3g", "Băng đường (đường phèn)"],
+      "acupuncture_points": ["Túc Tam Lý ST36", "Tam Âm Giao SP6", "Thái Khê KI3", "Vị Du BL21", "Trung Quản CV12", "Nội Quan PC6"],
+      "lifestyle_advice": "Ăn thức ăn mềm mát dưỡng âm (bí đao, củ mài, lê, táo tàu), tránh cay nóng, uống đủ nước, không ăn quá ít"
+    },
+    "yhhd_correlations": ["Chronic atrophic gastritis", "Post-H.pylori eradication therapy", "GERD chronic", "Sjögren syndrome GI involvement"],
+    "safety_notes": "Tránh thuốc táo nhiệt; các vị nê trệ cần phối hợp lý khí nhẹ",
+    "follow_up_timing": "6-8 tuần",
+    "red_flag_override": null,
+    "prevalence_vietnam": "common",
+    "common_demographics": "Người trung niên cao tuổi, bệnh nhân sau dùng kháng sinh/thuốc dạ dày dài ngày, người mạn tính"
+  },
+  {
+    "pattern_id": "PAT_B03_010",
+    "chung_code": "cold_stomach",
+    "name_vi": "Vị hàn",
+    "name_en": "Cold Stomach (Cold Invading Stomach)",
+    "zangfu_primary": "stomach",
+    "pathogenesis_code": "cold_stomach_excess_or_deficiency",
+    "bat_cuong_summary": {
+      "dominant": ["interior", "cold"],
+      "secondary": ["excess_or_deficiency"],
+      "absent": ["exterior", "heat"]
+    },
+    "diagnostic_criteria": {
+      "required": ["sudden_severe_epigastric_pain_better_with_warmth", "vomiting_clear_fluid_or_undigested_food"],
+      "two_or_more_of": ["nausea", "cold_limbs", "aversion_to_cold", "no_thirst_or_prefer_hot_drinks", "worse_after_cold_food_drink"],
+      "tongue": "Nhạt hoặc trắng bệu, rêu trắng trơn",
+      "pulse": "Trầm trì hoặc trầm khẩn (trầm chậm hoặc trầm căng)"
+    },
+    "key_distinguishing_features": "Đau thượng vị đột ngột dữ dội + chườm ấm giảm + nôn nước trong + liên quan uống đồ lạnh. Vị hàn thực (ngoại hàn xâm) cấp tính; Vị hàn hư (dương hư) mạn tính.",
+    "differential_diagnosis": [
+      {
+        "pattern_code": "spleen_yang_deficiency",
+        "distinguishing_feature": "Tỳ dương hư: mạn tính, đại tiện lỏng nổi bật, tứ chi lạnh toàn diện; Vị hàn: đau thượng vị cấp hơn, nôn nước nhiều"
+      },
+      {
+        "pattern_code": "food_stagnation_stomach",
+        "distinguishing_feature": "Thực trệ Vị: ăn quá mức gây ra, ợ chua mùi hôi, rêu dày, đau cứng thượng vị; Vị hàn: liên quan đồ lạnh, không ợ hôi"
+      },
+      {
+        "pattern_code": "liver_stomach_disharmony",
+        "distinguishing_feature": "Can Vị bất hòa: cảm xúc kích thích, đau mạng sườn kèm, ợ chua, mạch huyền; Vị hàn: không liên quan cảm xúc, liên quan lạnh"
+      }
+    ],
+    "phap_tri": {
+      "principle_vi": "Ôn Vị tán hàn, lý khí chỉ thống",
+      "principle_en": "Warm Stomach, Scatter Cold, Regulate Qi, Stop Pain",
+      "primary_formula": "Lương Phụ Hoàn / Ô Đầu Thang (Vị hàn thực nặng)",
+      "alternative_formulas": ["Lý Trung Thang (Vị hàn hư mạn tính)", "Tiểu Kiến Trung Thang (hư hàn nhẹ kèm co cứng)"],
+      "key_herbs": ["Cao lương khương 9-12g", "Hương phụ 9g", "Ô dược 9g", "Trần bì 9g", "Can khương 6-9g", "Ngô thù du 6g"],
+      "acupuncture_points": ["Trung Quản CV12", "Vị Du BL21", "Lương Khâu ST34", "Túc Tam Lý ST36", "Nội Quan PC6 (ôn cứu)"],
+      "lifestyle_advice": "Tuyệt đối tránh đồ lạnh sống, uống nước ấm, chườm ấm vùng thượng vị, mặc ấm, tránh nhiễm lạnh"
+    },
+    "yhhd_correlations": ["Acute gastritis", "Gastric spasm", "Functional epigastric pain syndrome"],
+    "safety_notes": "Ô đầu/Phụ tử phải chế đúng cách, sắc trước; không dùng khi nghi ngờ loét thủng",
+    "follow_up_timing": "2 tuần (cấp), 4 tuần (mạn)",
+    "red_flag_override": "Đau dữ dội không giảm, nôn ra máu, bụng cứng như gỗ — loại trừ thủng dạ dày",
+    "prevalence_vietnam": "common",
+    "common_demographics": "Trẻ em và người trẻ ăn đồ lạnh nhiều, người lao động ngoài trời vùng lạnh, người có tiền sử viêm dạ dày mạn"
+  },
+  {
+    "pattern_id": "PAT_B03_011",
+    "chung_code": "food_stagnation_stomach",
+    "name_vi": "Thực trệ Vị",
+    "name_en": "Food Stagnation in Stomach",
+    "zangfu_primary": "stomach",
+    "pathogenesis_code": "food_stagnation_stomach",
+    "bat_cuong_summary": {
+      "dominant": ["interior", "excess"],
+      "secondary": [],
+      "absent": ["exterior", "deficiency"]
+    },
+    "diagnostic_criteria": {
+      "required": ["epigastric_fullness_distension_after_overeating", "foul_belching_or_acid_regurgitation"],
+      "two_or_more_of": ["nausea_vomiting_undigested_food_relieved_after", "foul_flatus", "abdominal_pain_relieved_by_defecation", "loss_appetite", "thick_greasy_tongue_coat"],
+      "tongue": "Rêu dày trắng hoặc vàng nhờn",
+      "pulse": "Hoạt thực hoặc hoạt sác (trơn thực hoặc trơn nhanh)"
+    },
+    "key_distinguishing_features": "Bụng đầy cứng thượng vị + ợ hơi hôi chua + buồn nôn + liên quan bữa ăn quá mức. Cấp tính, có tiền sử ăn uống rõ ràng.",
+    "differential_diagnosis": [
+      {
+        "pattern_code": "stomach_qi_deficiency",
+        "distinguishing_feature": "Vị khí hư: mạn tính, không liên quan ăn quá, bụng đầy nhẹ, rêu mỏng; Thực trệ Vị: cấp tính, rêu dày, đầy cứng rõ"
+      },
+      {
+        "pattern_code": "liver_stomach_disharmony",
+        "distinguishing_feature": "Can Vị bất hòa: cảm xúc kích thích, đau mạng sườn, không liên quan ăn quá; Thực trệ Vị: ăn quá rõ ràng, ợ hơi hôi"
+      },
+      {
+        "pattern_code": "damp_heat_spleen",
+        "distinguishing_feature": "Thấp nhiệt Tỳ: mạn tính hơn, rêu vàng nhờn không thay đổi, không rõ tiền sử ăn quá; Thực trệ: cấp sau bữa ăn, cải thiện sau nôn/đi cầu"
+      }
+    ],
+    "phap_tri": {
+      "principle_vi": "Tiêu thực đạo trệ, hòa Vị kiện Tỳ",
+      "principle_en": "Disperse Food, Guide Out Stagnation, Harmonize Stomach, Fortify Spleen",
+      "primary_formula": "Bảo Hòa Hoàn (Bao He Wan)",
+      "alternative_formulas": ["Chi Thực Đạo Trệ Hoàn (trệ nặng, táo bón)", "Kiện Tỳ Hoàn (sau khi tiêu trệ, kiện Tỳ)"],
+      "key_herbs": ["Sơn tra 12-15g", "Thần khúc 12g", "Lai phục tử 12g", "Bán hạ chế 9g", "Trần bì 9g", "Phục linh 12g", "Liên kiều 9g"],
+      "acupuncture_points": ["Thiên Xu ST25", "Túc Tam Lý ST36", "Trung Quản CV12", "Nội Đình ST44", "Lý Nội Đình (N-LE-8)"],
+      "lifestyle_advice": "Nhịn ăn hoặc ăn rất ít 1-2 bữa, uống nước ấm, đi bộ nhẹ sau ăn, không ăn vội ăn nhiều"
+    },
+    "yhhd_correlations": ["Acute indigestion", "Gastroparesis post-meal", "Functional dyspepsia post-prandial distress"],
+    "safety_notes": null,
+    "follow_up_timing": "3-7 ngày (cấp), 2-4 tuần (tái phát)",
+    "red_flag_override": null,
+    "prevalence_vietnam": "very_common",
+    "common_demographics": "Trẻ em, người hay ăn tiệc nhậu, Tết, người ăn không điều độ"
+  },
+  {
+    "pattern_id": "PAT_B03_012",
+    "chung_code": "rebellious_stomach_qi",
+    "name_vi": "Vị khí thượng nghịch",
+    "name_en": "Rebellious Stomach Qi (Stomach Qi Ascending Counterflow)",
+    "zangfu_primary": "stomach",
+    "pathogenesis_code": "rebellious_stomach_qi",
+    "bat_cuong_summary": {
+      "dominant": ["interior"],
+      "secondary": ["excess_or_deficiency"],
+      "absent": ["exterior"]
+    },
+    "diagnostic_criteria": {
+      "required": ["nausea_and_or_vomiting", "belching_or_hiccup_persistent"],
+      "two_or_more_of": ["acid_regurgitation", "epigastric_fullness", "retching", "worse_stress_or_food"],
+      "tongue": "Biến thiên theo nguyên nhân: hàn — nhạt rêu trắng; nhiệt — đỏ rêu vàng; âm hư — đỏ ít rêu",
+      "pulse": "Biến thiên: hoãn (hàn), sác (nhiệt), tế (âm hư), huyền (Can khí)"
+    },
+    "key_distinguishing_features": "Vị khí thượng nghịch là triệu chứng, không phải chứng độc lập — cần xác định nguyên nhân (hàn, nhiệt, âm hư, thực trệ, Can khí phạm Vị). Nôn/ợ hơi/nấc cụt là biểu hiện chung.",
+    "differential_diagnosis": [
+      {
+        "pattern_code": "cold_stomach",
+        "distinguishing_feature": "Vị hàn nghịch: nôn nước trong, hàn chứng rõ, chườm ấm giảm; dùng Ô Thù Du Thang"
+      },
+      {
+        "pattern_code": "stomach_heat",
+        "distinguishing_feature": "Vị nhiệt nghịch: nôn chua đắng hoặc thức ăn, khát, nhiệt chứng; dùng Tả Tâm Thang"
+      },
+      {
+        "pattern_code": "stomach_yin_deficiency",
+        "distinguishing_feature": "Vị âm hư nghịch: nôn khan, nấc cụt âm ỉ, lưỡi đỏ ít rêu; dùng Mạch Môn Đông Thang"
+      },
+      {
+        "pattern_code": "food_stagnation_stomach",
+        "distinguishing_feature": "Thực trệ Vị nghịch: nôn thức ăn cũ hôi, ăn quá mức; Bảo Hòa Hoàn"
+      }
+    ],
+    "phap_tri": {
+      "principle_vi": "Hòa Vị giáng nghịch (điều chỉnh theo nguyên nhân)",
+      "principle_en": "Harmonize Stomach, Descend Counterflow (adjust by etiology)",
+      "primary_formula": "Tuyền Phúc Đại Giả Thạch Thang (Xuan Fu Dai Zhe Shi Tang) — tổng quát",
+      "alternative_formulas": ["Ô Thù Du Thang (hàn)", "Tả Tâm Thang (nhiệt)", "Mạch Môn Đông Thang (âm hư)", "Bán Hạ Hậu Phác Thang (khí uất đàm)"],
+      "key_herbs": ["Tuyền phúc hoa 9g (bọc)", "Đại giả thạch 15-30g (sắc trước)", "Bán hạ chế 9g", "Đảng sâm 12g", "Sinh khương 9g", "Cam thảo 6g"],
+      "acupuncture_points": ["Nội Quan PC6", "Trung Quản CV12", "Túc Tam Lý ST36", "Công Tôn SP4", "Cách Du BL17", "Thiên Đột CV22 (nấc cụt)"],
+      "lifestyle_advice": "Ăn chậm nhai kỹ, ăn nhỏ nhiều bữa, không nằm ngay sau ăn, tránh uống đồ có ga, giảm stress"
+    },
+    "yhhd_correlations": ["GERD", "Gastroparesis", "Hiccup intractable", "Hyperemesis", "Post-operative nausea"],
+    "safety_notes": "Đại giả thạch (hematite) chứa As — không dùng dài ngày; tránh khi thai kỳ",
+    "follow_up_timing": "2-4 tuần",
+    "red_flag_override": "Nôn máu, nôn ra mật nhiều — chuyển nội soi cấp cứu",
+    "prevalence_vietnam": "very_common",
+    "common_demographics": "Mọi lứa tuổi, phụ nữ mang thai (nghén), người stress, người dùng thuốc dạ dày mạn tính"
+  },
+  {
+    "pattern_id": "PAT_B03_013",
+    "chung_code": "liver_stomach_disharmony",
+    "name_vi": "Can Vị bất hòa",
+    "name_en": "Liver-Stomach Disharmony",
+    "zangfu_primary": "stomach",
+    "pathogenesis_code": "liver_qi_invading_stomach",
+    "bat_cuong_summary": {
+      "dominant": ["interior", "excess"],
+      "secondary": ["stagnation"],
+      "absent": ["exterior", "deficiency_primary"]
+    },
+    "diagnostic_criteria": {
+      "required": ["epigastric_hypochondrial_pain_stress_related", "belching_or_acid_regurgitation"],
+      "two_or_more_of": ["nausea_vomiting_sour_bitter", "abdominal_distension", "irritability_mood_changes", "alternating_constipation_diarrhea", "sighing"],
+      "tongue": "Nhạt hồng hoặc đỏ nhạt, rêu trắng mỏng hoặc hơi vàng",
+      "pulse": "Huyền (căng thẳng) hoặc huyền sác"
+    },
+    "key_distinguishing_features": "Đau thượng vị + mạng sườn + liên quan stress/cảm xúc + ợ hơi ợ chua + mạch huyền. Can khí uất can thiệp vào chức năng giáng Vị.",
+    "differential_diagnosis": [
+      {
+        "pattern_code": "spleen_stomach_qi_stagnation",
+        "distinguishing_feature": "Tỳ Vị khí trệ: không nổi bật yếu tố cảm xúc, chủ yếu ăn uống; Can Vị bất hòa: cảm xúc là yếu tố chính"
+      },
+      {
+        "pattern_code": "liver_spleen_disharmony",
+        "distinguishing_feature": "Can Tỳ bất hòa: đại tiện lỏng nổi bật, đau bụng trước đi cầu giảm sau đi cầu, IBS-D; Can Vị bất hòa: nôn/ợ chua nổi bật, không tiêu chảy"
+      },
+      {
+        "pattern_code": "food_stagnation_stomach",
+        "distinguishing_feature": "Thực trệ Vị: có bữa ăn quá mức, không liên quan cảm xúc, ợ hôi; Can Vị bất hòa: stress kích thích, ợ chua hơn là hôi"
+      }
+    ],
+    "phap_tri": {
+      "principle_vi": "Sơ Can hòa Vị, lý khí giảm thống",
+      "principle_en": "Course Liver, Harmonize Stomach, Regulate Qi, Relieve Pain",
+      "primary_formula": "Sài Hồ Sơ Can Tán (Chai Hu Shu Gan San)",
+      "alternative_formulas": ["Tứ Nghịch Tán (Can khí uất nhẹ hơn)", "Bán Hạ Hậu Phác Thang (kèm đàm khí)", "Ôn Đởm Thang (kèm mất ngủ lo lắng)"],
+      "key_herbs": ["Sài hồ 9-12g", "Bạch thược 12g", "Hương phụ 9g", "Chỉ xác 9g", "Trần bì 9g", "Xuyên khung 6g", "Cam thảo 6g"],
+      "acupuncture_points": ["Thái Xung LV3", "Hợp Cốc LI4", "Trung Quản CV12", "Nội Quan PC6", "Kỳ Môn LV14", "Túc Tam Lý ST36", "Dương Lăng Tuyền GB34"],
+      "lifestyle_advice": "Quản lý stress, thiền định, tập thở, tránh tức giận, ăn uống điều độ, không ăn khi căng thẳng"
+    },
+    "yhhd_correlations": ["GERD stress-induced", "Functional dyspepsia", "IBS mixed", "Peptic ulcer stress-related", "Anxiety disorder GI"],
+    "safety_notes": null,
+    "follow_up_timing": "4-6 tuần",
+    "red_flag_override": null,
+    "prevalence_vietnam": "very_common",
+    "common_demographics": "Người lao động trí óc, nhân viên văn phòng, người sống dưới áp lực lớn, phụ nữ trung niên"
+  },
+  {
+    "pattern_id": "PAT_B03_014",
+    "chung_code": "liver_spleen_disharmony",
+    "name_vi": "Can Tỳ bất hòa",
+    "name_en": "Liver-Spleen Disharmony",
+    "zangfu_primary": "spleen",
+    "pathogenesis_code": "liver_qi_invading_spleen",
+    "bat_cuong_summary": {
+      "dominant": ["interior", "excess_deficiency_mixed"],
+      "secondary": ["stagnation"],
+      "absent": ["exterior"]
+    },
+    "diagnostic_criteria": {
+      "required": ["abdominal_pain_relieved_after_defecation", "bowel_habit_change_diarrhea_constipation_alternating"],
+      "two_or_more_of": ["abdominal_distension_worse_stress", "loose_stool_with_mucus", "hypochondrial_distension", "irritability_depression", "sighing", "poor_appetite"],
+      "tongue": "Nhạt hoặc nhạt hồng, rêu trắng mỏng",
+      "pulse": "Huyền hoặc huyền tế (căng nhỏ)"
+    },
+    "key_distinguishing_features": "Đau bụng quặn + đi cầu lỏng khi stress + giảm sau đi cầu + mạch huyền. Can mộc khắc Tỳ thổ. IBS-D cổ điển trong YHCT.",
+    "differential_diagnosis": [
+      {
+        "pattern_code": "liver_stomach_disharmony",
+        "distinguishing_feature": "Can Vị bất hòa: buồn nôn ợ chua nổi bật, không tiêu chảy chính; Can Tỳ bất hòa: tiêu chảy lỏng nổi bật khi stress"
+      },
+      {
+        "pattern_code": "spleen_qi_deficiency",
+        "distinguishing_feature": "Tỳ khí hư: không liên quan cảm xúc rõ ràng, mạch nhược; Can Tỳ bất hòa: stress kích thích rõ, mạch huyền"
+      },
+      {
+        "pattern_code": "damp_heat_large_intestine",
+        "distinguishing_feature": "Đại trường thấp nhiệt: phân sệt nhầy hôi, cấp bức, rêu vàng nhờn; Can Tỳ bất hòa: phân lỏng không hôi, liên quan cảm xúc"
+      }
+    ],
+    "phap_tri": {
+      "principle_vi": "Sơ Can kiện Tỳ, điều hòa khí cơ",
+      "principle_en": "Course Liver, Fortify Spleen, Regulate Qi Mechanism",
+      "primary_formula": "Thống Tả Yếu Phương (Tong Xie Yao Fang)",
+      "alternative_formulas": ["Sài Hồ Sơ Can Tán hợp Tứ Quân Tử Thang", "Tiêu Dao Tán (kèm huyết hư Can uất)", "Đống Phong Thang"],
+      "key_herbs": ["Bạch truật 12g", "Bạch thược 12-15g", "Trần bì 9g", "Phòng phong 6-9g", "Sài hồ 9g", "Phục linh 12g"],
+      "acupuncture_points": ["Thái Xung LV3", "Túc Tam Lý ST36", "Tam Âm Giao SP6", "Chương Môn LV13", "Thiên Xu ST25", "Tỳ Du BL20", "Can Du BL18"],
+      "lifestyle_advice": "Quản lý stress là quan trọng nhất, tập yoga/thiền, ăn đúng giờ, tránh ăn khi căng thẳng, tập thể dục nhẹ"
+    },
+    "yhhd_correlations": ["IBS-D (Irritable Bowel Syndrome - Diarrhea predominant)", "Anxiety-related GI disorder", "Functional abdominal pain"],
+    "safety_notes": null,
+    "follow_up_timing": "4-6 tuần",
+    "red_flag_override": null,
+    "prevalence_vietnam": "very_common",
+    "common_demographics": "Người trẻ và trung niên, sinh viên mùa thi, người làm việc áp lực, người có rối loạn lo âu"
+  },
+  {
+    "pattern_id": "PAT_B03_015",
+    "chung_code": "spleen_kidney_yang_deficiency",
+    "name_vi": "Tỳ Thận dương hư",
+    "name_en": "Spleen-Kidney Yang Deficiency",
+    "zangfu_primary": "spleen",
+    "pathogenesis_code": "spleen_kidney_yang_deficiency_combined",
+    "bat_cuong_summary": {
+      "dominant": ["interior", "deficiency", "cold"],
+      "secondary": [],
+      "absent": ["exterior", "heat", "excess"]
+    },
+    "diagnostic_criteria": {
+      "required": ["diarrhea_at_dawn_wu_geng_xie", "cold_low_back_pain_and_knees"],
+      "two_or_more_of": ["cold_limbs_especially_below_knee", "edema_pitting_lower_extremities", "frequent_clear_urination_or_nocturia", "abdominal_cold_pain", "undigested_food_in_stool", "impotence_or_reduced_libido"],
+      "tongue": "Nhạt trắng bệu, có vết răng, rêu trắng ẩm trơn",
+      "pulse": "Trầm trì nhược, đặc biệt trầm nhược ở bộ xích (Thận)"
+    },
+    "key_distinguishing_features": "Tiêu chảy sáng sớm (ngũ canh tả) + đau lưng lạnh + tứ chi lạnh. Tỳ dương hư + Thận dương hư — Thận hỏa không ôn ấm Tỳ thổ.",
+    "differential_diagnosis": [
+      {
+        "pattern_code": "spleen_yang_deficiency",
+        "distinguishing_feature": "Tỳ dương hư đơn thuần: không có đau lưng, không tiêu chảy sáng sớm điển hình, mạch trầm yếu chỉ ở bộ quan; Tỳ Thận dương hư: bộ xích trầm nhược rõ"
+      },
+      {
+        "pattern_code": "kidney_yang_deficiency",
+        "distinguishing_feature": "Thận dương hư đơn thuần: tiêu hóa ít bị ảnh hưởng, chủ yếu sinh dục-tiết niệu; Tỳ Thận dương hư: tiêu hóa + thận đều rõ ràng"
+      }
+    ],
+    "phap_tri": {
+      "principle_vi": "Ôn bổ Tỳ Thận, cố sáp chỉ tả",
+      "principle_en": "Warm and Tonify Spleen and Kidney, Secure and Astringe to Stop Diarrhea",
+      "primary_formula": "Tứ Thần Hoàn (Si Shen Wan)",
+      "alternative_formulas": ["Phụ Tử Lý Trung Thang hợp Tứ Thần Hoàn", "Chân Vũ Thang (kèm phù nề nặng)", "Hữu Quy Hoàn (Thận dương hư nặng)"],
+      "key_herbs": ["Phá cố chỉ 9-12g", "Nhục đậu khấu 6-9g", "Ngô thù du 6g", "Ngũ vị tử 6g", "Phụ tử chế 6-12g", "Can khương 6g", "Bổ cốt chỉ 9g"],
+      "acupuncture_points": ["Quan Nguyên CV4", "Thần Khuyết CV8 (cứu)", "Thận Du BL23", "Tỳ Du BL20", "Mệnh Môn GV4 (cứu)", "Túc Tam Lý ST36"],
+      "lifestyle_advice": "Tránh lạnh toàn diện, ăn ấm, cứu ngải mỗi ngày, tập khí công nhẹ, ngủ đủ giấc, không quan hệ tình dục quá mức"
+    },
+    "yhhd_correlations": ["Chronic diarrhea IBS-D elderly", "Hypothyroidism", "Adrenal insufficiency", "Chronic renal disease early", "Malabsorption elderly"],
+    "safety_notes": "Phụ tử cần chế đúng cách và sắc trước 45-60 phút; theo dõi chức năng thận",
+    "follow_up_timing": "6-8 tuần",
+    "red_flag_override": null,
+    "prevalence_vietnam": "common",
+    "common_demographics": "Người cao tuổi, người mắc bệnh mạn tính lâu năm, người sau hóa trị, bệnh nhân đái tháo đường lâu năm"
+  },
+  {
+    "pattern_id": "PAT_B03_016",
+    "chung_code": "spleen_qi_deficiency_blood_stasis",
+    "name_vi": "Tỳ khí hư huyết ứ",
+    "name_en": "Spleen Qi Deficiency with Blood Stasis",
+    "zangfu_primary": "spleen",
+    "pathogenesis_code": "spleen_qi_deficiency_with_blood_stasis",
+    "bat_cuong_summary": {
+      "dominant": ["interior", "deficiency", "stasis"],
+      "secondary": ["cold"],
+      "absent": ["exterior", "heat_excess"]
+    },
+    "diagnostic_criteria": {
+      "required": ["spleen_qi_deficiency_signs", "fixed_stabbing_pain_or_mass_or_dark_complexion"],
+      "two_or_more_of": ["purple_dark_lips_tongue", "spider_angiomata", "varicose_veins", "dark_stool_tarry", "menstrual_clots_dark", "fatigue_worse_than_usual"],
+      "tongue": "Nhạt tím hoặc tím có điểm ứ, rêu trắng mỏng hoặc hơi dày",
+      "pulse": "Sáp nhược hoặc tế sáp (sệt yếu hoặc nhỏ sệt)"
+    },
+    "key_distinguishing_features": "Nền Tỳ khí hư + dấu hiệu huyết ứ (đau cố định, lưỡi tím, môi tím). Khí hư không vận huyết dẫn đến huyết ứ — hư thực kiêm chứng.",
+    "differential_diagnosis": [
+      {
+        "pattern_code": "spleen_qi_deficiency",
+        "distinguishing_feature": "Tỳ khí hư đơn thuần: không có dấu hiệu huyết ứ, lưỡi nhạt không tím; Tỳ khí hư huyết ứ: thêm ứ huyết rõ ràng"
+      },
+      {
+        "pattern_code": "blood_stasis_excess",
+        "distinguishing_feature": "Huyết ứ thực chứng: đau dữ dội cố định, không có hư chứng, mạch huyền sáp; Tỳ khí hư huyết ứ: hư chứng nổi bật, mạch nhược sáp"
+      }
+    ],
+    "phap_tri": {
+      "principle_vi": "Kiện Tỳ ích khí, hoạt huyết hóa ứ",
+      "principle_en": "Fortify Spleen, Boost Qi, Activate Blood, Resolve Stasis",
+      "primary_formula": "Bổ Dương Hoàn Ngũ Thang gia giảm (Bu Yang Huan Wu Tang) / Tứ Quân Tử Thang hợp Huyết Phủ Trục Ứ Thang",
+      "alternative_formulas": ["Bổ Trung Ích Khí Thang hợp Đan Sâm ẩm", "Quy Tỳ Thang hợp Hồng Hoa Đào Nhân"],
+      "key_herbs": ["Hoàng kỳ 30-60g", "Đương quy 9g", "Xuyên khung 6g", "Đào nhân 9g", "Hồng hoa 6g", "Địa long 9g", "Đảng sâm 12g", "Bạch truật 12g"],
+      "acupuncture_points": ["Túc Tam Lý ST36", "Huyết Hải SP10", "Tam Âm Giao SP6", "Tỳ Du BL20", "Cách Du BL17", "Khí Hải CV6"],
+      "lifestyle_advice": "Vận động nhẹ đều đặn (tránh ngồi lâu), ăn thực phẩm hoạt huyết (nghệ, tỏi, hành), tránh lạnh, giảm stress"
+    },
+    "yhhd_correlations": ["Cirrhosis portal hypertension", "Chronic gastric ulcer", "Uterine fibroids with anemia", "Peripheral vascular disease with malnutrition"],
+    "safety_notes": "Thận trọng khi có xuất huyết hoạt động; kiểm tra đông máu trước khi dùng hoạt huyết mạnh",
+    "follow_up_timing": "6-8 tuần",
+    "red_flag_override": "Xuất huyết tiêu hóa cấp — dừng thuốc hoạt huyết, chuyển cấp cứu",
+    "prevalence_vietnam": "common",
+    "common_demographics": "Người trung niên cao tuổi mắc bệnh mạn tính, bệnh nhân xơ gan, phụ nữ sau mãn kinh"
+  },
+  {
+    "pattern_id": "PAT_B03_017",
+    "chung_code": "spleen_heart_dual_deficiency",
+    "name_vi": "Tỳ Tâm lưỡng hư",
+    "name_en": "Spleen-Heart Dual Deficiency (Heart Blood and Spleen Qi Deficiency)",
+    "zangfu_primary": "spleen",
+    "pathogenesis_code": "heart_blood_spleen_qi_deficiency",
+    "bat_cuong_summary": {
+      "dominant": ["interior", "deficiency"],
+      "secondary": ["blood_deficiency"],
+      "absent": ["exterior", "heat", "cold_pronounced", "excess"]
+    },
+    "diagnostic_criteria": {
+      "required": ["palpitations_or_heart_racing", "fatigue_with_poor_appetite_and_digestive_weakness"],
+      "two_or_more_of": ["insomnia_dream_disturbed", "pale_face_lips_nails", "dizziness_on_standing", "poor_memory_concentration", "anxiety_excessive_worry", "irregular_menstruation_scanty"],
+      "tongue": "Nhạt, bệu, rêu trắng mỏng",
+      "pulse": "Tế nhược hoặc nhược (nhỏ yếu)"
+    },
+    "key_distinguishing_features": "Tam chứng: hồi hộp đánh trống ngực + mất ngủ mộng nhiều + mệt mỏi kém ăn. Tỳ khí hư không sinh được Tâm huyết — điều trị tâm và tỳ đồng thời.",
+    "differential_diagnosis": [
+      {
+        "pattern_code": "heart_blood_deficiency",
+        "distinguishing_feature": "Tâm huyết hư đơn thuần: triệu chứng tiêu hóa ít, chủ yếu hồi hộp mất ngủ lo âu; Tỳ Tâm lưỡng hư: tiêu hóa kém nổi bật cùng với tâm chứng"
+      },
+      {
+        "pattern_code": "heart_kidney_disharmony",
+        "distinguishing_feature": "Tâm Thận bất giao: mất ngủ nổi bật, nóng lòng bàn tay chân, tiểu đêm, lưỡi đỏ ít rêu; Tỳ Tâm lưỡng hư: lưỡi nhạt, tiêu hóa kém, không nóng"
+      },
+      {
+        "pattern_code": "spleen_qi_deficiency",
+        "distinguishing_feature": "Tỳ khí hư đơn thuần: không có hồi hộp mất ngủ rõ; Tỳ Tâm lưỡng hư: tâm chứng rõ kèm"
+      }
+    ],
+    "phap_tri": {
+      "principle_vi": "Bổ Tỳ dưỡng Tâm, ích khí bổ huyết, an thần",
+      "principle_en": "Tonify Spleen, Nourish Heart, Boost Qi, Supplement Blood, Calm Shen",
+      "primary_formula": "Quy Tỳ Thang (Gui Pi Tang)",
+      "alternative_formulas": ["Thiên Vương Bổ Tâm Đan (kèm âm hư Tâm)", "An Thần Định Chí Hoàn (mất ngủ lo âu nặng)"],
+      "key_herbs": ["Đảng sâm 12g", "Hoàng kỳ 15g", "Bạch truật 12g", "Phục thần 12g", "Toan táo nhân 12-15g", "Long nhãn 12g", "Đương quy 9g", "Viễn chí 9g", "Mộc hương 6g"],
+      "acupuncture_points": ["Tâm Du BL15", "Tỳ Du BL20", "Túc Tam Lý ST36", "Tam Âm Giao SP6", "Nội Quan PC6", "Thần Môn HT7", "Khí Hải CV6"],
+      "lifestyle_advice": "Ngủ đủ giấc trước 23h, tránh lo lắng thái quá, thiền định nhẹ, ăn bổ huyết (táo đỏ, long nhãn, trứng gà, thịt nạc đỏ)"
+    },
+    "yhhd_correlations": ["Iron deficiency anemia with anxiety", "Generalized anxiety disorder", "Insomnia chronic", "POTS (postural tachycardia)", "Post-partum depression"],
+    "safety_notes": null,
+    "follow_up_timing": "4-6 tuần",
+    "red_flag_override": null,
+    "prevalence_vietnam": "common",
+    "common_demographics": "Phụ nữ sau sinh, phụ nữ tiền mãn kinh, người lo lắng thái quá, học sinh sinh viên mùa thi, người ăn kiêng quá mức"
+  },
+  {
+    "pattern_id": "PAT_B03_018",
+    "chung_code": "large_intestine_damp_heat",
+    "name_vi": "Đại trường thấp nhiệt",
+    "name_en": "Damp-Heat in the Large Intestine",
+    "zangfu_primary": "large_intestine",
+    "pathogenesis_code": "damp_heat_large_intestine",
+    "bat_cuong_summary": {
+      "dominant": ["interior", "excess", "heat", "damp"],
+      "secondary": [],
+      "absent": ["exterior", "cold", "deficiency"]
+    },
+    "diagnostic_criteria": {
+      "required": ["diarrhea_urgent_burning_malodorous", "abdominal_pain_cramping_relieved_after_defecation"],
+      "two_or_more_of": ["mucus_blood_in_stool", "tenesmus_feeling_incomplete_defecation", "fever_or_sensation_of_heat", "scanty_dark_urine", "burning_sensation_anus", "thirst"],
+      "tongue": "Đỏ, rêu vàng dày nhờn",
+      "pulse": "Hoạt sác (trơn nhanh)"
+    },
+    "key_distinguishing_features": "Tiêu chảy cấp bức + đau bụng quặn + phân sệt nhầy hôi ± máu + rêu vàng nhờn. Điển hình của lỵ cấp hoặc viêm đại tràng cấp.",
+    "differential_diagnosis": [
+      {
+        "pattern_code": "damp_heat_spleen",
+        "distinguishing_feature": "Thấp nhiệt Tỳ: toàn bộ hệ tiêu hóa, không tiêu chảy cấp điển hình, có thể vàng da; Đại trường thấp nhiệt: tiêu chảy cấp nổi bật, máu/nhầy trong phân"
+      },
+      {
+        "pattern_code": "large_intestine_cold_deficiency",
+        "distinguishing_feature": "Đại trường hư hàn: tiêu chảy nhạt không hôi, không sốt, lưỡi nhạt rêu trắng, mạch nhược; Đại trường thấp nhiệt: cấp nóng rõ"
+      },
+      {
+        "pattern_code": "liver_spleen_disharmony",
+        "distinguishing_feature": "Can Tỳ bất hòa: liên quan stress, không có máu nhầy, không sốt, mạch huyền; Đại trường thấp nhiệt: nhiệt chứng rõ, không liên quan cảm xúc"
+      }
+    ],
+    "phap_tri": {
+      "principle_vi": "Thanh nhiệt giải độc, lợi thấp chỉ lỵ",
+      "principle_en": "Clear Heat, Resolve Toxin, Drain Dampness, Stop Dysentery",
+      "primary_formula": "Hoàng Liên Giải Độc Thang hợp Bạch Đầu Ông Thang",
+      "alternative_formulas": ["Cát Căn Hoàng Liên Hoàng Cầm Thang (thấp nhiệt biểu lý)", "Thược Dược Thang (đau quặn + máu mủ)"],
+      "key_herbs": ["Hoàng liên 6-9g", "Hoàng cầm 9g", "Hoàng bá 9g", "Bạch đầu ông 15-20g", "Tần bì 9g", "Cát căn 15g", "Mộc hương 6g"],
+      "acupuncture_points": ["Thiên Xu ST25", "Thượng Cự Hư ST37", "Hạ Cự Hư ST39", "Hợp Cốc LI4", "Khúc Trì LI11", "Nội Đình ST44"],
+      "lifestyle_advice": "Uống nhiều nước, ăn nhạt lỏng, vệ sinh thực phẩm, nghỉ ngơi, tránh đồ cay nóng và sống tái"
+    },
+    "yhhd_correlations": ["Acute bacterial dysentery", "Amebic dysentery", "Ulcerative colitis flare", "Infectious gastroenteritis", "Campylobacter/Salmonella enteritis"],
+    "safety_notes": "Tiêu chảy máu nhiều, mất nước nặng — cần bù điện giải Tây y song song; kiểm tra cấy phân nếu nghi nhiễm khuẩn",
+    "follow_up_timing": "1-2 tuần (cấp), 4-6 tuần (mạn tính như viêm đại tràng)",
+    "red_flag_override": "Mất nước nặng, sốt cao ≥39°C, máu nhiều trong phân — nhập viện cấp cứu",
+    "prevalence_vietnam": "common",
+    "common_demographics": "Mọi lứa tuổi, đặc biệt mùa hè, vùng vệ sinh kém, trẻ em, khách du lịch"
+  },
+  {
+    "pattern_id": "PAT_B03_019",
+    "chung_code": "large_intestine_dryness_binds",
+    "name_vi": "Đại trường táo kết",
+    "name_en": "Large Intestine Dryness Binds (Dry Constipation)",
+    "zangfu_primary": "large_intestine",
+    "pathogenesis_code": "large_intestine_dryness_constipation",
+    "bat_cuong_summary": {
+      "dominant": ["interior", "excess_or_deficiency"],
+      "secondary": ["dryness", "heat_or_deficiency"],
+      "absent": ["exterior", "cold_primary"]
+    },
+    "diagnostic_criteria": {
+      "required": ["constipation_dry_hard_stool", "infrequent_bowel_movement_less_than_3_per_week"],
+      "two_or_more_of": ["straining_defecation", "dry_mouth_throat", "abdominal_distension", "thirst", "dark_urine", "bad_breath"],
+      "tongue": "Đỏ hoặc nhạt đỏ, ít rêu hoặc rêu vàng khô (tùy nhiệt hay âm hư)",
+      "pulse": "Sác thực (nhiệt táo thực) hoặc tế sác (âm hư táo) hoặc sáp nhược (khí huyết hư)"
+    },
+    "key_distinguishing_features": "Phân khô cứng + khó đi + miệng khô. Cần phân biệt: nhiệt táo thực (phân khô nóng) vs âm hư táo (mạn tính người cao tuổi) vs khí hư không đẩy được phân.",
+    "differential_diagnosis": [
+      {
+        "pattern_code": "heat_binding_large_intestine",
+        "distinguishing_feature": "Nhiệt kết Đại trường: sốt, bụng đau căng cứng, không trung tiện, rêu vàng khô nứt, mạch trầm thực; dùng Đại Thừa Khí Thang"
+      },
+      {
+        "pattern_code": "yin_deficiency_dryness",
+        "distinguishing_feature": "Âm hư táo kết: mạn tính, người gầy cao tuổi, lưỡi đỏ ít rêu, mạch tế sác; dùng Tăng Dịch Thừa Khí Thang hoặc Nhuận Trường Hoàn"
+      },
+      {
+        "pattern_code": "qi_deficiency_constipation",
+        "distinguishing_feature": "Khí hư táo: phân không cứng nhưng rặn không ra, mệt sau rặn, mạch nhược; dùng Bổ Trung Ích Khí Thang"
+      },
+      {
+        "pattern_code": "large_intestine_cold_deficiency",
+        "distinguishing_feature": "Đại trường hư hàn: phân cứng do hàn ngưng, không táo nhiệt, tứ chi lạnh, lưỡi nhạt; dùng Ôn Tỳ Thang"
+      }
+    ],
+    "phap_tri": {
+      "principle_vi": "Nhuận trường thông tiện (điều chỉnh theo nguyên nhân)",
+      "principle_en": "Moisten Intestine, Free Stool (adjust by etiology)",
+      "primary_formula": "Nhuận Trường Hoàn (Run Chang Wan) — táo kết âm hư / Ma Tử Nhân Hoàn — nhiệt táo",
+      "alternative_formulas": ["Tăng Dịch Thừa Khí Thang (âm hư + nhiệt kết nhẹ)", "Đại Thừa Khí Thang (nhiệt kết thực nặng cấp)", "Bổ Trung Ích Khí Thang (khí hư)"],
+      "key_herbs": ["Ma nhân 15-20g", "Đào nhân 9g", "Hạnh nhân 9g", "Đại hoàng 3-9g (tùy mức độ)", "Chỉ thực 9g", "Sinh địa 12g", "Huyền sâm 12g"],
+      "acupuncture_points": ["Thiên Xu ST25", "Đại Trường Du BL25", "Chi Câu SJ6", "Hợp Cốc LI4", "Thượng Cự Hư ST37", "Chiếu Hải KI6 (âm hư)"],
+      "lifestyle_advice": "Uống nhiều nước (≥2L/ngày), ăn nhiều chất xơ (rau xanh, khoai lang), vận động đều đặn, không nhịn đi cầu, massage bụng theo chiều kim đồng hồ"
+    },
+    "yhhd_correlations": ["Functional constipation", "Irritable bowel syndrome - constipation predominant (IBS-C)", "Opioid-induced constipation", "Post-surgical ileus resolving"],
+    "safety_notes": "Đại hoàng không dùng dài ngày (gây lệ thuộc); tránh khi thai kỳ; loại trừ tắc ruột cơ học trước khi dùng",
+    "follow_up_timing": "2-4 tuần",
+    "red_flag_override": "Táo bón cấp kèm đau bụng dữ dội không trung tiện — loại trừ tắc ruột, chuyển ngoại khoa",
+    "prevalence_vietnam": "very_common",
+    "common_demographics": "Người cao tuổi, phụ nữ mang thai, người ít vận động, người ăn ít chất xơ, bệnh nhân dùng opioid"
+  },
+  {
+    "pattern_id": "PAT_B03_020",
+    "chung_code": "large_intestine_cold_deficiency",
+    "name_vi": "Đại trường hư hàn",
+    "name_en": "Large Intestine Cold Deficiency",
+    "zangfu_primary": "large_intestine",
+    "pathogenesis_code": "large_intestine_cold_deficiency",
+    "bat_cuong_summary": {
+      "dominant": ["interior", "deficiency", "cold"],
+      "secondary": [],
+      "absent": ["exterior", "heat", "excess"]
+    },
+    "diagnostic_criteria": {
+      "required": ["chronic_diarrhea_or_loose_stool_pale_odorless", "abdominal_cold_pain_better_with_warmth_pressure"],
+      "two_or_more_of": ["borborygmus_gurgling", "undigested_food_in_stool", "cold_limbs", "fatigue", "pale_complexion", "prolapse_rectum_or_incontinence"],
+      "tongue": "Nhạt trắng bệu, rêu trắng ẩm trơn",
+      "pulse": "Trầm trì nhược hoặc trầm hoãn nhược"
+    },
+    "key_distinguishing_features": "Tiêu chảy mạn tính phân nhạt không hôi + đau bụng lạnh chườm ấm giảm + tứ chi lạnh. Đại trường hư hàn thường có nền Tỳ Thận dương hư.",
+    "differential_diagnosis": [
+      {
+        "pattern_code": "large_intestine_damp_heat",
+        "distinguishing_feature": "Đại trường thấp nhiệt: tiêu chảy cấp hôi, rêu vàng nhờn, sốt, không có hàn chứng; Đại trường hư hàn: mạn tính, không hôi, lưỡi nhạt"
+      },
+      {
+        "pattern_code": "spleen_yang_deficiency",
+        "distinguishing_feature": "Tỳ dương hư: toàn bộ tiêu hóa kém, phân có thức ăn chưa tiêu, không có trực tràng sa; Đại trường hư hàn: có thể sa trực tràng, tiểu tiện không kiểm soát"
+      },
+      {
+        "pattern_code": "spleen_kidney_yang_deficiency",
+        "distinguishing_feature": "Tỳ Thận dương hư: ngũ canh tả + đau lưng + sinh dục kém; Đại trường hư hàn: chủ yếu đại trường, ít triệu chứng Thận hơn"
+      }
+    ],
+    "phap_tri": {
+      "principle_vi": "Ôn trung tán hàn, bổ hư cố trường",
+      "principle_en": "Warm Middle, Scatter Cold, Tonify Deficiency, Secure Intestine",
+      "primary_formula": "Ôn Tỳ Thang (Wen Pi Tang) / Phụ Tử Lý Trung Thang",
+      "alternative_formulas": ["Đào Hoa Thang (hư hàn lỵ mạn, có máu nhạt)", "Chân Nhân Dưỡng Tạng Thang (sa trực tràng, không kiểm soát phân)", "Tứ Thần Hoàn (kèm Thận dương hư)"],
+      "key_herbs": ["Phụ tử chế 6-9g", "Can khương 6g", "Đảng sâm 12g", "Bạch truật 12g", "Nhục đậu khấu 6g", "Kha tử 9g", "Ô mai 9g", "Cam thảo chích 6g"],
+      "acupuncture_points": ["Quan Nguyên CV4 (cứu)", "Thần Khuyết CV8 (cứu)", "Đại Trường Du BL25", "Tỳ Du BL20", "Túc Tam Lý ST36", "Thiên Xu ST25 (cứu)"],
+      "lifestyle_advice": "Tránh tuyệt đối đồ lạnh sống, mặc ấm vùng bụng, cứu ngải hàng ngày, ăn ấm, không ngồi trên nền lạnh ẩm"
+    },
+    "yhhd_correlations": ["Chronic non-infectious diarrhea", "IBS-D elderly", "Fecal incontinence elderly", "Rectal prolapse", "Post-radiation proctitis chronic"],
+    "safety_notes": "Phụ tử cần chế đúng chuẩn; theo dõi chức năng thận và gan khi dùng dài ngày; kiểm tra colonoscopy loại trừ ung thư đại tràng ở người >50 tuổi",
+    "follow_up_timing": "6-8 tuần",
+    "red_flag_override": "Máu tươi trong phân, sụt cân không rõ nguyên nhân, thay đổi thói quen đại tiện đột ngột — nội soi đại tràng ngay",
+    "prevalence_vietnam": "common",
+    "common_demographics": "Người cao tuổi >65 tuổi, người sống vùng lạnh ẩm, người có tiền sử dùng kháng sinh dài ngày, bệnh nhân sau xạ trị vùng chậu"
+  }
+]

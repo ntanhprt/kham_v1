@@ -1,0 +1,1274 @@
+[
+  {
+    "phrase_id": "OBS_B05_001",
+    "phrase_vi": "mệt mỏi",
+    "variants_vi": ["mệt", "người mệt", "kiệt sức", "không có năng lượng", "mệt mỏi toàn thân"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Bạn có thể mô tả cụ thể hơn về cảm giác mệt mỏi không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Mệt mỏi toàn thân, không muốn nói chuyện, tứ chi nặng nề, sau ăn muốn ngủ",
+        "symptom_codes": ["general_fatigue", "post_meal_somnolence", "heavy_limbs", "low_motivation_to_speak"],
+        "yhct_hint": "Tỳ khí hư — Tỳ chủ tứ chi, khí huyết sinh hóa bất túc",
+        "yhhd_hint": "Chronic fatigue syndrome, anemia, hypothyroidism, depression, malnutrition"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Mệt nhưng không ngủ được, bứt rứt, khó chịu, hồi hộp",
+        "symptom_codes": ["fatigue_with_insomnia", "restlessness", "palpitations"],
+        "yhct_hint": "Tâm Tỳ lưỡng hư hoặc Âm hư hỏa vượng — thần không an",
+        "yhhd_hint": "Anxiety disorder, insomnia, hyperthyroidism, cardiac arrhythmia"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Mệt kèm đau nhức toàn thân, sốt nhẹ, không muốn ăn",
+        "symptom_codes": ["fatigue_with_body_ache", "low_grade_fever", "anorexia"],
+        "yhct_hint": "Ngoại cảm phong hàn hoặc thấp nhiệt xâm nhập",
+        "yhhd_hint": "Viral infection, influenza, early sepsis, autoimmune disease"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Mệt mỏi là triệu chứng không đặc hiệu, cần khai thác kỹ hoàn cảnh xuất hiện, thời gian kéo dài, yếu tố liên quan"
+  },
+  {
+    "phrase_id": "OBS_B05_002",
+    "phrase_vi": "kiệt sức",
+    "variants_vi": ["kiệt lực", "không còn sức", "đuối sức", "hết sức", "không đứng dậy được"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Bạn cảm thấy kiệt sức từ bao giờ và có kèm triệu chứng gì không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Kiệt sức đột ngột, không làm được việc gì, kèm đau ngực hoặc khó thở",
+        "symptom_codes": ["sudden_extreme_fatigue", "chest_pain", "dyspnea"],
+        "yhct_hint": "Tâm khí bạo hư — khẩn cấp cần xử trí",
+        "yhhd_hint": "Acute cardiac event (ACS, heart failure), pulmonary embolism — EMERGENCY"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Kiệt sức kéo dài nhiều tuần, kèm sụt cân, sốt về chiều",
+        "symptom_codes": ["prolonged_exhaustion", "weight_loss", "afternoon_fever"],
+        "yhct_hint": "Khí huyết đại hư, Âm hư lao nhiệt — nghi lao hoặc ác tính",
+        "yhhd_hint": "Tuberculosis, lymphoma, HIV, occult malignancy — RED FLAG"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Kiệt sức sau hoạt động thể lực hoặc bệnh nặng vừa qua",
+        "symptom_codes": ["post_exertional_exhaustion", "post_illness_fatigue"],
+        "yhct_hint": "Chính khí hư nhược sau bệnh — cần bổ dưỡng",
+        "yhhd_hint": "Post-viral fatigue, post-COVID syndrome, post-operative debility"
+      }
+    ],
+    "red_flag_trigger": ["A", "B"],
+    "notes": "Kiệt sức đột ngột kèm đau ngực là cấp cứu tim mạch; kiệt sức kéo dài kèm sụt cân cần loại trừ ác tính và lao"
+  },
+  {
+    "phrase_id": "OBS_B05_003",
+    "phrase_vi": "không có sức",
+    "variants_vi": ["người không có lực", "yếu sức", "tay chân không có sức", "đi không nổi", "mềm người"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Bạn cảm thấy yếu ở đâu — toàn thân hay tay chân cụ thể?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Yếu tay chân đối xứng hai bên, khó leo cầu thang, khó giơ tay lên",
+        "symptom_codes": ["proximal_muscle_weakness", "difficulty_climbing_stairs", "arm_weakness"],
+        "yhct_hint": "Tỳ Thận lưỡng hư — Tỳ chủ cơ nhục, Thận chủ cốt tủy",
+        "yhhd_hint": "Myopathy, polymyositis, hypothyroidism myopathy, muscular dystrophy"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Yếu một bên người, kèm tê bì, miệng méo hoặc nói khó",
+        "symptom_codes": ["unilateral_weakness", "paresthesia", "facial_asymmetry", "dysarthria"],
+        "yhct_hint": "Trúng phong — phong đàm trở trệ kinh lạc",
+        "yhhd_hint": "Stroke, TIA — EMERGENCY"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Yếu toàn thân kèm chán ăn, người gầy, xanh xao",
+        "symptom_codes": ["generalized_weakness", "anorexia", "weight_loss", "pallor"],
+        "yhct_hint": "Khí huyết lưỡng hư — Tỳ hư không vận hóa",
+        "yhhd_hint": "Malnutrition, anemia, chronic illness, cancer cachexia"
+      }
+    ],
+    "red_flag_trigger": ["B"],
+    "notes": "Yếu một bên người đột ngột là cấp cứu thần kinh"
+  },
+  {
+    "phrase_id": "OBS_B05_004",
+    "phrase_vi": "mệt mà không ngủ được",
+    "variants_vi": ["mệt nhưng không ngủ được", "mệt không ngủ", "người mệt mà trằn trọc", "thao thức dù mệt"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Bạn khó ngủ như thế nào — khó vào giấc, hay thức giữa đêm, hay ngủ không sâu?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Mệt nhưng nằm xuống lại bứt rứt, khó vào giấc, hay lo nghĩ",
+        "symptom_codes": ["fatigue_with_anxiety", "sleep_onset_insomnia", "rumination"],
+        "yhct_hint": "Tâm Tỳ lưỡng hư — Tâm thần không an, huyết hư không dưỡng tâm",
+        "yhhd_hint": "Anxiety disorder, insomnia, depression with anxiety features"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Mệt, nóng trong người về đêm, khó ngủ, hay mơ, giật mình",
+        "symptom_codes": ["fatigue_with_night_heat", "disturbed_sleep", "vivid_dreams", "sleep_startling"],
+        "yhct_hint": "Âm hư hỏa vượng — Tâm Thận bất giao",
+        "yhhd_hint": "Menopause, hyperthyroidism, anxiety, chronic stress"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Mệt nhưng đau nhức không ngủ được, đau tăng về đêm",
+        "symptom_codes": ["pain_induced_insomnia", "nocturnal_pain_exacerbation"],
+        "yhct_hint": "Khí trệ huyết ứ hoặc thấp tý — đau không cho ngủ",
+        "yhhd_hint": "Chronic pain syndrome, neuropathic pain, inflammatory arthritis"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Mệt mà không ngủ được thường gặp trong rối loạn tâm thần kinh, Âm hư và đau mãn tính"
+  },
+  {
+    "phrase_id": "OBS_B05_005",
+    "phrase_vi": "mệt cả ngày",
+    "variants_vi": ["mệt suốt ngày", "từ sáng đến tối đều mệt", "không có lúc nào hết mệt", "mệt triền miên"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Bạn mệt cả ngày từ bao lâu rồi và có lúc nào đỡ hơn không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Mệt cả ngày không kể nghỉ ngơi, kéo dài hơn 6 tháng, ảnh hưởng sinh hoạt",
+        "symptom_codes": ["persistent_fatigue_over_6months", "fatigue_unrelieved_by_rest", "functional_impairment"],
+        "yhct_hint": "Chính khí hư suy — Tỳ Thận lưỡng hư",
+        "yhhd_hint": "Chronic fatigue syndrome (ME/CFS), fibromyalgia, hypothyroidism, depression"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Mệt cả ngày kèm khát nước nhiều, tiểu nhiều, sụt cân",
+        "symptom_codes": ["fatigue_with_polydipsia", "polyuria", "weight_loss"],
+        "yhct_hint": "Tiêu khát — Phế Vị Thận âm hư",
+        "yhhd_hint": "Diabetes mellitus, diabetes insipidus — needs urgent evaluation"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Mệt cả ngày kèm vàng da, nước tiểu vàng, chán ăn",
+        "symptom_codes": ["fatigue_with_jaundice", "dark_urine", "anorexia"],
+        "yhct_hint": "Thấp nhiệt hoàng đản — Tỳ Vị thấp nhiệt",
+        "yhhd_hint": "Viral hepatitis, biliary obstruction, hemolytic anemia"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Mệt cả ngày không giảm dù nghỉ ngơi kéo dài >6 tháng cần đánh giá hội chứng mệt mỏi mãn tính"
+  },
+  {
+    "phrase_id": "OBS_B05_006",
+    "phrase_vi": "buổi sáng không muốn dậy",
+    "variants_vi": ["sáng không dậy được", "sáng dậy khó lắm", "buổi sáng người nặng nề", "sáng nào cũng không muốn dậy"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Buổi sáng bạn không muốn dậy vì mệt, vì không ngủ đủ giấc, hay vì không có hứng thú với ngày mới?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Sáng dậy người nặng nề, uể oải, cần thời gian dài mới tỉnh táo",
+        "symptom_codes": ["morning_grogginess", "prolonged_sleep_inertia", "lethargy"],
+        "yhct_hint": "Dương khí bất túc — Thận dương hư, dương khí không phấn phát buổi sáng",
+        "yhhd_hint": "Hypothyroidism, adrenal insufficiency, obstructive sleep apnea, depression"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Không muốn dậy vì không có hứng thú, buồn bã, không thấy ý nghĩa",
+        "symptom_codes": ["anhedonia", "low_mood", "lack_of_motivation"],
+        "yhct_hint": "Tâm Tỳ khí hư — Thần chí uất kết",
+        "yhhd_hint": "Major depressive disorder, dysthymia — psychological referral needed"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Không dậy được vì đau nhức toàn thân, cứng khớp buổi sáng",
+        "symptom_codes": ["morning_stiffness", "diffuse_body_ache", "joint_stiffness"],
+        "yhct_hint": "Phong hàn thấp tý — thấp khớp buổi sáng",
+        "yhhd_hint": "Rheumatoid arthritis, polymyalgia rheumatica, fibromyalgia"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Cần phân biệt dương hư (lạnh, mệt thể chất) với trầm cảm (mất hứng thú, buồn bã)"
+  },
+  {
+    "phrase_id": "OBS_B05_007",
+    "phrase_vi": "mệt sau khi hoạt động nhẹ",
+    "variants_vi": ["đi bộ một chút đã mệt", "làm việc nhẹ cũng mệt", "mệt nhanh hơn trước", "sức yếu dần"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Bạn mệt kèm khó thở hay chỉ mệt cơ thể thôi?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Mệt kèm khó thở khi gắng sức nhẹ, phải dừng lại nghỉ",
+        "symptom_codes": ["exertional_dyspnea", "exercise_intolerance", "reduced_activity_capacity"],
+        "yhct_hint": "Tâm Phế khí hư — khí không nạp vào Thận",
+        "yhhd_hint": "Heart failure, COPD, anemia, pulmonary hypertension"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Mệt cơ bắp nhanh, không khó thở, phục hồi chậm sau nghỉ",
+        "symptom_codes": ["rapid_muscle_fatigue", "slow_recovery", "no_dyspnea"],
+        "yhct_hint": "Tỳ khí hư — Tỳ chủ cơ nhục, không nuôi dưỡng tứ chi",
+        "yhhd_hint": "Myasthenia gravis, myopathy, hypothyroidism, electrolyte imbalance"
+      }
+    ],
+    "red_flag_trigger": ["A"],
+    "notes": "Khó thở khi gắng sức nhẹ ở người trung niên trở lên cần loại trừ bệnh tim và phổi"
+  },
+  {
+    "phrase_id": "OBS_B05_008",
+    "phrase_vi": "người không có năng lượng",
+    "variants_vi": ["không có sinh lực", "cơ thể như cạn kiệt", "không muốn làm gì", "người lừ đừ"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Tình trạng này xuất hiện từ bao giờ và có yếu tố gì khởi phát không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Không có năng lượng kèm lạnh tay chân, sợ lạnh, tiểu nhiều lần",
+        "symptom_codes": ["low_energy", "cold_extremities", "cold_intolerance", "urinary_frequency"],
+        "yhct_hint": "Thận dương hư — nguyên dương bất túc",
+        "yhhd_hint": "Hypothyroidism, adrenal insufficiency, renal failure"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Không có năng lượng kèm giảm hứng thú, ăn không ngon, ngủ không yên",
+        "symptom_codes": ["low_energy", "anhedonia", "poor_appetite", "poor_sleep"],
+        "yhct_hint": "Tâm Tỳ lưỡng hư — khí huyết hư suy",
+        "yhhd_hint": "Depression, chronic fatigue, burnout syndrome"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Thiếu năng lượng kéo dài cần phân biệt giữa Thận dương hư (thể chất), trầm cảm (tâm thần) và bệnh mãn tính nền"
+  },
+  {
+    "phrase_id": "OBS_B05_009",
+    "phrase_vi": "mệt kèm chóng mặt",
+    "variants_vi": ["mệt và hay chóng mặt", "mệt mỏi hay xây xẩm", "mệt đứng dậy tối mắt"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Chóng mặt xuất hiện khi nào — lúc đứng dậy hay cả khi ngồi yên?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đứng dậy đột ngột thấy tối mắt, choáng váng, phải vịn",
+        "symptom_codes": ["orthostatic_dizziness", "postural_hypotension", "near_syncope"],
+        "yhct_hint": "Khí huyết hư — huyết không thượng vinh não lạc",
+        "yhhd_hint": "Orthostatic hypotension, anemia, dehydration, autonomic dysfunction"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Mệt và chóng mặt cả khi ngồi yên, xây xẩm liên tục",
+        "symptom_codes": ["constant_dizziness", "vertigo", "fatigue"],
+        "yhct_hint": "Đàm thấp bế trở thanh khiếu hoặc Can dương thượng kháng",
+        "yhhd_hint": "BPPV, vestibular neuritis, hypertension, anemia, inner ear disorder"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Chóng mặt kèm mệt thường gặp trong thiếu máu, hạ huyết áp tư thế và rối loạn tiền đình"
+  },
+  {
+    "phrase_id": "OBS_B05_010",
+    "phrase_vi": "mệt kéo dài không rõ nguyên nhân",
+    "variants_vi": ["mệt hoài không biết tại sao", "mệt mãi không hết", "đi khám không ra bệnh nhưng vẫn mệt"],
+    "regions": ["all"],
+    "requires_disambiguation": false,
+    "disambiguation_question": null,
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Mệt mỏi kéo dài >6 tháng, không giải thích được bằng bệnh lý thông thường, ảnh hưởng chất lượng sống",
+        "symptom_codes": ["unexplained_chronic_fatigue", "prolonged_fatigue_over_6months", "reduced_quality_of_life"],
+        "yhct_hint": "Chính khí hư hoặc Khí Âm lưỡng hư — cần toàn diện tứ chẩn",
+        "yhhd_hint": "Chronic fatigue syndrome/ME, subclinical hypothyroidism, sleep apnea, occult malignancy — requires workup"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Mệt kéo dài không rõ nguyên nhân cần làm xét nghiệm cơ bản: CBC, TSH, glucose, LFT, RFT, CRP"
+  },
+  {
+    "phrase_id": "OBS_B05_011",
+    "phrase_vi": "sốt",
+    "variants_vi": ["bị sốt", "nóng sốt", "người nóng", "thân nhiệt cao", "bốc hỏa"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Sốt bao nhiêu độ, từ bao giờ và có triệu chứng gì kèm theo?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Sốt cao đột ngột >38.5°C, kèm ớn lạnh, đau đầu, đau nhức cơ",
+        "symptom_codes": ["high_fever", "chills", "headache", "myalgia"],
+        "yhct_hint": "Ngoại cảm phong nhiệt hoặc ôn bệnh — tà nhiệt nhập vào vệ khí",
+        "yhhd_hint": "Influenza, dengue fever, typhoid, bacterial infection, COVID-19"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Sốt nhẹ 37.5-38°C kéo dài nhiều ngày, kèm ho, đổ mồ hôi đêm, sụt cân",
+        "symptom_codes": ["low_grade_fever", "chronic_cough", "night_sweats", "weight_loss"],
+        "yhct_hint": "Âm hư lao nhiệt — lao phổi hoặc ác tính",
+        "yhhd_hint": "Tuberculosis, lymphoma, HIV, subacute endocarditis — RED FLAG"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Sốt kèm tiểu buốt, tiểu rát, đau hông lưng",
+        "symptom_codes": ["fever_with_dysuria", "burning_urination", "flank_pain"],
+        "yhct_hint": "Thấp nhiệt hạ chú — Bàng quang thấp nhiệt",
+        "yhhd_hint": "Urinary tract infection, pyelonephritis"
+      }
+    ],
+    "red_flag_trigger": ["B"],
+    "notes": "Sốt kéo dài >2 tuần không rõ nguyên nhân là dấu hiệu đỏ — cần loại trừ lao, ác tính, nhiễm khuẩn mạn tính"
+  },
+  {
+    "phrase_id": "OBS_B05_012",
+    "phrase_vi": "sốt về chiều",
+    "variants_vi": ["chiều tối hay sốt", "sốt xế chiều", "buổi chiều thấy người nóng lên", "sốt từ chiều đến tối"],
+    "regions": ["all"],
+    "requires_disambiguation": false,
+    "disambiguation_question": null,
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Sốt nhẹ về chiều tối, kèm gò má đỏ, ra mồ hôi đêm, miệng khô, lòng bàn tay bàn chân nóng",
+        "symptom_codes": ["afternoon_low_grade_fever", "malar_flush", "night_sweats", "dry_mouth", "palmar_plantar_heat"],
+        "yhct_hint": "Âm hư phát nhiệt — ngũ tâm phiền nhiệt, điển hình Thận Phế Tâm âm hư",
+        "yhhd_hint": "Tuberculosis, lymphoma, autoimmune disease, menopause, HIV — requires investigation"
+      }
+    ],
+    "red_flag_trigger": ["A"],
+    "notes": "Sốt chiều tối là dấu hiệu kinh điển của Âm hư trong YHCT và lao phổi trong YHHD — cần chụp X-quang phổi và làm xét nghiệm lao"
+  },
+  {
+    "phrase_id": "OBS_B05_013",
+    "phrase_vi": "ớn lạnh",
+    "variants_vi": ["sợ lạnh", "rùng mình", "ớn ớn", "thấy lạnh dù không lạnh", "gai người"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Bạn ớn lạnh có kèm sốt không, và cảm giác lạnh như thế nào?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Ớn lạnh báo trước sốt, rùng mình, sau đó sốt cao",
+        "symptom_codes": ["chills_preceding_fever", "rigors", "subsequent_high_fever"],
+        "yhct_hint": "Chính tà tương tranh — ngoại cảm tà khí giao tranh với chính khí",
+        "yhhd_hint": "Bacterial infection, malaria, sepsis — chills with rigors suggest bacteremia"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Luôn cảm thấy lạnh dù trời không lạnh, tay chân lạnh, không sốt",
+        "symptom_codes": ["chronic_cold_sensation", "cold_extremities", "no_fever"],
+        "yhct_hint": "Dương hư nội hàn — Thận dương hư, dương khí không ôn ấm tứ chi",
+        "yhhd_hint": "Hypothyroidism, Raynaud's disease, peripheral vascular disease, anemia"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Ớn lạnh run (rigors) kèm sốt cao gợi ý nhiễm khuẩn huyết — cần đánh giá khẩn"
+  },
+  {
+    "phrase_id": "OBS_B05_014",
+    "phrase_vi": "sốt kèm lạnh run",
+    "variants_vi": ["sốt run cầm cập", "vừa sốt vừa run", "rét run rồi sốt", "sốt và lạnh run"],
+    "regions": ["all"],
+    "requires_disambiguation": false,
+    "disambiguation_question": null,
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Lạnh run dữ dội, rồi sốt cao, kèm đổ mồ hôi nhiều, chu kỳ lặp lại",
+        "symptom_codes": ["cyclical_rigors", "high_fever", "profuse_sweating", "periodic_pattern"],
+        "yhct_hint": "Ngược tật — hàn nhiệt vãng lai, Thiếu dương chứng",
+        "yhhd_hint": "Malaria (classic intermittent fever pattern), sepsis — malaria testing mandatory in endemic areas"
+      }
+    ],
+    "red_flag_trigger": ["A"],
+    "notes": "Sốt kèm lạnh run theo chu kỳ ở miền Nam VN cần nghĩ đến sốt rét. Sốt run kèm hạ huyết áp gợi ý nhiễm khuẩn huyết"
+  },
+  {
+    "phrase_id": "OBS_B05_015",
+    "phrase_vi": "nóng lạnh xen kẽ",
+    "variants_vi": ["lúc nóng lúc lạnh", "người khi nóng khi lạnh", "thất thường nóng lạnh", "nóng rồi lạnh rồi lại nóng"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Nóng lạnh xen kẽ kèm theo triệu chứng gì và xảy ra thường xuyên không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Nóng lạnh xen kẽ kèm đắng miệng, sườn đau, buồn nôn, không muốn ăn",
+        "symptom_codes": ["alternating_chills_fever", "bitter_taste", "hypochondrial_pain", "nausea", "anorexia"],
+        "yhct_hint": "Thiếu dương chứng — Hàn nhiệt vãng lai, Can Đởm bất hòa",
+        "yhhd_hint": "Malaria, cholangitis, viral hepatitis, gallbladder disease"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Lúc bừng nóng mặt lúc lại lạnh người, kèm bốc hỏa, đổ mồ hôi, hay cáu",
+        "symptom_codes": ["hot_flashes", "cold_sweats", "mood_irritability", "vasomotor_symptoms"],
+        "yhct_hint": "Thận âm hư — Xung Nhâm bất điều, tiền mãn kinh",
+        "yhhd_hint": "Perimenopause, menopause, carcinoid syndrome, pheochromocytoma"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Thiếu dương chứng là bệnh cảnh kinh điển trong YHCT với tam chứng: nóng lạnh xen kẽ, đắng miệng, sườn đầy"
+  },
+  {
+    "phrase_id": "OBS_B05_016",
+    "phrase_vi": "bị cảm cúm",
+    "variants_vi": ["bị cảm", "cảm lạnh", "cảm gió", "bị cúm", "trúng gió"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Bạn bị cảm lạnh hay cảm nóng — người có lạnh không, hay người nóng, đau họng?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Sợ lạnh, sổ mũi nước trong, đau đầu, không ra mồ hôi, gai người",
+        "symptom_codes": ["cold_intolerance", "clear_nasal_discharge", "headache", "absence_of_sweating", "chills"],
+        "yhct_hint": "Phong hàn biểu chứng — hàn tà bế táo tấu lý",
+        "yhhd_hint": "Common cold (rhinovirus), influenza — supportive treatment"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Sốt cao, đau họng, chảy mũi vàng xanh, nhức đầu, khát nước",
+        "symptom_codes": ["high_fever", "sore_throat", "purulent_nasal_discharge", "headache", "thirst"],
+        "yhct_hint": "Phong nhiệt biểu chứng — nhiệt tà xâm phạm vệ phân",
+        "yhhd_hint": "Influenza, streptococcal pharyngitis, COVID-19, adenovirus"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Cảm lạnh tái đi tái lại nhiều lần trong năm, dễ bị cảm hơn người khác",
+        "symptom_codes": ["recurrent_upper_respiratory_infections", "immune_susceptibility"],
+        "yhct_hint": "Phế Vệ khí hư — Vệ khí bất cố, không bảo vệ cơ biểu",
+        "yhhd_hint": "Immunodeficiency, IgA deficiency, HIV, chronic illness with immune suppression"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Phân biệt phong hàn và phong nhiệt quyết định phương hướng điều trị YHCT: phát tán phong hàn vs thanh nhiệt giải biểu"
+  },
+  {
+    "phrase_id": "OBS_B05_017",
+    "phrase_vi": "sốt kéo dài",
+    "variants_vi": ["sốt hoài không hết", "sốt mãi", "sốt nhiều ngày", "sốt hơn một tuần", "sốt không rõ nguyên nhân"],
+    "regions": ["all"],
+    "requires_disambiguation": false,
+    "disambiguation_question": null,
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Sốt kéo dài hơn 2 tuần, không rõ nguyên nhân, kèm sụt cân, mệt mỏi, đổ mồ hôi đêm",
+        "symptom_codes": ["fever_over_2_weeks", "unexplained_fever", "weight_loss", "night_sweats", "fatigue"],
+        "yhct_hint": "Âm hư lao nhiệt hoặc tà khí phục tàng — cần tứ chẩn toàn diện",
+        "yhhd_hint": "Fever of Unknown Origin (FUO): TB, lymphoma, endocarditis, HIV, autoimmune disease — RED FLAG, urgent workup"
+      }
+    ],
+    "red_flag_trigger": ["A"],
+    "notes": "Sốt kéo dài >2 tuần không rõ nguyên nhân là RED FLAG — đây là tiêu chuẩn định nghĩa Fever of Unknown Origin (FUO)"
+  },
+  {
+    "phrase_id": "OBS_B05_018",
+    "phrase_vi": "người nóng bừng",
+    "variants_vi": ["bừng nóng", "nóng bừng mặt", "cảm giác nóng bốc lên", "bốc hỏa"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Cảm giác nóng bừng xảy ra khi nào và có kèm đổ mồ hôi không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Nóng bừng từng đợt, kèm đổ mồ hôi, hồi hộp, xảy ra ở phụ nữ trung niên",
+        "symptom_codes": ["hot_flashes", "episodic_sweating", "palpitations", "perimenopausal_age"],
+        "yhct_hint": "Thận âm hư, Xung Nhâm thất điều — bốc hỏa tiền mãn kinh",
+        "yhhd_hint": "Perimenopause/menopause, premature ovarian failure — hormonal evaluation"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Nóng bừng mặt kèm đau đầu, huyết áp cao, hồi hộp",
+        "symptom_codes": ["facial_flushing", "headache", "hypertension", "palpitations"],
+        "yhct_hint": "Can dương thượng kháng — Can hỏa vượng",
+        "yhhd_hint": "Hypertensive crisis, pheochromocytoma, carcinoid — urgent BP check"
+      }
+    ],
+    "red_flag_trigger": ["B"],
+    "notes": "Nóng bừng kèm tăng huyết áp đột ngột cần loại trừ u tủy thượng thận (pheochromocytoma)"
+  },
+  {
+    "phrase_id": "OBS_B05_019",
+    "phrase_vi": "ra mồ hôi nhiều",
+    "variants_vi": ["đổ mồ hôi nhiều", "hay ra mồ hôi", "mồ hôi ra nhiều", "đẫm mồ hôi", "toát mồ hôi"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Bạn ra mồ hôi nhiều vào thời điểm nào — ban ngày, ban đêm, hay cả hai?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Ra mồ hôi nhiều ban ngày dù không gắng sức, người mệt, hay sợ gió",
+        "symptom_codes": ["spontaneous_daytime_sweating", "fatigue", "aversion_to_wind"],
+        "yhct_hint": "Vệ khí bất cố — Phế khí hư, tấu lý không chặt chẽ",
+        "yhhd_hint": "Autonomic dysfunction, anxiety, hyperthyroidism, diabetes, medications (antipyretics)"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Ra mồ hôi nhiều toàn thân đột ngột, người lạnh ẩm, mặt tái",
+        "symptom_codes": ["profuse_sudden_sweating", "cold_clammy_skin", "pallor"],
+        "yhct_hint": "Vong dương hoặc khí hư dục thoát — nguy cấp",
+        "yhhd_hint": "Hypoglycemia, shock, acute MI, vasovagal syncope — EMERGENCY"
+      }
+    ],
+    "red_flag_trigger": ["B"],
+    "notes": "Ra mồ hôi lạnh đột ngột kèm mặt tái là dấu hiệu hạ đường huyết hoặc sốc — cần xử trí khẩn"
+  },
+  {
+    "phrase_id": "OBS_B05_020",
+    "phrase_vi": "đổ mồ hôi đêm",
+    "variants_vi": ["mồ hôi trộm", "ngủ hay đổ mồ hôi", "sáng dậy ướt áo", "ban đêm toát mồ hôi"],
+    "regions": ["all"],
+    "requires_disambiguation": false,
+    "disambiguation_question": null,
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đổ mồ hôi khi ngủ, thức dậy áo ướt, kèm sốt nhẹ chiều tối, sụt cân, mệt mỏi",
+        "symptom_codes": ["night_sweats", "afternoon_fever", "weight_loss", "fatigue"],
+        "yhct_hint": "Âm hư nội nhiệt — điển hình lao nhiệt hoặc âm hư hỏa vượng",
+        "yhhd_hint": "Tuberculosis, lymphoma, HIV, menopause, hyperthyroidism, medications — RED FLAG if with weight loss"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Đổ mồ hôi khi ngủ đơn thuần, không sốt, không sụt cân, phòng quá nóng",
+        "symptom_codes": ["night_sweats_without_systemic_symptoms", "environmental_heat"],
+        "yhct_hint": "Vệ khí bất cố hoặc âm hư nhẹ",
+        "yhhd_hint": "Physiologic night sweats, environmental factors, anxiety, obesity-related hyperhidrosis"
+      }
+    ],
+    "red_flag_trigger": ["A"],
+    "notes": "Mồ hôi trộm kèm sốt chiều và sụt cân là tam chứng kinh điển của lao phổi — bắt buộc chụp X-quang phổi"
+  },
+  {
+    "phrase_id": "OBS_B05_021",
+    "phrase_vi": "mồ hôi tay chân",
+    "variants_vi": ["tay chân hay ra mồ hôi", "bàn tay ướt mồ hôi", "bàn chân hay đổ mồ hôi", "tay lạnh mà ra mồ hôi"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Mồ hôi tay chân xảy ra lúc nào — lúc căng thẳng, lúc lạnh, hay thường xuyên?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Bàn tay bàn chân hay ra mồ hôi lạnh, đặc biệt khi hồi hộp hoặc căng thẳng",
+        "symptom_codes": ["palmar_plantar_hyperhidrosis", "cold_sweat", "stress_triggered"],
+        "yhct_hint": "Tâm Tỳ khí hư — Tâm chủ hãn, lo lắng hao tán tâm khí",
+        "yhhd_hint": "Primary focal hyperhidrosis, anxiety disorder, hyperthyroidism"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Tay chân lạnh ẩm liên tục, kèm tim đập nhanh, run tay",
+        "symptom_codes": ["cold_clammy_extremities", "tachycardia", "tremor"],
+        "yhct_hint": "Khí hư dương hư hoặc âm hư nội nhiệt",
+        "yhhd_hint": "Hypoglycemia, hyperthyroidism, anxiety disorder, pheochromocytoma"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Mồ hôi tay chân (hyperhidrosis khu trú) thường lành tính nhưng mồ hôi lạnh toàn thân cần loại trừ hạ đường huyết"
+  },
+  {
+    "phrase_id": "OBS_B05_022",
+    "phrase_vi": "ra mồ hôi lạnh",
+    "variants_vi": ["toát mồ hôi lạnh", "mồ hôi lạnh toát ra", "người lạnh đổ mồ hôi", "mồ hôi lạnh"],
+    "regions": ["all"],
+    "requires_disambiguation": false,
+    "disambiguation_question": null,
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đột ngột ra mồ hôi lạnh toàn thân, người tái xanh, yếu người, có thể ngất xỉu",
+        "symptom_codes": ["acute_cold_sweating", "pallor", "generalized_weakness", "pre_syncope"],
+        "yhct_hint": "Dương khí bạo hư — vong dương hoặc khí hư dục thoát, nguy hiểm",
+        "yhhd_hint": "Hypoglycemia, acute MI, vasovagal syncope, shock, severe pain — EMERGENCY evaluation needed"
+      }
+    ],
+    "red_flag_trigger": ["A"],
+    "notes": "Ra mồ hôi lạnh đột ngột là dấu hiệu cấp cứu tiềm tàng — cần kiểm tra đường huyết, huyết áp, mạch ngay lập tức"
+  },
+  {
+    "phrase_id": "OBS_B05_023",
+    "phrase_vi": "ra mồ hôi khi ngủ nhưng người lạnh",
+    "variants_vi": ["ngủ đổ mồ hôi mà người lạnh", "mồ hôi đêm mà tay chân lạnh", "toát mồ hôi lạnh khi ngủ"],
+    "regions": ["all"],
+    "requires_disambiguation": false,
+    "disambiguation_question": null,
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Ngủ đổ mồ hôi nhưng người lạnh, tay chân lạnh, không có cảm giác nóng",
+        "symptom_codes": ["night_sweats_with_cold_body", "cold_extremities_at_night"],
+        "yhct_hint": "Dương hư không nhiếp âm — Thận dương hư, vệ khí hư không cố nhiếp tấu lý",
+        "yhhd_hint": "Hypothyroidism, autonomic neuropathy, adrenal insufficiency"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Phân biệt: mồ hôi đêm kèm nóng người → Âm hư; mồ hôi đêm kèm lạnh người → Dương hư"
+  },
+  {
+    "phrase_id": "OBS_B05_024",
+    "phrase_vi": "sụt cân không rõ nguyên nhân",
+    "variants_vi": ["gầy đi không biết tại sao", "tự nhiên gầy xuống", "cân nặng giảm mà không ăn kiêng", "sụt ký không rõ lý do"],
+    "regions": ["all"],
+    "requires_disambiguation": false,
+    "disambiguation_question": null,
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Sụt >5% cân nặng trong 1 tháng hoặc >10% trong 6 tháng không rõ nguyên nhân",
+        "symptom_codes": ["significant_unintentional_weight_loss", "unexplained_weight_loss_over_5percent"],
+        "yhct_hint": "Tỳ Vị hư suy cực độ hoặc Can khí phạm Tỳ — Tinh khí hao mòn nặng",
+        "yhhd_hint": "Malignancy (any site), tuberculosis, HIV/AIDS, hyperthyroidism, diabetes, malabsorption — RED FLAG requiring urgent full workup"
+      }
+    ],
+    "red_flag_trigger": ["A"],
+    "notes": "Sụt cân không chủ ý >5% trong 1 tháng là dấu hiệu đỏ tuyệt đối — bắt buộc làm đủ xét nghiệm loại trừ ác tính, lao, HIV"
+  },
+  {
+    "phrase_id": "OBS_B05_025",
+    "phrase_vi": "tăng cân nhanh",
+    "variants_vi": ["mập lên nhanh", "tăng cân bất thường", "béo lên nhanh chóng", "cân tăng không kiểm soát"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Bạn tăng cân kèm phù nề không, hay chỉ tăng mỡ?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Tăng cân nhanh kèm phù chân, phù mặt buổi sáng, tiểu ít",
+        "symptom_codes": ["rapid_weight_gain", "leg_edema", "facial_edema", "oliguria"],
+        "yhct_hint": "Thận dương hư hoặc Tỳ khí hư — thủy thấp ứ đọng",
+        "yhhd_hint": "Heart failure, nephrotic syndrome, liver cirrhosis, hypothyroidism — urgent evaluation"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Tăng cân, mặt tròn, bụng to, tay chân nhỏ, da mỏng dễ bầm tím",
+        "symptom_codes": ["central_obesity", "moon_face", "thin_skin", "easy_bruising"],
+        "yhct_hint": "Tỳ hư thấp thịnh, khí trệ huyết ứ — thể trạng đặc biệt",
+        "yhhd_hint": "Cushing's syndrome — cortisol excess evaluation needed"
+      }
+    ],
+    "red_flag_trigger": ["A"],
+    "notes": "Tăng cân nhanh kèm phù gợi ý tích nước — cần kiểm tra tim, thận, gan ngay"
+  },
+  {
+    "phrase_id": "OBS_B05_026",
+    "phrase_vi": "ăn ít mà béo",
+    "variants_vi": ["ăn không nhiều mà vẫn mập", "ít ăn mà vẫn tăng cân", "hầu như không ăn mà vẫn béo"],
+    "regions": ["all"],
+    "requires_disambiguation": false,
+    "disambiguation_question": null,
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Ăn ít nhưng vẫn tăng cân, người phù nề, lạnh, uể oải, da khô, táo bón",
+        "symptom_codes": ["weight_gain_despite_low_intake", "edema", "cold_intolerance", "dry_skin", "constipation"],
+        "yhct_hint": "Tỳ Thận dương hư — khí hoá bất lợi, thủy thấp nội đình, tân dịch không vận hóa",
+        "yhhd_hint": "Hypothyroidism, Cushing's syndrome, polycystic ovary syndrome (PCOS), insulin resistance — thyroid function test needed"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Ăn ít mà béo kèm lạnh, mệt, táo bón gợi ý suy giáp — cần xét nghiệm TSH, fT4"
+  },
+  {
+    "phrase_id": "OBS_B05_027",
+    "phrase_vi": "ăn nhiều mà gầy",
+    "variants_vi": ["ăn nhiều mà vẫn gầy", "ăn hoài không lên cân", "hay đói mà không tăng cân", "ăn khỏe mà người xơ xác"],
+    "regions": ["all"],
+    "requires_disambiguation": false,
+    "disambiguation_question": null,
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Ăn nhiều vẫn gầy, kèm khát nước nhiều, tiểu nhiều, mệt mỏi",
+        "symptom_codes": ["polyphagia", "weight_loss_despite_high_intake", "polydipsia", "polyuria", "fatigue"],
+        "yhct_hint": "Tiêu khát — Vị nhiệt thiêu đốt tân dịch, Âm hư nội nhiệt",
+        "yhhd_hint": "Diabetes mellitus type 1 or uncontrolled type 2, hyperthyroidism — urgent glucose testing"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Ăn nhiều mà gầy, kèm tim đập nhanh, tay run, bứt rứt, mắt lồi",
+        "symptom_codes": ["polyphagia", "weight_loss", "tachycardia", "tremor", "restlessness", "exophthalmos"],
+        "yhct_hint": "Âm hư hỏa vượng — Can Vị nhiệt thịnh tiêu đốt",
+        "yhhd_hint": "Hyperthyroidism (Graves' disease) — thyroid function urgent"
+      }
+    ],
+    "red_flag_trigger": ["A", "B"],
+    "notes": "Ăn nhiều mà gầy là tam chứng điển hình của đái tháo đường và cường giáp — cần xét nghiệm glucose và TSH ngay"
+  },
+  {
+    "phrase_id": "OBS_B05_028",
+    "phrase_vi": "khát nước nhiều",
+    "variants_vi": ["uống nước nhiều", "hay khát", "uống nước hoài vẫn khát", "miệng khô khát nước"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Bạn uống bao nhiêu lít nước mỗi ngày và có tiểu nhiều không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Khát nước rất nhiều, uống >3 lít/ngày vẫn còn khát, tiểu nhiều lần",
+        "symptom_codes": ["polydipsia_over_3L_daily", "polyuria", "insatiable_thirst"],
+        "yhct_hint": "Thượng tiêu tiêu khát — Phế âm hư hoặc Vị nhiệt",
+        "yhhd_hint": "Diabetes mellitus, diabetes insipidus, hypercalcemia — urgent glucose and electrolyte check"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Miệng khô khát nhưng uống ít, không muốn uống nhiều, thích uống ấm",
+        "symptom_codes": ["dry_mouth", "low_thirst_drive", "preference_for_warm_drinks"],
+        "yhct_hint": "Tân dịch hư hoặc Tỳ dương hư — khẩu khô nhưng không muốn uống",
+        "yhhd_hint": "Sjogren's syndrome, dehydration, medication side effects, anxiety"
+      }
+    ],
+    "red_flag_trigger": ["A"],
+    "notes": "Tam chứng tiêu khát (polyphagia, polydipsia, polyuria) với sụt cân là biểu hiện đái tháo đường không kiểm soát"
+  },
+  {
+    "phrase_id": "OBS_B05_029",
+    "phrase_vi": "không khát dù trời nóng",
+    "variants_vi": ["không thấy khát nước", "ít uống nước", "quên uống nước", "không bao giờ khát"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Bạn có nước tiểu vàng đậm không và có mệt mỏi gì thêm không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Không cảm thấy khát dù trời nóng, nước tiểu vàng đậm, môi khô",
+        "symptom_codes": ["absent_thirst_sensation", "dark_urine", "dry_lips", "dehydration"],
+        "yhct_hint": "Tân dịch hư không kích thích khát — Thận âm hư hoặc Tỳ dương hư",
+        "yhhd_hint": "Chronic dehydration, hypodipsia (rare central lesion), elderly with reduced thirst reflex"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Không khát ở người cao tuổi, uống rất ít, dễ mất nước khi nóng",
+        "symptom_codes": ["age_related_hypodipsia", "dehydration_risk", "elderly"],
+        "yhct_hint": "Thận âm hư — tuổi cao tân dịch hao tổn, cảm giác khát giảm",
+        "yhhd_hint": "Physiologic hypodipsia in elderly — high risk of dehydration and hypernatremia in hot weather"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Người cao tuổi giảm cảm giác khát — cần nhắc nhở uống nước đủ lượng dù không cảm thấy khát"
+  },
+  {
+    "phrase_id": "OBS_B05_030",
+    "phrase_vi": "hay đói",
+    "variants_vi": ["mau đói", "hay thấy đói", "đói nhanh", "ăn xong chưa bao lâu đã đói"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Hay đói kèm sụt cân không, hay ăn nhiều mà vẫn đói và béo lên?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Hay đói, ăn nhiều nhưng sụt cân, kèm khát nước, tiểu nhiều",
+        "symptom_codes": ["polyphagia", "weight_loss", "polydipsia", "polyuria"],
+        "yhct_hint": "Trung tiêu tiêu khát — Vị nhiệt thịnh, tiêu đốt thủy cốc",
+        "yhhd_hint": "Uncontrolled diabetes mellitus, hyperthyroidism — urgent workup"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Hay đói, ăn nhiều, người béo lên, đặc biệt sau ăn tinh bột",
+        "symptom_codes": ["excessive_hunger", "weight_gain", "carbohydrate_craving"],
+        "yhct_hint": "Vị hỏa thịnh hoặc Tỳ hư không vận hóa — Vị mạnh ăn nhiều nhưng Tỳ yếu không tiêu",
+        "yhhd_hint": "Insulin resistance, prediabetes, PCOS, Cushing's syndrome"
+      }
+    ],
+    "red_flag_trigger": ["A"],
+    "notes": "Hay đói kèm sụt cân là dấu hiệu báo động — cần kiểm tra đường huyết và chức năng tuyến giáp ngay"
+  },
+  {
+    "phrase_id": "OBS_B05_031",
+    "phrase_vi": "không muốn ăn gì",
+    "variants_vi": ["chán ăn", "không muốn ăn", "nhìn thức ăn không muốn ăn", "mất cảm giác thèm ăn", "ăn không vô"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Bạn không muốn ăn từ bao lâu và có sụt cân không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Chán ăn kéo dài kèm sụt cân, mệt mỏi, buồn bã, không muốn làm gì",
+        "symptom_codes": ["prolonged_anorexia", "weight_loss", "fatigue", "low_mood", "anhedonia"],
+        "yhct_hint": "Tâm Tỳ lưỡng hư — Tỳ hư không vận hóa, Tâm thần bất an",
+        "yhhd_hint": "Depression, cancer cachexia, chronic disease, malignancy — RED FLAG if with weight loss"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Không muốn ăn sau bệnh, sau mổ, miệng nhạt, không thấy ngon",
+        "symptom_codes": ["post_illness_anorexia", "dysgeusia", "bland_taste"],
+        "yhct_hint": "Tỳ Vị hư nhược sau bệnh — Vị khí suy, không muốn nạp",
+        "yhhd_hint": "Post-viral anorexia, post-operative, medication side effects, zinc deficiency"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Không muốn ăn kèm buồn nôn, đau bụng trên, đầy hơi",
+        "symptom_codes": ["anorexia_with_nausea", "epigastric_pain", "bloating"],
+        "yhct_hint": "Tỳ Vị khí trệ hoặc Can Vị bất hòa — Vị khí không giáng",
+        "yhhd_hint": "Gastritis, peptic ulcer, GERD, gastric cancer (especially if >45 years)"
+      }
+    ],
+    "red_flag_trigger": ["A"],
+    "notes": "Chán ăn kéo dài kèm sụt cân ở người >45 tuổi cần loại trừ ung thư đường tiêu hóa"
+  },
+  {
+    "phrase_id": "OBS_B05_032",
+    "phrase_vi": "miệng nhạt",
+    "variants_vi": ["ăn không thấy ngon", "miệng không có vị", "mọi thứ đều nhạt nhẽo", "không cảm nhận được mùi vị"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Miệng nhạt từ bao giờ và có kèm chán ăn, sụt cân không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Miệng nhạt, ăn không ngon, người mệt, tứ chi nặng nề, phân lỏng",
+        "symptom_codes": ["tastelessness", "poor_appetite", "fatigue", "heavy_limbs", "loose_stools"],
+        "yhct_hint": "Tỳ khí hư — Tỳ chủ vận hóa, Tỳ hư không vận hóa thủy cốc",
+        "yhhd_hint": "Malnutrition, zinc deficiency, hypothyroidism, post-infection recovery"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Mất vị giác hoặc khứu giác đột ngột sau nhiễm bệnh hô hấp",
+        "symptom_codes": ["sudden_ageusia", "anosmia", "post_infection"],
+        "yhct_hint": "Phong tà xâm nhập kinh mạch — phong tà bế trở khiếu mũi và lưỡi",
+        "yhhd_hint": "Post-COVID anosmia/ageusia, post-viral olfactory loss — may persist months"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Mất vị giác và khứu giác sau COVID-19 có thể kéo dài nhiều tháng (post-COVID syndrome)"
+  },
+  {
+    "phrase_id": "OBS_B05_033",
+    "phrase_vi": "hay đắng miệng",
+    "variants_vi": ["miệng đắng", "sáng dậy miệng đắng", "ăn gì cũng thấy đắng", "đắng miệng suốt ngày"],
+    "regions": ["all"],
+    "requires_disambiguation": false,
+    "disambiguation_question": null,
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Miệng đắng, đặc biệt buổi sáng, kèm khô miệng, bứt rứt, hay cáu gắt, tiểu vàng",
+        "symptom_codes": ["bitter_taste", "morning_bitterness", "dry_mouth", "irritability", "dark_urine"],
+        "yhct_hint": "Can Đởm hỏa vượng — đởm dịch thượng nghịch",
+        "yhhd_hint": "Bile reflux gastritis, hepatobiliary disease, medications (antibiotics, metformin)"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Đắng miệng buổi sáng trong YHCT là chỉ điểm Can Đởm hỏa vượng; trong YHHD gợi ý trào ngược dịch mật"
+  },
+  {
+    "phrase_id": "OBS_B05_034",
+    "phrase_vi": "da vàng",
+    "variants_vi": ["người vàng", "da vàng mắt vàng", "nước tiểu vàng kèm da vàng", "hoàng đản"],
+    "regions": ["all"],
+    "requires_disambiguation": false,
+    "disambiguation_question": null,
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Da vàng sáng, mắt vàng, nước tiểu vàng đậm, phân trắng nhạt, ngứa",
+        "symptom_codes": ["jaundice", "scleral_icterus", "dark_urine", "pale_stools", "pruritus"],
+        "yhct_hint": "Thấp nhiệt hoàng đản — Tỳ Vị thấp nhiệt hun chưng, Đởm trấp không sơ tiết",
+        "yhhd_hint": "Obstructive jaundice (gallstone, cholangiocarcinoma, pancreatic cancer) — urgent imaging RED FLAG"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Da vàng kèm mệt mỏi, chán ăn, buồn nôn, đau hạ sườn phải, tiểu vàng",
+        "symptom_codes": ["jaundice", "fatigue", "anorexia", "nausea", "right_hypochondrial_pain"],
+        "yhct_hint": "Thấp nhiệt can đởm — Can Đởm thấp nhiệt",
+        "yhhd_hint": "Viral hepatitis (A, B, C, E), alcoholic hepatitis, drug-induced hepatitis"
+      }
+    ],
+    "red_flag_trigger": ["A"],
+    "notes": "Da vàng kèm phân trắng nhạt gợi ý tắc mật — đây là cấp cứu nội khoa cần siêu âm bụng ngay"
+  },
+  {
+    "phrase_id": "OBS_B05_035",
+    "phrase_vi": "mặt xanh xao",
+    "variants_vi": ["mặt tái", "da mặt xanh tái", "người nhợt nhạt", "trông xanh lắm", "mặt không có hồng hào"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Da xanh xao xuất hiện từ từ hay đột ngột, và kèm mệt mỏi hay chóng mặt không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Da mặt xanh xao từ từ, lòng bàn tay nhợt nhạt, mệt mỏi, hay chóng mặt, đứng lên tối mắt",
+        "symptom_codes": ["gradual_pallor", "palmar_pallor", "fatigue", "dizziness", "orthostatic_symptoms"],
+        "yhct_hint": "Huyết hư — Tỳ không sinh huyết, huyết không thượng vinh",
+        "yhhd_hint": "Iron deficiency anemia, B12/folate deficiency, chronic disease anemia — CBC needed"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Da tái đột ngột, vã mồ hôi lạnh, tim đập nhanh, yếu người",
+        "symptom_codes": ["sudden_pallor", "cold_sweating", "tachycardia", "weakness"],
+        "yhct_hint": "Khí huyết bạo hư — cấp thoát huyết hoặc vong dương",
+        "yhhd_hint": "Acute hemorrhage, hemorrhagic shock, acute MI — EMERGENCY"
+      }
+    ],
+    "red_flag_trigger": ["B"],
+    "notes": "Da tái đột ngột kèm mồ hôi lạnh là dấu hiệu cấp cứu — phải loại trừ xuất huyết và sốc"
+  },
+  {
+    "phrase_id": "OBS_B05_036",
+    "phrase_vi": "má đỏ chiều tối",
+    "variants_vi": ["chiều tối má hồng lên", "hai gò má đỏ về chiều", "má đỏ về buổi chiều", "gò má hồng lên tối tối"],
+    "regions": ["all"],
+    "requires_disambiguation": false,
+    "disambiguation_question": null,
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Hai gò má đỏ hồng về chiều tối, kèm sốt nhẹ, miệng khô, mắt khô, lòng bàn tay nóng",
+        "symptom_codes": ["malar_flush_afternoon", "low_grade_afternoon_fever", "dry_mouth", "dry_eyes", "palmar_heat"],
+        "yhct_hint": "Âm hư phát nhiệt — ngũ tâm phiền nhiệt, gò má đỏ chiều tối là chứng điển hình Thận Phế âm hư",
+        "yhhd_hint": "Tuberculosis, SLE (malar rash), menopause, mitral stenosis (malar flush) — requires investigation"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Gò má đỏ chiều tối là triệu chứng điển hình Âm hư trong YHCT; trong YHHD cần loại trừ lao và lupus ban đỏ"
+  },
+  {
+    "phrase_id": "OBS_B05_037",
+    "phrase_vi": "da khô",
+    "variants_vi": ["da hay bị khô", "da khô nứt nẻ", "da bong tróc", "da không có độ ẩm", "da mốc"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Da khô toàn thân hay khu trú, và kèm ngứa không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Da khô toàn thân, kèm lạnh, mệt, tăng cân, táo bón, tóc rụng",
+        "symptom_codes": ["generalized_dry_skin", "cold_intolerance", "fatigue", "weight_gain", "constipation", "hair_loss"],
+        "yhct_hint": "Tỳ Thận dương hư — dương không ôn ấm bì phu, tân dịch không nuôi dưỡng",
+        "yhhd_hint": "Hypothyroidism — TSH testing mandatory"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Da khô, miệng khô, mắt khô, ít nước bọt, khó nuốt",
+        "symptom_codes": ["dry_skin", "xerostomia", "dry_eyes", "dysphagia"],
+        "yhct_hint": "Tân dịch hư — Phế Vị Thận âm hư, tân dịch không bố tán",
+        "yhhd_hint": "Sjogren's syndrome, dehydration, medication side effects (anticholinergics)"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Da khô toàn thân kèm lạnh và tăng cân là tam chứng điển hình của suy giáp"
+  },
+  {
+    "phrase_id": "OBS_B05_038",
+    "phrase_vi": "môi thâm",
+    "variants_vi": ["môi tím tái", "môi đen", "môi thâm xịt", "môi không hồng hào", "môi thâm môi tím"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Môi thâm tím từ lúc nhỏ hay mới xuất hiện gần đây?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Môi tím xanh kèm khó thở, tím đầu ngón tay, nặng khi gắng sức",
+        "symptom_codes": ["cyanotic_lips", "dyspnea", "peripheral_cyanosis", "exertional_worsening"],
+        "yhct_hint": "Tâm Phế khí hư huyết ứ — tâm phế dương hư, huyết không lưu thông",
+        "yhhd_hint": "Cyanotic heart disease, severe COPD, pulmonary hypertension — URGENT cardiopulmonary evaluation"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Môi thâm kèm khí huyết kém, da xanh xao, tay chân lạnh, hay mệt",
+        "symptom_codes": ["dark_lips", "poor_circulation", "pallor", "cold_extremities", "fatigue"],
+        "yhct_hint": "Huyết ứ — khí trệ huyết ứ, huyết không lưu thông nuôi dưỡng bì phu",
+        "yhhd_hint": "Chronic anemia, peripheral vascular disease, Raynaud's, chronic liver disease"
+      }
+    ],
+    "red_flag_trigger": ["A"],
+    "notes": "Môi tím xanh cấp tính kèm khó thở là cấp cứu hô hấp tim mạch"
+  },
+  {
+    "phrase_id": "OBS_B05_039",
+    "phrase_vi": "da vàng xỉn không kèm mắt vàng",
+    "variants_vi": ["nước da vàng nhưng mắt không vàng", "da ngả vàng không rõ", "da xỉn vàng"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Bạn có ăn nhiều cà rốt hoặc bí ngô không, và bác sĩ có kiểm tra mắt chưa?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Da vàng xỉn toàn thân, mắt không vàng, kèm mệt mỏi, thiếu máu, uể oải",
+        "symptom_codes": ["sallow_skin", "no_scleral_icterus", "fatigue", "anemia"],
+        "yhct_hint": "Huyết hư hoặc Tỳ Vị khí hư — khí huyết không nuôi dưỡng bì phu",
+        "yhhd_hint": "Iron deficiency anemia (sallow skin), renal failure (uremic skin changes), carotenemia (benign)"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Phân biệt: da vàng + mắt vàng = vàng da thật (bilirubin); da vàng mà mắt không vàng = carotenemia hoặc thiếu máu"
+  },
+  {
+    "phrase_id": "OBS_B05_040",
+    "phrase_vi": "tiểu nhiều lần",
+    "variants_vi": ["đi tiểu nhiều", "hay đi tiểu", "mỗi giờ đi tiểu", "tiểu suốt", "không nhịn được tiểu"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Bạn tiểu nhiều lần nhưng mỗi lần ít hay mỗi lần ra nhiều?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Tiểu nhiều lần, mỗi lần ra ít, buốt, rát, nước tiểu đục hoặc có mùi",
+        "symptom_codes": ["urinary_frequency", "small_volume_voiding", "dysuria", "turbid_urine", "malodorous_urine"],
+        "yhct_hint": "Bàng quang thấp nhiệt — thấp nhiệt hạ chú bàng quang",
+        "yhhd_hint": "Urinary tract infection, cystitis, urethritis — urine culture needed"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Tiểu nhiều lần, mỗi lần ra nhiều, uống nhiều, khát nhiều",
+        "symptom_codes": ["polyuria", "polydipsia", "high_volume_voiding"],
+        "yhct_hint": "Tiêu khát — Thận âm hư hoặc Phế Vị nhiệt",
+        "yhhd_hint": "Diabetes mellitus, diabetes insipidus, hypercalcemia — glucose and osmolality testing"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Tiểu nhiều lần ở nam giới lớn tuổi, tia tiểu yếu, tiểu khó, tia tiểu ngắt quãng",
+        "symptom_codes": ["urinary_frequency_elderly_male", "weak_urinary_stream", "urinary_hesitancy", "intermittent_stream"],
+        "yhct_hint": "Thận khí bất cố — Thận dương hư, khí hóa bàng quang bất lợi",
+        "yhhd_hint": "Benign prostatic hyperplasia (BPH), prostate cancer — PSA and ultrasound needed"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Tiểu nhiều + uống nhiều gợi ý đái tháo đường; ở nam giới lớn tuổi tiểu nhiều lần kèm tiểu khó cần loại trừ bệnh tuyến tiền liệt"
+  },
+  {
+    "phrase_id": "OBS_B05_041",
+    "phrase_vi": "tiểu đêm",
+    "variants_vi": ["ban đêm hay thức dậy đi tiểu", "thức đêm đi tiểu", "đêm tiểu nhiều lần", "hay tiểu đêm"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Bạn tiểu đêm mấy lần và từ bao lâu nay?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Tiểu đêm 2-3 lần trở lên, ảnh hưởng giấc ngủ, kèm mệt mỏi ban ngày",
+        "symptom_codes": ["nocturia_2_or_more", "sleep_disruption", "daytime_fatigue"],
+        "yhct_hint": "Thận khí bất cố — Thận dương hư, đêm thuộc âm dương hư không khí hóa",
+        "yhhd_hint": "BPH, overactive bladder, heart failure (nocturnal diuresis), diabetes, sleep apnea"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Tiểu đêm nhiều lần ở người trẻ cần loại trừ đái tháo đường và bàng quang tăng hoạt; ở người lớn tuổi thêm BPH và suy tim"
+  },
+  {
+    "phrase_id": "OBS_B05_042",
+    "phrase_vi": "tiểu ít",
+    "variants_vi": ["ít tiểu", "cả ngày tiểu ít", "tiểu không ra", "tiểu ít mà nước tiểu vàng đậm"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Bạn uống ít nước hay uống nhiều mà vẫn tiểu ít?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Tiểu ít đột ngột, nước tiểu rất ít hoặc không có, kèm phù, mệt mỏi",
+        "symptom_codes": ["acute_oliguria", "anuria", "edema", "fatigue"],
+        "yhct_hint": "Thận khí suy tuyệt — khí hóa bất năng, thủy độc nội đình",
+        "yhhd_hint": "Acute kidney injury (AKI), urinary retention, dehydration — URGENT renal function test"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Tiểu ít do uống ít nước, trời nóng mà không bù nước",
+        "symptom_codes": ["oliguria_due_to_dehydration", "heat_exposure", "inadequate_fluid_intake"],
+        "yhct_hint": "Tân dịch hao tổn — âm dịch hư thiếu",
+        "yhhd_hint": "Dehydration — increase fluid intake, monitor"
+      }
+    ],
+    "red_flag_trigger": ["A"],
+    "notes": "Tiểu ít đột ngột không do thiếu nước là cấp cứu thận — cần xét nghiệm creatinine, BUN ngay"
+  },
+  {
+    "phrase_id": "OBS_B05_043",
+    "phrase_vi": "tiểu khó",
+    "variants_vi": ["rặn mới tiểu được", "tiểu không ra", "tiểu phải rặn", "khó tiểu", "tia tiểu yếu"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Bạn tiểu khó từ bao lâu, tiểu có đau không, và tia tiểu như thế nào?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Tiểu khó, tia tiểu yếu, tiểu không hết, sau tiểu còn cảm giác buốt, ở nam lớn tuổi",
+        "symptom_codes": ["urinary_hesitancy", "weak_stream", "incomplete_emptying", "post_void_dribbling"],
+        "yhct_hint": "Thận khí bất cố — Thận dương hư, bàng quang khí hóa bất lợi, Tỳ khí hạ hãm",
+        "yhhd_hint": "BPH, urethral stricture, prostate cancer — PSA, ultrasound, uroflowmetry"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Tiểu khó đột ngột hoàn toàn không tiểu được, bụng dưới căng đau",
+        "symptom_codes": ["acute_urinary_retention", "suprapubic_distension", "pain"],
+        "yhct_hint": "Lâm chứng bế tắc — khẩn cấp",
+        "yhhd_hint": "Acute urinary retention — EMERGENCY catheterization needed"
+      }
+    ],
+    "red_flag_trigger": ["B"],
+    "notes": "Bí tiểu hoàn toàn là cấp cứu niệu khoa cần đặt thông tiểu ngay"
+  },
+  {
+    "phrase_id": "OBS_B05_044",
+    "phrase_vi": "nước tiểu vàng đậm",
+    "variants_vi": ["tiểu vàng sẫm", "nước tiểu màu vàng đậm", "tiểu màu nâu", "tiểu màu trà đặc"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Nước tiểu vàng đậm có kèm đau lưng, sốt, hay da vàng không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Nước tiểu vàng đậm đơn thuần, không uống đủ nước, không kèm triệu chứng khác",
+        "symptom_codes": ["concentrated_urine", "inadequate_hydration"],
+        "yhct_hint": "Tân dịch hao tổn — nên bổ sung nước",
+        "yhhd_hint": "Dehydration — benign, increase fluid intake"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Nước tiểu vàng đậm như nước trà, kèm da vàng, mắt vàng, mệt mỏi, chán ăn",
+        "symptom_codes": ["dark_brown_urine", "jaundice", "fatigue", "anorexia"],
+        "yhct_hint": "Thấp nhiệt hoàng đản — Tỳ Vị thấp nhiệt, Đởm trấp lan tràn",
+        "yhhd_hint": "Hepatitis, biliary obstruction — liver function tests urgent"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Nước tiểu đỏ nâu như nước thịt, sau chấn thương hoặc gắng sức nặng",
+        "symptom_codes": ["reddish_brown_urine", "myoglobinuria", "post_trauma_or_exertion"],
+        "yhct_hint": "Huyết nhiệt hạ lưu — xuất huyết hoặc cơ hoại tử",
+        "yhhd_hint": "Rhabdomyolysis, acute glomerulonephritis, hematuria — URGENT renal evaluation"
+      }
+    ],
+    "red_flag_trigger": ["B", "C"],
+    "notes": "Nước tiểu màu nâu đỏ sau gắng sức nặng gợi ý tiêu cơ vân (rhabdomyolysis) — có thể gây suy thận cấp"
+  },
+  {
+    "phrase_id": "OBS_B05_045",
+    "phrase_vi": "nước tiểu đục",
+    "variants_vi": ["tiểu đục", "nước tiểu không trong", "tiểu có cặn", "nước tiểu trắng đục"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Nước tiểu đục kèm mùi hôi, sốt, tiểu buốt không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Nước tiểu đục, mùi hôi, tiểu buốt, sốt, đau lưng hoặc bụng dưới",
+        "symptom_codes": ["turbid_urine", "malodorous_urine", "dysuria", "fever", "loin_pain"],
+        "yhct_hint": "Bàng quang thấp nhiệt — thấp nhiệt hạ chú, tiết ra nước tiểu đục",
+        "yhhd_hint": "Urinary tract infection, pyelonephritis — urgent urine culture and antibiotic treatment"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Nước tiểu trắng đục như sữa, không đau, không sốt",
+        "symptom_codes": ["milky_urine", "chyluria", "no_pain_no_fever"],
+        "yhct_hint": "Thận hư tinh khí thoát hạ hoặc thấp trọc hạ lưu",
+        "yhhd_hint": "Chyluria (lymphatic fistula), hyperoxaluria, phosphaturia — requires further evaluation"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Nước tiểu đục kèm sốt và tiểu buốt cần cấy nước tiểu và điều trị kháng sinh kịp thời"
+  },
+  {
+    "phrase_id": "OBS_B05_046",
+    "phrase_vi": "sụt hơn 5kg trong 1 tháng",
+    "variants_vi": ["giảm 5 ký trong 1 tháng", "trong 1 tháng sụt 5-6 kg", "tháng này gầy đi nhiều", "cân giảm nhanh trong thời gian ngắn"],
+    "regions": ["all"],
+    "requires_disambiguation": false,
+    "disambiguation_question": null,
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Sụt >5kg trong 1 tháng không rõ nguyên nhân, không ăn kiêng, không tập thể dục nhiều hơn",
+        "symptom_codes": ["significant_rapid_weight_loss", "unintentional_weight_loss_over_5kg_monthly", "unexplained_cachexia"],
+        "yhct_hint": "Tinh khí đại hư — Tỳ Vị suy bại, nguồn sinh hóa khí huyết kiệt quệ — nghi ác tính",
+        "yhhd_hint": "CRITICAL RED FLAG: malignancy (any site especially GI, lung, lymphoma), tuberculosis, HIV/AIDS, hyperthyroidism, severe diabetes — MANDATORY full oncological workup: CBC, ESR, CRP, LFT, RFT, CA125/CEA/AFP, chest X-ray, abdominal ultrasound"
+      }
+    ],
+    "red_flag_trigger": ["A"],
+    "notes": "RED FLAG TUYỆT ĐỐI: sụt >5% cân nặng trong 1 tháng không rõ nguyên nhân — cần loại trừ ung thư, lao, HIV. Đây là tiêu chuẩn chẩn đoán B-symptoms trong lymphoma"
+  },
+  {
+    "phrase_id": "OBS_B05_047",
+    "phrase_vi": "sốt kéo dài hơn 2 tuần",
+    "variants_vi": ["sốt hơn 2 tuần không hết", "sốt 15 ngày rồi vẫn chưa hết", "sốt dai dẳng", "sốt mãi hơn 2 tuần"],
+    "regions": ["all"],
+    "requires_disambiguation": false,
+    "disambiguation_question": null,
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Sốt kéo dài trên 2 tuần, nhiệt độ >38.3°C, sau khi loại trừ nguyên nhân thông thường",
+        "symptom_codes": ["fever_over_2_weeks", "temperature_over_38_3C", "fever_of_unknown_origin"],
+        "yhct_hint": "Tà khí phục tàng hoặc Âm hư nội nhiệt — cần phân biệt ngoại cảm mạn, âm hư và tà nhiệt",
+        "yhhd_hint": "CRITICAL RED FLAG — Fever of Unknown Origin (FUO): tuberculosis, lymphoma (Hodgkin/Non-Hodgkin), infective endocarditis, visceral leishmaniasis, HIV, autoimmune (SLE, Still's disease) — requires hospitalization for workup"
+      }
+    ],
+    "red_flag_trigger": ["A"],
+    "notes": "RED FLAG: Sốt kéo dài >2 tuần đáp ứng tiêu chuẩn FUO (Fever of Unknown Origin) — cần nhập viện để điều tra toàn diện, không tự dùng kháng sinh bừa bãi"
+  },
+  {
+    "phrase_id": "OBS_B05_048",
+    "phrase_vi": "mệt dữ dội đột ngột kèm đau ngực",
+    "variants_vi": ["tự nhiên mệt không đứng được kèm tức ngực", "đột ngột kiệt sức và đau ngực", "mệt lả người và thắt ngực"],
+    "regions": ["all"],
+    "requires_disambiguation": false,
+    "disambiguation_question": null,
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Mệt dữ dội đột ngột, đau ngực hoặc tức ngực, khó thở, vã mồ hôi lạnh",
+        "symptom_codes": ["sudden_severe_fatigue", "chest_pain", "dyspnea", "cold_sweating"],
+        "yhct_hint": "Tâm khí bạo hư — Tâm dương bất cố, khí huyết không lưu thông — khẩn cấp tuyệt đối",
+        "yhhd_hint": "MEDICAL EMERGENCY: Acute Coronary Syndrome (ACS/STEMI/NSTEMI), acute pulmonary embolism, aortic dissection — CALL 115 IMMEDIATELY, DO NOT DELAY"
+      }
+    ],
+    "red_flag_trigger": ["A"],
+    "notes": "RED FLAG CẤP CỨU TỐI KHẨN: Mệt đột ngột kèm đau ngực là biểu hiện điển hình của nhồi máu cơ tim cấp — GỌI 115 NGAY, không chờ đợi"
+  },
+  {
+    "phrase_id": "OBS_B05_049",
+    "phrase_vi": "người xanh xao gầy mòn dần",
+    "variants_vi": ["ngày càng gầy và xanh", "teo tóp dần dần", "gầy rộc và xanh xao", "ngày càng xanh và gầy"],
+    "regions": ["all"],
+    "requires_disambiguation": false,
+    "disambiguation_question": null,
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Dần dần xanh xao gầy mòn, mất sức, chán ăn, kéo dài nhiều tháng",
+        "symptom_codes": ["progressive_cachexia", "pallor", "anorexia", "progressive_weakness", "chronic_course"],
+        "yhct_hint": "Khí huyết đại hư suy kiệt — Tỳ Thận lưỡng hư, tinh huyết hao tổn — cần loại trừ ác tính",
+        "yhhd_hint": "Cancer cachexia, tuberculosis with malnutrition, HIV wasting syndrome, chronic malabsorption — RED FLAG requiring urgent oncological screening"
+      }
+    ],
+    "red_flag_trigger": ["A"],
+    "notes": "Gầy mòn xanh xao tiến triển là hội chứng suy mòn (wasting syndrome/cachexia) — cần loại trừ ung thư và lao ngay"
+  },
+  {
+    "phrase_id": "OBS_B05_050",
+    "phrase_vi": "hay bị ốm vặt",
+    "variants_vi": ["hay bị bệnh linh tinh", "hệ miễn dịch yếu", "mau bệnh", "dễ mắc bệnh hơn người", "bệnh hoài"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Bạn hay bị loại bệnh gì — hay cảm cúm, hay nhiễm trùng, hay bệnh tiêu hóa?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Hay bị cảm cúm, viêm họng, tái đi tái lại, lành rồi lại bị, năm nào cũng vài lần",
+        "symptom_codes": ["recurrent_upper_respiratory_infections", "recurrent_pharyngitis", "frequent_colds"],
+        "yhct_hint": "Phế Vệ khí hư — Vệ khí bất cố, không bảo vệ cơ biểu chống ngoại tà",
+        "yhhd_hint": "IgA deficiency, common variable immunodeficiency (CVID), allergic rhinitis predisposing to infection"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Hay bị nhiễm trùng nặng hoặc bất thường, nhiễm trùng cơ hội, từ nhỏ đã hay bệnh nặng",
+        "symptom_codes": ["recurrent_severe_infections", "opportunistic_infections", "childhood_onset"],
+        "yhct_hint": "Tiên thiên bất túc — Thận tinh hư, bẩm sinh yếu",
+        "yhhd_hint": "Primary immunodeficiency, HIV infection, prolonged steroid/immunosuppressive use — immunology referral"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Hay ốm vặt sau giai đoạn căng thẳng, làm việc nhiều, ngủ ít",
+        "symptom_codes": ["stress_related_recurrent_illness", "burnout_susceptibility", "overwork_immune_suppression"],
+        "yhct_hint": "Chính khí hư nhược do lao nhọc — Tỳ Thận khí hư, lao nhọc thương chính khí",
+        "yhhd_hint": "Stress-induced immune suppression, burnout, sleep deprivation — lifestyle modification needed"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Hay bị nhiễm trùng cơ hội hoặc nhiễm trùng nặng bất thường ở người lớn cần loại trừ HIV và suy giảm miễn dịch nguyên phát"
+  }
+]

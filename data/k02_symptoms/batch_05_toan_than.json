@@ -1,0 +1,1162 @@
+[
+  {
+    "id": "SYM_B05_001",
+    "symptom_code": "post_exertion_fatigue",
+    "name_vi": "Mệt mỏi sau gắng sức",
+    "name_en": "Post-exertion fatigue / Exercise intolerance",
+    "category": "systemic",
+    "icd11_approximate": "MG22",
+    "severity_weight": 0.5,
+    "time_sensitivity": "chronic",
+    "bat_cuong_weights": {
+      "cold": 0.2,
+      "heat": 0.1,
+      "deficiency": 0.9,
+      "excess": 0.0,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.3,
+      "heart": 0.5,
+      "spleen": 0.6,
+      "lung": 0.4,
+      "kidney": 0.8
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["kidney_yang_deficiency_cluster", "heart_qi_deficiency_cluster", "ME_CFS_pattern"],
+    "yhct_clinical_note": "Thận tàng tinh, chủ cốt sinh tủy — gắng sức hao thận khí/thận tinh → mệt không hồi phục sau nghỉ ngơi. Nếu mệt kéo dài >6 tháng sau gắng sức nhẹ, nghĩ đến Hư lao (虛勞). Tâm chủ huyết mạch — gắng sức tăng nhu cầu → Tâm khí bất túc lộ rõ.",
+    "yhhd_clinical_note": "Distinguish physiological from pathological. Key DDx: ME/CFS (post-exertional malaise hallmark), heart failure (reduced exercise tolerance), anemia, hypothyroidism, myopathy, Long COVID. CPET useful for objective assessment."
+  },
+  {
+    "id": "SYM_B05_002",
+    "symptom_code": "morning_fatigue",
+    "name_vi": "Mệt mỏi buổi sáng / Khó thức dậy",
+    "name_en": "Morning fatigue / Sleep inertia / Difficulty initiating wakefulness",
+    "category": "systemic",
+    "icd11_approximate": "MG22",
+    "severity_weight": 0.35,
+    "time_sensitivity": "chronic",
+    "bat_cuong_weights": {
+      "cold": 0.4,
+      "heat": 0.0,
+      "deficiency": 0.9,
+      "excess": 0.1,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.3,
+      "heart": 0.3,
+      "spleen": 0.5,
+      "lung": 0.2,
+      "kidney": 0.9
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["kidney_yang_deficiency_cluster", "yang_deficiency_cluster"],
+    "yhct_clinical_note": "Buổi sáng dương khí thăng — Thận dương hư không ôn dưỡng → khó khởi phát dương khí, mệt nhiều buổi sáng, người lạnh, thích nằm. Điển hình Thận dương hư hoặc Tỳ Thận dương hư. Khác với mệt chiều (âm hư).",
+    "yhhd_clinical_note": "Consider: hypothyroidism (classic morning fatigue), adrenal insufficiency (cortisol nadir effect reversed), depression, obstructive sleep apnea (unrefreshing sleep), circadian rhythm disorder. Check TSH, morning cortisol."
+  },
+  {
+    "id": "SYM_B05_003",
+    "symptom_code": "afternoon_fatigue",
+    "name_vi": "Mệt mỏi buổi chiều",
+    "name_en": "Afternoon fatigue / Postmeridian energy slump",
+    "category": "systemic",
+    "icd11_approximate": "MG22",
+    "severity_weight": 0.3,
+    "time_sensitivity": "chronic",
+    "bat_cuong_weights": {
+      "cold": 0.0,
+      "heat": 0.3,
+      "deficiency": 0.8,
+      "excess": 0.0,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.2,
+      "heart": 0.4,
+      "spleen": 0.5,
+      "lung": 0.3,
+      "kidney": 0.7
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["yin_deficiency_cluster", "kidney_yin_deficiency_cluster"],
+    "yhct_clinical_note": "Chiều tà (申時 15-17h) thuộc Bàng quang kinh — âm dần thịnh, dương dần suy. Người âm hư nội nhiệt cảm thấy mệt rõ hơn buổi chiều, kèm sốt nhẹ chiều, ra mồ hôi trộm về đêm. Phân biệt với mệt buổi sáng (dương hư).",
+    "yhhd_clinical_note": "Physiological postprandial dip 14:00-16:00 vs pathological. Consider: adrenal fatigue pattern, chronic fatigue syndrome, anemia, diabetes (postprandial glycemic fluctuation), depression. Symptom diary with timing helps differentiate."
+  },
+  {
+    "id": "SYM_B05_004",
+    "symptom_code": "post_meal_fatigue",
+    "name_vi": "Mệt mỏi sau ăn",
+    "name_en": "Post-prandial fatigue / Post-meal somnolence",
+    "category": "systemic",
+    "icd11_approximate": "MG22",
+    "severity_weight": 0.3,
+    "time_sensitivity": "chronic",
+    "bat_cuong_weights": {
+      "cold": 0.1,
+      "heat": 0.0,
+      "deficiency": 0.9,
+      "excess": 0.1,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.1,
+      "heart": 0.2,
+      "spleen": 0.9,
+      "lung": 0.1,
+      "kidney": 0.3
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["spleen_qi_deficiency_cluster"],
+    "yhct_clinical_note": "Tỳ chủ vận hóa — sau ăn cần khí vận hóa nhiều → Tỳ khí hư → thiếu khí → mệt. Điển hình nhất của Tỳ khí hư. Thường kèm bụng đầy, phân lỏng, tứ chi vô lực.",
+    "yhhd_clinical_note": "Normal physiological postprandial dip vs pathological: consider anemia, hypothyroidism, diabetes (postprandial hyperglycemia), dumping syndrome (post-gastrectomy), reactive hypoglycemia. Glucose monitoring post-meal may clarify."
+  },
+  {
+    "id": "SYM_B05_005",
+    "symptom_code": "continuous_fatigue",
+    "name_vi": "Mệt mỏi liên tục / Mệt không cải thiện khi nghỉ",
+    "name_en": "Persistent fatigue / Fatigue not relieved by rest",
+    "category": "systemic",
+    "icd11_approximate": "MG22",
+    "severity_weight": 0.6,
+    "time_sensitivity": "chronic",
+    "bat_cuong_weights": {
+      "cold": 0.2,
+      "heat": 0.2,
+      "deficiency": 1.0,
+      "excess": 0.1,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.4,
+      "heart": 0.5,
+      "spleen": 0.7,
+      "lung": 0.4,
+      "kidney": 0.8
+    },
+    "red_flag_level": "L3_watch",
+    "cluster_contribution": ["qi_blood_deficiency_cluster", "hư_lao_cluster", "ME_CFS_pattern"],
+    "yhct_clinical_note": "Hư lao (虛勞) — mệt mỏi kéo dài không hồi phục là đặc điểm chính. Ngũ tạng đều có thể hư, nhưng Tỳ Thận là gốc. Cần phân biệt: mệt kèm lạnh (dương hư), mệt kèm nóng trong (âm hư), mệt kèm hồi hộp (Tâm huyết hư), mệt kèm buồn chán (Can khí uất).",
+    "yhhd_clinical_note": "Persistent fatigue unrelieved by rest is a red flag warranting workup. DDx: malignancy, chronic infections (HIV, TB, hepatitis), autoimmune disease (SLE, RA), endocrine (thyroid, adrenal, diabetes), hematologic (anemia), cardiac, renal, hepatic, ME/CFS, depression. Full CBC, metabolic panel, inflammatory markers."
+  },
+  {
+    "id": "SYM_B05_006",
+    "symptom_code": "fatigue_with_dyspnea",
+    "name_vi": "Mệt mỏi kèm khó thở",
+    "name_en": "Fatigue with dyspnea / Exercise-induced breathlessness and fatigue",
+    "category": "systemic",
+    "icd11_approximate": "MG22",
+    "severity_weight": 0.7,
+    "time_sensitivity": "subacute",
+    "bat_cuong_weights": {
+      "cold": 0.2,
+      "heat": 0.1,
+      "deficiency": 0.9,
+      "excess": 0.1,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.2,
+      "heart": 0.8,
+      "spleen": 0.5,
+      "lung": 0.9,
+      "kidney": 0.6
+    },
+    "red_flag_level": "L3_watch",
+    "cluster_contribution": ["heart_qi_deficiency_cluster", "lung_qi_deficiency_cluster", "heart_failure_pattern"],
+    "yhct_clinical_note": "Tâm Phế khí hư — Tâm chủ huyết mạch, Phế chủ khí, hai tạng phối hợp vận chuyển khí huyết toàn thân. Khi cả hai hư → mệt + khó thở khi gắng sức. Thận không nạp khí (Thận hư) → khó thở khi nằm, thở nông. Phân biệt mức độ: gắng sức nặng, nhẹ hay nghỉ ngơi.",
+    "yhhd_clinical_note": "High-priority symptom combination. DDx: heart failure (BNP, echo), pulmonary hypertension, COPD/asthma, anemia (CBC), ILD, PE. NYHA classification helps gauge severity. Urgent if new onset, progressive, or at rest."
+  },
+  {
+    "id": "SYM_B05_007",
+    "symptom_code": "fatigue_with_palpitations",
+    "name_vi": "Mệt mỏi kèm hồi hộp",
+    "name_en": "Fatigue with palpitations",
+    "category": "systemic",
+    "icd11_approximate": "MG22",
+    "severity_weight": 0.55,
+    "time_sensitivity": "subacute",
+    "bat_cuong_weights": {
+      "cold": 0.1,
+      "heat": 0.2,
+      "deficiency": 0.9,
+      "excess": 0.1,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.3,
+      "heart": 0.9,
+      "spleen": 0.5,
+      "lung": 0.2,
+      "kidney": 0.5
+    },
+    "red_flag_level": "L3_watch",
+    "cluster_contribution": ["heart_blood_deficiency_cluster", "heart_qi_deficiency_cluster"],
+    "yhct_clinical_note": "Tâm khí hư hoặc Tâm huyết hư — Tâm thần không được nuôi dưỡng → hồi hộp, Tâm khí không đủ sức vận hành → mệt. Tâm huyết hư thêm: mặt nhợt, môi nhạt, mạch tế. Tâm khí hư thêm: tự hãn, thở ngắn. Phân biệt Tâm âm hư (hồi hộp kèm bồn chồn, miệng khô).",
+    "yhhd_clinical_note": "Combined fatigue + palpitations warrants cardiac evaluation. DDx: anemia (most common), thyrotoxicosis, arrhythmia (Holter monitor), structural heart disease, anxiety/panic disorder. ECG, CBC, TSH as initial workup."
+  },
+  {
+    "id": "SYM_B05_008",
+    "symptom_code": "mental_fatigue",
+    "name_vi": "Mệt mỏi tinh thần / Não trạng mệt",
+    "name_en": "Mental fatigue / Cognitive fatigue / Brain fog",
+    "category": "systemic",
+    "icd11_approximate": "MG22",
+    "severity_weight": 0.4,
+    "time_sensitivity": "chronic",
+    "bat_cuong_weights": {
+      "cold": 0.1,
+      "heat": 0.2,
+      "deficiency": 0.9,
+      "excess": 0.2,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.5,
+      "heart": 0.8,
+      "spleen": 0.7,
+      "lung": 0.1,
+      "kidney": 0.7
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["heart_blood_deficiency_cluster", "kidney_essence_deficiency_cluster", "spleen_qi_deficiency_cluster"],
+    "yhct_clinical_note": "Tâm tàng thần, Thận tàng tinh sinh tủy thông não — Tâm huyết hư hoặc Thận tinh hư → não không được nuôi dưỡng → mờ nhạt tư duy, khó tập trung, hay quên. Tỳ hư → đàm trọc che lấp thanh khiếu cũng gây não trạng mệt. Phân biệt với can khí uất (kèm stress, cáu gắt).",
+    "yhhd_clinical_note": "Brain fog / cognitive fatigue: DDx includes ME/CFS, fibromyalgia, Long COVID, depression, hypothyroidism, B12/folate deficiency, sleep disorders, ADHD, early dementia. Cognitive testing, thyroid panel, B12, sleep study as indicated."
+  },
+  {
+    "id": "SYM_B05_009",
+    "symptom_code": "high_fever_continuous",
+    "name_vi": "Sốt cao liên tục",
+    "name_en": "High continuous fever / Sustained hyperpyrexia (>39°C)",
+    "category": "systemic",
+    "icd11_approximate": "MG26",
+    "severity_weight": 0.8,
+    "time_sensitivity": "acute",
+    "bat_cuong_weights": {
+      "cold": 0.0,
+      "heat": 1.0,
+      "deficiency": 0.1,
+      "excess": 0.9,
+      "exterior": 0.3,
+      "interior": 0.8
+    },
+    "zangfu_weights": {
+      "liver": 0.3,
+      "heart": 0.5,
+      "spleen": 0.2,
+      "lung": 0.4,
+      "kidney": 0.2
+    },
+    "red_flag_level": "L2_urgent",
+    "cluster_contribution": ["yang_ming_excess_heat_cluster", "ying_blood_heat_cluster"],
+    "yhct_clinical_note": "Dương minh kinh/phủ chứng — tà nhiệt nhập lý, chính tà giao tranh mạnh. Đặc điểm: sốt không lui, không ố hàn, đại hãn, đại khát, mạch hồng đại. Nếu sốt cao kèm mê sảng → tà nhập Tâm bào, nguy hiểm. Phân biệt sốt ngoại cảm (có biểu chứng) và sốt nội nhiệt.",
+    "yhhd_clinical_note": "Sustained fever >39°C is a medical emergency. Immediate DDx: bacterial sepsis (blood cultures, lactate), meningitis/encephalitis (LP if indicated), severe pneumonia, UTI with bacteremia, malaria (endemic areas), typhoid. Antipyretic, IV access, blood cultures before antibiotics if sepsis suspected."
+  },
+  {
+    "id": "SYM_B05_010",
+    "symptom_code": "low_grade_persistent_fever",
+    "name_vi": "Sốt nhẹ kéo dài",
+    "name_en": "Low-grade persistent fever / Prolonged subfebrile temperature (37.3–38°C >2 weeks)",
+    "category": "systemic",
+    "icd11_approximate": "MG26",
+    "severity_weight": 0.6,
+    "time_sensitivity": "chronic",
+    "bat_cuong_weights": {
+      "cold": 0.0,
+      "heat": 0.7,
+      "deficiency": 0.6,
+      "excess": 0.4,
+      "exterior": 0.1,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.4,
+      "heart": 0.3,
+      "spleen": 0.2,
+      "lung": 0.5,
+      "kidney": 0.7
+    },
+    "red_flag_level": "L3_watch",
+    "cluster_contribution": ["yin_deficiency_heat_cluster", "chronic_infection_pattern"],
+    "yhct_clinical_note": "Nội thương phát nhiệt — âm hư sinh nội nhiệt là cơ chế chính. Cũng có thể do khí hư phát nhiệt (sốt nhẹ kèm mệt, tự hãn), huyết hư phát nhiệt, hay Can khí uất hóa nhiệt. Phân biệt qua tính chất: sốt chiều tối (âm hư), sốt theo cảm xúc (khí uất), sốt kèm mệt tự hãn (khí hư).",
+    "yhhd_clinical_note": "Fever of unknown origin (FUO) workup if >3 weeks. DDx: tuberculosis (PPD/IGRA, chest CT), lymphoma, SLE, endocarditis (echo, blood cultures), occult abscess, HIV, brucellosis, adult Still's disease. CBC, ESR, CRP, blood cultures, imaging."
+  },
+  {
+    "id": "SYM_B05_011",
+    "symptom_code": "afternoon_low_grade_fever",
+    "name_vi": "Sốt nhẹ buổi chiều / Triều nhiệt",
+    "name_en": "Afternoon low-grade fever / Hectic fever / Afternoon tidal fever",
+    "category": "systemic",
+    "icd11_approximate": "MG26",
+    "severity_weight": 0.55,
+    "time_sensitivity": "chronic",
+    "bat_cuong_weights": {
+      "cold": 0.0,
+      "heat": 0.8,
+      "deficiency": 0.9,
+      "excess": 0.0,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.3,
+      "heart": 0.4,
+      "spleen": 0.1,
+      "lung": 0.5,
+      "kidney": 0.8
+    },
+    "red_flag_level": "L3_watch",
+    "cluster_contribution": ["kidney_yin_deficiency_cluster", "lung_yin_deficiency_cluster", "tuberculosis_pattern"],
+    "yhct_clinical_note": "Triều nhiệt (潮熱) — âm hư phát nhiệt, điển hình nhất xuất hiện chiều tối (申時-酉時 15-19h). Thận âm hư: kèm mồ hôi trộm, lưng gối mỏi, miệng khô, mạch tế sác. Phế âm hư: kèm ho khan, khạc ít đờm dính. Đây là triệu chứng đặc trưng của Lao phổi trong YHCT.",
+    "yhhd_clinical_note": "Classic pattern in pulmonary tuberculosis — afternoon fever + night sweats + weight loss + cough (Ranke complex). Mandatory TB workup: sputum AFB, GeneXpert, chest X-ray/CT. Also consider: lymphoma (Pel-Ebstein fever), brucellosis, deep fungal infections. IGRA/TST, HIV testing."
+  },
+  {
+    "id": "SYM_B05_012",
+    "symptom_code": "cyclic_fever",
+    "name_vi": "Sốt chu kỳ",
+    "name_en": "Cyclic / Relapsing fever / Periodic fever",
+    "category": "systemic",
+    "icd11_approximate": "MG26",
+    "severity_weight": 0.65,
+    "time_sensitivity": "subacute",
+    "bat_cuong_weights": {
+      "cold": 0.3,
+      "heat": 0.7,
+      "deficiency": 0.4,
+      "excess": 0.6,
+      "exterior": 0.3,
+      "interior": 0.7
+    },
+    "zangfu_weights": {
+      "liver": 0.8,
+      "heart": 0.2,
+      "spleen": 0.4,
+      "lung": 0.2,
+      "kidney": 0.3
+    },
+    "red_flag_level": "L3_watch",
+    "cluster_contribution": ["shaoyang_pattern_cluster", "malaria_pattern"],
+    "yhct_clinical_note": "Thiếu dương chứng — tà cư bán biểu bán lý, chính tà giao tranh theo chu kỳ. Đặc điểm: hàn nhiệt vãng lai (ố hàn rồi phát sốt, rồi lui), miệng đắng, họng khô, ngực sườn đầy tức, mạch huyền. Sốt rét (疟疾) là mô hình cổ điển. Bài Tiểu Sài Hồ Thang.",
+    "yhhd_clinical_note": "Cyclic fever pattern: malaria (Plasmodium spp — thick blood smear, RDT, PCR), Borrelia relapsing fever, PFAPA syndrome (pediatric), cyclic neutropenia, lymphoma (Pel-Ebstein). Travel history crucial. Malaria smear/RDT urgently if endemic area travel."
+  },
+  {
+    "id": "SYM_B05_013",
+    "symptom_code": "fever_chills_alternating",
+    "name_vi": "Sốt xen kẽ ớn lạnh",
+    "name_en": "Fever with alternating chills / Chills-fever cycling",
+    "category": "systemic",
+    "icd11_approximate": "MG26",
+    "severity_weight": 0.65,
+    "time_sensitivity": "acute",
+    "bat_cuong_weights": {
+      "cold": 0.5,
+      "heat": 0.5,
+      "deficiency": 0.3,
+      "excess": 0.7,
+      "exterior": 0.4,
+      "interior": 0.6
+    },
+    "zangfu_weights": {
+      "liver": 0.7,
+      "heart": 0.2,
+      "spleen": 0.3,
+      "lung": 0.3,
+      "kidney": 0.2
+    },
+    "red_flag_level": "L3_watch",
+    "cluster_contribution": ["shaoyang_pattern_cluster", "malaria_pattern", "bacteremia_pattern"],
+    "yhct_clinical_note": "Hàn nhiệt vãng lai (寒熱往來) — đặc trưng Thiếu dương bệnh. Tà khí cư bán biểu bán lý: tà thắng → ố hàn, chính thắng → phát sốt. Cũng gặp trong sốt rét (先寒後熱). Phân biệt với ố hàn phát sốt đồng thời (Thái dương biểu chứng).",
+    "yhhd_clinical_note": "Rigors (shaking chills) + fever suggest bacteremia/sepsis — blood cultures immediately. DDx: bacteremia (any source), malaria, pyelonephritis, cholangitis (Charcot's triad), endocarditis. If rigors are severe/sudden, consider sepsis protocol."
+  },
+  {
+    "id": "SYM_B05_014",
+    "symptom_code": "fever_with_drenching_sweats",
+    "name_vi": "Sốt ra nhiều mồ hôi",
+    "name_en": "Fever with drenching sweats / Sweating crisis with fever",
+    "category": "systemic",
+    "icd11_approximate": "MG26",
+    "severity_weight": 0.6,
+    "time_sensitivity": "subacute",
+    "bat_cuong_weights": {
+      "cold": 0.0,
+      "heat": 0.8,
+      "deficiency": 0.5,
+      "excess": 0.5,
+      "exterior": 0.2,
+      "interior": 0.8
+    },
+    "zangfu_weights": {
+      "liver": 0.4,
+      "heart": 0.4,
+      "spleen": 0.2,
+      "lung": 0.4,
+      "kidney": 0.6
+    },
+    "red_flag_level": "L3_watch",
+    "cluster_contribution": ["yin_deficiency_heat_cluster", "tuberculosis_pattern", "lymphoma_pattern"],
+    "yhct_clinical_note": "Âm hư nội nhiệt — nhiệt bức tân dịch ngoài thoát → mồ hôi nhiều kèm sốt. Điển hình lao phổi (sốt chiều + mồ hôi trộm đẫm), lymphoma (B symptoms). Phân biệt với dương minh đại hãn (sốt cao, mạch hồng đại, thực nhiệt).",
+    "yhhd_clinical_note": "Drenching sweats with fever are B-symptoms in lymphoma staging. Also: tuberculosis, brucellosis, HIV, endocarditis, malaria. The combination is clinically significant and warrants hematologic malignancy workup alongside infectious causes."
+  },
+  {
+    "id": "SYM_B05_015",
+    "symptom_code": "fever_without_sweating",
+    "name_vi": "Sốt không ra mồ hôi",
+    "name_en": "Fever without sweating / Anhidrotic fever",
+    "category": "systemic",
+    "icd11_approximate": "MG26",
+    "severity_weight": 0.5,
+    "time_sensitivity": "acute",
+    "bat_cuong_weights": {
+      "cold": 0.5,
+      "heat": 0.5,
+      "deficiency": 0.2,
+      "excess": 0.8,
+      "exterior": 0.7,
+      "interior": 0.3
+    },
+    "zangfu_weights": {
+      "liver": 0.1,
+      "heart": 0.2,
+      "spleen": 0.1,
+      "lung": 0.5,
+      "kidney": 0.2
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["wind_cold_exterior_cluster", "tai_yang_pattern"],
+    "yhct_clinical_note": "Thái dương thương hàn — phong hàn tà bế tấu lý, vệ dương bất tuyên → ố hàn phát sốt mà không ra mồ hôi, đầu cổ cứng đau, mạch phù khẩn. Điều trị phát hãn giải biểu (Ma Hoàng Thang). Phân biệt với Thái dương trúng phong (phát sốt có mồ hôi, mạch phù hoãn).",
+    "yhhd_clinical_note": "Fever without sweating in acute illness often suggests: viral URI/influenza (early phase), heat stroke (anhidrosis is dangerous sign — hyperthermia without sweating), anticholinergic toxicity. In heat stroke: core temp >40°C without sweating is emergency — immediate cooling."
+  },
+  {
+    "id": "SYM_B05_016",
+    "symptom_code": "spontaneous_sweating_day",
+    "name_vi": "Tự hãn / Ra mồ hôi ban ngày không do gắng sức",
+    "name_en": "Spontaneous daytime sweating / Diaphoresis without exertion",
+    "category": "systemic",
+    "icd11_approximate": "ED90",
+    "severity_weight": 0.35,
+    "time_sensitivity": "chronic",
+    "bat_cuong_weights": {
+      "cold": 0.3,
+      "heat": 0.2,
+      "deficiency": 0.9,
+      "excess": 0.0,
+      "exterior": 0.2,
+      "interior": 0.8
+    },
+    "zangfu_weights": {
+      "liver": 0.1,
+      "heart": 0.4,
+      "spleen": 0.5,
+      "lung": 0.8,
+      "kidney": 0.4
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["wei_qi_deficiency_cluster", "lung_qi_deficiency_cluster", "yang_deficiency_cluster"],
+    "yhct_clinical_note": "Tự hãn (自汗) — ban ngày tự nhiên ra mồ hôi, không do gắng sức, động đậy nhiều hơn. Phế khí hư hoặc vệ khí hư → cố nhiếp vô lực → tân dịch ngoài tiết. Kèm sợ gió, dễ cảm, mệt mỏi. Phân biệt với đạo hãn (ban đêm, âm hư).",
+    "yhhd_clinical_note": "Spontaneous hyperhidrosis DDx: primary hyperhidrosis, thyrotoxicosis, pheochromocytoma, carcinoid syndrome, menopause (hot flashes), medications (SSRIs, opioids), autonomic neuropathy, lymphoma. TSH, catecholamines as indicated."
+  },
+  {
+    "id": "SYM_B05_017",
+    "symptom_code": "night_sweats",
+    "name_vi": "Mồ hôi trộm / Đạo hãn",
+    "name_en": "Night sweats / Nocturnal hyperhidrosis",
+    "category": "systemic",
+    "icd11_approximate": "ED90",
+    "severity_weight": 0.55,
+    "time_sensitivity": "chronic",
+    "bat_cuong_weights": {
+      "cold": 0.0,
+      "heat": 0.7,
+      "deficiency": 0.9,
+      "excess": 0.0,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.2,
+      "heart": 0.5,
+      "spleen": 0.3,
+      "lung": 0.4,
+      "kidney": 0.6
+    },
+    "red_flag_level": "L3_watch",
+    "cluster_contribution": ["yin_deficiency_cluster", "kidney_yin_deficiency_cluster", "tuberculosis_pattern", "lymphoma_pattern"],
+    "yhct_clinical_note": "Đạo hãn (盜汗) — ngủ ra mồ hôi, thức dậy thì ngừng, điển hình âm hư. Thận âm hư: kèm lưng gối mỏi, tai ù, triều nhiệt. Tâm âm hư: kèm hồi hộp, bồn chồn, mất ngủ. Phế âm hư: kèm ho khan. Tỳ âm hư: ít gặp hơn. Phân biệt với tự hãn (dương hư, ban ngày).",
+    "yhhd_clinical_note": "Night sweats are a B-symptom in lymphoma. Must rule out: tuberculosis, HIV, lymphoma, other malignancies, menopause, OSA, GERD, medications. True drenching night sweats (requiring change of clothing/bedding) vs normal sleep sweating. TB and lymphoma workup mandatory if persistent."
+  },
+  {
+    "id": "SYM_B05_018",
+    "symptom_code": "cold_sweats",
+    "name_vi": "Mồ hôi lạnh / Hãn xuất lạnh",
+    "name_en": "Cold diaphoresis / Cold clammy sweating",
+    "category": "systemic",
+    "icd11_approximate": "ED90",
+    "severity_weight": 0.8,
+    "time_sensitivity": "acute",
+    "bat_cuong_weights": {
+      "cold": 0.6,
+      "heat": 0.0,
+      "deficiency": 0.8,
+      "excess": 0.2,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.2,
+      "heart": 0.8,
+      "spleen": 0.3,
+      "lung": 0.4,
+      "kidney": 0.6
+    },
+    "red_flag_level": "L2_urgent",
+    "cluster_contribution": ["yang_collapse_cluster", "heart_yang_deficiency_cluster", "shock_pattern"],
+    "yhct_clinical_note": "Hãn xuất lạnh (冷汗) — dương khí hư thoát, tân dịch không cố nhiếp, lạnh toát. Thoát dương chứng: mồ hôi lạnh như dầu, tứ chi궐lạnh, mạch vi muốn tuyệt — nguy cấp. Tâm dương hư: mồ hôi lạnh kèm đau ngực, hồi hộp, da xanh tím — nghĩ đến ACS/sốc tim.",
+    "yhhd_clinical_note": "Cold clammy sweating (cold diaphoresis) is a medical emergency indicator. Immediate DDx: cardiogenic shock/ACS (ECG, troponin urgently), septic shock (lactate, blood cultures), hypoglycemia (bedside glucose immediately), anaphylaxis, pulmonary embolism, hemorrhagic shock. Activate emergency protocol."
+  },
+  {
+    "id": "SYM_B05_019",
+    "symptom_code": "palmar_plantar_sweating",
+    "name_vi": "Ra mồ hôi tay chân",
+    "name_en": "Palmar-plantar hyperhidrosis / Hand-foot sweating",
+    "category": "systemic",
+    "icd11_approximate": "ED90",
+    "severity_weight": 0.25,
+    "time_sensitivity": "chronic",
+    "bat_cuong_weights": {
+      "cold": 0.0,
+      "heat": 0.5,
+      "deficiency": 0.6,
+      "excess": 0.3,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.4,
+      "heart": 0.5,
+      "spleen": 0.3,
+      "lung": 0.2,
+      "kidney": 0.5
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["yin_deficiency_cluster", "heart_kidney_disharmony_cluster", "autonomic_dysregulation_pattern"],
+    "yhct_clinical_note": "Thủ túc tâm hãn (手足心汗) — lòng bàn tay bàn chân ra mồ hôi. Nếu kèm nóng trong lòng bàn tay (五心煩熱) → âm hư nội nhiệt điển hình, Thận âm hư hoặc Tâm thận bất giao. Nếu ra mồ hôi tay lạnh → Tỳ vị thấp nhiệt.",
+    "yhhd_clinical_note": "Primary focal hyperhidrosis most common (palms, soles, axillae) — idiopathic, often familial. Secondary causes: thyrotoxicosis, anxiety disorders, autonomic neuropathy, medications. Dermatology referral for severe primary hyperhidrosis (botox, iontophoresis, sympathectomy)."
+  },
+  {
+    "id": "SYM_B05_020",
+    "symptom_code": "upper_body_localized_sweating",
+    "name_vi": "Ra mồ hôi nửa trên cơ thể",
+    "name_en": "Localized upper body sweating / Hemidiaphoresis upper",
+    "category": "systemic",
+    "icd11_approximate": "ED90",
+    "severity_weight": 0.4,
+    "time_sensitivity": "subacute",
+    "bat_cuong_weights": {
+      "cold": 0.2,
+      "heat": 0.4,
+      "deficiency": 0.5,
+      "excess": 0.3,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.3,
+      "heart": 0.6,
+      "spleen": 0.3,
+      "lung": 0.5,
+      "kidney": 0.4
+    },
+    "red_flag_level": "L3_watch",
+    "cluster_contribution": ["wei_qi_deficiency_cluster", "autonomic_dysregulation_pattern"],
+    "yhct_clinical_note": "Ra mồ hôi khu trú nửa trên — đầu, mặt, cổ, ngực: nghĩ đến vị nhiệt (đầu ra nhiều mồ hôi, thích ăn lạnh), hoặc Tâm Phế khí hư. Mồ hôi một bên — nghĩ đến bán thân bất toại (CVA). Mồ hôi đầu mặt riêng ở người cao tuổi — Thận dương hư hư dương thượng phù.",
+    "yhhd_clinical_note": "Localized or asymmetric sweating warrants neurological evaluation. Unilateral hyperhidrosis: Horner syndrome (ipsilateral anhidrosis), stroke, spinal cord lesion. Upper body sweating with flushing: carcinoid, pheochromocytoma, menopause, rosacea. Asymmetry should prompt CNS/autonomic workup."
+  },
+  {
+    "id": "SYM_B05_021",
+    "symptom_code": "anhidrosis_with_fever",
+    "name_vi": "Không ra mồ hôi khi sốt",
+    "name_en": "Anhidrosis with fever / Failure to sweat during pyrexia",
+    "category": "systemic",
+    "icd11_approximate": "ED90",
+    "severity_weight": 0.6,
+    "time_sensitivity": "acute",
+    "bat_cuong_weights": {
+      "cold": 0.5,
+      "heat": 0.5,
+      "deficiency": 0.3,
+      "excess": 0.7,
+      "exterior": 0.6,
+      "interior": 0.4
+    },
+    "zangfu_weights": {
+      "liver": 0.1,
+      "heart": 0.3,
+      "spleen": 0.2,
+      "lung": 0.6,
+      "kidney": 0.3
+    },
+    "red_flag_level": "L3_watch",
+    "cluster_contribution": ["wind_cold_exterior_cluster", "heat_stroke_pattern"],
+    "yhct_clinical_note": "Vô hãn phát sốt (無汗發熱) — phong hàn tà bế phế khí, tấu lý không thông → không ra mồ hôi dù sốt. Thái dương thương hàn: ố hàn nặng, phát sốt nhẹ, không hãn, đầu cổ cứng đau. Nếu sốt cao mà không ra mồ hôi → nguy hiểm (trúng thử/heat stroke).",
+    "yhhd_clinical_note": "Anhidrosis with hyperthermia is dangerous — heat stroke (core temp >40°C, CNS dysfunction, anhidrosis = classic triad) requires immediate external cooling. Also: anticholinergic toxidrome, ectodermal dysplasia, autonomic neuropathy. Emergency if temperature >40°C with anhidrosis."
+  },
+  {
+    "id": "SYM_B05_022",
+    "symptom_code": "rapid_unexplained_weight_loss",
+    "name_vi": "Sụt cân nhanh không rõ nguyên nhân",
+    "name_en": "Rapid unexplained weight loss (>5% body weight in 6 months)",
+    "category": "systemic",
+    "icd11_approximate": "5B80",
+    "severity_weight": 0.85,
+    "time_sensitivity": "subacute",
+    "bat_cuong_weights": {
+      "cold": 0.2,
+      "heat": 0.3,
+      "deficiency": 1.0,
+      "excess": 0.2,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.5,
+      "heart": 0.3,
+      "spleen": 0.9,
+      "lung": 0.4,
+      "kidney": 0.7
+    },
+    "red_flag_level": "L2_urgent",
+    "cluster_contribution": ["malignancy_pattern", "severe_qi_blood_deficiency_cluster", "hư_lao_cluster"],
+    "yhct_clinical_note": "Thoát hình (脫形) — hình thể tiêu hao nghiêm trọng. Tỳ vị suy kiệt không vận hóa → cơ nhục không được nuôi dưỡng → gầy sút. Ác tính: Can khí uất kết thành tích (bướu), tiêu hao khí huyết. Lao: Phế âm hư, Thận âm hư — hư hỏa đốt cháy cơ nhục. Ngũ tạng hư suy đều gây.",
+    "yhhd_clinical_note": "ALARM symptom — mandatory urgent malignancy workup. Rule out: GI malignancy (endoscopy), lymphoma (CT chest/abdomen/pelvis, LDH, CBC), lung cancer (CT thorax), pancreatic cancer, thyroid cancer. Also: hyperthyroidism, uncontrolled diabetes (T1DM), malabsorption (celiac, IBD), HIV/AIDS, TB, depression, dementia, medication side effects. Full labs + imaging required."
+  },
+  {
+    "id": "SYM_B05_023",
+    "symptom_code": "gradual_weight_loss",
+    "name_vi": "Sụt cân dần dần",
+    "name_en": "Gradual weight loss / Progressive involuntary weight loss",
+    "category": "systemic",
+    "icd11_approximate": "5B80",
+    "severity_weight": 0.6,
+    "time_sensitivity": "chronic",
+    "bat_cuong_weights": {
+      "cold": 0.2,
+      "heat": 0.2,
+      "deficiency": 0.9,
+      "excess": 0.1,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.4,
+      "heart": 0.2,
+      "spleen": 0.9,
+      "lung": 0.3,
+      "kidney": 0.6
+    },
+    "red_flag_level": "L3_watch",
+    "cluster_contribution": ["spleen_qi_deficiency_cluster", "malignancy_pattern", "chronic_disease_pattern"],
+    "yhct_clinical_note": "Tiêu hao từ từ — Tỳ vị hư không hóa được thủy cốc → hình thể dần gầy yếu. Hư lao chứng. Cần xác định nguyên nhân: ăn kém (Tỳ vị hư), tiêu hóa kém hấp thu, tiêu hao do hư hỏa (âm hư). Khác với sụt cân nhanh (nguy hiểm hơn).",
+    "yhhd_clinical_note": "Involuntary gradual weight loss still requires workup. Systematic approach: calculate % weight loss, duration, associated symptoms. If >5% in 6-12 months without dietary change, investigate similarly to rapid weight loss but timeline allows more systematic outpatient approach. Nutritional assessment important."
+  },
+  {
+    "id": "SYM_B05_024",
+    "symptom_code": "weight_gain_edematous",
+    "name_vi": "Tăng cân do phù",
+    "name_en": "Edematous weight gain / Weight gain due to fluid retention",
+    "category": "systemic",
+    "icd11_approximate": "ME10",
+    "severity_weight": 0.55,
+    "time_sensitivity": "subacute",
+    "bat_cuong_weights": {
+      "cold": 0.5,
+      "heat": 0.1,
+      "deficiency": 0.7,
+      "excess": 0.4,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.3,
+      "heart": 0.6,
+      "spleen": 0.7,
+      "lung": 0.4,
+      "kidney": 0.8
+    },
+    "red_flag_level": "L3_watch",
+    "cluster_contribution": ["yang_deficiency_water_retention_cluster", "kidney_yang_deficiency_cluster", "heart_failure_pattern"],
+    "yhct_clinical_note": "Thủy thũng (水腫) — Tỳ không vận hóa thủy thấp, Thận dương hư không khí hóa, Phế không thông điều thủy đạo → thủy ứ lưu trong cơ thể → phù, tăng cân. Phân biệt: dương thủy (thượng tiêu, phát nhanh) và âm thủy (hạ tiêu, mạn tính). Phù tim: hai bên chân, mắt cá.",
+    "yhhd_clinical_note": "Fluid retention causing weight gain: heart failure (BNP, echo), nephrotic syndrome (urine protein, albumin), cirrhosis (LFTs, albumin), hypothyroidism (myxedema), medications (CCBs, steroids, NSAIDs), hypoalbuminemia, lymphedema. Rapid weight gain (>2kg/week) in known heart failure = decompensation."
+  },
+  {
+    "id": "SYM_B05_025",
+    "symptom_code": "polyphagia_with_weight_loss",
+    "name_vi": "Ăn nhiều nhưng gầy / Đa thực thiểu nhục",
+    "name_en": "Polyphagia with weight loss / Paradoxical hunger with wasting",
+    "category": "systemic",
+    "icd11_approximate": "5A00",
+    "severity_weight": 0.65,
+    "time_sensitivity": "subacute",
+    "bat_cuong_weights": {
+      "cold": 0.0,
+      "heat": 0.8,
+      "deficiency": 0.5,
+      "excess": 0.5,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.3,
+      "heart": 0.2,
+      "spleen": 0.5,
+      "lung": 0.4,
+      "kidney": 0.6
+    },
+    "red_flag_level": "L3_watch",
+    "cluster_contribution": ["stomach_fire_excess_cluster", "diabetes_wasting_thirst_cluster", "hyperthyroid_pattern"],
+    "yhct_clinical_note": "Tiêu cốc thiện cơ (消穀善飢) — ăn nhiều mà vẫn đói, gầy sút. Vị hỏa vượng: tiêu thức ăn quá nhanh, Vị nhiệt → đốt cháy tân dịch. Điển hình Tiêu khát (消渴 — tiểu đường YHCT): thượng tiêu (Phế nhiệt), trung tiêu (Vị nhiệt), hạ tiêu (Thận hư). Tương ứng Cường giáp trạng.",
+    "yhhd_clinical_note": "Polyphagia + weight loss is pathognomonic for: uncontrolled diabetes mellitus type 1 (absolute insulin deficiency — hyperglycemia, ketosis), type 2 (relative deficiency), hyperthyroidism (TSH, FT4 urgent), malabsorption syndromes (celiac — anti-tTG, IgA). Fasting glucose, HbA1c, TSH mandatory."
+  },
+  {
+    "id": "SYM_B05_026",
+    "symptom_code": "anorexia_persistent",
+    "name_vi": "Chán ăn kéo dài",
+    "name_en": "Persistent anorexia / Chronic loss of appetite",
+    "category": "systemic",
+    "icd11_approximate": "MD90",
+    "severity_weight": 0.55,
+    "time_sensitivity": "chronic",
+    "bat_cuong_weights": {
+      "cold": 0.3,
+      "heat": 0.2,
+      "deficiency": 0.7,
+      "excess": 0.4,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.6,
+      "heart": 0.2,
+      "spleen": 0.9,
+      "lung": 0.2,
+      "kidney": 0.3
+    },
+    "red_flag_level": "L3_watch",
+    "cluster_contribution": ["spleen_qi_deficiency_cluster", "liver_qi_stagnation_cluster", "malignancy_pattern"],
+    "yhct_clinical_note": "Nạp vị kém — Tỳ chủ vận hóa, Vị chủ thụ nạp. Tỳ Vị hư: không thụ nạp thức ăn → chán ăn, bụng đầy. Can khí phạm Vị (mộc khắc thổ): stress, cáu gắt → không muốn ăn. Đàm thấp: bụng đầy, nặng, chán ăn. Phân biệt với anorexia nervosa (tâm lý).",
+    "yhhd_clinical_note": "Chronic anorexia requires systematic evaluation. DDx: malignancy (GI, hepatic, pancreatic), chronic liver disease, renal failure, adrenal insufficiency, hypothyroidism, depression, medications (chemotherapy, digoxin, opioids), IBD, celiac. In elderly: consider occult malignancy. Nutritional screen + malignancy workup."
+  },
+  {
+    "id": "SYM_B05_027",
+    "symptom_code": "severe_thirst_polyuria",
+    "name_vi": "Khát nhiều kèm tiểu nhiều",
+    "name_en": "Severe thirst with polyuria / Polydipsia-polyuria syndrome",
+    "category": "systemic",
+    "icd11_approximate": "5A00",
+    "severity_weight": 0.6,
+    "time_sensitivity": "subacute",
+    "bat_cuong_weights": {
+      "cold": 0.0,
+      "heat": 0.7,
+      "deficiency": 0.7,
+      "excess": 0.3,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.2,
+      "heart": 0.2,
+      "spleen": 0.4,
+      "lung": 0.5,
+      "kidney": 0.8
+    },
+    "red_flag_level": "L3_watch",
+    "cluster_contribution": ["diabetes_wasting_thirst_cluster", "kidney_yin_deficiency_cluster"],
+    "yhct_clinical_note": "Tiêu khát (消渴) hạ tiêu chứng — Thận âm hư, Thận khí bất cố → không khí hóa được, tân dịch xuống thẳng thành nước tiểu mà không lên trên tưới dưỡng → khát nhiều, tiểu nhiều, nước tiểu đục ngọt. Tương ứng đái tháo đường.",
+    "yhhd_clinical_note": "Classic diabetic triad (polydipsia, polyuria, polyphagia). Urgent DDx: diabetes mellitus (fasting glucose >7 mmol/L or random >11.1, HbA1c), diabetes insipidus (central: ADH deficiency vs nephrogenic: renal ADH resistance — water deprivation test), hypercalcemia, hypokalemia. If new onset + ketosis: T1DM emergency."
+  },
+  {
+    "id": "SYM_B05_028",
+    "symptom_code": "thirst_without_desire_to_drink",
+    "name_vi": "Khát nhưng không muốn uống",
+    "name_en": "Thirst sensation without desire to drink / Paradoxical thirst",
+    "category": "systemic",
+    "icd11_approximate": "MG2A",
+    "severity_weight": 0.35,
+    "time_sensitivity": "chronic",
+    "bat_cuong_weights": {
+      "cold": 0.2,
+      "heat": 0.3,
+      "deficiency": 0.4,
+      "excess": 0.5,
+      "exterior": 0.1,
+      "interior": 0.9
+    },
+    "zangfu_weights": {
+      "liver": 0.4,
+      "heart": 0.2,
+      "spleen": 0.5,
+      "lung": 0.3,
+      "kidney": 0.5
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["damp_heat_stagnation_cluster", "blood_stasis_cluster", "shaoyang_pattern_cluster"],
+    "yhct_clinical_note": "Khát mà không muốn uống — biểu hiện quan trọng phân biệt bệnh tính. Có thể do: thấp nhiệt (miệng nhạt, không khát thực sự, chỉ muốn ngậm nước), huyết ứ (tân dịch không thể phân bố do khí huyết trệ), Thiếu dương chứng (miệng đắng, họng khô nhưng không uống nhiều). Khác với khát thực sự.",
+    "yhhd_clinical_note": "Thirst sensation without actual fluid intake desire is an unusual symptom suggesting altered thirst regulation or oral discomfort. Consider: Sjögren's syndrome (xerostomia — dry mouth sensation), autonomic dysfunction, medications (anticholinergics causing dry mouth), hypothalamic dysregulation. Distinguish from psychogenic polydipsia."
+  },
+  {
+    "id": "SYM_B05_029",
+    "symptom_code": "no_thirst_in_heat",
+    "name_vi": "Không khát dù trời nóng",
+    "name_en": "Absence of thirst even in heat / Adipsia / Hypodipsia",
+    "category": "systemic",
+    "icd11_approximate": "MG2A",
+    "severity_weight": 0.4,
+    "time_sensitivity": "chronic",
+    "bat_cuong_weights": {
+      "cold": 0.6,
+      "heat": 0.0,
+      "deficiency": 0.7,
+      "excess": 0.0,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.2,
+      "heart": 0.2,
+      "spleen": 0.6,
+      "lung": 0.3,
+      "kidney": 0.7
+    },
+    "red_flag_level": "L3_watch",
+    "cluster_contribution": ["yang_deficiency_cluster", "kidney_yang_deficiency_cluster"],
+    "yhct_clinical_note": "Không khát — dương khí hư, hàn thấp trọng trọc → không sinh khát. Tỳ Thận dương hư: miệng nhạt không khát, thích uống ít và uống ấm, bụng lạnh, tiêu lỏng. Phân biệt với miệng khô không khát (thấp nhiệt, âm hư nhẹ). Không khát mà uống ít có thể dẫn đến mất nước thầm lặng.",
+    "yhhd_clinical_note": "Adipsia/hypodipsia (reduced or absent thirst despite dehydration) is a serious hypothalamic dysfunction. Causes: hypothalamic lesion (tumors, surgery, trauma, craniopharyngioma), essential hypernatremia. Risk: chronic hypernatremia, dehydration without awareness. Sodium levels, MRI brain if suspected central cause."
+  },
+  {
+    "id": "SYM_B05_030",
+    "symptom_code": "thirst_for_warm_drinks_only",
+    "name_vi": "Chỉ muốn uống nước ấm / Ưa ấm ố lạnh",
+    "name_en": "Thirst with preference for warm drinks only / Cold-aversion thirst",
+    "category": "systemic",
+    "icd11_approximate": "MG2A",
+    "severity_weight": 0.25,
+    "time_sensitivity": "chronic",
+    "bat_cuong_weights": {
+      "cold": 0.8,
+      "heat": 0.0,
+      "deficiency": 0.7,
+      "excess": 0.0,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.1,
+      "heart": 0.2,
+      "spleen": 0.7,
+      "lung": 0.2,
+      "kidney": 0.7
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["cold_pattern_cluster", "yang_deficiency_cluster", "spleen_kidney_yang_deficiency_cluster"],
+    "yhct_clinical_note": "Ưa ấm ố lạnh — hàn chứng điển hình. Tỳ Thận dương hư hoặc trung tiêu hư hàn: uống nước lạnh vào bụng đau, tiêu lỏng → bản năng tránh lạnh, chỉ uống ấm. Đây là biểu hiện quan trọng của hàn chứng, giúp phân biệt với nhiệt chứng (thích uống lạnh).",
+    "yhhd_clinical_note": "Preference for warm drinks is a subjective comfort preference often in patients with functional dyspepsia, gastroparesis, or IBS-C (cold fluids aggravate symptoms). Also common in hypothyroidism. Western medicine lacks direct equivalent — this symptom has high TCM diagnostic specificity for cold/yang-deficiency patterns."
+  },
+  {
+    "id": "SYM_B05_031",
+    "symptom_code": "pallor_anemia_type",
+    "name_vi": "Da xanh nhợt / Mặt nhợt nhạt",
+    "name_en": "Pallor / Anemic complexion / Pale face, lips, nails",
+    "category": "systemic",
+    "icd11_approximate": "3A00",
+    "severity_weight": 0.5,
+    "time_sensitivity": "chronic",
+    "bat_cuong_weights": {
+      "cold": 0.3,
+      "heat": 0.0,
+      "deficiency": 1.0,
+      "excess": 0.0,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.6,
+      "heart": 0.8,
+      "spleen": 0.9,
+      "lung": 0.2,
+      "kidney": 0.4
+    },
+    "red_flag_level": "L3_watch",
+    "cluster_contribution": ["qi_blood_deficiency_cluster", "heart_blood_deficiency_cluster", "spleen_not_generating_blood_cluster"],
+    "yhct_clinical_note": "Huyết hư (血虛) — sắc mặt, môi, móng tay nhợt nhạt. Tâm chủ huyết — Tâm huyết hư → mặt nhợt, hồi hộp. Tỳ chủ sinh huyết — Tỳ hư → nguồn sinh huyết không đủ → huyết hư. Can tàng huyết — Can huyết hư → móng tay nhợt, mắt mờ. Phân biệt với khí hư (nhợt nhạt + mệt mỏi, tự hãn).",
+    "yhhd_clinical_note": "Pallor as clinical sign: check conjunctival pallor (most sensitive), palmar pallor, nail pallor. CBC is mandatory. DDx by MCV: microcytic (iron deficiency — ferritin, TIBC; thalassemia — Hb electrophoresis), normocytic (chronic disease, hemolytic, acute blood loss), macrocytic (B12/folate deficiency, hypothyroidism, liver disease)."
+  },
+  {
+    "id": "SYM_B05_032",
+    "symptom_code": "yellow_dull_complexion",
+    "name_vi": "Mặt vàng tối / Sắc vàng úa",
+    "name_en": "Yellow-dull complexion / Sallow complexion / Chlorotic appearance",
+    "category": "systemic",
+    "icd11_approximate": "ME83",
+    "severity_weight": 0.45,
+    "time_sensitivity": "chronic",
+    "bat_cuong_weights": {
+      "cold": 0.3,
+      "heat": 0.2,
+      "deficiency": 0.8,
+      "excess": 0.2,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.5,
+      "heart": 0.3,
+      "spleen": 0.9,
+      "lung": 0.2,
+      "kidney": 0.3
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["spleen_qi_deficiency_cluster", "damp_stagnation_cluster"],
+    "yhct_clinical_note": "Sắc vàng úa (萎黄) — da vàng nhợt, thiếu tươi tắn, không bóng. Tỳ hư không sinh huyết → sắc vàng không tươi. Phân biệt với hoàng đản (vàng da tươi, cả mắt vàng, bilirubin tăng). Vàng úa + mệt + phân lỏng = Tỳ khí hư điển hình. Vàng úa + khô sạm = huyết hư.",
+    "yhhd_clinical_note": "Differentiate sallow (yellow-dull, no scleral icterus) from jaundice (scleral icterus, bilirubin elevated). Sallow complexion: iron deficiency anemia (most common), malnutrition, carotenemia (dietary). True jaundice requires LFTs, bilirubin, hepatology evaluation. Check sclerae — if icteric, jaundice workup mandatory."
+  },
+  {
+    "id": "SYM_B05_033",
+    "symptom_code": "malar_flush",
+    "name_vi": "Đỏ gò má / Má đỏ",
+    "name_en": "Malar flush / Hectic flush / Cheekbone flushing",
+    "category": "systemic",
+    "icd11_approximate": "MG2A",
+    "severity_weight": 0.4,
+    "time_sensitivity": "chronic",
+    "bat_cuong_weights": {
+      "cold": 0.0,
+      "heat": 0.8,
+      "deficiency": 0.7,
+      "excess": 0.2,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.3,
+      "heart": 0.5,
+      "spleen": 0.1,
+      "lung": 0.4,
+      "kidney": 0.8
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["yin_deficiency_heat_cluster", "kidney_yin_deficiency_cluster", "false_heat_pattern"],
+    "yhct_clinical_note": "Gò má đỏ (颧红) — âm hư nội nhiệt, hư hỏa thượng phù. Thận âm hư: má đỏ về chiều tối, kèm triều nhiệt, mồ hôi trộm, lưng mỏi. Đặc biệt đỏ tươi nhỏ, khu trú → hư nhiệt, phân biệt với đỏ cả mặt (thực nhiệt). Phổi lao cũng gây má đỏ (Phế âm hư).",
+    "yhhd_clinical_note": "Malar flush differential: mitral stenosis (malar flush — classic but not pathognomonic), SLE (butterfly rash — photosensitive, crosses nasal bridge), rosacea, carcinoid syndrome, polycythemia vera, alcohol-related flushing, menopause hot flashes. ANA, anti-dsDNA if SLE suspected. Echocardiogram if mitral stenosis."
+  },
+  {
+    "id": "SYM_B05_034",
+    "symptom_code": "central_cyanosis",
+    "name_vi": "Tím tái trung tâm",
+    "name_en": "Central cyanosis / Central blue discoloration of lips and mucosae",
+    "category": "systemic",
+    "icd11_approximate": "MA00",
+    "severity_weight": 0.85,
+    "time_sensitivity": "acute",
+    "bat_cuong_weights": {
+      "cold": 0.5,
+      "heat": 0.0,
+      "deficiency": 0.7,
+      "excess": 0.5,
+      "exterior": 0.1,
+      "interior": 0.9
+    },
+    "zangfu_weights": {
+      "liver": 0.3,
+      "heart": 0.9,
+      "spleen": 0.2,
+      "lung": 0.9,
+      "kidney": 0.4
+    },
+    "red_flag_level": "L1_emergency",
+    "cluster_contribution": ["heart_lung_failure_cluster", "yang_deficiency_blood_stasis_cluster"],
+    "yhct_clinical_note": "Tím tái (青紫) — huyết ứ nặng, khí trệ huyết ứ không lưu thông. Tâm Phế dương hư khí hư → huyết không vận hành → ứ trệ → tím tái. Đây là biểu hiện nguy trọng trong YHCT, thuộc huyết ứ nặng. Tím môi, lưỡi tím, móng tím — xem xét mức độ và phân bố.",
+    "yhhd_clinical_note": "EMERGENCY. Central cyanosis (lips, mucous membranes, tongue) = SpO2 <85%, deoxyhemoglobin >5g/dL. Immediate: pulse oximetry, ABG, O2 therapy. DDx: respiratory failure (pneumonia, ARDS, PE, pneumothorax), cardiac shunt (right-to-left — CHD), pulmonary hypertension, methemoglobinemia. Activate emergency response."
+  },
+  {
+    "id": "SYM_B05_035",
+    "symptom_code": "jaundice",
+    "name_vi": "Vàng da / Hoàng đản",
+    "name_en": "Jaundice / Icterus / Scleral icterus with skin yellowing",
+    "category": "systemic",
+    "icd11_approximate": "ME83",
+    "severity_weight": 0.75,
+    "time_sensitivity": "subacute",
+    "bat_cuong_weights": {
+      "cold": 0.2,
+      "heat": 0.6,
+      "deficiency": 0.3,
+      "excess": 0.7,
+      "exterior": 0.1,
+      "interior": 0.9
+    },
+    "zangfu_weights": {
+      "liver": 0.9,
+      "heart": 0.1,
+      "spleen": 0.7,
+      "lung": 0.1,
+      "kidney": 0.2
+    },
+    "red_flag_level": "L2_urgent",
+    "cluster_contribution": ["liver_gallbladder_damp_heat_cluster", "liver_failure_pattern"],
+    "yhct_clinical_note": "Hoàng đản (黃疸) — thấp nhiệt hun đúc Can Đởm, mật không tiết bình thường → tràn ra da → vàng. Dương hoàng (thấp nhiệt): vàng tươi sáng, sốt, tiểu vàng đậm, táo bón. Âm hoàng (hàn thấp hoặc huyết ứ): vàng tối sậm, không sốt, mệt, tiêu lỏng. Vàng da cần phân biệt khẩn cấp.",
+    "yhhd_clinical_note": "Jaundice workup: bilirubin fractionation (direct vs indirect). Pre-hepatic (indirect): hemolysis (Coombs, LDH, haptoglobin). Hepatic (mixed): hepatitis panel (HBsAg, anti-HCV, anti-HAV), LFTs, autoimmune hepatitis (ANA, ASMA). Post-hepatic (direct): imaging (US abdomen) for biliary obstruction, cholangiocarcinoma, pancreatic head mass. Painless jaundice + weight loss = pancreatic cancer until proven otherwise."
+  },
+  {
+    "id": "SYM_B05_036",
+    "symptom_code": "bronze_darkening_complexion",
+    "name_vi": "Da sạm tối / Sắc da xỉn đen",
+    "name_en": "Bronze or dusky darkening of complexion / Hyperpigmentation diffuse",
+    "category": "systemic",
+    "icd11_approximate": "EF00",
+    "severity_weight": 0.55,
+    "time_sensitivity": "chronic",
+    "bat_cuong_weights": {
+      "cold": 0.3,
+      "heat": 0.2,
+      "deficiency": 0.7,
+      "excess": 0.4,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.6,
+      "heart": 0.3,
+      "spleen": 0.3,
+      "lung": 0.2,
+      "kidney": 0.9
+    },
+    "red_flag_level": "L3_watch",
+    "cluster_contribution": ["kidney_essence_deficiency_cluster", "blood_stasis_chronic_cluster", "adrenal_insufficiency_pattern"],
+    "yhct_clinical_note": "Sắc da sạm đen (黑色) — thuộc Thận. Thận tinh hư hoặc Thận dương hư → không nuôi dưỡng được ngoại biểu → da sạm đen. Huyết ứ lâu ngày → da sạm tối. Phân biệt: sạm toàn thân (Thận hư, bệnh toàn thân), sạm khu trú (huyết ứ, sắc tố khu trú). Sạm kèm mệt, chán ăn, buồn nôn → Addison.",
+    "yhhd_clinical_note": "Diffuse hyperpigmentation DDx: Addison's disease (adrenal insufficiency — classic: buccal mucosa, skin folds, scars darkening; cortisol/ACTH stimulation test urgent), hemochromatosis (bronze diabetes — ferritin, transferrin saturation, HFE gene), chronic liver disease, POEMS syndrome, ectopic ACTH. Morning cortisol + ACTH mandatory if Addison suspected."
+  },
+  {
+    "id": "SYM_B05_037",
+    "symptom_code": "nocturia_frequent",
+    "name_vi": "Tiểu đêm ≥3 lần",
+    "name_en": "Nocturia ≥3 episodes per night / Frequent nocturnal urination",
+    "category": "systemic",
+    "icd11_approximate": "GC50",
+    "severity_weight": 0.4,
+    "time_sensitivity": "chronic",
+    "bat_cuong_weights": {
+      "cold": 0.5,
+      "heat": 0.1,
+      "deficiency": 0.9,
+      "excess": 0.1,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.1,
+      "heart": 0.2,
+      "spleen": 0.3,
+      "lung": 0.2,
+      "kidney": 0.9
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["kidney_yang_deficiency_cluster", "kidney_qi_not_consolidating_cluster"],
+    "yhct_clinical_note": "Dạ niệu (夜尿) — Thận dương hư không khí hóa, Thận khí không cố nhiếp → bàng quang mất kiểm soát ban đêm. Đặc trưng Thận dương hư: tiểu đêm nhiều lần, nước tiểu trong nhạt, lạnh lưng gối, sợ lạnh. Người cao tuổi phổ biến. Phân biệt với tiểu nhiều ban ngày (Thận âm hư, đái tháo đường).",
+    "yhhd_clinical_note": "Nocturia ≥3x is clinically significant. DDx: BPH (IPSS score, PSA), overactive bladder, heart failure (nocturnal fluid redistribution — BNP), diabetes mellitus (glycosuria osmotic), nephrogenic diabetes insipidus, medications (diuretics timing), sleep apnea (ANP release during apneic episodes). UA, renal function, glucose, PSA in males ≥50."
+  },
+  {
+    "id": "SYM_B05_038",
+    "symptom_code": "polyuria_3L_per_day",
+    "name_vi": "Tiểu nhiều >3L/ngày / Đa niệu",
+    "name_en": "Polyuria >3 litres per day / Pathological polyuria",
+    "category": "systemic",
+    "icd11_approximate": "GC50",
+    "severity_weight": 0.6,
+    "time_sensitivity": "subacute",
+    "bat_cuong_weights": {
+      "cold": 0.1,
+      "heat": 0.5,
+      "deficiency": 0.8,
+      "excess": 0.2,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.1,
+      "heart": 0.2,
+      "spleen": 0.3,
+      "lung": 0.4,
+      "kidney": 0.9
+    },
+    "red_flag_level": "L3_watch",
+    "cluster_contribution": ["kidney_qi_not_consolidating_cluster", "diabetes_wasting_thirst_cluster"],
+    "yhct_clinical_note": "Đa niệu (多尿) — Thận khí hư không khí hóa thủy dịch → tân dịch xuống thẳng thành nước tiểu → tiểu nhiều. Hạ tiêu tiêu khát (Thận âm hư): tiểu nhiều, nước tiểu đục như dầu mỡ. Thận dương hư: tiểu nhiều lần, nước tiểu trong. Phân biệt qua màu sắc nước tiểu và triệu chứng kèm.",
+    "yhhd_clinical_note": "Polyuria workup: 24h urine collection to confirm. Then: urine osmolality (if <300 mOsm/kg → DI or psychogenic polydipsia), serum glucose/HbA1c (diabetes), serum sodium, calcium (hypercalcemia), potassium (hypokalemia). Water deprivation test differentiates central DI vs nephrogenic DI vs psychogenic polydipsia."
+  },
+  {
+    "id": "SYM_B05_039",
+    "symptom_code": "oliguria",
+    "name_vi": "Tiểu ít / Thiểu niệu",
+    "name_en": "Oliguria / Reduced urine output (<400mL/day)",
+    "category": "systemic",
+    "icd11_approximate": "MF50",
+    "severity_weight": 0.75,
+    "time_sensitivity": "acute",
+    "bat_cuong_weights": {
+      "cold": 0.4,
+      "heat": 0.4,
+      "deficiency": 0.6,
+      "excess": 0.5,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.3,
+      "heart": 0.4,
+      "spleen": 0.5,
+      "lung": 0.4,
+      "kidney": 0.9
+    },
+    "red_flag_level": "L2_urgent",
+    "cluster_contribution": ["kidney_yang_deficiency_cluster", "acute_kidney_injury_pattern", "shock_pattern"],
+    "yhct_clinical_note": "Thiểu niệu (少尿) — Thận không khí hóa được thủy dịch, hoặc tân dịch bị tiêu hao → không có nước tiểu. Cấp tính: tà khí (nhiệt độc, huyết độc) gây Thận suy cấp. Mạn tính: Thận dương hư, Thận khí hư → thủy trọc nội đình. Nếu vô niệu hoàn toàn → nguy hiểm sinh mạng.",
+    "yhhd_clinical_note": "Oliguria is urgent — may indicate acute kidney injury (AKI). Immediate: assess volume status (pre-renal: dehydration, shock), renal parenchymal (ATN, glomerulonephritis), post-renal (obstruction — US bladder/kidneys). Creatinine, BUN, electrolytes, UA urgently. If anuria + obstruction: catheter/nephrostomy. If AKI: nephrology consult, consider dialysis."
+  },
+  {
+    "id": "SYM_B05_040",
+    "symptom_code": "foamy_urine",
+    "name_vi": "Nước tiểu có bọt / Tiểu bọt",
+    "name_en": "Foamy urine / Proteinuria-associated frothy urine",
+    "category": "systemic",
+    "icd11_approximate": "GB40",
+    "severity_weight": 0.5,
+    "time_sensitivity": "chronic",
+    "bat_cuong_weights": {
+      "cold": 0.2,
+      "heat": 0.3,
+      "deficiency": 0.8,
+      "excess": 0.2,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.2,
+      "heart": 0.2,
+      "spleen": 0.5,
+      "lung": 0.3,
+      "kidney": 0.9
+    },
+    "red_flag_level": "L3_watch",
+    "cluster_contribution": ["kidney_essence_leakage_cluster", "kidney_qi_not_consolidating_cluster"],
+    "yhct_clinical_note": "Tiểu bọt — Thận khí hư, Thận tinh không cố nhiếp → tinh vi vật chất (protein) rò rỉ theo nước tiểu. Tỳ hư không cố nhiếp tinh vi → đạm niệu. Phân biệt bọt thoáng qua (bình thường, do tốc độ dòng nước tiểu) với bọt dai bền không tan (protein niệu thực sự). Nếu kèm phù → hội chứng thận hư.",
+    "yhhd_clinical_note": "Persistent foamy urine = proteinuria until proven otherwise. Dipstick urine protein, then spot urine protein:creatinine ratio or 24h urine protein. If proteinuria confirmed: CKD staging (eGFR, creatinine), diabetes screening (HbA1c), blood pressure, ANA (lupus nephritis), SPEP (myeloma), hepatitis B/C. Nephrology referral if >1g/day or active sediment. Nephrotic syndrome if >3.5g/day + edema + hypoalbuminemia."
+  }
+]

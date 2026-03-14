@@ -1,0 +1,1179 @@
+[
+  {
+    "pattern_id": "PAT_B02_001",
+    "chung_code": "kidney_yin_deficiency",
+    "name_vi": "Thận âm hư",
+    "name_en": "Kidney Yin Deficiency",
+    "zangfu_primary": "kidney",
+    "pathogenesis_code": "kidney_yin_deficiency",
+    "bat_cuong_summary": {
+      "dominant": ["interior", "deficiency", "heat"],
+      "secondary": [],
+      "absent": ["exterior", "cold"]
+    },
+    "diagnostic_criteria": {
+      "required": ["lumbar_soreness_chronic", "tinnitus_or_hearing_decline"],
+      "two_or_more_of": [
+        "afternoon_low_grade_fever",
+        "night_sweats",
+        "palmar_plantar_chest_heat",
+        "dry_mouth_at_night",
+        "scanty_dark_urine",
+        "dry_stool"
+      ],
+      "tongue": "Đỏ, ít rêu hoặc không rêu, có thể nứt",
+      "pulse": "Tế sác, đặc biệt vị xích"
+    },
+    "key_distinguishing_features": "Lưng mỏi + ù tai + ngũ tâm phiền nhiệt + mồ hôi đêm + lưỡi đỏ ít rêu",
+    "differential_diagnosis": [
+      {
+        "pattern_code": "kidney_yang_deficiency",
+        "distinguishing_feature": "Thận dương hư: lạnh (chân tay lạnh, sợ lạnh, lưng lạnh), tiểu trong nhiều, đại tiện lỏng, lưỡi nhạt bệu; Thận âm hư: nóng (ngũ tâm phiền nhiệt, mồ hôi đêm), tiểu ít vàng, lưỡi đỏ ít rêu"
+      },
+      {
+        "pattern_code": "liver_kidney_yin_deficiency",
+        "distinguishing_feature": "Can Thận âm hư thêm triệu chứng Can: mắt mờ/khô, co giật nhẹ, tê bì, kinh nguyệt bất thường (ở nữ)"
+      },
+      {
+        "pattern_code": "kidney_deficiency_effulgent_fire",
+        "distinguishing_feature": "Thận hư hỏa vượng: triệu chứng nóng nổi bật hơn, mộng tinh nhiều, bứt rứt khó ngủ nặng hơn"
+      }
+    ],
+    "phap_tri": {
+      "principle_vi": "Tư âm bổ Thận",
+      "principle_en": "Enrich Yin, Tonify Kidney",
+      "primary_formula": "Lục Vị Địa Hoàng Hoàn (Liu Wei Di Huang Wan)",
+      "alternative_formulas": [
+        "Tri Bá Địa Hoàng Hoàn (nếu hỏa vượng nhiều)",
+        "Tả Quy Hoàn (Yin deficiency severe)",
+        "Đại Bổ Âm Hoàn (hư hỏa nổi bật)"
+      ],
+      "key_herbs": ["Thục địa", "Sơn thù", "Sơn dược", "Phục linh", "Mẫu đơn bì", "Trạch tả"],
+      "acupuncture_points": ["Thận Du BL23", "Thái Khê KD3", "Phục Lưu KD7", "Tam Âm Giao SP6", "Âm Cốc KD10"],
+      "lifestyle_advice": "Nghỉ ngơi đủ, tránh làm việc quá sức, hạn chế quan hệ tình dục, ngủ trước 23h, ăn thực phẩm dưỡng âm (mè đen, kỷ tử, đỗ đen)"
+    },
+    "yhhd_correlations": ["Menopause", "Andropause", "Chronic fatigue syndrome", "Autonomic dysfunction", "Early CKD", "Osteoporosis"],
+    "safety_notes": null,
+    "follow_up_timing": "4-6 tuần — tư âm cần thời gian",
+    "red_flag_override": null,
+    "prevalence_vietnam": "very_common",
+    "common_demographics": "Trung niên và cao tuổi, người làm việc quá sức, phụ nữ tiền/hậu mãn kinh"
+  },
+  {
+    "pattern_id": "PAT_B02_002",
+    "chung_code": "kidney_yang_deficiency",
+    "name_vi": "Thận dương hư",
+    "name_en": "Kidney Yang Deficiency",
+    "zangfu_primary": "kidney",
+    "pathogenesis_code": "kidney_yang_deficiency",
+    "bat_cuong_summary": {
+      "dominant": ["interior", "deficiency", "cold"],
+      "secondary": [],
+      "absent": ["exterior", "heat"]
+    },
+    "diagnostic_criteria": {
+      "required": ["lumbar_soreness_cold_sensation", "cold_limbs_or_aversion_to_cold"],
+      "two_or_more_of": [
+        "frequent_clear_urination_or_nocturia",
+        "loose_stool_or_dawn_diarrhea",
+        "impotence_or_decreased_libido",
+        "edema_lower_limbs",
+        "fatigue_listlessness",
+        "pallid_complexion"
+      ],
+      "tongue": "Nhạt bệu, rêu trắng trơn, có thể có vết răng",
+      "pulse": "Trầm trì nhược, đặc biệt vị xích"
+    },
+    "key_distinguishing_features": "Lưng lạnh đau + sợ lạnh chân tay lạnh + tiểu trong nhiều/đêm nhiều + đại tiện lỏng + lưỡi nhạt bệu + mạch trầm trì",
+    "differential_diagnosis": [
+      {
+        "pattern_code": "kidney_yin_deficiency",
+        "distinguishing_feature": "Thận âm hư: ngũ tâm phiền nhiệt, mồ hôi đêm, khô miệng, tiểu vàng ít, lưỡi đỏ; Thận dương hư: lạnh, tiểu trong, đại tiện lỏng, lưỡi nhạt"
+      },
+      {
+        "pattern_code": "spleen_kidney_yang_deficiency",
+        "distinguishing_feature": "Tỳ Thận dương hư: triệu chứng Tỳ nổi bật (phù nề, bụng trướng, tiêu chảy nặng hơn, ăn kém)"
+      },
+      {
+        "pattern_code": "kidney_yang_water_flooding",
+        "distinguishing_feature": "Thận dương hư thủy phiếm: phù toàn thân nặng, đặc biệt nửa dưới, có thể có cổ trướng, khó thở"
+      }
+    ],
+    "phap_tri": {
+      "principle_vi": "Ôn bổ Thận dương",
+      "principle_en": "Warm and Tonify Kidney Yang",
+      "primary_formula": "Thận Khí Hoàn (Jin Gui Shen Qi Wan) / Bát Vị Địa Hoàng Hoàn",
+      "alternative_formulas": [
+        "Hữu Quy Hoàn (dương hư nặng)",
+        "Tứ Thần Hoàn (ngũ canh tiêu)",
+        "Chân Vũ Thang (có thủy thũng)"
+      ],
+      "key_herbs": ["Thục địa", "Sơn thù", "Sơn dược", "Phụ tử chế", "Quế chi/Nhục quế", "Phục linh", "Trạch tả", "Mẫu đơn bì"],
+      "acupuncture_points": ["Thận Du BL23", "Mệnh Môn GV4", "Quan Nguyên CV4", "Khí Hải CV6", "Thái Khê KD3", "Túc Tam Lý ST36"],
+      "lifestyle_advice": "Giữ ấm vùng lưng và chân, tránh lạnh ẩm, ăn thức ăn ôn bổ (thịt dê, gừng, quế), không tắm đêm muộn"
+    },
+    "yhhd_correlations": ["Hypothyroidism", "Adrenal insufficiency", "Male hypogonadism", "CKD with edema", "Heart failure", "Osteoporosis"],
+    "safety_notes": "Phụ tử chế cần chế biến đúng, liều an toàn; tránh dùng quá liều gây độc tim",
+    "follow_up_timing": "4-8 tuần",
+    "red_flag_override": null,
+    "prevalence_vietnam": "very_common",
+    "common_demographics": "Cao tuổi, nam giới trung niên, người sống vùng lạnh ẩm, bệnh nhân CKD giai đoạn muộn"
+  },
+  {
+    "pattern_id": "PAT_B02_003",
+    "chung_code": "kidney_qi_deficiency",
+    "name_vi": "Thận khí hư",
+    "name_en": "Kidney Qi Deficiency",
+    "zangfu_primary": "kidney",
+    "pathogenesis_code": "kidney_qi_deficiency",
+    "bat_cuong_summary": {
+      "dominant": ["interior", "deficiency"],
+      "secondary": [],
+      "absent": ["exterior", "heat", "cold"]
+    },
+    "diagnostic_criteria": {
+      "required": ["lumbar_soreness_chronic", "fatigue_weakness"],
+      "two_or_more_of": [
+        "urinary_frequency_or_dribbling",
+        "nocturia_mild",
+        "weak_knees",
+        "mild_tinnitus",
+        "shortness_of_breath_on_exertion",
+        "low_libido"
+      ],
+      "tongue": "Nhạt hồng, rêu trắng mỏng",
+      "pulse": "Trầm nhược, đặc biệt vị xích"
+    },
+    "key_distinguishing_features": "Mệt mỏi + lưng gối yếu mỏi + tiểu nhiều lần/tiểu dắt + không có triệu chứng hàn hay nhiệt rõ ràng — hư khí đơn thuần",
+    "differential_diagnosis": [
+      {
+        "pattern_code": "kidney_yin_deficiency",
+        "distinguishing_feature": "Thận âm hư: có triệu chứng nhiệt (ngũ tâm phiền nhiệt, mồ hôi đêm, lưỡi đỏ); Thận khí hư: không có nhiệt, không có lạnh rõ"
+      },
+      {
+        "pattern_code": "kidney_yang_deficiency",
+        "distinguishing_feature": "Thận dương hư: có triệu chứng hàn rõ (lạnh, sợ lạnh, lưỡi nhạt bệu); Thận khí hư: khí hư đơn thuần, nhẹ hơn"
+      },
+      {
+        "pattern_code": "kidney_qi_not_securing",
+        "distinguishing_feature": "Thận khí bất cố: nặng hơn, có biểu hiện mất kiểm soát cụ thể (tiểu không kiềm được, di tinh, đới hạ)"
+      }
+    ],
+    "phap_tri": {
+      "principle_vi": "Bổ Thận ích khí",
+      "principle_en": "Tonify Kidney, Benefit Qi",
+      "primary_formula": "Đại Bổ Nguyên Tiễn (Da Bu Yuan Jian)",
+      "alternative_formulas": [
+        "Kim Quỹ Thận Khí Hoàn (liều nhỏ)",
+        "Bổ Thận Khí Thang gia giảm"
+      ],
+      "key_herbs": ["Thục địa", "Sơn thù", "Sơn dược", "Nhân sâm/Đảng sâm", "Kỷ tử", "Đỗ trọng", "Cam thảo"],
+      "acupuncture_points": ["Thận Du BL23", "Thái Khê KD3", "Quan Nguyên CV4", "Túc Tam Lý ST36", "Tam Âm Giao SP6"],
+      "lifestyle_advice": "Tránh lao lực quá mức, ngủ đủ giấc, ăn đồ bổ thận (đỗ đen, hạt sen, kỷ tử)"
+    },
+    "yhhd_correlations": ["Benign prostatic hyperplasia mild", "Overactive bladder", "General debility", "Convalescence"],
+    "safety_notes": null,
+    "follow_up_timing": "3-4 tuần",
+    "red_flag_override": null,
+    "prevalence_vietnam": "common",
+    "common_demographics": "Trung niên trở lên, người lao động thể lực nặng, sau bệnh nặng hồi phục"
+  },
+  {
+    "pattern_id": "PAT_B02_004",
+    "chung_code": "kidney_essence_deficiency",
+    "name_vi": "Thận tinh hư",
+    "name_en": "Kidney Essence Deficiency",
+    "zangfu_primary": "kidney",
+    "pathogenesis_code": "kidney_essence_deficiency",
+    "bat_cuong_summary": {
+      "dominant": ["interior", "deficiency"],
+      "secondary": [],
+      "absent": ["exterior"]
+    },
+    "diagnostic_criteria": {
+      "required": ["lumbar_soreness_chronic", "cognitive_decline_or_poor_memory"],
+      "two_or_more_of": [
+        "premature_aging",
+        "hair_loss_or_premature_greying",
+        "loose_teeth",
+        "tinnitus_chronic",
+        "weak_knees_and_legs",
+        "infertility_or_low_sperm",
+        "developmental_delay_in_children",
+        "bone_fragility"
+      ],
+      "tongue": "Nhạt hoặc đỏ nhạt, rêu mỏng, lưỡi có thể teo nhỏ",
+      "pulse": "Trầm tế nhược"
+    },
+    "key_distinguishing_features": "Lão hóa sớm + rụng tóc/bạc sớm + răng lung lay + kém trí nhớ + lưng gối yếu — thiếu tinh chất cơ bản của cơ thể",
+    "differential_diagnosis": [
+      {
+        "pattern_code": "kidney_yin_deficiency",
+        "distinguishing_feature": "Thận âm hư: có triệu chứng nhiệt hư; Thận tinh hư: không có nhiệt, chủ yếu là suy giảm chất nền (tinh), bao gồm cả tinh âm và tinh dương"
+      },
+      {
+        "pattern_code": "kidney_essence_brain_insufficiency",
+        "distinguishing_feature": "Thận tinh hư não tủy bất sung: thể nặng hơn với suy giảm nhận thức nổi bật, mất trí nhớ, chóng mặt nặng"
+      }
+    ],
+    "phap_tri": {
+      "principle_vi": "Bổ Thận điền tinh",
+      "principle_en": "Tonify Kidney, Replenish Essence",
+      "primary_formula": "Tả Quy Hoàn (Zuo Gui Wan) hoặc Hữu Quy Hoàn tùy thiên âm/dương",
+      "alternative_formulas": [
+        "Hà Xa Đại Tạo Hoàn (dùng cao ban long)",
+        "Quy Lộc Nhị Tiên Cao"
+      ],
+      "key_herbs": ["Thục địa", "Sơn thù", "Kỷ tử", "Thỏ ty tử", "Lộc giác giao", "Quy bản giao", "Ngưu tất", "Sơn dược"],
+      "acupuncture_points": ["Thận Du BL23", "Chí Thất BL52", "Thái Khê KD3", "Tam Âm Giao SP6", "Quan Nguyên CV4", "Bách Hội GV20"],
+      "lifestyle_advice": "Tránh thức khuya, tránh xuất tinh quá độ, ăn thực phẩm bổ tinh (hải sản, lộc nhung, đông trùng hạ thảo)"
+    },
+    "yhhd_correlations": ["Male infertility", "Premature aging", "Osteoporosis", "Cognitive decline", "Growth retardation in children", "Premature ovarian failure"],
+    "safety_notes": "Các thuốc động vật (lộc giác, quy bản) cần kiểm tra chất lượng nguồn gốc",
+    "follow_up_timing": "8-12 tuần — bổ tinh rất chậm",
+    "red_flag_override": null,
+    "prevalence_vietnam": "common",
+    "common_demographics": "Cao tuổi, nam giới vô sinh, người làm việc trí óc cường độ cao kéo dài"
+  },
+  {
+    "pattern_id": "PAT_B02_005",
+    "chung_code": "kidney_qi_not_securing",
+    "name_vi": "Thận khí bất cố",
+    "name_en": "Kidney Qi Not Securing",
+    "zangfu_primary": "kidney",
+    "pathogenesis_code": "kidney_qi_not_securing",
+    "bat_cuong_summary": {
+      "dominant": ["interior", "deficiency"],
+      "secondary": ["sinking_qi"],
+      "absent": ["exterior", "excess"]
+    },
+    "diagnostic_criteria": {
+      "required": ["lumbar_soreness_weakness", "urinary_incontinence_or_frequency_severe"],
+      "two_or_more_of": [
+        "nocturnal_enuresis_or_dribbling_urine",
+        "seminal_emission_without_dream",
+        "premature_ejaculation",
+        "vaginal_discharge_profuse_clear",
+        "rectal_prolapse_or_uterine_prolapse",
+        "fecal_incontinence"
+      ],
+      "tongue": "Nhạt, rêu trắng mỏng",
+      "pulse": "Trầm nhược, đặc biệt vị xích"
+    },
+    "key_distinguishing_features": "Thận khí hư + mất kiểm soát khai-hợp: tiểu không kiềm, di tinh vô mộng, đới hạ nhiều trong loãng, sa tạng",
+    "differential_diagnosis": [
+      {
+        "pattern_code": "kidney_qi_deficiency",
+        "distinguishing_feature": "Thận khí hư: khí hư chung, chưa có mất kiểm soát khai-hợp; Thận khí bất cố: đã có triệu chứng mất cố nhiếp rõ ràng"
+      },
+      {
+        "pattern_code": "kidney_yang_deficiency",
+        "distinguishing_feature": "Thận dương hư: có hàn chứng rõ; Thận khí bất cố: chủ yếu là mất cố nhiếp, không nhất thiết có hàn"
+      },
+      {
+        "pattern_code": "bladder_qi_deficiency",
+        "distinguishing_feature": "Bàng quang khí hư: chỉ ảnh hưởng tiểu tiện; Thận khí bất cố: ảnh hưởng cả tinh, đới hạ, đại tiện, sa tạng"
+      }
+    ],
+    "phap_tri": {
+      "principle_vi": "Bổ Thận cố nhiếp",
+      "principle_en": "Tonify Kidney, Secure and Astringe",
+      "primary_formula": "Thủy Lục Nhị Tiên Đan hợp Kim Tỏa Cố Tinh Hoàn",
+      "alternative_formulas": [
+        "Sang Phiêu Tiêu Tán (tiểu nhiều, tiểu dắt)",
+        "Cố Tinh Hoàn (di tinh)",
+        "Bổ Trung Ích Khí Thang hợp Thận Khí Hoàn (sa tạng)"
+      ],
+      "key_herbs": ["Kim anh tử", "Khiếm thực", "Liên tu", "Long cốt", "Mẫu lệ", "Thỏ ty tử", "Phúc bồn tử", "Sơn thù"],
+      "acupuncture_points": ["Thận Du BL23", "Quan Nguyên CV4", "Khí Hải CV6", "Trung Cực CV3", "Tam Âm Giao SP6", "Bàng Quang Du BL28"],
+      "lifestyle_advice": "Tránh lạnh, tránh quan hệ tình dục quá mức, tập cơ sàn chậu (Kegel), không uống nhiều nước buổi tối"
+    },
+    "yhhd_correlations": ["Urinary incontinence", "Benign prostatic hyperplasia", "Male sexual dysfunction", "Recurrent vaginal discharge", "Uterine prolapse", "Fecal incontinence"],
+    "safety_notes": null,
+    "follow_up_timing": "4-6 tuần",
+    "red_flag_override": "Tiểu không tự chủ đột ngột kèm yếu liệt chi dưới: nghi tổn thương tủy sống — chuyển cấp cứu",
+    "prevalence_vietnam": "common",
+    "common_demographics": "Phụ nữ sau sinh nhiều lần, cao tuổi, nam giới trung niên có rối loạn tiền liệt tuyến"
+  },
+  {
+    "pattern_id": "PAT_B02_006",
+    "chung_code": "kidney_yang_water_flooding",
+    "name_vi": "Thận dương hư thủy phiếm",
+    "name_en": "Kidney Yang Deficiency with Water Flooding",
+    "zangfu_primary": "kidney",
+    "pathogenesis_code": "kidney_yang_deficiency_water_retention",
+    "bat_cuong_summary": {
+      "dominant": ["interior", "deficiency", "cold"],
+      "secondary": ["excess_water_retention"],
+      "absent": ["exterior", "heat"]
+    },
+    "diagnostic_criteria": {
+      "required": ["edema_lower_limbs_or_generalized", "cold_limbs_aversion_cold"],
+      "two_or_more_of": [
+        "oliguria_or_scanty_urine",
+        "palpitations",
+        "dyspnea_on_exertion_or_lying_flat",
+        "abdominal_distension",
+        "nausea_vomiting",
+        "lumbar_soreness_cold"
+      ],
+      "tongue": "Nhạt bệu, rêu trắng trơn, ướt",
+      "pulse": "Trầm trì nhược hoặc trầm huyền"
+    },
+    "key_distinguishing_features": "Thận dương hư + phù (đặc biệt nửa dưới cơ thể) + tiểu ít + hồi hộp khó thở — thủy dịch không được khí hóa",
+    "differential_diagnosis": [
+      {
+        "pattern_code": "kidney_yang_deficiency",
+        "distinguishing_feature": "Thận dương hư đơn thuần: không có phù nề rõ ràng; Thận dương hư thủy phiếm: có phù, tiểu ít, nặng hơn"
+      },
+      {
+        "pattern_code": "spleen_kidney_yang_deficiency",
+        "distinguishing_feature": "Tỳ Thận dương hư: phù kèm tiêu chảy/phân lỏng nổi bật; Thận dương hư thủy phiếm: phù nề và tiểu ít nổi bật hơn"
+      },
+      {
+        "pattern_code": "heart_yang_deficiency_water",
+        "distinguishing_feature": "Tâm dương hư thủy: hồi hộp và khó thở nổi bật, phù từ trên xuống hoặc toàn thân"
+      }
+    ],
+    "phap_tri": {
+      "principle_vi": "Ôn dương lợi thủy",
+      "principle_en": "Warm Yang, Promote Water Metabolism",
+      "primary_formula": "Chân Vũ Thang (Zhen Wu Tang)",
+      "alternative_formulas": [
+        "Thực Tỳ Ẩm (phù kèm Tỳ hư nặng)",
+        "Ngũ Linh Tán hợp Thận Khí Hoàn",
+        "Tế Sinh Thận Khí Hoàn"
+      ],
+      "key_herbs": ["Phụ tử chế", "Phục linh", "Bạch truật", "Bạch thược", "Sinh khương", "Trạch tả", "Xa tiền tử"],
+      "acupuncture_points": ["Thận Du BL23", "Mệnh Môn GV4", "Tỳ Du BL20", "Thủy Phân CV9", "Âm Lăng Tuyền SP9", "Tam Âm Giao SP6"],
+      "lifestyle_advice": "Hạn chế muối, theo dõi cân nặng hàng ngày, giữ ấm, tránh ẩm ướt"
+    },
+    "yhhd_correlations": ["Chronic kidney disease with edema", "Heart failure (right-sided)", "Nephrotic syndrome", "Cirrhosis with ascites", "Hypothyroidism with myxedema"],
+    "safety_notes": "Phụ tử chế: theo dõi độc tính; bệnh nhân suy tim/thận cần theo dõi sát; nguy cơ điện giải",
+    "follow_up_timing": "2-4 tuần — theo dõi phù và nước tiểu",
+    "red_flag_override": "Khó thở nặng khi nằm, phù toàn thân nhanh, tiểu rất ít (<400ml/ngày): nguy cơ suy thận cấp/suy tim mất bù — nhập viện",
+    "prevalence_vietnam": "common",
+    "common_demographics": "Bệnh nhân CKD giai đoạn 3-5, suy tim, xơ gan, cao tuổi"
+  },
+  {
+    "pattern_id": "PAT_B02_007",
+    "chung_code": "kidney_failing_grasp_qi",
+    "name_vi": "Thận bất nạp khí",
+    "name_en": "Kidney Failing to Grasp Qi",
+    "zangfu_primary": "kidney",
+    "pathogenesis_code": "kidney_qi_deficiency_lung_kidney",
+    "bat_cuong_summary": {
+      "dominant": ["interior", "deficiency"],
+      "secondary": ["qi_not_descending"],
+      "absent": ["exterior", "excess"]
+    },
+    "diagnostic_criteria": {
+      "required": ["dyspnea_chronic_worse_on_exertion", "lumbar_soreness_weakness"],
+      "two_or_more_of": [
+        "prolonged_exhalation_short_inhalation",
+        "dyspnea_worse_lying_flat",
+        "cold_limbs_mild",
+        "palpitations",
+        "profuse_sweating_on_exertion",
+        "fatigue_weakness"
+      ],
+      "tongue": "Nhạt hoặc xanh tím nhẹ, rêu trắng mỏng",
+      "pulse": "Trầm tế nhược, đặc biệt vị xích và thốn"
+    },
+    "key_distinguishing_features": "Khó thở mãn tính + thở ra dài hơn hít vào + khó thở tăng khi gắng sức + lưng gối yếu — Thận không nạp khí từ Phế xuống",
+    "differential_diagnosis": [
+      {
+        "pattern_code": "lung_qi_deficiency",
+        "distinguishing_feature": "Phế khí hư: khó thở + ho yếu + dễ cảm; Thận bất nạp khí: khó thở nổi bật khi gắng sức, thở ra dài hơn hít vào, lưng gối yếu"
+      },
+      {
+        "pattern_code": "lung_kidney_qi_deficiency",
+        "distinguishing_feature": "Phế Thận khí hư: bao gồm cả hai bộ triệu chứng; Thận bất nạp khí: trọng tâm là rối loạn cơ học hô hấp do Thận không nạp"
+      },
+      {
+        "pattern_code": "heart_lung_qi_deficiency",
+        "distinguishing_feature": "Tâm Phế khí hư: hồi hộp và mệt mỏi nổi bật; Thận bất nạp khí: lưng gối yếu, triệu chứng Thận rõ"
+      }
+    ],
+    "phap_tri": {
+      "principle_vi": "Bổ Thận nạp khí",
+      "principle_en": "Tonify Kidney to Grasp Qi",
+      "primary_formula": "Sâm Kha Tán hợp Thận Khí Hoàn",
+      "alternative_formulas": [
+        "Đô Khí Hoàn (yin deficiency pattern)",
+        "Hắc Tích Đan (dương hư nặng)",
+        "Bổ Phế Thang hợp Lục Vị Địa Hoàng Hoàn"
+      ],
+      "key_herbs": ["Đông trùng hạ thảo", "Kha tử", "Nhân sâm", "Hồ đào nhục", "Thục địa", "Phụ tử chế", "Ngũ vị tử", "Từ thạch"],
+      "acupuncture_points": ["Thận Du BL23", "Phế Du BL13", "Quan Nguyên CV4", "Khí Hải CV6", "Phong Long ST40", "Thái Khê KD3"],
+      "lifestyle_advice": "Tránh gắng sức quá mức, tập thở bụng (thở sâu chú ý vùng Đan điền), tránh lạnh, cai thuốc lá"
+    },
+    "yhhd_correlations": ["COPD", "Asthma chronic", "Interstitial lung disease", "Pulmonary fibrosis", "Chronic respiratory failure"],
+    "safety_notes": "Bệnh nhân COPD nặng: phối hợp điều trị Tây y; theo dõi SpO2",
+    "follow_up_timing": "4-8 tuần",
+    "red_flag_override": "SpO2 < 90%, khó thở cấp tính: cấp cứu hô hấp trước",
+    "prevalence_vietnam": "common",
+    "common_demographics": "Bệnh nhân COPD cao tuổi, hen phế quản mãn, người hút thuốc lâu năm"
+  },
+  {
+    "pattern_id": "PAT_B02_008",
+    "chung_code": "kidney_deficiency_effulgent_fire",
+    "name_vi": "Thận hư hỏa vượng",
+    "name_en": "Kidney Deficiency with Effulgent Fire",
+    "zangfu_primary": "kidney",
+    "pathogenesis_code": "kidney_yin_deficiency_fire",
+    "bat_cuong_summary": {
+      "dominant": ["interior", "deficiency", "heat"],
+      "secondary": ["fire_flaring_upward"],
+      "absent": ["exterior", "cold"]
+    },
+    "diagnostic_criteria": {
+      "required": ["seminal_emission_with_dreams_or_premature_ejaculation", "lumbar_soreness"],
+      "two_or_more_of": [
+        "palmar_plantar_chest_heat_intense",
+        "night_sweats_profuse",
+        "restlessness_insomnia",
+        "dry_mouth_throat",
+        "afternoon_fever",
+        "scanty_dark_urine",
+        "facial_flushing"
+      ],
+      "tongue": "Đỏ, không rêu hoặc rêu vàng mỏng",
+      "pulse": "Tế sác hữu lực"
+    },
+    "key_distinguishing_features": "Thận âm hư + hỏa vượng nổi bật: mộng tinh/xuất tinh sớm + bứt rứt mất ngủ + 5 tâm phiền nhiệt nặng + mặt đỏ bừng",
+    "differential_diagnosis": [
+      {
+        "pattern_code": "kidney_yin_deficiency",
+        "distinguishing_feature": "Thận âm hư: hư nhiệt nhẹ hơn; Thận hư hỏa vượng: hỏa nhiệt nổi bật, mộng tinh, bứt rứt nặng hơn"
+      },
+      {
+        "pattern_code": "heart_fire_excess",
+        "distinguishing_feature": "Tâm hỏa vượng: thực nhiệt, miệng lưỡi lở loét, tiểu đỏ buốt, mạch sác hữu lực; Thận hư hỏa vượng: hư nhiệt, mạch tế sác"
+      },
+      {
+        "pattern_code": "liver_fire_rising",
+        "distinguishing_feature": "Can hỏa thượng viêm: đau đầu bên thái dương, tai ù ầm ầm, mắt đỏ, cáu gắt; Thận hư hỏa vượng: mộng tinh, lưng gối yếu"
+      }
+    ],
+    "phap_tri": {
+      "principle_vi": "Tư âm giáng hỏa",
+      "principle_en": "Enrich Yin, Descend Fire",
+      "primary_formula": "Tri Bá Địa Hoàng Hoàn (Zhi Bai Di Huang Wan)",
+      "alternative_formulas": [
+        "Đại Bổ Âm Hoàn (hỏa cực mạnh)",
+        "Thanh Tâm Liên Tử Ẩm (kèm Tâm hỏa)"
+      ],
+      "key_herbs": ["Thục địa", "Sơn thù", "Sơn dược", "Tri mẫu", "Hoàng bá", "Phục linh", "Trạch tả", "Mẫu đơn bì"],
+      "acupuncture_points": ["Thận Du BL23", "Thái Khê KD3", "Phục Lưu KD7", "Tam Âm Giao SP6", "Lao Cung PC8", "Dũng Tuyền KD1"],
+      "lifestyle_advice": "Tránh thức khuya, hạn chế tư dục, tránh đồ cay nóng, tập thiền định để giảm kích thích tâm thần"
+    },
+    "yhhd_correlations": ["Sexual dysfunction with hypersexuality", "Premature ejaculation", "Menopausal hot flashes severe", "Nocturnal emission disorder"],
+    "safety_notes": "Hoàng bá và Tri mẫu tính hàn — không dùng kéo dài khi không có nhiệt chứng",
+    "follow_up_timing": "3-4 tuần",
+    "red_flag_override": null,
+    "prevalence_vietnam": "common",
+    "common_demographics": "Nam giới trẻ tuổi thủ dâm quá độ, phụ nữ tiền mãn kinh, người căng thẳng thần kinh cao"
+  },
+  {
+    "pattern_id": "PAT_B02_009",
+    "chung_code": "kidney_yin_yang_both_deficient",
+    "name_vi": "Thận âm dương lưỡng hư",
+    "name_en": "Kidney Yin and Yang Both Deficient",
+    "zangfu_primary": "kidney",
+    "pathogenesis_code": "kidney_yin_yang_dual_deficiency",
+    "bat_cuong_summary": {
+      "dominant": ["interior", "deficiency"],
+      "secondary": ["mixed_heat_cold"],
+      "absent": ["exterior", "excess"]
+    },
+    "diagnostic_criteria": {
+      "required": ["lumbar_soreness_chronic", "fatigue_severe"],
+      "two_or_more_of": [
+        "alternating_heat_and_cold_sensation",
+        "night_sweats_with_cold_limbs",
+        "tinnitus",
+        "impotence_or_decreased_libido",
+        "frequent_urination_nocturia",
+        "dry_mouth_mild",
+        "loose_stool_or_constipation_alternating"
+      ],
+      "tongue": "Nhạt đỏ hoặc có vùng đỏ vùng nhạt, rêu mỏng",
+      "pulse": "Trầm tế, đôi khi tế sác đôi khi tế trì"
+    },
+    "key_distinguishing_features": "Có cả triệu chứng âm hư lẫn dương hư xen kẽ — lưng mỏi nặng, mệt mỏi nhiều, hàn nhiệt thất thường, lưỡi không rõ hàn hay nhiệt",
+    "differential_diagnosis": [
+      {
+        "pattern_code": "kidney_yin_deficiency",
+        "distinguishing_feature": "Thận âm hư đơn thuần: nhiệt chứng rõ, không có lạnh; Lưỡng hư: xen kẽ hàn nhiệt"
+      },
+      {
+        "pattern_code": "kidney_yang_deficiency",
+        "distinguishing_feature": "Thận dương hư đơn thuần: hàn chứng rõ, không có nhiệt; Lưỡng hư: có cả hai"
+      }
+    ],
+    "phap_tri": {
+      "principle_vi": "Âm dương song bổ, điều hòa Thận khí",
+      "principle_en": "Tonify Both Yin and Yang of Kidney",
+      "primary_formula": "Quy Lộc Nhị Tiên Cao hoặc Kim Quỹ Thận Khí Hoàn",
+      "alternative_formulas": [
+        "Địa Hoàng Ẩm Tử (có triệu chứng thần kinh)",
+        "Nhị Tiên Thang (phụ nữ mãn kinh)"
+      ],
+      "key_herbs": ["Thục địa", "Sơn thù", "Nhục thung dung", "Ba kích thiên", "Tiên linh tỳ", "Tiên mao", "Hoàng bá", "Tri mẫu", "Quy bản"],
+      "acupuncture_points": ["Thận Du BL23", "Mệnh Môn GV4", "Thái Khê KD3", "Quan Nguyên CV4", "Tam Âm Giao SP6"],
+      "lifestyle_advice": "Điều độ trong sinh hoạt, không thái quá về âm hay dương — tránh đồ quá nóng và quá lạnh"
+    },
+    "yhhd_correlations": ["Menopause syndrome complex", "Andropause", "CKD advanced", "Adrenal fatigue", "Thyroid disorders mixed"],
+    "safety_notes": null,
+    "follow_up_timing": "6-8 tuần",
+    "red_flag_override": null,
+    "prevalence_vietnam": "common",
+    "common_demographics": "Cao tuổi (>60), phụ nữ sau mãn kinh, bệnh nhân CKD giai đoạn 3-4"
+  },
+  {
+    "pattern_id": "PAT_B02_010",
+    "chung_code": "kidney_essence_brain_insufficiency",
+    "name_vi": "Thận tinh hư não tủy bất sung",
+    "name_en": "Kidney Essence Deficiency with Brain Marrow Insufficiency",
+    "zangfu_primary": "kidney",
+    "pathogenesis_code": "kidney_essence_deficiency_brain",
+    "bat_cuong_summary": {
+      "dominant": ["interior", "deficiency"],
+      "secondary": [],
+      "absent": ["exterior", "excess"]
+    },
+    "diagnostic_criteria": {
+      "required": ["cognitive_decline_memory_loss", "lumbar_soreness_weakness"],
+      "two_or_more_of": [
+        "dizziness_chronic",
+        "tinnitus_bilateral",
+        "poor_concentration",
+        "slow_thinking",
+        "hair_loss_premature_greying",
+        "weak_knees_difficulty_walking",
+        "insomnia_or_hypersomnia",
+        "depression_mild"
+      ],
+      "tongue": "Nhạt hoặc nhạt đỏ, teo nhỏ, rêu mỏng",
+      "pulse": "Trầm tế nhược"
+    },
+    "key_distinguishing_features": "Suy giảm nhận thức + chóng mặt + ù tai + lưng gối yếu — Thận tinh không nuôi dưỡng được não tủy",
+    "differential_diagnosis": [
+      {
+        "pattern_code": "kidney_essence_deficiency",
+        "distinguishing_feature": "Thận tinh hư: rộng hơn, bao gồm lão hóa sớm, sinh dục; Não tủy bất sung: tập trung vào suy giảm nhận thức và thần kinh"
+      },
+      {
+        "pattern_code": "heart_spleen_deficiency",
+        "distinguishing_feature": "Tâm Tỳ hư: mất ngủ, lo lắng, ăn kém, mệt mỏi; Não tủy bất sung: suy giảm nhận thức nặng hơn, lưng gối yếu, ù tai"
+      },
+      {
+        "pattern_code": "phlegm_misting_mind",
+        "distinguishing_feature": "Đàm mê tâm khiếu: đột ngột, thực chứng, lưỡi bệu rêu dày; Não tủy bất sung: từ từ, hư chứng"
+      }
+    ],
+    "phap_tri": {
+      "principle_vi": "Bổ Thận điền tinh, ích não tủy",
+      "principle_en": "Tonify Kidney Essence, Nourish Brain and Marrow",
+      "primary_formula": "Địa Hoàng Ẩm Tử (Di Huang Yin Zi) hoặc Hà Xa Đại Tạo Hoàn",
+      "alternative_formulas": [
+        "Tả Quy Hoàn gia Thạch xương bồ, Viễn chí",
+        "Quy Tỳ Thang hợp Lục Vị Địa Hoàng Hoàn"
+      ],
+      "key_herbs": ["Thục địa", "Sơn thù", "Phụ tử chế nhỏ liều", "Nhục thung dung", "Thạch xương bồ", "Viễn chí", "Phục linh", "Mạch môn", "Ngũ vị tử"],
+      "acupuncture_points": ["Thận Du BL23", "Bách Hội GV20", "Tứ Thần Thông (EX)", "Thái Khê KD3", "Tam Âm Giao SP6", "Chí Thất BL52"],
+      "lifestyle_advice": "Kích thích trí não nhẹ nhàng (đọc sách, ô chữ), tập thể dục đều đặn, xã hội hóa, ngủ đủ giấc, bổ sung omega-3"
+    },
+    "yhhd_correlations": ["Alzheimer's disease early-moderate", "Vascular dementia", "Mild cognitive impairment (MCI)", "Age-related cognitive decline", "Parkinson's with dementia"],
+    "safety_notes": "Không thay thế điều trị sa sút trí tuệ Tây y; phối hợp đa chuyên khoa",
+    "follow_up_timing": "8-12 tuần — đánh giá bằng thang điểm nhận thức (MMSE, MoCA)",
+    "red_flag_override": "Suy giảm nhận thức nhanh, mất phương hướng cấp tính: loại trừ đột quỵ, viêm não — chuyển ngay",
+    "prevalence_vietnam": "common",
+    "common_demographics": "Cao tuổi (>65), bệnh nhân sau đột quỵ, người có tiền sử gia đình sa sút trí tuệ"
+  },
+  {
+    "pattern_id": "PAT_B02_011",
+    "chung_code": "kidney_deficiency_bone_weakness",
+    "name_vi": "Thận hư cốt nuy",
+    "name_en": "Kidney Deficiency Bone Weakness (Osteoporosis Pattern)",
+    "zangfu_primary": "kidney",
+    "pathogenesis_code": "kidney_essence_deficiency_bone",
+    "bat_cuong_summary": {
+      "dominant": ["interior", "deficiency"],
+      "secondary": [],
+      "absent": ["exterior", "excess"]
+    },
+    "diagnostic_criteria": {
+      "required": ["lumbar_soreness_chronic_aching", "bone_pain_or_fracture_low_trauma"],
+      "two_or_more_of": [
+        "weakness_knees_difficulty_climbing",
+        "height_loss",
+        "kyphosis_progressive",
+        "tooth_loss_premature",
+        "hair_thinning",
+        "fatigue_cold_limbs"
+      ],
+      "tongue": "Nhạt hoặc đỏ nhạt, rêu mỏng",
+      "pulse": "Trầm tế nhược"
+    },
+    "key_distinguishing_features": "Lưng đau âm ỉ + gối yếu + loãng xương (gãy xương chấn thương nhỏ) + răng rụng sớm — Thận chủ cốt, tinh không nuôi xương",
+    "differential_diagnosis": [
+      {
+        "pattern_code": "kidney_essence_deficiency",
+        "distinguishing_feature": "Thận tinh hư chung: biểu hiện lão hóa toàn diện; Thận hư cốt nuy: tập trung đặc hiệu vào xương và cơ vận động"
+      },
+      {
+        "pattern_code": "blood_deficiency_sinew_weakness",
+        "distinguishing_feature": "Huyết hư cân nuy: yếu gân cơ nổi bật, da xanh nhợt; Thận hư cốt nuy: yếu xương, gãy xương, răng rụng"
+      }
+    ],
+    "phap_tri": {
+      "principle_vi": "Bổ Thận tráng cốt",
+      "principle_en": "Tonify Kidney, Strengthen Bones",
+      "primary_formula": "Tả Quy Hoàn hoặc Hữu Quy Hoàn (tùy âm/dương thiên thắng)",
+      "alternative_formulas": [
+        "Hổ Tiềm Hoàn (xương cốt suy yếu nặng)",
+        "Bổ Thận Tráng Cốt Thang gia vị"
+      ],
+      "key_herbs": ["Thục địa", "Kỷ tử", "Thỏ ty tử", "Lộc giác giao", "Đỗ trọng", "Ngưu tất", "Cốt toái bổ", "Tục đoạn", "Xuyên khung"],
+      "acupuncture_points": ["Thận Du BL23", "Đại Trử BL11", "Tuyệt Cốt GB39", "Thái Khê KD3", "Tam Âm Giao SP6", "Túc Tam Lý ST36"],
+      "lifestyle_advice": "Bổ sung canxi và vitamin D, tập thể dục chịu trọng lượng (đi bộ, dưỡng sinh), tránh té ngã, hạn chế rượu bia và thuốc lá"
+    },
+    "yhhd_correlations": ["Osteoporosis", "Osteopenia", "Pathological fractures", "Sarcopenia", "Post-menopausal bone loss"],
+    "safety_notes": "Phối hợp đo mật độ xương (DEXA scan) và bổ sung canxi/D3 theo Tây y khi cần",
+    "follow_up_timing": "3-6 tháng — theo dõi mật độ xương",
+    "red_flag_override": "Gãy xương đốt sống gây chèn ép tủy: cấp cứu phẫu thuật",
+    "prevalence_vietnam": "common",
+    "common_demographics": "Phụ nữ sau mãn kinh, nam giới >70 tuổi, người dùng corticoid dài ngày"
+  },
+  {
+    "pattern_id": "PAT_B02_012",
+    "chung_code": "kidney_deficiency_tinnitus_deafness",
+    "name_vi": "Thận hư nhĩ minh nhĩ lung",
+    "name_en": "Kidney Deficiency Tinnitus and Deafness",
+    "zangfu_primary": "kidney",
+    "pathogenesis_code": "kidney_essence_qi_deficiency_ear",
+    "bat_cuong_summary": {
+      "dominant": ["interior", "deficiency"],
+      "secondary": [],
+      "absent": ["exterior", "excess"]
+    },
+    "diagnostic_criteria": {
+      "required": ["tinnitus_chronic_low_pitched", "lumbar_soreness_weakness"],
+      "two_or_more_of": [
+        "progressive_hearing_loss",
+        "worse_with_fatigue",
+        "better_with_rest",
+        "dizziness_mild",
+        "fatigue",
+        "night_sweats_mild_or_cold_limbs"
+      ],
+      "tongue": "Nhạt hoặc đỏ nhạt, rêu mỏng",
+      "pulse": "Trầm tế nhược"
+    },
+    "key_distinguishing_features": "Ù tai âm thanh thấp (ve ve/suối chảy) + giảm thính lực dần dần + mệt thì nặng hơn + lưng gối yếu — phân biệt với Can hỏa (âm to, đột ngột)",
+    "differential_diagnosis": [
+      {
+        "pattern_code": "liver_fire_tinnitus",
+        "distinguishing_feature": "Can hỏa nhĩ minh: ù tai đột ngột, âm thanh to (như sấm sét), kèm đau đầu, cáu gắt, mắt đỏ; Thận hư: âm thấp, từ từ, mệt tăng"
+      },
+      {
+        "pattern_code": "phlegm_heat_tinnitus",
+        "distinguishing_feature": "Đàm nhiệt: ù tai kèm đầu nặng, buồn nôn, rêu dày nhờn"
+      }
+    ],
+    "phap_tri": {
+      "principle_vi": "Bổ Thận khai khiếu nhĩ",
+      "principle_en": "Tonify Kidney, Open Ear Orifice",
+      "primary_formula": "Nhĩ Minh Tả Từ Hoàn (Er Ming Zuo Ci Wan)",
+      "alternative_formulas": [
+        "Lục Vị Địa Hoàng Hoàn gia Từ thạch, Thạch xương bồ",
+        "Thận Khí Hoàn (nếu dương hư)"
+      ],
+      "key_herbs": ["Thục địa", "Sơn thù", "Sơn dược", "Từ thạch", "Thạch xương bồ", "Phục linh", "Trạch tả", "Mẫu đơn bì"],
+      "acupuncture_points": ["Thính Cung SI19", "Thính Hội GB2", "Nhĩ Môn SJ21", "Thận Du BL23", "Thái Khê KD3", "Trung Chử SJ3"],
+      "lifestyle_advice": "Tránh tiếng ồn lớn, tránh căng thẳng, ngủ đủ giấc, không dùng thuốc độc tai (aminoglycosides, aspirin liều cao)"
+    },
+    "yhhd_correlations": ["Age-related sensorineural hearing loss (presbycusis)", "Tinnitus chronic", "Noise-induced hearing loss chronic"],
+    "safety_notes": "Loại trừ u dây thần kinh số VIII, viêm tai giữa trước khi điều trị YHCT",
+    "follow_up_timing": "6-8 tuần",
+    "red_flag_override": "Điếc đột ngột (dưới 72h): cấp cứu tai mũi họng (corticoid toàn thân)",
+    "prevalence_vietnam": "common",
+    "common_demographics": "Cao tuổi, người tiếp xúc tiếng ồn nghề nghiệp, bệnh nhân dùng thuốc độc tai"
+  },
+  {
+    "pattern_id": "PAT_B02_013",
+    "chung_code": "kidney_deficiency_seminal_emission",
+    "name_vi": "Thận hư di tinh",
+    "name_en": "Kidney Deficiency Seminal Emission",
+    "zangfu_primary": "kidney",
+    "pathogenesis_code": "kidney_qi_not_securing_semen",
+    "bat_cuong_summary": {
+      "dominant": ["interior", "deficiency"],
+      "secondary": [],
+      "absent": ["exterior"]
+    },
+    "diagnostic_criteria": {
+      "required": ["frequent_seminal_emission", "lumbar_soreness_weakness"],
+      "two_or_more_of": [
+        "premature_ejaculation",
+        "fatigue_dizziness_after_emission",
+        "poor_memory_concentration",
+        "palpitations",
+        "insomnia",
+        "cold_limbs_or_five_heart_heat"
+      ],
+      "tongue": "Nhạt hoặc đỏ nhạt",
+      "pulse": "Tế nhược hoặc tế sác"
+    },
+    "key_distinguishing_features": "Di tinh (mộng tinh hoặc hoạt tinh) + mệt mỏi sau khi xuất tinh + lưng gối yếu — phân biệt mộng tinh (hỏa) vs hoạt tinh (hư hàn)",
+    "differential_diagnosis": [
+      {
+        "pattern_code": "kidney_deficiency_effulgent_fire",
+        "distinguishing_feature": "Thận hư hỏa vượng: mộng tinh nhiều, kèm hư nhiệt rõ; Thận khí bất cố: hoạt tinh (không mộng), hư hàn nhiều hơn"
+      },
+      {
+        "pattern_code": "heart_kidney_non_communication",
+        "distinguishing_feature": "Tâm Thận bất giao: mộng tinh kèm mất ngủ, lo lắng, hồi hộp nổi bật"
+      },
+      {
+        "pattern_code": "damp_heat_lower_jiao",
+        "distinguishing_feature": "Thấp nhiệt hạ tiêu: di tinh kèm tiểu buốt/vàng, tinh dịch có mùi, lưỡi vàng nhờn"
+      }
+    ],
+    "phap_tri": {
+      "principle_vi": "Bổ Thận cố tinh",
+      "principle_en": "Tonify Kidney, Consolidate Essence",
+      "primary_formula": "Kim Tỏa Cố Tinh Hoàn (Jin Suo Gu Jing Wan)",
+      "alternative_formulas": [
+        "Tri Bá Địa Hoàng Hoàn (nếu hỏa vượng)",
+        "Thủy Lục Nhị Tiên Đan",
+        "Mật Tinh Hoàn (hoạt tinh hàn)"
+      ],
+      "key_herbs": ["Sa uyển tử", "Khiếm thực", "Liên tu", "Long cốt", "Mẫu lệ", "Liên tử", "Thỏ ty tử", "Phúc bồn tử"],
+      "acupuncture_points": ["Thận Du BL23", "Chí Thất BL52", "Quan Nguyên CV4", "Trung Cực CV3", "Tam Âm Giao SP6", "Thái Khê KD3"],
+      "lifestyle_advice": "Tránh xem nội dung kích thích tình dục, tập thiền định, không thức khuya, tránh rượu bia, thể dục đều đặn"
+    },
+    "yhhd_correlations": ["Spermatorrhea", "Premature ejaculation", "Male infertility", "Sexual neurasthenia"],
+    "safety_notes": null,
+    "follow_up_timing": "4-6 tuần",
+    "red_flag_override": null,
+    "prevalence_vietnam": "common",
+    "common_demographics": "Nam giới trẻ và trung niên, đặc biệt người căng thẳng, làm việc quá sức"
+  },
+  {
+    "pattern_id": "PAT_B02_014",
+    "chung_code": "kidney_deficiency_frequent_urination",
+    "name_vi": "Thận hư đái tần (đái đêm nhiều)",
+    "name_en": "Kidney Deficiency Frequent Urination / Nocturia",
+    "zangfu_primary": "kidney",
+    "pathogenesis_code": "kidney_qi_not_securing_bladder",
+    "bat_cuong_summary": {
+      "dominant": ["interior", "deficiency"],
+      "secondary": [],
+      "absent": ["exterior", "excess"]
+    },
+    "diagnostic_criteria": {
+      "required": ["nocturia_2_or_more_times", "lumbar_soreness_weakness"],
+      "two_or_more_of": [
+        "frequent_daytime_urination_clear_copious",
+        "urinary_incontinence_stress_or_urge",
+        "cold_limbs_mild",
+        "fatigue",
+        "weak_knees",
+        "pale_complexion"
+      ],
+      "tongue": "Nhạt, rêu trắng mỏng",
+      "pulse": "Trầm trì nhược"
+    },
+    "key_distinguishing_features": "Tiểu đêm ≥2 lần + tiểu trong, không buốt, không gắt + lưng gối yếu + mệt mỏi — phân biệt với Bàng quang thấp nhiệt (tiểu buốt vàng)",
+    "differential_diagnosis": [
+      {
+        "pattern_code": "bladder_damp_heat",
+        "distinguishing_feature": "Bàng quang thấp nhiệt: tiểu buốt, tiểu gắt, tiểu vàng đỏ, cấp bách; Thận hư đái tần: tiểu trong, không buốt, chậm rãi, về đêm nhiều"
+      },
+      {
+        "pattern_code": "kidney_qi_not_securing",
+        "distinguishing_feature": "Thận khí bất cố: nặng hơn với tiểu không kiểm soát; Thận hư đái tần: tiểu nhiều nhưng còn kiểm soát được"
+      }
+    ],
+    "phap_tri": {
+      "principle_vi": "Bổ Thận cố nhiếp, ôn bàng quang",
+      "principle_en": "Tonify Kidney, Secure Bladder",
+      "primary_formula": "Súc Tuyền Hoàn (Suo Quan Wan) hợp Thận Khí Hoàn",
+      "alternative_formulas": [
+        "Sang Phiêu Tiêu Tán",
+        "Bổ Thận Cố Sáp Thang"
+      ],
+      "key_herbs": ["Ích trí nhân", "Ô dược", "Sơn dược", "Phụ tử chế nhỏ liều", "Nhục quế", "Thỏ ty tử", "Kim anh tử"],
+      "acupuncture_points": ["Thận Du BL23", "Bàng Quang Du BL28", "Quan Nguyên CV4", "Trung Cực CV3", "Tam Âm Giao SP6", "Âm Lăng Tuyền SP9"],
+      "lifestyle_advice": "Hạn chế uống nước sau 19h, tránh lạnh, tập bài tập cơ sàn chậu, theo dõi nhật ký tiểu tiện"
+    },
+    "yhhd_correlations": ["Nocturia", "Overactive bladder", "BPH with nocturia", "Diabetes insipidus differential", "Stress urinary incontinence"],
+    "safety_notes": "Loại trừ đái tháo đường, đái tháo nhạt và bệnh lý tuyến tiền liệt trước điều trị",
+    "follow_up_timing": "3-4 tuần",
+    "red_flag_override": "Tiểu nhiều kèm khát nhiều uống nhiều: kiểm tra đường huyết ngay",
+    "prevalence_vietnam": "very_common",
+    "common_demographics": "Cao tuổi, nam giới có tiền liệt tuyến phì đại, phụ nữ sau mãn kinh"
+  },
+  {
+    "pattern_id": "PAT_B02_015",
+    "chung_code": "liver_kidney_yin_deficiency",
+    "name_vi": "Can Thận âm hư",
+    "name_en": "Liver-Kidney Yin Deficiency",
+    "zangfu_primary": "liver_kidney",
+    "pathogenesis_code": "liver_kidney_yin_deficiency",
+    "bat_cuong_summary": {
+      "dominant": ["interior", "deficiency", "heat"],
+      "secondary": [],
+      "absent": ["exterior", "cold"]
+    },
+    "diagnostic_criteria": {
+      "required": ["lumbar_soreness_chronic", "visual_disturbance_or_dry_eyes"],
+      "two_or_more_of": [
+        "tinnitus",
+        "dizziness_chronic",
+        "night_sweats",
+        "palmar_plantar_chest_heat",
+        "dry_throat_mouth",
+        "menstrual_irregularity_scanty",
+        "muscle_cramps_or_tremors",
+        "numbness_limbs"
+      ],
+      "tongue": "Đỏ, ít rêu hoặc không rêu",
+      "pulse": "Tế sác, đặc biệt vị quan và xích"
+    },
+    "key_distinguishing_features": "Thận âm hư + triệu chứng Can âm hư: mắt khô/mờ + co giật nhẹ + tê bì + kinh nguyệt ít (nữ) + chóng mặt — Can Thận đồng nguyên",
+    "differential_diagnosis": [
+      {
+        "pattern_code": "kidney_yin_deficiency",
+        "distinguishing_feature": "Thận âm hư đơn thuần: không có triệu chứng Can rõ ràng; Can Thận âm hư: thêm mắt mờ, co giật, tê bì, kinh ít"
+      },
+      {
+        "pattern_code": "liver_yin_deficiency",
+        "distinguishing_feature": "Can âm hư đơn thuần: triệu chứng Can nổi bật, Thận ít; Can Thận âm hư: cả hai đều rõ"
+      },
+      {
+        "pattern_code": "liver_yang_rising",
+        "distinguishing_feature": "Can dương thượng kháng: đau đầu dội, mặt đỏ, cáu gắt, huyết áp cao nổi bật; Can Thận âm hư: âm hư làm nền, ít thực chứng"
+      }
+    ],
+    "phap_tri": {
+      "principle_vi": "Tư bổ Can Thận",
+      "principle_en": "Nourish and Tonify Liver and Kidney",
+      "primary_formula": "Kỷ Cúc Địa Hoàng Hoàn (Qi Ju Di Huang Wan)",
+      "alternative_formulas": [
+        "Nhất Quán Tiễn (Can khí uất kèm)",
+        "Tả Quy Hoàn (tinh huyết hư nặng)",
+        "Minh Mục Địa Hoàng Hoàn (triệu chứng mắt nổi bật)"
+      ],
+      "key_herbs": ["Thục địa", "Sơn thù", "Kỷ tử", "Cúc hoa", "Sơn dược", "Phục linh", "Trạch tả", "Mẫu đơn bì", "Đương quy", "Bạch thược"],
+      "acupuncture_points": ["Thận Du BL23", "Can Du BL18", "Thái Khê KD3", "Thái Xung LV3", "Tam Âm Giao SP6", "Quang Minh GB37"],
+      "lifestyle_advice": "Tránh nhìn màn hình quá lâu, nghỉ mắt thường xuyên, không thức khuya, tránh rượu, ăn thức ăn dưỡng Can Thận (mọng quả đen, cà rốt, kỷ tử)"
+    },
+    "yhhd_correlations": ["Hypertension with yin deficiency", "Age-related macular degeneration", "Dry eye syndrome", "Menopause", "Parkinson's disease early", "Multiple sclerosis mild"],
+    "safety_notes": null,
+    "follow_up_timing": "4-6 tuần",
+    "red_flag_override": null,
+    "prevalence_vietnam": "very_common",
+    "common_demographics": "Phụ nữ trung niên và cao tuổi, người làm việc máy tính nhiều, bệnh nhân tăng huyết áp"
+  },
+  {
+    "pattern_id": "PAT_B02_016",
+    "chung_code": "spleen_kidney_yang_deficiency",
+    "name_vi": "Tỳ Thận dương hư",
+    "name_en": "Spleen-Kidney Yang Deficiency",
+    "zangfu_primary": "spleen_kidney",
+    "pathogenesis_code": "spleen_kidney_yang_deficiency",
+    "bat_cuong_summary": {
+      "dominant": ["interior", "deficiency", "cold"],
+      "secondary": ["dampness_retention"],
+      "absent": ["exterior", "heat"]
+    },
+    "diagnostic_criteria": {
+      "required": ["dawn_diarrhea_or_chronic_loose_stool", "cold_limbs_aversion_cold"],
+      "two_or_more_of": [
+        "lumbar_soreness_cold",
+        "edema_lower_limbs",
+        "abdominal_distension_cold",
+        "poor_appetite",
+        "fatigue_listlessness",
+        "frequent_urination_clear",
+        "pale_complexion"
+      ],
+      "tongue": "Nhạt bệu, có vết răng, rêu trắng trơn",
+      "pulse": "Trầm trì nhược"
+    },
+    "key_distinguishing_features": "Tiêu chảy lúc sáng sớm (ngũ canh tiêu) + lạnh + phù + mệt mỏi + lưng gối lạnh — Tỳ và Thận dương cùng hư, thủy thấp không vận hóa",
+    "differential_diagnosis": [
+      {
+        "pattern_code": "kidney_yang_deficiency",
+        "distinguishing_feature": "Thận dương hư đơn thuần: ít triệu chứng tiêu hóa; Tỳ Thận dương hư: tiêu chảy, kém ăn, bụng trướng nổi bật"
+      },
+      {
+        "pattern_code": "spleen_qi_deficiency",
+        "distinguishing_feature": "Tỳ khí hư: không có hàn chứng Thận rõ ràng; Tỳ Thận dương hư: có lưng lạnh, tiểu trong, hàn chứng toàn thân"
+      }
+    ],
+    "phap_tri": {
+      "principle_vi": "Ôn bổ Tỳ Thận",
+      "principle_en": "Warm and Tonify Spleen and Kidney",
+      "primary_formula": "Tứ Thần Hoàn hợp Phụ Tử Lý Trung Hoàn",
+      "alternative_formulas": [
+        "Chân Vũ Thang (phù nề nổi bật)",
+        "Thực Tỳ Ẩm",
+        "Ôn Tỳ Thang"
+      ],
+      "key_herbs": ["Phụ tử chế", "Can khương", "Nhục quế", "Phá cố chỉ", "Nhục đậu khấu", "Ngô thù du", "Ngũ vị tử", "Đảng sâm", "Bạch truật", "Phục linh"],
+      "acupuncture_points": ["Thận Du BL23", "Mệnh Môn GV4", "Tỳ Du BL20", "Vị Du BL21", "Thần Khuyết CV8 (cứu)", "Quan Nguyên CV4", "Túc Tam Lý ST36"],
+      "lifestyle_advice": "Ăn đồ ấm, tránh đồ lạnh sống, giữ ấm bụng và lưng, tránh lo lắng quá mức"
+    },
+    "yhhd_correlations": ["Irritable bowel syndrome (diarrhea-predominant)", "CKD with GI symptoms", "Hypothyroidism", "Adrenal insufficiency", "Inflammatory bowel disease remission"],
+    "safety_notes": "Phụ tử chế: liều an toàn, chế biến đúng cách",
+    "follow_up_timing": "4-6 tuần",
+    "red_flag_override": "Tiêu chảy kèm máu, sút cân không rõ nguyên nhân: loại trừ ung thư đại trực tràng",
+    "prevalence_vietnam": "very_common",
+    "common_demographics": "Cao tuổi, bệnh nhân CKD, người sống vùng lạnh ẩm, bệnh nhân sau hóa-xạ trị"
+  },
+  {
+    "pattern_id": "PAT_B02_017",
+    "chung_code": "lung_kidney_qi_deficiency",
+    "name_vi": "Phế Thận khí hư",
+    "name_en": "Lung-Kidney Qi Deficiency",
+    "zangfu_primary": "lung_kidney",
+    "pathogenesis_code": "lung_kidney_qi_deficiency",
+    "bat_cuong_summary": {
+      "dominant": ["interior", "deficiency"],
+      "secondary": [],
+      "absent": ["exterior", "excess"]
+    },
+    "diagnostic_criteria": {
+      "required": ["dyspnea_chronic", "lumbar_soreness_weakness"],
+      "two_or_more_of": [
+        "chronic_cough_weak",
+        "shortness_of_breath_worse_exertion",
+        "spontaneous_sweating",
+        "easily_catches_cold",
+        "fatigue_weakness",
+        "low_voice",
+        "tinnitus_mild"
+      ],
+      "tongue": "Nhạt, rêu trắng mỏng",
+      "pulse": "Trầm tế nhược, vị thốn và xích đều nhược"
+    },
+    "key_distinguishing_features": "Khó thở + ho yếu + dễ cảm + mồ hôi tự ra + lưng gối yếu — Phế không đủ khí để truyền xuống, Thận không đủ tinh để dưỡng Phế",
+    "differential_diagnosis": [
+      {
+        "pattern_code": "kidney_failing_grasp_qi",
+        "distinguishing_feature": "Thận bất nạp khí: trọng tâm là cơ chế nạp khí (thở ra dài hơn hít vào); Phế Thận khí hư: cả hai tạng đều hư, triệu chứng Phế và Thận đều rõ"
+      },
+      {
+        "pattern_code": "lung_qi_deficiency",
+        "distinguishing_feature": "Phế khí hư đơn thuần: không có lưng gối yếu, không có triệu chứng Thận; Phế Thận khí hư: cả hai tạng"
+      }
+    ],
+    "phap_tri": {
+      "principle_vi": "Bổ Phế ích Thận",
+      "principle_en": "Tonify Lung, Benefit Kidney",
+      "primary_formula": "Sinh Mạch Tán hợp Thận Khí Hoàn",
+      "alternative_formulas": [
+        "Bổ Phế Thang hợp Lục Vị Địa Hoàng Hoàn",
+        "Nhân Sâm Hồ Đào Thang",
+        "Đông trùng hạ thảo đơn vị"
+      ],
+      "key_herbs": ["Nhân sâm", "Mạch môn", "Ngũ vị tử", "Thục địa", "Sơn thù", "Đông trùng hạ thảo", "Tử hà xa", "Hoàng kỳ"],
+      "acupuncture_points": ["Phế Du BL13", "Thận Du BL23", "Thái Uyên LU9", "Thái Khê KD3", "Túc Tam Lý ST36", "Quan Nguyên CV4"],
+      "lifestyle_advice": "Cai thuốc lá, tránh ô nhiễm không khí, tập thở bụng, tập dưỡng sinh nhẹ nhàng, tiêm phòng cúm hàng năm"
+    },
+    "yhhd_correlations": ["COPD moderate-severe", "Asthma with renal insufficiency", "Post-COVID respiratory sequelae", "CKD with dyspnea", "Pulmonary hypertension mild"],
+    "safety_notes": "Theo dõi chức năng phổi và thận định kỳ",
+    "follow_up_timing": "4-8 tuần",
+    "red_flag_override": "SpO2 < 88% khi nghỉ: nhập viện",
+    "prevalence_vietnam": "common",
+    "common_demographics": "Bệnh nhân COPD cao tuổi, người hút thuốc lâu năm, bệnh nhân CKD có biến chứng phổi"
+  },
+  {
+    "pattern_id": "PAT_B02_018",
+    "chung_code": "heart_kidney_non_communication",
+    "name_vi": "Tâm Thận bất giao",
+    "name_en": "Heart-Kidney Non-Communication",
+    "zangfu_primary": "heart_kidney",
+    "pathogenesis_code": "heart_kidney_disharmony",
+    "bat_cuong_summary": {
+      "dominant": ["interior", "deficiency", "heat"],
+      "secondary": ["fire_water_imbalance"],
+      "absent": ["exterior", "cold"]
+    },
+    "diagnostic_criteria": {
+      "required": ["insomnia_chronic_difficulty_falling_or_staying_asleep", "lumbar_soreness_weakness"],
+      "two_or_more_of": [
+        "palpitations",
+        "anxiety_restlessness",
+        "seminal_emission_with_dreams",
+        "night_sweats",
+        "five_heart_heat",
+        "dry_mouth_throat",
+        "poor_memory",
+        "dizziness"
+      ],
+      "tongue": "Đỏ, đầu lưỡi đỏ hơn, ít rêu",
+      "pulse": "Tế sác hoặc xích nhược thốn sác"
+    },
+    "key_distinguishing_features": "Mất ngủ + hồi hộp + bứt rứt + mộng tinh + lưng gối yếu — Tâm hỏa không giao với Thận thủy, tâm thần không yên",
+    "differential_diagnosis": [
+      {
+        "pattern_code": "heart_blood_deficiency",
+        "distinguishing_feature": "Tâm huyết hư: mất ngủ + hồi hộp + da xanh nhợt + mạch tế; Tâm Thận bất giao: kèm hư nhiệt và triệu chứng Thận"
+      },
+      {
+        "pattern_code": "kidney_yin_deficiency",
+        "distinguishing_feature": "Thận âm hư đơn thuần: hư nhiệt chủ yếu; Tâm Thận bất giao: nhấn mạnh rối loạn thần chí (mất ngủ, lo âu, hồi hộp) do mất giao thông"
+      },
+      {
+        "pattern_code": "liver_qi_stagnation_fire",
+        "distinguishing_feature": "Can khí uất hóa hỏa: mất ngủ kèm cáu gắt, đau sườn, ợ hơi; Tâm Thận bất giao: âm hư hư nhiệt, không có khí uất"
+      }
+    ],
+    "phap_tri": {
+      "principle_vi": "Giao thông Tâm Thận, tư âm giáng hỏa",
+      "principle_en": "Harmonize Heart and Kidney, Enrich Yin, Descend Fire",
+      "primary_formula": "Hoàng Liên A Giao Thang (Huang Lian E Jiao Tang)",
+      "alternative_formulas": [
+        "Thiên Vương Bổ Tâm Đan (huyết hư kèm)",
+        "Giao Thái Hoàn (đơn giản, nhẹ)",
+        "Toan Táo Nhân Thang (thất miên chủ yếu)"
+      ],
+      "key_herbs": ["Hoàng liên", "A giao", "Hoàng cầm", "Bạch thược", "Kê tử hoàng", "Toan táo nhân", "Phục thần", "Viễn chí", "Thục địa"],
+      "acupuncture_points": ["Thần Môn HT7", "Thái Khê KD3", "Tam Âm Giao SP6", "Nội Quan PC6", "Bách Hội GV20", "An Miên (EX)", "Dũng Tuyền KD1"],
+      "lifestyle_advice": "Thiết lập vệ sinh giấc ngủ tốt, thiền định trước khi ngủ, tắm chân nước ấm, không dùng điện thoại trước ngủ 1 giờ, tránh cà phê sau 14h"
+    },
+    "yhhd_correlations": ["Insomnia disorder", "Anxiety disorder", "Palpitations functional", "Neurasthenia", "Perimenopausal insomnia", "Depression with insomnia"],
+    "safety_notes": "A giao có thể gây khó tiêu — không dùng khi Tỳ hư/đàm thấp",
+    "follow_up_timing": "2-4 tuần — mất ngủ cải thiện khá nhanh",
+    "red_flag_override": null,
+    "prevalence_vietnam": "very_common",
+    "common_demographics": "Phụ nữ trung niên, người làm việc căng thẳng, bệnh nhân lo âu-trầm cảm, tiền mãn kinh"
+  },
+  {
+    "pattern_id": "PAT_B02_019",
+    "chung_code": "kidney_deficiency_blood_stasis",
+    "name_vi": "Thận hư huyết ứ",
+    "name_en": "Kidney Deficiency with Blood Stasis",
+    "zangfu_primary": "kidney",
+    "pathogenesis_code": "kidney_deficiency_blood_stasis",
+    "bat_cuong_summary": {
+      "dominant": ["interior", "deficiency"],
+      "secondary": ["blood_stasis"],
+      "absent": ["exterior"]
+    },
+    "diagnostic_criteria": {
+      "required": ["lumbar_soreness_fixed_stabbing_pain", "fatigue_weakness"],
+      "two_or_more_of": [
+        "dark_complexion",
+        "dark_periorbital_area",
+        "hematuria_chronic_microscopic",
+        "proteinuria_chronic",
+        "skin_petechiae_or_ecchymosis",
+        "tongue_purple_or_dark_sublingual_veins",
+        "menstrual_clots_or_dysmenorrhea",
+        "hypertension"
+      ],
+      "tongue": "Tím tái hoặc có điểm ứ huyết, rêu mỏng",
+      "pulse": "Trầm tế hoặc trầm sáp"
+    },
+    "key_distinguishing_features": "Thận hư + ứ huyết: đau lưng cố định như kim châm + da tối sạm + quầng mắt thâm + tiểu máu vi thể mãn tính — CKD pattern điển hình",
+    "differential_diagnosis": [
+      {
+        "pattern_code": "kidney_yin_deficiency",
+        "distinguishing_feature": "Thận âm hư: hư nhiệt, không có ứ huyết rõ; Thận hư huyết ứ: đau cố định, da tối, lưỡi tím"
+      },
+      {
+        "pattern_code": "kidney_yang_deficiency",
+        "distinguishing_feature": "Thận dương hư: hàn chứng chủ yếu; Thận hư huyết ứ: huyết ứ nổi bật kèm hư"
+      },
+      {
+        "pattern_code": "blood_stasis_lower_jiao",
+        "distinguishing_feature": "Huyết ứ hạ tiêu đơn thuần: thực chứng hơn; Thận hư huyết ứ: hư thực kiêm"
+      }
+    ],
+    "phap_tri": {
+      "principle_vi": "Bổ Thận hoạt huyết hóa ứ",
+      "principle_en": "Tonify Kidney, Activate Blood, Resolve Stasis",
+      "primary_formula": "Lục Vị Địa Hoàng Hoàn hợp Đào Hồng Tứ Vật Thang",
+      "alternative_formulas": [
+        "Thận Khí Hoàn hợp Huyết Phủ Trục Ứ Thang",
+        "Ích Thận Hoạt Huyết Thang (bài kinh nghiệm CKD)"
+      ],
+      "key_herbs": ["Thục địa", "Sơn thù", "Đào nhân", "Hồng hoa", "Đương quy", "Xuyên khung", "Ích mẫu thảo", "Đan sâm", "Tam thất"],
+      "acupuncture_points": ["Thận Du BL23", "Huyết Hải SP10", "Tam Âm Giao SP6", "Thái Khê KD3", "Cách Du BL17", "Địa Cơ SP8"],
+      "lifestyle_advice": "Kiểm soát huyết áp và đường huyết, hạn chế đạm động vật, uống đủ nước, vận động nhẹ nhàng đều đặn, tránh thuốc độc thận"
+    },
+    "yhhd_correlations": ["Chronic kidney disease stage 3-5", "IgA nephropathy", "Diabetic nephropathy", "Hypertensive nephropathy", "Lupus nephritis maintenance"],
+    "safety_notes": "Thuốc hoạt huyết có thể tăng nguy cơ chảy máu — thận trọng với bệnh nhân dùng kháng đông; theo dõi creatinine, eGFR",
+    "follow_up_timing": "4-8 tuần — theo dõi xét nghiệm thận",
+    "red_flag_override": "Tiểu máu đại thể cấp tính, creatinine tăng nhanh: nhập viện thận học",
+    "prevalence_vietnam": "common",
+    "common_demographics": "Bệnh nhân CKD, đái tháo đường type 2, tăng huyết áp mãn tính, lupus"
+  },
+  {
+    "pattern_id": "PAT_B02_020",
+    "chung_code": "kidney_deficiency_damp_heat",
+    "name_vi": "Thận hư thấp nhiệt",
+    "name_en": "Kidney Deficiency with Damp-Heat",
+    "zangfu_primary": "kidney",
+    "pathogenesis_code": "kidney_deficiency_damp_heat_lower_jiao",
+    "bat_cuong_summary": {
+      "dominant": ["interior"],
+      "secondary": ["deficiency", "heat", "dampness"],
+      "absent": ["exterior"]
+    },
+    "diagnostic_criteria": {
+      "required": ["recurrent_urinary_tract_infection", "lumbar_soreness_weakness"],
+      "two_or_more_of": [
+        "dysuria_burning_urination",
+        "frequent_urgent_urination",
+        "scanty_dark_yellow_urine",
+        "low_grade_fever_recurrent",
+        "fatigue_worse_after_infection",
+        "night_sweats_mild",
+        "dry_mouth"
+      ],
+      "tongue": "Đỏ, rêu vàng nhờn, hoặc đỏ ít rêu khi thể hư nổi bật",
+      "pulse": "Tế sác hoặc hoạt sác"
+    },
+    "key_distinguishing_features": "Viêm đường tiết niệu tái phát + mệt mỏi nặng sau mỗi đợt viêm + lưng gối yếu — thực nhiệt (thấp nhiệt) trên nền hư (Thận hư) — hư thực lẫn lộn",
+    "differential_diagnosis": [
+      {
+        "pattern_code": "bladder_damp_heat",
+        "distinguishing_feature": "Bàng quang thấp nhiệt đơn thuần: thực chứng, không có lưng gối yếu, mệt mỏi mãn tính; Thận hư thấp nhiệt: tái phát nhiều lần, hư chứng Thận rõ"
+      },
+      {
+        "pattern_code": "kidney_yin_deficiency",
+        "distinguishing_feature": "Thận âm hư: hư nhiệt, không có tiểu buốt/gắt; Thận hư thấp nhiệt: kết hợp cả hư và thấp nhiệt thực"
+      },
+      {
+        "pattern_code": "kidney_deficiency_blood_stasis",
+        "distinguishing_feature": "Thận hư huyết ứ: đau cố định, tiểu máu, ứ huyết nổi bật; Thận hư thấp nhiệt: tiểu buốt, tiểu mủ/đục, thấp nhiệt nổi bật"
+      }
+    ],
+    "phap_tri": {
+      "principle_vi": "Bổ Thận thanh nhiệt lợi thấp",
+      "principle_en": "Tonify Kidney, Clear Heat, Resolve Dampness",
+      "primary_formula": "Tri Bá Địa Hoàng Hoàn hợp Bát Chính Tán (giai đoạn cấp); Lục Vị Địa Hoàng Hoàn hợp Thảo Tiết Minh Thang (giai đoạn lui bệnh)",
+      "alternative_formulas": [
+        "Thận Khí Hoàn hợp Trư Linh Thang (dương hư thấp nhiệt)",
+        "Ích Thận Thanh Lâm Thang (bài kinh nghiệm)"
+      ],
+      "key_herbs": ["Thục địa/Sinh địa", "Hoàng bá", "Tri mẫu", "Xa tiền tử", "Thạch vĩ", "Hoạt thạch", "Mộc thông", "Phục linh", "Trạch tả", "Ý dĩ nhân"],
+      "acupuncture_points": ["Thận Du BL23", "Bàng Quang Du BL28", "Âm Lăng Tuyền SP9", "Tam Âm Giao SP6", "Trung Cực CV3", "Hành Gian LV2"],
+      "lifestyle_advice": "Uống 2-2.5L nước mỗi ngày, vệ sinh vùng kín đúng cách, không nhịn tiểu, tránh đồ cay nóng và rượu bia, tăng cường sức đề kháng"
+    },
+    "yhhd_correlations": ["Recurrent UTI", "Chronic pyelonephritis", "Interstitial cystitis", "CKD with recurrent infections", "Diabetic patient with recurrent UTI"],
+    "safety_notes": "Trong đợt cấp nhiễm khuẩn nặng (sốt cao, đau lưng dữ dội): dùng kháng sinh theo Tây y trước; YHCT hỗ trợ và phòng tái phát",
+    "follow_up_timing": "2-3 tuần (đợt cấp) + 2-3 tháng (phòng tái phát)",
+    "red_flag_override": "Sốt >38.5°C kèm đau lưng và tiểu buốt: viêm bể thận cấp — kháng sinh IV, nhập viện nếu cần",
+    "prevalence_vietnam": "common",
+    "common_demographics": "Phụ nữ mọi lứa tuổi đặc biệt tiền mãn kinh, bệnh nhân đái tháo đường, người đặt thông tiểu dài ngày"
+  }
+]

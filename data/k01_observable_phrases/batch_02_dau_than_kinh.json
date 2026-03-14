@@ -1,0 +1,1295 @@
+[
+  {
+    "phrase_id": "OBS_B02_001",
+    "phrase_vi": "đau đầu",
+    "variants_vi": ["nhức đầu", "đầu nhức", "đầu đau", "bị nhức đầu"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Cơn đau đầu của bạn như thế nào, ở vị trí nào, và bắt đầu như thế nào?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đau một bên đầu, đập theo nhịp tim, buồn nôn, sợ ánh sáng và tiếng động",
+        "symptom_codes": ["unilateral_throbbing_headache", "photophobia", "phonophobia", "nausea_with_headache"],
+        "yhct_hint": "Can phong nội động, Can dương vượng",
+        "yhhd_hint": "Migraine không có/có aura"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Đau như bị bóp chặt quanh đầu, hai bên thái dương, kéo dài cả ngày",
+        "symptom_codes": ["bilateral_pressure_headache", "tension_type_headache"],
+        "yhct_hint": "Can khí uất kết, Khí huyết hư không nuôi não",
+        "yhhd_hint": "Đau đầu căng thẳng (tension-type headache)"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Đau sau gáy lan lên đỉnh đầu, kèm cứng cổ",
+        "symptom_codes": ["occipital_headache", "neck_stiffness", "cervicogenic_headache"],
+        "yhct_hint": "Phong hàn bế trở kinh mạch, Thận tinh hư không nuôi tủy",
+        "yhhd_hint": "Đau đầu do cổ (cervicogenic), thoái hóa đốt sống cổ"
+      },
+      {
+        "option_code": "D",
+        "label_vi": "Đau đầu đột ngột dữ dội nhất từ trước đến nay, như sét đánh vào đầu",
+        "symptom_codes": ["thunderclap_headache", "sudden_onset_severe_headache", "worst_ever_headache"],
+        "yhct_hint": "Khẩn cấp – cần chuyển viện ngay",
+        "yhhd_hint": "Xuất huyết dưới nhện (SAH), vỡ phình mạch não – CẤP CỨU"
+      },
+      {
+        "option_code": "E",
+        "label_vi": "Đau đầu dần tăng dần theo tuần/tháng, kèm buồn nôn sáng sớm, mờ thị lực",
+        "symptom_codes": ["progressive_headache", "morning_vomiting", "visual_disturbance", "increased_intracranial_pressure_symptoms"],
+        "yhct_hint": "Đàm trọc bế trở, Huyết ứ não lạc",
+        "yhhd_hint": "U não, tăng áp lực nội sọ – CẦN CHẨN ĐOÁN HÌNH ẢNH KHẨN"
+      }
+    ],
+    "red_flag_trigger": ["D", "E"],
+    "notes": "Đau đầu dạng sét đánh (thunderclap) là cấp cứu thần kinh tuyệt đối"
+  },
+  {
+    "phrase_id": "OBS_B02_002",
+    "phrase_vi": "đau nửa đầu",
+    "variants_vi": ["nhức nửa đầu", "đau một bên đầu", "đau đầu một bên", "đau thái dương một bên"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Đau nửa đầu bên nào, đau theo kiểu gì, kèm theo triệu chứng gì?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đau theo nhịp mạch đập, buồn nôn, sợ sáng, có thể có aura (nhìn thấy tia sáng trước khi đau)",
+        "symptom_codes": ["unilateral_throbbing_headache", "photophobia", "phonophobia", "nausea_vomiting", "visual_aura"],
+        "yhct_hint": "Can phong nội động, Can dương vượng thượng kháng",
+        "yhhd_hint": "Migraine có hoặc không có aura"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Đau dữ dội quanh hốc mắt một bên, chảy nước mắt, đỏ mắt, nghẹt mũi cùng bên, kéo dài 15-180 phút",
+        "symptom_codes": ["periorbital_pain_unilateral", "lacrimation", "conjunctival_injection", "nasal_congestion", "cluster_headache_features"],
+        "yhct_hint": "Can hỏa thượng xung, Đởm hỏa uất kết",
+        "yhhd_hint": "Cluster headache (đau đầu từng cụm)"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Cần phân biệt migraine và cluster headache; cluster headache gặp chủ yếu ở nam giới trung niên"
+  },
+  {
+    "phrase_id": "OBS_B02_003",
+    "phrase_vi": "đầu nặng",
+    "variants_vi": ["đầu nặng nề", "cảm giác đầu nặng", "đầu như đội đá", "đầu nặng muốn gục xuống"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Cảm giác đầu nặng xuất hiện khi nào, kèm theo triệu chứng gì?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đầu nặng kèm mệt mỏi, chân tay mỏi, sau khi ngủ dậy vẫn còn nặng",
+        "symptom_codes": ["head_heaviness", "fatigue", "unrefreshing_sleep"],
+        "yhct_hint": "Đàm thấp nội trở, Tỳ hư sinh đàm",
+        "yhhd_hint": "Hội chứng mệt mỏi mạn tính, rối loạn giấc ngủ, hạ huyết áp tư thế"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Đầu nặng, căng, kèm tăng huyết áp, đỏ mặt, bồn chồn",
+        "symptom_codes": ["head_heaviness", "hypertension_associated_symptoms", "flushed_face"],
+        "yhct_hint": "Can dương vượng, Âm hư dương kháng",
+        "yhhd_hint": "Tăng huyết áp, cần đo HA ngay"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Đầu nặng sau khi làm việc nhiều, căng thẳng, mắt mờ",
+        "symptom_codes": ["head_heaviness", "mental_fatigue", "eye_strain"],
+        "yhct_hint": "Tâm Tỳ lưỡng hư, Khí hư không thăng",
+        "yhhd_hint": "Stress, mệt mỏi do công việc, suy nhược thần kinh chức năng"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Đầu nặng kèm tăng huyết áp cần được đo huyết áp ngay tại điểm tiếp xúc"
+  },
+  {
+    "phrase_id": "OBS_B02_004",
+    "phrase_vi": "đầu như bị siết",
+    "variants_vi": ["đầu bị bóp", "như có dây siết đầu", "đầu như đội mũ chật", "cảm giác căng đầu"],
+    "regions": ["all"],
+    "requires_disambiguation": false,
+    "disambiguation_question": null,
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Cảm giác áp lực hoặc siết chặt quanh đầu như đội vòng, hai bên thái dương, không buồn nôn, không nặng lên khi gắng sức",
+        "symptom_codes": ["bilateral_pressure_headache", "band_like_headache", "tension_type_headache"],
+        "yhct_hint": "Can khí uất kết, Khí huyết vận hành kém, Tỳ Vị hư",
+        "yhhd_hint": "Đau đầu căng thẳng (tension-type headache) – dạng thường gặp nhất"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Không có buồn nôn, không sợ ánh sáng – phân biệt với migraine"
+  },
+  {
+    "phrase_id": "OBS_B02_005",
+    "phrase_vi": "đau đỉnh đầu",
+    "variants_vi": ["nhức đỉnh đầu", "đau trên đỉnh đầu", "đỉnh đầu nhức nhối"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Đau đỉnh đầu bắt đầu từ khi nào, đau kiểu gì?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đau đỉnh đầu kèm ù tai, hoa mắt, lưng gối mỏi, hay quên",
+        "symptom_codes": ["vertex_headache", "tinnitus", "dizziness", "lumbar_knee_weakness", "memory_impairment"],
+        "yhct_hint": "Thận tinh hư, Tinh không nuôi lên não – kinh Túc Quyết âm Can đi lên đỉnh đầu",
+        "yhhd_hint": "Suy nhược thần kinh, thiếu máu não, thoái hóa đốt sống cổ"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Đau đỉnh đầu sau sang chấn, va đập, tăng dần",
+        "symptom_codes": ["vertex_headache", "post_traumatic_headache", "progressive_headache"],
+        "yhct_hint": "Huyết ứ bế trở não lạc",
+        "yhhd_hint": "Tụ máu dưới màng cứng, xuất huyết nội sọ sau chấn thương – CẦN CT SCAN"
+      }
+    ],
+    "red_flag_trigger": ["B"],
+    "notes": "Theo YHCT, kinh Can đi lên đỉnh đầu nên đau đỉnh đầu thường liên quan đến Can"
+  },
+  {
+    "phrase_id": "OBS_B02_006",
+    "phrase_vi": "đau sau gáy",
+    "variants_vi": ["nhức sau gáy", "đau cứng gáy", "cứng cổ đau đầu", "gáy cứng nhức"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Đau sau gáy có kèm theo sốt, cứng cổ không thể cúi đầu, hay chỉ đau mỏi?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đau mỏi sau gáy lan lên đầu, ngồi lâu một tư thế, xoa bóp thấy đỡ",
+        "symptom_codes": ["occipital_headache", "neck_pain", "cervicogenic_headache", "postural_aggravation"],
+        "yhct_hint": "Phong hàn thấp bế kinh Thái Dương, Khí huyết ứ trệ",
+        "yhhd_hint": "Thoái hóa cột sống cổ, đau đầu do cổ (cervicogenic headache)"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Đau sau gáy dữ dội, sốt cao, cứng cổ không cúi được, sợ ánh sáng, buồn nôn",
+        "symptom_codes": ["occipital_headache", "neck_rigidity", "fever", "photophobia", "meningismus"],
+        "yhct_hint": "Ôn tà xâm phạm não tủy – CẤP CỨU",
+        "yhhd_hint": "Viêm màng não – CẤP CỨU TUYỆT ĐỐI"
+      }
+    ],
+    "red_flag_trigger": ["B"],
+    "notes": "Tam chứng cổ điển viêm màng não: sốt + cứng cổ + đau đầu – cần chuyển viện ngay"
+  },
+  {
+    "phrase_id": "OBS_B02_007",
+    "phrase_vi": "đau thái dương",
+    "variants_vi": ["nhức thái dương", "đau hai bên thái dương", "thái dương giật giật"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Đau thái dương một bên hay hai bên, kiểu đau như thế nào?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đau căng hai bên thái dương, cuối ngày tăng, sau làm việc căng thẳng",
+        "symptom_codes": ["bilateral_temporal_headache", "stress_related_headache", "tension_type_headache"],
+        "yhct_hint": "Can khí uất kết, Tâm Tỳ lưỡng hư",
+        "yhhd_hint": "Đau đầu căng thẳng, stress mạn tính"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Đau thái dương một bên, giật theo nhịp tim, kèm buồn nôn, sợ sáng",
+        "symptom_codes": ["unilateral_temporal_headache", "throbbing_headache", "photophobia", "nausea"],
+        "yhct_hint": "Can phong nội động, Can dương vượng",
+        "yhhd_hint": "Migraine"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Đau thái dương một bên ở người cao tuổi, đau khi nhai, sờ thấy mạch thái dương nổi cứng",
+        "symptom_codes": ["temporal_artery_tenderness", "jaw_claudication", "elevated_esr", "giant_cell_arteritis_features"],
+        "yhct_hint": "Huyết ứ kinh lạc, Âm hư hỏa vượng",
+        "yhhd_hint": "Viêm động mạch thái dương khổng lồ (giant cell arteritis) – nguy cơ mù – CẦN ĐIỀU TRỊ KHẨN"
+      }
+    ],
+    "red_flag_trigger": ["C"],
+    "notes": "Ở người >50 tuổi: đau thái dương + đau khi nhai + ESR cao = nghi giant cell arteritis"
+  },
+  {
+    "phrase_id": "OBS_B02_008",
+    "phrase_vi": "đầu căng tức",
+    "variants_vi": ["đầu căng", "đầu tức", "đầu nặng căng", "cảm giác đầu sắp nổ"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Cảm giác căng tức đầu xuất hiện trong hoàn cảnh nào?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đầu căng tức kèm đỏ mặt, nóng ran, huyết áp cao",
+        "symptom_codes": ["head_pressure_fullness", "facial_flushing", "hypertension"],
+        "yhct_hint": "Can dương vượng, Phong hỏa thượng nhiễu",
+        "yhhd_hint": "Tăng huyết áp – đo HA ngay"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Đầu căng tức sau khi ngủ dậy, mệt, không tỉnh táo",
+        "symptom_codes": ["morning_headache", "unrefreshing_sleep", "daytime_somnolence"],
+        "yhct_hint": "Đàm thấp nội trở, Tỳ hư thấp trệ",
+        "yhhd_hint": "Hội chứng ngưng thở khi ngủ (OSA), rối loạn giấc ngủ"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Đau đầu buổi sáng kèm ngáy to, mệt nhiều ban ngày cần tầm soát OSA"
+  },
+  {
+    "phrase_id": "OBS_B02_009",
+    "phrase_vi": "đau đầu âm ỉ",
+    "variants_vi": ["đầu âm ỉ", "nhức đầu âm ỉ cả ngày", "đầu cứ nhức nhè nhẹ"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Đau âm ỉ kéo dài bao lâu rồi, có tăng dần không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Âm ỉ kéo dài nhiều ngày, không nặng hơn, liên quan căng thẳng công việc",
+        "symptom_codes": ["chronic_daily_headache", "tension_type_headache", "stress_related"],
+        "yhct_hint": "Khí huyết hư, Can Thận âm hư, Khí trệ huyết ứ nhẹ",
+        "yhhd_hint": "Đau đầu mạn tính hằng ngày, đau đầu do lạm dụng thuốc giảm đau"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Âm ỉ tăng dần theo thời gian, kèm buồn nôn sáng, mờ thị, thay đổi tính cách",
+        "symptom_codes": ["progressive_headache", "personality_change", "morning_vomiting", "visual_blurring"],
+        "yhct_hint": "Đàm trọc ứ não – cần chẩn đoán ngay",
+        "yhhd_hint": "U não, tổn thương chiếm chỗ nội sọ – CẦN MRI/CT KHẨN"
+      }
+    ],
+    "red_flag_trigger": ["B"],
+    "notes": "Đau đầu tiến triển + thay đổi tính cách = red flag u não"
+  },
+  {
+    "phrase_id": "OBS_B02_010",
+    "phrase_vi": "đau đầu khi gắng sức",
+    "variants_vi": ["nhức đầu khi leo cầu thang", "đau đầu khi làm nặng", "gắng sức là đau đầu"],
+    "regions": ["all"],
+    "requires_disambiguation": false,
+    "disambiguation_question": null,
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đau đầu tăng lên rõ khi gắng sức thể lực, ho, rặn, quan hệ tình dục",
+        "symptom_codes": ["exertional_headache", "valsalva_worsened_headache", "cough_headache"],
+        "yhct_hint": "Khí huyết hư không lên não, hoặc áp lực nội sọ tăng",
+        "yhhd_hint": "Cần loại trừ dị dạng Chiari, tổn thương hố sau; nếu đột ngột = SAH"
+      }
+    ],
+    "red_flag_trigger": ["A"],
+    "notes": "Đau đầu khi gắng sức đột ngột cần loại trừ SAH; mạn tính cần MRI loại trừ dị dạng hố sau"
+  },
+  {
+    "phrase_id": "OBS_B02_011",
+    "phrase_vi": "đau đầu về đêm",
+    "variants_vi": ["đêm hay bị nhức đầu", "đau đầu nửa đêm thức giấc", "đầu đau lúc 2-3 giờ sáng"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Đau đầu đêm có đánh thức khỏi giấc ngủ không, kèm triệu chứng gì?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đau đầu đánh thức khỏi ngủ lúc 1-3 giờ sáng, quanh hốc mắt, chảy nước mắt",
+        "symptom_codes": ["nocturnal_headache", "periorbital_pain", "lacrimation", "cluster_headache_features"],
+        "yhct_hint": "Đởm hỏa uất kết, Can hỏa vượng – giờ Sửu Can vượng khí",
+        "yhhd_hint": "Cluster headache (đau đầu từng cụm)"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Đau đầu về đêm kèm ngáy to, thức giấc nhiều lần, buồn ngủ ban ngày",
+        "symptom_codes": ["nocturnal_headache", "snoring", "sleep_fragmentation", "excessive_daytime_sleepiness"],
+        "yhct_hint": "Đàm thấp trở phế, khí không lưu thông ban đêm",
+        "yhhd_hint": "Hội chứng ngưng thở khi ngủ (OSA)"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Cluster headache: đàn ông trung niên, đau dữ dội ngắn ngủi, theo mùa"
+  },
+  {
+    "phrase_id": "OBS_B02_012",
+    "phrase_vi": "đau đầu kèm nôn mửa",
+    "variants_vi": ["đau đầu buồn nôn", "nhức đầu ói mửa", "đau đầu mà nôn"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Nôn xảy ra lúc nào, trước hay sau khi đau đầu, đau đầu như thế nào?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Buồn nôn hoặc nôn trong cơn đau đầu một bên giật theo mạch, sợ sáng",
+        "symptom_codes": ["migraine_associated_nausea", "vomiting_with_headache", "photophobia"],
+        "yhct_hint": "Can phong nội động, Vị khí nghịch lên",
+        "yhhd_hint": "Migraine"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Nôn vọt không buồn nôn trước, đau đầu tăng dần, kèm ý thức lơ mơ",
+        "symptom_codes": ["projectile_vomiting", "progressive_headache", "altered_consciousness", "raised_icp_features"],
+        "yhct_hint": "Não thủy thũng, áp lực tăng – CẤP CỨU",
+        "yhhd_hint": "Tăng áp lực nội sọ, u não, xuất huyết não – CẤP CỨU"
+      }
+    ],
+    "red_flag_trigger": ["B"],
+    "notes": "Nôn vọt (projectile vomiting) không buồn nôn trước = dấu hiệu tăng áp lực nội sọ"
+  },
+  {
+    "phrase_id": "OBS_B02_013",
+    "phrase_vi": "chóng mặt",
+    "variants_vi": ["hay bị chóng mặt", "chóng mặt luôn", "đầu óc quay vòng", "hay choáng váng"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Chóng mặt của bạn là cảm giác mọi thứ xung quanh quay vòng, hay chỉ là cảm giác nhẹ đầu, sắp ngã?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Thấy đồ vật xung quanh quay vòng vòng, nặng hơn khi thay đổi tư thế đầu, kèm buồn nôn",
+        "symptom_codes": ["true_vertigo", "rotatory_vertigo", "positional_vertigo", "nausea_with_vertigo"],
+        "yhct_hint": "Đàm thấp trở trung tiêu, Can dương vượng, Thận tinh hư",
+        "yhhd_hint": "BPPV, viêm mê đạo tai, bệnh Menière, viêm tiền đình"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Nhẹ đầu, sắp ngã, hoa mắt tối sầm khi đứng dậy đột ngột",
+        "symptom_codes": ["presyncope", "orthostatic_dizziness", "orthostatic_hypotension"],
+        "yhct_hint": "Khí huyết hư, Trung khí hư hãm, Tâm khí bất túc",
+        "yhhd_hint": "Hạ huyết áp tư thế đứng, thiếu máu, mất nước, tác dụng phụ thuốc"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Chóng mặt đột ngột kèm đi đứng loạng choạng, nói khó, nuốt khó, nhìn đôi",
+        "symptom_codes": ["acute_vertigo", "ataxia", "dysarthria", "dysphagia", "diplopia", "posterior_circulation_symptoms"],
+        "yhct_hint": "Trúng phong – CẤP CỨU THẦN KINH",
+        "yhhd_hint": "Thiếu máu não sau (posterior circulation TIA/stroke) – CẤP CỨU"
+      }
+    ],
+    "red_flag_trigger": ["C"],
+    "notes": "Phân biệt chóng mặt ngoại biên (tai) và trung ương (não); chóng mặt + thần kinh khu trú = stroke cho đến khi chứng minh ngược lại"
+  },
+  {
+    "phrase_id": "OBS_B02_014",
+    "phrase_vi": "hoa mắt",
+    "variants_vi": ["mắt hoa", "mắt tối sầm", "nhìn thấy đốm sáng", "hoa mắt chóng mặt"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Hoa mắt xảy ra khi nào, có đi kèm triệu chứng gì không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Mắt tối sầm khi đứng dậy nhanh, vài giây rồi hết",
+        "symptom_codes": ["transient_visual_dimming", "orthostatic_hypotension", "presyncope"],
+        "yhct_hint": "Khí huyết hư, Thanh dương không thăng lên não",
+        "yhhd_hint": "Hạ huyết áp tư thế đứng, thiếu máu"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Nhìn thấy tia sáng, zigzag, đốm lấp lánh trước một cơn đau đầu",
+        "symptom_codes": ["visual_aura", "scintillating_scotoma", "pre_migraine_aura"],
+        "yhct_hint": "Can phong khuấy động, tiên兆 migraine",
+        "yhhd_hint": "Aura thị giác của migraine"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Mất thị lực đột ngột một mắt hoặc nửa tầm nhìn, không đau",
+        "symptom_codes": ["sudden_vision_loss", "monocular_blindness", "hemianopia", "amaurosis_fugax"],
+        "yhct_hint": "Huyết ứ bế trở mạch mắt – KHẨN CẤP",
+        "yhhd_hint": "TIA amaurosis fugax, tắc động mạch trung tâm võng mạc, đột quỵ – CẤP CỨU"
+      }
+    ],
+    "red_flag_trigger": ["C"],
+    "notes": "Mất thị lực đột ngột = cấp cứu mắt/não, cần xử trí trong vòng giờ đầu"
+  },
+  {
+    "phrase_id": "OBS_B02_015",
+    "phrase_vi": "xây xẩm mặt mày",
+    "variants_vi": ["xây xẩm", "choáng váng", "gần ngã", "sắp xỉu"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Cảm giác xây xẩm xảy ra trong tình huống nào, có ngã không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Xây xẩm, tim đập nhanh, vã mồ hôi, tay run, đói bụng",
+        "symptom_codes": ["presyncope", "diaphoresis", "tremor", "hunger", "hypoglycemia_symptoms"],
+        "yhct_hint": "Tâm Tỳ hư, khí huyết không nuôi não, hạ đường huyết",
+        "yhhd_hint": "Hạ đường huyết – đo glucose ngay"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Xây xẩm khi đứng lâu, chỗ đông người, nóng nực, rồi ngã ra",
+        "symptom_codes": ["vasovagal_presyncope", "situational_syncope", "fainting"],
+        "yhct_hint": "Khí huyết hư, Tâm khí bất túc",
+        "yhhd_hint": "Ngất phế vị (vasovagal syncope)"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Xây xẩm đột ngột kèm đau ngực, tim đập loạn, ngất đột ngột không báo trước",
+        "symptom_codes": ["sudden_syncope", "chest_pain", "palpitations", "cardiac_syncope"],
+        "yhct_hint": "Tâm dương hư suy, huyết mạch bế trở – CẤP CỨU",
+        "yhhd_hint": "Rối loạn nhịp tim nguy hiểm, hội chứng QT dài, block tim – CẤP CỨU TIM MẠCH"
+      }
+    ],
+    "red_flag_trigger": ["C"],
+    "notes": "Ngất đột ngột không báo trước trong khi gắng sức = cần loại trừ nguyên nhân tim mạch ngay"
+  },
+  {
+    "phrase_id": "OBS_B02_016",
+    "phrase_vi": "đầu óc quay cuồng",
+    "variants_vi": ["cảm giác xoay vòng", "đầu quay", "mọi thứ xung quanh quay", "như đang trên thuyền"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Cảm giác quay cuồng xuất hiện đột ngột hay từ từ, kèm theo gì?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Quay cuồng dữ dội kèm ù tai một bên, nghe kém một bên, ù tai nặng trước cơn",
+        "symptom_codes": ["episodic_vertigo", "unilateral_tinnitus", "unilateral_hearing_loss", "aural_fullness"],
+        "yhct_hint": "Thận âm hư, Đàm thấp nội trở tai lạc",
+        "yhhd_hint": "Bệnh Menière"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Quay cuồng khi quay đầu sang một bên hoặc nằm xuống, kéo dài vài giây đến 1 phút, tự hết",
+        "symptom_codes": ["positional_vertigo", "bppv", "brief_episodic_vertigo", "nystagmus"],
+        "yhct_hint": "Đàm thấp, Thận tinh hư, sỏi tai",
+        "yhhd_hint": "BPPV (Benign Paroxysmal Positional Vertigo) – điều trị bằng Epley maneuver"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "BPPV rất thường gặp và có thể điều trị đơn giản tại chỗ; cần làm nghiệm pháp Dix-Hallpike"
+  },
+  {
+    "phrase_id": "OBS_B02_017",
+    "phrase_vi": "chóng mặt khi thay đổi tư thế",
+    "variants_vi": ["đứng dậy bị chóng mặt", "nằm xuống chóng mặt", "trở mình là chóng mặt", "ngồi dậy bị hoa mắt"],
+    "regions": ["all"],
+    "requires_disambiguation": false,
+    "disambiguation_question": null,
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Chóng mặt thoáng qua khi thay đổi tư thế đầu, kéo dài vài giây, có thể kèm buồn nôn nhẹ",
+        "symptom_codes": ["positional_vertigo", "bppv", "transient_vertigo_on_position_change"],
+        "yhct_hint": "Đàm thấp nội trở tai lạc, Thận tinh hư không nuôi não",
+        "yhhd_hint": "BPPV; nếu tư thế đứng gây chóng mặt = hạ HA tư thế đứng"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Cần phân biệt BPPV (quay đầu) và hạ HA tư thế đứng (đứng lên từ nằm/ngồi)"
+  },
+  {
+    "phrase_id": "OBS_B02_018",
+    "phrase_vi": "đi đứng loạng choạng",
+    "variants_vi": ["đi không vững", "hay vấp ngã", "đi như người say", "chân cứ muốn ngã"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Loạng choạng xuất hiện đột ngột hay từ từ, có kèm triệu chứng thần kinh khác không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đi loạng choạng đột ngột kèm nói khó, nhìn đôi, tê liệt một nửa người",
+        "symptom_codes": ["acute_ataxia", "dysarthria", "diplopia", "hemiplegia", "acute_onset"],
+        "yhct_hint": "Trúng phong – CẤP CỨU NGAY",
+        "yhhd_hint": "Đột quỵ não, TIA vùng tuần hoàn sau – CẤP CỨU"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Đi loạng choạng từ từ tăng dần, chân tê bì, thăng bằng kém, không kèm triệu chứng khác rõ",
+        "symptom_codes": ["chronic_progressive_ataxia", "sensory_ataxia", "peripheral_neuropathy"],
+        "yhct_hint": "Thận tinh hư, Can huyết hư không nuôi gân cơ",
+        "yhhd_hint": "Bệnh thần kinh ngoại biên, thoái hóa tiểu não, thiếu B12"
+      }
+    ],
+    "red_flag_trigger": ["A"],
+    "notes": "Mất thăng bằng đột ngột = stroke cho đến khi chứng minh ngược lại"
+  },
+  {
+    "phrase_id": "OBS_B02_019",
+    "phrase_vi": "mất ngủ",
+    "variants_vi": ["không ngủ được", "ngủ không được", "hay bị mất ngủ", "nằm mãi không ngủ được", "đêm nằm thao thức"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Bạn khó vào giấc, hay hay thức dậy giữa đêm, hay thức dậy sớm không ngủ lại được?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Khó vào giấc, nằm 30 phút đến 1 tiếng mới ngủ được, hay lo nghĩ lung tung",
+        "symptom_codes": ["sleep_onset_insomnia", "rumination", "anxiety_related_insomnia"],
+        "yhct_hint": "Tâm Tỳ lưỡng hư, Tâm thần không an, Tâm hỏa vượng",
+        "yhhd_hint": "Mất ngủ tâm lý (psychophysiological insomnia), rối loạn lo âu"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Ngủ được nhưng thức dậy sớm lúc 3-5 giờ sáng, không ngủ lại được, tâm trạng buồn chán",
+        "symptom_codes": ["early_morning_awakening", "depression_related_insomnia", "anhedonia"],
+        "yhct_hint": "Tâm khí uất kết, Thận âm hư (giờ Dần – phế vượng)",
+        "yhhd_hint": "Rối loạn trầm cảm – cần đánh giá PHQ-9"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Mất ngủ sau khi trải qua sự kiện căng thẳng, ác mộng tái hiện sự kiện, giật mình",
+        "symptom_codes": ["trauma_related_insomnia", "nightmares", "hyperarousal", "ptsd_insomnia"],
+        "yhct_hint": "Tâm Đởm khí hư, Tâm thần không an do kinh sợ",
+        "yhhd_hint": "PTSD, rối loạn điều chỉnh sau sang chấn"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Thức dậy sớm + tâm trạng buồn + không còn hứng thú = cần tầm soát trầm cảm"
+  },
+  {
+    "phrase_id": "OBS_B02_020",
+    "phrase_vi": "ngủ không sâu giấc",
+    "variants_vi": ["ngủ hay mơ", "giấc ngủ không ngon", "ngủ chập chờn", "ngủ toàn mơ", "ngủ không thấy yên"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Ngủ không sâu kèm theo triệu chứng gì khác không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Ngủ hay mơ, mơ nhiều, ngủ chập chờn, thức dậy mệt mỏi dù đủ giờ ngủ",
+        "symptom_codes": ["non_restorative_sleep", "excessive_dreaming", "poor_sleep_quality"],
+        "yhct_hint": "Tâm huyết hư, Tâm hỏa vượng, Can khí uất kết quấy nhiễu hồn phách",
+        "yhhd_hint": "Rối loạn giấc ngủ chức năng, lo âu, căng thẳng mạn tính"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Ngủ không sâu kèm ngáy to, hơi thở ngắt quãng, mệt nhiều ban ngày, đau đầu sáng",
+        "symptom_codes": ["non_restorative_sleep", "snoring", "witnessed_apnea", "morning_headache", "excessive_daytime_sleepiness"],
+        "yhct_hint": "Đàm trọc trở phế, phế khí không thông ban đêm",
+        "yhhd_hint": "Hội chứng ngưng thở khi ngủ (OSA) – cần polysomnography"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "OSA thường gặp ở nam giới béo phì, cổ to; nguy cơ tăng huyết áp, đột quỵ"
+  },
+  {
+    "phrase_id": "OBS_B02_021",
+    "phrase_vi": "hay thức giấc giữa đêm",
+    "variants_vi": ["đêm hay thức dậy", "ngủ hay bị thức", "đêm ngủ không liên tục", "thức dậy nhiều lần trong đêm"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Thức giấc vì lý do gì: tiểu nhiều, đau, lo nghĩ, hay không rõ lý do?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Thức dậy 2-3 lần mỗi đêm để đi tiểu",
+        "symptom_codes": ["nocturia", "sleep_fragmentation_due_to_nocturia"],
+        "yhct_hint": "Thận khí hư, Bàng quang hư hàn, Thận dương hư",
+        "yhhd_hint": "Tiểu đêm do u lành tiền liệt tuyến, đái tháo đường, suy tim, thuốc lợi tiểu"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Thức dậy vì lo lắng, bồn chồn, tim đập nhanh, không rõ lý do",
+        "symptom_codes": ["nocturnal_anxiety", "sleep_maintenance_insomnia", "hyperarousal"],
+        "yhct_hint": "Tâm Đởm hư, Tâm thần không an, hỏa nhiễu Tâm thần",
+        "yhhd_hint": "Rối loạn lo âu, rối loạn hoảng loạn ban đêm"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Thức dậy vì đau: đau khớp, đau ngực, đau chân",
+        "symptom_codes": ["pain_related_sleep_disruption", "sleep_fragmentation"],
+        "yhct_hint": "Tùy theo vị trí đau: Phong hàn thấp tý, Tâm huyết hư",
+        "yhhd_hint": "Đau mạn tính: viêm khớp, hội chứng chân không yên, đau thắt ngực đêm"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Hội chứng chân không yên (RLS) là nguyên nhân hay bị bỏ sót gây thức giấc về đêm"
+  },
+  {
+    "phrase_id": "OBS_B02_022",
+    "phrase_vi": "ngủ nhiều vẫn mệt",
+    "variants_vi": ["ngủ nhiều mà vẫn buồn ngủ", "ngủ rồi mà vẫn mệt", "lúc nào cũng buồn ngủ", "ngủ li bì"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Ngủ nhiều xuất hiện từ khi nào, có giảm cân, sợ lạnh, tóc rụng không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Buồn ngủ nhiều ban ngày, ngủ đủ đêm vẫn mệt, thêm tăng cân, sợ lạnh, táo bón",
+        "symptom_codes": ["hypersomnia", "fatigue", "weight_gain", "cold_intolerance", "constipation", "hypothyroid_features"],
+        "yhct_hint": "Thận dương hư, Tỳ dương hư – dương khí không thăng",
+        "yhhd_hint": "Suy giáp (hypothyroidism) – cần TSH ngay"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Ngủ nhiều, khó dậy, ngủ ngay khi ngồi xuống, ngủ không thể kiểm soát",
+        "symptom_codes": ["excessive_daytime_sleepiness", "sleep_attacks", "cataplexy_possible", "narcolepsy_features"],
+        "yhct_hint": "Đàm thấp nội trở, Tâm thần mê muội",
+        "yhhd_hint": "Narcolepsy, OSA nặng – cần polysomnography"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Ngủ nhiều kèm tâm trạng u ám, mất hứng thú, ăn nhiều hoặc ăn ít",
+        "symptom_codes": ["hypersomnia", "depression", "anhedonia", "appetite_change"],
+        "yhct_hint": "Tâm khí uất kết, Can Tỳ không điều hòa",
+        "yhhd_hint": "Trầm cảm dạng ngủ nhiều (atypical depression)"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Suy giáp là nguyên nhân hay bị bỏ sót gây ngủ nhiều và mệt mỏi mạn tính"
+  },
+  {
+    "phrase_id": "OBS_B02_023",
+    "phrase_vi": "khó vào giấc",
+    "variants_vi": ["nằm xuống không ngủ được", "trằn trọc mãi", "nằm nghĩ lung tung", "không tài nào ngủ được"],
+    "regions": ["all"],
+    "requires_disambiguation": false,
+    "disambiguation_question": null,
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Khó vào giấc, nằm suy nghĩ nhiều, lo lắng, tim hồi hộp nhẹ, khó thư giãn",
+        "symptom_codes": ["sleep_onset_insomnia", "hyperarousal", "rumination", "anxiety"],
+        "yhct_hint": "Tâm Thận không giao, Tâm hỏa vượng, Tâm Tỳ lưỡng hư",
+        "yhhd_hint": "Mất ngủ tâm lý sinh lý, rối loạn lo âu lan tỏa (GAD)"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Vệ sinh giấc ngủ và liệu pháp nhận thức hành vi (CBT-I) là điều trị đầu tay"
+  },
+  {
+    "phrase_id": "OBS_B02_024",
+    "phrase_vi": "ác mộng thường xuyên",
+    "variants_vi": ["hay mơ thấy ác mộng", "đêm nào cũng có ác mộng", "giật mình thức dậy vì sợ hãi", "mơ thấy điều dữ"],
+    "regions": ["all"],
+    "requires_disambiguation": false,
+    "disambiguation_question": null,
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Ác mộng tái diễn nhiều đêm, hay liên quan đến sự kiện đau buồn trong quá khứ, giật mình thức dậy tim đập loạn",
+        "symptom_codes": ["recurrent_nightmares", "sleep_related_trauma", "hyperarousal", "ptsd_nightmare"],
+        "yhct_hint": "Tâm Đởm khí hư, kinh sợ thương thần, Tâm thần bất an",
+        "yhhd_hint": "PTSD, rối loạn lo âu, tác dụng phụ thuốc (beta-blocker, SSRI đầu điều trị)"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Cần đánh giá sang chấn tâm lý và nguy cơ tự hại"
+  },
+  {
+    "phrase_id": "OBS_B02_025",
+    "phrase_vi": "ngủ hay giật mình",
+    "variants_vi": ["ngủ hay bị giật", "đang ngủ bị giật người", "giật mình thức giấc", "co giật khi ngủ"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Giật khi vừa mới ngủ hay khi đang ngủ say, có cắn lưỡi hay mất ý thức không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Giật cả người khi vừa chợp mắt, tự kiểm soát được, không kèm gì khác",
+        "symptom_codes": ["hypnic_jerk", "sleep_start", "benign_myoclonus"],
+        "yhct_hint": "Can khí không điều đạt, Tâm thần chưa ổn định khi nhập giấc",
+        "yhhd_hint": "Hypnic jerk – lành tính, rất thường gặp"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Co giật tay chân khi đang ngủ, cắn lưỡi, sùi bọt mép, sau đó mê man không biết gì",
+        "symptom_codes": ["nocturnal_seizure", "tonic_clonic_seizure", "postictal_confusion", "tongue_biting"],
+        "yhct_hint": "Phong đàm bế trở – Kinh giản",
+        "yhhd_hint": "Động kinh (epilepsy) – cần EEG và điều trị"
+      }
+    ],
+    "red_flag_trigger": ["B"],
+    "notes": "Động kinh ban đêm thường không được phát hiện do không có nhân chứng"
+  },
+  {
+    "phrase_id": "OBS_B02_026",
+    "phrase_vi": "hay quên",
+    "variants_vi": ["hay bị quên", "trí nhớ kém", "hay quên lắm", "không nhớ nổi", "đặt đồ đâu quên đó"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Hay quên xuất hiện từ khi nào, ảnh hưởng đến công việc hàng ngày không, có quên cả người thân quen không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Quên những việc vừa làm xong, đặt đồ đâu không nhớ, nhưng vẫn làm được công việc hàng ngày",
+        "symptom_codes": ["mild_forgetfulness", "short_term_memory_impairment", "subjective_cognitive_decline"],
+        "yhct_hint": "Tâm Tỳ hư, Thận tinh hư – não tủy không đủ dưỡng chất",
+        "yhhd_hint": "Quên lành tính do tuổi, stress, mất ngủ; hoặc suy giảm nhận thức nhẹ (MCI)"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Quên cả tên người thân, lạc đường quen thuộc, không nhớ việc vừa làm xong, ảnh hưởng sinh hoạt",
+        "symptom_codes": ["significant_memory_impairment", "disorientation", "functional_decline", "dementia_features"],
+        "yhct_hint": "Thận tinh hư suy, Não tủy khô kiệt, Đàm trọc bế não lạc",
+        "yhhd_hint": "Sa sút trí tuệ (dementia) – Alzheimer, mạch máu, Lewy body – cần đánh giá toàn diện"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Quên ảnh hưởng chức năng sinh hoạt hàng ngày = cần đánh giá sa sút trí tuệ"
+  },
+  {
+    "phrase_id": "OBS_B02_027",
+    "phrase_vi": "đầu óc không tập trung",
+    "variants_vi": ["khó tập trung", "không tập trung được", "đầu óc mông lung", "hay bị phân tâm", "suy nghĩ không rõ ràng"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Khó tập trung xuất hiện từ khi nào, có kèm mệt mỏi, buồn chán, hay lo lắng không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Khó tập trung kèm lo nghĩ nhiều, bồn chồn, ngủ ít, mệt",
+        "symptom_codes": ["poor_concentration", "anxiety", "insomnia", "fatigue"],
+        "yhct_hint": "Tâm hỏa kháng, Tâm Thận không giao, Can khí uất kết",
+        "yhhd_hint": "Rối loạn lo âu, mất ngủ mạn tính"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Khó tập trung kèm buồn chán, mất hứng thú, nhớ kém, uể oải",
+        "symptom_codes": ["poor_concentration", "depression", "anhedonia", "cognitive_slowing"],
+        "yhct_hint": "Tâm khí uất kết, Tâm Tỳ lưỡng hư",
+        "yhhd_hint": "Trầm cảm – đánh giá PHQ-9"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Khó tập trung là triệu chứng chức năng não không đặc hiệu, cần hỏi thêm bối cảnh"
+  },
+  {
+    "phrase_id": "OBS_B02_028",
+    "phrase_vi": "suy nghĩ chậm chạp",
+    "variants_vi": ["đầu óc chậm", "nghĩ không ra", "đầu óc đặc quánh", "não như đóng băng", "không nghĩ được gì"],
+    "regions": ["all"],
+    "requires_disambiguation": false,
+    "disambiguation_question": null,
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Suy nghĩ và phản ứng chậm hơn bình thường, cảm giác đầu óc mù mịt, giảm sáng kiến",
+        "symptom_codes": ["cognitive_slowing", "psychomotor_retardation", "brain_fog"],
+        "yhct_hint": "Tâm Tỳ hư, Đàm thấp nội trở, Thận tinh hư, Tâm khí uất kết",
+        "yhhd_hint": "Trầm cảm, suy giáp, thiếu B12/sắt, tác dụng phụ thuốc"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Brain fog cần xét nghiệm TSH, CBC, B12 trước khi kết luận là tâm lý"
+  },
+  {
+    "phrase_id": "OBS_B02_029",
+    "phrase_vi": "tê mặt",
+    "variants_vi": ["mặt bị tê", "tê một bên mặt", "mặt như không có cảm giác", "tê nửa mặt"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Tê mặt một bên hay toàn bộ, xuất hiện đột ngột hay từ từ, kèm triệu chứng gì khác?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Tê nửa mặt đột ngột kèm tê tay chân cùng bên hoặc đối bên, méo miệng, nói khó",
+        "symptom_codes": ["acute_facial_numbness", "hemisensory_loss", "facial_palsy", "dysarthria"],
+        "yhct_hint": "Trúng phong lạc – CẤP CỨU",
+        "yhhd_hint": "Đột quỵ não (stroke/TIA) – CẤP CỨU"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Tê mặt từ từ tăng dần một bên, không có triệu chứng thần kinh khác, có thể đau theo dây thần kinh",
+        "symptom_codes": ["progressive_facial_numbness", "trigeminal_sensory_neuropathy"],
+        "yhct_hint": "Phong hàn xâm phạm kinh lạc, Khí huyết ứ trệ",
+        "yhhd_hint": "Bệnh dây thần kinh tam thoa (trigeminal neuropathy), khối u vùng nền sọ"
+      }
+    ],
+    "red_flag_trigger": ["A"],
+    "notes": "Tê mặt đột ngột + dấu thần kinh khu trú = stroke"
+  },
+  {
+    "phrase_id": "OBS_B02_030",
+    "phrase_vi": "giật mi mắt",
+    "variants_vi": ["mí mắt giật", "mắt hay giật", "mi mắt giật liên tục", "mắt giật không kiểm soát"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Mi mắt giật một bên hay cả hai, giật liên tục hay từng cơn, có lan ra mặt không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Mi mắt giật một bên từng cơn ngắn, căng thẳng hay mệt thì tăng, tự hết",
+        "symptom_codes": ["benign_eyelid_myokymia", "hemifacial_twitching_mild", "stress_aggravated"],
+        "yhct_hint": "Can phong nội động nhẹ, Huyết hư sinh phong, mệt mỏi thiếu dưỡng gân",
+        "yhhd_hint": "Benign eyelid myokymia – lành tính do mệt mỏi, caffeine, stress"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Giật nửa mặt một bên liên tục không kiểm soát, lan từ mắt xuống miệng",
+        "symptom_codes": ["hemifacial_spasm", "progressive_facial_twitching", "unilateral"],
+        "yhct_hint": "Can phong nội động, Phong đàm trở lạc",
+        "yhhd_hint": "Co thắt nửa mặt (hemifacial spasm) – nguyên nhân mạch máu chèn ép dây VII"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Co thắt nửa mặt tiến triển khác với giật mi lành tính – cần MRI dây VII"
+  },
+  {
+    "phrase_id": "OBS_B02_031",
+    "phrase_vi": "đau nửa mặt",
+    "variants_vi": ["đau một bên mặt", "đau nhói một bên mặt", "mặt đau dữ dội", "đau giật điện vào mặt"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Đau nửa mặt kiểu đau nhói như điện giật hay đau âm ỉ liên tục?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đau nhói cực kỳ dữ dội như điện giật vào mặt, chỉ kéo dài vài giây đến 2 phút, kích hoạt bởi ăn, nhai, chạm mặt",
+        "symptom_codes": ["paroxysmal_facial_pain", "electric_shock_pain", "trigger_zone", "trigeminal_neuralgia"],
+        "yhct_hint": "Phong hỏa thượng công, Can hỏa kháng nghịch theo kinh tam thoa",
+        "yhhd_hint": "Đau dây thần kinh tam thoa (trigeminal neuralgia) – điều trị carbamazepine"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Đau âm ỉ liên tục một bên mặt, kèm tê, lan lên vùng hàm/răng, không giảm với thuốc thông thường",
+        "symptom_codes": ["continuous_facial_pain", "facial_numbness", "atypical_facial_pain"],
+        "yhct_hint": "Huyết ứ kinh lạc mặt, Khí trệ đau lâu dài",
+        "yhhd_hint": "Đau mặt không điển hình, cần loại trừ bệnh lý xoang, răng, u"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Đau dây tam thoa là một trong những đau mãnh liệt nhất y học biết đến"
+  },
+  {
+    "phrase_id": "OBS_B02_032",
+    "phrase_vi": "da đầu ngứa và đau",
+    "variants_vi": ["da đầu đau nhói", "sờ vào đầu thấy đau", "da đầu nhức", "đầu nhạy cảm"],
+    "regions": ["all"],
+    "requires_disambiguation": false,
+    "disambiguation_question": null,
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Da đầu nhạy cảm, đau khi chải tóc hoặc đội nón, thường kèm đau đầu",
+        "symptom_codes": ["allodynia_scalp", "cutaneous_allodynia", "scalp_tenderness"],
+        "yhct_hint": "Phong nhiệt hoặc Huyết nhiệt thượng nhiễu đầu bì",
+        "yhhd_hint": "Allodynia da đầu trong migraine, viêm da đầu, vảy nến da đầu"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Allodynia da đầu trong migraine báo hiệu cơn đã tiến triển, cần điều trị sớm hơn"
+  },
+  {
+    "phrase_id": "OBS_B02_033",
+    "phrase_vi": "ù tai",
+    "variants_vi": ["tai bị ù", "có tiếng ve kêu trong tai", "tai nghe tiếng o o", "tai ù lúc nào cũng có"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Ù tai một bên hay hai bên, tiếng gì, liên tục hay từng cơn?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Ù tai một bên liên tục như tiếng ve, tiếng sóng, kèm nghe kém cùng bên",
+        "symptom_codes": ["unilateral_tinnitus", "unilateral_hearing_loss", "sensorineural_hearing_loss"],
+        "yhct_hint": "Thận tinh hư – Thận khai khiếu ra tai, Đàm hỏa quấy tai",
+        "yhhd_hint": "Bệnh Menière, u dây thần kinh thính giác (acoustic neuroma) – cần MRI"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Ù tai hai bên sau tiếp xúc tiếng ồn mạnh hoặc theo tuổi tác, nghe kém hai bên",
+        "symptom_codes": ["bilateral_tinnitus", "noise_induced_hearing_loss", "presbycusis"],
+        "yhct_hint": "Thận tinh hư suy – tuổi tác, Thận khai khiếu ra tai",
+        "yhhd_hint": "Điếc do tiếng ồn (NIHL), lão thính (presbycusis)"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Ù tai nhịp theo mạch đập, nghe thấy tiếng 'thình thịch' trong tai",
+        "symptom_codes": ["pulsatile_tinnitus", "vascular_tinnitus"],
+        "yhct_hint": "Huyết ứ kinh lạc tai, Can dương vượng",
+        "yhhd_hint": "Ù tai mạch động – cần loại trừ dị dạng mạch máu, huyết áp cao, thiếu máu nặng"
+      }
+    ],
+    "red_flag_trigger": ["C"],
+    "notes": "Ù tai mạch động một bên cần MRI/MRA để loại trừ bệnh lý mạch máu"
+  },
+  {
+    "phrase_id": "OBS_B02_034",
+    "phrase_vi": "điếc tai",
+    "variants_vi": ["nghe kém", "tai nghe không rõ", "điếc một bên", "tai bị điếc", "hỏi mãi không nghe"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Nghe kém xuất hiện đột ngột hay từ từ, một bên hay hai bên?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Nghe kém đột ngột một bên trong vài giờ đến 3 ngày, có thể kèm ù tai, chóng mặt",
+        "symptom_codes": ["sudden_sensorineural_hearing_loss", "acute_unilateral_deafness", "tinnitus"],
+        "yhct_hint": "Phong nhiệt hoặc Đàm hỏa xâm tai – CẤP CỨU TAI MŨI HỌNG",
+        "yhhd_hint": "Điếc đột ngột thần kinh giác quan – cần corticoid sớm trong 24-72 giờ"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Nghe kém từ từ cả hai bên theo tuổi, khó nghe giọng cao, cần nhờ nhắc lại",
+        "symptom_codes": ["bilateral_progressive_hearing_loss", "high_frequency_loss", "presbycusis"],
+        "yhct_hint": "Thận tinh hư suy – tuổi già Thận suy",
+        "yhhd_hint": "Lão thính (presbycusis) – xem xét máy trợ thính"
+      }
+    ],
+    "red_flag_trigger": ["A"],
+    "notes": "Điếc đột ngột là cấp cứu tai mũi họng – cửa sổ điều trị trong 72 giờ đầu"
+  },
+  {
+    "phrase_id": "OBS_B02_035",
+    "phrase_vi": "tê bì tay chân",
+    "variants_vi": ["tay chân tê", "chân tê bì", "tay tê bì", "tê hai bàn tay", "tay chân như kiến bò"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Tê bì tay chân ở đâu, một bên hay hai bên, xuất hiện đột ngột hay từ từ?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Tê bì hai bàn tay tỉnh thức ban đêm, tê ngón 1-4, lắc tay thì đỡ",
+        "symptom_codes": ["nocturnal_hand_numbness", "carpal_tunnel_syndrome", "median_nerve_distribution"],
+        "yhct_hint": "Khí huyết ứ trệ, Phong thấp bế kinh lạc cổ tay",
+        "yhhd_hint": "Hội chứng ống cổ tay (carpal tunnel syndrome) – nghiệm pháp Tinel, Phalen"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Tê bì đối xứng hai bàn chân rồi bàn tay, tăng dần từ đầu ngón lên, kiểu đi tất",
+        "symptom_codes": ["length_dependent_peripheral_neuropathy", "stocking_glove_pattern", "bilateral_symmetric_numbness"],
+        "yhct_hint": "Khí âm lưỡng hư, Huyết hư không nuôi tứ chi, Thấp nhiệt hạ trú",
+        "yhhd_hint": "Bệnh thần kinh ngoại biên: đái tháo đường, rượu, B12 thiếu, thuốc hóa chất"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Tê bì đột ngột nửa người (tay và chân cùng bên), kèm yếu liệt",
+        "symptom_codes": ["acute_hemisensory_loss", "hemiplegia", "stroke_presentation"],
+        "yhct_hint": "Trúng phong kinh lạc – CẤP CỨU",
+        "yhhd_hint": "Đột quỵ não – CẤP CỨU TUYỆT ĐỐI"
+      }
+    ],
+    "red_flag_trigger": ["C"],
+    "notes": "Tê nửa người đột ngột = stroke cho đến khi chứng minh ngược lại"
+  },
+  {
+    "phrase_id": "OBS_B02_036",
+    "phrase_vi": "kiến bò tay chân",
+    "variants_vi": ["tay chân như kiến bò", "có cảm giác kiến bò", "tay chân như có gì bò bò", "ngứa ran tay chân"],
+    "regions": ["all"],
+    "requires_disambiguation": false,
+    "disambiguation_question": null,
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Cảm giác kiến bò, ngứa ran, tê nhẹ tay chân, thường xảy ra khi ngồi lâu một tư thế hoặc về đêm",
+        "symptom_codes": ["paresthesia", "tingling_sensation", "peripheral_nerve_compression"],
+        "yhct_hint": "Khí huyết không lưu thông tứ chi, Phong thấp nhẹ xâm kinh lạc",
+        "yhhd_hint": "Chèn ép thần kinh nhẹ, bệnh thần kinh ngoại biên nhẹ, rối loạn tuần hoàn ngoại biên"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Cần xét nghiệm đường huyết, B12 nếu triệu chứng kéo dài và đối xứng"
+  },
+  {
+    "phrase_id": "OBS_B02_037",
+    "phrase_vi": "mất cảm giác vùng yên ngựa",
+    "variants_vi": ["tê vùng kín", "tê háng tầng sinh môn", "không cảm giác vùng đáy chậu"],
+    "regions": ["all"],
+    "requires_disambiguation": false,
+    "disambiguation_question": null,
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Tê liệt vùng yên ngựa (háng, tầng sinh môn, mặt trong đùi), kèm bí tiểu hoặc đại tiểu tiện không tự chủ",
+        "symptom_codes": ["saddle_anesthesia", "bladder_dysfunction", "bowel_dysfunction", "cauda_equina_syndrome"],
+        "yhct_hint": "Thận dương hư cực nặng, kinh mạch vùng hạ tiêu bị tắc nghẽn hoàn toàn – CẤP CỨU",
+        "yhhd_hint": "Hội chứng đuôi ngựa (cauda equina syndrome) – CẤP CỨU PHẪU THUẬT"
+      }
+    ],
+    "red_flag_trigger": ["A"],
+    "notes": "Cauda equina syndrome là cấp cứu ngoại thần kinh – phẫu thuật trong 24 giờ"
+  },
+  {
+    "phrase_id": "OBS_B02_038",
+    "phrase_vi": "chân không yên buổi tối",
+    "variants_vi": ["chân bứt rứt buổi tối", "tối đến chân khó chịu phải cử động", "chân bồn chồn", "chân cứ muốn cử động"],
+    "regions": ["all"],
+    "requires_disambiguation": false,
+    "disambiguation_question": null,
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Khó chịu bứt rứt ở chân khi nằm hoặc ngồi buổi tối, buộc phải cử động chân thì đỡ, ảnh hưởng giấc ngủ",
+        "symptom_codes": ["restless_legs_syndrome", "nocturnal_leg_discomfort", "urge_to_move_legs", "sleep_disturbance"],
+        "yhct_hint": "Can huyết hư, Can khí bất túc không nuôi gân cơ buổi tối (giờ Can vượng)",
+        "yhhd_hint": "Hội chứng chân không yên (RLS) – liên quan thiếu sắt, thai kỳ, suy thận, thuốc"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "RLS thường thiếu sắt là nguyên nhân phổ biến; cần kiểm tra ferritin"
+  },
+  {
+    "phrase_id": "OBS_B02_039",
+    "phrase_vi": "hay cáu gắt",
+    "variants_vi": ["hay nổi cáu", "dễ cáu", "tính tình hay cáu", "chút là nổi giận", "bực bội khó chịu"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Hay cáu gắt kéo dài bao lâu, có kèm lo lắng, buồn ngủ, hay tim đập nhanh không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Hay cáu gắt kèm lo lắng, bồn chồn, mất ngủ, nhịp tim nhanh, sụt cân",
+        "symptom_codes": ["irritability", "anxiety", "insomnia", "palpitations", "weight_loss", "hyperthyroid_features"],
+        "yhct_hint": "Can dương vượng, Can hỏa thượng xung, Tâm hỏa kháng",
+        "yhhd_hint": "Cường giáp (hyperthyroidism) – cần kiểm tra TSH, FT4 ngay"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Hay cáu gắt kèm buồn chán, mất hứng thú, mệt mỏi, khóc không lý do",
+        "symptom_codes": ["irritability", "depression", "anhedonia", "crying_spells", "fatigue"],
+        "yhct_hint": "Can Tỳ bất hòa, Tâm khí uất kết, Can khí uất",
+        "yhhd_hint": "Trầm cảm (đặc biệt ở nam giới biểu hiện bằng cáu gắt hơn là buồn chán)"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Cáu gắt vô cớ, thay đổi tính cách đột ngột ở người lớn tuổi, có kèm quên và lú lẫn",
+        "symptom_codes": ["personality_change", "irritability", "cognitive_decline", "behavioral_change"],
+        "yhct_hint": "Đàm trọc bế não, Thận tinh hư suy nặng",
+        "yhhd_hint": "Sa sút trí tuệ, tổn thương vùng trán não, cần đánh giá thần kinh"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Thay đổi tính cách đột ngột ở người lớn tuổi là dấu hiệu đáng ngờ bệnh thần kinh"
+  },
+  {
+    "phrase_id": "OBS_B02_040",
+    "phrase_vi": "lo lắng nhiều",
+    "variants_vi": ["hay lo lắng", "lo nghĩ nhiều", "lo quá nhiều thứ", "lúc nào cũng lo", "bồn chồn lo lắng"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Lo lắng về điều gì cụ thể hay lo lắng lan tỏa nhiều thứ, kéo dài bao lâu rồi?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Lo lắng nhiều thứ không kiểm soát được trên 6 tháng, kèm mệt mỏi, căng cơ, khó ngủ, khó tập trung",
+        "symptom_codes": ["excessive_worry", "generalized_anxiety", "muscle_tension", "fatigue", "sleep_disturbance", "poor_concentration"],
+        "yhct_hint": "Tâm Tỳ lưỡng hư, Can khí uất kết, Tâm Thận không giao",
+        "yhhd_hint": "Rối loạn lo âu lan tỏa (GAD) – điều trị CBT + thuốc"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Lo lắng đột ngột thành cơn dữ dội kèm tim đập nhanh, khó thở, tê tay, cảm giác chết sắp đến",
+        "symptom_codes": ["panic_attack", "palpitations", "dyspnea", "paresthesia", "fear_of_dying"],
+        "yhct_hint": "Tâm Đởm khí hư, bạo kinh tâm thần, Tâm hỏa bùng phát",
+        "yhhd_hint": "Rối loạn hoảng loạn (panic disorder)"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Cần đánh giá GAD-7; cơn hoảng loạn cần loại trừ bệnh tim và cường giáp trước"
+  },
+  {
+    "phrase_id": "OBS_B02_041",
+    "phrase_vi": "sợ vô cớ",
+    "variants_vi": ["sợ hãi không rõ lý do", "hay cảm thấy sợ", "bất an lo sợ", "sợ mà không biết sợ gì"],
+    "regions": ["all"],
+    "requires_disambiguation": false,
+    "disambiguation_question": null,
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Cảm giác lo sợ bất an không có nguyên nhân rõ ràng, có thể kèm hồi hộp, vã mồ hôi tay, run nhẹ",
+        "symptom_codes": ["free_floating_anxiety", "apprehension", "autonomic_arousal", "anxiety_disorder"],
+        "yhct_hint": "Tâm Đởm hư, Thần không an, Âm hư hỏa vượng nhiễu loạn Tâm thần",
+        "yhhd_hint": "Rối loạn lo âu, PTSD, rối loạn hoảng loạn giữa các cơn"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Sợ vô cớ kéo dài cần tầm soát sang chấn tâm lý và rối loạn lo âu"
+  },
+  {
+    "phrase_id": "OBS_B02_042",
+    "phrase_vi": "buồn chán vô cớ",
+    "variants_vi": ["buồn không lý do", "chán đời", "không muốn làm gì", "không thấy vui với bất cứ điều gì"],
+    "regions": ["all"],
+    "requires_disambiguation": false,
+    "disambiguation_question": null,
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Cảm giác buồn, trống rỗng, mất hứng thú với mọi thứ, kéo dài trên 2 tuần",
+        "symptom_codes": ["depressed_mood", "anhedonia", "persistent_sadness", "major_depressive_episode"],
+        "yhct_hint": "Tâm khí uất kết, Can Tỳ bất hòa, Tâm huyết hư không nuôi thần",
+        "yhhd_hint": "Rối loạn trầm cảm chủ yếu (MDD) – đánh giá PHQ-9, tầm soát tự hại"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Cần hỏi về ý tưởng tự hại hoặc tự sát khi phát hiện trầm cảm"
+  },
+  {
+    "phrase_id": "OBS_B02_043",
+    "phrase_vi": "liệt mặt đột ngột",
+    "variants_vi": ["mặt bỗng nhiên bị liệt", "đột nhiên không nhíu mày được", "đột ngột mặt lệch", "mặt tự nhiên bị xệ"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Liệt mặt có kèm yếu tay chân, nói khó, hay chỉ liệt mặt đơn thuần?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Liệt toàn bộ một bên mặt (cả trên và dưới: không nhíu mày + méo miệng), không liệt tay chân, có thể đau sau tai",
+        "symptom_codes": ["peripheral_facial_nerve_palsy", "upper_and_lower_facial_weakness", "post_auricular_pain", "bell_palsy"],
+        "yhct_hint": "Phong hàn xâm kinh lạc mặt, Vệ khí không cố",
+        "yhhd_hint": "Bell's palsy (liệt Bell) – điều trị corticoid trong 72 giờ"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Liệt nửa dưới mặt một bên (méo miệng, không nhắm được miệng khi cười) kèm yếu tay chân đối bên",
+        "symptom_codes": ["central_facial_palsy", "contralateral_hemiplegia", "upper_motor_neuron_facial_palsy"],
+        "yhct_hint": "Trúng phong kinh lạc hoặc tạng phủ – CẤP CỨU",
+        "yhhd_hint": "Đột quỵ não – CẤP CỨU TUYỆT ĐỐI"
+      }
+    ],
+    "red_flag_trigger": ["B"],
+    "notes": "Phân biệt tổn thương ngoại biên (Bell's) vs trung ương (stroke): trung ương không liệt trán vì trán có chi phối hai bên"
+  },
+  {
+    "phrase_id": "OBS_B02_044",
+    "phrase_vi": "nói đớ",
+    "variants_vi": ["nói không rõ", "nói khó", "nói bị vấp", "nói lắp bắp", "lưỡi cứng nói không rõ"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Nói đớ xuất hiện đột ngột hay từ từ, kèm triệu chứng gì khác?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Nói đớ đột ngột, lưỡi không linh hoạt, kèm yếu tay chân hoặc tê một bên người",
+        "symptom_codes": ["acute_dysarthria", "sudden_onset", "hemiparesis", "hemisensory_loss", "stroke_presentation"],
+        "yhct_hint": "Trúng phong kinh lạc, thiệt cứng ngôn sáp – CẤP CỨU",
+        "yhhd_hint": "Đột quỵ não – CẤP CỨU TRONG GIỜ VÀNG"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Nói đớ từ từ tăng dần kèm nuốt khó, giọng mũi, sặc khi uống nước",
+        "symptom_codes": ["progressive_dysarthria", "dysphagia", "nasal_voice", "bulbar_palsy_features"],
+        "yhct_hint": "Tâm Thận dương hư, Phong đàm bế trở",
+        "yhhd_hint": "Liệt hành tủy tiến triển (ALS, MG, u thân não) – cần MRI, EMG"
+      }
+    ],
+    "red_flag_trigger": ["A"],
+    "notes": "Nói đớ đột ngột = stroke; nói đớ kèm nuốt khó tiến triển = cần loại trừ ALS/u não"
+  },
+  {
+    "phrase_id": "OBS_B02_045",
+    "phrase_vi": "méo miệng",
+    "variants_vi": ["miệng bị méo", "miệng lệch", "cười bị méo", "miệng kéo sang một bên"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Méo miệng xuất hiện đột ngột hay từ từ, kèm gì khác không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Méo miệng đột ngột kèm yếu tay chân cùng bên hoặc đối bên, nói đớ",
+        "symptom_codes": ["acute_facial_asymmetry", "hemiplegia", "dysarthria", "stroke_presentation"],
+        "yhct_hint": "Trúng phong – CẤP CỨU NGAY",
+        "yhhd_hint": "Đột quỵ não – CẤP CỨU"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Méo miệng đơn thuần sau khi tắm mưa, ngồi điều hòa, không kèm yếu liệt tay chân",
+        "symptom_codes": ["peripheral_facial_palsy", "bell_palsy", "isolated_facial_asymmetry"],
+        "yhct_hint": "Phong hàn xâm nhập kinh lạc mặt, Trúng phong kinh lạc nhẹ",
+        "yhhd_hint": "Bell's palsy – corticoid sớm trong 72 giờ"
+      }
+    ],
+    "red_flag_trigger": ["A"],
+    "notes": "Méo miệng + yếu liệt + nói khó đột ngột = stroke, gọi cấp cứu 115 ngay"
+  },
+  {
+    "phrase_id": "OBS_B02_046",
+    "phrase_vi": "đột ngột không nói được",
+    "variants_vi": ["bỗng nhiên câm không nói được", "đột ngột nói không ra lời", "không thốt ra được lời", "mất tiếng đột ngột"],
+    "regions": ["all"],
+    "requires_disambiguation": false,
+    "disambiguation_question": null,
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đột ngột mất khả năng nói (aphasia) hoặc không tìm được từ, không hiểu lời người khác, kèm hoặc không kèm yếu liệt",
+        "symptom_codes": ["acute_aphasia", "expressive_aphasia", "receptive_aphasia", "sudden_onset", "stroke_presentation"],
+        "yhct_hint": "Trúng phong tạng phủ hoặc kinh lạc nặng – CẤP CỨU NGAY",
+        "yhhd_hint": "Đột quỵ não vùng Broca hoặc Wernicke – CẤP CỨU TUYỆT ĐỐI"
+      }
+    ],
+    "red_flag_trigger": ["A"],
+    "notes": "Mất ngôn ngữ đột ngột = stroke cho đến khi chứng minh ngược lại; gọi 115 ngay"
+  },
+  {
+    "phrase_id": "OBS_B02_047",
+    "phrase_vi": "yếu liệt nửa người đột ngột",
+    "variants_vi": ["bỗng nhiên tay chân không nhấc lên được", "đột ngột một bên người bị yếu", "tay chân một bên mất sức", "chân tay bên phải/trái không cử động được"],
+    "regions": ["all"],
+    "requires_disambiguation": false,
+    "disambiguation_question": null,
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Yếu hoặc liệt đột ngột tay chân một bên người, có thể kèm méo miệng, nói khó, tê một bên người",
+        "symptom_codes": ["acute_hemiplegia", "acute_hemiparesis", "contralateral_weakness", "stroke_presentation"],
+        "yhct_hint": "Trúng phong tạng phủ hoặc kinh lạc – CẤP CỨU NGAY",
+        "yhhd_hint": "Đột quỵ não (ischemic/hemorrhagic stroke) – CẤP CỨU trong cửa sổ rtPA"
+      }
+    ],
+    "red_flag_trigger": ["A"],
+    "notes": "Sử dụng thang điểm FAST: Face-Arm-Speech-Time; gọi 115 trong vòng 4.5 giờ từ khi khởi phát"
+  },
+  {
+    "phrase_id": "OBS_B02_048",
+    "phrase_vi": "co giật",
+    "variants_vi": ["bị giật co", "lên cơn co giật", "ngã ra co giật", "giật toàn thân", "ngã lăn ra cắn lưỡi"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Co giật toàn thân hay một phần, mất ý thức không, sau đó như thế nào?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Co giật toàn thân đột ngột, mất ý thức, sùi bọt mép, cắn lưỡi, tiểu không tự chủ, sau đó mê man",
+        "symptom_codes": ["generalized_tonic_clonic_seizure", "loss_of_consciousness", "postictal_confusion", "incontinence", "tongue_biting"],
+        "yhct_hint": "Phong đàm bế trở – Kinh giản, Trúng phong phong đàm",
+        "yhhd_hint": "Động kinh cơn lớn (generalized tonic-clonic seizure) – cần EEG, nguyên nhân"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Co giật khu trú một tay hoặc một bên mặt, người còn tỉnh táo, lan dần ra toàn thân",
+        "symptom_codes": ["focal_seizure", "jacksonian_march", "focal_to_bilateral_tonic_clonic"],
+        "yhct_hint": "Phong đàm bế trở cục bộ",
+        "yhhd_hint": "Động kinh khu trú có thể lan rộng – cần tìm nguyên nhân tổn thương não khu trú (u, ổ nhồi máu cũ)"
+      }
+    ],
+    "red_flag_trigger": ["A", "B"],
+    "notes": "Cơn co giật lần đầu ở người lớn cần MRI não, EEG và tầm soát chuyển hóa"
+  },
+  {
+    "phrase_id": "OBS_B02_049",
+    "phrase_vi": "run tay",
+    "variants_vi": ["tay bị run", "hay bị run tay", "cầm đồ bị run", "tay run khi làm việc"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Tay run khi nghỉ hay khi làm việc, run một tay hay hai tay?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Tay run khi cầm nắm hoặc dùng tay (run khi làm việc), cả hai tay, giảm khi uống rượu, đầu cũng có thể run",
+        "symptom_codes": ["essential_tremor", "action_tremor", "bilateral_hand_tremor", "head_tremor"],
+        "yhct_hint": "Can phong nội động nhẹ, Can huyết hư sinh phong",
+        "yhhd_hint": "Run vô căn (essential tremor) – điều trị propranolol"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Tay run khi nghỉ ngơi (không cử động), cứng đơ cử động chậm, dáng đi lê bước ngắn",
+        "symptom_codes": ["resting_tremor", "rigidity", "bradykinesia", "shuffling_gait", "parkinsonian_features"],
+        "yhct_hint": "Can Thận âm hư, Can phong nội động – não tủy suy kiệt",
+        "yhhd_hint": "Bệnh Parkinson – cần khám thần kinh và điều trị"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Run khi nghỉ + cứng đơ + chậm vận động = tam chứng Parkinson"
+  },
+  {
+    "phrase_id": "OBS_B02_050",
+    "phrase_vi": "mất thị lực đột ngột",
+    "variants_vi": ["đột ngột không nhìn thấy", "mắt bỗng nhiên mờ hoàn toàn", "mất thị lực một mắt", "mắt không thấy gì đột ngột"],
+    "regions": ["all"],
+    "requires_disambiguation": false,
+    "disambiguation_question": null,
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Mất thị lực đột ngột một hoặc cả hai mắt, không đau, hoặc mất nửa tầm nhìn cùng bên hai mắt",
+        "symptom_codes": ["sudden_vision_loss", "amaurosis_fugax", "homonymous_hemianopia", "monocular_blindness", "stroke_visual_presentation"],
+        "yhct_hint": "Huyết ứ bế trở mạch não hoặc mạch mắt – CẤP CỨU NGAY",
+        "yhhd_hint": "TIA/stroke (amaurosis fugax, tắc động mạch não sau), tắc động mạch trung tâm võng mạc – CẤP CỨU"
+      }
+    ],
+    "red_flag_trigger": ["A"],
+    "notes": "Mất thị lực đột ngột = cấp cứu thần kinh và mắt tuyệt đối; cửa sổ điều trị rất hẹp"
+  }
+]

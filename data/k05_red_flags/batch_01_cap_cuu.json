@@ -1,0 +1,1437 @@
+[
+  {
+    "rule_id": "RF_B01_001",
+    "red_flag_code": "acs_classic",
+    "name_vi": "Nhồi máu cơ tim cấp — dấu hiệu cổ điển",
+    "name_en": "Acute Coronary Syndrome — classic presentation",
+    "triage_level": "L1_emergency",
+    "trigger_logic": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "left_chest_pain", "threshold": "present"},
+        {"symptom_code": "diaphoresis_cold", "threshold": "present"},
+        {"symptom_code": "left_arm_radiation", "threshold": "present"}
+      ]
+    },
+    "alternative_trigger": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "left_chest_pain", "threshold": "present"},
+        {"symptom_code": "sudden_severe_onset", "threshold": "present"},
+        {"symptom_code": "severity_vas", "threshold": ">=7"}
+      ]
+    },
+    "display_message_vi": "⚠️ CẤP CỨU: Các triệu chứng của bạn có thể là nhồi máu cơ tim. Gọi 115 NGAY LẬP TỨC. Nhai 1 viên Aspirin 325mg nếu có. Đừng lái xe.",
+    "suppress_yhct_output": true,
+    "suppress_yhhd_general": true,
+    "show_emergency_only": true,
+    "emergency_action": "GỌI 115",
+    "special_instructions": "Nhai aspirin 325mg nếu không dị ứng, không nằm, gọi người thân ở cạnh",
+    "yhct_warning": "YHCT: Hung tý — CẤP CỨU YHHD trước — KHÔNG dùng thuốc YHCT trước khi đến bệnh viện",
+    "vietnam_specific": true,
+    "vietnam_notes": "Tỷ lệ ACS tăng cao ở Việt Nam do ăn mặn, hút thuốc. Nhiều BN đến trễ vì tự điều trị bằng YHCT.",
+    "prevalence_in_system": "low_but_critical"
+  },
+  {
+    "rule_id": "RF_B01_002",
+    "red_flag_code": "sah_thunderclap",
+    "name_vi": "Xuất huyết dưới nhện — đau đầu sét đánh",
+    "name_en": "Subarachnoid Hemorrhage — thunderclap headache",
+    "triage_level": "L1_emergency",
+    "trigger_logic": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "headache_sudden_onset", "threshold": "present"},
+        {"symptom_code": "headache_worst_ever", "threshold": "present"},
+        {"symptom_code": "headache_maximal_at_onset", "threshold": "present"}
+      ]
+    },
+    "alternative_trigger": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "headache_sudden_onset", "threshold": "present"},
+        {"symptom_code": "severity_vas", "threshold": ">=9"},
+        {"symptom_code": "time_to_peak_seconds", "threshold": "<=60"}
+      ]
+    },
+    "display_message_vi": "⚠️ CẤP CỨU: Đau đầu dữ dội đột ngột có thể là xuất huyết não. Gọi 115 NGAY. Không tự đi xe, không dùng thuốc giảm đau.",
+    "suppress_yhct_output": true,
+    "suppress_yhhd_general": true,
+    "show_emergency_only": true,
+    "emergency_action": "GỌI 115",
+    "special_instructions": "Đặt bệnh nhân nằm yên, không cho ăn uống, gọi 115 ngay",
+    "yhct_warning": "YHCT: Não phong — TUYỆT ĐỐI không châm cứu, không xoa bóp đầu — CẤP CỨU YHHD ngay",
+    "vietnam_specific": true,
+    "vietnam_notes": "Nhiều BN Việt Nam tự uống thuốc hạ áp hoặc YHCT khi đau đầu nặng, gây trễ chẩn đoán SAH.",
+    "prevalence_in_system": "low_but_critical"
+  },
+  {
+    "rule_id": "RF_B01_003",
+    "red_flag_code": "stroke_fast",
+    "name_vi": "Đột quỵ não cấp — dấu hiệu FAST",
+    "name_en": "Acute Stroke — FAST signs",
+    "triage_level": "L1_emergency",
+    "trigger_logic": {
+      "operator": "OR",
+      "conditions": [
+        {
+          "operator": "AND",
+          "conditions": [
+            {"symptom_code": "facial_droop_sudden", "threshold": "present"},
+            {"symptom_code": "arm_weakness_unilateral", "threshold": "present"}
+          ]
+        },
+        {
+          "operator": "AND",
+          "conditions": [
+            {"symptom_code": "speech_slurred_sudden", "threshold": "present"},
+            {"symptom_code": "arm_weakness_unilateral", "threshold": "present"}
+          ]
+        },
+        {
+          "operator": "AND",
+          "conditions": [
+            {"symptom_code": "facial_droop_sudden", "threshold": "present"},
+            {"symptom_code": "speech_slurred_sudden", "threshold": "present"}
+          ]
+        }
+      ]
+    },
+    "alternative_trigger": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "sudden_neurological_deficit", "threshold": "present"},
+        {"symptom_code": "onset_minutes_to_hours", "threshold": "present"}
+      ]
+    },
+    "display_message_vi": "⚠️ CẤP CỨU: Dấu hiệu đột quỵ. Mỗi phút đều quý giá — 'Thời gian là não'. Gọi 115 NGAY. Cửa sổ điều trị chỉ 4.5 giờ.",
+    "suppress_yhct_output": true,
+    "suppress_yhhd_general": true,
+    "show_emergency_only": true,
+    "emergency_action": "GỌI 115",
+    "special_instructions": "Ghi lại giờ xuất hiện triệu chứng đầu tiên. Không cho ăn uống. Không tiêm hoặc châm cứu. Gọi 115.",
+    "yhct_warning": "YHCT: Trúng phong — CẤP CỨU YHHD trong 4.5 giờ để tPA — KHÔNG châm cứu hay thuốc YHCT trước cấp cứu",
+    "vietnam_specific": true,
+    "vietnam_notes": "Việt Nam có tỷ lệ đột quỵ cao. Nhiều BN chậm nhập viện do gia đình tự điều trị YHCT hoặc chờ xem. Cần nhấn mạnh cửa sổ thời gian tPA.",
+    "prevalence_in_system": "low_but_critical"
+  },
+  {
+    "rule_id": "RF_B01_004",
+    "red_flag_code": "massive_hematemesis_hemoptysis",
+    "name_vi": "Ho ra máu / Nôn ra máu ồ ạt",
+    "name_en": "Massive Hemoptysis or Hematemesis",
+    "triage_level": "L1_emergency",
+    "trigger_logic": {
+      "operator": "OR",
+      "conditions": [
+        {"symptom_code": "coughing_blood_massive", "threshold": "present"},
+        {"symptom_code": "vomiting_blood_massive", "threshold": "present"},
+        {
+          "operator": "AND",
+          "conditions": [
+            {"symptom_code": "hematemesis", "threshold": "present"},
+            {"symptom_code": "volume_ml", "threshold": ">=200"}
+          ]
+        }
+      ]
+    },
+    "alternative_trigger": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "blood_oral_output", "threshold": "present"},
+        {"symptom_code": "hemodynamic_instability_signs", "threshold": "present"}
+      ]
+    },
+    "display_message_vi": "⚠️ CẤP CỨU: Ho/nôn ra máu lượng lớn nguy hiểm tính mạng. Gọi 115 NGAY. Nằm nghiêng để tránh sặc máu. Không ăn uống.",
+    "suppress_yhct_output": true,
+    "suppress_yhhd_general": true,
+    "show_emergency_only": true,
+    "emergency_action": "GỌI 115",
+    "special_instructions": "Đặt bệnh nhân nằm nghiêng (recovery position), không cho uống, giữ ấm, gọi 115",
+    "yhct_warning": "YHCT: Khái huyết / Thổ huyết — CẤP CỨU YHHD ngay — KHÔNG dùng thuốc YHCT, châm cứu hay nhiệt liệu pháp",
+    "vietnam_specific": true,
+    "vietnam_notes": "Ho ra máu ở Việt Nam thường liên quan lao phổi (cao). Nôn ra máu thường do xơ gan/giãn tĩnh mạch thực quản do viêm gan B.",
+    "prevalence_in_system": "low_but_critical"
+  },
+  {
+    "rule_id": "RF_B01_005",
+    "red_flag_code": "acute_pulmonary_edema",
+    "name_vi": "Phù phổi cấp — suy tim cấp",
+    "name_en": "Acute Pulmonary Edema — acute heart failure",
+    "triage_level": "L1_emergency",
+    "trigger_logic": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "severe_dyspnea_acute", "threshold": "present"},
+        {"symptom_code": "pink_frothy_sputum", "threshold": "present"},
+        {"symptom_code": "orthopnea", "threshold": "present"}
+      ]
+    },
+    "alternative_trigger": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "severe_dyspnea_acute", "threshold": "present"},
+        {"symptom_code": "spo2", "threshold": "<90"},
+        {"symptom_code": "bilateral_crackles", "threshold": "present"}
+      ]
+    },
+    "display_message_vi": "⚠️ CẤP CỨU: Phù phổi cấp — không thở được. Gọi 115 NGAY. Cho ngồi thẳng, không nằm. Oxy nếu có.",
+    "suppress_yhct_output": true,
+    "suppress_yhhd_general": true,
+    "show_emergency_only": true,
+    "emergency_action": "GỌI 115",
+    "special_instructions": "Cho ngồi thẳng, chân thõng xuống (tư thế fowler), oxy nếu có, gọi 115 ngay",
+    "yhct_warning": "YHCT: Thủy ẩm phạm phế — CẤP CỨU YHHD — KHÔNG dùng thuốc YHCT, cần lợi tiểu và oxygen khẩn cấp",
+    "vietnam_specific": true,
+    "vietnam_notes": "Phù phổi cấp thường gặp ở BN suy tim do thấp tim (rheumatic heart disease) vẫn cao ở Việt Nam, hoặc tăng huyết áp không kiểm soát.",
+    "prevalence_in_system": "low_but_critical"
+  },
+  {
+    "rule_id": "RF_B01_006",
+    "red_flag_code": "peritonitis_acute",
+    "name_vi": "Viêm phúc mạc cấp — bụng cứng như gỗ",
+    "name_en": "Acute Peritonitis — board-like rigidity",
+    "triage_level": "L1_emergency",
+    "trigger_logic": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "abdominal_rigidity", "threshold": "present"},
+        {"symptom_code": "rebound_tenderness", "threshold": "present"},
+        {"symptom_code": "abdominal_pain_severe", "threshold": "present"}
+      ]
+    },
+    "alternative_trigger": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "abdominal_pain_severe", "threshold": "present"},
+        {"symptom_code": "fever_high", "threshold": "present"},
+        {"symptom_code": "guarding_involuntary", "threshold": "present"}
+      ]
+    },
+    "display_message_vi": "⚠️ CẤP CỨU: Bụng cứng và đau dội ngược — có thể thủng tạng hoặc viêm phúc mạc. Gọi 115 NGAY. Tuyệt đối không ăn uống.",
+    "suppress_yhct_output": true,
+    "suppress_yhhd_general": true,
+    "show_emergency_only": true,
+    "emergency_action": "GỌI 115",
+    "special_instructions": "Không cho ăn uống (NPO tuyệt đối), không chườm nóng bụng, gọi 115 ngay",
+    "yhct_warning": "YHCT: Phúc thống cấp — TUYỆT ĐỐI không dùng thuốc YHCT, không châm cứu, không chườm nóng — cần phẫu thuật khẩn cấp",
+    "vietnam_specific": true,
+    "vietnam_notes": "Viêm phúc mạc do thủng dạ dày (loét), thủng ruột thừa thường gặp. Nhiều BN đến muộn do tự điều trị đau bụng bằng YHCT.",
+    "prevalence_in_system": "low_but_critical"
+  },
+  {
+    "rule_id": "RF_B01_007",
+    "red_flag_code": "bacterial_meningitis",
+    "name_vi": "Viêm màng não mủ — tam chứng cổ điển",
+    "name_en": "Bacterial Meningitis — classic triad",
+    "triage_level": "L1_emergency",
+    "trigger_logic": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "fever_high", "threshold": "present"},
+        {"symptom_code": "neck_stiffness", "threshold": "present"},
+        {"symptom_code": "photophobia", "threshold": "present"}
+      ]
+    },
+    "alternative_trigger": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "fever_high", "threshold": "present"},
+        {"symptom_code": "neck_stiffness", "threshold": "present"},
+        {"symptom_code": "altered_consciousness", "threshold": "present"}
+      ]
+    },
+    "display_message_vi": "⚠️ CẤP CỨU: Sốt + cứng cổ + sợ ánh sáng — nguy hiểm tính mạng. Gọi 115 NGAY. Cần kháng sinh khẩn cấp tại bệnh viện.",
+    "suppress_yhct_output": true,
+    "suppress_yhhd_general": true,
+    "show_emergency_only": true,
+    "emergency_action": "GỌI 115",
+    "special_instructions": "Để BN nằm phòng tối yên tĩnh, không cho ăn uống, gọi 115 ngay — mỗi giờ trễ tăng tỷ lệ tử vong",
+    "yhct_warning": "YHCT: Ôn bệnh nhập não — CẤP CỨU YHHD với kháng sinh IV khẩn cấp — KHÔNG dùng thuốc YHCT, châm cứu trước",
+    "vietnam_specific": true,
+    "vietnam_notes": "Viêm màng não do não mô cầu và phế cầu còn gặp ở Việt Nam. Lao màng não (TB meningitis) cũng cần nghĩ đến ở BN có yếu tố nguy cơ.",
+    "prevalence_in_system": "low_but_critical"
+  },
+  {
+    "rule_id": "RF_B01_008",
+    "red_flag_code": "sudden_loss_of_consciousness",
+    "name_vi": "Mất ý thức đột ngột",
+    "name_en": "Sudden Loss of Consciousness",
+    "triage_level": "L1_emergency",
+    "trigger_logic": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "loss_of_consciousness", "threshold": "present"},
+        {"symptom_code": "onset_sudden", "threshold": "present"}
+      ]
+    },
+    "alternative_trigger": {
+      "operator": "OR",
+      "conditions": [
+        {"symptom_code": "unresponsive_to_voice", "threshold": "present"},
+        {"symptom_code": "gcs_score", "threshold": "<=13"},
+        {"symptom_code": "syncope_prolonged", "threshold": ">1min"}
+      ]
+    },
+    "display_message_vi": "⚠️ CẤP CỨU: Mất ý thức đột ngột. Gọi 115 NGAY. Kiểm tra mạch và hơi thở. Đặt nằm nghiêng an toàn nếu còn thở.",
+    "suppress_yhct_output": true,
+    "suppress_yhhd_general": true,
+    "show_emergency_only": true,
+    "emergency_action": "GỌI 115",
+    "special_instructions": "Kiểm tra ABC (airway-breathing-circulation), đặt tư thế hồi phục, gọi 115, sẵn sàng CPR nếu cần",
+    "yhct_warning": "YHCT: Quyết chứng / Hôn mê — CẤP CỨU YHHD ngay — KHÔNG châm cứu hay thuốc YHCT cho đến khi ổn định",
+    "vietnam_specific": true,
+    "vietnam_notes": "Nguyên nhân đa dạng: đột quỵ, hạ đường huyết, loạn nhịp, ngộ độc. Ngộ độc rượu cũng thường gặp — cần loại trừ nguyên nhân đe dọa tính mạng.",
+    "prevalence_in_system": "low_but_critical"
+  },
+  {
+    "rule_id": "RF_B01_009",
+    "red_flag_code": "anaphylaxis",
+    "name_vi": "Phản vệ cấp — sốc phản vệ",
+    "name_en": "Anaphylaxis — anaphylactic shock",
+    "triage_level": "L1_emergency",
+    "trigger_logic": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "throat_swelling_stridor", "threshold": "present"},
+        {"symptom_code": "urticaria_or_rash_acute", "threshold": "present"},
+        {"symptom_code": "dyspnea_acute", "threshold": "present"},
+        {"symptom_code": "exposure_allergen_recent", "threshold": "present"}
+      ]
+    },
+    "alternative_trigger": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "exposure_allergen_recent", "threshold": "present"},
+        {"symptom_code": "hypotension_acute", "threshold": "present"},
+        {"symptom_code": "urticaria_or_rash_acute", "threshold": "present"}
+      ]
+    },
+    "display_message_vi": "⚠️ CẤP CỨU: Phản vệ — nguy hiểm tính mạng. Gọi 115 NGAY. Dùng Adrenaline 0.3mg tiêm bắp đùi nếu có. Nằm ngửa, chân cao.",
+    "suppress_yhct_output": true,
+    "suppress_yhhd_general": true,
+    "show_emergency_only": true,
+    "emergency_action": "GỌI 115",
+    "special_instructions": "Adrenaline 1:1000, 0.3mg (0.3mL) tiêm bắp đùi ngoài. Nằm ngửa chân cao (trừ khó thở). Gọi 115.",
+    "yhct_warning": "YHCT: TUYỆT ĐỐI không dùng bất kỳ thuốc YHCT nào — Adrenaline là thuốc duy nhất cứu sống trong phản vệ",
+    "vietnam_specific": true,
+    "vietnam_notes": "Phản vệ do thuốc tiêm (penicillin, NSAID) và thức ăn (tôm, cua, đậu phộng) thường gặp ở Việt Nam. Cần hỏi kỹ tiền sử dị ứng.",
+    "prevalence_in_system": "low_but_critical"
+  },
+  {
+    "rule_id": "RF_B01_010",
+    "red_flag_code": "dengue_warning_signs",
+    "name_vi": "Sốt xuất huyết Dengue — dấu hiệu cảnh báo ngày 4-7",
+    "name_en": "Dengue Fever — warning signs day 4-7",
+    "triage_level": "L1_emergency",
+    "trigger_logic": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "fever_dengue_context", "threshold": "present"},
+        {"symptom_code": "fever_day", "threshold": ">=4"},
+        {"symptom_code": "fever_sudden_drop", "threshold": "present"},
+        {
+          "operator": "OR",
+          "conditions": [
+            {"symptom_code": "severe_abdominal_pain", "threshold": "present"},
+            {"symptom_code": "bleeding_signs_dengue", "threshold": "present"},
+            {"symptom_code": "vomiting_persistent", "threshold": "present"}
+          ]
+        }
+      ]
+    },
+    "alternative_trigger": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "fever_dengue_context", "threshold": "present"},
+        {"symptom_code": "platelet_count", "threshold": "<=100000"},
+        {"symptom_code": "hematocrit_rise", "threshold": ">=20%"}
+      ]
+    },
+    "display_message_vi": "⚠️ CẤP CỨU: Sốt xuất huyết giai đoạn nguy hiểm (ngày 4-7). Dấu hiệu cảnh báo — cần nhập viện NGAY. Gọi 115 hoặc đến cấp cứu.",
+    "suppress_yhct_output": true,
+    "suppress_yhhd_general": true,
+    "show_emergency_only": true,
+    "emergency_action": "GỌI 115 HOẶC ĐẾN CẤP CỨU NGAY",
+    "special_instructions": "Không dùng Aspirin hay NSAID (tăng nguy cơ chảy máu). Bù dịch đường miệng nếu còn tỉnh. Gọi 115.",
+    "yhct_warning": "YHCT: Ôn dịch — CẤP CỨU YHHD — KHÔNG dùng NSAID hay Aspirin, không dùng thuốc YHCT có tính phát hãn mạnh trong giai đoạn này",
+    "vietnam_specific": true,
+    "vietnam_notes": "Sốt xuất huyết Dengue lưu hành dịch ở Việt Nam. Giai đoạn nguy hiểm ngày 4-7 thường bị bỏ qua do sốt hạ, BN tưởng khỏi.",
+    "prevalence_in_system": "high_endemic"
+  },
+  {
+    "rule_id": "RF_B01_011",
+    "red_flag_code": "severe_hypoglycemia_altered_consciousness",
+    "name_vi": "Hạ đường huyết nặng — rối loạn ý thức ở bệnh nhân đái tháo đường",
+    "name_en": "Severe Hypoglycemia — altered consciousness in diabetic patient",
+    "triage_level": "L1_emergency",
+    "trigger_logic": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "diabetes_known", "threshold": "present"},
+        {"symptom_code": "altered_consciousness", "threshold": "present"},
+        {
+          "operator": "OR",
+          "conditions": [
+            {"symptom_code": "diaphoresis_cold", "threshold": "present"},
+            {"symptom_code": "tremor_fine", "threshold": "present"},
+            {"symptom_code": "blood_glucose", "threshold": "<=3.9"}
+          ]
+        }
+      ]
+    },
+    "alternative_trigger": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "diabetes_on_insulin_or_sulfonylurea", "threshold": "present"},
+        {"symptom_code": "blood_glucose", "threshold": "<=3.0"}
+      ]
+    },
+    "display_message_vi": "⚠️ CẤP CỨU: Hạ đường huyết nặng ở bệnh nhân đái tháo đường. Nếu còn nuốt được — cho uống nước đường/nước ngọt ngay. Gọi 115.",
+    "suppress_yhct_output": true,
+    "suppress_yhhd_general": true,
+    "show_emergency_only": true,
+    "emergency_action": "GỌI 115",
+    "special_instructions": "Nếu còn tỉnh: 15-20g glucose đường miệng (3-4 viên đường, 150mL nước ngọt). Nếu mất ý thức: KHÔNG cho uống — gọi 115 ngay.",
+    "yhct_warning": "YHCT: Hư chứng — tiêu khát hư thoát — CẤP CỨU YHHD — cần glucose IV khẩn cấp nếu mất ý thức",
+    "vietnam_specific": true,
+    "vietnam_notes": "Tỷ lệ ĐTĐ type 2 tăng nhanh ở Việt Nam. Hạ đường huyết do insulin/sulfonylurea kết hợp bỏ bữa hay tập thể dục nhiều là nguyên nhân phổ biến.",
+    "prevalence_in_system": "moderate"
+  },
+  {
+    "rule_id": "RF_B01_012",
+    "red_flag_code": "aortic_dissection",
+    "name_vi": "Bóc tách động mạch chủ cấp",
+    "name_en": "Acute Aortic Dissection",
+    "triage_level": "L1_emergency",
+    "trigger_logic": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "chest_pain_tearing_ripping", "threshold": "present"},
+        {"symptom_code": "pain_radiates_to_back", "threshold": "present"},
+        {"symptom_code": "sudden_maximal_onset", "threshold": "present"}
+      ]
+    },
+    "alternative_trigger": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "chest_pain_severe", "threshold": "present"},
+        {"symptom_code": "blood_pressure_asymmetry_arms", "threshold": "present"},
+        {"symptom_code": "hypertension_history", "threshold": "present"}
+      ]
+    },
+    "display_message_vi": "⚠️ CẤP CỨU: Đau ngực rách xuyên ra sau lưng — có thể bóc tách động mạch chủ. Nguy hiểm tính mạng. Gọi 115 NGAY. Không dùng Aspirin.",
+    "suppress_yhct_output": true,
+    "suppress_yhhd_general": true,
+    "show_emergency_only": true,
+    "emergency_action": "GỌI 115",
+    "special_instructions": "KHÔNG dùng Aspirin hay kháng đông. Để BN nằm yên. Gọi 115. Cần CT angiography và can thiệp phẫu thuật khẩn.",
+    "yhct_warning": "YHCT: TUYỆT ĐỐI không dùng thuốc hoạt huyết, không châm cứu — bóc tách ĐMC cần phẫu thuật khẩn cấp",
+    "vietnam_specific": true,
+    "vietnam_notes": "Tăng huyết áp không kiểm soát là yếu tố nguy cơ hàng đầu ở Việt Nam. Dễ nhầm với ACS — KHÔNG dùng Aspirin khi nghi bóc tách.",
+    "prevalence_in_system": "low_but_critical"
+  },
+  {
+    "rule_id": "RF_B01_013",
+    "red_flag_code": "acute_limb_ischemia_6p",
+    "name_vi": "Thiếu máu chi cấp — 6P",
+    "name_en": "Acute Limb Ischemia — 6 P signs",
+    "triage_level": "L1_emergency",
+    "trigger_logic": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "limb_pain_sudden_severe", "threshold": "present"},
+        {"symptom_code": "limb_pallor", "threshold": "present"},
+        {"symptom_code": "limb_pulselessness", "threshold": "present"}
+      ]
+    },
+    "alternative_trigger": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "limb_pain_sudden_severe", "threshold": "present"},
+        {
+          "operator": "OR",
+          "conditions": [
+            {"symptom_code": "limb_paresthesia", "threshold": "present"},
+            {"symptom_code": "limb_paralysis", "threshold": "present"}
+          ]
+        },
+        {"symptom_code": "limb_cold_poikilothermia", "threshold": "present"}
+      ]
+    },
+    "display_message_vi": "⚠️ CẤP CỨU: Chi đột ngột đau, nhợt, lạnh, mất mạch — tắc mạch chi cấp. Gọi 115 NGAY. Cửa sổ phẫu thuật 6 giờ để cứu chi.",
+    "suppress_yhct_output": true,
+    "suppress_yhhd_general": true,
+    "show_emergency_only": true,
+    "emergency_action": "GỌI 115",
+    "special_instructions": "Không xoa bóp chi, không chườm nóng hay lạnh, không nâng chi quá cao — gọi 115 ngay",
+    "yhct_warning": "YHCT: TUYỆT ĐỐI không xoa bóp, không châm cứu, không chườm — cần can thiệp mạch máu khẩn trong 6 giờ",
+    "vietnam_specific": true,
+    "vietnam_notes": "Tắc mạch chi do rung nhĩ (thuyên tắc) hay xơ vữa (huyết khối) gặp nhiều. Nhiều BN tự xoa bóp hay dùng YHCT làm chậm điều trị.",
+    "prevalence_in_system": "low_but_critical"
+  },
+  {
+    "rule_id": "RF_B01_014",
+    "red_flag_code": "status_epilepticus",
+    "name_vi": "Trạng thái động kinh — co giật kéo dài",
+    "name_en": "Status Epilepticus — prolonged seizure",
+    "triage_level": "L1_emergency",
+    "trigger_logic": {
+      "operator": "OR",
+      "conditions": [
+        {
+          "operator": "AND",
+          "conditions": [
+            {"symptom_code": "seizure_active", "threshold": "present"},
+            {"symptom_code": "seizure_duration_minutes", "threshold": ">=5"}
+          ]
+        },
+        {
+          "operator": "AND",
+          "conditions": [
+            {"symptom_code": "multiple_seizures", "threshold": "present"},
+            {"symptom_code": "no_recovery_between_seizures", "threshold": "present"}
+          ]
+        }
+      ]
+    },
+    "alternative_trigger": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "seizure_active", "threshold": "present"},
+        {"symptom_code": "known_epilepsy", "threshold": "present"},
+        {"symptom_code": "usual_seizure_duration_exceeded", "threshold": "present"}
+      ]
+    },
+    "display_message_vi": "⚠️ CẤP CỨU: Co giật kéo dài hơn 5 phút. Gọi 115 NGAY. Bảo vệ đầu BN, nghiêng người tránh sặc. KHÔNG đè lưỡi hay nhét vật vào miệng.",
+    "suppress_yhct_output": true,
+    "suppress_yhhd_general": true,
+    "show_emergency_only": true,
+    "emergency_action": "GỌI 115",
+    "special_instructions": "Bảo vệ đầu tránh chấn thương, đặt nằm nghiêng, không nhét vật vào miệng, ghi giờ bắt đầu co giật, gọi 115",
+    "yhct_warning": "YHCT: Kinh phong cấp — CẤP CỨU YHHD — cần benzodiazepine IV khẩn — KHÔNG châm cứu hay thuốc YHCT trong cơn",
+    "vietnam_specific": true,
+    "vietnam_notes": "Động kinh do viêm não Nhật Bản (JE) và viêm màng não vẫn gặp ở Việt Nam. Hạ natri máu và sốt cao co giật cũng là nguyên nhân thường gặp.",
+    "prevalence_in_system": "low_but_critical"
+  },
+  {
+    "rule_id": "RF_B01_015",
+    "red_flag_code": "eclampsia_preeclampsia_severe",
+    "name_vi": "Sản giật / Tiền sản giật nặng",
+    "name_en": "Eclampsia / Severe Preeclampsia",
+    "triage_level": "L1_emergency",
+    "trigger_logic": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "pregnancy_confirmed_or_suspected", "threshold": "present"},
+        {"symptom_code": "headache_severe", "threshold": "present"},
+        {"symptom_code": "visual_disturbance", "threshold": "present"},
+        {"symptom_code": "blood_pressure_systolic", "threshold": ">=160"}
+      ]
+    },
+    "alternative_trigger": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "pregnancy_confirmed_or_suspected", "threshold": "present"},
+        {"symptom_code": "seizure_active", "threshold": "present"}
+      ]
+    },
+    "display_message_vi": "⚠️ CẤP CỨU SẢN KHOA: Phụ nữ có thai + đau đầu + mờ mắt + huyết áp cao — nguy hiểm cho mẹ và thai. Gọi 115 NGAY.",
+    "suppress_yhct_output": true,
+    "suppress_yhhd_general": true,
+    "show_emergency_only": true,
+    "emergency_action": "GỌI 115",
+    "special_instructions": "Đặt BN nằm nghiêng trái, gọi 115, giữ yên tĩnh, không cho ăn uống, sẵn sàng xử lý co giật",
+    "yhct_warning": "YHCT: TUYỆT ĐỐI không dùng bất kỳ thuốc YHCT nào trong thai kỳ khi có dấu hiệu tiền sản giật — cần Magnesium sulfate và hạ áp IV khẩn",
+    "vietnam_specific": true,
+    "vietnam_notes": "Sản giật là nguyên nhân tử vong mẹ hàng đầu ở Việt Nam. Cần nhận biết sớm và chuyển viện sản khoa ngay.",
+    "prevalence_in_system": "moderate_critical"
+  },
+  {
+    "rule_id": "RF_B01_016",
+    "red_flag_code": "hemoptysis_any_amount",
+    "name_vi": "Ho ra máu — bất kỳ lượng nào",
+    "name_en": "Hemoptysis — any amount",
+    "triage_level": "L2_urgent",
+    "trigger_logic": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "coughing_blood", "threshold": "present"},
+        {"symptom_code": "blood_confirmed_from_airway", "threshold": "present"}
+      ]
+    },
+    "alternative_trigger": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "coughing_blood", "threshold": "present"},
+        {"symptom_code": "volume_ml", "threshold": ">=1"}
+      ]
+    },
+    "display_message_vi": "⚠️ KHẨN CẤP: Ho ra máu cần khám bác sĩ trong ngày hôm nay. Có thể là lao phổi, ung thư phổi hoặc bệnh phổi nặng. Đến cấp cứu ngay.",
+    "suppress_yhct_output": true,
+    "suppress_yhhd_general": false,
+    "show_emergency_only": false,
+    "emergency_action": "ĐẾN CẤP CỨU TRONG NGÀY",
+    "special_instructions": "Đến cơ sở y tế trong ngày để chụp X-quang phổi và xét nghiệm đờm. Không tự điều trị tại nhà.",
+    "yhct_warning": "YHCT: Khái huyết — CẦN loại trừ lao phổi và ung thư phổi TRƯỚC khi điều trị YHCT — không được trì hoãn khám YHHD",
+    "vietnam_specific": true,
+    "vietnam_notes": "Việt Nam có gánh nặng lao phổi rất cao. Ho ra máu phải nghĩ đến lao hàng đầu, sau đó là ung thư phổi, giãn phế quản. YHCT không thay thế được chẩn đoán.",
+    "prevalence_in_system": "moderate_high"
+  },
+  {
+    "rule_id": "RF_B01_017",
+    "red_flag_code": "rectal_bleeding_over40",
+    "name_vi": "Đi ngoài ra máu đỏ tươi — bệnh nhân trên 40 tuổi",
+    "name_en": "New Rectal Bleeding — patient over 40 years",
+    "triage_level": "L2_urgent",
+    "trigger_logic": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "rectal_bleeding_new", "threshold": "present"},
+        {"symptom_code": "age", "threshold": ">=40"}
+      ]
+    },
+    "alternative_trigger": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "rectal_bleeding_new", "threshold": "present"},
+        {
+          "operator": "OR",
+          "conditions": [
+            {"symptom_code": "weight_loss_recent", "threshold": "present"},
+            {"symptom_code": "change_bowel_habit", "threshold": "present"},
+            {"symptom_code": "family_history_crc", "threshold": "present"}
+          ]
+        }
+      ]
+    },
+    "display_message_vi": "⚠️ KHẨN CẤP: Đi ngoài ra máu ở người trên 40 tuổi cần khám bác sĩ trong ngày hôm nay. Cần loại trừ ung thư đại tràng.",
+    "suppress_yhct_output": true,
+    "suppress_yhhd_general": false,
+    "show_emergency_only": false,
+    "emergency_action": "ĐẾN KHÁM BÁC SĨ TRONG NGÀY",
+    "special_instructions": "Cần nội soi đại tràng để loại trừ ung thư. Không tự điều trị bằng thuốc trĩ mà không khám bác sĩ trước.",
+    "yhct_warning": "YHCT: Tiện huyết — ở bệnh nhân >40 tuổi, PHẢI loại trừ ung thư đại trực tràng TRƯỚC khi chẩn đoán trĩ hay nhiệt ruột — cần nội soi",
+    "vietnam_specific": true,
+    "vietnam_notes": "Ung thư đại trực tràng đang tăng nhanh ở Việt Nam. Nhiều BN và cả thầy thuốc YHCT nhầm với trĩ, trì hoãn chẩn đoán ung thư.",
+    "prevalence_in_system": "moderate"
+  },
+  {
+    "rule_id": "RF_B01_018",
+    "red_flag_code": "unexplained_weight_loss_rapid",
+    "name_vi": "Sụt cân không giải thích được — >5% trong 1 tháng",
+    "name_en": "Unexplained Rapid Weight Loss — >5% in 1 month",
+    "triage_level": "L2_urgent",
+    "trigger_logic": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "weight_loss_unexplained", "threshold": "present"},
+        {"symptom_code": "weight_loss_percent", "threshold": ">=5"},
+        {"symptom_code": "time_frame_days", "threshold": "<=30"}
+      ]
+    },
+    "alternative_trigger": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "weight_loss_unexplained", "threshold": "present"},
+        {"symptom_code": "weight_loss_kg", "threshold": ">=3"},
+        {"symptom_code": "time_frame_days", "threshold": "<=30"}
+      ]
+    },
+    "display_message_vi": "⚠️ KHẨN CẤP: Sụt cân nhanh không rõ nguyên nhân cần khám ngay trong ngày. Có thể là ung thư, lao hoặc đái tháo đường mới.",
+    "suppress_yhct_output": true,
+    "suppress_yhhd_general": false,
+    "show_emergency_only": false,
+    "emergency_action": "KHÁM BÁC SĨ TRONG NGÀY",
+    "special_instructions": "Cần xét nghiệm cơ bản: công thức máu, đường huyết, X-quang phổi, siêu âm bụng để loại trừ bệnh lý nặng.",
+    "yhct_warning": "YHCT: Tiêu sấu — sụt cân nhanh là dấu hiệu của bệnh nặng toàn thân — KHÔNG điều trị YHCT trước khi có chẩn đoán YHHD rõ ràng",
+    "vietnam_specific": true,
+    "vietnam_notes": "Sụt cân nhanh ở Việt Nam hay gặp trong lao phổi, ung thư giai đoạn tiến triển, đái tháo đường mới mắc, và nhiễm HIV.",
+    "prevalence_in_system": "moderate"
+  },
+  {
+    "rule_id": "RF_B01_019",
+    "red_flag_code": "persistent_fever_2weeks",
+    "name_vi": "Sốt kéo dài trên 2 tuần không rõ nguyên nhân",
+    "name_en": "Persistent Unexplained Fever — over 2 weeks",
+    "triage_level": "L2_urgent",
+    "trigger_logic": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "fever", "threshold": "present"},
+        {"symptom_code": "fever_duration_days", "threshold": ">=14"},
+        {"symptom_code": "cause_undetermined", "threshold": "present"}
+      ]
+    },
+    "alternative_trigger": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "fever_documented_temperature", "threshold": ">=37.8"},
+        {"symptom_code": "fever_duration_days", "threshold": ">=14"},
+        {"symptom_code": "no_clear_diagnosis", "threshold": "present"}
+      ]
+    },
+    "display_message_vi": "⚠️ KHẨN CẤP: Sốt kéo dài hơn 2 tuần cần được điều tra toàn diện. Cần khám bác sĩ ngay hôm nay để xác định nguyên nhân.",
+    "suppress_yhct_output": true,
+    "suppress_yhhd_general": false,
+    "show_emergency_only": false,
+    "emergency_action": "KHÁM BÁC SĨ TRONG NGÀY",
+    "special_instructions": "Cần xét nghiệm: công thức máu, cấy máu, X-quang phổi, siêu âm bụng, xét nghiệm lao để tìm nguyên nhân sốt kéo dài.",
+    "yhct_warning": "YHCT: Ngoại cảm lâu ngày hay âm hư nội nhiệt — sốt >2 tuần PHẢI loại trừ lao, nhiễm khuẩn nặng, lymphoma, và HIV trước khi điều trị YHCT",
+    "vietnam_specific": true,
+    "vietnam_notes": "FUO (Fever of Unknown Origin) ở Việt Nam: lao là nguyên nhân hàng đầu, tiếp theo là nhiễm khuẩn nặng, lymphoma, và các bệnh ký sinh trùng.",
+    "prevalence_in_system": "moderate_high"
+  },
+  {
+    "rule_id": "RF_B01_020",
+    "red_flag_code": "sudden_unilateral_vision_loss",
+    "name_vi": "Mất thị lực một bên đột ngột",
+    "name_en": "Sudden Unilateral Vision Loss",
+    "triage_level": "L2_urgent",
+    "trigger_logic": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "vision_loss_unilateral", "threshold": "present"},
+        {"symptom_code": "onset_sudden", "threshold": "present"}
+      ]
+    },
+    "alternative_trigger": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "vision_loss_unilateral", "threshold": "present"},
+        {"symptom_code": "onset_hours", "threshold": "<=24"},
+        {"symptom_code": "painless", "threshold": "present"}
+      ]
+    },
+    "display_message_vi": "⚠️ KHẨN CẤP: Mất thị lực một bên đột ngột — cần khám mắt chuyên khoa trong ngày. Có thể là tắc mạch võng mạc hoặc bong võng mạc.",
+    "suppress_yhct_output": true,
+    "suppress_yhhd_general": false,
+    "show_emergency_only": false,
+    "emergency_action": "KHÁM MẮT CHUYÊN KHOA TRONG NGÀY",
+    "special_instructions": "Đến bệnh viện mắt hoặc khoa cấp cứu ngay trong ngày. Cần soi đáy mắt và đo áp lực nội nhãn khẩn cấp.",
+    "yhct_warning": "YHCT: Can khí uất kết hoặc Can phong — mất thị lực đột ngột cần chuyên khoa mắt KHẨN CẤP — KHÔNG điều trị YHCT trước",
+    "vietnam_specific": true,
+    "vietnam_notes": "Tắc động mạch trung tâm võng mạc, bong võng mạc, và glaucoma góc đóng cấp là những nguyên nhân khẩn cấp phổ biến tại Việt Nam.",
+    "prevalence_in_system": "low_moderate"
+  },
+  {
+    "rule_id": "RF_B01_021",
+    "red_flag_code": "new_severe_dyspnea_no_prior_lung",
+    "name_vi": "Khó thở nặng mới xuất hiện — không có tiền sử bệnh phổi",
+    "name_en": "New Severe Dyspnea — no prior lung disease",
+    "triage_level": "L2_urgent",
+    "trigger_logic": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "dyspnea_severe", "threshold": "present"},
+        {"symptom_code": "no_prior_lung_disease", "threshold": "present"},
+        {"symptom_code": "onset_days", "threshold": "<=7"}
+      ]
+    },
+    "alternative_trigger": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "dyspnea_at_rest", "threshold": "present"},
+        {"symptom_code": "spo2", "threshold": "<94"},
+        {"symptom_code": "no_prior_diagnosis", "threshold": "present"}
+      ]
+    },
+    "display_message_vi": "⚠️ KHẨN CẤP: Khó thở nặng mới xuất hiện không có bệnh phổi trước — cần đến cấp cứu ngay trong ngày để loại trừ thuyên tắc phổi, tràn dịch màng phổi.",
+    "suppress_yhct_output": true,
+    "suppress_yhhd_general": false,
+    "show_emergency_only": false,
+    "emergency_action": "ĐẾN CẤP CỨU TRONG NGÀY",
+    "special_instructions": "Đến cấp cứu trong ngày. Cần SpO2, X-quang phổi, ECG, và D-dimer để loại trừ thuyên tắc phổi.",
+    "yhct_warning": "YHCT: Phế khí hư hay đàm trở phế lạc — khó thở mới nặng PHẢI loại trừ thuyên tắc phổi (PE) và tràn khí/dịch màng phổi trước khi điều trị YHCT",
+    "vietnam_specific": true,
+    "vietnam_notes": "Thuyên tắc phổi đang được chẩn đoán nhiều hơn ở Việt Nam. Tràn dịch màng phổi do lao, ung thư phổi cũng gặp nhiều.",
+    "prevalence_in_system": "moderate"
+  },
+  {
+    "rule_id": "RF_B01_022",
+    "red_flag_code": "painless_hematuria",
+    "name_vi": "Đái ra máu không đau",
+    "name_en": "Painless Hematuria",
+    "triage_level": "L2_urgent",
+    "trigger_logic": {
+      "operator": "AND",
+        "conditions": [
+        {"symptom_code": "hematuria", "threshold": "present"},
+        {"symptom_code": "painless", "threshold": "present"}
+      ]
+    },
+    "alternative_trigger": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "hematuria_gross", "threshold": "present"},
+        {"symptom_code": "no_dysuria", "threshold": "present"},
+        {"symptom_code": "no_fever", "threshold": "present"}
+      ]
+    },
+    "display_message_vi": "⚠️ KHẨN CẤP: Đái ra máu không đau cần khám ngay hôm nay. Có thể là ung thư bàng quang hoặc thận. Đừng trì hoãn.",
+    "suppress_yhct_output": true,
+    "suppress_yhhd_general": false,
+    "show_emergency_only": false,
+    "emergency_action": "KHÁM BÁC SĨ TRONG NGÀY",
+    "special_instructions": "Cần siêu âm hệ tiết niệu và tổng phân tích nước tiểu. Nếu >40 tuổi cần soi bàng quang để loại trừ ung thư.",
+    "yhct_warning": "YHCT: Niệu huyết không đau — PHẢI loại trừ ung thư bàng quang và thận TRƯỚC khi điều trị YHCT — cần siêu âm và soi bàng quang",
+    "vietnam_specific": true,
+    "vietnam_notes": "Ung thư bàng quang ở Việt Nam liên quan nhiều đến hút thuốc lá và tiếp xúc hóa chất. Đái ra máu không đau là triệu chứng kinh điển.",
+    "prevalence_in_system": "moderate"
+  },
+  {
+    "rule_id": "RF_B01_023",
+    "red_flag_code": "testicular_torsion",
+    "name_vi": "Xoắn tinh hoàn — đau tinh hoàn đột ngột",
+    "name_en": "Testicular Torsion — sudden scrotal pain",
+    "triage_level": "L2_urgent",
+    "trigger_logic": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "testicular_pain_sudden", "threshold": "present"},
+        {"symptom_code": "scrotal_swelling", "threshold": "present"}
+      ]
+    },
+    "alternative_trigger": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "testicular_pain_sudden", "threshold": "present"},
+        {"symptom_code": "onset_hours", "threshold": "<=12"},
+        {"symptom_code": "nausea_vomiting", "threshold": "present"}
+      ]
+    },
+    "display_message_vi": "⚠️ KHẨN CẤP: Đau tinh hoàn đột ngột — nguy cơ xoắn tinh hoàn. Cần đến cấp cứu ngay. Cửa sổ phẫu thuật chỉ 6 giờ để cứu tinh hoàn.",
+    "suppress_yhct_output": true,
+    "suppress_yhhd_general": false,
+    "show_emergency_only": false,
+    "emergency_action": "ĐẾN CẤP CỨU NGAY TRONG NGÀY",
+    "special_instructions": "Đến cấp cứu ngay — cần siêu âm Doppler tinh hoàn khẩn cấp. Mỗi giờ trễ giảm khả năng cứu tinh hoàn.",
+    "yhct_warning": "YHCT: TUYỆT ĐỐI không đắp thuốc hay xoa bóp bìu — xoắn tinh hoàn cần phẫu thuật trong 6 giờ",
+    "vietnam_specific": true,
+    "vietnam_notes": "Xoắn tinh hoàn thường gặp ở thanh thiếu niên 12-18 tuổi. Nhiều gia đình Việt Nam chờ đợi hoặc dùng YHCT làm mất cơ hội phẫu thuật.",
+    "prevalence_in_system": "low_moderate"
+  },
+  {
+    "rule_id": "RF_B01_024",
+    "red_flag_code": "new_onset_jaundice",
+    "name_vi": "Vàng da mới xuất hiện",
+    "name_en": "New Onset Jaundice",
+    "triage_level": "L2_urgent",
+    "trigger_logic": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "jaundice_new", "threshold": "present"},
+        {"symptom_code": "onset_weeks", "threshold": "<=4"}
+      ]
+    },
+    "alternative_trigger": {
+      "operator": "OR",
+      "conditions": [
+        {
+          "operator": "AND",
+          "conditions": [
+            {"symptom_code": "jaundice_new", "threshold": "present"},
+            {"symptom_code": "dark_urine", "threshold": "present"},
+            {"symptom_code": "pale_stool", "threshold": "present"}
+          ]
+        },
+        {
+          "operator": "AND",
+          "conditions": [
+            {"symptom_code": "jaundice_new", "threshold": "present"},
+            {"symptom_code": "abdominal_pain_right_upper", "threshold": "present"}
+          ]
+        }
+      ]
+    },
+    "display_message_vi": "⚠️ KHẨN CẤP: Vàng da mới xuất hiện cần khám ngay hôm nay. Có thể là viêm gan cấp, tắc mật hoặc ung thư. Không được trì hoãn.",
+    "suppress_yhct_output": true,
+    "suppress_yhhd_general": false,
+    "show_emergency_only": false,
+    "emergency_action": "KHÁM BÁC SĨ TRONG NGÀY",
+    "special_instructions": "Cần xét nghiệm: AST/ALT, bilirubin, siêu âm bụng, HBsAg, anti-HAV để xác định nguyên nhân vàng da.",
+    "yhct_warning": "YHCT: Hoàng đản — vàng da mới PHẢI xác định nguyên nhân YHHD trước — viêm gan virus cấp, tắc mật cần điều trị đặc hiệu, không chỉ dùng YHCT thanh nhiệt lợi thấp",
+    "vietnam_specific": true,
+    "vietnam_notes": "Việt Nam có tỷ lệ viêm gan B và C rất cao. Vàng da cũng gặp trong sốt xuất huyết nặng, ký sinh trùng đường mật (sán lá gan).",
+    "prevalence_in_system": "moderate_high"
+  },
+  {
+    "rule_id": "RF_B01_025",
+    "red_flag_code": "dvt_asymmetric_limb_swelling",
+    "name_vi": "Huyết khối tĩnh mạch sâu — phù chi không đối xứng",
+    "name_en": "Deep Vein Thrombosis — asymmetric limb swelling",
+    "triage_level": "L2_urgent",
+    "trigger_logic": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "limb_swelling_unilateral", "threshold": "present"},
+        {"symptom_code": "calf_tenderness", "threshold": "present"},
+        {"symptom_code": "onset_days", "threshold": "<=14"}
+      ]
+    },
+    "alternative_trigger": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "limb_swelling_unilateral", "threshold": "present"},
+        {"symptom_code": "warmth_erythema_limb", "threshold": "present"},
+        {
+          "operator": "OR",
+          "conditions": [
+            {"symptom_code": "recent_immobilization", "threshold": "present"},
+            {"symptom_code": "recent_surgery", "threshold": "present"},
+            {"symptom_code": "oral_contraceptive_use", "threshold": "present"}
+          ]
+        }
+      ]
+    },
+    "display_message_vi": "⚠️ KHẨN CẤP: Phù một chân kèm đau — nguy cơ huyết khối tĩnh mạch sâu có thể gây thuyên tắc phổi nguy hiểm. Khám ngay hôm nay.",
+    "suppress_yhct_output": true,
+    "suppress_yhhd_general": false,
+    "show_emergency_only": false,
+    "emergency_action": "ĐẾN CẤP CỨU HOẶC KHÁM MẠCH MÁU TRONG NGÀY",
+    "special_instructions": "Không xoa bóp chân, không đắp thuốc nóng. Cần siêu âm Doppler tĩnh mạch và D-dimer khẩn. Gọi 115 nếu khó thở.",
+    "yhct_warning": "YHCT: Thấp nhiệt ứ trở tĩnh mạch — TUYỆT ĐỐI không xoa bóp, không châm cứu chân — cần siêu âm Doppler và kháng đông nếu xác nhận DVT",
+    "vietnam_specific": true,
+    "vietnam_notes": "DVT đang tăng ở Việt Nam do ngồi lâu, hậu phẫu, và sử dụng thuốc tránh thai. Nhiều BN tự điều trị bằng xoa bóp làm tăng nguy cơ thuyên tắc phổi.",
+    "prevalence_in_system": "moderate"
+  },
+  {
+    "rule_id": "RF_B01_026",
+    "red_flag_code": "new_first_seizure",
+    "name_vi": "Cơn co giật lần đầu tiên",
+    "name_en": "First-time Seizure",
+    "triage_level": "L2_urgent",
+    "trigger_logic": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "seizure_occurred", "threshold": "present"},
+        {"symptom_code": "no_prior_seizure_history", "threshold": "present"}
+      ]
+    },
+    "alternative_trigger": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "seizure_occurred", "threshold": "present"},
+        {"symptom_code": "no_known_epilepsy", "threshold": "present"},
+        {"symptom_code": "postictal_confusion", "threshold": "present"}
+      ]
+    },
+    "display_message_vi": "⚠️ KHẨN CẤP: Co giật lần đầu tiên cần khám ngay hôm nay. Cần loại trừ u não, viêm não, và rối loạn chuyển hóa.",
+    "suppress_yhct_output": true,
+    "suppress_yhhd_general": false,
+    "show_emergency_only": false,
+    "emergency_action": "ĐẾN CẤP CỨU TRONG NGÀY",
+    "special_instructions": "Đến cấp cứu trong ngày. Cần MRI não hoặc CT não, xét nghiệm máu, và đánh giá thần kinh.",
+    "yhct_warning": "YHCT: Kinh phong — co giật lần đầu PHẢI có chẩn đoán nguyên nhân YHHD (MRI não, EEG) trước khi điều trị YHCT",
+    "vietnam_specific": true,
+    "vietnam_notes": "Co giật lần đầu ở người lớn có thể là biểu hiện của u não nguyên phát hay di căn, viêm não Nhật Bản, hoặc nhiễm ký sinh trùng não (neurocysticercosis).",
+    "prevalence_in_system": "low_moderate"
+  },
+  {
+    "rule_id": "RF_B01_027",
+    "red_flag_code": "pulsatile_abdominal_mass",
+    "name_vi": "Khối u bụng đập theo mạch",
+    "name_en": "Pulsatile Abdominal Mass",
+    "triage_level": "L2_urgent",
+    "trigger_logic": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "abdominal_mass_palpable", "threshold": "present"},
+        {"symptom_code": "mass_pulsatile", "threshold": "present"}
+      ]
+    },
+    "alternative_trigger": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "abdominal_mass_palpable", "threshold": "present"},
+        {"symptom_code": "abdominal_pulsation_visible", "threshold": "present"},
+        {"symptom_code": "age", "threshold": ">=50"}
+      ]
+    },
+    "display_message_vi": "⚠️ KHẨN CẤP: Khối u bụng đập theo nhịp tim — có thể là phình động mạch chủ bụng. Cần siêu âm ngay hôm nay. Đừng ấn hoặc xoa.",
+    "suppress_yhct_output": true,
+    "suppress_yhhd_general": false,
+    "show_emergency_only": false,
+    "emergency_action": "SIÊU ÂM MẠCH MÁU TRONG NGÀY",
+    "special_instructions": "Tuyệt đối không ấn, xoa hay châm cứu vùng bụng. Cần siêu âm mạch máu bụng ngay hôm nay.",
+    "yhct_warning": "YHCT: TUYỆT ĐỐI không châm cứu, xoa bóp, hay đắp thuốc vùng bụng khi có khối u đập theo mạch — nguy cơ vỡ phình ĐMC tử vong",
+    "vietnam_specific": true,
+    "vietnam_notes": "Phình động mạch chủ bụng (AAA) đang tăng ở người cao tuổi Việt Nam có tiền sử tăng huyết áp và hút thuốc.",
+    "prevalence_in_system": "low"
+  },
+  {
+    "rule_id": "RF_B01_028",
+    "red_flag_code": "renal_colic_vs_aaa",
+    "name_vi": "Đau lưng một bên dữ dội + đái máu — sỏi thận hay phình ĐMC vỡ",
+    "name_en": "Sudden Severe Unilateral Back Pain + Hematuria — renal colic vs AAA rupture",
+    "triage_level": "L2_urgent",
+    "trigger_logic": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "flank_pain_sudden_severe", "threshold": "present"},
+        {"symptom_code": "hematuria", "threshold": "present"},
+        {"symptom_code": "unilateral", "threshold": "present"}
+      ]
+    },
+    "alternative_trigger": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "flank_pain_sudden_severe", "threshold": "present"},
+        {"symptom_code": "age", "threshold": ">=60"},
+        {"symptom_code": "hypertension_history", "threshold": "present"}
+      ]
+    },
+    "display_message_vi": "⚠️ KHẨN CẤP: Đau lưng dữ dội một bên kèm đái máu cần đến cấp cứu ngay. Ở người cao tuổi phải loại trừ phình ĐMC vỡ — nguy hiểm tính mạng.",
+    "suppress_yhct_output": true,
+    "suppress_yhhd_general": false,
+    "show_emergency_only": false,
+    "emergency_action": "ĐẾN CẤP CỨU TRONG NGÀY",
+    "special_instructions": "Ở người >60 tuổi có THA: ưu tiên loại trừ AAA vỡ trước sỏi thận. Cần CT bụng có cản quang khẩn cấp.",
+    "yhct_warning": "YHCT: Sa lâm (thạch lâm) — ở người cao tuổi, đau lưng dữ dội PHẢI loại trừ AAA vỡ bằng CT scan trước khi xác nhận sỏi thận",
+    "vietnam_specific": true,
+    "vietnam_notes": "Sỏi thận rất phổ biến ở Việt Nam do nước uống ít và chế độ ăn. AAA vỡ dễ nhầm với cơn sỏi thận — phân biệt dựa vào tuổi và tình trạng huyết động.",
+    "prevalence_in_system": "moderate"
+  },
+  {
+    "rule_id": "RF_B01_029",
+    "red_flag_code": "postmenopausal_vaginal_bleeding",
+    "name_vi": "Xuất huyết âm đạo sau mãn kinh",
+    "name_en": "Postmenopausal Vaginal Bleeding",
+    "triage_level": "L2_urgent",
+    "trigger_logic": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "vaginal_bleeding", "threshold": "present"},
+        {"symptom_code": "menopause_confirmed", "threshold": "present"},
+        {"symptom_code": "last_period_months", "threshold": ">=12"}
+      ]
+    },
+    "alternative_trigger": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "vaginal_bleeding", "threshold": "present"},
+        {"symptom_code": "age", "threshold": ">=50"},
+        {"symptom_code": "no_current_hrt", "threshold": "present"}
+      ]
+    },
+    "display_message_vi": "⚠️ KHẨN CẤP: Chảy máu âm đạo sau mãn kinh cần khám phụ khoa ngay hôm nay. Có thể là ung thư tử cung. Đừng bỏ qua.",
+    "suppress_yhct_output": true,
+    "suppress_yhhd_general": false,
+    "show_emergency_only": false,
+    "emergency_action": "KHÁM PHỤ KHOA TRONG NGÀY",
+    "special_instructions": "Cần khám phụ khoa, siêu âm đầu dò âm đạo, và sinh thiết nội mạc tử cung để loại trừ ung thư.",
+    "yhct_warning": "YHCT: Băng lậu sau mãn kinh — PHẢI loại trừ ung thư nội mạc tử cung và cổ tử cung TRƯỚC khi điều trị YHCT — không trì hoãn khám phụ khoa",
+    "vietnam_specific": true,
+    "vietnam_notes": "Ung thư nội mạc tử cung đang tăng ở Việt Nam theo tỷ lệ béo phì và ĐTĐ. Xuất huyết sau mãn kinh là triệu chứng sớm quan trọng.",
+    "prevalence_in_system": "moderate"
+  },
+  {
+    "rule_id": "RF_B01_030",
+    "red_flag_code": "new_af_with_dyspnea",
+    "name_vi": "Rung nhĩ mới xuất hiện kèm khó thở",
+    "name_en": "New Onset Atrial Fibrillation with Dyspnea",
+    "triage_level": "L2_urgent",
+    "trigger_logic": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "palpitations_irregular", "threshold": "present"},
+        {"symptom_code": "dyspnea", "threshold": "present"},
+        {"symptom_code": "no_prior_af_diagnosis", "threshold": "present"}
+      ]
+    },
+    "alternative_trigger": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "irregular_pulse_detected", "threshold": "present"},
+        {"symptom_code": "dyspnea", "threshold": "present"},
+        {"symptom_code": "onset_hours_to_days", "threshold": "present"}
+      ]
+    },
+    "display_message_vi": "⚠️ KHẨN CẤP: Tim đập loạn nhịp + khó thở mới xuất hiện — cần ECG ngay. Rung nhĩ mới cần đánh giá kháng đông khẩn để phòng đột quỵ.",
+    "suppress_yhct_output": true,
+    "suppress_yhhd_general": false,
+    "show_emergency_only": false,
+    "emergency_action": "ĐẾN CẤP CỨU TRONG NGÀY",
+    "special_instructions": "Cần ECG 12 chuyển đạo ngay. Nếu rung nhĩ mới <48 giờ: có thể chuyển nhịp. Cần đánh giá nguy cơ đột quỵ (CHA2DS2-VASc).",
+    "yhct_warning": "YHCT: Tâm quý / Chính xung — rung nhĩ mới với khó thở cần ECG và đánh giá kháng đông khẩn — không điều trị chỉ bằng YHCT khi chưa có ECG",
+    "vietnam_specific": true,
+    "vietnam_notes": "Rung nhĩ liên quan bệnh van tim do thấp tim vẫn gặp ở Việt Nam. Kiểm soát tần số và kháng đông là ưu tiên để phòng đột quỵ.",
+    "prevalence_in_system": "moderate"
+  },
+  {
+    "rule_id": "RF_B01_031",
+    "red_flag_code": "pencil_thin_stool",
+    "name_vi": "Phân hình bút chì mới xuất hiện",
+    "name_en": "New Onset Pencil-Thin Stools",
+    "triage_level": "L3_watch",
+    "trigger_logic": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "stool_caliber_narrow", "threshold": "present"},
+        {"symptom_code": "onset_weeks", "threshold": ">=2"},
+        {"symptom_code": "change_from_baseline", "threshold": "present"}
+      ]
+    },
+    "alternative_trigger": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "stool_caliber_narrow", "threshold": "present"},
+        {"symptom_code": "age", "threshold": ">=40"},
+        {
+          "operator": "OR",
+          "conditions": [
+            {"symptom_code": "rectal_bleeding", "threshold": "present"},
+            {"symptom_code": "weight_loss", "threshold": "present"}
+          ]
+        }
+      ]
+    },
+    "display_message_vi": "⚠️ CẦN THEO DÕI: Phân hình bút chì kéo dài cần khám bác sĩ trong 1 tuần. Có thể là dấu hiệu hẹp đại tràng hoặc ung thư trực tràng.",
+    "suppress_yhct_output": false,
+    "suppress_yhhd_general": false,
+    "show_emergency_only": false,
+    "emergency_action": "KHÁM BÁC SĨ TRONG 1 TUẦN",
+    "special_instructions": "Đặt lịch nội soi đại tràng. Theo dõi nếu có thêm triệu chứng khác (máu trong phân, sụt cân, đau bụng).",
+    "yhct_warning": "YHCT: Ghi chú — phân hình bút chì kéo dài cần nội soi đại tràng để loại trừ ung thư trực tràng trước khi điều trị YHCT táo bón",
+    "vietnam_specific": true,
+    "vietnam_notes": "Ung thư đại trực tràng đang gia tăng ở Việt Nam. Phân hình bút chì là dấu hiệu gợi ý hẹp trực tràng do khối u.",
+    "prevalence_in_system": "moderate"
+  },
+  {
+    "rule_id": "RF_B01_032",
+    "red_flag_code": "chronic_cough_3weeks",
+    "name_vi": "Ho kéo dài trên 3 tuần không khỏi",
+    "name_en": "Chronic Cough Not Resolving — over 3 weeks",
+    "triage_level": "L3_watch",
+    "trigger_logic": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "cough", "threshold": "present"},
+        {"symptom_code": "cough_duration_days", "threshold": ">=21"},
+        {"symptom_code": "not_improving", "threshold": "present"}
+      ]
+    },
+    "alternative_trigger": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "cough", "threshold": "present"},
+        {"symptom_code": "cough_duration_days", "threshold": ">=21"},
+        {
+          "operator": "OR",
+          "conditions": [
+            {"symptom_code": "weight_loss", "threshold": "present"},
+            {"symptom_code": "night_sweats", "threshold": "present"},
+            {"symptom_code": "hemoptysis_minimal", "threshold": "present"}
+          ]
+        }
+      ]
+    },
+    "display_message_vi": "⚠️ CẦN THEO DÕI: Ho kéo dài trên 3 tuần không khỏi cần khám bác sĩ trong 1 tuần. Cần loại trừ lao phổi và ung thư phổi.",
+    "suppress_yhct_output": false,
+    "suppress_yhhd_general": false,
+    "show_emergency_only": false,
+    "emergency_action": "KHÁM BÁC SĨ TRONG 1 TUẦN",
+    "special_instructions": "Cần X-quang phổi và xét nghiệm đờm tìm AFB (lao). Khai báo tiền sử tiếp xúc nguồn lây lao.",
+    "yhct_warning": "YHCT: Phế khí hư hay phế âm hư — ho kéo dài >3 tuần PHẢI loại trừ lao phổi bằng X-quang và đờm AFB trước khi điều trị YHCT",
+    "vietnam_specific": true,
+    "vietnam_notes": "Việt Nam nằm trong top 30 nước gánh nặng lao cao nhất thế giới. Ho kéo dài >3 tuần cần coi là lao cho đến khi chứng minh ngược lại.",
+    "prevalence_in_system": "high"
+  },
+  {
+    "rule_id": "RF_B01_033",
+    "red_flag_code": "unexplained_bruising_bleeding_tendency",
+    "name_vi": "Bầm tím tự nhiên hoặc chảy máu khó cầm không giải thích được",
+    "name_en": "Unexplained Bruising or Abnormal Bleeding Tendency",
+    "triage_level": "L3_watch",
+    "trigger_logic": {
+      "operator": "OR",
+      "conditions": [
+        {
+          "operator": "AND",
+          "conditions": [
+            {"symptom_code": "bruising_spontaneous", "threshold": "present"},
+            {"symptom_code": "no_trauma_history", "threshold": "present"}
+          ]
+        },
+        {
+          "operator": "AND",
+          "conditions": [
+            {"symptom_code": "bleeding_prolonged", "threshold": "present"},
+            {"symptom_code": "minor_injury_only", "threshold": "present"}
+          ]
+        }
+      ]
+    },
+    "alternative_trigger": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "multiple_bruising_sites", "threshold": "present"},
+        {"symptom_code": "no_adequate_explanation", "threshold": "present"}
+      ]
+    },
+    "display_message_vi": "⚠️ CẦN THEO DÕI: Bầm tím tự nhiên hoặc chảy máu khó cầm cần khám bác sĩ trong 1 tuần. Có thể là rối loạn đông máu hay bệnh máu ác tính.",
+    "suppress_yhct_output": false,
+    "suppress_yhhd_general": false,
+    "show_emergency_only": false,
+    "emergency_action": "KHÁM BÁC SĨ TRONG 1 TUẦN",
+    "special_instructions": "Cần công thức máu toàn phần, tiểu cầu, PT, APTT để đánh giá rối loạn đông máu và loại trừ leukemia.",
+    "yhct_warning": "YHCT: Huyết chứng — bầm tím tự nhiên cần loại trừ giảm tiểu cầu, leukemia, và thiếu vitamin K trước khi điều trị YHCT — không dùng thuốc hoạt huyết",
+    "vietnam_specific": true,
+    "vietnam_notes": "Xuất huyết giảm tiểu cầu miễn dịch (ITP), thiếu vitamin K do dùng kháng sinh kéo dài, và các bệnh máu ác tính cần phân biệt.",
+    "prevalence_in_system": "low_moderate"
+  },
+  {
+    "rule_id": "RF_B01_034",
+    "red_flag_code": "night_sweats_weight_loss_tb_screen",
+    "name_vi": "Ra mồ hôi đêm + sụt cân — tầm soát lao",
+    "name_en": "Night Sweats + Weight Loss — TB screening",
+    "triage_level": "L3_watch",
+    "trigger_logic": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "night_sweats_drenching", "threshold": "present"},
+        {"symptom_code": "weight_loss_unintentional", "threshold": "present"}
+      ]
+    },
+    "alternative_trigger": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "night_sweats_drenching", "threshold": "present"},
+        {"symptom_code": "weight_loss_unintentional", "threshold": "present"},
+        {
+          "operator": "OR",
+          "conditions": [
+            {"symptom_code": "chronic_cough", "threshold": "present"},
+            {"symptom_code": "fever_low_grade", "threshold": "present"},
+            {"symptom_code": "tb_contact_history", "threshold": "present"}
+          ]
+        }
+      ]
+    },
+    "display_message_vi": "⚠️ CẦN THEO DÕI: Ra mồ hôi đêm kèm sụt cân cần khám tầm soát lao và bệnh máu ác tính trong 1 tuần.",
+    "suppress_yhct_output": false,
+    "suppress_yhhd_general": false,
+    "show_emergency_only": false,
+    "emergency_action": "KHÁM BÁC SĨ TRONG 1 TUẦN",
+    "special_instructions": "Cần X-quang phổi, xét nghiệm đờm AFB, Quantiferon hay TST, công thức máu để loại trừ lao và lymphoma.",
+    "yhct_warning": "YHCT: Âm hư nội nhiệt — mồ hôi trộm + sụt cân PHẢI tầm soát lao phổi và lymphoma trước khi điều trị YHCT bổ âm",
+    "vietnam_specific": true,
+    "vietnam_notes": "Tam chứng kinh điển của lao (ho, sốt về chiều, mồ hôi đêm, sụt cân) vẫn còn gặp nhiều. Lymphoma cũng cần nghĩ đến trong chẩn đoán phân biệt.",
+    "prevalence_in_system": "high_endemic"
+  },
+  {
+    "rule_id": "RF_B01_035",
+    "red_flag_code": "bone_pain_night_constant",
+    "name_vi": "Đau xương ban đêm liên tục không giảm",
+    "name_en": "Constant Nocturnal Bone Pain",
+    "triage_level": "L3_watch",
+    "trigger_logic": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "bone_pain", "threshold": "present"},
+        {"symptom_code": "pain_nocturnal", "threshold": "present"},
+        {"symptom_code": "pain_constant_not_relieved_by_rest", "threshold": "present"}
+      ]
+    },
+    "alternative_trigger": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "bone_pain_localized", "threshold": "present"},
+        {"symptom_code": "pain_nocturnal", "threshold": "present"},
+        {"symptom_code": "duration_weeks", "threshold": ">=2"}
+      ]
+    },
+    "display_message_vi": "⚠️ CẦN THEO DÕI: Đau xương về đêm liên tục không giảm cần khám bác sĩ trong 1 tuần. Cần loại trừ ung thư xương hoặc di căn xương.",
+    "suppress_yhct_output": false,
+    "suppress_yhhd_general": false,
+    "show_emergency_only": false,
+    "emergency_action": "KHÁM BÁC SĨ TRONG 1 TUẦN",
+    "special_instructions": "Cần X-quang xương, xét nghiệm máu (phosphatase kiềm, canxi, PSA nếu nam >50t) và MRI để đánh giá.",
+    "yhct_warning": "YHCT: Thận hư cốt thống hay tý chứng — đau xương về đêm PHẢI loại trừ u xương nguyên phát và di căn xương trước khi điều trị YHCT — không dùng thuốc hoạt huyết mạnh",
+    "vietnam_specific": true,
+    "vietnam_notes": "Di căn xương từ ung thư vú, phổi, tuyến tiền liệt, gan (phổ biến ở Việt Nam) gây đau xương về đêm đặc trưng. U tủy xương (myeloma) cũng cần nghĩ đến.",
+    "prevalence_in_system": "low_moderate"
+  },
+  {
+    "rule_id": "RF_B01_036",
+    "red_flag_code": "recurrent_syncope",
+    "name_vi": "Ngất tái phát nhiều lần",
+    "name_en": "Recurrent Syncope",
+    "triage_level": "L3_watch",
+    "trigger_logic": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "syncope_episodes", "threshold": ">=2"},
+        {"symptom_code": "time_frame_months", "threshold": "<=6"}
+      ]
+    },
+    "alternative_trigger": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "syncope_occurred", "threshold": "present"},
+        {
+          "operator": "OR",
+          "conditions": [
+            {"symptom_code": "exertional_syncope", "threshold": "present"},
+            {"symptom_code": "syncope_with_palpitations", "threshold": "present"},
+            {"symptom_code": "no_prodrome", "threshold": "present"}
+          ]
+        }
+      ]
+    },
+    "display_message_vi": "⚠️ CẦN THEO DÕI: Ngất tái phát cần khám tim mạch trong 1 tuần. Ngất khi gắng sức hay kèm hồi hộp đặc biệt nguy hiểm — cần ECG và Holter.",
+    "suppress_yhct_output": false,
+    "suppress_yhhd_general": false,
+    "show_emergency_only": false,
+    "emergency_action": "KHÁM TIM MẠCH TRONG 1 TUẦN",
+    "special_instructions": "Cần ECG 12 chuyển đạo, Holter 24 giờ, siêu âm tim để loại trừ loạn nhịp và bệnh tim cấu trúc.",
+    "yhct_warning": "YHCT: Huyết hư huyễn vựng hay khí hư — ngất tái phát PHẢI loại trừ loạn nhịp nguy hiểm bằng Holter và ECG trước khi điều trị YHCT",
+    "vietnam_specific": true,
+    "vietnam_notes": "Ngất do loạn nhịp tim (VT, WPW) hay bệnh van tim (hẹp van ĐMC) nguy hiểm. Ngất vận mạch thần kinh phổ biến hơn nhưng cần phân biệt.",
+    "prevalence_in_system": "moderate"
+  },
+  {
+    "rule_id": "RF_B01_037",
+    "red_flag_code": "new_headache_over50",
+    "name_vi": "Đau đầu kiểu mới ở bệnh nhân trên 50 tuổi",
+    "name_en": "New Headache Pattern in Patient Over 50",
+    "triage_level": "L3_watch",
+    "trigger_logic": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "headache_new_pattern", "threshold": "present"},
+        {"symptom_code": "age", "threshold": ">=50"}
+      ]
+    },
+    "alternative_trigger": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "headache_new", "threshold": "present"},
+        {"symptom_code": "age", "threshold": ">=50"},
+        {
+          "operator": "OR",
+          "conditions": [
+            {"symptom_code": "temporal_tenderness", "threshold": "present"},
+            {"symptom_code": "jaw_claudication", "threshold": "present"},
+            {"symptom_code": "visual_changes", "threshold": "present"}
+          ]
+        }
+      ]
+    },
+    "display_message_vi": "⚠️ CẦN THEO DÕI: Đau đầu kiểu mới ở người trên 50 tuổi cần khám bác sĩ trong 1 tuần. Cần loại trừ viêm động mạch thái dương và u não.",
+    "suppress_yhct_output": false,
+    "suppress_yhhd_general": false,
+    "show_emergency_only": false,
+    "emergency_action": "KHÁM BÁC SĨ TRONG 1 TUẦN",
+    "special_instructions": "Nếu đau vùng thái dương kèm mờ mắt: cần cấp cứu ngay vì viêm ĐM thái dương có thể gây mù. Nếu không: khám trong tuần.",
+    "yhct_warning": "YHCT: Can dương thượng kháng — đau đầu kiểu mới ở người >50 PHẢI loại trừ viêm ĐM thái dương (GCA), u não, và THA nặng trước khi điều trị YHCT",
+    "vietnam_specific": true,
+    "vietnam_notes": "U não nguyên phát và di căn não (từ phổi, vú, gan) cần nghĩ đến ở người >50 có đau đầu kiểu mới. Viêm ĐM thái dương ít gặp hơn ở Việt Nam.",
+    "prevalence_in_system": "moderate"
+  },
+  {
+    "rule_id": "RF_B01_038",
+    "red_flag_code": "progressive_dysphagia",
+    "name_vi": "Nuốt khó ngày càng nặng hơn",
+    "name_en": "Progressive Dysphagia",
+    "triage_level": "L3_watch",
+    "trigger_logic": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "dysphagia", "threshold": "present"},
+        {"symptom_code": "progressive_worsening", "threshold": "present"},
+        {"symptom_code": "duration_weeks", "threshold": ">=2"}
+      ]
+    },
+    "alternative_trigger": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "dysphagia_solids", "threshold": "present"},
+        {"symptom_code": "progression_to_liquids", "threshold": "present"}
+      ]
+    },
+    "display_message_vi": "⚠️ CẦN THEO DÕI: Nuốt khó ngày càng nặng hơn cần khám bác sĩ trong 1 tuần. Có thể là ung thư thực quản hoặc ung thư dạ dày.",
+    "suppress_yhct_output": false,
+    "suppress_yhhd_general": false,
+    "show_emergency_only": false,
+    "emergency_action": "KHÁM BÁC SĨ TRONG 1 TUẦN",
+    "special_instructions": "Cần nội soi thực quản-dạ dày (OGD) khẩn trong 1 tuần. Không trì hoãn dù nuốt khó mức độ nhẹ.",
+    "yhct_warning": "YHCT: Cách thực chứng — nuốt khó tiến triển PHẢI nội soi thực quản dạ dày TRƯỚC khi điều trị YHCT — không dùng thuốc khai thông trước khi loại trừ ung thư",
+    "vietnam_specific": true,
+    "vietnam_notes": "Ung thư thực quản và ung thư dạ dày phổ biến ở Việt Nam, liên quan đến nhiễm H. pylori, ăn dưa muối, và uống rượu. Chẩn đoán sớm bằng nội soi cải thiện tiên lượng đáng kể.",
+    "prevalence_in_system": "moderate"
+  },
+  {
+    "rule_id": "RF_B01_039",
+    "red_flag_code": "unexplained_lymphadenopathy",
+    "name_vi": "Nổi hạch không giải thích được — kéo dài trên 2 tuần",
+    "name_en": "Unexplained Lymphadenopathy — over 2 weeks",
+    "triage_level": "L3_watch",
+    "trigger_logic": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "lymph_node_enlarged", "threshold": "present"},
+        {"symptom_code": "duration_days", "threshold": ">=14"},
+        {"symptom_code": "no_obvious_infection_source", "threshold": "present"}
+      ]
+    },
+    "alternative_trigger": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "lymph_node_enlarged", "threshold": "present"},
+        {"symptom_code": "lymph_node_size_cm", "threshold": ">=1.5"},
+        {"symptom_code": "firm_or_hard_consistency", "threshold": "present"}
+      ]
+    },
+    "display_message_vi": "⚠️ CẦN THEO DÕI: Nổi hạch kéo dài không rõ nguyên nhân cần khám bác sĩ trong 1 tuần. Cần loại trừ ung thư hạch và lao hạch.",
+    "suppress_yhct_output": false,
+    "suppress_yhhd_general": false,
+    "show_emergency_only": false,
+    "emergency_action": "KHÁM BÁC SĨ TRONG 1 TUẦN",
+    "special_instructions": "Cần công thức máu, sinh thiết hạch nếu cứng hay không đau, và tầm soát lao. Siêu âm hạch để đánh giá đặc điểm.",
+    "yhct_warning": "YHCT: Loa lịch (tràng nhạc) hay đàm kết — nổi hạch kéo dài PHẢI loại trừ lao hạch, lymphoma, và ung thư di căn hạch trước khi điều trị YHCT hóa đàm tán kết",
+    "vietnam_specific": true,
+    "vietnam_notes": "Lao hạch cổ rất phổ biến ở Việt Nam. Lymphoma (Hodgkin và non-Hodgkin) cũng cần nghĩ đến. Tỷ lệ HIV làm tăng các nguyên nhân nổi hạch cơ hội.",
+    "prevalence_in_system": "moderate_high"
+  },
+  {
+    "rule_id": "RF_B01_040",
+    "red_flag_code": "polyuria_polydipsia_undiagnosed",
+    "name_vi": "Tiểu nhiều + uống nhiều — đái tháo đường chưa được chẩn đoán",
+    "name_en": "Polyuria and Polydipsia — undiagnosed diabetes screening",
+    "triage_level": "L3_watch",
+    "trigger_logic": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "polyuria", "threshold": "present"},
+        {"symptom_code": "polydipsia", "threshold": "present"},
+        {"symptom_code": "no_diabetes_diagnosis", "threshold": "present"}
+      ]
+    },
+    "alternative_trigger": {
+      "operator": "AND",
+      "conditions": [
+        {"symptom_code": "polyuria", "threshold": "present"},
+        {"symptom_code": "polydipsia", "threshold": "present"},
+        {
+          "operator": "OR",
+          "conditions": [
+            {"symptom_code": "weight_loss_unintentional", "threshold": "present"},
+            {"symptom_code": "blurred_vision_new", "threshold": "present"},
+            {"symptom_code": "family_history_diabetes", "threshold": "present"}
+          ]
+        }
+      ]
+    },
+    "display_message_vi": "⚠️ CẦN THEO DÕI: Tiểu nhiều + uống nhiều có thể là đái tháo đường mới. Cần xét nghiệm đường huyết trong 1 tuần. Đừng tự điều trị.",
+    "suppress_yhct_output": false,
+    "suppress_yhhd_general": false,
+    "show_emergency_only": false,
+    "emergency_action": "XÉT NGHIỆM ĐƯỜNG HUYẾT TRONG 1 TUẦN",
+    "special_instructions": "Cần đường huyết đói, HbA1c, và tổng phân tích nước tiểu. Nếu đường huyết >16mmol/L hay có nôn ói/lơ mơ: đến cấp cứu ngay.",
+    "yhct_warning": "YHCT: Tiêu khát — ĐÃ có bằng chứng rõ về đái tháo đường qua YHHD mới bắt đầu bàn đến hỗ trợ YHCT — không trì hoãn chẩn đoán YHHD",
+    "vietnam_specific": true,
+    "vietnam_notes": "Tỷ lệ ĐTĐ type 2 tại Việt Nam đang tăng nhanh (>7% dân số). Nhiều BN đến với YHCT vì tiêu khát mà chưa được chẩn đoán ĐTĐ — cần xét nghiệm đường huyết trước.",
+    "prevalence_in_system": "high"
+  }
+]

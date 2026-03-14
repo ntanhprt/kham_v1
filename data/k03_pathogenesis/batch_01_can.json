@@ -1,0 +1,1000 @@
+[
+  {
+    "rule_id": "PM_B01_001",
+    "benh_co_code": "liver_qi_stagnation",
+    "benh_co_vi": "Can khí uất kết",
+    "benh_co_en": "Liver Qi Stagnation",
+    "zangfu_primary": "liver",
+    "zangfu_secondary": [],
+    "bat_cuong_profile": {
+      "cold": 0.0,
+      "heat": 0.2,
+      "deficiency": 0.1,
+      "excess": 0.7,
+      "exterior": 0.0,
+      "interior": 0.9
+    },
+    "required_symptoms": ["hypochondrial_distension", "emotional_depression_or_irritability"],
+    "supporting_symptoms": ["sighing", "breast_tenderness", "irregular_menstruation", "throat_plum_pit", "abdominal_distension", "wiry_pulse"],
+    "contradicting_symptoms": ["bright_red_tongue_dry_coating", "high_fever", "profuse_sweating"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "liver_fire_blazing",
+        "differentiating_feature": "Can hỏa vượng có nhiệt chứng rõ: mặt đỏ, tiểu vàng đậm, lưỡi đỏ rêu vàng, mạch huyền sác; Can khí uất chỉ có trướng và uất ức, không có nhiệt rõ"
+      },
+      {
+        "benh_co_code": "liver_blood_deficiency",
+        "differentiating_feature": "Can huyết hư có sắc mặt nhợt, kinh ít sắc nhạt, móng tay nhợt; Can khí uất mạch huyền thực, không có dấu hiệu thiếu huyết"
+      }
+    ],
+    "derived_chung_codes": ["liver_qi_stagnation_pattern"],
+    "phap_tri_direction": "Sơ Can lý khí (Soothe Liver, Regulate Qi)",
+    "typical_herb_formula": "Sài Hồ Sơ Can Thang (Chai Hu Shu Gan San)",
+    "clinical_notes": "Phổ biến nhất ở phụ nữ 20-50 tuổi. Thường liên quan stress, căng thẳng tinh thần. Mạch huyền (wiry pulse) là đặc trưng. Kinh trước khi hành có tức ngực sườn, dễ cáu kỉnh. Lưỡi bình thường hoặc hơi tím nhạt hai bên.",
+    "veto_rule": null,
+    "prevalence": "very_common"
+  },
+  {
+    "rule_id": "PM_B01_002",
+    "benh_co_code": "liver_fire_blazing",
+    "benh_co_vi": "Can hỏa vượng (Can hỏa thượng viêm)",
+    "benh_co_en": "Liver Fire Blazing",
+    "zangfu_primary": "liver",
+    "zangfu_secondary": ["gallbladder"],
+    "bat_cuong_profile": {
+      "cold": 0.0,
+      "heat": 0.95,
+      "deficiency": 0.0,
+      "excess": 0.95,
+      "exterior": 0.0,
+      "interior": 0.95
+    },
+    "required_symptoms": ["hypochondrial_burning_pain", "red_face_or_eyes", "bitter_taste_in_mouth"],
+    "supporting_symptoms": ["headache_distending", "tinnitus_sudden_onset", "irritability_anger", "dark_yellow_urine", "constipation", "red_tongue_yellow_coating", "wiry_rapid_pulse", "epistaxis", "hematemesis"],
+    "contradicting_symptoms": ["pale_tongue", "cold_limbs", "clear_copious_urine", "loose_stools_chronic"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "liver_qi_stagnation",
+        "differentiating_feature": "Can khí uất chỉ có uất trướng không nhiệt rõ, mạch huyền không sác; Can hỏa vượng có đầy đủ nhiệt chứng, mạch huyền sác hữu lực"
+      },
+      {
+        "benh_co_code": "liver_yang_rising",
+        "differentiating_feature": "Can dương vượng là hư thực thác tạp: có nền âm hư ở dưới, biểu hiện hoa mắt, mệt mỏi; Can hỏa vượng là thực nhiệt thuần túy, không có hư chứng"
+      }
+    ],
+    "derived_chung_codes": ["liver_fire_blazing_pattern", "liver_gallbladder_fire_pattern"],
+    "phap_tri_direction": "Thanh Can tả hỏa (Clear Liver, Drain Fire)",
+    "typical_herb_formula": "Long Đởm Tả Can Thang (Long Dan Xie Gan Tang)",
+    "clinical_notes": "Thường khởi phát cấp tính sau sang chấn tâm lý, uống rượu nhiều, hoặc từ Can khí uất lâu ngày hóa hỏa. Lưỡi đỏ rêu vàng dày là dấu hiệu quan trọng. Nguy cơ xuất huyết (nục huyết, thổ huyết) khi hỏa cực mạnh.",
+    "veto_rule": null,
+    "prevalence": "common"
+  },
+  {
+    "rule_id": "PM_B01_003",
+    "benh_co_code": "liver_yang_rising",
+    "benh_co_vi": "Can dương vượng (Can dương thượng cang)",
+    "benh_co_en": "Liver Yang Rising",
+    "zangfu_primary": "liver",
+    "zangfu_secondary": ["kidney"],
+    "bat_cuong_profile": {
+      "cold": 0.0,
+      "heat": 0.6,
+      "deficiency": 0.6,
+      "excess": 0.6,
+      "exterior": 0.0,
+      "interior": 0.95
+    },
+    "required_symptoms": ["headache_distending_vertex_or_temporal", "dizziness_vertigo"],
+    "supporting_symptoms": ["tinnitus_gradual_onset", "insomnia", "irritability", "flushed_face", "lower_back_knee_soreness", "wiry_thin_rapid_pulse", "red_tongue_little_coating"],
+    "contradicting_symptoms": ["pale_tongue_moist_coating", "cold_limbs", "abundant_clear_urine"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "liver_fire_blazing",
+        "differentiating_feature": "Can dương vượng có hư chứng bên dưới (lưng gối mỏi, lưỡi đỏ ít rêu); Can hỏa vượng là thuần thực nhiệt, không có hư chứng, rêu lưỡi dày vàng"
+      },
+      {
+        "benh_co_code": "liver_kidney_yin_deficiency",
+        "differentiating_feature": "Can thận âm hư nhấn mạnh hư chứng toàn thể; Can dương vượng nhấn mạnh dương khí bốc lên trên với đầu đau, mắt đỏ, chứng trên rõ hơn"
+      }
+    ],
+    "derived_chung_codes": ["liver_yang_rising_pattern"],
+    "phap_tri_direction": "Bình Can tiềm dương (Calm Liver, Subdue Yang)",
+    "typical_herb_formula": "Thiên Ma Câu Đằng Ẩm (Tian Ma Gou Teng Yin)",
+    "clinical_notes": "Thường gặp ở người trung niên và cao tuổi bị tăng huyết áp. Cơ chế: Can thận âm hư không chế ước được Can dương → dương cang lên trên. Mạch huyền tế sác. Phân biệt với Can hỏa vượng bằng dấu hiệu âm hư bên dưới.",
+    "veto_rule": null,
+    "prevalence": "very_common"
+  },
+  {
+    "rule_id": "PM_B01_004",
+    "benh_co_code": "liver_yin_deficiency",
+    "benh_co_vi": "Can âm hư",
+    "benh_co_en": "Liver Yin Deficiency",
+    "zangfu_primary": "liver",
+    "zangfu_secondary": [],
+    "bat_cuong_profile": {
+      "cold": 0.0,
+      "heat": 0.5,
+      "deficiency": 0.85,
+      "excess": 0.1,
+      "exterior": 0.0,
+      "interior": 0.95
+    },
+    "required_symptoms": ["dull_hypochondrial_discomfort", "dry_eyes_or_blurred_vision"],
+    "supporting_symptoms": ["night_sweats", "five_centers_heat", "dry_mouth_throat", "dizziness_mild", "tinnitus", "red_tongue_little_or_no_coating", "thin_rapid_pulse", "cracked_nails"],
+    "contradicting_symptoms": ["thick_greasy_tongue_coating", "cold_limbs", "profuse_urine_clear", "edema"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "liver_blood_deficiency",
+        "differentiating_feature": "Can huyết hư thiên về huyết không dưỡng hình (sắc mặt nhợt, kinh ít, móng nhợt); Can âm hư thiên về âm không chế dương (ngũ tâm phiền nhiệt, miệng khô, ra mồ hôi trộm)"
+      },
+      {
+        "benh_co_code": "liver_kidney_yin_deficiency",
+        "differentiating_feature": "Can thận âm hư có thêm triệu chứng Thận âm hư: liệt dương hoặc di tinh, lưng gối mỏi nặng hơn, tai ù rõ hơn"
+      }
+    ],
+    "derived_chung_codes": ["liver_yin_deficiency_pattern"],
+    "phap_tri_direction": "Tư dưỡng Can âm (Nourish and Supplement Liver Yin)",
+    "typical_herb_formula": "Nhất Quán Tiễn (Yi Guan Jian)",
+    "clinical_notes": "Thường thấy sau bệnh nhiệt lâu ngày, dùng thuốc táo nhiệt quá mức, hoặc lao lực thái quá. Quan hệ mật thiết với Thận âm hư. Lưỡi đỏ không rêu hoặc rêu ít là đặc trưng. Mạch tế sác.",
+    "veto_rule": null,
+    "prevalence": "common"
+  },
+  {
+    "rule_id": "PM_B01_005",
+    "benh_co_code": "liver_blood_deficiency",
+    "benh_co_vi": "Can huyết hư",
+    "benh_co_en": "Liver Blood Deficiency",
+    "zangfu_primary": "liver",
+    "zangfu_secondary": ["heart", "spleen"],
+    "bat_cuong_profile": {
+      "cold": 0.1,
+      "heat": 0.1,
+      "deficiency": 0.9,
+      "excess": 0.0,
+      "exterior": 0.0,
+      "interior": 0.95
+    },
+    "required_symptoms": ["pale_face_or_lips_or_nails", "dizziness_lightheadedness"],
+    "supporting_symptoms": ["blurred_vision_floaters", "dry_eyes", "irregular_menstruation_scanty_pale", "muscle_cramps_spasms", "numbness_limbs", "insomnia_dream_disturbed", "pale_tongue", "thin_choppy_pulse"],
+    "contradicting_symptoms": ["red_tongue_dry", "bitter_taste", "yellow_greasy_coating", "full_wiry_pulse"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "liver_yin_deficiency",
+        "differentiating_feature": "Can huyết hư có sắc mặt nhợt, móng tay nhợt, kinh ít màu nhạt, không có ngũ tâm phiền nhiệt; Can âm hư có ngũ tâm phiền nhiệt, miệng khô, mồ hôi trộm, lưỡi đỏ"
+      },
+      {
+        "benh_co_code": "heart_blood_deficiency",
+        "differentiating_feature": "Tâm huyết hư nổi bật hồi hộp, mất ngủ, hay quên; Can huyết hư nổi bật mắt mờ, co rút cơ, móng tay nhợt, kinh nguyệt bất thường"
+      }
+    ],
+    "derived_chung_codes": ["liver_blood_deficiency_pattern"],
+    "phap_tri_direction": "Dưỡng huyết nhu Can (Nourish Blood, Soften Liver)",
+    "typical_herb_formula": "Tứ Vật Thang (Si Wu Tang)",
+    "clinical_notes": "Thường gặp ở phụ nữ, người ăn chay trường, sau mất máu nhiều. Tỳ hư sinh hóa huyết kém là nguyên nhân gốc rễ. Móng tay nhợt nhạt, mắt mờ khô, kinh nguyệt ít màu nhạt là bộ ba triệu chứng đặc trưng.",
+    "veto_rule": null,
+    "prevalence": "very_common"
+  },
+  {
+    "rule_id": "PM_B01_006",
+    "benh_co_code": "liver_wind_heat_extreme",
+    "benh_co_vi": "Can phong nội động - Nhiệt cực sinh phong",
+    "benh_co_en": "Liver Wind - Extreme Heat Generating Wind",
+    "zangfu_primary": "liver",
+    "zangfu_secondary": ["heart"],
+    "bat_cuong_profile": {
+      "cold": 0.0,
+      "heat": 1.0,
+      "deficiency": 0.0,
+      "excess": 1.0,
+      "exterior": 0.1,
+      "interior": 0.9
+    },
+    "required_symptoms": ["convulsions_or_tremors", "high_fever"],
+    "supporting_symptoms": ["neck_rigidity", "coma_or_altered_consciousness", "opisthotonos", "red_tongue_yellow_dry_coating", "rapid_full_pulse"],
+    "contradicting_symptoms": ["pale_tongue", "cold_limbs", "low_fever"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "liver_wind_yin_deficiency",
+        "differentiating_feature": "Nhiệt cực sinh phong thuần thực nhiệt, sốt cao, xuất hiện cấp tính; Can phong từ âm hư có nền âm hư, co giật nhẹ hơn, không sốt cao hoặc sốt nhẹ"
+      }
+    ],
+    "derived_chung_codes": ["extreme_heat_generating_wind_pattern"],
+    "phap_tri_direction": "Thanh nhiệt tức phong, khai khiếu (Clear Heat, Extinguish Wind, Open Orifices)",
+    "typical_herb_formula": "Linh Dương Câu Đằng Thang (Ling Yang Gou Teng Tang) kết hợp An Cung Ngưu Hoàng Hoàn",
+    "clinical_notes": "Thường gặp trong bệnh truyền nhiễm nặng, sốt cao ở trẻ em (động kinh do sốt). Cơ chế: nhiệt vào Tâm Bào, nhiệt cực kích động Can phong. Cấp cứu: cần thanh nhiệt khai khiếu đồng thời.",
+    "veto_rule": null,
+    "prevalence": "uncommon"
+  },
+  {
+    "rule_id": "PM_B01_007",
+    "benh_co_code": "liver_wind_yin_deficiency",
+    "benh_co_vi": "Can phong nội động - Âm hư phong động",
+    "benh_co_en": "Liver Wind - Yin Deficiency Stirring Wind",
+    "zangfu_primary": "liver",
+    "zangfu_secondary": ["kidney"],
+    "bat_cuong_profile": {
+      "cold": 0.0,
+      "heat": 0.5,
+      "deficiency": 0.85,
+      "excess": 0.3,
+      "exterior": 0.0,
+      "interior": 0.95
+    },
+    "required_symptoms": ["tremors_or_twitching_chronic", "dizziness_vertigo"],
+    "supporting_symptoms": ["dry_eyes", "tinnitus", "five_centers_heat", "red_tongue_little_coating", "thin_wiry_pulse", "muscle_fasciculations"],
+    "contradicting_symptoms": ["high_fever", "thick_yellow_coating", "full_forceful_pulse"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "liver_wind_heat_extreme",
+        "differentiating_feature": "Nhiệt cực sinh phong là thực chứng cấp tính, sốt cao co giật; Âm hư phong động là hư chứng mạn tính, run rẩy nhẹ, không sốt cao"
+      },
+      {
+        "benh_co_code": "liver_wind_blood_deficiency",
+        "differentiating_feature": "Huyết hư phong động: sắc mặt nhợt, móng nhợt, mạch tế không sác; Âm hư phong động: lưỡi đỏ ít rêu, ngũ tâm phiền nhiệt, mạch tế sác"
+      }
+    ],
+    "derived_chung_codes": ["yin_deficiency_stirring_wind_pattern"],
+    "phap_tri_direction": "Tư âm tức phong (Nourish Yin, Extinguish Wind)",
+    "typical_herb_formula": "Đại Định Phong Châu (Da Ding Feng Zhu)",
+    "clinical_notes": "Thường gặp ở giai đoạn cuối bệnh nhiệt, hoặc bệnh mạn tính âm hư. Lưỡi đỏ không rêu, mạch tế sác là đặc trưng. Parkinson giai đoạn đầu, múa giật có thể thuộc bệnh cơ này.",
+    "veto_rule": null,
+    "prevalence": "uncommon"
+  },
+  {
+    "rule_id": "PM_B01_008",
+    "benh_co_code": "liver_wind_blood_deficiency",
+    "benh_co_vi": "Can phong nội động - Huyết hư phong động",
+    "benh_co_en": "Liver Wind - Blood Deficiency Stirring Wind",
+    "zangfu_primary": "liver",
+    "zangfu_secondary": ["spleen"],
+    "bat_cuong_profile": {
+      "cold": 0.1,
+      "heat": 0.1,
+      "deficiency": 0.9,
+      "excess": 0.2,
+      "exterior": 0.0,
+      "interior": 0.95
+    },
+    "required_symptoms": ["muscle_tremor_or_spasm", "pale_face_or_nails"],
+    "supporting_symptoms": ["dizziness", "numbness_limbs", "dry_skin", "pale_tongue", "thin_choppy_pulse", "muscle_cramps_at_night"],
+    "contradicting_symptoms": ["red_tongue", "five_centers_heat", "rapid_pulse", "yellow_coating"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "liver_wind_yin_deficiency",
+        "differentiating_feature": "Huyết hư phong động: lưỡi nhợt, mặt nhợt, không có nhiệt chứng; Âm hư phong động: lưỡi đỏ ít rêu, ngũ tâm phiền nhiệt"
+      }
+    ],
+    "derived_chung_codes": ["blood_deficiency_stirring_wind_pattern"],
+    "phap_tri_direction": "Dưỡng huyết tức phong (Nourish Blood, Extinguish Wind)",
+    "typical_herb_formula": "Tứ Vật Thang gia vị (Si Wu Tang modified) hoặc Đương Quy Ẩm Tử",
+    "clinical_notes": "Thường gặp sau sinh, mất máu nhiều, hoặc Tỳ hư không sinh huyết. Co cơ ban đêm, da khô, mắt mờ. Điều trị gốc là kiện Tỳ dưỡng huyết.",
+    "veto_rule": null,
+    "prevalence": "common"
+  },
+  {
+    "rule_id": "PM_B01_009",
+    "benh_co_code": "liver_wind_yang_rising",
+    "benh_co_vi": "Can phong nội động - Can dương hóa phong",
+    "benh_co_en": "Liver Wind - Yang Rising Transforming to Wind",
+    "zangfu_primary": "liver",
+    "zangfu_secondary": ["kidney"],
+    "bat_cuong_profile": {
+      "cold": 0.0,
+      "heat": 0.7,
+      "deficiency": 0.5,
+      "excess": 0.7,
+      "exterior": 0.0,
+      "interior": 0.95
+    },
+    "required_symptoms": ["sudden_dizziness_severe", "headache_severe_distending"],
+    "supporting_symptoms": ["sudden_facial_deviation_or_hemiplegia", "dysarthria", "numbness_face_or_limbs", "red_tongue", "wiry_forceful_pulse", "tinnitus"],
+    "contradicting_symptoms": ["pale_tongue", "cold_limbs", "slow_pulse"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "liver_yang_rising",
+        "differentiating_feature": "Can dương vượng chưa đến mức phong động; Can dương hóa phong đã có biểu hiện phong chứng: đột ngột liệt, méo miệng, ngã xỉu - tiền triệu đột quỵ"
+      }
+    ],
+    "derived_chung_codes": ["yang_rising_transforming_wind_pattern", "wind_stroke_predisposing"],
+    "phap_tri_direction": "Bình Can tức phong, tiềm dương (Calm Liver, Extinguish Wind, Subdue Yang)",
+    "typical_herb_formula": "Trấn Can Tức Phong Thang (Zhen Gan Xi Feng Tang)",
+    "clinical_notes": "Tiền triệu của đột quỵ não (trúng phong). Cấp cứu YHCT. Khi đã xảy ra đột quỵ, phân biệt trúng kinh lạc (nhẹ) và trúng tạng phủ (nặng, có hôn mê). Cần kết hợp y học hiện đại.",
+    "veto_rule": null,
+    "prevalence": "common"
+  },
+  {
+    "rule_id": "PM_B01_010",
+    "benh_co_code": "liver_qi_invading_stomach",
+    "benh_co_vi": "Can khí phạm Vị (Can Vị bất hòa)",
+    "benh_co_en": "Liver Qi Invading Stomach",
+    "zangfu_primary": "liver",
+    "zangfu_secondary": ["stomach"],
+    "bat_cuong_profile": {
+      "cold": 0.0,
+      "heat": 0.2,
+      "deficiency": 0.1,
+      "excess": 0.75,
+      "exterior": 0.0,
+      "interior": 0.95
+    },
+    "required_symptoms": ["hypochondrial_distension", "epigastric_pain_or_distension"],
+    "supporting_symptoms": ["belching", "nausea", "vomiting", "acid_regurgitation", "wiry_pulse", "worse_with_emotional_stress"],
+    "contradicting_symptoms": ["pale_tongue_excess_moisture", "diarrhea_chronic", "cold_sensation_epigastrium"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "liver_qi_invading_spleen",
+        "differentiating_feature": "Can khí phạm Vị: đau vùng thượng vị, ợ hơi, buồn nôn, ói (Vị khí thượng nghịch); Can khí phạm Tỳ: đau bụng rồi tiêu chảy, phân nát (Tỳ khí không vận hóa)"
+      }
+    ],
+    "derived_chung_codes": ["liver_stomach_disharmony_pattern"],
+    "phap_tri_direction": "Sơ Can hòa Vị, giáng nghịch (Soothe Liver, Harmonize Stomach, Descend Counterflow)",
+    "typical_herb_formula": "Sài Hồ Sơ Can Thang hợp Tả Kim Hoàn (Chai Hu Shu Gan San + Zuo Jin Wan)",
+    "clinical_notes": "Rất phổ biến trong bệnh lý dạ dày - thực quản. GERD, viêm dạ dày, loét dạ dày liên quan stress thường thuộc bệnh cơ này. Ợ chua là dấu hiệu Vị khí thượng nghịch do Can khí ngang phạm.",
+    "veto_rule": null,
+    "prevalence": "very_common"
+  },
+  {
+    "rule_id": "PM_B01_011",
+    "benh_co_code": "liver_qi_invading_spleen",
+    "benh_co_vi": "Can khí phạm Tỳ (Can Tỳ bất hòa)",
+    "benh_co_en": "Liver Qi Invading Spleen",
+    "zangfu_primary": "liver",
+    "zangfu_secondary": ["spleen"],
+    "bat_cuong_profile": {
+      "cold": 0.1,
+      "heat": 0.1,
+      "deficiency": 0.4,
+      "excess": 0.6,
+      "exterior": 0.0,
+      "interior": 0.95
+    },
+    "required_symptoms": ["abdominal_pain_relieved_by_diarrhea", "emotional_trigger_for_diarrhea"],
+    "supporting_symptoms": ["hypochondrial_distension", "loose_stools_or_diarrhea", "borborygmus", "abdominal_bloating", "wiry_pulse", "irritability"],
+    "contradicting_symptoms": ["bright_red_tongue_dry", "high_fever", "constipation"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "liver_qi_invading_stomach",
+        "differentiating_feature": "Can khí phạm Tỳ: tiêu chảy, phân nát, đau bụng giảm sau khi đi tiêu (Tỳ thất kiện vận); Can khí phạm Vị: ợ hơi, buồn nôn, đau thượng vị (Vị khí thượng nghịch)"
+      },
+      {
+        "benh_co_code": "spleen_qi_deficiency",
+        "differentiating_feature": "Tỳ khí hư: tiêu chảy không liên quan cảm xúc, mệt mỏi nổi bật, không có căng tức sườn; Can Tỳ bất hòa: tiêu chảy khi xúc động, có căng tức sườn, mạch huyền"
+      }
+    ],
+    "derived_chung_codes": ["liver_spleen_disharmony_pattern"],
+    "phap_tri_direction": "Sơ Can kiện Tỳ (Soothe Liver, Strengthen Spleen)",
+    "typical_herb_formula": "Tiêu Dao Tán (Xiao Yao San) hoặc Thống Tả Yếu Phương (Tong Xie Yao Fang)",
+    "clinical_notes": "Hội chứng ruột kích thích (IBS) loại tiêu chảy thường thuộc bệnh cơ này. Đặc trưng: đau bụng - tiêu chảy xảy ra sau căng thẳng. Điều trị: Thống Tả Yếu Phương là phương đặc hiệu cho hội chứng này.",
+    "veto_rule": null,
+    "prevalence": "very_common"
+  },
+  {
+    "rule_id": "PM_B01_012",
+    "benh_co_code": "liver_gallbladder_damp_heat",
+    "benh_co_vi": "Can đởm thấp nhiệt",
+    "benh_co_en": "Liver-Gallbladder Damp-Heat",
+    "zangfu_primary": "liver",
+    "zangfu_secondary": ["gallbladder"],
+    "bat_cuong_profile": {
+      "cold": 0.0,
+      "heat": 0.8,
+      "deficiency": 0.0,
+      "excess": 0.9,
+      "exterior": 0.0,
+      "interior": 0.95
+    },
+    "required_symptoms": ["hypochondrial_pain", "jaundice_or_yellow_sclera_or_dark_urine"],
+    "supporting_symptoms": ["bitter_taste", "nausea_vomiting", "poor_appetite", "fever_or_alternating_chills_fever", "yellow_greasy_tongue_coating", "wiry_slippery_rapid_pulse", "genital_itching_or_discharge", "scrotal_swelling_damp_heat"],
+    "contradicting_symptoms": ["pale_tongue", "cold_limbs", "clear_urine", "no_thirst"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "liver_fire_blazing",
+        "differentiating_feature": "Can hỏa vượng: thực nhiệt thuần túy, lưỡi đỏ rêu vàng khô; Can đởm thấp nhiệt: thêm thấp tà, rêu lưỡi vàng nhờn, tiểu vàng đậm, vàng da"
+      },
+      {
+        "benh_co_code": "spleen_stomach_damp_heat",
+        "differentiating_feature": "Tỳ Vị thấp nhiệt: nặng nề mệt mỏi toàn thân, buồn nôn nôn, không có triệu chứng Can đởm; Can đởm thấp nhiệt: đau hạ sườn phải, vàng da, có thể vàng mắt"
+      }
+    ],
+    "derived_chung_codes": ["liver_gallbladder_damp_heat_pattern"],
+    "phap_tri_direction": "Thanh nhiệt lợi thấp, sơ Can lợi đởm (Clear Heat, Resolve Dampness, Soothe Liver, Benefit Gallbladder)",
+    "typical_herb_formula": "Long Đởm Tả Can Thang (Long Dan Xie Gan Tang) hoặc Nhân Trần Hao Thang (Yin Chen Hao Tang)",
+    "clinical_notes": "Viêm gan, sỏi mật, viêm túi mật thường thuộc bệnh cơ này. Vàng da nhiệt (hoàng đản dương chứng) là biểu hiện điển hình. Vùng sinh dục ngứa, khí hư vàng ở phụ nữ cũng thuộc thấp nhiệt Can đởm đi xuống.",
+    "veto_rule": null,
+    "prevalence": "common"
+  },
+  {
+    "rule_id": "PM_B01_013",
+    "benh_co_code": "cold_stagnation_liver_channel",
+    "benh_co_vi": "Hàn trệ Can mạch",
+    "benh_co_en": "Cold Stagnation in Liver Channel",
+    "zangfu_primary": "liver",
+    "zangfu_secondary": [],
+    "bat_cuong_profile": {
+      "cold": 0.9,
+      "heat": 0.0,
+      "deficiency": 0.1,
+      "excess": 0.8,
+      "exterior": 0.1,
+      "interior": 0.85
+    },
+    "required_symptoms": ["lower_abdominal_cold_pain", "scrotal_contraction_or_testicular_pain"],
+    "supporting_symptoms": ["pain_relieved_by_warmth", "pain_worse_with_cold", "cold_limbs", "pale_tongue_white_coating", "deep_slow_wiry_pulse", "hernia_like_pain"],
+    "contradicting_symptoms": ["fever", "red_tongue", "yellow_coating", "thirst_with_desire_for_cold_drinks"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "liver_qi_stagnation",
+        "differentiating_feature": "Can khí uất: đau tức sườn ngực, liên quan cảm xúc, không có hàn chứng; Hàn trệ Can mạch: đau vùng sinh dục - hạ tiêu rõ rệt, lạnh cải thiện khi chườm nóng"
+      }
+    ],
+    "derived_chung_codes": ["cold_stagnation_liver_channel_pattern"],
+    "phap_tri_direction": "Ôn Can tán hàn, lý khí chỉ thống (Warm Liver, Scatter Cold, Regulate Qi, Stop Pain)",
+    "typical_herb_formula": "Ô Mai Hoàn biến phương hoặc Noãn Can Tiễn (Nuan Gan Jian)",
+    "clinical_notes": "Điển hình: thoát vị bẹn, đau tinh hoàn khi lạnh, đau bụng kinh lạnh. Kinh Can đi vòng quanh cơ quan sinh dục. Hàn tà ngưng trệ kinh mạch Can. Chườm nóng giảm đau là dấu hiệu quan trọng.",
+    "veto_rule": null,
+    "prevalence": "uncommon"
+  },
+  {
+    "rule_id": "PM_B01_014",
+    "benh_co_code": "liver_kidney_yin_deficiency",
+    "benh_co_vi": "Can thận âm hư",
+    "benh_co_en": "Liver-Kidney Yin Deficiency",
+    "zangfu_primary": "liver",
+    "zangfu_secondary": ["kidney"],
+    "bat_cuong_profile": {
+      "cold": 0.0,
+      "heat": 0.6,
+      "deficiency": 0.9,
+      "excess": 0.1,
+      "exterior": 0.0,
+      "interior": 0.95
+    },
+    "required_symptoms": ["dizziness_vertigo", "lower_back_knee_soreness_weakness"],
+    "supporting_symptoms": ["tinnitus", "dry_eyes_blurred_vision", "night_sweats", "five_centers_heat", "insomnia", "dry_mouth_throat", "red_tongue_scanty_coating", "thin_rapid_pulse", "scanty_menstruation_or_amenorrhea"],
+    "contradicting_symptoms": ["pale_tongue_moist", "cold_limbs", "clear_copious_urine", "thick_greasy_coating"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "liver_yin_deficiency",
+        "differentiating_feature": "Can âm hư: chủ yếu triệu chứng Can (mắt, sườn, kinh nguyệt); Can thận âm hư: có thêm triệu chứng Thận âm hư (lưng gối, tai ù, di tinh, tiểu đêm nhiều)"
+      },
+      {
+        "benh_co_code": "liver_yang_rising",
+        "differentiating_feature": "Can dương vượng nhấn mạnh triệu chứng dương cang lên trên; Can thận âm hư nhấn mạnh bản thân hư chứng âm dịch bất túc"
+      }
+    ],
+    "derived_chung_codes": ["liver_kidney_yin_deficiency_pattern"],
+    "phap_tri_direction": "Tư bổ Can thận (Nourish and Supplement Liver and Kidney)",
+    "typical_herb_formula": "Lục Vị Địa Hoàng Hoàn (Liu Wei Di Huang Wan) hoặc Kỷ Cúc Địa Hoàng Hoàn",
+    "clinical_notes": "Can và Thận đồng nguồn (Can thận đồng nguyên). Thường thấy ở người trung - cao tuổi, phụ nữ mãn kinh. Tóc rụng, răng lung lay, thị lực giảm theo tuổi thường có thành phần Can thận âm hư.",
+    "veto_rule": null,
+    "prevalence": "very_common"
+  },
+  {
+    "rule_id": "PM_B01_015",
+    "benh_co_code": "liver_blood_stasis",
+    "benh_co_vi": "Can huyết ứ",
+    "benh_co_en": "Liver Blood Stasis",
+    "zangfu_primary": "liver",
+    "zangfu_secondary": [],
+    "bat_cuong_profile": {
+      "cold": 0.2,
+      "heat": 0.2,
+      "deficiency": 0.2,
+      "excess": 0.85,
+      "exterior": 0.0,
+      "interior": 0.95
+    },
+    "required_symptoms": ["fixed_stabbing_hypochondrial_pain", "hypochondrial_mass_or_hepatosplenomegaly"],
+    "supporting_symptoms": ["purple_dark_tongue_or_petechiae", "choppy_pulse", "dark_menstrual_blood_with_clots", "spider_naevi", "dark_complexion", "abdominal_veins_distended"],
+    "contradicting_symptoms": ["pale_tongue_no_stasis_signs", "distending_non_fixed_pain"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "liver_qi_stagnation",
+        "differentiating_feature": "Can khí uất: đau trướng không cố định, di chuyển được, lưỡi bình thường; Can huyết ứ: đau như kim đâm cố định, có khối u, lưỡi tím điểm ứ huyết"
+      }
+    ],
+    "derived_chung_codes": ["liver_blood_stasis_pattern"],
+    "phap_tri_direction": "Hoạt huyết hóa ứ, sơ Can thông lạc (Invigorate Blood, Resolve Stasis, Soothe Liver, Unblock Collaterals)",
+    "typical_herb_formula": "Cách Hạ Trục Ứ Thang (Ge Xia Zhu Yu Tang)",
+    "clinical_notes": "Xơ gan, u gan, lách to, tắc tĩnh mạch cửa thường thuộc bệnh cơ này. Mạng tĩnh mạch nổi vùng bụng (tuần hoàn bàng hệ) là biểu hiện nặng. Lưỡi tím là dấu hiệu ứ huyết điển hình.",
+    "veto_rule": null,
+    "prevalence": "common"
+  },
+  {
+    "rule_id": "PM_B01_016",
+    "benh_co_code": "liver_qi_stagnation_transforming_fire",
+    "benh_co_vi": "Can khí uất → hóa hỏa (Khí uất hóa hỏa)",
+    "benh_co_en": "Liver Qi Stagnation Transforming into Fire",
+    "zangfu_primary": "liver",
+    "zangfu_secondary": [],
+    "bat_cuong_profile": {
+      "cold": 0.0,
+      "heat": 0.75,
+      "deficiency": 0.0,
+      "excess": 0.9,
+      "exterior": 0.0,
+      "interior": 0.95
+    },
+    "required_symptoms": ["hypochondrial_distension_with_burning", "irritability_or_anger_with_heat_sensation"],
+    "supporting_symptoms": ["bitter_taste", "dry_mouth", "headache", "red_eyes", "constipation", "dark_urine", "red_tongue_yellow_coating", "wiry_rapid_pulse"],
+    "contradicting_symptoms": ["pale_tongue", "cold_limbs", "no_thirst"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "liver_qi_stagnation",
+        "differentiating_feature": "Can khí uất: chỉ trướng tức không có nhiệt; Khí uất hóa hỏa: đã có nhiệt chứng rõ (miệng đắng khô, tiểu vàng, lưỡi đỏ rêu vàng) - giai đoạn tiến triển của Can khí uất"
+      },
+      {
+        "benh_co_code": "liver_fire_blazing",
+        "differentiating_feature": "Khí uất hóa hỏa vẫn còn dấu hiệu uất kết (trướng tức sườn, thở dài); Can hỏa vượng đã thuần hỏa thực, triệu chứng nhiệt mạnh hơn"
+      }
+    ],
+    "derived_chung_codes": ["qi_stagnation_fire_transformation_pattern"],
+    "phap_tri_direction": "Sơ Can giải uất, thanh hỏa (Soothe Liver, Resolve Constraint, Clear Fire)",
+    "typical_herb_formula": "Đan Chi Tiêu Dao Tán (Dan Zhi Xiao Yao San) - Gia Vị Tiêu Dao Tán",
+    "clinical_notes": "Giai đoạn chuyển tiếp từ Can khí uất sang Can hỏa vượng. Dùng Gia Vị Tiêu Dao Tán vừa sơ Can vừa thanh nhiệt. Thường gặp trong trầm cảm-lo âu kết hợp các triệu chứng viêm.",
+    "veto_rule": null,
+    "prevalence": "common"
+  },
+  {
+    "rule_id": "PM_B01_017",
+    "benh_co_code": "liver_wind_phlegm",
+    "benh_co_vi": "Can phong hiệp đàm (Phong đàm thượng nhiễu)",
+    "benh_co_en": "Liver Wind Stirring Phlegm (Wind-Phlegm Harassing Above)",
+    "zangfu_primary": "liver",
+    "zangfu_secondary": ["spleen"],
+    "bat_cuong_profile": {
+      "cold": 0.1,
+      "heat": 0.3,
+      "deficiency": 0.3,
+      "excess": 0.8,
+      "exterior": 0.0,
+      "interior": 0.95
+    },
+    "required_symptoms": ["dizziness_severe_with_nausea", "sudden_loss_of_consciousness_or_seizure"],
+    "supporting_symptoms": ["throat_gurgling_phlegm", "facial_deviation", "hemiplegia", "slurred_speech", "greasy_tongue_coating", "wiry_slippery_pulse"],
+    "contradicting_symptoms": ["clear_thin_body_fluids", "dry_tongue", "no_nausea"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "liver_wind_yang_rising",
+        "differentiating_feature": "Can dương hóa phong: chủ yếu hư thực thác tạp, không nổi bật đàm chứng; Phong đàm thượng nhiễu: có đàm rõ ràng (tiếng đờm khò khè, buồn nôn, rêu nhờn)"
+      }
+    ],
+    "derived_chung_codes": ["wind_phlegm_harassing_above_pattern"],
+    "phap_tri_direction": "Bình Can tức phong, hóa đàm khai khiếu (Calm Liver, Extinguish Wind, Transform Phlegm, Open Orifices)",
+    "typical_herb_formula": "Bán Hạ Bạch Truật Thiên Ma Thang (Ban Xia Bai Zhu Tian Ma Tang) hoặc Địch Đàm Thang",
+    "clinical_notes": "Động kinh, chóng mặt nặng (Ménière), tiền triệu đột quỵ có đàm. Mạch huyền hoạt. Rêu lưỡi nhờn là dấu hiệu đàm thấp quan trọng. Thiên Ma là vị thuốc then chốt trị phong đàm.",
+    "veto_rule": null,
+    "prevalence": "common"
+  },
+  {
+    "rule_id": "PM_B01_018",
+    "benh_co_code": "liver_qi_stagnation_blood_stasis",
+    "benh_co_vi": "Can khí uất → huyết ứ (Khí trệ huyết ứ)",
+    "benh_co_en": "Liver Qi Stagnation with Blood Stasis",
+    "zangfu_primary": "liver",
+    "zangfu_secondary": [],
+    "bat_cuong_profile": {
+      "cold": 0.1,
+      "heat": 0.2,
+      "deficiency": 0.1,
+      "excess": 0.85,
+      "exterior": 0.0,
+      "interior": 0.95
+    },
+    "required_symptoms": ["hypochondrial_fixed_pain_with_distension", "dysmenorrhea_with_dark_clots"],
+    "supporting_symptoms": ["purple_tongue_or_petechiae", "wiry_choppy_pulse", "breast_lumps", "abdominal_masses", "skin_darkening"],
+    "contradicting_symptoms": ["pale_tongue_no_stasis", "non_fixed_distending_pain_only"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "liver_qi_stagnation",
+        "differentiating_feature": "Can khí uất thuần túy: đau trướng, không có ứ huyết dấu hiệu; Khí trệ huyết ứ: vừa có khí uất vừa có ứ huyết (đau cố định, lưỡi tím, kinh có máu đen cục)"
+      },
+      {
+        "benh_co_code": "liver_blood_stasis",
+        "differentiating_feature": "Can huyết ứ thuần túy: chủ yếu ứ huyết, ít khí uất; Khí trệ huyết ứ: vừa có tức sườn (khí uất) vừa có đau cố định lưỡi tím (huyết ứ)"
+      }
+    ],
+    "derived_chung_codes": ["qi_stagnation_blood_stasis_pattern"],
+    "phap_tri_direction": "Hành khí hoạt huyết, hóa ứ (Move Qi, Invigorate Blood, Resolve Stasis)",
+    "typical_herb_formula": "Huyết Phủ Trục Ứ Thang (Xue Fu Zhu Yu Tang)",
+    "clinical_notes": "Lạc nội mạc tử cung, u xơ tử cung, u nang buồng trứng thường thuộc bệnh cơ này. Đau kinh dữ dội với máu kinh đen có cục là biểu hiện điển hình. Mạch huyền sáp.",
+    "veto_rule": null,
+    "prevalence": "common"
+  },
+  {
+    "rule_id": "PM_B01_019",
+    "benh_co_code": "liver_depression_spleen_deficiency",
+    "benh_co_vi": "Can uất Tỳ hư",
+    "benh_co_en": "Liver Depression with Spleen Deficiency",
+    "zangfu_primary": "liver",
+    "zangfu_secondary": ["spleen"],
+    "bat_cuong_profile": {
+      "cold": 0.1,
+      "heat": 0.1,
+      "deficiency": 0.6,
+      "excess": 0.5,
+      "exterior": 0.0,
+      "interior": 0.95
+    },
+    "required_symptoms": ["hypochondrial_distension", "fatigue_poor_appetite"],
+    "supporting_symptoms": ["abdominal_bloating_after_eating", "loose_stools", "emotional_depression", "sighing", "pale_or_normal_tongue", "wiry_weak_pulse"],
+    "contradicting_symptoms": ["red_tongue_dry", "yellow_thick_coating", "strong_forceful_pulse"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "liver_qi_invading_spleen",
+        "differentiating_feature": "Can khí phạm Tỳ: thực chứng Can chi phối Tỳ, mạch huyền thực; Can uất Tỳ hư: Tỳ đã hư rõ, khí hư mệt mỏi nổi bật, mạch huyền nhược"
+      }
+    ],
+    "derived_chung_codes": ["liver_depression_spleen_deficiency_pattern"],
+    "phap_tri_direction": "Sơ Can kiện Tỳ, dưỡng huyết (Soothe Liver, Strengthen Spleen, Nourish Blood)",
+    "typical_herb_formula": "Tiêu Dao Tán (Xiao Yao San)",
+    "clinical_notes": "Tiêu Dao Tán là phương đặc hiệu cho Can uất Tỳ hư. Thường gặp ở phụ nữ trầm cảm kết hợp rối loạn tiêu hóa. Mệt mỏi, chán ăn, bụng trướng sau ăn kết hợp với tức ngực sườn.",
+    "veto_rule": null,
+    "prevalence": "very_common"
+  },
+  {
+    "rule_id": "PM_B01_020",
+    "benh_co_code": "liver_fire_attacking_lung",
+    "benh_co_vi": "Can hỏa phạm Phế (Mộc hỏa hình Kim)",
+    "benh_co_en": "Liver Fire Attacking Lung (Wood Fire Insulting Metal)",
+    "zangfu_primary": "liver",
+    "zangfu_secondary": ["lung"],
+    "bat_cuong_profile": {
+      "cold": 0.0,
+      "heat": 0.9,
+      "deficiency": 0.1,
+      "excess": 0.9,
+      "exterior": 0.0,
+      "interior": 0.95
+    },
+    "required_symptoms": ["hypochondrial_pain", "cough_with_blood_or_burning_cough"],
+    "supporting_symptoms": ["bitter_taste", "irritability", "red_face", "dry_throat", "red_tongue_yellow_coating", "wiry_rapid_pulse", "hemoptysis"],
+    "contradicting_symptoms": ["pale_tongue", "cold_limbs", "white_thin_coating"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "lung_yin_deficiency",
+        "differentiating_feature": "Phế âm hư: ho khan mạn tính, không có triệu chứng Can hỏa; Can hỏa phạm Phế: khởi phát cấp tính sau tức giận, có kèm đau sườn, miệng đắng rõ"
+      }
+    ],
+    "derived_chung_codes": ["liver_fire_attacking_lung_pattern"],
+    "phap_tri_direction": "Thanh Can tả hỏa, nhuận Phế chỉ huyết (Clear Liver, Drain Fire, Moisten Lung, Stop Bleeding)",
+    "typical_herb_formula": "Tả Bạch Tán hợp Đại Hoàng Tả Can Thang hoặc Đại Hoàng Tả Tâm Thang biến phương",
+    "clinical_notes": "Ho ra máu sau cơn giận dữ mạnh, đau sườn phải, miệng đắng. Điều trị: thanh Can hỏa là chính, nhuận Phế là phụ. Tránh nhầm với lao phổi (cần loại trừ).",
+    "veto_rule": null,
+    "prevalence": "uncommon"
+  },
+  {
+    "rule_id": "PM_B01_021",
+    "benh_co_code": "liver_qi_depression_phlegm",
+    "benh_co_vi": "Can khí uất kết - Đàm khí uất kết (Nhục mai khí)",
+    "benh_co_en": "Liver Qi Stagnation with Phlegm (Plum-Pit Qi)",
+    "zangfu_primary": "liver",
+    "zangfu_secondary": ["lung", "stomach"],
+    "bat_cuong_profile": {
+      "cold": 0.1,
+      "heat": 0.2,
+      "deficiency": 0.2,
+      "excess": 0.7,
+      "exterior": 0.0,
+      "interior": 0.9
+    },
+    "required_symptoms": ["throat_sensation_foreign_body", "cannot_swallow_or_spit_out_throat_obstruction"],
+    "supporting_symptoms": ["chest_oppression", "hypochondrial_distension", "nausea", "emotional_distress", "wiry_slippery_pulse", "normal_or_slightly_greasy_coating"],
+    "contradicting_symptoms": ["actual_dysphagia_with_weight_loss", "red_tongue_dry_no_coating"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "liver_qi_stagnation",
+        "differentiating_feature": "Can khí uất không có đàm tụ; Đàm khí uất kết (nhục mai khí): khí uất kết hợp đàm ngưng, cảm giác có vật trong họng đặc trưng, mạch huyền hoạt"
+      }
+    ],
+    "derived_chung_codes": ["plum_pit_qi_pattern", "phlegm_qi_stagnation_pattern"],
+    "phap_tri_direction": "Hành khí giải uất, hóa đàm tán kết (Move Qi, Resolve Constraint, Transform Phlegm, Dissipate Nodules)",
+    "typical_herb_formula": "Bán Hạ Hậu Phác Thang (Ban Xia Hou Po Tang)",
+    "clinical_notes": "Nhục mai khí (plum-pit qi) - cảm giác có hạt mận trong cổ họng. Nội kinh gọi là 'Nhục mai khí'. Thường gặp trong lo lắng, trầm cảm, rối loạn chức năng thực quản tâm lý. Soi thực quản bình thường.",
+    "veto_rule": null,
+    "prevalence": "common"
+  },
+  {
+    "rule_id": "PM_B01_022",
+    "benh_co_code": "liver_qi_stagnation_with_cold",
+    "benh_co_vi": "Can khí uất hàn (Can uất khí trệ kiêm hàn)",
+    "benh_co_en": "Liver Qi Stagnation with Cold",
+    "zangfu_primary": "liver",
+    "zangfu_secondary": [],
+    "bat_cuong_profile": {
+      "cold": 0.6,
+      "heat": 0.0,
+      "deficiency": 0.2,
+      "excess": 0.7,
+      "exterior": 0.0,
+      "interior": 0.9
+    },
+    "required_symptoms": ["hypochondrial_or_lower_abdominal_pain_cold", "pain_relieved_by_warmth"],
+    "supporting_symptoms": ["cold_hands_feet", "sighing", "emotional_depression", "pale_tongue_white_coating", "deep_wiry_pulse"],
+    "contradicting_symptoms": ["thirst_with_desire_cold", "red_tongue_yellow_coating", "fever"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "liver_qi_stagnation",
+        "differentiating_feature": "Can khí uất thuần túy không có hàn chứng; Can khí uất kiêm hàn: có lạnh đau, chườm nóng dễ chịu, lưỡi nhợt"
+      },
+      {
+        "benh_co_code": "cold_stagnation_liver_channel",
+        "differentiating_feature": "Hàn trệ Can mạch: hàn là chủ yếu, triệu chứng sinh dục nổi bật; Can khí uất kiêm hàn: khí uất vẫn nổi bật, hàn là kiêm chứng"
+      }
+    ],
+    "derived_chung_codes": ["liver_qi_cold_stagnation_pattern"],
+    "phap_tri_direction": "Sơ Can lý khí, ôn tán hàn tà (Soothe Liver, Regulate Qi, Warm and Scatter Cold)",
+    "typical_herb_formula": "Noãn Can Tiễn (Nuan Gan Jian) hoặc Sài Hồ Sơ Can Thang gia ô dược, tiểu hồi hương",
+    "clinical_notes": "Đau bụng kinh lạnh, thoát vị bẹn bị lạnh đau hơn. Cần thêm dược phẩm ôn hàn vào phương sơ Can cơ bản.",
+    "veto_rule": null,
+    "prevalence": "uncommon"
+  },
+  {
+    "rule_id": "PM_B01_023",
+    "benh_co_code": "liver_blood_deficiency_wind_dryness",
+    "benh_co_vi": "Can huyết hư táo (Can huyết hư sinh nội táo phong)",
+    "benh_co_en": "Liver Blood Deficiency with Dryness and Wind",
+    "zangfu_primary": "liver",
+    "zangfu_secondary": [],
+    "bat_cuong_profile": {
+      "cold": 0.0,
+      "heat": 0.3,
+      "deficiency": 0.85,
+      "excess": 0.2,
+      "exterior": 0.1,
+      "interior": 0.9
+    },
+    "required_symptoms": ["dry_itchy_skin_or_eczema_chronic", "pale_face_nails"],
+    "supporting_symptoms": ["hair_loss", "dry_nails_brittle", "muscle_twitching", "pale_tongue", "thin_choppy_pulse", "skin_scaling"],
+    "contradicting_symptoms": ["red_tongue", "yellow_greasy_coating", "acute_onset_pruritus"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "liver_blood_deficiency",
+        "differentiating_feature": "Can huyết hư cơ bản: huyết không dưỡng hình; Can huyết hư táo: đã tiến triển thêm nội táo nội phong biểu hiện ra ngoài da (ngứa, bong vảy, khô nứt nẻ)"
+      }
+    ],
+    "derived_chung_codes": ["liver_blood_deficiency_wind_dryness_pattern"],
+    "phap_tri_direction": "Dưỡng huyết nhuận táo, khu phong chỉ dưỡng (Nourish Blood, Moisten Dryness, Expel Wind, Stop Itching)",
+    "typical_herb_formula": "Đương Quy Ẩm Tử (Dang Gui Yin Zi)",
+    "clinical_notes": "Viêm da mạn tính, vảy nến giai đoạn ổn định, ngứa da người cao tuổi thường thuộc bệnh cơ này. Ngứa mà không có dấu hiệu nhiệt hoặc ẩm. Điều trị: dưỡng huyết là gốc, khu phong là ngọn.",
+    "veto_rule": null,
+    "prevalence": "common"
+  },
+  {
+    "rule_id": "PM_B01_024",
+    "benh_co_code": "liver_gallbladder_qi_deficiency",
+    "benh_co_vi": "Can đởm khí hư (Đởm khí hư)",
+    "benh_co_en": "Liver-Gallbladder Qi Deficiency",
+    "zangfu_primary": "liver",
+    "zangfu_secondary": ["gallbladder"],
+    "bat_cuong_profile": {
+      "cold": 0.2,
+      "heat": 0.0,
+      "deficiency": 0.8,
+      "excess": 0.1,
+      "exterior": 0.0,
+      "interior": 0.9
+    },
+    "required_symptoms": ["timidity_easily_frightened", "sighing_frequent"],
+    "supporting_symptoms": ["insomnia_dream_disturbed", "palpitations_with_anxiety", "poor_decision_making", "easily_startled", "pale_tongue", "thin_wiry_or_weak_pulse", "hypochondrial_discomfort_mild"],
+    "contradicting_symptoms": ["irritability_anger", "red_tongue", "yellow_coating", "loud_voice_forceful"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "liver_qi_stagnation",
+        "differentiating_feature": "Can khí uất: thực chứng, hay tức giận, mạch huyền thực; Đởm khí hư: hư chứng, hay sợ hãi, thiếu quyết đoán, mạch nhược"
+      }
+    ],
+    "derived_chung_codes": ["gallbladder_qi_deficiency_pattern"],
+    "phap_tri_direction": "Ích khí định đởm, an thần (Benefit Qi, Calm Gallbladder, Settle Spirit)",
+    "typical_herb_formula": "Ôn Đởm Thang biến phương (Wen Dan Tang modified) hoặc An Thần Định Chí Hoàn",
+    "clinical_notes": "Rối loạn lo âu, hội chứng hoảng sợ thường có thành phần Đởm khí hư. Hay giật mình, sợ tiếng động lớn, khó quyết định. Đởm chủ quyết đoán - khi đởm khí hư thì mất tự tin.",
+    "veto_rule": null,
+    "prevalence": "common"
+  },
+  {
+    "rule_id": "PM_B01_025",
+    "benh_co_code": "liver_qi_stagnation_heart_fire",
+    "benh_co_vi": "Can khí uất - Tâm hỏa kháng (Can Tâm đồng bệnh)",
+    "benh_co_en": "Liver Qi Stagnation with Heart Fire",
+    "zangfu_primary": "liver",
+    "zangfu_secondary": ["heart"],
+    "bat_cuong_profile": {
+      "cold": 0.0,
+      "heat": 0.65,
+      "deficiency": 0.1,
+      "excess": 0.8,
+      "exterior": 0.0,
+      "interior": 0.95
+    },
+    "required_symptoms": ["hypochondrial_distension", "palpitations_with_irritability"],
+    "supporting_symptoms": ["insomnia", "mouth_ulcers", "bitter_taste", "dark_urine", "red_tongue_tip_yellow_coating", "wiry_rapid_pulse"],
+    "contradicting_symptoms": ["pale_tongue", "cold_limbs", "no_thirst"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "liver_fire_blazing",
+        "differentiating_feature": "Can hỏa vượng: triệu chứng Can hỏa chiếm ưu thế; Can Tâm đồng bệnh: có cả Can uất (tức sườn) và Tâm hỏa (hồi hộp, nhiệt miệng, tiểu sẻn đỏ)"
+      }
+    ],
+    "derived_chung_codes": ["liver_qi_stagnation_heart_fire_pattern"],
+    "phap_tri_direction": "Sơ Can giải uất, thanh Tâm giáng hỏa (Soothe Liver, Resolve Constraint, Clear Heart, Descend Fire)",
+    "typical_herb_formula": "Long Đởm Tả Can Thang gia Hoàng Liên, hoặc Tiêu Dao Tán hợp Đạo Xích Tán",
+    "clinical_notes": "Trầm cảm lo âu kết hợp mất ngủ nặng, loét miệng tái phát thường gặp trong bệnh cơ này. Can và Tâm cùng liên quan điều tiết cảm xúc - khi cả hai bị ảnh hưởng, triệu chứng nặng hơn.",
+    "veto_rule": null,
+    "prevalence": "common"
+  },
+  {
+    "rule_id": "PM_B01_026",
+    "benh_co_code": "liver_kidney_yin_deficiency_damp_heat",
+    "benh_co_vi": "Can thận âm hư kiêm thấp nhiệt (Hư thực thác tạp)",
+    "benh_co_en": "Liver-Kidney Yin Deficiency with Damp-Heat (Complex Pattern)",
+    "zangfu_primary": "liver",
+    "zangfu_secondary": ["kidney"],
+    "bat_cuong_profile": {
+      "cold": 0.0,
+      "heat": 0.7,
+      "deficiency": 0.7,
+      "excess": 0.6,
+      "exterior": 0.0,
+      "interior": 0.95
+    },
+    "required_symptoms": ["lower_back_soreness", "yellow_greasy_tongue_coating_with_red_tongue_body"],
+    "supporting_symptoms": ["bitter_taste", "dark_urine", "hypochondrial_discomfort", "tinnitus", "night_sweats", "five_centers_heat", "wiry_slippery_rapid_pulse"],
+    "contradicting_symptoms": ["pale_tongue", "cold_limbs", "clear_urine_copious"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "liver_kidney_yin_deficiency",
+        "differentiating_feature": "Can thận âm hư thuần túy: lưỡi đỏ không rêu hoặc rêu ít; kiêm thấp nhiệt: lưỡi đỏ nhưng rêu vàng nhờn - hư thực thác tạp phức tạp hơn"
+      },
+      {
+        "benh_co_code": "liver_gallbladder_damp_heat",
+        "differentiating_feature": "Can đởm thấp nhiệt: thực chứng, không có hư chứng bên dưới; kiêm chứng này: có nền âm hư rõ (lưng gối, tai ù) kết hợp thấp nhiệt"
+      }
+    ],
+    "derived_chung_codes": ["liver_kidney_yin_deficiency_damp_heat_pattern"],
+    "phap_tri_direction": "Tư bổ Can thận, thanh lợi thấp nhiệt (Nourish Liver-Kidney, Clear and Resolve Damp-Heat)",
+    "typical_herb_formula": "Tri Bá Địa Hoàng Hoàn (Zhi Bai Di Huang Wan) hợp Long Đởm Tả Can Thang",
+    "clinical_notes": "Viêm gan mạn tính, viêm thận mạn thường có hư thực thác tạp này. Điều trị khó vì cần vừa bổ âm vừa thanh thấp nhiệt - hai hướng có thể mâu thuẫn. Cần cân bằng tỷ lệ.",
+    "veto_rule": "Nếu thấp nhiệt quá mạnh, tạm thời ưu tiên thanh thấp nhiệt trước khi bổ âm",
+    "prevalence": "common"
+  },
+  {
+    "rule_id": "PM_B01_027",
+    "benh_co_code": "liver_qi_deficiency",
+    "benh_co_vi": "Can khí hư",
+    "benh_co_en": "Liver Qi Deficiency",
+    "zangfu_primary": "liver",
+    "zangfu_secondary": [],
+    "bat_cuong_profile": {
+      "cold": 0.2,
+      "heat": 0.0,
+      "deficiency": 0.8,
+      "excess": 0.0,
+      "exterior": 0.0,
+      "interior": 0.9
+    },
+    "required_symptoms": ["hypochondrial_dull_ache_or_discomfort_mild", "fatigue_easy_exhaustion"],
+    "supporting_symptoms": ["blurred_vision_mild", "loose_stools", "pale_complexion", "pale_tongue_slight", "weak_wiry_or_soggy_pulse"],
+    "contradicting_symptoms": ["red_tongue", "yellow_coating", "forceful_pulse", "acute_distending_pain"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "liver_blood_deficiency",
+        "differentiating_feature": "Can huyết hư: mắt mờ rõ, móng nhợt, kinh ít; Can khí hư: mệt mỏi nổi bật hơn, không có dấu hiệu thiếu huyết điển hình, sức khỏe tổng thể suy giảm"
+      },
+      {
+        "benh_co_code": "spleen_qi_deficiency",
+        "differentiating_feature": "Tỳ khí hư: ăn kém tiêu, phân nát, phù nề; Can khí hư: kèm triệu chứng Can (mắt, sườn, kinh nguyệt) và mạch có xu hướng huyền yếu"
+      }
+    ],
+    "derived_chung_codes": ["liver_qi_deficiency_pattern"],
+    "phap_tri_direction": "Bổ Can ích khí (Supplement Liver, Benefit Qi)",
+    "typical_herb_formula": "Tứ Quân Tử Thang gia sài hồ, bạch thược hoặc Bổ Can Thang",
+    "clinical_notes": "Ít được đề cập trong YHCT cổ điển hơn các bệnh cơ khác. Thường gặp sau bệnh lâu ngày, mệt mỏi mạn tính. Phân biệt với Can khí uất bằng không có yếu tố tâm lý-cảm xúc và mạch nhược không thực.",
+    "veto_rule": null,
+    "prevalence": "uncommon"
+  },
+  {
+    "rule_id": "PM_B01_028",
+    "benh_co_code": "liver_fire_disturbing_heart",
+    "benh_co_vi": "Can hỏa nhiễu Tâm (Can hỏa kháng Tâm)",
+    "benh_co_en": "Liver Fire Disturbing the Heart",
+    "zangfu_primary": "liver",
+    "zangfu_secondary": ["heart"],
+    "bat_cuong_profile": {
+      "cold": 0.0,
+      "heat": 0.9,
+      "deficiency": 0.0,
+      "excess": 0.95,
+      "exterior": 0.0,
+      "interior": 0.95
+    },
+    "required_symptoms": ["severe_insomnia_or_mania", "extreme_irritability_anger"],
+    "supporting_symptoms": ["red_face_eyes", "bitter_taste", "headache", "palpitations", "red_tongue_yellow_coating", "wiry_rapid_forceful_pulse", "violent_behavior"],
+    "contradicting_symptoms": ["pale_tongue", "timid_behavior", "cold_limbs"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "liver_fire_blazing",
+        "differentiating_feature": "Can hỏa vượng: chủ yếu triệu chứng Can; Can hỏa nhiễu Tâm: Can hỏa lan sang Tâm - mất ngủ nặng, hưng phấn, điên cuồng nổi bật hơn"
+      },
+      {
+        "benh_co_code": "heart_fire_blazing",
+        "differentiating_feature": "Tâm hỏa vượng: hồi hộp, loét miệng, tiểu đỏ; Can hỏa nhiễu Tâm: có thêm Can hỏa (sườn đau, mắt đỏ, tức giận dữ dội)"
+      }
+    ],
+    "derived_chung_codes": ["liver_fire_disturbing_heart_pattern"],
+    "phap_tri_direction": "Thanh Can tả hỏa, thanh Tâm an thần (Clear Liver, Drain Fire, Clear Heart, Calm Spirit)",
+    "typical_herb_formula": "Long Đởm Tả Can Thang hợp Chu Sa An Thần Hoàn",
+    "clinical_notes": "Hưng cảm (mania), loạn thần cấp tính sau sang chấn tâm lý nặng có thể thuộc bệnh cơ này. Nguy hiểm - cần điều trị tích cực. Mất ngủ hoàn toàn, hung hăng, mắt đỏ là bộ ba triệu chứng đặc trưng.",
+    "veto_rule": null,
+    "prevalence": "rare"
+  },
+  {
+    "rule_id": "PM_B01_029",
+    "benh_co_code": "liver_yang_deficiency",
+    "benh_co_vi": "Can dương hư",
+    "benh_co_en": "Liver Yang Deficiency",
+    "zangfu_primary": "liver",
+    "zangfu_secondary": ["kidney"],
+    "bat_cuong_profile": {
+      "cold": 0.7,
+      "heat": 0.0,
+      "deficiency": 0.85,
+      "excess": 0.0,
+      "exterior": 0.0,
+      "interior": 0.9
+    },
+    "required_symptoms": ["cold_limbs_especially_feet", "depression_apathy"],
+    "supporting_symptoms": ["hypochondrial_dull_cold_ache", "pale_tongue_moist_white_coating", "deep_slow_weak_pulse", "reduced_libido", "cold_lower_abdomen", "edema_lower_limbs"],
+    "contradicting_symptoms": ["red_tongue", "heat_sensation", "irritability", "yellow_coating"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "liver_qi_deficiency",
+        "differentiating_feature": "Can khí hư: chưa đến mức hàn chứng rõ; Can dương hư: hàn chứng nổi bật (tứ chi lạnh, bụng dưới lạnh, lưỡi nhợt mạch trầm trì)"
+      },
+      {
+        "benh_co_code": "kidney_yang_deficiency",
+        "differentiating_feature": "Thận dương hư: hàn tập trung ở thắt lưng, tiểu nhiều đêm, liệt dương rõ; Can dương hư: lạnh tập trung ở chi và vùng Can kinh đi qua, trầm cảm rõ hơn"
+      }
+    ],
+    "derived_chung_codes": ["liver_yang_deficiency_pattern"],
+    "phap_tri_direction": "Ôn bổ Can dương (Warm and Supplement Liver Yang)",
+    "typical_herb_formula": "Ô Mai Hoàn biến phương hoặc Quế Chi Phục Linh Hoàn gia vị",
+    "clinical_notes": "Ít được đề cập trong lý luận YHCT cổ điển vì Can thuộc Mộc, thể dương. Nhưng lâm sàng tồn tại. Thường kết hợp với Thận dương hư. Trầm cảm mùa đông, lạnh tứ chi ở người trẻ có thể thuộc bệnh cơ này.",
+    "veto_rule": null,
+    "prevalence": "rare"
+  },
+  {
+    "rule_id": "PM_B01_030",
+    "benh_co_code": "liver_blood_stasis_with_damp_heat",
+    "benh_co_vi": "Can huyết ứ kiêm thấp nhiệt (Can tích - Tích tụ)",
+    "benh_co_en": "Liver Blood Stasis with Damp-Heat (Liver Accumulation)",
+    "zangfu_primary": "liver",
+    "zangfu_secondary": ["spleen", "gallbladder"],
+    "bat_cuong_profile": {
+      "cold": 0.0,
+      "heat": 0.7,
+      "deficiency": 0.3,
+      "excess": 0.9,
+      "exterior": 0.0,
+      "interior": 0.95
+    },
+    "required_symptoms": ["fixed_hypochondrial_mass_or_hepatomegaly", "jaundice_or_dark_complexion"],
+    "supporting_symptoms": ["purple_tongue_yellow_greasy_coating", "wiry_slippery_choppy_pulse", "abdominal_distension", "dark_urine", "spider_naevi", "ascites"],
+    "contradicting_symptoms": ["pale_tongue_no_stasis", "soft_non_tender_abdomen"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "liver_blood_stasis",
+        "differentiating_feature": "Can huyết ứ thuần túy: không có thấp nhiệt, không vàng da; Kiêm thấp nhiệt: có vàng da vàng mắt, rêu vàng nhờn - bệnh nặng hơn, thường là xơ gan mất bù"
+      },
+      {
+        "benh_co_code": "liver_gallbladder_damp_heat",
+        "differentiating_feature": "Can đởm thấp nhiệt: chủ yếu thấp nhiệt, chưa thành khối ứ huyết; Can tích: đã có khối cứng, ứ huyết rõ ràng, giai đoạn bệnh muộn hơn"
+      }
+    ],
+    "derived_chung_codes": ["liver_accumulation_pattern", "liver_blood_stasis_damp_heat_pattern"],
+    "phap_tri_direction": "Hoạt huyết hóa ứ, thanh nhiệt lợi thấp, nhuyễn kiên tán kết (Invigorate Blood, Resolve Stasis, Clear Heat, Resolve Dampness, Soften Hardness, Dissipate Accumulation)",
+    "typical_herb_formula": "Cách Hạ Trục Ứ Thang hợp Nhân Trần Hao Thang (Ge Xia Zhu Yu Tang + Yin Chen Hao Tang)",
+    "clinical_notes": "Xơ gan mất bù, ung thư gan giai đoạn đầu-giữa, viêm gan mạn tính xơ hóa. Bệnh nặng phức tạp - thực chứng (ứ huyết, thấp nhiệt) trên nền có xu hướng hư dần. Kết hợp y học hiện đại là bắt buộc. Tiên lượng dè dặt.",
+    "veto_rule": "Nếu có xuất huyết tiêu hóa, tạm ngưng hoạt huyết mạnh, ưu tiên chỉ huyết trước",
+    "prevalence": "uncommon"
+  }
+]

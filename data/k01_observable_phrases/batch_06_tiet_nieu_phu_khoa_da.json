@@ -1,0 +1,2442 @@
+[
+  {
+    "phrase_id": "OBS_B06_001",
+    "phrase_vi": "tiểu buốt",
+    "variants_vi": [
+      "đi tiểu đau",
+      "tiểu rát",
+      "đái buốt",
+      "đi tiểu buốt rát"
+    ],
+    "regions": [
+      "all"
+    ],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Cảm giác tiểu buốt của bạn như thế nào, kèm theo triệu chứng gì?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Tiểu buốt, tiểu rát, tiểu nhiều lần, nước tiểu vàng đục, đau hạ vị",
+        "symptom_codes": [
+          "dysuria",
+          "urinary_frequency",
+          "cloudy_urine",
+          "suprapubic_pain"
+        ],
+        "yhct_hint": "Bàng quang thấp nhiệt — Nhiệt lâm",
+        "yhhd_hint": "UTI (cystitis), viêm niệu đạo"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Tiểu buốt kèm sốt cao, đau lưng hố thắt lưng, ớn lạnh",
+        "symptom_codes": [
+          "dysuria",
+          "fever",
+          "flank_pain",
+          "chills"
+        ],
+        "yhct_hint": "Thận bàng quang thấp nhiệt lan thượng — Nhiệt độc",
+        "yhhd_hint": "Viêm thận bể thận cấp (pyelonephritis)"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Tiểu buốt kèm tiểu ra máu, không sốt, không đau lưng",
+        "symptom_codes": [
+          "dysuria",
+          "hematuria",
+          "painless_hematuria"
+        ],
+        "yhct_hint": "Huyết lâm — Huyết nhiệt bức huyết vong hành",
+        "yhhd_hint": "Sỏi tiết niệu, ung thư bàng quang, ung thư thận — CẦN LOẠI TRỪ NGAY"
+      }
+    ],
+    "red_flag_trigger": [
+      "C"
+    ],
+    "notes": "Tiểu ra máu không đau là dấu hiệu báo động của ung thư bàng quang hoặc thận cho đến khi được chứng minh ngược lại"
+  },
+  {
+    "phrase_id": "OBS_B06_002",
+    "phrase_vi": "tiểu ra máu",
+    "variants_vi": [
+      "đái ra máu",
+      "nước tiểu có máu",
+      "tiểu hồng",
+      "nước tiểu đỏ",
+      "tiểu lẫn máu"
+    ],
+    "regions": [
+      "all"
+    ],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Nước tiểu của bạn có máu — bạn có đau không, máu xuất hiện lúc nào trong dòng tiểu?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Tiểu ra máu, không đau, không sốt, tự nhiên xuất hiện",
+        "symptom_codes": [
+          "painless_hematuria",
+          "gross_hematuria"
+        ],
+        "yhct_hint": "Huyết lâm — Huyết nhiệt hoặc Thận hư không tàng tinh huyết",
+        "yhhd_hint": "ĐỎ CỜ: Ung thư bàng quang, ung thư thận, ung thư niệu quản — chuyển khám chuyên khoa NGAY"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Tiểu ra máu kèm đau quặn hông lưng dữ dội, buồn nôn",
+        "symptom_codes": [
+          "hematuria",
+          "renal_colic",
+          "nausea"
+        ],
+        "yhct_hint": "Thạch lâm — Thấp nhiệt kết thạch, khí trệ huyết ứ",
+        "yhhd_hint": "Sỏi thận, sỏi niệu quản"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Tiểu ra máu kèm tiểu buốt, sốt, đau hạ vị",
+        "symptom_codes": [
+          "hematuria",
+          "dysuria",
+          "fever",
+          "suprapubic_pain"
+        ],
+        "yhct_hint": "Bàng quang thấp nhiệt huyết lâm",
+        "yhhd_hint": "Viêm bàng quang xuất huyết, viêm thận bể thận"
+      },
+      {
+        "option_code": "D",
+        "label_vi": "Tiểu ra máu ở nam giới trên 50 tuổi, tiểu khó, tiểu ngắt quãng",
+        "symptom_codes": [
+          "hematuria",
+          "obstructive_urinary_symptoms",
+          "male_over_50"
+        ],
+        "yhct_hint": "Thận hư bàng quang thấp nhiệt, Can thận hư suy",
+        "yhhd_hint": "ĐỎ CỜ: Ung thư tuyến tiền liệt, phì đại tiền liệt tuyến kèm biến chứng"
+      }
+    ],
+    "red_flag_trigger": [
+      "A",
+      "D"
+    ],
+    "notes": "Tiểu ra máu không đau là red flag tuyệt đối — ung thư đường tiết niệu cho đến khi loại trừ bằng nội soi bàng quang và CT scan"
+  },
+  {
+    "phrase_id": "OBS_B06_003",
+    "phrase_vi": "tiểu không hết",
+    "variants_vi": [
+      "đi tiểu không ra hết",
+      "tiểu xong vẫn còn mắc",
+      "tiểu nhỏ giọt",
+      "tiểu không thoát"
+    ],
+    "regions": [
+      "all"
+    ],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Sau khi đi tiểu xong, bạn vẫn cảm thấy như thế nào? Dòng tiểu có yếu không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Tiểu xong vẫn còn cảm giác mắc tiểu, dòng tiểu yếu, phải rặn",
+        "symptom_codes": [
+          "incomplete_bladder_emptying",
+          "weak_urine_stream",
+          "straining_to_void"
+        ],
+        "yhct_hint": "Thận khí bất cố, Bàng quang khí hoá thất thường",
+        "yhhd_hint": "Phì đại tiền liệt tuyến lành tính (BPH), hẹp niệu đạo"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Tiểu xong nhỏ giọt mãi, sau tiểu còn rỉ ra ngoài quần",
+        "symptom_codes": [
+          "post_void_dribbling",
+          "terminal_dribbling"
+        ],
+        "yhct_hint": "Thận khí hư, Bàng quang không chứa đựng",
+        "yhhd_hint": "Hẹp niệu đạo, BPH, rối loạn chức năng cơ thắt"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Bí tiểu hoàn toàn, không tiểu được, bụng dưới căng tức",
+        "symptom_codes": [
+          "acute_urinary_retention",
+          "suprapubic_distension"
+        ],
+        "yhct_hint": "Bàng quang khí bế, Thận dương suy kiệt",
+        "yhhd_hint": "Bí tiểu cấp — CẦN XỬ TRÍ NGAY: BPH biến chứng, hẹp niệu đạo, u tiền liệt tuyến"
+      }
+    ],
+    "red_flag_trigger": [
+      "C"
+    ],
+    "notes": "Bí tiểu cấp hoàn toàn là cấp cứu tiết niệu"
+  },
+  {
+    "phrase_id": "OBS_B06_004",
+    "phrase_vi": "tiểu đêm nhiều lần",
+    "variants_vi": [
+      "nửa đêm hay dậy đi tiểu",
+      "đêm tiểu nhiều",
+      "tiểu đêm",
+      "hay thức dậy đi tiểu"
+    ],
+    "regions": [
+      "all"
+    ],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Mỗi đêm bạn thức dậy đi tiểu bao nhiêu lần? Lượng nước tiểu mỗi lần nhiều hay ít?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Thức dậy 2-3 lần mỗi đêm, mỗi lần tiểu ít, dòng tiểu yếu",
+        "symptom_codes": [
+          "nocturia",
+          "weak_urine_stream",
+          "frequency"
+        ],
+        "yhct_hint": "Thận khí hư, Bàng quang khí hoá thất thường",
+        "yhhd_hint": "BPH, bàng quang tăng hoạt (OAB)"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Tiểu đêm nhiều, mỗi lần lượng nhiều, kèm khát nước, uống nhiều",
+        "symptom_codes": [
+          "nocturia",
+          "polyuria",
+          "polydipsia"
+        ],
+        "yhct_hint": "Thận âm hư tiêu khát — Tiêu chứng hạ tiêu",
+        "yhhd_hint": "Đái tháo đường, đái nhạt"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Tiểu đêm nhiều kèm phù chân, khó thở khi nằm",
+        "symptom_codes": [
+          "nocturia",
+          "pedal_edema",
+          "orthopnea"
+        ],
+        "yhct_hint": "Tâm thận dương hư, thủy thấp tràn lan",
+        "yhhd_hint": "Suy tim, hội chứng thận hư"
+      }
+    ],
+    "red_flag_trigger": [
+      "C"
+    ],
+    "notes": "Tiểu đêm kèm phù và khó thở nằm gợi ý suy tim cần đánh giá khẩn"
+  },
+  {
+    "phrase_id": "OBS_B06_005",
+    "phrase_vi": "tiểu khó",
+    "variants_vi": [
+      "tiểu khó ra",
+      "tiểu phải rặn",
+      "đi tiểu khó",
+      "tiểu không ra được"
+    ],
+    "regions": [
+      "all"
+    ],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Tiểu khó của bạn xảy ra từ khi nào, có kèm đau hoặc triệu chứng gì khác không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Tiểu khó, dòng tiểu yếu, phải rặn, tiểu ngắt quãng ở nam giới cao tuổi",
+        "symptom_codes": [
+          "hesitancy",
+          "weak_stream",
+          "intermittent_stream",
+          "male_elderly"
+        ],
+        "yhct_hint": "Thận khí suy, Can thận hư",
+        "yhhd_hint": "BPH, ung thư tiền liệt tuyến"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Tiểu khó xảy ra đột ngột sau chấn thương vùng đáy chậu",
+        "symptom_codes": [
+          "acute_urinary_difficulty",
+          "perineal_trauma"
+        ],
+        "yhct_hint": "Huyết ứ bế tắc kinh lạc vùng hạ tiêu",
+        "yhhd_hint": "Vỡ niệu đạo sau chấn thương — cấp cứu"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Tiểu khó ở nữ giới, đau vùng chậu, tiền sử phẫu thuật phụ khoa",
+        "symptom_codes": [
+          "female_voiding_difficulty",
+          "pelvic_pain",
+          "post_gynecological_surgery"
+        ],
+        "yhct_hint": "Thấp nhiệt hạ tiêu, khí huyết ứ trệ",
+        "yhhd_hint": "Hẹp niệu đạo sau phẫu thuật, lạc nội mạc tử cung chèn ép"
+      }
+    ],
+    "red_flag_trigger": [
+      "B"
+    ],
+    "notes": ""
+  },
+  {
+    "phrase_id": "OBS_B06_006",
+    "phrase_vi": "tiểu són",
+    "variants_vi": [
+      "són tiểu",
+      "rỉ nước tiểu",
+      "tiểu không kiểm soát",
+      "đái không tự chủ",
+      "tiểu rỉ"
+    ],
+    "regions": [
+      "all"
+    ],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Tiểu không kiểm soát xảy ra trong tình huống nào — khi ho, hắt hơi, hay tự nhiên?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Rỉ nước tiểu khi ho, hắt hơi, nhảy, vận động mạnh",
+        "symptom_codes": [
+          "stress_urinary_incontinence",
+          "exertional_leakage"
+        ],
+        "yhct_hint": "Thận khí bất cố, Bàng quang khí hư không chứa",
+        "yhhd_hint": "Tiểu không kiểm soát do stress (SUI) — phổ biến sau sinh ở phụ nữ"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Đột ngột mắc tiểu gấp, không nhịn được, rỉ trước khi đến nhà vệ sinh",
+        "symptom_codes": [
+          "urgency_urinary_incontinence",
+          "urinary_urgency"
+        ],
+        "yhct_hint": "Bàng quang thấp nhiệt, Can hỏa bức bàng quang",
+        "yhhd_hint": "Bàng quang tăng hoạt (OAB), viêm bàng quang"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Tiểu rỉ rả liên tục, bàng quang luôn đầy, không tiểu hết được",
+        "symptom_codes": [
+          "overflow_incontinence",
+          "chronic_urinary_retention"
+        ],
+        "yhct_hint": "Thận dương hư, Bàng quang khí hoá vô lực",
+        "yhhd_hint": "Tiểu không kiểm soát tràn do BPH, tổn thương thần kinh, đái tháo đường biến chứng"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Tiểu són mới xuất hiện sau tai biến mạch máu não hoặc chấn thương cột sống cần đánh giá thần kinh"
+  },
+  {
+    "phrase_id": "OBS_B06_007",
+    "phrase_vi": "tiểu rát",
+    "variants_vi": [
+      "đi tiểu bị rát",
+      "tiểu xong bị rát",
+      "rát khi tiểu",
+      "đái rát"
+    ],
+    "regions": [
+      "all"
+    ],
+    "requires_disambiguation": false,
+    "disambiguation_question": "",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Rát khi tiểu, tiểu nhiều lần, nước tiểu vàng đục hoặc có mùi hôi",
+        "symptom_codes": [
+          "burning_micturition",
+          "urinary_frequency",
+          "pyuria"
+        ],
+        "yhct_hint": "Bàng quang thấp nhiệt — Nhiệt lâm",
+        "yhhd_hint": "Viêm bàng quang, viêm niệu đạo, STI (lậu, chlamydia)"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Tiểu rát ở phụ nữ trẻ thường là UTI không biến chứng; ở nam giới cần loại trừ STI"
+  },
+  {
+    "phrase_id": "OBS_B06_008",
+    "phrase_vi": "nước tiểu đục",
+    "variants_vi": [
+      "tiểu đục",
+      "nước tiểu có cặn",
+      "nước tiểu như nước vo gạo",
+      "tiểu trắng đục"
+    ],
+    "regions": [
+      "all"
+    ],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Nước tiểu đục như thế nào — đục trắng, vàng đục, hay có lẫn mủ?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Nước tiểu vàng đục, có mùi hôi, kèm tiểu buốt, sốt",
+        "symptom_codes": [
+          "cloudy_urine",
+          "foul_smelling_urine",
+          "dysuria",
+          "fever"
+        ],
+        "yhct_hint": "Bàng quang thấp nhiệt, Thấp độc hạ chú",
+        "yhhd_hint": "Nhiễm trùng tiểu, viêm thận bể thận"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Nước tiểu trắng đục như sữa, không đau, không sốt",
+        "symptom_codes": [
+          "chyluria",
+          "milky_urine"
+        ],
+        "yhct_hint": "Cao lâm — Thấp trọc hạ lưu, Tỳ thận hư",
+        "yhhd_hint": "Chyluria (giun chỉ bạch huyết), nhiễm trùng tiểu nặng"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": ""
+  },
+  {
+    "phrase_id": "OBS_B06_009",
+    "phrase_vi": "đau hố thắt lưng",
+    "variants_vi": [
+      "đau lưng hông",
+      "đau thắt lưng một bên",
+      "đau vùng thận",
+      "đau hông lưng"
+    ],
+    "regions": [
+      "all"
+    ],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Đau hố thắt lưng của bạn như thế nào — quặn từng cơn hay âm ỉ liên tục? Có tiểu ra máu không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đau quặn dữ dội hố thắt lưng lan xuống bẹn, bìu, tiểu ra máu",
+        "symptom_codes": [
+          "renal_colic",
+          "hematuria",
+          "pain_radiating_to_groin"
+        ],
+        "yhct_hint": "Thạch lâm — Thấp nhiệt kết thạch, khí trệ huyết ứ",
+        "yhhd_hint": "Sỏi thận, sỏi niệu quản"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Đau âm ỉ hố thắt lưng một bên, sốt, tiểu buốt, tiểu đục",
+        "symptom_codes": [
+          "flank_pain",
+          "fever",
+          "dysuria",
+          "cloudy_urine"
+        ],
+        "yhct_hint": "Thận bàng quang thấp nhiệt",
+        "yhhd_hint": "Viêm thận bể thận cấp"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Đau âm ỉ hố thắt lưng một bên, tiểu ra máu không đau, không sốt, sụt cân",
+        "symptom_codes": [
+          "flank_pain",
+          "painless_hematuria",
+          "weight_loss"
+        ],
+        "yhct_hint": "Huyết lâm — Huyết nhiệt, hoặc Thận hư huyết ứ",
+        "yhhd_hint": "ĐỎ CỜ: Ung thư thận (renal cell carcinoma)"
+      }
+    ],
+    "red_flag_trigger": [
+      "C"
+    ],
+    "notes": "Bộ ba đau hông lưng + tiểu máu + khối u bụng là tam chứng cổ điển của ung thư thận"
+  },
+  {
+    "phrase_id": "OBS_B06_010",
+    "phrase_vi": "phù chân",
+    "variants_vi": [
+      "chân bị sưng",
+      "chân phù",
+      "mu chân phù",
+      "cổ chân sưng to"
+    ],
+    "regions": [
+      "all"
+    ],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Phù chân của bạn xảy ra ở đâu, một bên hay hai bên, và có kèm triệu chứng gì khác?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Phù hai chân đối xứng, ấn lõm, kèm tiểu ít, nước tiểu sủi bọt",
+        "symptom_codes": [
+          "bilateral_pitting_edema",
+          "oliguria",
+          "frothy_urine"
+        ],
+        "yhct_hint": "Tỳ thận dương hư, thủy thấp nội đình",
+        "yhhd_hint": "Hội chứng thận hư, suy thận mạn, suy tim"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Phù một bên chân, đỏ, nóng, đau khi sờ",
+        "symptom_codes": [
+          "unilateral_leg_edema",
+          "erythema",
+          "warmth",
+          "tenderness"
+        ],
+        "yhct_hint": "Thấp nhiệt hạ chú, huyết ứ kinh lạc",
+        "yhhd_hint": "Huyết khối tĩnh mạch sâu (DVT) — CẦN LOẠI TRỪ NGAY"
+      }
+    ],
+    "red_flag_trigger": [
+      "B"
+    ],
+    "notes": ""
+  },
+  {
+    "phrase_id": "OBS_B06_011",
+    "phrase_vi": "kinh không đều",
+    "variants_vi": [
+      "kinh nguyệt không đều",
+      "kinh thất thường",
+      "tháng có tháng không",
+      "chu kỳ kinh không đều"
+    ],
+    "regions": [
+      "all"
+    ],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Kinh không đều của bạn như thế nào — lúc sớm lúc muộn, hay nhiều tháng không có kinh?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Kinh ra trước kỳ hạn (sớm hơn 7 ngày), lượng nhiều, màu đỏ tươi",
+        "symptom_codes": [
+          "polymenorrhea",
+          "menorrhagia",
+          "bright_red_menses"
+        ],
+        "yhct_hint": "Huyết nhiệt bức huyết vong hành, Can uất hóa hỏa",
+        "yhhd_hint": "Rối loạn nội tiết, viêm nội mạc tử cung"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Kinh ra muộn kỳ hạn (trễ hơn 7 ngày), lượng ít, màu tối, đông cục",
+        "symptom_codes": [
+          "oligomenorrhea",
+          "hypomenorrhea",
+          "dark_clotted_menses"
+        ],
+        "yhct_hint": "Huyết hư Can thận bất túc, hàn ngưng huyết ứ",
+        "yhhd_hint": "Suy buồng trứng, PCOS, cường giáp/suy giáp"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Kinh không đều ở phụ nữ trên 45 tuổi, hoặc ra máu âm đạo sau mãn kinh",
+        "symptom_codes": [
+          "perimenopausal_bleeding",
+          "postmenopausal_bleeding"
+        ],
+        "yhct_hint": "Thiên quý sắp cạn, Can thận suy, huyết nhiệt hư",
+        "yhhd_hint": "ĐỎ CỜ: Ra máu sau mãn kinh — loại trừ ung thư nội mạc tử cung, ung thư cổ tử cung"
+      }
+    ],
+    "red_flag_trigger": [
+      "C"
+    ],
+    "notes": "Bất kỳ ra máu âm đạo nào sau mãn kinh (>12 tháng không có kinh) đều phải loại trừ ung thư nội mạc tử cung"
+  },
+  {
+    "phrase_id": "OBS_B06_012",
+    "phrase_vi": "kinh đau",
+    "variants_vi": [
+      "đau bụng kinh",
+      "thống kinh",
+      "đau khi hành kinh",
+      "bụng đau khi có kinh"
+    ],
+    "regions": [
+      "all"
+    ],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Đau bụng kinh của bạn như thế nào — đau từ khi nào, đau trước hay trong khi hành kinh?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đau bụng dưới trước và trong ngày đầu kinh, đau giảm dần, không kèm triệu chứng khác",
+        "symptom_codes": [
+          "primary_dysmenorrhea",
+          "lower_abdominal_cramping"
+        ],
+        "yhct_hint": "Khí trệ huyết ứ — hàn ngưng mạch tử cung",
+        "yhhd_hint": "Thống kinh nguyên phát — tăng prostaglandin"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Đau bụng kinh ngày càng nặng hơn theo năm, đau lan ra lưng, đau khi giao hợp",
+        "symptom_codes": [
+          "secondary_dysmenorrhea",
+          "progressive_dysmenorrhea",
+          "dyspareunia",
+          "back_pain"
+        ],
+        "yhct_hint": "Huyết ứ Can thận hư — Xung Nhâm thất điều",
+        "yhhd_hint": "ĐỎ CỜ: Lạc nội mạc tử cung (endometriosis), u xơ tử cung, viêm vùng chậu mạn"
+      }
+    ],
+    "red_flag_trigger": [
+      "B"
+    ],
+    "notes": "Thống kinh thứ phát tiến triển tăng dần là dấu hiệu báo động cần siêu âm và nội soi phụ khoa"
+  },
+  {
+    "phrase_id": "OBS_B06_013",
+    "phrase_vi": "kinh ra nhiều",
+    "variants_vi": [
+      "kinh nhiều",
+      "lượng kinh nhiều",
+      "băng huyết nhẹ",
+      "kinh kéo dài và nhiều"
+    ],
+    "regions": [
+      "all"
+    ],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Kinh ra nhiều của bạn như thế nào — ra bao nhiêu ngày, lượng so với bình thường?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Kinh nhiều hơn bình thường, kéo dài hơn 7 ngày, thay băng mỗi 1-2 giờ",
+        "symptom_codes": [
+          "menorrhagia",
+          "prolonged_menstruation",
+          "heavy_menstrual_bleeding"
+        ],
+        "yhct_hint": "Huyết nhiệt, Tỳ hư không thống huyết, Xung Nhâm bất cố",
+        "yhhd_hint": "U xơ tử cung, polyp nội mạc, rối loạn đông máu, suy giáp"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Ra máu âm đạo lượng rất nhiều đột ngột, ngất xỉu, chóng mặt",
+        "symptom_codes": [
+          "acute_heavy_vaginal_bleeding",
+          "hemorrhagic_shock_signs"
+        ],
+        "yhct_hint": "Băng huyết cấp — Khí thoát huyết bôn",
+        "yhhd_hint": "Băng huyết cấp — CẤP CỨU: có thể do sảy thai, thai ngoài tử cung vỡ, polyp, ung thư"
+      }
+    ],
+    "red_flag_trigger": [
+      "B"
+    ],
+    "notes": ""
+  },
+  {
+    "phrase_id": "OBS_B06_014",
+    "phrase_vi": "kinh ít",
+    "variants_vi": [
+      "kinh rất ít",
+      "lượng kinh ít",
+      "kinh chỉ có vài ngày",
+      "kinh lờ đờ"
+    ],
+    "regions": [
+      "all"
+    ],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Kinh ít của bạn từ bao giờ, trước đây kinh có bình thường không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Kinh ít dần, màu nhạt, mệt mỏi, hoa mắt chóng mặt",
+        "symptom_codes": [
+          "hypomenorrhea",
+          "pale_menses",
+          "fatigue",
+          "dizziness"
+        ],
+        "yhct_hint": "Huyết hư, Tỳ thận hư không sinh huyết",
+        "yhhd_hint": "Thiếu máu, suy dinh dưỡng, suy buồng trứng sớm"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Kinh ít sau nạo thai hoặc phẫu thuật tử cung, đau bụng dưới âm ỉ",
+        "symptom_codes": [
+          "hypomenorrhea_post_procedure",
+          "post_uterine_surgery",
+          "pelvic_pain"
+        ],
+        "yhct_hint": "Huyết ứ Xung Nhâm, Cung hàn huyết ứ",
+        "yhhd_hint": "Hội chứng Asherman (dính buồng tử cung)"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": ""
+  },
+  {
+    "phrase_id": "OBS_B06_015",
+    "phrase_vi": "băng kinh",
+    "variants_vi": [
+      "băng huyết",
+      "ra máu kinh quá nhiều",
+      "xả máu kinh",
+      "kinh như xả"
+    ],
+    "regions": [
+      "all"
+    ],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Bạn đang ra máu nhiều như thế nào — có choáng váng, ngất xỉu hoặc máu ra không ngừng không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Kinh ra rất nhiều, thay băng mỗi giờ nhiều ngày liên tiếp, mệt lả",
+        "symptom_codes": [
+          "menorrhagia",
+          "severe_anemia_symptoms",
+          "fatigue"
+        ],
+        "yhct_hint": "Băng lậu — Huyết nhiệt, Tỳ hư không thống huyết, Thận hư Xung Nhâm bất cố",
+        "yhhd_hint": "U xơ tử cung, polyp, rối loạn đông máu, suy giáp, ung thư nội mạc"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Ra máu âm đạo ồ ạt đột ngột, ngất, huyết áp tụt, tay chân lạnh",
+        "symptom_codes": [
+          "acute_hemorrhage",
+          "syncope",
+          "hypotension",
+          "shock_signs"
+        ],
+        "yhct_hint": "Khí thoát huyết bôn — cấp chứng hư thoát",
+        "yhhd_hint": "CẤP CỨU: Sốc mất máu — thai ngoài tử cung vỡ, sảy thai, nhau tiền đạo"
+      }
+    ],
+    "red_flag_trigger": [
+      "B"
+    ],
+    "notes": "Băng huyết cấp tính với dấu hiệu sốc là cấp cứu sản phụ khoa"
+  },
+  {
+    "phrase_id": "OBS_B06_016",
+    "phrase_vi": "ra khí hư bất thường",
+    "variants_vi": [
+      "ra huyết trắng bất thường",
+      "dịch âm đạo bất thường",
+      "khí hư nhiều có mùi",
+      "huyết trắng có màu lạ"
+    ],
+    "regions": [
+      "all"
+    ],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Khí hư bất thường có màu gì, mùi như thế nào, và có kèm ngứa không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Khí hư trắng đục như váng sữa, ngứa âm hộ nhiều, không mùi hôi",
+        "symptom_codes": [
+          "white_thick_discharge",
+          "vulvar_pruritus",
+          "candidal_discharge"
+        ],
+        "yhct_hint": "Thấp nhiệt hạ chú, Can kinh thấp nhiệt",
+        "yhhd_hint": "Viêm âm đạo do nấm Candida"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Khí hư vàng xanh, mùi hôi tanh, ngứa rát âm hộ",
+        "symptom_codes": [
+          "purulent_discharge",
+          "foul_odor",
+          "vulvovaginitis"
+        ],
+        "yhct_hint": "Thấp độc hạ chú, Xung Nhâm thấp nhiệt",
+        "yhhd_hint": "Viêm âm đạo do Trichomonas, viêm do lậu cầu, viêm vùng chậu"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Khí hư có lẫn máu, màu hồng hoặc nâu, không liên quan kỳ kinh",
+        "symptom_codes": [
+          "blood_stained_discharge",
+          "intermenstrual_bleeding"
+        ],
+        "yhct_hint": "Huyết nhiệt huyết ứ, Xung Nhâm tổn thương",
+        "yhhd_hint": "ĐỎ CỜ: Ung thư cổ tử cung, ung thư nội mạc tử cung, polyp — cần soi cổ tử cung và sinh thiết"
+      }
+    ],
+    "red_flag_trigger": [
+      "C"
+    ],
+    "notes": "Khí hư có máu ngoài kỳ kinh hoặc sau mãn kinh phải được loại trừ ung thư"
+  },
+  {
+    "phrase_id": "OBS_B06_017",
+    "phrase_vi": "đau vùng chậu",
+    "variants_vi": [
+      "đau bụng dưới",
+      "đau hạ vị",
+      "đau bụng dưới mạn tính",
+      "đau vùng bụng dưới"
+    ],
+    "regions": [
+      "all"
+    ],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Đau vùng chậu của bạn đau âm ỉ hay đau dữ dội, đau liên quan kỳ kinh không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đau âm ỉ vùng chậu mạn tính, tăng khi hành kinh, đau khi giao hợp",
+        "symptom_codes": [
+          "chronic_pelvic_pain",
+          "dysmenorrhea",
+          "dyspareunia"
+        ],
+        "yhct_hint": "Huyết ứ Cung hàn, Can khí uất kết",
+        "yhhd_hint": "Lạc nội mạc tử cung, viêm vùng chậu mạn, u xơ tử cung"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Đau vùng chậu dữ dội đột ngột, kèm sốt, khí hư mủ, đau khi khám cổ tử cung",
+        "symptom_codes": [
+          "acute_pelvic_pain",
+          "fever",
+          "purulent_discharge",
+          "cervical_motion_tenderness"
+        ],
+        "yhct_hint": "Thấp nhiệt độc tà xâm phạm bào cung",
+        "yhhd_hint": "Viêm vùng chậu cấp (PID) — cần điều trị kháng sinh ngay"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Đau vùng chậu đột ngột dữ dội ở phụ nữ độ tuổi sinh sản, trễ kinh, hCG dương tính",
+        "symptom_codes": [
+          "acute_pelvic_pain",
+          "amenorrhea",
+          "positive_pregnancy_test"
+        ],
+        "yhct_hint": "Huyết ứ cấp tính hạ tiêu",
+        "yhhd_hint": "CẤP CỨU: Thai ngoài tử cung vỡ — nguy cơ tử vong"
+      }
+    ],
+    "red_flag_trigger": [
+      "C"
+    ],
+    "notes": "Thai ngoài tử cung vỡ là cấp cứu phụ khoa đe dọa tính mạng"
+  },
+  {
+    "phrase_id": "OBS_B06_018",
+    "phrase_vi": "khô âm đạo",
+    "variants_vi": [
+      "âm đạo khô",
+      "giao hợp đau do khô",
+      "khô rát âm đạo",
+      "không có dịch khi quan hệ"
+    ],
+    "regions": [
+      "all"
+    ],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Khô âm đạo của bạn xảy ra từ bao giờ, có kèm bốc hỏa hoặc mãn kinh không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Khô âm đạo kèm bốc hỏa, đổ mồ hôi đêm, kinh thưa hoặc mãn kinh",
+        "symptom_codes": [
+          "vaginal_dryness",
+          "hot_flashes",
+          "night_sweats",
+          "menopause"
+        ],
+        "yhct_hint": "Thận âm hư, Thiên quý cạn kiệt, Can thận âm hư hỏa vượng",
+        "yhhd_hint": "Hội chứng tiền mãn kinh/mãn kinh — thiếu estrogen"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Khô âm đạo ở phụ nữ sau hóa trị, xạ trị hoặc sau phẫu thuật cắt buồng trứng",
+        "symptom_codes": [
+          "iatrogenic_vaginal_dryness",
+          "post_oophorectomy",
+          "post_chemotherapy"
+        ],
+        "yhct_hint": "Tinh huyết hư tổn, Thận âm đột ngột suy giảm",
+        "yhhd_hint": "Mãn kinh y tế (surgical/chemical menopause)"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": ""
+  },
+  {
+    "phrase_id": "OBS_B06_019",
+    "phrase_vi": "tắt kinh sớm",
+    "variants_vi": [
+      "mãn kinh sớm",
+      "kinh ngừng hẳn trước 45 tuổi",
+      "ngừng kinh sớm",
+      "không còn kinh từ sớm"
+    ],
+    "regions": [
+      "all"
+    ],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Kinh ngừng từ khi bạn bao nhiêu tuổi và có kèm triệu chứng gì không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Kinh ngừng hẳn trước 40 tuổi, kèm bốc hỏa, khô âm đạo, xét nghiệm FSH tăng cao",
+        "symptom_codes": [
+          "premature_ovarian_insufficiency",
+          "hot_flashes",
+          "vaginal_dryness",
+          "elevated_FSH"
+        ],
+        "yhct_hint": "Thận tinh suy kiệt sớm, Thiên quý cạn trước kỳ",
+        "yhhd_hint": "Suy buồng trứng sớm (POI/POF) — cần bổ sung hormone và tư vấn sinh sản"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Kinh ngừng đột ngột ở phụ nữ còn trẻ sau căng thẳng nặng, sụt cân nhiều",
+        "symptom_codes": [
+          "functional_hypothalamic_amenorrhea",
+          "stress",
+          "weight_loss"
+        ],
+        "yhct_hint": "Can khí uất kết, Tâm Tỳ lưỡng hư, Thận hư",
+        "yhhd_hint": "Vô kinh chức năng — hội chứng cô lập vùng dưới đồi, chán ăn tâm thần"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Suy buồng trứng sớm cần theo dõi loãng xương và bệnh tim mạch dài hạn"
+  },
+  {
+    "phrase_id": "OBS_B06_020",
+    "phrase_vi": "kinh kéo dài",
+    "variants_vi": [
+      "hành kinh nhiều ngày",
+      "kinh ra mãi không hết",
+      "kinh kéo dài hơn 10 ngày",
+      "hết kinh mà vẫn ra máu"
+    ],
+    "regions": [
+      "all"
+    ],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Kinh kéo dài bao nhiêu ngày và lượng ra như thế nào — nhiều hay rỉ rả?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Kinh kéo dài 10-14 ngày, lúc nhiều lúc ít, màu nhạt về cuối",
+        "symptom_codes": [
+          "prolonged_menstruation",
+          "irregular_flow"
+        ],
+        "yhct_hint": "Tỳ hư không thống huyết, Thận hư Xung Nhâm bất cố, huyết ứ",
+        "yhhd_hint": "Rối loạn nội tiết, polyp nội mạc, u xơ tử cung dưới niêm mạc"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Ra máu âm đạo kéo dài không theo chu kỳ, không liên quan hành kinh",
+        "symptom_codes": [
+          "abnormal_uterine_bleeding",
+          "acyclic_bleeding"
+        ],
+        "yhct_hint": "Băng lậu — Huyết nhiệt huyết ứ, Tỳ thận hư",
+        "yhhd_hint": "ĐỎ CỜ: Ung thư nội mạc tử cung, ung thư cổ tử cung, polyp ác tính — nội soi tử cung cấp thiết"
+      }
+    ],
+    "red_flag_trigger": [
+      "B"
+    ],
+    "notes": ""
+  },
+  {
+    "phrase_id": "OBS_B06_021",
+    "phrase_vi": "đau tinh hoàn",
+    "variants_vi": [
+      "tinh hoàn đau",
+      "đau hòn dái",
+      "đau bìu",
+      "tinh hoàn bị đau sưng"
+    ],
+    "regions": [
+      "all"
+    ],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Đau tinh hoàn của bạn xuất hiện đột ngột hay từ từ, có sưng đỏ không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đau tinh hoàn đột ngột dữ dội, tinh hoàn sưng to, kéo lên phía trên",
+        "symptom_codes": [
+          "acute_scrotal_pain",
+          "testicular_swelling",
+          "high_riding_testis"
+        ],
+        "yhct_hint": "Hàn trệ Can kinh cấp",
+        "yhhd_hint": "CẤP CỨU: Xoắn tinh hoàn (testicular torsion) — phẫu thuật trong vòng 6 giờ"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Đau tinh hoàn từ từ, sưng đau kèm sốt, tiểu buốt",
+        "symptom_codes": [
+          "subacute_testicular_pain",
+          "epididymo_orchitis",
+          "fever",
+          "dysuria"
+        ],
+        "yhct_hint": "Thấp nhiệt hạ chú Can kinh",
+        "yhhd_hint": "Viêm mào tinh hoàn, viêm tinh hoàn (chlamydia, lậu cầu ở người trẻ)"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Tinh hoàn sưng to không đau, cứng, nặng nề hơn bình thường",
+        "symptom_codes": [
+          "painless_testicular_swelling",
+          "testicular_mass",
+          "heavy_sensation"
+        ],
+        "yhct_hint": "Đởm đái thủy thũng, Huyết ứ kiên kết",
+        "yhhd_hint": "ĐỎ CỜ: Ung thư tinh hoàn — siêu âm và chỉ điểm u ngay"
+      }
+    ],
+    "red_flag_trigger": [
+      "A",
+      "C"
+    ],
+    "notes": "Xoắn tinh hoàn là cấp cứu trong vòng 6 giờ. Khối tinh hoàn cứng không đau phải loại trừ ung thư"
+  },
+  {
+    "phrase_id": "OBS_B06_022",
+    "phrase_vi": "xuất tinh sớm",
+    "variants_vi": [
+      "yếu sinh lý",
+      "ra nhanh",
+      "quan hệ không lâu được",
+      "không kéo dài được"
+    ],
+    "regions": [
+      "all"
+    ],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Xuất tinh sớm của bạn từ bao giờ, có kèm lo âu, căng thẳng hoặc bệnh lý nào không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Xuất tinh sớm từ lâu, không kèm bệnh lý, chủ yếu do tâm lý lo âu",
+        "symptom_codes": [
+          "lifelong_premature_ejaculation",
+          "performance_anxiety"
+        ],
+        "yhct_hint": "Thận khí bất cố, Tâm Thận bất giao",
+        "yhhd_hint": "Xuất tinh sớm nguyên phát — tâm lý trị liệu và hành vi tình dục"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Xuất tinh sớm mới xuất hiện gần đây kèm tiểu buốt, đau tầng sinh môn",
+        "symptom_codes": [
+          "acquired_premature_ejaculation",
+          "dysuria",
+          "perineal_pain"
+        ],
+        "yhct_hint": "Thấp nhiệt Can Thận kinh",
+        "yhhd_hint": "Viêm tuyến tiền liệt, viêm niệu đạo — cần điều trị nguyên nhân"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": ""
+  },
+  {
+    "phrase_id": "OBS_B06_023",
+    "phrase_vi": "yếu sinh lý",
+    "variants_vi": [
+      "không cương được",
+      "rối loạn cương dương",
+      "liệt dương",
+      "không quan hệ được"
+    ],
+    "regions": [
+      "all"
+    ],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Vấn đề về cương dương của bạn xảy ra từ bao giờ, có mắc tiểu đường hay huyết áp cao không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Khó cương hoặc không cương được, không có cương buổi sáng, kèm tiểu đường hoặc huyết áp cao",
+        "symptom_codes": [
+          "erectile_dysfunction",
+          "absent_morning_erection",
+          "diabetes",
+          "hypertension"
+        ],
+        "yhct_hint": "Thận dương hư, Mệnh môn hỏa suy",
+        "yhhd_hint": "Rối loạn cương dương thực thể — bệnh mạch máu, thần kinh do tiểu đường, tác dụng phụ thuốc"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Không cương khi quan hệ nhưng vẫn cương buổi sáng, kèm lo âu, trầm cảm",
+        "symptom_codes": [
+          "psychogenic_erectile_dysfunction",
+          "morning_erection_present",
+          "anxiety",
+          "depression"
+        ],
+        "yhct_hint": "Can khí uất, Tâm Thận bất giao, Tâm khí hư",
+        "yhhd_hint": "Rối loạn cương dương tâm lý — cần đánh giá tâm lý"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Rối loạn cương dương ở nam giới trên 40 tuổi có thể là dấu hiệu sớm của bệnh mạch vành"
+  },
+  {
+    "phrase_id": "OBS_B06_024",
+    "phrase_vi": "tinh trùng yếu",
+    "variants_vi": [
+      "tinh trùng ít",
+      "vô sinh nam",
+      "khó có con",
+      "tinh dịch đồ bất thường"
+    ],
+    "regions": [
+      "all"
+    ],
+    "requires_disambiguation": false,
+    "disambiguation_question": "",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Vợ chồng không có thai sau 1 năm quan hệ không dùng biện pháp tránh thai, xét nghiệm tinh dịch đồ bất thường",
+        "symptom_codes": [
+          "male_infertility",
+          "oligospermia",
+          "asthenospermia"
+        ],
+        "yhct_hint": "Thận tinh bất túc, Thận âm dương lưỡng hư, Can thận hư",
+        "yhhd_hint": "Vô sinh nam: oligospermia, asthenospermia, azoospermia — xét nghiệm hormone và di truyền"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Azoospermia có thể do tắc ống dẫn tinh hoặc không sinh tinh — cần sinh thiết tinh hoàn"
+  },
+  {
+    "phrase_id": "OBS_B06_025",
+    "phrase_vi": "ngứa da",
+    "variants_vi": [
+      "da hay bị ngứa",
+      "ngứa toàn thân",
+      "ngứa khắp người",
+      "ngứa da không có nổi mẩn"
+    ],
+    "regions": [
+      "all"
+    ],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Ngứa da của bạn như thế nào — ngứa toàn thân hay từng vùng, có nổi mẩn đỏ không, ngứa về đêm không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Ngứa toàn thân về đêm, kèm nổi vệt đỏ, người khác trong nhà cũng ngứa",
+        "symptom_codes": [
+          "nocturnal_pruritus",
+          "urticarial_rash",
+          "contact_transmission"
+        ],
+        "yhct_hint": "Phong thấp nhiệt xâm bì phu",
+        "yhhd_hint": "Ghẻ (scabies)"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Ngứa toàn thân không có nổi mẩn, kèm vàng da, mệt mỏi, nước tiểu vàng sậm",
+        "symptom_codes": [
+          "generalized_pruritus_without_rash",
+          "jaundice",
+          "dark_urine"
+        ],
+        "yhct_hint": "Thấp nhiệt uẩn kết Can Đởm — Hoàng đản",
+        "yhhd_hint": "ĐỎ CỜ: Ứ mật (cholestasis), xơ gan, ung thư tụy, ung thư đường mật"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Ngứa từng vùng da khô, có vảy trắng, không nổi mẩn đỏ, tái phát mạn tính",
+        "symptom_codes": [
+          "localized_pruritus",
+          "dry_skin",
+          "scaling",
+          "chronic_recurrence"
+        ],
+        "yhct_hint": "Huyết hư phong táo, Phế khí hư bì phu mất nhuận",
+        "yhhd_hint": "Viêm da cơ địa (eczema), vảy nến (psoriasis), da khô mạn tính"
+      },
+      {
+        "option_code": "D",
+        "label_vi": "Ngứa toàn thân, sụt cân, đổ mồ hôi đêm, nổi hạch",
+        "symptom_codes": [
+          "generalized_pruritus",
+          "weight_loss",
+          "night_sweats",
+          "lymphadenopathy"
+        ],
+        "yhct_hint": "Chính khí hư tổn, Tà khí nội kết",
+        "yhhd_hint": "ĐỎ CỜ: U lympho Hodgkin, bệnh máu ác tính"
+      }
+    ],
+    "red_flag_trigger": [
+      "B",
+      "D"
+    ],
+    "notes": "Ngứa toàn thân không có tổn thương da cần loại trừ bệnh lý nội tạng: gan mật, thận, máu, ung thư"
+  },
+  {
+    "phrase_id": "OBS_B06_026",
+    "phrase_vi": "phát ban",
+    "variants_vi": [
+      "nổi ban đỏ",
+      "nổi mẩn đỏ",
+      "da nổi ban",
+      "ban đỏ toàn thân"
+    ],
+    "regions": [
+      "all"
+    ],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Ban đỏ xuất hiện ở đâu, có sốt không, có dùng thuốc mới không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Ban đỏ toàn thân kèm sốt cao, đau khớp, tiền sử tiếp xúc bệnh nhân",
+        "symptom_codes": [
+          "maculopapular_rash",
+          "high_fever",
+          "arthralgia",
+          "infectious_contact"
+        ],
+        "yhct_hint": "Ôn tà xâm vệ khí, Nhiệt nhập dinh huyết",
+        "yhhd_hint": "Sởi, rubella, sốt dengue, ban đỏ nhiễm trùng"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Ban đỏ xuất hiện sau dùng thuốc mới (kháng sinh, NSAIDs), ngứa nhiều",
+        "symptom_codes": [
+          "drug_rash",
+          "urticaria",
+          "pruritus",
+          "recent_medication"
+        ],
+        "yhct_hint": "Phong nhiệt dược độc xâm bì phu",
+        "yhhd_hint": "Dị ứng thuốc — ngừng thuốc ngay, theo dõi phản vệ"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Ban đỏ dạng bướm ở mặt (hai má và sống mũi), kèm đau khớp, rụng tóc, mệt mỏi",
+        "symptom_codes": [
+          "butterfly_rash",
+          "malar_rash",
+          "arthralgia",
+          "alopecia",
+          "fatigue"
+        ],
+        "yhct_hint": "Âm hư nội nhiệt, Nhiệt độc xâm lạc",
+        "yhhd_hint": "ĐỎ CỜ: Lupus ban đỏ hệ thống (SLE) — cần ANA, anti-dsDNA"
+      },
+      {
+        "option_code": "D",
+        "label_vi": "Ban xuất huyết dạng chấm đỏ không mờ khi ấn, kèm sốt, đau đầu",
+        "symptom_codes": [
+          "petechiae",
+          "non_blanching_rash",
+          "fever",
+          "headache"
+        ],
+        "yhct_hint": "Nhiệt độc bức huyết vong hành",
+        "yhhd_hint": "CẤP CỨU: Viêm màng não mô cầu (meningococcemia), xuất huyết giảm tiểu cầu nặng"
+      }
+    ],
+    "red_flag_trigger": [
+      "C",
+      "D"
+    ],
+    "notes": "Ban không mờ khi ấn (non-blanching) là dấu hiệu cấp cứu tuyệt đối"
+  },
+  {
+    "phrase_id": "OBS_B06_027",
+    "phrase_vi": "mề đay",
+    "variants_vi": [
+      "nổi mề đay",
+      "nổi mẩn ngứa",
+      "nổi phù Quincke",
+      "ngứa nổi mề đay"
+    ],
+    "regions": [
+      "all"
+    ],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Mề đay xuất hiện sau khi ăn gì, dùng thuốc gì, hay tự nhiên nổi? Có sưng môi mặt không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Mề đay nổi sau ăn hải sản, thuốc hoặc tiếp xúc dị nguyên, ngứa nhiều",
+        "symptom_codes": [
+          "acute_urticaria",
+          "allergen_exposure",
+          "pruritus"
+        ],
+        "yhct_hint": "Phong nhiệt hoặc Phong hàn xâm bì phu, Tỳ vị thấp nhiệt",
+        "yhhd_hint": "Mề đay dị ứng cấp — tránh dị nguyên, kháng histamine"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Mề đay kèm sưng môi, lưỡi, họng, khó thở, huyết áp tụt",
+        "symptom_codes": [
+          "angioedema",
+          "throat_swelling",
+          "dyspnea",
+          "hypotension"
+        ],
+        "yhct_hint": "Phong độc cấp tính",
+        "yhhd_hint": "CẤP CỨU: Phản vệ (anaphylaxis) — tiêm epinephrine ngay"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Mề đay tái phát mạn tính trên 6 tuần, không rõ nguyên nhân",
+        "symptom_codes": [
+          "chronic_spontaneous_urticaria",
+          "recurrent_episodes"
+        ],
+        "yhct_hint": "Huyết hư sinh phong, Phong thấp nhiệt uẩn bì phu",
+        "yhhd_hint": "Mề đay mạn tính tự phát — cần loại trừ bệnh tuyến giáp, lupus, ký sinh trùng"
+      }
+    ],
+    "red_flag_trigger": [
+      "B"
+    ],
+    "notes": "Mề đay kèm phù Quincke đường thở là cấp cứu phản vệ"
+  },
+  {
+    "phrase_id": "OBS_B06_028",
+    "phrase_vi": "da khô bong vảy",
+    "variants_vi": [
+      "da bong tróc",
+      "da khô nứt",
+      "vảy da",
+      "da hay bong vảy trắng"
+    ],
+    "regions": [
+      "all"
+    ],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Da bong vảy ở đâu, vảy màu gì, có ngứa nhiều không, có người thân bị tương tự không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Mảng da đỏ, bong vảy trắng bạc dày ở khuỷu tay, đầu gối, da đầu, ngứa vừa",
+        "symptom_codes": [
+          "psoriatic_plaques",
+          "silvery_scales",
+          "extensor_surface",
+          "scalp_involvement"
+        ],
+        "yhct_hint": "Huyết nhiệt phong táo, Huyết hư phong thổi",
+        "yhhd_hint": "Vảy nến (psoriasis) — mạn tính, có thể kèm viêm khớp vảy nến"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Da khô bong vảy toàn thân kèm tóc thưa, mệt mỏi, sợ lạnh, tăng cân",
+        "symptom_codes": [
+          "generalized_dry_skin",
+          "hair_loss",
+          "fatigue",
+          "cold_intolerance",
+          "weight_gain"
+        ],
+        "yhct_hint": "Thận dương hư, Tỳ Thận dương hư không ôn dưỡng bì phu",
+        "yhhd_hint": "Suy giáp (hypothyroidism) — kiểm tra TSH"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Da khô, ngứa, nứt nẻ theo mùa, nếp gấp khuỷu tay, khoeo chân, tiền sử hen hoặc viêm mũi dị ứng",
+        "symptom_codes": [
+          "atopic_dermatitis",
+          "flexural_eczema",
+          "atopic_triad",
+          "seasonal_variation"
+        ],
+        "yhct_hint": "Phế Tỳ hư, Huyết hư phong táo xâm bì phu",
+        "yhhd_hint": "Viêm da cơ địa (atopic dermatitis)"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": ""
+  },
+  {
+    "phrase_id": "OBS_B06_029",
+    "phrase_vi": "da dầu mụn nhiều",
+    "variants_vi": [
+      "hay nổi mụn",
+      "mụn nhiều",
+      "da dầu hay nổi mụn",
+      "mụn không hết"
+    ],
+    "regions": [
+      "all"
+    ],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Mụn xuất hiện chủ yếu ở đâu, từ khi nào, có kèm kinh không đều hoặc rậm lông không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Mụn trứng cá nhiều ở mặt, lưng ngực, da dầu, tuổi dậy thì hoặc thanh niên",
+        "symptom_codes": [
+          "acne_vulgaris",
+          "oily_skin",
+          "comedones",
+          "papules"
+        ],
+        "yhct_hint": "Phế Vị nhiệt uẩn bì phu, Thấp nhiệt uất kết",
+        "yhhd_hint": "Trứng cá thông thường (acne vulgaris)"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Mụn nhiều ở phụ nữ kèm kinh không đều, rậm lông, béo phì hoặc khó có con",
+        "symptom_codes": [
+          "acne_with_hirsutism",
+          "irregular_menses",
+          "obesity",
+          "infertility"
+        ],
+        "yhct_hint": "Đàm thấp Can thận hư, Xung Nhâm rối loạn",
+        "yhhd_hint": "Hội chứng buồng trứng đa nang (PCOS) — kiểm tra androgen, siêu âm buồng trứng"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": ""
+  },
+  {
+    "phrase_id": "OBS_B06_030",
+    "phrase_vi": "da vàng",
+    "variants_vi": [
+      "vàng da",
+      "người vàng vàng",
+      "mắt vàng",
+      "da và mắt đều vàng"
+    ],
+    "regions": [
+      "all"
+    ],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Da và mắt vàng từ bao giờ, có đau bụng không, phân có trắng nhạt không, có uống rượu không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Vàng da kèm đau hạ sườn phải, sốt, tiểu vàng sậm, phân nhạt màu",
+        "symptom_codes": [
+          "jaundice",
+          "right_hypochondrial_pain",
+          "fever",
+          "dark_urine",
+          "pale_stool"
+        ],
+        "yhct_hint": "Thấp nhiệt Can Đởm — Dương hoàng",
+        "yhhd_hint": "Sỏi mật tắc nghẽn, viêm đường mật, viêm gan siêu vi cấp"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Vàng da từ từ, không đau, sụt cân, ngứa toàn thân, phân bạc màu",
+        "symptom_codes": [
+          "painless_jaundice",
+          "weight_loss",
+          "pruritus",
+          "acholic_stool"
+        ],
+        "yhct_hint": "Thấp nhiệt Can Đởm, Âm hoàng — Can khí uất kết",
+        "yhhd_hint": "ĐỎ CỜ: Ung thư đầu tụy, ung thư đường mật, ung thư bóng Vater"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Vàng da ở trẻ sơ sinh trong tuần đầu, bú kém, lờ đờ",
+        "symptom_codes": [
+          "neonatal_jaundice",
+          "poor_feeding",
+          "lethargy"
+        ],
+        "yhct_hint": "Thai hoàng, Thấp nhiệt thai độc",
+        "yhhd_hint": "Vàng da sơ sinh — kiểm tra bilirubin để loại trừ vàng da nhân não (kernicterus)"
+      }
+    ],
+    "red_flag_trigger": [
+      "B",
+      "C"
+    ],
+    "notes": "Vàng da không đau kèm sụt cân là dấu hiệu ung thư tụy tới khi loại trừ"
+  },
+  {
+    "phrase_id": "OBS_B06_031",
+    "phrase_vi": "bầm tím dễ",
+    "variants_vi": [
+      "hay bị bầm",
+      "dễ bị thâm tím",
+      "va chạm nhẹ đã bầm",
+      "da hay xuất huyết"
+    ],
+    "regions": [
+      "all"
+    ],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Bầm tím xuất hiện tự nhiên hay sau va chạm nhỏ, có kèm chảy máu răng lợi, chảy máu mũi không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Bầm tím tự nhiên hoặc sau va chạm rất nhẹ, kèm chảy máu chân răng, chảy máu mũi",
+        "symptom_codes": [
+          "easy_bruising",
+          "spontaneous_bruising",
+          "gingival_bleeding",
+          "epistaxis"
+        ],
+        "yhct_hint": "Huyết nhiệt bức huyết, Tỳ hư không thống huyết, Thận âm hư huyết nhiệt",
+        "yhhd_hint": "ĐỎ CỜ: Giảm tiểu cầu (ITP, DIC), rối loạn đông máu, bệnh máu ác tính (leukemia)"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Bầm tím dễ ở người cao tuổi dùng aspirin, warfarin hoặc NOAC",
+        "symptom_codes": [
+          "drug_induced_bruising",
+          "anticoagulant_use",
+          "elderly"
+        ],
+        "yhct_hint": "Khí hư huyết ứ, Tỳ khí hư không thống huyết",
+        "yhhd_hint": "Tác dụng phụ thuốc chống đông — kiểm tra INR/CBC"
+      }
+    ],
+    "red_flag_trigger": [
+      "A"
+    ],
+    "notes": "Xuất huyết tự phát nhiều vị trí cần xét nghiệm công thức máu và đông máu khẩn"
+  },
+  {
+    "phrase_id": "OBS_B06_032",
+    "phrase_vi": "vết thương lâu lành",
+    "variants_vi": [
+      "vết thương không lành",
+      "vết loét lâu lành",
+      "vết thương hay bị nhiễm trùng",
+      "vết cắt lâu lành"
+    ],
+    "regions": [
+      "all"
+    ],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Vết thương lâu lành ở đâu, bạn có mắc tiểu đường không, có dùng corticoid kéo dài không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Vết loét chân lâu lành, có hoại tử, ở người tiểu đường, cảm giác tê chân",
+        "symptom_codes": [
+          "diabetic_foot_ulcer",
+          "non_healing_wound",
+          "peripheral_neuropathy"
+        ],
+        "yhct_hint": "Tiêu khát biến chứng, Khí hư huyết ứ, Can Thận hư",
+        "yhhd_hint": "Bàn chân đái tháo đường — nguy cơ cắt cụt chi, cần chăm sóc chuyên khoa"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Vết loét mép da không lành, bờ cứng, không đau, ngày càng lớn hơn",
+        "symptom_codes": [
+          "non_healing_ulcer",
+          "indurated_border",
+          "painless_ulcer",
+          "progressive_growth"
+        ],
+        "yhct_hint": "Độc tà kiên kết, Chính khí hư tổn",
+        "yhhd_hint": "ĐỎ CỜ: Ung thư tế bào vảy (SCC), ung thư tế bào đáy (BCC) da — sinh thiết ngay"
+      }
+    ],
+    "red_flag_trigger": [
+      "B"
+    ],
+    "notes": "Loét da không lành trên 4 tuần với bờ cứng phải sinh thiết để loại trừ ung thư da"
+  },
+  {
+    "phrase_id": "OBS_B06_033",
+    "phrase_vi": "nám da",
+    "variants_vi": [
+      "da bị nám",
+      "đốm nâu trên da",
+      "tàn nhang nhiều",
+      "vết nâu trên mặt"
+    ],
+    "regions": [
+      "all"
+    ],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Vết nám xuất hiện từ bao giờ, ở vị trí nào, có thay đổi kích thước màu sắc không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đốm nâu đối xứng trên hai má và trán, rõ hơn sau nắng, ở phụ nữ dùng thuốc tránh thai hoặc sau thai kỳ",
+        "symptom_codes": [
+          "melasma",
+          "hormonal_hyperpigmentation",
+          "photosensitive"
+        ],
+        "yhct_hint": "Can khí uất kết, Huyết ứ bì phu, Thận âm hư",
+        "yhhd_hint": "Nám da (melasma) — do rối loạn nội tiết, tia UV; không nguy hiểm nhưng cần chống nắng"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Nốt ruồi hoặc đốm màu thay đổi màu sắc, bờ không đều, kích thước tăng, chảy máu",
+        "symptom_codes": [
+          "changing_pigmented_lesion",
+          "irregular_border",
+          "size_increase",
+          "bleeding_lesion"
+        ],
+        "yhct_hint": "Độc tà tích tụ bì phu",
+        "yhhd_hint": "ĐỎ CỜ: Nghi ngờ melanoma — ABCDE criteria, cần sinh thiết khẩn"
+      }
+    ],
+    "red_flag_trigger": [
+      "B"
+    ],
+    "notes": "Nốt ruồi thay đổi theo tiêu chí ABCDE (Asymmetry, Border, Color, Diameter, Evolution) phải được sinh thiết"
+  },
+  {
+    "phrase_id": "OBS_B06_034",
+    "phrase_vi": "rụng tóc nhiều",
+    "variants_vi": [
+      "tóc rụng nhiều",
+      "hói đầu",
+      "tóc hay rụng",
+      "tóc thưa dần"
+    ],
+    "regions": [
+      "all"
+    ],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Tóc rụng ở đâu — toàn bộ hay từng mảng, từ bao giờ, có kèm mệt mỏi hoặc căng thẳng nhiều không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Tóc rụng nhiều lan tỏa toàn bộ đầu sau căng thẳng nặng, sinh đẻ, hoặc bệnh nặng",
+        "symptom_codes": [
+          "telogen_effluvium",
+          "diffuse_hair_loss",
+          "post_stress",
+          "post_partum"
+        ],
+        "yhct_hint": "Huyết hư không vinh dưỡng mao phát, Thận tinh hư",
+        "yhhd_hint": "Rụng tóc tạm thời (telogen effluvium) — thường tự hồi phục"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Tóc rụng thành mảng hói tròn đột ngột, da đầu bình thường",
+        "symptom_codes": [
+          "alopecia_areata",
+          "patchy_hair_loss",
+          "smooth_scalp"
+        ],
+        "yhct_hint": "Huyết hư phong táo, Can Thận hư tổn",
+        "yhhd_hint": "Hói vùng (alopecia areata) — bệnh tự miễn"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Tóc rụng nhiều kèm mệt mỏi, sợ lạnh, tăng cân, táo bón, da khô",
+        "symptom_codes": [
+          "hair_loss_with_hypothyroid_symptoms",
+          "fatigue",
+          "cold_intolerance",
+          "constipation"
+        ],
+        "yhct_hint": "Thận dương hư, Tỳ thận dương hư",
+        "yhhd_hint": "Suy giáp — kiểm tra TSH ngay"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": ""
+  },
+  {
+    "phrase_id": "OBS_B06_035",
+    "phrase_vi": "mắt khô",
+    "variants_vi": [
+      "mắt bị khô",
+      "mắt rát khô",
+      "khô mắt",
+      "mắt cộm khô"
+    ],
+    "regions": [
+      "all"
+    ],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Mắt khô kèm triệu chứng gì khác — có đỏ mắt, chảy nước mắt nhiều không, có khô miệng không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Mắt khô, cộm, rát, đỏ nhẹ, nặng hơn khi nhìn màn hình nhiều",
+        "symptom_codes": [
+          "dry_eye_syndrome",
+          "ocular_surface_irritation",
+          "digital_eye_strain"
+        ],
+        "yhct_hint": "Can âm hư không vinh dưỡng mục, Phế táo",
+        "yhhd_hint": "Hội chứng khô mắt (dry eye disease) — tăng tiết nước mắt nhân tạo"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Mắt khô kèm khô miệng, khó nuốt, khô âm đạo ở phụ nữ trung niên",
+        "symptom_codes": [
+          "dry_eyes",
+          "dry_mouth",
+          "xerostomia",
+          "sicca_syndrome"
+        ],
+        "yhct_hint": "Âm hư táo, Can Thận âm hư, Phế Vị âm hư",
+        "yhhd_hint": "Hội chứng Sjögren — kiểm tra anti-Ro/La, nước bọt"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": ""
+  },
+  {
+    "phrase_id": "OBS_B06_036",
+    "phrase_vi": "mắt đỏ",
+    "variants_vi": [
+      "đỏ mắt",
+      "mắt bị đỏ",
+      "mắt đỏ hoe",
+      "tròng trắng mắt đỏ"
+    ],
+    "regions": [
+      "all"
+    ],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Mắt đỏ có đau không, nhìn mờ không, có tiết ghèn không, một mắt hay hai mắt?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Mắt đỏ, tiết ghèn nhiều, ngứa, hai mắt, không đau, không mờ",
+        "symptom_codes": [
+          "bilateral_conjunctivitis",
+          "discharge",
+          "pruritus"
+        ],
+        "yhct_hint": "Phong nhiệt thượng công Mục, Can Đởm hỏa vượng",
+        "yhhd_hint": "Viêm kết mạc do virus/vi khuẩn/dị ứng"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Mắt đỏ một bên, đau nhức dữ dội, nhìn mờ, thấy quầng sáng, buồn nôn",
+        "symptom_codes": [
+          "unilateral_red_eye",
+          "severe_eye_pain",
+          "blurred_vision",
+          "halos",
+          "nausea"
+        ],
+        "yhct_hint": "Can hỏa thượng viêm, Phong hỏa công Mục",
+        "yhhd_hint": "CẤP CỨU: Glaucoma góc đóng cấp — nhãn áp tăng đột ngột, nguy cơ mù vĩnh viễn"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Xuất huyết kết mạc đốm đỏ, không đau, không mờ, sau căng thẳng hoặc ho nhiều",
+        "symptom_codes": [
+          "subconjunctival_hemorrhage",
+          "painless_red_eye",
+          "after_straining"
+        ],
+        "yhct_hint": "Huyết nhiệt bức huyết vong hành cục bộ",
+        "yhhd_hint": "Xuất huyết kết mạc — lành tính, tự hết sau 1-2 tuần"
+      }
+    ],
+    "red_flag_trigger": [
+      "B"
+    ],
+    "notes": "Đỏ mắt kèm đau dữ dội và mờ mắt là glaucoma cấp cho đến khi chứng minh ngược lại"
+  },
+  {
+    "phrase_id": "OBS_B06_037",
+    "phrase_vi": "mắt mờ",
+    "variants_vi": [
+      "nhìn mờ",
+      "mắt nhìn không rõ",
+      "mắt kém dần",
+      "nhìn không rõ"
+    ],
+    "regions": [
+      "all"
+    ],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Nhìn mờ xuất hiện từ từ hay đột ngột, một mắt hay hai mắt, có kèm đau đầu không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Nhìn mờ từ từ hai mắt, nhìn đêm kém, không đau, tiến triển nhiều năm",
+        "symptom_codes": [
+          "bilateral_gradual_vision_loss",
+          "nyctalopia",
+          "painless"
+        ],
+        "yhct_hint": "Can Thận tinh huyết hư, Can khí không vinh dưỡng Mục",
+        "yhhd_hint": "Đục thể thuỷ tinh (cataract), Glaucoma mạn, thoái hoá hoàng điểm (AMD)"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Nhìn mờ đột ngột một mắt, không đau, như màn che trước mắt",
+        "symptom_codes": [
+          "sudden_unilateral_vision_loss",
+          "painless_monocular_visual_loss",
+          "curtain_effect"
+        ],
+        "yhct_hint": "Can huyết hư phong nội sinh, Khí huyết ứ trệ mạch Mục",
+        "yhhd_hint": "ĐỎ CỜ L1: Bong võng mạc, tắc động mạch trung tâm võng mạc, TIA/đột quỵ — CẤP CỨU NGAY"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Nhìn mờ ở người tiểu đường lâu năm, từ từ cả hai mắt, nhìn thấy điểm đen trôi nổi",
+        "symptom_codes": [
+          "diabetic_retinopathy",
+          "bilateral_gradual_blurring",
+          "floaters"
+        ],
+        "yhct_hint": "Tiêu khát biến chứng Mục, Can Thận âm hư",
+        "yhhd_hint": "Bệnh võng mạc đái tháo đường — kiểm soát đường huyết, laser"
+      }
+    ],
+    "red_flag_trigger": [
+      "B"
+    ],
+    "notes": "Mất thị lực đột ngột một bên là cấp cứu thần kinh — TIA hoặc đột quỵ cho đến khi loại trừ"
+  },
+  {
+    "phrase_id": "OBS_B06_038",
+    "phrase_vi": "chảy nước mắt",
+    "variants_vi": [
+      "mắt hay chảy nước",
+      "nước mắt chảy nhiều",
+      "chảy nước mắt sống",
+      "mắt hay ướt"
+    ],
+    "regions": [
+      "all"
+    ],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Chảy nước mắt xảy ra khi nào — tự nhiên hay khi ra gió, có kèm đỏ mắt không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Chảy nước mắt nhiều khi ra gió, nắng, lạnh, không có mủ",
+        "symptom_codes": [
+          "epiphora",
+          "lacrimation",
+          "environmental_trigger"
+        ],
+        "yhct_hint": "Can khí hư không liễm tiết, Phong hàn kích thích mục",
+        "yhhd_hint": "Tắc ống lệ tỵ, phản xạ bảo vệ mắt khô, viêm kết mạc nhẹ"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Chảy nước mắt kèm tiết mủ góc trong mắt, sưng đỏ vùng cạnh mũi",
+        "symptom_codes": [
+          "epiphora_with_discharge",
+          "dacryocystitis",
+          "medial_canthal_swelling"
+        ],
+        "yhct_hint": "Phong nhiệt thấp độc xâm lệ đạo",
+        "yhhd_hint": "Viêm túi lệ (dacryocystitis) — cần kháng sinh và thông ống lệ"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": ""
+  },
+  {
+    "phrase_id": "OBS_B06_039",
+    "phrase_vi": "nhìn đôi đột ngột",
+    "variants_vi": [
+      "thấy hai hình",
+      "nhìn ra hai",
+      "song thị đột ngột",
+      "mắt nhìn đôi"
+    ],
+    "regions": [
+      "all"
+    ],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Nhìn đôi xuất hiện đột ngột hay từ từ, một mắt nhắm lại có hết không, có kèm sụp mi hoặc đau đầu không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Nhìn đôi đột ngột, nhắm một mắt thì hết, kèm sụp mi, đau đầu, ở người tăng huyết áp hoặc tiểu đường",
+        "symptom_codes": [
+          "binocular_diplopia",
+          "ptosis",
+          "sudden_onset",
+          "headache"
+        ],
+        "yhct_hint": "Phong đàm ứ trở kinh lạc, Can phong nội động",
+        "yhhd_hint": "ĐỎ CỜ: Liệt dây III (phình mạch não, đái tháo đường), TIA/đột quỵ thân não — CT/MRI ngay"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Nhìn đôi từ từ, sụp mi hai bên, yếu cơ toàn thân nặng hơn về chiều",
+        "symptom_codes": [
+          "progressive_diplopia",
+          "bilateral_ptosis",
+          "fatigable_weakness"
+        ],
+        "yhct_hint": "Tỳ khí hư, Khí huyết lưỡng hư không vinh dưỡng cân mạch",
+        "yhhd_hint": "Nhược cơ (myasthenia gravis) — cần kiểm tra acetylcholine receptor antibodies"
+      }
+    ],
+    "red_flag_trigger": [
+      "A"
+    ],
+    "notes": "Nhìn đôi đột ngột kèm sụp mi và đau đầu là phình mạch não cho đến khi loại trừ — cấp cứu thần kinh"
+  },
+  {
+    "phrase_id": "OBS_B06_040",
+    "phrase_vi": "mất thị lực một bên đột ngột",
+    "variants_vi": [
+      "mù một mắt đột ngột",
+      "mắt tối sầm đột ngột",
+      "không nhìn thấy một mắt",
+      "mắt mờ hẳn đột ngột"
+    ],
+    "regions": [
+      "all"
+    ],
+    "requires_disambiguation": false,
+    "disambiguation_question": "",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Mất thị lực hoàn toàn hoặc gần hoàn toàn một mắt đột ngột, không đau",
+        "symptom_codes": [
+          "sudden_monocular_blindness",
+          "painless_vision_loss",
+          "amaurosis_fugax"
+        ],
+        "yhct_hint": "Khí huyết ứ trở mạch Mục, Can phong nội động",
+        "yhhd_hint": "ĐỎ CỜ L1: TIA (amaurosis fugax), tắc động/tĩnh mạch trung tâm võng mạc, bong võng mạc — GỌI CẤP CỨU NGAY, cửa sổ điều trị 90 phút"
+      }
+    ],
+    "red_flag_trigger": [
+      "A"
+    ],
+    "notes": "Mất thị lực một mắt đột ngột là cấp cứu thần kinh-nhãn khoa. Amaurosis fugax là tiền triệu đột quỵ. Gọi 115 ngay."
+  },
+  {
+    "phrase_id": "OBS_B06_041",
+    "phrase_vi": "miệng đắng",
+    "variants_vi": [
+      "đắng miệng",
+      "miệng hay đắng",
+      "buổi sáng thức dậy miệng đắng",
+      "ăn gì cũng thấy đắng"
+    ],
+    "regions": [
+      "all"
+    ],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Miệng đắng xảy ra lúc nào, kèm theo triệu chứng gì — vàng da, đau hạ sườn, hay stress nhiều?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Miệng đắng sáng sớm, kèm đau hạ sườn phải, ợ chua, ăn không ngon",
+        "symptom_codes": [
+          "bitter_taste",
+          "right_hypochondrial_discomfort",
+          "acid_reflux",
+          "anorexia"
+        ],
+        "yhct_hint": "Can Đởm thấp nhiệt, Can khí uất kết phạm Vị",
+        "yhhd_hint": "Bệnh trào ngược dạ dày thực quản (GERD), viêm túi mật, rối loạn chức năng túi mật"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Miệng đắng kèm căng thẳng, mất ngủ, đau đầu thái dương, dễ cáu",
+        "symptom_codes": [
+          "bitter_taste",
+          "stress",
+          "insomnia",
+          "temporal_headache",
+          "irritability"
+        ],
+        "yhct_hint": "Can Đởm uất nhiệt, Thiếu dương kinh chứng",
+        "yhhd_hint": "Rối loạn chức năng tiêu hóa do stress, GERD"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": ""
+  },
+  {
+    "phrase_id": "OBS_B06_042",
+    "phrase_vi": "miệng khô",
+    "variants_vi": [
+      "khô miệng",
+      "miệng hay khô",
+      "thiếu nước bọt",
+      "miệng ráo"
+    ],
+    "regions": [
+      "all"
+    ],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Miệng khô có kèm khát nước nhiều, uống nhiều, tiểu nhiều không, hay kèm khô mắt?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Miệng khô, khát nước liên tục, uống nhiều, tiểu nhiều, sụt cân",
+        "symptom_codes": [
+          "xerostomia",
+          "polydipsia",
+          "polyuria",
+          "weight_loss"
+        ],
+        "yhct_hint": "Tiêu khát — Phế Vị thận âm hư táo nhiệt",
+        "yhhd_hint": "Đái tháo đường — kiểm tra đường huyết lúc đói và HbA1c ngay"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Miệng khô kèm khô mắt, khó nuốt, khô âm đạo ở phụ nữ trung niên",
+        "symptom_codes": [
+          "dry_mouth",
+          "dry_eyes",
+          "dysphagia",
+          "vaginal_dryness"
+        ],
+        "yhct_hint": "Âm hư táo — Phế Vị Thận âm hư, Can Thận âm hư",
+        "yhhd_hint": "Hội chứng Sjögren — cần kháng thể anti-Ro/SSA, anti-La/SSB"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Miệng khô do dùng nhiều thuốc kháng cholinergic, thuốc chống trầm cảm, lợi tiểu",
+        "symptom_codes": [
+          "drug_induced_xerostomia",
+          "anticholinergic_medication"
+        ],
+        "yhct_hint": "Thuốc làm tổn Tân dịch",
+        "yhhd_hint": "Khô miệng do tác dụng phụ thuốc — đánh giá lại danh mục thuốc"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": ""
+  },
+  {
+    "phrase_id": "OBS_B06_043",
+    "phrase_vi": "loét miệng hay bị",
+    "variants_vi": [
+      "hay bị nhiệt miệng",
+      "loét trong miệng tái phát",
+      "miệng hay nổi lở",
+      "aphthous hay tái phát"
+    ],
+    "regions": [
+      "all"
+    ],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Loét miệng tái phát bao lâu một lần, kích thước lớn không, có kèm loét sinh dục không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Loét miệng nhỏ tái phát mỗi vài tuần, tự lành sau 1-2 tuần, không kèm triệu chứng toàn thân",
+        "symptom_codes": [
+          "recurrent_aphthous_stomatitis",
+          "minor_aphthae",
+          "self_healing"
+        ],
+        "yhct_hint": "Tâm Tỳ tích nhiệt, Âm hư hỏa vượng",
+        "yhhd_hint": "Loét áp-tơ tái phát (RAS) — stress, thiếu B12, sắt, acid folic"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Loét miệng to, nhiều, kèm loét sinh dục, viêm mắt, nổi ban da",
+        "symptom_codes": [
+          "major_aphthae",
+          "genital_ulcers",
+          "ocular_inflammation",
+          "skin_lesions"
+        ],
+        "yhct_hint": "Thấp nhiệt độc hỏa tam tiêu",
+        "yhhd_hint": "ĐỎ CỜ: Bệnh Behcet — cần đánh giá đa chuyên khoa"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Loét miệng không lành trên 3 tuần, bờ cứng, không đau, ở người hút thuốc hoặc uống rượu",
+        "symptom_codes": [
+          "non_healing_oral_ulcer",
+          "indurated_border",
+          "painless",
+          "tobacco_alcohol_use"
+        ],
+        "yhct_hint": "Độc tà uẩn kết khẩu xoang",
+        "yhhd_hint": "ĐỎ CỜ: Ung thư miệng — sinh thiết khẩn"
+      }
+    ],
+    "red_flag_trigger": [
+      "B",
+      "C"
+    ],
+    "notes": "Loét miệng không lành > 3 tuần ở người hút thuốc uống rượu phải sinh thiết loại trừ ung thư"
+  },
+  {
+    "phrase_id": "OBS_B06_044",
+    "phrase_vi": "hôi miệng",
+    "variants_vi": [
+      "miệng hôi",
+      "hơi thở hôi",
+      "người thân bảo miệng có mùi",
+      "hôi hơi thở"
+    ],
+    "regions": [
+      "all"
+    ],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Hôi miệng có thường xuyên không, có đánh răng đều không, có kèm đau răng, sâu răng, hay trào ngược không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Hôi miệng mạn tính, vệ sinh răng miệng kém, có sâu răng hoặc viêm lợi",
+        "symptom_codes": [
+          "halitosis",
+          "poor_oral_hygiene",
+          "dental_caries",
+          "gingivitis"
+        ],
+        "yhct_hint": "Vị nhiệt uất uẩn khẩu xoang",
+        "yhhd_hint": "Nguyên nhân tại chỗ: sâu răng, viêm lợi, viêm nha chu — gặp nha sĩ"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Hôi miệng mùi chua, kèm ợ chua, nóng rát sau xương ức",
+        "symptom_codes": [
+          "halitosis",
+          "acid_reflux",
+          "heartburn"
+        ],
+        "yhct_hint": "Vị nhiệt Can khí phạm Vị, Thực trệ hóa nhiệt",
+        "yhhd_hint": "GERD, H. pylori — cần điều trị bệnh nền"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Hôi miệng mùi khai như nước tiểu ở người có bệnh thận mạn",
+        "symptom_codes": [
+          "uremic_halitosis",
+          "ammoniacal_breath",
+          "chronic_kidney_disease"
+        ],
+        "yhct_hint": "Thận hư trọc khí thượng xông",
+        "yhhd_hint": "Hơi thở ure máu (uremic fetor) — suy thận mạn giai đoạn nặng"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": ""
+  },
+  {
+    "phrase_id": "OBS_B06_045",
+    "phrase_vi": "lưỡi tê",
+    "variants_vi": [
+      "tê lưỡi",
+      "lưỡi bị tê",
+      "cảm giác tê ở lưỡi",
+      "lưỡi mất cảm giác"
+    ],
+    "regions": [
+      "all"
+    ],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Tê lưỡi xuất hiện đột ngột hay từ từ, một bên hay toàn bộ lưỡi, có kèm yếu mặt hoặc khó nói không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Tê lưỡi đột ngột kèm tê mặt một bên, méo miệng, khó nói hoặc nói ngọng",
+        "symptom_codes": [
+          "sudden_tongue_numbness",
+          "facial_numbness",
+          "facial_droop",
+          "dysarthria"
+        ],
+        "yhct_hint": "Phong đàm ứ trở kinh lạc đầu mặt — Trúng phong",
+        "yhhd_hint": "ĐỎ CỜ L1: TIA hoặc đột quỵ — GỌI CẤP CỨU NGAY, tiêu chí FAST"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Tê lưỡi từ từ, lan đến môi và mặt, kèm mệt mỏi, thiếu máu",
+        "symptom_codes": [
+          "gradual_tongue_numbness",
+          "facial_paresthesia",
+          "fatigue",
+          "anemia"
+        ],
+        "yhct_hint": "Huyết hư không vinh dưỡng thiệt bản",
+        "yhhd_hint": "Thiếu vitamin B12, thiếu máu ác tính (pernicious anemia)"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Tê lưỡi sau nhổ răng hoặc phẫu thuật răng hàm mặt",
+        "symptom_codes": [
+          "post_dental_tongue_numbness",
+          "lingual_nerve_injury"
+        ],
+        "yhct_hint": "Kim khí tổn thương kinh lạc cục bộ",
+        "yhhd_hint": "Tổn thương thần kinh lưỡi sau thủ thuật — thường tự hồi phục"
+      }
+    ],
+    "red_flag_trigger": [
+      "A"
+    ],
+    "notes": "Tê lưỡi đột ngột kèm triệu chứng thần kinh khác là TIA/đột quỵ cho đến khi loại trừ"
+  },
+  {
+    "phrase_id": "OBS_B06_046",
+    "phrase_vi": "khô môi",
+    "variants_vi": [
+      "môi khô",
+      "môi nứt nẻ",
+      "môi hay bong da",
+      "môi ráo nứt"
+    ],
+    "regions": [
+      "all"
+    ],
+    "requires_disambiguation": false,
+    "disambiguation_question": "",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Môi khô nứt, bong da, không đau, theo mùa khô hoặc khi uống ít nước",
+        "symptom_codes": [
+          "chapped_lips",
+          "lip_dryness",
+          "seasonal",
+          "dehydration"
+        ],
+        "yhct_hint": "Phế Tỳ tân dịch bất túc, Âm hư táo",
+        "yhhd_hint": "Mất nước nhẹ, da khô theo mùa — uống đủ nước, bôi kem dưỡng ẩm"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Môi khô nứt nẻ nặng kèm sốt cao, lưỡi đỏ, phát ban đỏ ở trẻ em",
+        "symptom_codes": [
+          "lip_cracking",
+          "high_fever",
+          "red_tongue",
+          "rash",
+          "pediatric"
+        ],
+        "yhct_hint": "Ôn tà nhiệt độc xâm phạm",
+        "yhhd_hint": "ĐỎ CỜ: Bệnh Kawasaki ở trẻ em — điều trị bằng IVIG trong 10 ngày đầu"
+      }
+    ],
+    "red_flag_trigger": [
+      "B"
+    ],
+    "notes": "Bộ tứ môi khô + sốt + lưỡi đỏ + ban đỏ ở trẻ em nghĩ đến Kawasaki"
+  },
+  {
+    "phrase_id": "OBS_B06_047",
+    "phrase_vi": "loét sinh dục không đau",
+    "variants_vi": [
+      "vết loét dương vật không đau",
+      "loét vùng kín không đau",
+      "vết lở sinh dục",
+      "vết loét bộ phận sinh dục"
+    ],
+    "regions": [
+      "all"
+    ],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Vết loét ở đâu, có đau không, xuất hiện bao giờ, có quan hệ tình dục không an toàn gần đây không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Vết loét tròn, đáy sạch, bờ cứng, không đau ở dương vật hoặc âm hộ, có nổi hạch bẹn không đau",
+        "symptom_codes": [
+          "painless_genital_ulcer",
+          "indurated_chancre",
+          "inguinal_lymphadenopathy"
+        ],
+        "yhct_hint": "Độc tà xâm nhập hạ tiêu kinh lạc",
+        "yhhd_hint": "ĐỎ CỜ: Giang mai giai đoạn I (hard chancre Treponema pallidum) — RPR/VDRL, điều trị penicillin"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Vết loét sinh dục đau, mụn nước trước khi loét, tái phát nhiều lần",
+        "symptom_codes": [
+          "painful_genital_ulcer",
+          "vesicles_before_ulceration",
+          "recurrent"
+        ],
+        "yhct_hint": "Thấp nhiệt độc tà hạ tiêu, Can kinh thấp nhiệt",
+        "yhhd_hint": "Herpes sinh dục (HSV-2) — điều trị acyclovir"
+      }
+    ],
+    "red_flag_trigger": [
+      "A"
+    ],
+    "notes": "Loét sinh dục không đau bờ cứng = giang mai cho đến khi xét nghiệm âm tính. Giang mai có thể gây tổn thương tim mạch, thần kinh nếu không điều trị"
+  },
+  {
+    "phrase_id": "OBS_B06_048",
+    "phrase_vi": "ngứa vùng kín",
+    "variants_vi": [
+      "ngứa âm hộ",
+      "ngứa bộ phận sinh dục",
+      "ngứa háng",
+      "ngứa vùng sinh dục"
+    ],
+    "regions": [
+      "all"
+    ],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Ngứa vùng kín kèm khí hư bất thường không, ngứa từ bao giờ, có đang dùng thuốc kháng sinh không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Ngứa âm hộ nhiều, khí hư trắng đục như bã đậu, không mùi hôi",
+        "symptom_codes": [
+          "vulvar_pruritus",
+          "cottage_cheese_discharge",
+          "candidal_vaginitis"
+        ],
+        "yhct_hint": "Can kinh thấp nhiệt, Tỳ hư thấp trọc hạ chú",
+        "yhhd_hint": "Viêm âm đạo do Candida — thường sau kháng sinh hoặc đái tháo đường"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Ngứa vùng kín ở phụ nữ lớn tuổi, da âm hộ trắng nhạt, mỏng, dễ nứt",
+        "symptom_codes": [
+          "vulvar_pruritus",
+          "vulvar_atrophy",
+          "white_patch",
+          "thin_skin"
+        ],
+        "yhct_hint": "Thận Tỳ hư, tinh huyết hư không vinh dưỡng",
+        "yhhd_hint": "ĐỎ CỜ: Lichen sclerosus âm hộ — nguy cơ ung thư tế bào vảy âm hộ, sinh thiết nếu nghi ngờ"
+      }
+    ],
+    "red_flag_trigger": [
+      "B"
+    ],
+    "notes": "Lichen sclerosus âm hộ không điều trị có nguy cơ ung thư hoá"
+  },
+  {
+    "phrase_id": "OBS_B06_049",
+    "phrase_vi": "sưng bìu",
+    "variants_vi": [
+      "bìu sưng to",
+      "tinh hoàn sưng",
+      "một bên bìu to hơn",
+      "bìu to bất thường"
+    ],
+    "regions": [
+      "all"
+    ],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Bìu sưng một bên hay hai bên, có đau không, xuất hiện đột ngột hay từ từ?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Bìu sưng to hai bên, không đau, kèm phù chân, nước tiểu sủi bọt",
+        "symptom_codes": [
+          "bilateral_scrotal_edema",
+          "pedal_edema",
+          "frothy_urine"
+        ],
+        "yhct_hint": "Thủy thũng hạ thấu bìu — Tỳ thận dương hư",
+        "yhhd_hint": "Hội chứng thận hư, suy tim — phù toàn thân"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Một bên bìu to dần, không đau, cảm giác nặng, sờ thấy khối riêng với tinh hoàn",
+        "symptom_codes": [
+          "unilateral_scrotal_swelling",
+          "painless_mass",
+          "separate_from_testis"
+        ],
+        "yhct_hint": "Thủy thũng cục bộ — Thủy dịch tích tụ",
+        "yhhd_hint": "Tràn dịch màng tinh hoàn (hydrocele) — thường lành tính, siêu âm để loại trừ ung thư"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Một bên bìu to, sờ thấy tinh hoàn cứng, không đau, ở nam giới 15-35 tuổi",
+        "symptom_codes": [
+          "painless_hard_testicular_mass",
+          "young_male"
+        ],
+        "yhct_hint": "Huyết ứ kiên kết, Độc tà tích tụ",
+        "yhhd_hint": "ĐỎ CỜ: Ung thư tinh hoàn — siêu âm bìu và AFP/βhCG/LDH khẩn"
+      }
+    ],
+    "red_flag_trigger": [
+      "C"
+    ],
+    "notes": "Khối tinh hoàn cứng không đau ở nam giới trẻ là ung thư tinh hoàn cho đến khi chứng minh ngược lại"
+  },
+  {
+    "phrase_id": "OBS_B06_050",
+    "phrase_vi": "da sạm đen bất thường",
+    "variants_vi": [
+      "da sậm màu bất thường",
+      "da đen sạm vùng nách bẹn",
+      "da tối màu hơn",
+      "vùng da đen hơn bình thường"
+    ],
+    "regions": [
+      "all"
+    ],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Vùng da sạm ở đâu — nách, bẹn, cổ, hay toàn thân? Có kèm sụt cân, mệt mỏi, hoặc tăng cân không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Da sạm đen vùng nách, bẹn, cổ, da dày như nhung, kèm béo phì, kinh không đều",
+        "symptom_codes": [
+          "acanthosis_nigricans",
+          "axillary_hyperpigmentation",
+          "obesity",
+          "irregular_menses"
+        ],
+        "yhct_hint": "Đàm thấp uẩn kết, Tỳ hư thấp thịnh",
+        "yhhd_hint": "Gai đen (acanthosis nigricans) — dấu hiệu kháng insulin, PCOS, tiểu đường type 2"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Da sạm toàn thân, đặc biệt vùng da thường ánh nắng và nếp gấp, kèm mệt mỏi, tụt huyết áp, thèm muối",
+        "symptom_codes": [
+          "generalized_hyperpigmentation",
+          "fatigue",
+          "hypotension",
+          "salt_craving"
+        ],
+        "yhct_hint": "Thận dương hư, Mệnh môn hỏa suy, Thận tinh bất túc",
+        "yhhd_hint": "ĐỎ CỜ: Suy thượng thận mạn (bệnh Addison) — kiểm tra cortisol sáng và ACTH kích thích"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Nốt da sạm đen mới xuất hiện, to nhanh, bờ không đều, màu không đồng nhất",
+        "symptom_codes": [
+          "new_pigmented_lesion",
+          "rapid_growth",
+          "irregular_border",
+          "uneven_color"
+        ],
+        "yhct_hint": "Độc tà tích tụ bì phu",
+        "yhhd_hint": "ĐỎ CỜ: Nghi ngờ melanoma ác tính — sinh thiết khẩn theo tiêu chí ABCDE"
+      }
+    ],
+    "red_flag_trigger": [
+      "B",
+      "C"
+    ],
+    "notes": "Bệnh Addison có thể gây khủng hoảng thượng thận cấp tính khi stress — nguy hiểm tính mạng nếu không điều trị"
+  }
+]

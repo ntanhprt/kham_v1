@@ -1,0 +1,1407 @@
+[
+  {
+    "phrase_id": "OBS_B03_001",
+    "phrase_vi": "tức ngực",
+    "variants_vi": ["ngực tức", "ngực nặng nề", "ức ngực", "ngực bị tức"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Cảm giác tức ngực của bạn như thế nào và có kèm theo gì không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Tức ngực trái, lan ra cánh tay trái hoặc hàm, đổ mồ hôi lạnh, cảm giác sắp chết",
+        "symptom_codes": ["left_chest_tightness", "left_arm_radiation", "jaw_radiation", "diaphoresis_cold", "sense_of_impending_doom"],
+        "yhct_hint": "Hung tý — Tâm huyết ứ trở cấp — CẤP CỨU",
+        "yhhd_hint": "ACS (STEMI/NSTEMI) — GỌI 115 NGAY"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Tức ngực khi gắng sức, nghỉ ngơi thì hết",
+        "symptom_codes": ["exertional_chest_tightness", "relief_with_rest"],
+        "yhct_hint": "Hung tý — Tâm khí hư, khí trệ huyết ứ",
+        "yhhd_hint": "Đau thắt ngực ổn định (stable angina) — khám tim mạch"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Tức ngực kèm lo lắng, hồi hộp, không liên quan gắng sức",
+        "symptom_codes": ["chest_tightness_anxiety", "palpitations", "non_exertional"],
+        "yhct_hint": "Tâm Tỳ lưỡng hư, Tâm khí uất kết",
+        "yhhd_hint": "Rối loạn lo âu, cơn hoảng loạn (panic disorder)"
+      },
+      {
+        "option_code": "D",
+        "label_vi": "Tức ngực sau ăn, ợ chua, nằm xuống nặng hơn",
+        "symptom_codes": ["postprandial_chest_tightness", "acid_reflux", "worse_supine"],
+        "yhct_hint": "Can Vị bất hòa, khí nghịch thượng xung",
+        "yhhd_hint": "GERD, viêm thực quản trào ngược"
+      }
+    ],
+    "red_flag_trigger": ["option_A"],
+    "notes": "Phân biệt kỹ — option A là ACS, cần GỌI 115 ngay, không trì hoãn"
+  },
+  {
+    "phrase_id": "OBS_B03_002",
+    "phrase_vi": "đau ngực",
+    "variants_vi": ["ngực đau", "đau trong ngực", "ngực bị đau", "đau ở ngực"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Cơn đau ngực của bạn ở vị trí nào, đau như thế nào, có lan đi đâu không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đau ngực trái dữ dội như bóp nát, lan vai trái và tay trái, vã mồ hôi, buồn nôn",
+        "symptom_codes": ["severe_left_chest_pain", "crushing_quality", "left_shoulder_radiation", "left_arm_radiation", "diaphoresis", "nausea"],
+        "yhct_hint": "Hung tý — Tâm huyết ứ tắc cấp tính — CẤP CỨU",
+        "yhhd_hint": "STEMI — GỌI 115 NGAY, mỗi phút quan trọng"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Đau ngực đột ngột dữ dội kiểu xé, lan ra sau lưng",
+        "symptom_codes": ["sudden_tearing_chest_pain", "radiation_to_back"],
+        "yhct_hint": "Khí huyết bạo nghịch, Tâm mạch bế tắc cấp",
+        "yhhd_hint": "Bóc tách động mạch chủ (aortic dissection) — CẤP CỨU NGOẠI KHOA"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Đau ngực một bên khi hít thở sâu hoặc ho",
+        "symptom_codes": ["pleuritic_chest_pain", "unilateral", "worse_with_inspiration"],
+        "yhct_hint": "Phế khí uất trệ, Huyết ứ Phế lạc",
+        "yhhd_hint": "Viêm màng phổi, tràn khí màng phổi, PE (nếu có khó thở kèm)"
+      },
+      {
+        "option_code": "D",
+        "label_vi": "Đau ngực âm ỉ kéo dài nhiều ngày, sờ xương ức đau",
+        "symptom_codes": ["chronic_chest_ache", "sternal_tenderness"],
+        "yhct_hint": "Phong hàn phạm Phế, khí trệ huyết ứ vùng hung hiếp",
+        "yhhd_hint": "Viêm sụn sườn (costochondritis), đau cơ thành ngực"
+      }
+    ],
+    "red_flag_trigger": ["option_A", "option_B"],
+    "notes": "Luôn hỏi tính chất, vị trí, lan xạ để loại trừ ACS và bóc tách ĐMC"
+  },
+  {
+    "phrase_id": "OBS_B03_003",
+    "phrase_vi": "tim nhói",
+    "variants_vi": ["nhói tim", "đau nhói ở tim", "tim như kim châm", "ngực nhói"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Cơn nhói tim kéo dài bao lâu và xảy ra khi nào?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Nhói tim thoáng qua vài giây, không liên quan gắng sức, tự hết",
+        "symptom_codes": ["brief_stabbing_precordial_pain", "spontaneous_resolution"],
+        "yhct_hint": "Tâm khí uất kết, khí trệ cục bộ",
+        "yhhd_hint": "Precordial catch syndrome, đau cơ — thường lành tính"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Nhói tim kèm hồi hộp, tim đập nhanh loạn",
+        "symptom_codes": ["stabbing_precordial_pain", "palpitations", "arrhythmia_sensation"],
+        "yhct_hint": "Tâm huyết hư, Tâm khí bất túc",
+        "yhhd_hint": "Rối loạn nhịp tim (extrasystole, SVT) — cần ECG"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Tim nhói thoáng qua thường lành tính; cần cảnh giác nếu kèm rối loạn nhịp hoặc ngất"
+  },
+  {
+    "phrase_id": "OBS_B03_004",
+    "phrase_vi": "đau như bóp tim",
+    "variants_vi": ["bóp tim", "tim bị bóp", "ngực như bị bóp chặt", "tim bóp lại"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Cảm giác bóp tim này xảy ra lúc nào — lúc gắng sức hay lúc nghỉ?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đau bóp ngực trái khi leo cầu thang hoặc đi bộ nhanh, nghỉ 5 phút hết",
+        "symptom_codes": ["exertional_crushing_chest_pain", "relief_with_rest"],
+        "yhct_hint": "Hung tý — Tâm dương hư, khí huyết bất túc",
+        "yhhd_hint": "Đau thắt ngực ổn định — cần siêu âm tim, stress test"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Đau bóp ngực lúc nghỉ ngơi, kéo dài hơn 20 phút",
+        "symptom_codes": ["rest_chest_pain", "duration_over_20_min"],
+        "yhct_hint": "Hung tý cấp — Tâm huyết ứ tắc — CẤP CỨU",
+        "yhhd_hint": "Đau thắt ngực không ổn định / NSTEMI — CẤP CỨU"
+      }
+    ],
+    "red_flag_trigger": ["option_B"],
+    "notes": "Đau bóp ngực lúc nghỉ kéo dài >20 phút = ACS đến khi chứng minh ngược lại"
+  },
+  {
+    "phrase_id": "OBS_B03_005",
+    "phrase_vi": "ngực nặng",
+    "variants_vi": ["nặng ngực", "ngực nặng nề", "ngực như đè vật nặng", "ngực bị đè"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Cảm giác nặng ngực xuất hiện khi nào và có kèm khó thở không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Nặng ngực khi gắng sức, leo cầu thang, kèm khó thở",
+        "symptom_codes": ["exertional_chest_heaviness", "dyspnea_on_exertion"],
+        "yhct_hint": "Tâm Phế khí hư, hung tý",
+        "yhhd_hint": "Suy tim sung huyết, bệnh động mạch vành, COPD"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Nặng ngực sau ăn no, kèm ợ hơi",
+        "symptom_codes": ["postprandial_chest_heaviness", "belching"],
+        "yhct_hint": "Tỳ Vị thực trệ, khí cơ nghịch loạn",
+        "yhhd_hint": "GERD, chướng bụng sau ăn, hiatal hernia"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Nặng ngực kèm ho nhiều, khạc đờm xanh vàng",
+        "symptom_codes": ["chest_heaviness", "productive_cough", "purulent_sputum"],
+        "yhct_hint": "Phế nhiệt đàm trở, đàm thấp phạm Phế",
+        "yhhd_hint": "Viêm phổi, viêm phế quản cấp, đợt cấp COPD"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Phân biệt nguyên nhân tim mạch, tiêu hóa và hô hấp"
+  },
+  {
+    "phrase_id": "OBS_B03_006",
+    "phrase_vi": "đau ngực kèm vã mồ hôi",
+    "variants_vi": ["ngực đau ra mồ hôi", "đau ngực đổ mồ hôi lạnh", "tức ngực mồ hôi vã ra"],
+    "regions": ["all"],
+    "requires_disambiguation": false,
+    "disambiguation_question": null,
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đau ngực + vã mồ hôi lạnh — dấu hiệu nguy hiểm cần cấp cứu ngay",
+        "symptom_codes": ["chest_pain", "cold_diaphoresis", "sympathetic_activation"],
+        "yhct_hint": "Hung tý — Tâm dương bạo thoát — CẤP CỨU TUYỆT ĐỐI",
+        "yhhd_hint": "ACS/STEMI — GỌI 115 NGAY, không chờ đợi"
+      }
+    ],
+    "red_flag_trigger": ["option_A"],
+    "notes": "Tổ hợp đau ngực + mồ hôi lạnh = dấu hiệu cổ điển NMCT cấp — cấp cứu ngay"
+  },
+  {
+    "phrase_id": "OBS_B03_007",
+    "phrase_vi": "đau ngực lan tay trái",
+    "variants_vi": ["đau ngực ra tay trái", "ngực đau tê tay trái", "đau tim lan xuống tay", "ngực lan vai trái"],
+    "regions": ["all"],
+    "requires_disambiguation": false,
+    "disambiguation_question": null,
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đau ngực trái lan xuống cánh tay trái, có thể kèm tê bì tay, vã mồ hôi",
+        "symptom_codes": ["left_chest_pain", "left_arm_radiation", "paresthesia_left_arm", "diaphoresis"],
+        "yhct_hint": "Hung tý — Tâm mạch bế tắc — CẤP CỨU",
+        "yhhd_hint": "ACS — triệu chứng điển hình NMCT cấp — GỌI 115 NGAY"
+      }
+    ],
+    "red_flag_trigger": ["option_A"],
+    "notes": "Đau ngực lan tay trái là dấu hiệu cổ điển của ACS — không được bỏ qua"
+  },
+  {
+    "phrase_id": "OBS_B03_008",
+    "phrase_vi": "tức ngực khó thở",
+    "variants_vi": ["ngực tức khó thở", "khó thở tức ngực", "ngực tức thở không được", "tức ngực hụt hơi"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Tình trạng tức ngực khó thở bắt đầu từ từ hay đột ngột? Có kèm ho ra đờm hồng không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Khó thở đột ngột dữ dội, tức ngực, ho ra đờm có bọt hồng, phải ngồi dậy mới thở được",
+        "symptom_codes": ["acute_severe_dyspnea", "chest_tightness", "pink_frothy_sputum", "orthopnea"],
+        "yhct_hint": "Tâm Phế dương khí bạo thoát — Thủy ẩm lăng tâm — CẤP CỨU",
+        "yhhd_hint": "Phù phổi cấp (acute pulmonary edema) — GỌI 115 NGAY"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Tức ngực khó thở tăng dần theo tuần tháng, nằm xuống khó thở hơn, chân phù",
+        "symptom_codes": ["progressive_dyspnea", "orthopnea", "peripheral_edema"],
+        "yhct_hint": "Tâm khí/dương hư, Thủy ẩm ngưng tụ",
+        "yhhd_hint": "Suy tim mạn tính (CHF) — cần khám chuyên khoa tim mạch"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Tức ngực khó thở kịch phát, có tiếng thở rít, hay xảy ra về đêm hoặc khi tiếp xúc dị nguyên",
+        "symptom_codes": ["episodic_dyspnea", "wheeze", "nocturnal_dyspnea", "allergen_trigger"],
+        "yhct_hint": "Phế khí thượng nghịch, đàm nhiệt phạm Phế — hen suyễn",
+        "yhhd_hint": "Hen phế quản (asthma) — cần đánh giá mức độ nặng"
+      }
+    ],
+    "red_flag_trigger": ["option_A"],
+    "notes": "Option A = phù phổi cấp — cấp cứu tuyệt đối"
+  },
+  {
+    "phrase_id": "OBS_B03_009",
+    "phrase_vi": "đau ngực khi hít thở",
+    "variants_vi": ["thở vào đau ngực", "hít thở đau ngực", "ngực đau khi thở sâu", "đau ngực kiểu màng phổi"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Đau ngực khi thở ở bên nào, có kèm khó thở hay ho ra máu không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đau ngực một bên khi thở, kèm khó thở đột ngột, có thể ho ra máu, chân sưng",
+        "symptom_codes": ["pleuritic_chest_pain", "acute_dyspnea", "hemoptysis", "leg_swelling"],
+        "yhct_hint": "Phế lạc huyết ứ, khí huyết bất thông — cần cấp cứu",
+        "yhhd_hint": "Thuyên tắc phổi (PE) — CẤP CỨU — GỌI 115"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Đau ngực bên trái khi thở, sốt, ho, khạc đờm",
+        "symptom_codes": ["pleuritic_chest_pain", "fever", "productive_cough"],
+        "yhct_hint": "Phế nhiệt thành ung, tà khí phạm Phế",
+        "yhhd_hint": "Viêm phổi kèm viêm màng phổi"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Đau ngực một bên khi thở, không sốt, đột ngột xảy ra ở người trẻ gầy",
+        "symptom_codes": ["pleuritic_chest_pain", "no_fever", "sudden_onset", "young_thin_patient"],
+        "yhct_hint": "Phế khí bất tuyên, hung hiếp khí trệ",
+        "yhhd_hint": "Tràn khí màng phổi tự phát (spontaneous pneumothorax)"
+      }
+    ],
+    "red_flag_trigger": ["option_A"],
+    "notes": "Đau kiểu màng phổi + khó thở + chân sưng = nghĩ PE đến khi loại trừ"
+  },
+  {
+    "phrase_id": "OBS_B03_010",
+    "phrase_vi": "ngực bứt rứt",
+    "variants_vi": ["bứt rứt trong ngực", "ngực bứt rứt khó chịu", "trong ngực cồn cào", "ngực bực bội"],
+    "regions": ["Nam Bộ", "Trung Bộ"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Bứt rứt trong ngực có kèm hồi hộp, tim đập nhanh hay khó thở không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Bứt rứt ngực kèm hồi hộp, lo lắng, không liên quan gắng sức",
+        "symptom_codes": ["chest_discomfort", "palpitations", "anxiety"],
+        "yhct_hint": "Tâm Thận bất giao, Tâm thần bất an",
+        "yhhd_hint": "Rối loạn lo âu, cơn hoảng loạn"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Bứt rứt ngực, cồn cào, kèm ợ chua, buồn nôn",
+        "symptom_codes": ["chest_discomfort", "heartburn", "nausea"],
+        "yhct_hint": "Can Vị bất hòa, nhiệt tà phạm Vị",
+        "yhhd_hint": "GERD, viêm dạ dày"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Từ địa phương Nam Bộ — phân biệt nguyên nhân tim mạch, tâm lý và tiêu hóa"
+  },
+  {
+    "phrase_id": "OBS_B03_011",
+    "phrase_vi": "tim đau âm ỉ",
+    "variants_vi": ["âm ỉ vùng tim", "đau âm ỉ ngực trái", "ngực trái âm ỉ", "tim hơi đau âm ỉ"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Cơn đau âm ỉ vùng tim kéo dài bao lâu và có thay đổi theo thời gian không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đau âm ỉ ngực trái kéo dài vài tuần, kèm mệt mỏi, khó thở nhẹ khi gắng sức",
+        "symptom_codes": ["chronic_left_chest_ache", "fatigue", "mild_exertional_dyspnea"],
+        "yhct_hint": "Tâm khí hư, Tâm huyết hư — cần đánh giá toàn diện",
+        "yhhd_hint": "Bệnh cơ tim, viêm màng ngoài tim mạn, bệnh ĐMV mạn"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Đau âm ỉ ngực có từ sau nhiễm virus, gần đây nặng hơn khi gắng sức",
+        "symptom_codes": ["post_viral_chest_pain", "exertional_worsening"],
+        "yhct_hint": "Tà độc phạm Tâm, Tâm mạch bị thương",
+        "yhhd_hint": "Viêm cơ tim (myocarditis), viêm màng ngoài tim"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Cần phân biệt với đau cơ thành ngực; viêm cơ tim cần ECG và troponin"
+  },
+  {
+    "phrase_id": "OBS_B03_012",
+    "phrase_vi": "ngực thắt lại",
+    "variants_vi": ["ngực thắt", "như ai thắt ngực", "ngực bị siết", "cảm giác thắt chặt ngực"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Ngực thắt lại xảy ra lúc nào — đang đi bộ, leo cầu thang, hay lúc nằm nghỉ?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Ngực thắt khi gắng sức nhẹ như đi bộ, leo cầu thang, nghỉ ngơi thì hết sau vài phút",
+        "symptom_codes": ["exertional_chest_constriction", "relief_with_rest"],
+        "yhct_hint": "Hung tý — Tâm mạch khí trệ huyết ứ",
+        "yhhd_hint": "Đau thắt ngực ổn định — cần thăm khám tim mạch"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Ngực thắt lại đột ngột lúc nghỉ hoặc nửa đêm, kéo dài hơn 15-20 phút",
+        "symptom_codes": ["rest_chest_constriction", "nocturnal", "prolonged_duration"],
+        "yhct_hint": "Hung tý cấp — Hàn ngưng tâm mạch — CẤP CỨU",
+        "yhhd_hint": "NSTEMI/đau thắt ngực Prinzmetal — CẤP CỨU"
+      }
+    ],
+    "red_flag_trigger": ["option_B"],
+    "notes": "Đau thắt ngực lúc nghỉ = unstable angina/ACS đến khi loại trừ"
+  },
+  {
+    "phrase_id": "OBS_B03_013",
+    "phrase_vi": "hồi hộp",
+    "variants_vi": ["hay hồi hộp", "tim hồi hộp", "hồi hộp bất thường", "thường xuyên hồi hộp"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Khi hồi hộp, tim bạn đập như thế nào — nhanh, chậm, hay loạn? Kéo dài bao lâu?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Hồi hộp tim đập nhanh đột ngột, khoảng 150-200 lần/phút, khởi phát và kết thúc đột ngột",
+        "symptom_codes": ["paroxysmal_palpitations", "rapid_regular_rhythm", "sudden_onset_offset"],
+        "yhct_hint": "Tâm khí hư, Tâm âm bất túc — Kinh quý",
+        "yhhd_hint": "SVT (AVNRT/AVRT) — cần ECG trong cơn, xem xét Holter"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Hồi hộp tim đập loạn xạ, không đều, đôi lúc như bỏ nhịp",
+        "symptom_codes": ["irregular_palpitations", "skipped_beats", "irregular_rhythm"],
+        "yhct_hint": "Tâm khí/huyết hư, Tâm mạch thất thường — Kết đại xúc mạch",
+        "yhhd_hint": "Rung nhĩ, ngoại tâm thu (PVC/PAC) — cần ECG"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Hồi hộp kèm run tay, sụt cân, mắt lồi, đổ mồ hôi nhiều",
+        "symptom_codes": ["palpitations", "tremor", "weight_loss", "exophthalmos", "hyperhidrosis"],
+        "yhct_hint": "Âm hư hỏa vượng, Can Thận âm hư",
+        "yhhd_hint": "Cường giáp (Hyperthyroidism/Graves disease) — xét nghiệm tuyến giáp"
+      },
+      {
+        "option_code": "D",
+        "label_vi": "Hồi hộp kèm lo lắng quá mức, không có lý do rõ ràng, thường xuyên",
+        "symptom_codes": ["palpitations", "anxiety", "no_organic_cause"],
+        "yhct_hint": "Tâm Tỳ lưỡng hư, Tâm thần thất dưỡng",
+        "yhhd_hint": "Rối loạn lo âu lan tỏa, loạn thần kinh tim"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Hồi hộp kèm ngất, khó thở nặng hoặc đau ngực = cần cấp cứu"
+  },
+  {
+    "phrase_id": "OBS_B03_014",
+    "phrase_vi": "tim đập nhanh",
+    "variants_vi": ["tim đập mau", "tim hay đập nhanh", "nhịp tim nhanh", "mạch nhanh"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Tim đập nhanh xảy ra lúc nào — lúc nghỉ ngơi hay chỉ khi gắng sức?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Tim đập nhanh cả lúc nghỉ ngơi, kèm sụt cân, run tay, không chịu được nóng",
+        "symptom_codes": ["resting_tachycardia", "weight_loss", "tremor", "heat_intolerance"],
+        "yhct_hint": "Âm hư hỏa vượng — Can Thận âm hư",
+        "yhhd_hint": "Cường giáp — xét nghiệm TSH, FT4"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Tim đập nhanh kèm sốt, mệt mỏi toàn thân",
+        "symptom_codes": ["tachycardia", "fever", "systemic_fatigue"],
+        "yhct_hint": "Nhiệt tà phạm Tâm, Vệ Khí phận nhiệt",
+        "yhhd_hint": "Nhịp nhanh xoang do nhiễm trùng/sốt — điều trị nguyên nhân"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Tim đột nhiên đập rất nhanh (cảm giác như trống ngực), rồi đột ngột hết",
+        "symptom_codes": ["paroxysmal_tachycardia", "sudden_onset_offset"],
+        "yhct_hint": "Kinh quý — Tâm khí hư loạn",
+        "yhhd_hint": "SVT — cần ECG trong cơn"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Tim đập nhanh + ngất + tụt huyết áp = cấp cứu ngay"
+  },
+  {
+    "phrase_id": "OBS_B03_015",
+    "phrase_vi": "tim đập loạn",
+    "variants_vi": ["nhịp tim loạn", "tim đập không đều", "tim loạn nhịp", "đánh trống ngực loạn"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Tim đập loạn kèm theo chóng mặt, khó thở hay ngất xỉu không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Tim đập loạn kèm chóng mặt, xây xẩm mặt mày, suýt ngất",
+        "symptom_codes": ["arrhythmia", "dizziness", "presyncope"],
+        "yhct_hint": "Tâm khí/dương hư trọng — cần cấp cứu",
+        "yhhd_hint": "Rung nhĩ/nhịp nhanh thất với huyết động không ổn định — CẤP CỨU"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Tim đập loạn thỉnh thoảng, cảm giác như bỏ nhịp, không kèm triệu chứng khác",
+        "symptom_codes": ["intermittent_arrhythmia", "skipped_beats", "asymptomatic_otherwise"],
+        "yhct_hint": "Tâm huyết hư, Kết mạch hoặc Đại mạch",
+        "yhhd_hint": "Ngoại tâm thu (PVC/PAC) — cần Holter ECG 24h"
+      }
+    ],
+    "red_flag_trigger": ["option_A"],
+    "notes": "Rối loạn nhịp + huyết động không ổn định = cấp cứu tim mạch ngay"
+  },
+  {
+    "phrase_id": "OBS_B03_016",
+    "phrase_vi": "tim đập mạnh",
+    "variants_vi": ["đánh trống ngực", "tim đập thình thịch", "tim đập mạnh bất thường", "cảm thấy tim đập"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Tim đập mạnh xảy ra khi nào — sau gắng sức, lúc nghỉ, hay khi xúc động?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Tim đập mạnh sau hoạt động thể lực bình thường, kéo dài lâu hơn dự kiến",
+        "symptom_codes": ["prolonged_post_exertional_palpitations", "abnormal_recovery"],
+        "yhct_hint": "Tâm khí hư, Tâm dương bất túc",
+        "yhhd_hint": "Suy tim, bệnh cơ tim — cần siêu âm tim"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Tim đập mạnh lúc nghỉ về đêm, khó ngủ, hay mơ",
+        "symptom_codes": ["nocturnal_palpitations", "insomnia", "vivid_dreams"],
+        "yhct_hint": "Tâm Thận bất giao, Tâm âm hư, hỏa vượng",
+        "yhhd_hint": "Rối loạn giấc ngủ, lo âu, cường giáp nhẹ"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Tim đập mạnh thường lành tính nếu không kèm ngất hay khó thở nặng"
+  },
+  {
+    "phrase_id": "OBS_B03_017",
+    "phrase_vi": "ngất xỉu",
+    "variants_vi": ["ngất", "xỉu đi", "té ngất", "mất ý thức thoáng qua", "xây xẩm rồi ngất"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Ngất xảy ra trong hoàn cảnh nào — đứng lâu, gắng sức, hay đột ngột không báo trước?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Ngất đột ngột khi gắng sức, không có triệu chứng báo trước",
+        "symptom_codes": ["exertional_syncope", "no_prodrome"],
+        "yhct_hint": "Tâm dương bạo thoát — Cấp chứng",
+        "yhhd_hint": "Ngất do tim (arrhythmia, HCM, AS) — CẤP CỨU — cần ECG, Holter, siêu âm tim"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Ngất sau đứng dậy đột ngột, có cảm giác chóng mặt báo trước, hồi phục nhanh",
+        "symptom_codes": ["orthostatic_syncope", "prodromal_dizziness", "rapid_recovery"],
+        "yhct_hint": "Khí hư hạ hãm, Tâm Tỳ khí hư",
+        "yhhd_hint": "Ngất do hạ huyết áp tư thế (orthostatic hypotension)"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Ngất sau xúc động mạnh hoặc đau, có buồn nôn trước, hồi phục hoàn toàn",
+        "symptom_codes": ["vasovagal_syncope", "emotional_trigger", "nausea_prodrome"],
+        "yhct_hint": "Tâm Tỳ khí hư, Can khí uất kết",
+        "yhhd_hint": "Ngất phế vị (vasovagal syncope) — lành tính nhưng cần loại trừ nguyên nhân tim"
+      }
+    ],
+    "red_flag_trigger": ["option_A"],
+    "notes": "Ngất khi gắng sức = nguy hiểm tính mạng cho đến khi loại trừ nguyên nhân tim mạch"
+  },
+  {
+    "phrase_id": "OBS_B03_018",
+    "phrase_vi": "tim đập chậm",
+    "variants_vi": ["mạch chậm", "tim đập ít", "nhịp tim chậm", "tim đập yếu và chậm"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Tim đập chậm có kèm chóng mặt, ngất xỉu hoặc mệt không chịu nổi không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Tim đập chậm kèm chóng mặt, ngất, không chịu nổi gắng sức",
+        "symptom_codes": ["symptomatic_bradycardia", "dizziness", "syncope", "exercise_intolerance"],
+        "yhct_hint": "Tâm dương hư suy — cần cấp cứu",
+        "yhhd_hint": "Block nhĩ thất độ cao, hội chứng suy nút xoang — CẤP CỨU"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Tim đập chậm được phát hiện tình cờ, không có triệu chứng, đang dùng thuốc hạ áp",
+        "symptom_codes": ["asymptomatic_bradycardia", "medication_induced"],
+        "yhct_hint": "Tâm khí/dương hư nhẹ",
+        "yhhd_hint": "Nhịp chậm do thuốc (beta-blocker, CCB) — xem lại thuốc"
+      }
+    ],
+    "red_flag_trigger": ["option_A"],
+    "notes": "Nhịp chậm có triệu chứng = cấp cứu; cần xem thuốc đang dùng"
+  },
+  {
+    "phrase_id": "OBS_B03_019",
+    "phrase_vi": "khó thở",
+    "variants_vi": ["thở khó", "khó thở bình thường", "thở không được", "thở khó khăn", "không thở được"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Khó thở xuất hiện đột ngột hay từ từ? Có kèm đau ngực, ho ra máu hay chân sưng không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Khó thở đột ngột dữ dội, đau ngực một bên, có thể ho ra máu, chân sưng",
+        "symptom_codes": ["acute_severe_dyspnea", "pleuritic_pain", "hemoptysis", "leg_edema"],
+        "yhct_hint": "Phế lạc huyết ứ cấp — CẤP CỨU",
+        "yhhd_hint": "Thuyên tắc phổi (PE) — GỌI 115 NGAY"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Khó thở đột ngột kèm ho đờm bọt hồng, phải ngồi mới thở được",
+        "symptom_codes": ["acute_dyspnea", "pink_frothy_sputum", "orthopnea"],
+        "yhct_hint": "Thủy ẩm lăng tâm, Tâm dương hư cấp — CẤP CỨU",
+        "yhhd_hint": "Phù phổi cấp — GỌI 115 NGAY"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Khó thở tăng dần nhiều tháng, ho khạc đờm mạn tính, hút thuốc lâu năm",
+        "symptom_codes": ["progressive_dyspnea", "chronic_productive_cough", "smoking_history"],
+        "yhct_hint": "Phế khí hư, đàm thấp trở Phế — Phế trướng",
+        "yhhd_hint": "COPD — cần spirometry"
+      },
+      {
+        "option_code": "D",
+        "label_vi": "Khó thở kịch phát, tiếng thở rít, khởi phát do dị ứng hoặc lạnh",
+        "symptom_codes": ["episodic_dyspnea", "wheeze", "allergic_trigger", "cold_trigger"],
+        "yhct_hint": "Phế khí thượng nghịch, phong hàn/nhiệt phạm Phế",
+        "yhhd_hint": "Hen phế quản (asthma)"
+      }
+    ],
+    "red_flag_trigger": ["option_A", "option_B"],
+    "notes": "Khó thở đột ngột + các dấu hiệu đi kèm quyết định mức độ khẩn cấp"
+  },
+  {
+    "phrase_id": "OBS_B03_020",
+    "phrase_vi": "thở không sâu",
+    "variants_vi": ["thở nông", "hít không đủ hơi", "thở không đầy phổi", "thở cạn"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Thở không sâu xảy ra liên tục hay từng lúc? Có kèm đau hoặc lo lắng không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Thở nông liên tục kèm nghe thấy tiếng thở rít khi thở ra",
+        "symptom_codes": ["shallow_breathing", "expiratory_wheeze"],
+        "yhct_hint": "Đàm trở Phế khiếu, Phế khí thượng nghịch",
+        "yhhd_hint": "Hen phế quản hoặc COPD đợt cấp"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Thở không sâu khi lo lắng căng thẳng, đôi khi tê môi và tay",
+        "symptom_codes": ["hyperventilation", "anxiety_related", "perioral_numbness", "hand_paresthesia"],
+        "yhct_hint": "Tâm Phế khí loạn, Can khí uất kết",
+        "yhhd_hint": "Thở nhanh nông do lo âu, hội chứng tăng thông khí (hyperventilation syndrome)"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Phân biệt nguyên nhân cơ học (phổi) với tâm lý (hyperventilation)"
+  },
+  {
+    "phrase_id": "OBS_B03_021",
+    "phrase_vi": "hụt hơi",
+    "variants_vi": ["hụt hơi thở", "không đủ hơi", "thở hụt", "thiếu hơi", "hơi thở ngắn"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Hụt hơi xảy ra khi gắng sức hay cả lúc nghỉ ngơi?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Hụt hơi khi leo cầu thang hoặc đi bộ nhẹ, trước đây không bị",
+        "symptom_codes": ["progressive_exertional_dyspnea", "decreased_exercise_tolerance"],
+        "yhct_hint": "Tâm Phế khí hư, Tông khí bất túc",
+        "yhhd_hint": "Suy tim, bệnh phổi mạn (COPD, xơ phổi), thiếu máu"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Hụt hơi cả lúc nghỉ ngơi, nặng hơn khi nằm xuống",
+        "symptom_codes": ["dyspnea_at_rest", "orthopnea"],
+        "yhct_hint": "Tâm dương hư, Thủy ẩm ngưng trệ",
+        "yhhd_hint": "Suy tim độ III-IV (NYHA) — cần đánh giá ngay"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Hụt hơi lúc nghỉ ngơi = dấu hiệu nặng cần đánh giá tim phổi ngay"
+  },
+  {
+    "phrase_id": "OBS_B03_022",
+    "phrase_vi": "nằm xuống khó thở",
+    "variants_vi": ["nằm là khó thở", "nằm xuống thở không được", "phải nằm đầu cao", "thở khó khi nằm"],
+    "regions": ["all"],
+    "requires_disambiguation": false,
+    "disambiguation_question": null,
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Phải kê cao gối mới ngủ được, nằm thấp là thở không được — orthopnea",
+        "symptom_codes": ["orthopnea", "need_for_elevated_head", "nocturnal_dyspnea"],
+        "yhct_hint": "Tâm dương hư, Thủy ẩm lăng phạm — Tâm suy",
+        "yhhd_hint": "Suy tim sung huyết (CHF) — cần siêu âm tim gấp, BNP"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Orthopnea là dấu chỉ điểm suy tim — cần đo BNP và siêu âm tim"
+  },
+  {
+    "phrase_id": "OBS_B03_023",
+    "phrase_vi": "thở ngắn",
+    "variants_vi": ["hơi thở ngắn", "thở từng hơi ngắn", "không thở dài được", "thở không đủ"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Thở ngắn liên quan đến hoạt động thể chất hay xuất hiện cả khi ngồi yên?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Thở ngắn khi đi bộ nhanh hoặc lên dốc, kèm khò khè",
+        "symptom_codes": ["exertional_dyspnea", "wheeze"],
+        "yhct_hint": "Phế khí hư, đàm ẩm phạm Phế",
+        "yhhd_hint": "COPD nhẹ-vừa, hen phế quản"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Thở ngắn kèm mệt mỏi, xanh xao, tim đập nhanh",
+        "symptom_codes": ["dyspnea", "fatigue", "pallor", "tachycardia"],
+        "yhct_hint": "Khí huyết lưỡng hư, Tâm Phế bất túc",
+        "yhhd_hint": "Thiếu máu (anemia) — xét nghiệm CBC"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Thở ngắn + xanh xao = nghĩ thiếu máu; thở ngắn + khò khè = nghĩ bệnh phổi tắc nghẽn"
+  },
+  {
+    "phrase_id": "OBS_B03_024",
+    "phrase_vi": "khó thở về đêm",
+    "variants_vi": ["đêm khó thở", "ban đêm thở khó", "tỉnh giấc vì khó thở", "hay thức dậy vì khó thở"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Khó thở về đêm có kèm phải ngồi dậy mới thở được không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Tỉnh dậy đột ngột nửa đêm, cảm giác ngạt thở, phải ngồi dậy ngay, sau 20-30 phút hết",
+        "symptom_codes": ["paroxysmal_nocturnal_dyspnea", "orthopnea", "sudden_awakening"],
+        "yhct_hint": "Thủy ẩm phạm Tâm Phế — Tâm dương hư",
+        "yhhd_hint": "PND (paroxysmal nocturnal dyspnea) do suy tim — cần đánh giá tim mạch"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Khó thở về đêm kèm tiếng khò khè, hay xảy ra vào mùa lạnh hoặc khi tiếp xúc bụi",
+        "symptom_codes": ["nocturnal_dyspnea", "wheeze", "seasonal_variation", "dust_trigger"],
+        "yhct_hint": "Phong hàn phạm Phế, đàm ẩm trở trệ — hen",
+        "yhhd_hint": "Hen phế quản ban đêm (nocturnal asthma)"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "PND = dấu hiệu kinh điển suy tim; hen đêm = hay bị bỏ sót"
+  },
+  {
+    "phrase_id": "OBS_B03_025",
+    "phrase_vi": "thở rít",
+    "variants_vi": ["thở có tiếng rít", "khò khè", "thở khò khè", "tiếng thở lạ", "thở như kéo đàn"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Tiếng rít khi thở vào hay thở ra? Xảy ra đột ngột hay từ từ?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Tiếng rít khi thở vào (stridor) đột ngột, kèm khó nuốt hoặc tiếp xúc dị nguyên",
+        "symptom_codes": ["stridor", "inspiratory", "acute_onset", "dysphagia_or_allergen"],
+        "yhct_hint": "Phong nhiệt hoặc độc tà bế Phế khiếu — CẤP CỨU",
+        "yhhd_hint": "Phản ứng phản vệ, phù thanh quản — CẤP CỨU GỌI 115"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Tiếng khò khè khi thở ra, cơn tái phát, kèm cảm giác nặng ngực",
+        "symptom_codes": ["expiratory_wheeze", "recurrent_episodes", "chest_tightness"],
+        "yhct_hint": "Đàm khí tương kết, Phế khí thượng nghịch",
+        "yhhd_hint": "Hen phế quản hoặc COPD"
+      }
+    ],
+    "red_flag_trigger": ["option_A"],
+    "notes": "Stridor (rít thở vào) = cấp cứu đường thở; wheeze (khò thở ra) = hen/COPD"
+  },
+  {
+    "phrase_id": "OBS_B03_026",
+    "phrase_vi": "ho",
+    "variants_vi": ["hay ho", "bị ho", "ho hoài", "ho mãi không hết", "ho nhiều"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Ho từ khi nào? Ho có đờm không? Đờm màu gì? Có ho ra máu không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Ho kéo dài hơn 3 tuần, kèm sụt cân, sốt nhẹ về chiều, ra mồ hôi đêm",
+        "symptom_codes": ["chronic_cough_over_3_weeks", "weight_loss", "low_grade_afternoon_fever", "night_sweats"],
+        "yhct_hint": "Phế âm hư, âm hư hỏa vượng — Lao Phế khả năng cao",
+        "yhhd_hint": "Lao phổi (TB) — xét nghiệm đờm AFB, Xquang phổi NGAY"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Ho cấp tính dưới 3 tuần, kèm sổ mũi, đau họng, sốt nhẹ",
+        "symptom_codes": ["acute_cough", "rhinorrhea", "sore_throat", "low_grade_fever"],
+        "yhct_hint": "Phong hàn hoặc Phong nhiệt phạm Phế — Cảm mạo",
+        "yhhd_hint": "Nhiễm khuẩn hô hấp trên cấp (URTI), viêm mũi họng"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Ho mạn tính kèm khó thở khi gắng sức, hút thuốc nhiều năm",
+        "symptom_codes": ["chronic_cough", "exertional_dyspnea", "smoking_history"],
+        "yhct_hint": "Phế khí hư, đàm ẩm trở Phế — Phế trướng",
+        "yhhd_hint": "COPD — spirometry"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Ho > 3 tuần kèm sụt cân sốt chiều = nghĩ lao phổi — xét nghiệm gấp"
+  },
+  {
+    "phrase_id": "OBS_B03_027",
+    "phrase_vi": "ho khan",
+    "variants_vi": ["ho khan khan", "ho không có đờm", "ho cục cục", "ho cằng cặc", "ho hắng giọng"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Ho khan từ bao lâu và có liên quan đến thuốc nào đang dùng không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Ho khan bắt đầu sau khi dùng thuốc huyết áp mới (đặc biệt thuốc ức chế men chuyển)",
+        "symptom_codes": ["drug_induced_cough", "ACE_inhibitor_cough", "dry_cough"],
+        "yhct_hint": "Dược độc phạm Phế, Phế khí thất tuyên",
+        "yhhd_hint": "Ho do ACE inhibitor — đổi sang ARB"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Ho khan kéo dài, kèm ợ chua, nặng hơn sau ăn và khi nằm",
+        "symptom_codes": ["dry_cough", "heartburn", "postprandial_worsening", "supine_worsening"],
+        "yhct_hint": "Can Vị bất hòa, Vị khí nghịch thượng phạm Phế",
+        "yhhd_hint": "Ho do GERD (cough-variant GERD)"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Ho khan từng cơn về đêm hoặc khi lạnh, không có đờm, tiền sử dị ứng",
+        "symptom_codes": ["nocturnal_dry_cough", "cold_triggered", "atopic_history"],
+        "yhct_hint": "Phế khí thượng nghịch, phong hàn kích phát",
+        "yhhd_hint": "Hen dạng ho (cough-variant asthma)"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Hỏi thuốc ACE inhibitor — nguyên nhân phổ biến bị bỏ sót"
+  },
+  {
+    "phrase_id": "OBS_B03_028",
+    "phrase_vi": "ho có đờm",
+    "variants_vi": ["ho ra đờm", "ho khạc đờm", "ho có đàm", "khạc nhổ nhiều", "ho ra chất nhầy"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Đờm màu gì — trong, trắng, vàng, xanh hay có máu?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Ho ra đờm xanh hoặc vàng, sốt, đau ngực khi thở",
+        "symptom_codes": ["purulent_sputum", "fever", "pleuritic_pain"],
+        "yhct_hint": "Phế nhiệt thành ung, tà nhiệt nung đốt Phế",
+        "yhhd_hint": "Viêm phổi (pneumonia) — Xquang phổi, xét nghiệm"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Ho ra đờm trắng dính nhiều, sáng sớm nhiều hơn, hút thuốc nhiều năm",
+        "symptom_codes": ["white_mucoid_sputum", "morning_cough", "smoking_history"],
+        "yhct_hint": "Đàm thấp trở Phế, Tỳ hư sinh đàm",
+        "yhhd_hint": "Viêm phế quản mạn tính trong COPD"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Ho ra đờm bọt hồng, khó thở nặng, phải ngồi dậy",
+        "symptom_codes": ["pink_frothy_sputum", "severe_dyspnea", "orthopnea"],
+        "yhct_hint": "Thủy ẩm tràn ngập Phế — CẤP CỨU",
+        "yhhd_hint": "Phù phổi cấp — GỌI 115 NGAY"
+      }
+    ],
+    "red_flag_trigger": ["option_C"],
+    "notes": "Đờm bọt hồng = phù phổi cấp — cấp cứu tuyệt đối"
+  },
+  {
+    "phrase_id": "OBS_B03_029",
+    "phrase_vi": "ho ra máu",
+    "variants_vi": ["khạc ra máu", "ho máu", "đờm có máu", "nhổ ra máu", "ho ra máu tươi"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Lượng máu nhiều hay ít? Máu lẫn trong đờm hay ho ra máu thuần túy?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Ho ra máu tươi lượng nhiều (>100ml), khó thở nhanh chóng",
+        "symptom_codes": ["massive_hemoptysis", "volume_over_100ml", "acute_dyspnea"],
+        "yhct_hint": "Hỏa tà bức huyết vong hành, Phế lạc đại xuất huyết — CẤP CỨU",
+        "yhhd_hint": "Ho ra máu lượng nhiều — GỌI 115 NGAY, nguy cơ tắc nghẽn đường thở"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Ho ra máu ít, lẫn đờm, kèm sụt cân, sốt nhẹ về chiều, hút thuốc nhiều năm",
+        "symptom_codes": ["small_hemoptysis", "blood_streaked_sputum", "weight_loss", "afternoon_fever", "smoking_history"],
+        "yhct_hint": "Phế âm hư hỏa vượng — có thể Lao Phế hoặc ung thư Phế",
+        "yhhd_hint": "Lao phổi hoặc ung thư phổi — KHẨN — Xquang + CT ngực + soi đờm"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Ho ra máu đột ngột kèm khó thở, đau ngực một bên, chân sưng",
+        "symptom_codes": ["hemoptysis", "acute_dyspnea", "pleuritic_pain", "leg_edema"],
+        "yhct_hint": "Phế lạc huyết ứ — cấp cứu",
+        "yhhd_hint": "Thuyên tắc phổi (PE) — GỌI 115 NGAY"
+      }
+    ],
+    "red_flag_trigger": ["option_A", "option_B", "option_C"],
+    "notes": "Ho ra máu BẤT KỲ lượng nào đều cần đánh giá y tế — không được bỏ qua"
+  },
+  {
+    "phrase_id": "OBS_B03_030",
+    "phrase_vi": "ho về đêm",
+    "variants_vi": ["đêm hay ho", "ho ban đêm", "ho nhiều về đêm", "tối ngủ hay bị ho"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Ho về đêm có kèm khò khè, ợ chua, hay sổ mũi chảy xuống họng không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Ho khan về đêm kèm khò khè, ngực tức, hay xảy ra mùa lạnh",
+        "symptom_codes": ["nocturnal_dry_cough", "nocturnal_wheeze", "chest_tightness", "cold_season"],
+        "yhct_hint": "Phế khí thượng nghịch — Hen Phế quản",
+        "yhhd_hint": "Hen phế quản — đánh giá kiểm soát hen"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Ho về đêm kèm ợ chua, nặng hơn sau ăn no, ngủ đầu thấp",
+        "symptom_codes": ["nocturnal_cough", "heartburn", "postprandial", "low_head_position"],
+        "yhct_hint": "Vị khí nghịch thượng — Can Vị bất hòa",
+        "yhhd_hint": "Ho do GERD — thử PPI"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Ho về đêm kèm chảy dịch mũi sau, hắt hơi, ngứa mũi",
+        "symptom_codes": ["nocturnal_cough", "post_nasal_drip", "sneezing", "nasal_itch"],
+        "yhct_hint": "Phong hàn hoặc Phế khí hư — viêm mũi dị ứng",
+        "yhhd_hint": "Ho do chảy dịch mũi sau (post-nasal drip) trong viêm mũi dị ứng"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "3 nguyên nhân phổ biến ho đêm: hen, GERD, chảy dịch mũi sau"
+  },
+  {
+    "phrase_id": "OBS_B03_031",
+    "phrase_vi": "ho khi nằm",
+    "variants_vi": ["nằm xuống ho", "hay ho lúc nằm", "nằm là ho", "ho khi nằm ngủ"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Ho khi nằm có kèm khó thở hoặc ợ chua không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Ho khi nằm kèm khó thở, phải kê cao gối, có thể có chân phù",
+        "symptom_codes": ["supine_cough", "orthopnea", "elevated_pillow_needed", "ankle_edema"],
+        "yhct_hint": "Thủy ẩm phạm Phế — Tâm dương hư",
+        "yhhd_hint": "Suy tim sung huyết — đánh giá ngay"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Ho khi nằm kèm ợ chua, vị chua trong miệng, nặng hơn sau bữa ăn",
+        "symptom_codes": ["supine_cough", "acid_reflux", "sour_taste", "postprandial"],
+        "yhct_hint": "Can Vị bất hòa, Vị nhiệt nghịch thượng",
+        "yhhd_hint": "GERD — nằm làm trào ngược tăng"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Ho khi nằm + phù chân = nghĩ suy tim; ho khi nằm + ợ chua = nghĩ GERD"
+  },
+  {
+    "phrase_id": "OBS_B03_032",
+    "phrase_vi": "ho kèm sốt cao",
+    "variants_vi": ["sốt cao ho nhiều", "vừa sốt vừa ho", "ho và sốt", "ho có sốt"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Ho và sốt cao kèm theo đau ngực khi thở và khó thở không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Sốt cao đột ngột, ho ra đờm xanh vàng hoặc rỉ sét, đau ngực khi thở, khó thở",
+        "symptom_codes": ["high_fever_sudden", "purulent_or_rusty_sputum", "pleuritic_pain", "dyspnea"],
+        "yhct_hint": "Phong nhiệt hoặc Phế nhiệt — Phế ung thực chứng",
+        "yhhd_hint": "Viêm phổi vi khuẩn (bacterial pneumonia) — kháng sinh + nhập viện nếu nặng"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Sốt nhẹ, ho khan, đau cơ, mệt mỏi toàn thân, nhiều người xung quanh cùng bệnh",
+        "symptom_codes": ["low_grade_fever", "dry_cough", "myalgia", "cluster_cases"],
+        "yhct_hint": "Ôn tà phạm Vệ Khí phận",
+        "yhhd_hint": "Cúm (influenza) hoặc nhiễm virus hô hấp"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Sốt cao + đờm mủ + đau ngực = viêm phổi — cần Xquang và kháng sinh"
+  },
+  {
+    "phrase_id": "OBS_B03_033",
+    "phrase_vi": "đau họng",
+    "variants_vi": ["họng đau", "cổ họng đau", "đau trong họng", "đau họng khi nuốt"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Đau họng kèm sốt cao không? Có khó nuốt hoặc khó thở không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đau họng dữ dội, sốt cao, nuốt rất khó, chảy dãi, cứng cổ, khó há miệng",
+        "symptom_codes": ["severe_sore_throat", "high_fever", "severe_dysphagia", "drooling", "trismus"],
+        "yhct_hint": "Nhiệt độc phạm Phế Vị — áp xe thành sau họng",
+        "yhhd_hint": "Áp xe quanh amygdale/thành sau họng (peritonsillar/retropharyngeal abscess) — CẤP CỨU TAI MŨI HỌNG"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Đau họng kèm sốt cao, họng đỏ, hạch cổ to, mệt mỏi nặng",
+        "symptom_codes": ["sore_throat", "high_fever", "pharyngeal_erythema", "cervical_lymphadenopathy", "severe_fatigue"],
+        "yhct_hint": "Nhiệt tà phạm Thiếu Dương, Phế Vị nhiệt thịnh",
+        "yhhd_hint": "Viêm họng liên cầu khuẩn (GAS) hoặc tăng bạch cầu đơn nhân — cần test strep"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Đau họng nhẹ kèm sổ mũi, hắt hơi, ho nhẹ, không sốt hoặc sốt nhẹ",
+        "symptom_codes": ["mild_sore_throat", "rhinorrhea", "sneezing", "mild_cough"],
+        "yhct_hint": "Phong hàn hoặc Phong nhiệt phạm Phế — Cảm mạo thông thường",
+        "yhhd_hint": "Cảm lạnh thông thường (common cold) — điều trị triệu chứng"
+      }
+    ],
+    "red_flag_trigger": ["option_A"],
+    "notes": "Đau họng + khó nuốt + chảy dãi = áp xe vùng họng — cấp cứu TMH"
+  },
+  {
+    "phrase_id": "OBS_B03_034",
+    "phrase_vi": "rát họng",
+    "variants_vi": ["họng rát", "cổ họng rát", "rát trong họng", "họng bỏng rát"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Rát họng liên tục hay chỉ khi nuốt? Có kèm ợ chua không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Rát họng kéo dài, đặc biệt buổi sáng, kèm ợ chua, vị đắng miệng",
+        "symptom_codes": ["chronic_throat_irritation", "morning_worsening", "heartburn", "bitter_taste"],
+        "yhct_hint": "Can hỏa thượng nghịch, Vị nhiệt hun họng",
+        "yhhd_hint": "Viêm họng do trào ngược (LPR/GERD) — thử PPI"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Rát họng cấp tính kèm sốt, khó nuốt, vùng họng đỏ",
+        "symptom_codes": ["acute_throat_pain", "fever", "dysphagia", "pharyngeal_erythema"],
+        "yhct_hint": "Phong nhiệt phạm Phế — viêm họng cấp",
+        "yhhd_hint": "Viêm họng cấp tính — có thể cần kháng sinh nếu do liên cầu"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Rát họng mạn tính buổi sáng = nghĩ LPR/GERD"
+  },
+  {
+    "phrase_id": "OBS_B03_035",
+    "phrase_vi": "khàn tiếng",
+    "variants_vi": ["giọng khàn", "tiếng khàn", "mất giọng", "nói không ra tiếng", "giọng bị khàn"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Khàn tiếng bắt đầu từ khi nào và có liên quan đến sử dụng giọng nói nhiều, nhiễm trùng hay thuốc lá không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Khàn tiếng kéo dài hơn 3 tuần ở người hút thuốc, không đau, không sốt",
+        "symptom_codes": ["chronic_hoarseness_over_3_weeks", "smoking_history", "painless", "afebrile"],
+        "yhct_hint": "Tà độc tích tụ Phế khiếu — nghi ác tính",
+        "yhhd_hint": "Ung thư thanh quản — NỘI SOI THANH QUẢN KHẨN"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Khàn tiếng sau nhiễm trùng hô hấp trên, kèm ho, rát họng",
+        "symptom_codes": ["post_infectious_hoarseness", "cough", "sore_throat"],
+        "yhct_hint": "Phong nhiệt hoặc Phong hàn phạm Phế",
+        "yhhd_hint": "Viêm thanh quản cấp (acute laryngitis) — thường tự khỏi"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Khàn tiếng sau phẫu thuật cổ/tuyến giáp hoặc phẫu thuật tim",
+        "symptom_codes": ["post_surgical_hoarseness", "neck_or_cardiac_surgery"],
+        "yhct_hint": "Kinh mạch bị tổn thương — cơ học",
+        "yhhd_hint": "Liệt dây thần kinh thanh quản quặt ngược (RLN palsy) — cần nội soi"
+      }
+    ],
+    "red_flag_trigger": ["option_A"],
+    "notes": "Khàn tiếng > 3 tuần ở người hút thuốc = khẩn cấp loại trừ ung thư thanh quản"
+  },
+  {
+    "phrase_id": "OBS_B03_036",
+    "phrase_vi": "họng có đờm",
+    "variants_vi": ["đờm trong họng", "vướng đờm ở cổ", "cổ họng đầy đờm", "hay khạc đờm", "đờm chảy xuống họng"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Đờm trong họng có chảy từ mũi xuống không? Hay cảm giác có gì đó mắc ở cổ họng?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Cảm giác đờm chảy từ mũi xuống họng, kèm ngứa mũi, hắt hơi, ho về đêm",
+        "symptom_codes": ["post_nasal_drip", "nasal_itch", "sneezing", "nocturnal_cough"],
+        "yhct_hint": "Phế khí hư, Phong hàn phạm Phế — viêm mũi",
+        "yhhd_hint": "Hội chứng chảy dịch mũi sau (post-nasal drip syndrome)"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Cảm giác vướng cục gì đó ở cổ họng, nuốt nước bọt không hết, không đau",
+        "symptom_codes": ["globus_sensation", "persistent_lump_feeling", "painless"],
+        "yhct_hint": "Can khí uất kết,梅核氣 (Mai hạch khí)",
+        "yhhd_hint": "Globus pharyngeus (cảm giác dị vật cổ họng) — loại trừ thực thể"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Mai hạch khí (梅核氣) là biểu hiện kinh điển của Can khí uất kết trong YHCT"
+  },
+  {
+    "phrase_id": "OBS_B03_037",
+    "phrase_vi": "nuốt đau",
+    "variants_vi": ["đau khi nuốt", "nuốt vào đau", "khó nuốt đau", "ăn uống đau họng"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Nuốt đau xảy ra ngay từ đầu hay mới xuất hiện gần đây? Có khó nuốt thức ăn đặc không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Nuốt đau kèm khó nuốt thức ăn đặc tiến triển dần, sụt cân, người trung niên",
+        "symptom_codes": ["odynophagia", "progressive_dysphagia", "weight_loss", "middle_aged"],
+        "yhct_hint": "Ẩm thực cách trở, đàm khí huyết trở — nghi ác tính",
+        "yhhd_hint": "Ung thư thực quản/dạ dày — NỘI SOI TIÊU HÓA KHẨN"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Nuốt đau cấp tính kèm sốt cao, họng đỏ sưng",
+        "symptom_codes": ["acute_odynophagia", "high_fever", "pharyngeal_swelling"],
+        "yhct_hint": "Nhiệt độc phạm Phế Vị — viêm họng cấp",
+        "yhhd_hint": "Viêm họng cấp/viêm amygdale — xem xét kháng sinh"
+      }
+    ],
+    "red_flag_trigger": ["option_A"],
+    "notes": "Nuốt đau + khó nuốt thức ăn đặc + sụt cân = đỏ cờ ung thư đường tiêu hóa trên"
+  },
+  {
+    "phrase_id": "OBS_B03_038",
+    "phrase_vi": "nuốt vướng",
+    "variants_vi": ["vướng khi nuốt", "nuốt khó", "nuốt không xuống", "mắc nghẹn khi ăn", "thức ăn hay mắc ở cổ"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Vướng khi nuốt xảy ra với thức ăn đặc, lỏng hay cả hai? Từ bao lâu?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Nuốt khó thức ăn đặc ngày càng tăng, gần đây khó cả thức ăn lỏng, sụt cân",
+        "symptom_codes": ["progressive_solid_dysphagia", "recent_liquid_dysphagia", "weight_loss"],
+        "yhct_hint": "Cách trở — đàm huyết ngăn trở thực quản — ĐỎ CỜ ÁC TÍNH",
+        "yhhd_hint": "Ung thư thực quản — nội soi tiêu hóa KHẨN CẤP"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Nuốt khó xảy ra theo từng đợt, cả thức ăn đặc lẫn lỏng, đôi khi trớ ra",
+        "symptom_codes": ["intermittent_dysphagia", "both_solids_liquids", "regurgitation"],
+        "yhct_hint": "Khí cơ nghịch loạn, đàm khí tương kết — bất thường nhu động",
+        "yhhd_hint": "Achalasia, co thắt thực quản lan tỏa — cần nội soi và đo áp lực thực quản"
+      }
+    ],
+    "red_flag_trigger": ["option_A"],
+    "notes": "Khó nuốt tiến triển + sụt cân = luôn loại trừ ác tính bằng nội soi"
+  },
+  {
+    "phrase_id": "OBS_B03_039",
+    "phrase_vi": "nghẹt mũi",
+    "variants_vi": ["tắc mũi", "mũi tắc", "mũi nghẹt", "mũi bị nghẹt", "khó thở bằng mũi"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Nghẹt mũi một bên hay hai bên? Liên tục hay theo mùa/tiếp xúc bụi?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Nghẹt mũi theo mùa hoặc khi tiếp xúc bụi, kèm hắt hơi, ngứa mắt",
+        "symptom_codes": ["seasonal_nasal_congestion", "sneezing", "eye_pruritus", "allergen_related"],
+        "yhct_hint": "Phong hàn phạm Phế, Phế khí hư — Tỵ uyên",
+        "yhhd_hint": "Viêm mũi dị ứng (allergic rhinitis)"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Nghẹt mũi một bên dai dẳng, không liên quan dị ứng, kèm chảy máu mũi",
+        "symptom_codes": ["unilateral_nasal_obstruction", "non_allergic", "epistaxis"],
+        "yhct_hint": "Tà tích cục bộ — nghi bướu khối",
+        "yhhd_hint": "Khối u mũi xoang hoặc polyp một bên — nội soi mũi xoang"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Nghẹt mũi một bên dai dẳng + chảy máu mũi = cần loại trừ bướu khối mũi xoang"
+  },
+  {
+    "phrase_id": "OBS_B03_040",
+    "phrase_vi": "chảy nước mũi",
+    "variants_vi": ["sổ mũi", "nước mũi chảy", "nước mũi nhiều", "mũi chảy hoài", "hay bị sổ mũi"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Nước mũi trong hay xanh vàng? Kèm sốt hay chỉ sổ mũi đơn thuần?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Sổ mũi nước trong, kèm hắt hơi nhiều, ngứa mũi, ngứa mắt, không sốt",
+        "symptom_codes": ["clear_rhinorrhea", "sneezing", "nasal_pruritus", "eye_pruritus", "afebrile"],
+        "yhct_hint": "Phong hàn phạm Phế Vệ — Tỵ uyên dị ứng",
+        "yhhd_hint": "Viêm mũi dị ứng"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Sổ mũi xanh vàng, mùi hôi, kèm đau nhức vùng trán-má, sốt",
+        "symptom_codes": ["purulent_rhinorrhea", "foul_smell", "facial_pain", "headache", "fever"],
+        "yhct_hint": "Nhiệt tà phạm Phế, Phế nhiệt hun đốt — Tỵ uyên nhiệt",
+        "yhhd_hint": "Viêm xoang mũi cấp (acute rhinosinusitis) — xem xét kháng sinh"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Phân biệt dị ứng (trong, hắt hơi) với nhiễm khuẩn (xanh vàng, sốt, đau mặt)"
+  },
+  {
+    "phrase_id": "OBS_B03_041",
+    "phrase_vi": "mũi có mùi tanh",
+    "variants_vi": ["mũi tanh", "mùi mũi tanh tanh", "trong mũi có mùi hôi", "mũi hôi", "thở ra mùi tanh từ mũi"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Mùi tanh từ mũi kèm chảy nước mũi có màu hay có máu không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Mùi hôi tanh từ mũi kèm chảy dịch xanh vàng, đau nhức mặt, đã kéo dài nhiều tuần",
+        "symptom_codes": ["ozena_like_odor", "chronic_purulent_discharge", "facial_pain_pressure"],
+        "yhct_hint": "Phế nhiệt uất kết, Tỵ uyên tích đàm nhiệt",
+        "yhhd_hint": "Viêm xoang mạn tính — CT xoang, xem xét nội soi mũi xoang"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Mùi tanh từ mũi kèm chảy dịch lẫn máu, nghẹt mũi một bên",
+        "symptom_codes": ["bloody_nasal_discharge", "unilateral_obstruction", "fetid_odor"],
+        "yhct_hint": "Huyết nhiệt — bướu khối khả năng",
+        "yhhd_hint": "Bướu mũi xoang hoặc ung thư vòm họng (NPC) — nội soi khẩn"
+      }
+    ],
+    "red_flag_trigger": ["option_B"],
+    "notes": "Mũi có máu + mùi hôi + nghẹt một bên = đỏ cờ ung thư vòm họng / mũi xoang"
+  },
+  {
+    "phrase_id": "OBS_B03_042",
+    "phrase_vi": "không ngửi được",
+    "variants_vi": ["mất mùi", "không cảm nhận được mùi", "mũi không ngửi", "mất khứu giác", "ngửi kém"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Mất mùi xuất hiện đột ngột hay từ từ? Có sau nhiễm virus hô hấp không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Mất mùi đột ngột sau nhiễm virus, có thể kèm mất vị giác",
+        "symptom_codes": ["anosmia", "post_viral", "ageusia"],
+        "yhct_hint": "Tà độc phạm Tỵ khiếu, Phế khí bị tổn",
+        "yhhd_hint": "Mất mùi sau COVID-19 hoặc virus khác — thường tự hồi phục"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Mất mùi từ từ kèm nghẹt mũi mạn tính, polyp mũi",
+        "symptom_codes": ["gradual_anosmia", "chronic_nasal_obstruction", "nasal_polyps"],
+        "yhct_hint": "Đàm thấp tắc nghẽn Tỵ khiếu",
+        "yhhd_hint": "Polyp mũi, viêm mũi xoang mạn — cần nội soi mũi"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Mất mùi đột ngột không kèm nghẹt mũi = đặc trưng COVID-19 / virus"
+  },
+  {
+    "phrase_id": "OBS_B03_043",
+    "phrase_vi": "chân phù",
+    "variants_vi": ["phù chân", "chân bị phù", "chân sưng", "sưng chân", "chân phù to"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Chân phù hai bên hay một bên? Phù cả ngày hay buổi chiều tối nặng hơn?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Phù hai chân đối xứng, nặng hơn về chiều tối, kèm khó thở, nhất là khi nằm",
+        "symptom_codes": ["bilateral_pitting_edema", "worse_in_evening", "dyspnea", "orthopnea"],
+        "yhct_hint": "Tâm/Thận dương hư — Thủy thũng",
+        "yhhd_hint": "Suy tim sung huyết (CHF) — BNP, siêu âm tim"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Phù một chân đột ngột, đau và nóng đỏ cẳng chân, không bị chấn thương",
+        "symptom_codes": ["unilateral_leg_edema", "leg_pain", "erythema", "warmth", "no_trauma"],
+        "yhct_hint": "Huyết ứ mạch lạc — cần cấp cứu",
+        "yhhd_hint": "Huyết khối tĩnh mạch sâu (DVT) — CẤP CỨU, nguy cơ PE"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Phù hai chân kèm mặt phù, tiểu ít, tiểu bọt",
+        "symptom_codes": ["bilateral_leg_edema", "facial_edema", "oliguria", "frothy_urine"],
+        "yhct_hint": "Thận dương hư — Thủy thũng",
+        "yhhd_hint": "Hội chứng thận hư (nephrotic syndrome) — xét nghiệm nước tiểu, protein niệu"
+      }
+    ],
+    "red_flag_trigger": ["option_B"],
+    "notes": "DVT = nguy cơ thuyên tắc phổi — cần siêu âm mạch máu ngay"
+  },
+  {
+    "phrase_id": "OBS_B03_044",
+    "phrase_vi": "mắt cá chân phù",
+    "variants_vi": ["phù mắt cá", "sưng mắt cá chân", "mắt cá sưng", "khớp cổ chân sưng phù"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Phù mắt cá chân hai bên hay một bên? Có đau hay không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Phù mắt cá hai bên, không đau, nặng hơn cuối ngày, ấn lõm",
+        "symptom_codes": ["bilateral_ankle_pitting_edema", "painless", "worse_at_day_end"],
+        "yhct_hint": "Tâm/Tỳ/Thận dương hư — Thủy thũng",
+        "yhhd_hint": "Suy tim, suy tĩnh mạch mạn tính, thuốc (amlodipine) — cần xác định nguyên nhân"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Phù mắt cá một bên kèm đỏ nóng đau, sốt",
+        "symptom_codes": ["unilateral_ankle_edema", "erythema", "warmth", "pain", "fever"],
+        "yhct_hint": "Thấp nhiệt hạ chú, nhiệt tà phạm lạc",
+        "yhhd_hint": "Viêm mô tế bào (cellulitis), viêm khớp nhiễm khuẩn, gout cấp"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Amlodipine và CCB khác hay gây phù mắt cá hai bên — hỏi thuốc đang dùng"
+  },
+  {
+    "phrase_id": "OBS_B03_045",
+    "phrase_vi": "phù mặt buổi sáng",
+    "variants_vi": ["sáng dậy mặt sưng", "buổi sáng mặt phù", "mặt phù khi thức dậy", "sáng mặt húp híp"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Phù mặt buổi sáng có kèm phù chân và tiểu ít không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Sáng ngủ dậy mặt phù, nhất là quanh mắt, kèm tiểu ít, tiểu bọt",
+        "symptom_codes": ["morning_facial_edema", "periorbital_edema", "oliguria", "frothy_urine"],
+        "yhct_hint": "Thận dương hư — Thủy thũng",
+        "yhhd_hint": "Hội chứng thận hư hoặc viêm cầu thận — xét nghiệm nước tiểu, creatinine ngay"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Mặt phù tất cả mọi lúc, kèm da khô, chậm chạp, mệt, sợ lạnh",
+        "symptom_codes": ["persistent_facial_edema", "dry_skin", "bradycardia", "cold_intolerance", "fatigue"],
+        "yhct_hint": "Thận dương hư — Dương hư thủy hàn",
+        "yhhd_hint": "Suy giáp (hypothyroidism) — phù niêm (myxedema) — xét nghiệm TSH"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Phù quanh mắt buổi sáng + tiểu bọt = dấu chỉ điểm thận hư; phù cứng + sợ lạnh = suy giáp"
+  },
+  {
+    "phrase_id": "OBS_B03_046",
+    "phrase_vi": "bụng to ra",
+    "variants_vi": ["bụng phình to", "bụng to hơn bình thường", "bụng ngày càng to", "bụng to như có nước"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Bụng to ra từ từ hay nhanh? Có kèm chân phù, vàng da hay khó thở không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Bụng to dần, mạng sườn trái lồi, kèm chân phù, khó thở khi nằm",
+        "symptom_codes": ["ascites", "progressive_abdominal_distension", "leg_edema", "orthopnea"],
+        "yhct_hint": "Tâm/Tỳ dương hư — Thủy thũng — Cổ trướng",
+        "yhhd_hint": "Cổ trướng do suy tim sung huyết hoặc xơ gan — siêu âm bụng gấp"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Bụng to ra kèm vàng da, vàng mắt, tiểu sẫm màu, mệt mỏi",
+        "symptom_codes": ["abdominal_distension", "jaundice", "dark_urine", "fatigue"],
+        "yhct_hint": "Can Tỳ bất hòa, Thấp nhiệt uất kết — Cổ trướng",
+        "yhhd_hint": "Xơ gan mất bù — siêu âm bụng + xét nghiệm chức năng gan ngay"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Cổ trướng cần siêu âm bụng gấp để phân biệt nguyên nhân tim, gan, thận"
+  },
+  {
+    "phrase_id": "OBS_B03_047",
+    "phrase_vi": "chân phù kèm khó thở đột ngột",
+    "variants_vi": ["sưng chân rồi bỗng nhiên khó thở", "chân sưng và đột nhiên thở khó", "phù chân bỗng hụt hơi"],
+    "regions": ["all"],
+    "requires_disambiguation": false,
+    "disambiguation_question": null,
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Chân sưng một bên (DVT) và đột nhiên xuất hiện khó thở, đau ngực, có thể ho ra máu — NGUY HIỂM TÍNH MẠNG",
+        "symptom_codes": ["unilateral_leg_swelling", "DVT", "sudden_dyspnea", "chest_pain", "hemoptysis"],
+        "yhct_hint": "Huyết ứ mạch lạc lan tràn — Phế lạc bế tắc cấp — CẤP CỨU",
+        "yhhd_hint": "Thuyên tắc phổi (PE) — GỌI 115 NGAY — nguy cơ tử vong cao"
+      }
+    ],
+    "red_flag_trigger": ["option_A"],
+    "notes": "Tam chứng DVT + khó thở đột ngột + đau ngực = PE đến khi chứng minh ngược lại — cấp cứu"
+  },
+  {
+    "phrase_id": "OBS_B03_048",
+    "phrase_vi": "ho ra đờm bọt hồng",
+    "variants_vi": ["khạc đờm màu hồng", "đờm có bọt màu hồng", "ho ra bọt hồng", "đờm bọt có máu"],
+    "regions": ["all"],
+    "requires_disambiguation": false,
+    "disambiguation_question": null,
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Ho ra đờm bọt hồng, khó thở dữ dội đột ngột, phải ngồi thẳng mới thở được, môi tím tái",
+        "symptom_codes": ["pink_frothy_sputum", "acute_severe_dyspnea", "orthopnea", "cyanosis"],
+        "yhct_hint": "Thủy ẩm tràn ngập Phế, Tâm dương bại thoát — CẤP CỨU TUYỆT ĐỐI",
+        "yhhd_hint": "Phù phổi cấp (acute pulmonary edema) — GỌI 115 NGAY — đe dọa tính mạng"
+      }
+    ],
+    "red_flag_trigger": ["option_A"],
+    "notes": "Đờm bọt hồng = phù phổi cấp = cấp cứu tuyệt đối, không được trì hoãn"
+  },
+  {
+    "phrase_id": "OBS_B03_049",
+    "phrase_vi": "cơn hen",
+    "variants_vi": ["lên cơn hen", "hen suyễn", "cơn khó thở hen", "khò khè khó thở", "cơn suyễn"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Cơn hen nặng hay nhẹ? Dùng thuốc xịt mà không bớt không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Khó thở nặng, khò khè không bớt dù đã xịt thuốc cắt cơn 3 lần, môi tím, nói từng từ",
+        "symptom_codes": ["severe_asthma_exacerbation", "unresponsive_to_bronchodilator", "cyanosis", "speech_limited_to_words"],
+        "yhct_hint": "Phế khí bế tuyệt — cơn hen ác tính — CẤP CỨU",
+        "yhhd_hint": "Cơn hen nặng/ác tính (severe/life-threatening asthma) — GỌI 115 NGAY"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Khò khè khó thở vừa, nói được câu hoàn chỉnh, dùng thuốc xịt có đỡ một phần",
+        "symptom_codes": ["moderate_wheeze", "dyspnea", "partial_response_to_bronchodilator"],
+        "yhct_hint": "Phế khí thượng nghịch, đàm nhiệt phạm Phế",
+        "yhhd_hint": "Cơn hen mức độ vừa — đến cơ sở y tế, theo dõi SpO2"
+      }
+    ],
+    "red_flag_trigger": ["option_A"],
+    "notes": "Hen không đáp ứng thuốc xịt + tím tái = cấp cứu; gọi 115 không chờ"
+  },
+  {
+    "phrase_id": "OBS_B03_050",
+    "phrase_vi": "đau ngực lan hàm",
+    "variants_vi": ["đau ngực lên hàm", "đau từ ngực lên hàm", "ngực đau tê hàm", "đau ngực và đau hàm"],
+    "regions": ["all"],
+    "requires_disambiguation": false,
+    "disambiguation_question": null,
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đau ngực lan lên cổ, hàm, vai hoặc tay trái, kèm vã mồ hôi lạnh, buồn nôn, cảm giác sắp chết",
+        "symptom_codes": ["chest_pain_with_jaw_radiation", "neck_radiation", "left_shoulder_arm_radiation", "cold_diaphoresis", "nausea", "sense_of_impending_doom"],
+        "yhct_hint": "Hung tý cực kỳ cấp — Tâm huyết ứ tắc hoàn toàn — CẤP CỨU TUYỆT ĐỐI",
+        "yhhd_hint": "STEMI/ACS điển hình — GỌI 115 NGAY — mỗi phút tế bào cơ tim chết thêm"
+      }
+    ],
+    "red_flag_trigger": ["option_A"],
+    "notes": "Đau ngực lan hàm là biểu hiện điển hình STEMI — không được bỏ qua dù 1 giây"
+  }
+]

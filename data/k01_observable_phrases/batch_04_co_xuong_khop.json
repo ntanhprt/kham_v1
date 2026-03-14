@@ -1,0 +1,1400 @@
+[
+  {
+    "phrase_id": "OBS_B04_001",
+    "phrase_vi": "đau lưng",
+    "variants_vi": ["lưng đau", "đau thắt lưng", "đau ở lưng", "bị đau lưng"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Cơn đau lưng của bạn như thế nào — đau âm ỉ mỏi hay đau nhói, đau lan xuống chân không, có kèm sốt hay tiểu khó không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đau lưng dưới âm ỉ, mỏi gối, đau tăng khi mệt mỏi hoặc về chiều tối",
+        "symptom_codes": ["lumbar_ache_chronic", "fatigue_aggravated_pain", "knee_soreness"],
+        "yhct_hint": "Thận hư (Thận dương hư hoặc Thận âm hư) — Thận chủ cốt tủy",
+        "yhhd_hint": "Degenerative disc disease, osteoporosis, chronic lumbar muscle strain"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Đau lưng nhói, đột ngột sau khi bê vác nặng hoặc ngã",
+        "symptom_codes": ["lumbar_pain_acute", "trauma_onset", "movement_limited"],
+        "yhct_hint": "Khí trệ huyết ứ — chấn thương kinh mạch",
+        "yhhd_hint": "Lumbar sprain, disc herniation acute episode, compression fracture"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Đau lưng kèm sốt và tiểu buốt, tiểu đau",
+        "symptom_codes": ["lumbar_pain_with_fever", "dysuria", "urinary_urgency"],
+        "yhct_hint": "Thấp nhiệt hạ tiêu — bàng quang thấp nhiệt",
+        "yhhd_hint": "Pyelonephritis, renal abscess — RED FLAG for systemic infection"
+      }
+    ],
+    "red_flag_trigger": ["C"],
+    "notes": "Option C is red flag: back pain + fever + urinary symptoms suggests pyelonephritis or spinal epidural abscess"
+  },
+  {
+    "phrase_id": "OBS_B04_002",
+    "phrase_vi": "đau thắt lưng",
+    "variants_vi": ["thắt lưng đau", "đau vùng thắt lưng", "đau eo lưng", "đau ngang lưng"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Đau thắt lưng của bạn lan xuống chân không, đau tăng khi ngồi lâu hay khi đứng dậy?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đau thắt lưng lan xuống mông và chân, tê bì theo đường chạy dọc chân",
+        "symptom_codes": ["lumbar_radiculopathy", "sciatica", "leg_numbness_radiating"],
+        "yhct_hint": "Phong hàn thấp tý — kinh túc thái dương bàng quang bị trở",
+        "yhhd_hint": "Lumbar disc herniation with nerve root compression, sciatica (L4/L5/S1)"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Đau thắt lưng âm ỉ liên tục, đau tăng khi trời lạnh hoặc ẩm",
+        "symptom_codes": ["lumbar_ache_weather_related", "cold_damp_aggravation", "chronic_lumbar_pain"],
+        "yhct_hint": "Hàn tý — hàn thấp ngưng trệ kinh lạc vùng lưng",
+        "yhhd_hint": "Lumbar spondylosis, ankylosing spondylitis early, fibromyalgia"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Đau thắt lưng một bên, đau dữ dội từng cơn, lan xuống bẹn",
+        "symptom_codes": ["flank_pain_colicky", "unilateral_lumbar_pain", "groin_radiation"],
+        "yhct_hint": "Thấp nhiệt thận hệ — sỏi gây khí cơ trở trệ",
+        "yhhd_hint": "Renal colic (urolithiasis), ureteral stone"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Option C suggests urolithiasis — distinguish from musculoskeletal origin by colicky nature and radiation pattern"
+  },
+  {
+    "phrase_id": "OBS_B04_003",
+    "phrase_vi": "lưng cứng buổi sáng",
+    "variants_vi": ["sáng ngủ dậy lưng cứng", "lưng cứng sáng sớm", "buổi sáng lưng không cử động được", "sáng ra lưng khó cong"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Lưng cứng buổi sáng của bạn kéo dài bao lâu thì hết — dưới 30 phút hay hơn 1 giờ?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Cứng lưng sáng sớm hết sau vài phút vận động, đau âm ỉ",
+        "symptom_codes": ["morning_stiffness_brief", "lumbar_stiffness_degenerative", "improves_with_movement"],
+        "yhct_hint": "Thận hư kiêm hàn thấp — khí huyết ứ trệ ban đêm",
+        "yhhd_hint": "Degenerative lumbar disease, lumbar muscle strain, mechanical back pain"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Cứng lưng sáng sớm kéo dài hơn 1 giờ, tuổi trẻ, đau cải thiện khi vận động",
+        "symptom_codes": ["morning_stiffness_prolonged", "inflammatory_back_pain", "young_patient_onset"],
+        "yhct_hint": "Phong hàn thấp tý — viêm kinh lạc mạn tính",
+        "yhhd_hint": "Ankylosing spondylitis (HLA-B27), seronegative spondyloarthropathy"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Morning stiffness >1 hour in young adults with inflammatory pattern is red flag for ankylosing spondylitis"
+  },
+  {
+    "phrase_id": "OBS_B04_004",
+    "phrase_vi": "đau lưng lan xuống chân",
+    "variants_vi": ["đau từ lưng xuống chân", "đau lưng chạy xuống chân", "đau lưng kéo xuống mông", "đau dọc chân từ lưng"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Đau lan xuống chân theo đường nào — mặt sau đùi và bắp chân, hay mặt ngoài chân?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đau từ lưng lan theo mặt sau đùi, bắp chân, tới gót chân, kèm tê bì",
+        "symptom_codes": ["sciatica_classic", "posterior_leg_radiation", "heel_numbness", "L5_S1_distribution"],
+        "yhct_hint": "Phong hàn thấp tý — kinh túc thái dương bị trở, huyết ứ kinh lạc",
+        "yhhd_hint": "Disc herniation L4-L5 or L5-S1, sciatic nerve compression"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Đau lưng lan theo mặt ngoài đùi và mu bàn chân, tê ngón chân cái",
+        "symptom_codes": ["L4_L5_radiculopathy", "lateral_leg_radiation", "great_toe_numbness"],
+        "yhct_hint": "Phong hàn thấp tý — kinh túc thiếu dương bị trở",
+        "yhhd_hint": "Disc herniation L4-L5, L5 nerve root compression"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Đau lưng lan cả hai chân khi đi bộ, đỡ hơn khi ngồi hoặc cúi người về trước",
+        "symptom_codes": ["neurogenic_claudication", "bilateral_leg_pain_walking", "spinal_stenosis_pattern"],
+        "yhct_hint": "Thận hư kiêm huyết ứ — tủy hải bất túc, kinh lạc tắc trở",
+        "yhhd_hint": "Lumbar spinal stenosis, cauda equina syndrome (if severe)"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Bilateral leg symptoms with walking and bowel/bladder changes suggest cauda equina — surgical emergency"
+  },
+  {
+    "phrase_id": "OBS_B04_005",
+    "phrase_vi": "đau lưng khi cúi",
+    "variants_vi": ["cúi xuống đau lưng", "khom lưng bị đau", "cúi người đau thắt lưng", "gập người đau lưng"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Đau khi cúi của bạn xảy ra sau bê vác hay tự nhiên, đau nhói ngay khi cúi hay chỉ đau khi đứng dậy?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đau nhói khi cúi, đứng dậy khó, sau khi bê vật nặng",
+        "symptom_codes": ["lumbar_pain_flexion", "acute_lumbar_strain", "difficulty_standing_erect"],
+        "yhct_hint": "Khí trệ huyết ứ — lực chấn thương làm tổn thương kinh cân",
+        "yhhd_hint": "Acute lumbar muscle strain, disc herniation precipitated by load"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Đau tăng khi cúi và ngồi lâu, giảm khi nằm, không có chấn thương",
+        "symptom_codes": ["lumbar_pain_prolonged_sitting", "flexion_aggravation", "relief_with_rest"],
+        "yhct_hint": "Thận hư kiêm hàn thấp — thoái hóa cột sống thắt lưng",
+        "yhhd_hint": "Lumbar disc degeneration, facet joint arthropathy"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": ""
+  },
+  {
+    "phrase_id": "OBS_B04_006",
+    "phrase_vi": "đau lưng về đêm",
+    "variants_vi": ["ban đêm lưng đau nhiều", "đêm nằm lưng đau", "ngủ dậy lưng đau dữ", "đau lưng không ngủ được"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Đau lưng về đêm của bạn có kèm sụt cân, mệt mỏi nhiều hoặc sốt nhẹ buổi chiều không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đau lưng đêm âm ỉ, nằm lâu đau hơn, trở mình khó khăn",
+        "symptom_codes": ["nocturnal_back_pain_mechanical", "difficulty_turning_in_bed", "positional_pain"],
+        "yhct_hint": "Thận hư huyết ứ — ban đêm âm thịnh, khí huyết lưu thông kém",
+        "yhhd_hint": "Degenerative disc disease, facet arthropathy, fibromyalgia"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Đau lưng đêm dữ dội, liên tục, không giảm khi nghỉ ngơi, kèm sụt cân",
+        "symptom_codes": ["nocturnal_bone_pain_severe", "constant_pain_unrelieved_by_rest", "unexplained_weight_loss"],
+        "yhct_hint": "Tà độc xâm tủy — chính khí hư suy, tà thực xâm lấn",
+        "yhhd_hint": "Spinal malignancy (primary or metastatic), multiple myeloma, lymphoma — RED FLAG"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Đau lưng đêm kèm sốt nhẹ về chiều, ra mồ hôi trộm",
+        "symptom_codes": ["nocturnal_back_pain_with_fever", "night_sweats", "afternoon_low_grade_fever"],
+        "yhct_hint": "Âm hư nội nhiệt kiêm thấp độc — lao xương cột sống",
+        "yhhd_hint": "Spinal tuberculosis (Pott's disease), vertebral osteomyelitis — RED FLAG"
+      }
+    ],
+    "red_flag_trigger": ["B", "C"],
+    "notes": "Options B and C are serious red flags: nocturnal bone pain + weight loss = malignancy; night sweats + fever = TB/infection"
+  },
+  {
+    "phrase_id": "OBS_B04_007",
+    "phrase_vi": "đau lưng sau sinh",
+    "variants_vi": ["lưng đau sau đẻ", "sinh xong đau lưng", "sau sinh lưng yếu đau", "đẻ xong thấy đau lưng"],
+    "regions": ["all"],
+    "requires_disambiguation": false,
+    "disambiguation_question": "",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đau lưng sau sinh, mỏi gối, mệt mỏi, người lạnh, sữa ít",
+        "symptom_codes": ["postpartum_lumbar_pain", "postpartum_kidney_deficiency", "fatigue_postpartum", "cold_intolerance"],
+        "yhct_hint": "Thận hư — sau sinh hao tổn tinh huyết, thận tinh bất túc",
+        "yhhd_hint": "Postpartum musculoskeletal pain, pelvic girdle pain, hormonal laxity of ligaments"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Common postpartum complaint in Vietnam; YHCT views as Kidney deficiency after childbirth blood/essence loss"
+  },
+  {
+    "phrase_id": "OBS_B04_008",
+    "phrase_vi": "đau lưng lan ra trước bụng",
+    "variants_vi": ["đau lưng lan ra bụng", "đau từ lưng ra trước", "đau lưng vòng ra hông", "đau hông sườn lan sau lưng"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Đau lưng lan ra trước có kèm buồn nôn, sốt, hoặc tiểu ra máu không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đau một bên hông lan ra trước bụng dưới, tiểu buốt hoặc tiểu ra máu",
+        "symptom_codes": ["renal_colic", "flank_to_groin_radiation", "hematuria", "dysuria"],
+        "yhct_hint": "Thấp nhiệt hạ tiêu — sỏi làm trở trệ khí cơ thận hệ",
+        "yhhd_hint": "Ureteral colic, nephrolithiasis — requires urgent imaging"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Đau lưng vùng cao lan ra vùng sườn, kèm sốt và ớn lạnh",
+        "symptom_codes": ["upper_lumbar_pain_with_fever", "flank_pain_with_rigors", "pyelonephritis_pattern"],
+        "yhct_hint": "Thấp nhiệt bàng quang kiêm thận hệ",
+        "yhhd_hint": "Pyelonephritis, perinephric abscess — RED FLAG"
+      }
+    ],
+    "red_flag_trigger": ["B"],
+    "notes": "Always consider urological and aortic causes when back pain radiates anteriorly"
+  },
+  {
+    "phrase_id": "OBS_B04_009",
+    "phrase_vi": "đau lưng ở người già",
+    "variants_vi": ["già đau lưng", "lưng đau tuổi già", "lưng người cao tuổi đau", "ông bà đau lưng"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Người lớn tuổi đau lưng có kèm chiều cao giảm, lưng còng, hay đau sau ngã không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đau lưng mãn tính, lưng còng dần, chiều cao giảm, hay bị ngã",
+        "symptom_codes": ["osteoporotic_vertebral_fracture_risk", "kyphosis_progressive", "height_loss", "fall_risk"],
+        "yhct_hint": "Thận tinh hư suy — cốt tủy thất dưỡng, thận chủ cốt",
+        "yhhd_hint": "Osteoporosis with vertebral compression fracture, degenerative kyphosis"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Đau lưng dữ dội đột ngột ở người già sau ngã nhẹ hoặc không ngã",
+        "symptom_codes": ["acute_vertebral_compression_fracture", "pathological_fracture", "severe_sudden_back_pain_elderly"],
+        "yhct_hint": "Thận hư cốt nhược — xương giòn dễ gãy",
+        "yhhd_hint": "Osteoporotic compression fracture, pathological fracture from metastasis — RED FLAG"
+      }
+    ],
+    "red_flag_trigger": ["B"],
+    "notes": "Acute severe back pain in elderly after minimal trauma needs urgent imaging to rule out fracture"
+  },
+  {
+    "phrase_id": "OBS_B04_010",
+    "phrase_vi": "đau lưng kèm sốt và tiểu khó",
+    "variants_vi": ["lưng đau có sốt và tiểu khó", "đau thắt lưng sốt tiểu buốt", "đau lưng tiểu đau và sốt", "lưng đau sốt tiểu không thông"],
+    "regions": ["all"],
+    "requires_disambiguation": false,
+    "disambiguation_question": "",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đau lưng một hoặc hai bên, sốt cao, ớn lạnh, tiểu buốt và tiểu gắt",
+        "symptom_codes": ["lumbar_pain_fever_dysuria", "pyelonephritis", "rigors", "urinary_urgency_frequency"],
+        "yhct_hint": "Thấp nhiệt xâm phạm thận hệ và bàng quang — nhiệt độc ủng trệ",
+        "yhhd_hint": "Pyelonephritis, urosepsis, spinal epidural abscess — URGENT RED FLAG"
+      }
+    ],
+    "red_flag_trigger": ["A"],
+    "notes": "CRITICAL RED FLAG: This triad (back pain + fever + urinary symptoms) mandates urgent evaluation for pyelonephritis or spinal infection"
+  },
+  {
+    "phrase_id": "OBS_B04_011",
+    "phrase_vi": "đau khớp",
+    "variants_vi": ["khớp đau", "các khớp bị đau", "đau ở khớp", "mấy khớp đau"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Khớp nào đau, đau một khớp hay nhiều khớp, có sưng đỏ nóng không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Một khớp sưng đỏ nóng đau dữ dội, xuất hiện đột ngột",
+        "symptom_codes": ["monoarthritis_acute", "hot_swollen_joint", "acute_joint_inflammation"],
+        "yhct_hint": "Nhiệt tý — phong nhiệt thấp xâm phạm khớp, hoặc thấp trọc ứ kết",
+        "yhhd_hint": "Septic arthritis (emergency), crystal arthropathy (gout/pseudogout), reactive arthritis"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Nhiều khớp đau, đau đối xứng, cứng khớp sáng kéo dài",
+        "symptom_codes": ["polyarthritis_symmetric", "morning_stiffness_joints", "small_joint_involvement"],
+        "yhct_hint": "Phong hàn thấp tý mãn tính — nhiều kinh lạc bị trở",
+        "yhhd_hint": "Rheumatoid arthritis, seronegative arthritis"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Đau khớp kèm phát ban đỏ, sốt, rụng tóc, loét miệng",
+        "symptom_codes": ["arthritis_with_rash", "malar_rash", "fever_polyarthritis", "alopecia", "oral_ulcers"],
+        "yhct_hint": "Nhiệt độc xâm phạm kinh lạc — tý chứng kiêm ôn nhiệt",
+        "yhhd_hint": "Systemic Lupus Erythematosus (SLE), dermatomyositis — RED FLAG"
+      }
+    ],
+    "red_flag_trigger": ["A", "C"],
+    "notes": "Monoarthritis with warmth = septic arthritis until proven otherwise (joint aspiration needed); Option C = SLE red flag"
+  },
+  {
+    "phrase_id": "OBS_B04_012",
+    "phrase_vi": "đau khớp gối",
+    "variants_vi": ["đầu gối đau", "gối đau", "khớp gối bị đau", "đau ở gối"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Đau gối của bạn xuất hiện sau chấn thương hay tự nhiên, gối có sưng không, đau khi lên xuống cầu thang không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đau gối khi đi lại, lên xuống cầu thang, gối kêu lục cục, tuổi trung niên trở lên",
+        "symptom_codes": ["knee_pain_activity", "crepitus_knee", "patellofemoral_pain", "degenerative_knee"],
+        "yhct_hint": "Thận hư kiêm hàn thấp tý — can thận hư suy, cân cốt thất dưỡng",
+        "yhhd_hint": "Knee osteoarthritis, chondromalacia patellae"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Đau gối sưng to sau chấn thương thể thao, lắc gối không vững",
+        "symptom_codes": ["knee_swelling_post_trauma", "knee_instability", "sports_injury_knee"],
+        "yhct_hint": "Khí trệ huyết ứ — chấn thương kinh cân khớp gối",
+        "yhhd_hint": "ACL/MCL tear, meniscal injury, hemarthrosis"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Gối sưng đỏ nóng đau dữ, đặc biệt ngón chân cái hoặc mắt cá cũng bị",
+        "symptom_codes": ["acute_gout_knee", "hot_swollen_knee", "crystal_arthropathy"],
+        "yhct_hint": "Thấp nhiệt tý — phong thấp nhiệt xâm khớp, thấp trọc ứ kết",
+        "yhhd_hint": "Gout, pseudogout (CPPD), septic arthritis"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": ""
+  },
+  {
+    "phrase_id": "OBS_B04_013",
+    "phrase_vi": "sưng khớp",
+    "variants_vi": ["khớp bị sưng", "khớp phù nề", "khớp to ra", "chỗ khớp bị phồng lên"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Khớp sưng ở đâu, sưng mấy khớp, có nóng đỏ không, có sốt không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Sưng một khớp đột ngột, rất nóng đỏ, đau dữ dội, có thể có sốt",
+        "symptom_codes": ["acute_monoarthritis_swelling", "joint_effusion", "acute_inflammatory_monoarthritis"],
+        "yhct_hint": "Nhiệt tý cấp tính — phong nhiệt độc xâm khớp",
+        "yhhd_hint": "Septic arthritis (urgent), acute gout, hemarthrosis"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Sưng nhiều khớp nhỏ đối xứng (bàn tay, cổ tay), cứng sáng dài",
+        "symptom_codes": ["symmetric_small_joint_swelling", "MCP_PIP_involvement", "morning_stiffness_prolonged"],
+        "yhct_hint": "Phong hàn thấp tý mãn — khớp nhỏ kinh lạc trở trệ",
+        "yhhd_hint": "Rheumatoid arthritis, psoriatic arthritis"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Sưng khớp sau nhiễm khuẩn đường ruột hoặc đường tiết niệu, kèm đau mắt",
+        "symptom_codes": ["reactive_arthritis", "post_infectious_arthritis", "conjunctivitis_with_arthritis"],
+        "yhct_hint": "Thấp nhiệt tý — tà từ trường vị hoặc hạ tiêu xâm phạm kinh lạc",
+        "yhhd_hint": "Reactive arthritis (Reiter's syndrome) — post-chlamydia, post-enteric infection"
+      }
+    ],
+    "red_flag_trigger": ["A"],
+    "notes": "Hot swollen monoarthritis is septic arthritis until proven; requires joint aspiration"
+  },
+  {
+    "phrase_id": "OBS_B04_014",
+    "phrase_vi": "khớp nóng đỏ",
+    "variants_vi": ["khớp đỏ và nóng", "chỗ khớp nóng bỏng đỏ", "khớp đỏ lên", "khớp viêm đỏ nóng"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Khớp nóng đỏ ở đâu, xuất hiện đột ngột hay từ từ, có sốt cao không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Ngón chân cái hoặc mắt cá đột ngột đỏ nóng sưng đau dữ, thường về đêm",
+        "symptom_codes": ["podagra", "acute_gout_attack", "first_MTP_arthritis", "nocturnal_onset"],
+        "yhct_hint": "Thấp nhiệt tý — thấp trọc ứ kết tại khớp, ẩm thực bất tiết",
+        "yhhd_hint": "Acute gout (podagra), uric acid crystal deposition"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Khớp to đỏ nóng sưng, kèm sốt cao, người bệnh đái tháo đường hoặc giảm miễn dịch",
+        "symptom_codes": ["septic_arthritis_risk_factors", "joint_erythema_fever", "immunocompromised_host"],
+        "yhct_hint": "Nhiệt độc ủng trệ khớp — chính khí hư, tà thực xâm khớp",
+        "yhhd_hint": "Septic arthritis — Staphylococcus, gram-negatives in diabetics — RED FLAG"
+      }
+    ],
+    "red_flag_trigger": ["B"],
+    "notes": "Septic arthritis in high-risk patients is a medical emergency requiring joint aspiration and IV antibiotics"
+  },
+  {
+    "phrase_id": "OBS_B04_015",
+    "phrase_vi": "đau nhiều khớp cùng lúc",
+    "variants_vi": ["đau mấy khớp một lúc", "nhiều khớp đau cùng lúc", "khắp người đau khớp", "toàn thân đau khớp"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Đau nhiều khớp kèm sốt, phát ban, rụng tóc, hay loét miệng không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đau nhiều khớp nhỏ bàn tay, cổ tay đối xứng, cứng khớp sáng",
+        "symptom_codes": ["polyarthritis_small_joints", "bilateral_symmetric", "morning_stiffness_RA"],
+        "yhct_hint": "Phong hàn thấp tý — phong thấp xâm phạm nhiều kinh lạc",
+        "yhhd_hint": "Rheumatoid arthritis, early connective tissue disease"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Đau nhiều khớp lớn nhỏ không đối xứng, kèm sốt, phát ban đỏ hình cánh bướm",
+        "symptom_codes": ["migratory_polyarthritis", "malar_rash", "fever_systemic", "SLE_arthritis"],
+        "yhct_hint": "Nhiệt tý kiêm ôn nhiệt độc tà — tà độc lan tràn kinh lạc tạng phủ",
+        "yhhd_hint": "Systemic Lupus Erythematosus (SLE) — RED FLAG"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Đau khớp di chuyển nhiều khớp lớn, sau nhiễm liên cầu khuẩn họng",
+        "symptom_codes": ["migratory_polyarthritis_large_joints", "post_streptococcal", "rheumatic_fever"],
+        "yhct_hint": "Phong tý — phong tà chủ đạo, đau chuyển nhiều chỗ",
+        "yhhd_hint": "Acute rheumatic fever — RED FLAG (carditis risk)"
+      }
+    ],
+    "red_flag_trigger": ["B", "C"],
+    "notes": "SLE and acute rheumatic fever are important systemic causes of polyarthritis requiring urgent investigation"
+  },
+  {
+    "phrase_id": "OBS_B04_016",
+    "phrase_vi": "khớp kêu lục cục",
+    "variants_vi": ["khớp kêu răng rắc", "gập khớp có tiếng kêu", "khớp kêu cục cục", "khớp kêu khi cử động"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Khớp kêu có kèm đau không, hay chỉ kêu mà không đau?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Khớp kêu nhưng không đau, không sưng, thường ở khớp ngón tay hoặc cổ",
+        "symptom_codes": ["benign_joint_crepitus", "joint_cracking_no_pain", "gas_bubble_cavitation"],
+        "yhct_hint": "Khí cơ thông lợi bình thường hoặc khí trệ nhẹ thoáng qua",
+        "yhhd_hint": "Benign joint cracking (cavitation), normal variant"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Khớp gối kêu khi co duỗi, kèm đau khi lên xuống cầu thang, tuổi trung niên",
+        "symptom_codes": ["knee_crepitus_with_pain", "patellofemoral_crepitus", "degenerative_crepitus"],
+        "yhct_hint": "Thận hư can thận hư — sụn khớp thất dưỡng, cân cốt mất nuôi dưỡng",
+        "yhhd_hint": "Knee osteoarthritis, chondromalacia, degenerative meniscus"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Crepitus without pain is usually benign; crepitus with pain and functional limitation suggests osteoarthritis"
+  },
+  {
+    "phrase_id": "OBS_B04_017",
+    "phrase_vi": "đau khớp khi trời lạnh",
+    "variants_vi": ["trời lạnh đau khớp", "trời trở lạnh khớp đau", "mùa đông đau khớp nhiều", "trời âm u khớp đau"],
+    "regions": ["all"],
+    "requires_disambiguation": false,
+    "disambiguation_question": "",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đau khớp tăng rõ khi trời lạnh, ẩm, giảm khi chườm nóng, đắp ấm",
+        "symptom_codes": ["joint_pain_cold_weather", "cold_damp_aggravation", "heat_application_relief", "weather_sensitivity"],
+        "yhct_hint": "Hàn tý — hàn tà chủ đạo, hàn ngưng khí trệ, mạch co lại",
+        "yhhd_hint": "Osteoarthritis exacerbation in cold weather, fibromyalgia flare, Raynaud's phenomenon"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Classic hàn tý pattern in YHCT; clinically weather-related joint pain is common in OA and fibromyalgia"
+  },
+  {
+    "phrase_id": "OBS_B04_018",
+    "phrase_vi": "đau khớp + phát ban đỏ",
+    "variants_vi": ["khớp đau kèm nổi ban đỏ", "đau khớp có ban đỏ trên da", "phát ban đỏ và đau khớp", "đau khớp nổi mẩn đỏ"],
+    "regions": ["all"],
+    "requires_disambiguation": false,
+    "disambiguation_question": "",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đau nhiều khớp kèm ban đỏ hình cánh bướm ở má, sốt, rụng tóc, mệt mỏi",
+        "symptom_codes": ["SLE_arthritis", "malar_butterfly_rash", "fever_polyarthritis", "alopecia", "fatigue_systemic"],
+        "yhct_hint": "Nhiệt tý kiêm âm hư nội nhiệt — nhiệt độc xâm phạm kinh lạc, tổn thương âm huyết",
+        "yhhd_hint": "Systemic Lupus Erythematosus (SLE) — URGENT RED FLAG, requires ANA/anti-dsDNA"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Đau khớp kèm ban đỏ vảy ở da đầu, khuỷu tay, gối và móng tay bị lõm",
+        "symptom_codes": ["psoriatic_arthritis", "psoriasis_skin", "nail_pitting", "scalp_psoriasis"],
+        "yhct_hint": "Phong thấp nhiệt tý kiêm huyết nhiệt sinh phong — bì phu kinh lạc đều bị tà침",
+        "yhhd_hint": "Psoriatic arthritis — requires dermatology and rheumatology co-management"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Đau khớp sau tiêu chảy hoặc nhiễm khuẩn, kèm ban đỏ và đau mắt đỏ",
+        "symptom_codes": ["reactive_arthritis_triad", "post_infectious_arthritis", "conjunctivitis", "skin_rash_post_infection"],
+        "yhct_hint": "Thấp nhiệt tý — thấp nhiệt từ trường vị xâm phạm kinh lạc khắp nơi",
+        "yhhd_hint": "Reactive arthritis (Reiter's triad: arthritis, urethritis, conjunctivitis)"
+      }
+    ],
+    "red_flag_trigger": ["A"],
+    "notes": "CRITICAL RED FLAG: Joint pain + butterfly rash + fever is SLE until proven otherwise. Requires urgent rheumatology referral"
+  },
+  {
+    "phrase_id": "OBS_B04_019",
+    "phrase_vi": "đau gót chân",
+    "variants_vi": ["gót chân đau", "bước xuống đất gót đau", "đau dưới gót", "sáng ra gót chân đau"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Gót chân đau nhiều nhất khi nào — bước chân đầu tiên buổi sáng hay đau suốt cả ngày?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Gót chân đau nhất khi bước chân đầu tiên buổi sáng, giảm sau đi lại một lúc",
+        "symptom_codes": ["plantar_fasciitis", "heel_pain_morning_first_steps", "fascia_pain_improves_with_walking"],
+        "yhct_hint": "Thận hư kiêm hàn thấp — cân cốt thất dưỡng, hàn thấp ngưng ở túc căn",
+        "yhhd_hint": "Plantar fasciitis, calcaneal spur"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Đau gót chân kèm đau gót gân Achilles, sưng gân, tuổi trẻ có viêm khớp",
+        "symptom_codes": ["enthesitis_achilles", "heel_enthesopathy", "young_patient_inflammatory"],
+        "yhct_hint": "Hàn thấp tý kiêm thận hư — cân gân thất dưỡng, tà tà ứ trệ điểm bám gân",
+        "yhhd_hint": "Enthesitis in seronegative spondyloarthropathy (ankylosing spondylitis, psoriatic arthritis)"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": ""
+  },
+  {
+    "phrase_id": "OBS_B04_020",
+    "phrase_vi": "đau khớp ngón tay",
+    "variants_vi": ["ngón tay đau khớp", "khớp ngón tay đau sưng", "đau mấy đốt ngón tay", "khớp bàn tay đau"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Đau ngón tay đối xứng hai bên hay chỉ một vài ngón, có cứng sáng không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đau và sưng khớp ngón tay đối xứng hai bàn tay, cứng sáng trên 1 giờ, mệt mỏi",
+        "symptom_codes": ["symmetric_MCP_PIP_arthritis", "bilateral_hand_arthritis", "morning_stiffness_RA_hands"],
+        "yhct_hint": "Phong hàn thấp tý — tà xâm khớp nhỏ bàn tay, kinh thủ bị trở",
+        "yhhd_hint": "Rheumatoid arthritis (MCP/PIP joints), anti-CCP positive"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Đau khớp đầu ngón tay (DIP), có nốt xương chai ở khớp, tuổi cao",
+        "symptom_codes": ["DIP_joint_arthritis", "Heberden_nodes", "distal_interphalangeal_OA"],
+        "yhct_hint": "Thận hư can hư kiêm đàm thấp — cốt cân thất dưỡng, đàm ứ kết tụ",
+        "yhhd_hint": "Osteoarthritis of DIP joints (Heberden's nodes)"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "RA involves MCP/PIP; OA involves DIP — key differentiating point"
+  },
+  {
+    "phrase_id": "OBS_B04_021",
+    "phrase_vi": "đau cổ",
+    "variants_vi": ["cổ đau", "đau vùng cổ", "cổ bị đau", "cổ cứng đau"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Đau cổ của bạn lan lên đầu hay xuống tay không, có kèm sốt và cứng gáy không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đau cổ lan xuống cánh tay, tê bì ngón tay, sau ngồi máy tính lâu",
+        "symptom_codes": ["cervical_radiculopathy", "arm_numbness", "occupational_neck_pain", "cervicogenic_arm_pain"],
+        "yhct_hint": "Phong hàn tý — phong hàn thấp xâm kinh thủ thái dương tiểu trường và kinh thủ dương minh",
+        "yhhd_hint": "Cervical disc herniation, cervical spondylosis with radiculopathy"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Đau cổ sau chấn thương (tai nạn giao thông), đau nhói khi quay cổ",
+        "symptom_codes": ["whiplash_injury", "cervical_strain_post_trauma", "acute_cervical_pain"],
+        "yhct_hint": "Khí trệ huyết ứ — chấn thương kinh cân cổ",
+        "yhhd_hint": "Whiplash associated disorder, cervical strain, rule out fracture/instability"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Đau cổ cứng gáy dữ dội, sốt cao, đau đầu dữ, buồn nôn, sợ ánh sáng",
+        "symptom_codes": ["neck_stiffness_meningism", "high_fever_meningitis", "photophobia", "severe_headache_meningitis"],
+        "yhct_hint": "Nhiệt tà xâm phạm tâm bào lạc — ôn tà nhiễm não tủy",
+        "yhhd_hint": "Bacterial meningitis — CRITICAL RED FLAG, EMERGENCY"
+      }
+    ],
+    "red_flag_trigger": ["C"],
+    "notes": "CRITICAL RED FLAG: Neck stiffness + high fever + severe headache = meningitis until proven otherwise"
+  },
+  {
+    "phrase_id": "OBS_B04_022",
+    "phrase_vi": "vai gáy đau",
+    "variants_vi": ["đau vai gáy", "gáy và vai đau", "vùng vai gáy bị đau", "cổ vai gáy đau nhức"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Đau vai gáy ảnh hưởng đến giấc ngủ không, có tê cánh tay không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đau mỏi vùng cổ gáy và vai sau ngồi làm việc, giảm khi nghỉ ngơi và xoa bóp",
+        "symptom_codes": ["trapezius_myalgia", "occupational_neck_shoulder_pain", "muscle_tension_neck"],
+        "yhct_hint": "Khí trệ kinh lạc — tư thế bất chính làm khí huyết trở trệ kinh thủ túc thái dương",
+        "yhhd_hint": "Cervical muscle tension, myofascial pain syndrome, occupational overuse"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Đau gáy lan lên đầu gây đau đầu, đau nửa đầu phía sau",
+        "symptom_codes": ["cervicogenic_headache", "occipital_neuralgia", "neck_to_head_radiation"],
+        "yhct_hint": "Phong hàn tý kiêm thận hư — kinh túc thái dương bị trở, thanh dương bất thăng",
+        "yhhd_hint": "Cervicogenic headache, occipital neuralgia, tension-type headache"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": ""
+  },
+  {
+    "phrase_id": "OBS_B04_023",
+    "phrase_vi": "cổ cứng",
+    "variants_vi": ["cổ bị cứng", "quay cổ khó", "cứng cổ không quay được", "cổ cứng đờ"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Cứng cổ xuất hiện sáng ngủ dậy hay cả ngày, có kèm sốt và đau đầu không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Cứng cổ sáng ngủ dậy, giảm sau vận động, không sốt",
+        "symptom_codes": ["morning_neck_stiffness", "cervical_stiffness_mechanical", "improves_with_movement"],
+        "yhct_hint": "Hàn thấp tý — hàn thấp ngưng trệ kinh thủ túc thái dương ban đêm",
+        "yhhd_hint": "Cervical spondylosis, muscle spasm, poor sleeping posture"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Cứng gáy liên tục, không giảm khi vận động, kèm sốt cao và đau đầu dữ dội",
+        "symptom_codes": ["meningismus", "nuchal_rigidity_fever", "Kernig_Brudzinski_signs", "severe_headache"],
+        "yhct_hint": "Nhiệt tà xâm tâm bào — cấp tính ôn tà",
+        "yhhd_hint": "Bacterial meningitis, viral meningitis, subarachnoid hemorrhage — CRITICAL RED FLAG"
+      }
+    ],
+    "red_flag_trigger": ["B"],
+    "notes": "CRITICAL RED FLAG: Neck stiffness + fever + severe headache = meningitis/SAH emergency"
+  },
+  {
+    "phrase_id": "OBS_B04_024",
+    "phrase_vi": "đau vai",
+    "variants_vi": ["vai đau", "bả vai đau", "đau khớp vai", "vai bị đau nhức"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Vai đau khi nào — khi giơ tay lên cao hay khi nằm đè lên vai, có yếu cánh tay không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đau khi giơ tay lên một góc nhất định (60-120 độ), nghe tiếng cọ xát",
+        "symptom_codes": ["shoulder_impingement", "painful_arc_sign", "subacromial_pain", "rotator_cuff_tendinopathy"],
+        "yhct_hint": "Phong hàn thấp tý — kinh thủ thái dương và kinh thủ thiếu dương bị trở",
+        "yhhd_hint": "Rotator cuff tendinopathy, subacromial impingement syndrome"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Vai đau liên tục cả ngày lẫn đêm, cứng vai, không giơ tay lên được theo mọi hướng",
+        "symptom_codes": ["frozen_shoulder", "adhesive_capsulitis", "global_shoulder_restriction"],
+        "yhct_hint": "Phong hàn thấp tý kiêm huyết hư — huyết hư cân cốt thất dưỡng, hàn thấp xâm kinh",
+        "yhhd_hint": "Adhesive capsulitis (frozen shoulder), more common in diabetics and post-injury"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Đau vai trái lan lên cổ và hàm, kèm tức ngực, vã mồ hôi",
+        "symptom_codes": ["referred_shoulder_pain_cardiac", "left_shoulder_arm_pain", "chest_tightness", "diaphoresis"],
+        "yhct_hint": "Tâm khí bất thông — tâm huyết ứ tắc, đau lan theo kinh thủ thiếu âm",
+        "yhhd_hint": "Acute myocardial infarction with referred shoulder pain — CRITICAL RED FLAG"
+      }
+    ],
+    "red_flag_trigger": ["C"],
+    "notes": "Left shoulder pain + chest tightness + diaphoresis = acute MI until proven otherwise"
+  },
+  {
+    "phrase_id": "OBS_B04_025",
+    "phrase_vi": "vai tê cánh tay",
+    "variants_vi": ["tê cánh tay từ vai", "vai đau tê xuống cánh tay", "cánh tay tê từ vai xuống", "đau từ vai lan tê cánh tay"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Tê cánh tay theo vùng nào — mặt trong hay mặt ngoài, tê ngón tay nào?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Tê từ vai lan xuống ngón cái và ngón trỏ, tăng khi quay đầu sang bên",
+        "symptom_codes": ["C6_radiculopathy", "thumb_index_numbness", "cervical_spine_radiculopathy"],
+        "yhct_hint": "Phong hàn tý — kinh thủ dương minh và thủ thái âm bị hàn thấp tà trở trệ",
+        "yhhd_hint": "C5-C6 disc herniation, C6 radiculopathy"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Tê cánh tay mặt trong, ngón nhẫn và ngón út, không liên quan tư thế cổ",
+        "symptom_codes": ["C8_T1_radiculopathy", "ulnar_nerve_distribution", "ring_little_finger_numbness"],
+        "yhct_hint": "Hàn tý — kinh thủ thiếu âm tâm và thủ thái dương tiểu trường bị trở",
+        "yhhd_hint": "C7-T1 radiculopathy, thoracic outlet syndrome, ulnar nerve compression at elbow"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Distribution of numbness helps localize nerve root or peripheral nerve involved"
+  },
+  {
+    "phrase_id": "OBS_B04_026",
+    "phrase_vi": "đau cổ cứng gáy kèm sốt",
+    "variants_vi": ["cứng gáy và sốt", "đau cổ có sốt cao", "sốt kèm cứng cổ", "cổ cứng không cúi được và sốt"],
+    "regions": ["all"],
+    "requires_disambiguation": false,
+    "disambiguation_question": "",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đau cổ cứng gáy không cúi được, sốt cao, đau đầu dữ dội, nôn mửa, sợ ánh sáng và tiếng động",
+        "symptom_codes": ["meningitis_triad", "neck_stiffness_fever_headache", "photophobia", "phonophobia", "vomiting_meningism"],
+        "yhct_hint": "Nhiệt tà xâm phạm não tủy — cấp tính ôn tà nhập lý, tâm bào lạc bị nhiễu",
+        "yhhd_hint": "Bacterial meningitis (Neisseria meningitidis, S. pneumoniae), viral meningitis — CRITICAL EMERGENCY"
+      }
+    ],
+    "red_flag_trigger": ["A"],
+    "notes": "CRITICAL RED FLAG: This is meningitis until proven otherwise. Requires immediate hospital transfer, blood cultures, LP, IV antibiotics"
+  },
+  {
+    "phrase_id": "OBS_B04_027",
+    "phrase_vi": "tê bì tay chân",
+    "variants_vi": ["tay chân tê bì", "tê tay tê chân", "bàn tay bàn chân bị tê", "tê cả tay lẫn chân"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Tê bì theo kiểu nào — tê toàn bàn tay và bàn chân kiểu đeo găng tất hay chỉ tê từng vùng?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Tê đầu ngón tay và đầu ngón chân hai bên, kiểu đeo găng và tất, tiểu đường lâu năm",
+        "symptom_codes": ["peripheral_neuropathy_glove_stocking", "diabetic_neuropathy", "bilateral_distal_numbness"],
+        "yhct_hint": "Khí âm lưỡng hư kiêm huyết ứ — kinh lạc thất dưỡng, huyết không nuôi dưỡng chi thể",
+        "yhhd_hint": "Diabetic peripheral neuropathy, length-dependent polyneuropathy"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Tê bì toàn bộ một bên tay và chân (cùng bên), xuất hiện đột ngột kèm yếu liệt",
+        "symptom_codes": ["hemibody_numbness_weakness", "acute_onset_unilateral", "stroke_sensory"],
+        "yhct_hint": "Phong trúng kinh lạc — phong đàm tắc trở não lạc",
+        "yhhd_hint": "Stroke (ischemic or hemorrhagic), TIA — CRITICAL RED FLAG"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Tê bì tay chân mãn tính, da khô, tóc rụng, mệt mỏi, tăng cân",
+        "symptom_codes": ["hypothyroid_neuropathy", "carpal_tunnel_with_hypothyroid", "weight_gain_dry_skin_neuropathy"],
+        "yhct_hint": "Thận dương hư kiêm đàm thấp — dương khí bất túc, thủy thấp tràn ngập",
+        "yhhd_hint": "Hypothyroidism with peripheral neuropathy, carpal tunnel syndrome"
+      }
+    ],
+    "red_flag_trigger": ["B"],
+    "notes": "Acute unilateral numbness + weakness = stroke emergency. Bilateral glove-stocking = peripheral neuropathy investigation"
+  },
+  {
+    "phrase_id": "OBS_B04_028",
+    "phrase_vi": "yếu tay yếu chân",
+    "variants_vi": ["tay chân yếu", "tay yếu không cầm được đồ", "chân yếu không bước được", "cơ tay chân kém"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Yếu tay chân xuất hiện đột ngột hay từ từ, một bên hay cả hai bên?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Yếu một bên tay và chân đột ngột, kèm méo miệng hoặc nói khó",
+        "symptom_codes": ["hemiplegia_acute", "facial_droop", "speech_impairment", "acute_stroke_motor"],
+        "yhct_hint": "Trúng phong — phong đàm bế tắc kinh lạc não",
+        "yhhd_hint": "Acute stroke (ischemic/hemorrhagic) — CRITICAL RED FLAG, FAST criteria positive"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Yếu hai chân từ từ, leo cầu thang khó, cơ chân teo nhỏ",
+        "symptom_codes": ["progressive_leg_weakness", "muscle_atrophy_legs", "bilateral_lower_extremity_weakness"],
+        "yhct_hint": "Nuy chứng — can thận bất túc, khí huyết bất thông, gân cơ thất dưỡng",
+        "yhhd_hint": "Motor neuron disease, myopathy, spinal cord compression, peripheral neuropathy"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Yếu mỏi tay chân theo cơn, đặc biệt vào chiều tối, sụp mí mắt",
+        "symptom_codes": ["fatigable_weakness", "ptosis", "diurnal_variation_weakness", "myasthenia_pattern"],
+        "yhct_hint": "Tỳ khí hư suy — khí hư không nuôi dưỡng cơ nhục, tỳ chủ cơ nhục",
+        "yhhd_hint": "Myasthenia gravis — requires acetylcholine receptor antibody testing"
+      }
+    ],
+    "red_flag_trigger": ["A"],
+    "notes": "Acute unilateral weakness + facial asymmetry = STROKE EMERGENCY. Apply FAST protocol immediately"
+  },
+  {
+    "phrase_id": "OBS_B04_029",
+    "phrase_vi": "đau bắp chân",
+    "variants_vi": ["bắp chân đau", "bắp chuối đau", "bắp chân bị đau nhức", "cẳng chân đau"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Bắp chân đau lúc nghỉ hay khi đi bộ, có sưng đỏ nóng không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Bắp chân đau buốt khi đi bộ, nghỉ ngơi đỡ, xảy ra ở người hút thuốc nhiều",
+        "symptom_codes": ["intermittent_claudication", "exertional_calf_pain", "peripheral_arterial_disease"],
+        "yhct_hint": "Huyết ứ kinh lạc — mạch huyết bất thông, khí huyết không nuôi chi thể",
+        "yhhd_hint": "Peripheral arterial disease, intermittent claudication — requires ABI measurement"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Bắp chân sưng đau một bên, nóng đỏ, sau phẫu thuật hoặc nằm lâu",
+        "symptom_codes": ["DVT_calf", "unilateral_calf_swelling", "calf_tenderness_DVT", "post_immobilization"],
+        "yhct_hint": "Huyết ứ kinh mạch — huyết ứ tắc tại lạc mạch cẳng chân",
+        "yhhd_hint": "Deep vein thrombosis (DVT) — RED FLAG, risk of pulmonary embolism"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Đau nhức bắp chân mãn tính, tê bì bàn chân, tiểu đường lâu năm",
+        "symptom_codes": ["diabetic_peripheral_neuropathy_pain", "burning_calf_pain", "neuropathic_pain_lower_leg"],
+        "yhct_hint": "Khí âm lưỡng hư kiêm huyết ứ — kinh lạc thất dưỡng",
+        "yhhd_hint": "Diabetic neuropathy, peripheral vascular disease"
+      }
+    ],
+    "red_flag_trigger": ["B"],
+    "notes": "Unilateral swollen hot calf = DVT emergency — risk of fatal pulmonary embolism"
+  },
+  {
+    "phrase_id": "OBS_B04_030",
+    "phrase_vi": "chuột rút",
+    "variants_vi": ["vọp bẻ", "co rút cơ", "cơ bắp co lại đau", "đang ngủ bị chuột rút", "chuột rút chân ban đêm"],
+    "regions": ["Nam Bộ", "all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Chuột rút xảy ra khi nào — ban đêm khi ngủ, khi vận động hay liên tục cả ngày?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Chuột rút bắp chân ban đêm, tự khỏi sau căng cơ, hay gặp ở người cao tuổi",
+        "symptom_codes": ["nocturnal_leg_cramps", "calf_muscle_spasm_night", "benign_nocturnal_cramps"],
+        "yhct_hint": "Can huyết hư — can chủ cân, can huyết hư thì cân cơ thất dưỡng, ban đêm âm vượng",
+        "yhhd_hint": "Benign nocturnal leg cramps, hypomagnesemia, peripheral vascular disease"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Chuột rút thường xuyên nhiều cơ, kèm yếu cơ tiến triển",
+        "symptom_codes": ["frequent_muscle_cramps", "progressive_muscle_weakness", "electrolyte_imbalance"],
+        "yhct_hint": "Tỳ thận hư suy — khí hư huyết hư không nuôi cơ nhục",
+        "yhhd_hint": "Electrolyte disorder (hypokalemia, hyponatremia), motor neuron disease, thyroid disease"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Chuột rút khi vận động, kèm mệt cơ nhanh, có tiền sử tiêu chảy nhiều hoặc dùng lợi tiểu",
+        "symptom_codes": ["exercise_induced_cramps", "medication_induced_cramps", "diuretic_hypokalemia"],
+        "yhct_hint": "Khí âm hư — tân dịch bất túc, khí hư cơ nhục thất dưỡng",
+        "yhhd_hint": "Hypokalemia (diuretic use), dehydration, heat cramps"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Vọp bẻ is common Southern Vietnamese term; persistent cramps with weakness need electrolyte and neurological evaluation"
+  },
+  {
+    "phrase_id": "OBS_B04_031",
+    "phrase_vi": "tê bì bàn tay",
+    "variants_vi": ["bàn tay bị tê", "ngón tay tê", "tay tê buốt", "tê ngón tay khi ngủ dậy"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Tê ngón tay nào nhiều nhất — ba ngón đầu hay ngón nhẫn và ngón út?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Tê ba ngón đầu (cái, trỏ, giữa), tê nhiều ban đêm và sáng sớm, giảm khi vẩy tay",
+        "symptom_codes": ["carpal_tunnel_syndrome", "median_nerve_compression", "nocturnal_hand_numbness", "positive_Phalen"],
+        "yhct_hint": "Hàn thấp tý — thấp tà ngưng trệ cổ tay, kinh thủ quyết âm tâm bào bị trở",
+        "yhhd_hint": "Carpal tunnel syndrome (CTS), median nerve entrapment at wrist"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Tê ngón nhẫn và ngón út, tê tăng khi gập khuỷu tay, yếu cơ bàn tay",
+        "symptom_codes": ["ulnar_neuropathy", "cubital_tunnel_syndrome", "ring_little_finger_numbness", "intrinsic_muscle_weakness"],
+        "yhct_hint": "Hàn tý — hàn tà xâm kinh thủ thiếu âm và thủ thái dương tại khuỷu",
+        "yhhd_hint": "Ulnar nerve entrapment at elbow (cubital tunnel syndrome)"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Distribution of numbness determines which nerve is involved — median vs ulnar"
+  },
+  {
+    "phrase_id": "OBS_B04_032",
+    "phrase_vi": "chân tê khi ngồi lâu",
+    "variants_vi": ["ngồi lâu chân tê", "ngồi một lúc chân bị tê", "ngồi xổm chân tê", "ngồi bàn lâu chân tê"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Chân tê khi ngồi lâu có tự hết sau khi đứng dậy đi lại không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Chân tê sau ngồi lâu, tự hết sau vài phút đứng dậy vận động",
+        "symptom_codes": ["positional_leg_numbness", "pressure_induced_numbness", "benign_positional_paresthesia"],
+        "yhct_hint": "Khí trệ tạm thời — tư thế ép kinh lạc, khí huyết tạm thời bị trở",
+        "yhhd_hint": "Transient positional paresthesia (pressure on peroneal nerve), benign"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Chân tê khi ngồi hoặc đứng lâu, kèm đau lưng, không tự hết hoàn toàn",
+        "symptom_codes": ["lumbar_stenosis_sitting", "neurogenic_claudication_sitting", "persistent_leg_numbness"],
+        "yhct_hint": "Thận hư kiêm huyết ứ — tủy hải bất túc, kinh lạc bị tắc mãn tính",
+        "yhhd_hint": "Lumbar spinal stenosis, lumbar disc herniation with chronic radiculopathy"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": ""
+  },
+  {
+    "phrase_id": "OBS_B04_033",
+    "phrase_vi": "đau bắp chuối",
+    "variants_vi": ["bắp chuối đau nhức", "đau ở bắp chuối", "chuột rút bắp chuối", "bắp chuối cứng đau"],
+    "regions": ["Nam Bộ", "Trung Bộ"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Bắp chuối đau lúc nào — khi nghỉ hay khi đi bộ, có kèm sưng không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Bắp chuối (bắp chân) đau nhức mỏi sau đứng lâu hoặc đi nhiều",
+        "symptom_codes": ["calf_fatigue_pain", "overuse_calf_pain", "prolonged_standing_calf_ache"],
+        "yhct_hint": "Khí huyết bất túc — cơ nhục thất dưỡng, lao lực quá độ",
+        "yhhd_hint": "Muscle fatigue, venous insufficiency, overuse syndrome"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Bắp chuối một bên sưng đau, da nóng đỏ, sau khi ngồi lâu hoặc phẫu thuật",
+        "symptom_codes": ["DVT_symptom", "unilateral_calf_DVT", "warmth_erythema_calf"],
+        "yhct_hint": "Huyết ứ mạch lạc — huyết tắc tại lạc mạch cẳng chân",
+        "yhhd_hint": "Deep vein thrombosis — RED FLAG"
+      }
+    ],
+    "red_flag_trigger": ["B"],
+    "notes": "Bắp chuối is common colloquial term for calf in Southern and Central Vietnam"
+  },
+  {
+    "phrase_id": "OBS_B04_034",
+    "phrase_vi": "mỏi chân",
+    "variants_vi": ["chân mỏi", "hai chân mỏi nhừ", "chân mệt mỏi", "chân rã rời"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Mỏi chân xuất hiện sau đi nhiều hay mỏi ngay cả khi nghỉ ngơi, có kèm phù chân không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Mỏi chân sau đứng hoặc đi lâu, giảm khi nằm gác chân cao, có giãn tĩnh mạch",
+        "symptom_codes": ["venous_insufficiency_leg_fatigue", "varicose_veins", "leg_heaviness_venous"],
+        "yhct_hint": "Huyết ứ kinh lạc — huyết không hồi lưu tốt, ứ trệ tại lạc mạch",
+        "yhhd_hint": "Chronic venous insufficiency, varicose veins"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Mỏi yếu hai chân tiến triển, khó leo cầu thang, không giảm khi nghỉ",
+        "symptom_codes": ["progressive_bilateral_leg_weakness", "proximal_muscle_weakness", "stairs_difficulty"],
+        "yhct_hint": "Nuy chứng — tỳ thận hư suy, cơ nhục và gân cốt thất dưỡng",
+        "yhhd_hint": "Proximal myopathy, polymyositis, Lambert-Eaton syndrome, hypothyroid myopathy"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": ""
+  },
+  {
+    "phrase_id": "OBS_B04_035",
+    "phrase_vi": "đau nhức toàn thân",
+    "variants_vi": ["người đau nhức", "đau nhức khắp người", "cả người đau mỏi", "đau người toàn thân"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Đau nhức toàn thân có kèm sốt không, xuất hiện sau nhiễm siêu vi hay tự nhiên, kéo dài bao lâu?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đau nhức toàn thân sau cảm cúm, sốt, mệt mỏi, kéo dài vài ngày",
+        "symptom_codes": ["myalgia_post_viral", "influenza_body_aches", "systemic_myalgia_fever"],
+        "yhct_hint": "Phong hàn xâm biểu — ngoại cảm phong hàn, vệ khí bất cố",
+        "yhhd_hint": "Viral myalgia (influenza, dengue, COVID-19), post-infectious fatigue"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Đau nhức cơ khắp người mãn tính, điểm đau nhất định khi ấn, ngủ kém, mệt mỏi",
+        "symptom_codes": ["fibromyalgia", "widespread_chronic_pain", "tender_points", "sleep_disturbance"],
+        "yhct_hint": "Can khí uất kết kiêm tỳ thận hư — khí trệ toàn thân, cơ nhục thất dưỡng",
+        "yhhd_hint": "Fibromyalgia syndrome, chronic widespread pain"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Đau mỏi cơ vai và cánh tay trên ở người cao tuổi, khó giơ tay, sốt nhẹ và thiếu máu",
+        "symptom_codes": ["PMR_shoulder_girdle_pain", "elderly_proximal_myalgia", "elevated_ESR_CRP", "anemia"],
+        "yhct_hint": "Phong hàn thấp tý kiêm khí huyết lưỡng hư — tuổi cao chính khí suy, tà thừa cơ xâm",
+        "yhhd_hint": "Polymyalgia rheumatica (PMR) — requires ESR/CRP, exclude giant cell arteritis"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "PMR in elderly with proximal girdle pain + elevated inflammatory markers is important not to miss"
+  },
+  {
+    "phrase_id": "OBS_B04_036",
+    "phrase_vi": "đau nhức xương",
+    "variants_vi": ["xương đau nhức", "nhức trong xương", "đau trong xương", "xương nhức mỏi"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Đau nhức xương nhiều nhất ở đâu, có đau nhiều về đêm không, có kèm sụt cân không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Nhức trong xương toàn thân, tăng khi trời lạnh, giảm khi chườm nóng",
+        "symptom_codes": ["generalized_bone_ache", "weather_related_bone_pain", "diffuse_musculoskeletal_pain"],
+        "yhct_hint": "Thận hư kiêm hàn tý — thận chủ cốt, thận hư cốt tủy thất dưỡng, hàn tà xâm cốt",
+        "yhhd_hint": "Osteoporosis, vitamin D deficiency (osteomalacia), degenerative joint disease"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Đau nhức xương khu trú, tăng dần, đặc biệt nặng về đêm, kèm sụt cân không rõ nguyên nhân",
+        "symptom_codes": ["bone_pain_localized_progressive", "nocturnal_bone_pain", "unexplained_weight_loss_bone_pain"],
+        "yhct_hint": "Tà độc xâm cốt — chính khí hư suy, tà thực tích tụ tại cốt",
+        "yhhd_hint": "Bone metastasis, primary bone tumor (osteosarcoma, multiple myeloma) — RED FLAG"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Nhức xương toàn thân, cơ yếu, có dùng corticosteroid kéo dài",
+        "symptom_codes": ["steroid_induced_osteoporosis", "bone_pain_steroid_use", "muscle_weakness_steroid"],
+        "yhct_hint": "Thận dương hư — thuốc làm hao tổn thận dương, cốt tủy thất ôn dưỡng",
+        "yhhd_hint": "Steroid-induced osteoporosis, avascular necrosis, steroid myopathy"
+      }
+    ],
+    "red_flag_trigger": ["B"],
+    "notes": "Localized progressive bone pain at night + weight loss = malignancy red flag"
+  },
+  {
+    "phrase_id": "OBS_B04_037",
+    "phrase_vi": "xương đau khi trời lạnh",
+    "variants_vi": ["trời lạnh xương đau", "mùa lạnh đau xương", "trời trở lạnh xương nhức", "thời tiết thay đổi đau xương"],
+    "regions": ["all"],
+    "requires_disambiguation": false,
+    "disambiguation_question": "",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Xương và khớp đau nhức tăng rõ khi trời lạnh và ẩm, giảm khi chườm nóng hoặc tắm nước ấm",
+        "symptom_codes": ["cold_weather_bone_joint_pain", "barometric_pressure_pain", "heat_relief_musculoskeletal"],
+        "yhct_hint": "Hàn tý hoặc hàn thấp tý — hàn chủ thu dẫn, hàn thấp ngưng trệ kinh lạc, khí huyết bất thông",
+        "yhhd_hint": "Osteoarthritis exacerbation (barometric pressure sensitivity), fibromyalgia, rheumatoid arthritis flare in cold"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Classic hàn tý pattern — weather sensitivity is well-recognized in OA and fibromyalgia research"
+  },
+  {
+    "phrase_id": "OBS_B04_038",
+    "phrase_vi": "cơ đau toàn thân",
+    "variants_vi": ["đau cơ khắp người", "toàn thân cơ đau nhức", "bắp thịt đau toàn thân", "người đau nhức cơ bắp"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Đau cơ toàn thân kèm yếu cơ, khó leo cầu thang, hay khó nuốt không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đau cơ và yếu cơ vùng vai và đùi, khó đứng dậy từ ghế, kèm ban đỏ ở mi mắt",
+        "symptom_codes": ["proximal_muscle_weakness", "dermatomyositis_rash", "heliotrope_rash", "difficulty_rising_chair"],
+        "yhct_hint": "Tỳ khí hư kiêm nhiệt tý — tỳ chủ cơ nhục, tà nhiệt xâm tỳ và cơ nhục",
+        "yhhd_hint": "Polymyositis, dermatomyositis — requires CK, aldolase, anti-Jo1 antibodies"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Đau nhức cơ và mỏi toàn thân sau dùng thuốc hạ mỡ máu (statin)",
+        "symptom_codes": ["statin_myopathy", "drug_induced_myalgia", "myalgia_with_statin_use", "elevated_CK"],
+        "yhct_hint": "Thuốc tổn thương tỳ thận — tỳ thận hư suy, cơ nhục thất dưỡng",
+        "yhhd_hint": "Statin-induced myopathy/rhabdomyolysis — check CK levels, consider stopping statin"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Statin myopathy is underdiagnosed; always ask about medications when presenting with diffuse muscle pain"
+  },
+  {
+    "phrase_id": "OBS_B04_039",
+    "phrase_vi": "đau nhức xương khi mang thai",
+    "variants_vi": ["bầu đau nhức xương", "thai kỳ xương đau", "mang bầu xương mỏi", "có thai đau khớp"],
+    "regions": ["all"],
+    "requires_disambiguation": false,
+    "disambiguation_question": "",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đau nhức xương khớp trong thai kỳ, đau vùng chậu và háng, khó đi lại",
+        "symptom_codes": ["pelvic_girdle_pain_pregnancy", "symphysis_pubis_dysfunction", "pregnancy_related_joint_pain"],
+        "yhct_hint": "Thận hư kiêm can huyết hư — thai kỳ hao tổn thận tinh và can huyết, cân cốt thất dưỡng",
+        "yhhd_hint": "Pelvic girdle pain (PGP), relaxin-induced ligament laxity, vitamin D/calcium deficiency"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Common in pregnancy; YHCT focuses on replenishing Kidney essence and Liver blood safely during pregnancy"
+  },
+  {
+    "phrase_id": "OBS_B04_040",
+    "phrase_vi": "đau xương đêm liên tục",
+    "variants_vi": ["đêm đau xương không ngủ được", "ban đêm đau xương liên tục", "đau xương suốt đêm", "xương đau dữ về đêm"],
+    "regions": ["all"],
+    "requires_disambiguation": false,
+    "disambiguation_question": "",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đau xương dữ dội về đêm liên tục, không giảm khi nghỉ ngơi, không tìm ra nguyên nhân chấn thương",
+        "symptom_codes": ["nocturnal_bone_pain_constant", "rest_pain_bone", "non_mechanical_bone_pain"],
+        "yhct_hint": "Tà thực xâm cốt — chính khí hư suy không chống đỡ được tà thực, tà độc tích tụ",
+        "yhhd_hint": "Bone malignancy (primary or metastatic), multiple myeloma, osteomyelitis — CRITICAL RED FLAG"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Đau xương đêm liên tục ở người trẻ, kèm sụt cân và mệt mỏi toàn thân",
+        "symptom_codes": ["bone_pain_young_adult_night", "weight_loss_young_bone_pain", "systemic_symptoms_bone_pain"],
+        "yhct_hint": "Tà độc — ở người trẻ nghĩ tới u xương nguyên phát hoặc bệnh máu ác tính",
+        "yhhd_hint": "Osteosarcoma, Ewing sarcoma, leukemia, lymphoma in young patients — CRITICAL RED FLAG"
+      }
+    ],
+    "red_flag_trigger": ["A", "B"],
+    "notes": "CRITICAL RED FLAG: Constant nocturnal bone pain not explained by trauma = malignancy must be excluded urgently with imaging and bone scan"
+  },
+  {
+    "phrase_id": "OBS_B04_041",
+    "phrase_vi": "đau cơ sau tập thể dục",
+    "variants_vi": ["tập xong đau cơ", "sau tập gym đau cơ", "tập thể thao đau cơ bắp", "cơ đau nhức sau vận động"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Cơ đau bao lâu sau tập và có kèm nước tiểu màu nâu sẫm không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đau cơ 24-48 giờ sau tập nặng, tự khỏi sau vài ngày",
+        "symptom_codes": ["DOMS_delayed_onset", "post_exercise_muscle_soreness", "self_limiting_myalgia"],
+        "yhct_hint": "Khí trệ kinh cân — lao lực làm khí huyết ứ trệ tạm thời tại cơ nhục",
+        "yhhd_hint": "Delayed onset muscle soreness (DOMS) — benign, physiological"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Đau cơ dữ dội sau tập quá sức, cơ sưng cứng, nước tiểu màu trà nâu",
+        "symptom_codes": ["rhabdomyolysis", "dark_urine_after_exercise", "severe_muscle_swelling", "myoglobinuria"],
+        "yhct_hint": "Khí huyết đại hư kiêm huyết ứ — lao lực cực độ hao tổn chính khí",
+        "yhhd_hint": "Rhabdomyolysis — RED FLAG, risk of acute renal failure, requires urgent CK and renal function"
+      }
+    ],
+    "red_flag_trigger": ["B"],
+    "notes": "Dark urine after extreme exercise = rhabdomyolysis emergency; requires urgent hospitalization and IV fluids"
+  },
+  {
+    "phrase_id": "OBS_B04_042",
+    "phrase_vi": "đau gối khi lên xuống cầu thang",
+    "variants_vi": ["leo cầu thang đau gối", "xuống cầu thang đau gối", "gối đau khi lên xuống thang", "bước cầu thang gối đau"],
+    "regions": ["all"],
+    "requires_disambiguation": false,
+    "disambiguation_question": "",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đau trước gối khi leo hoặc xuống cầu thang, đau ngồi lâu, tuổi trẻ hoặc trung niên",
+        "symptom_codes": ["patellofemoral_pain", "anterior_knee_pain_stairs", "movie_sign_positive"],
+        "yhct_hint": "Hàn thấp tý — hàn thấp ngưng trệ kinh túc dương minh và túc thái âm tại gối",
+        "yhhd_hint": "Patellofemoral pain syndrome, chondromalacia patellae"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Đau gối khi xuống cầu thang, gối lỏng lẻo cảm giác sắp ngã, tuổi trung niên trở lên",
+        "symptom_codes": ["knee_instability_stairs", "giving_way_knee", "knee_OA_functional_limitation"],
+        "yhct_hint": "Can thận hư — gân cốt và sụn khớp thất dưỡng, khớp không vững",
+        "yhhd_hint": "Knee osteoarthritis with ligamentous laxity, medial compartment OA"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": ""
+  },
+  {
+    "phrase_id": "OBS_B04_043",
+    "phrase_vi": "đau hông",
+    "variants_vi": ["hông đau", "đau vùng hông", "khớp háng đau", "đau ở hông và mông"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Đau hông khi nào — đi bộ, đứng dậy từ ghế, hay đau cả khi nghỉ ngơi và ban đêm?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đau vùng háng lan xuống đùi trước, đau khi đứng dậy và đi bộ, giảm khi nghỉ",
+        "symptom_codes": ["hip_OA_groin_pain", "hip_pain_activity_related", "anterior_thigh_radiation"],
+        "yhct_hint": "Thận hư kiêm hàn thấp — khớp háng thất dưỡng, hàn thấp ngưng trệ",
+        "yhhd_hint": "Hip osteoarthritis, avascular necrosis of femoral head"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Đau hông một bên dữ dội sau ngã hoặc chấn thương, chân bị vẹo ra ngoài, ngắn hơn",
+        "symptom_codes": ["hip_fracture", "post_trauma_hip_pain", "external_rotation_deformity", "leg_shortening"],
+        "yhct_hint": "Xương gãy — khí trệ huyết ứ cấp tính",
+        "yhhd_hint": "Hip fracture (neck of femur) — URGENT, requires immediate X-ray and orthopedic referral"
+      }
+    ],
+    "red_flag_trigger": ["B"],
+    "notes": "Hip fracture in elderly after fall = orthopedic emergency. Look for leg shortening and external rotation"
+  },
+  {
+    "phrase_id": "OBS_B04_044",
+    "phrase_vi": "đau khuỷu tay",
+    "variants_vi": ["khuỷu tay đau", "cùi chỏ đau", "đau ở khuỷu", "chỏ tay đau nhức"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Đau khuỷu ở mặt ngoài hay mặt trong, tăng khi làm gì?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đau mặt ngoài khuỷu tay, tăng khi cầm nắm và xoay cổ tay (đánh tennis, gõ bàn phím)",
+        "symptom_codes": ["lateral_epicondylitis", "tennis_elbow", "grip_pain_lateral_elbow", "occupational_overuse"],
+        "yhct_hint": "Khí trệ huyết ứ kinh cân — lao thương kinh cân vùng khuỷu",
+        "yhhd_hint": "Lateral epicondylitis (tennis elbow), common extensor tendinopathy"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Đau mặt trong khuỷu tay, tăng khi gõ hoặc xoay trong (đánh golf, ném bóng)",
+        "symptom_codes": ["medial_epicondylitis", "golfer_elbow", "medial_elbow_pain", "flexor_pronator_tendinopathy"],
+        "yhct_hint": "Khí trệ huyết ứ — lao thương kinh cân mặt trong khuỷu",
+        "yhhd_hint": "Medial epicondylitis (golfer's elbow)"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Cùi chỏ is common colloquial term for elbow in Vietnamese"
+  },
+  {
+    "phrase_id": "OBS_B04_045",
+    "phrase_vi": "sưng mắt cá chân",
+    "variants_vi": ["mắt cá chân bị sưng", "cổ chân sưng", "mắt cá sưng phù", "sưng ở mắt cá"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Mắt cá sưng sau chấn thương hay tự nhiên, một bên hay hai bên?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Mắt cá sưng đau sau lật chân khi đi hoặc chạy",
+        "symptom_codes": ["ankle_sprain", "lateral_ankle_sprain", "post_inversion_injury", "ankle_swelling_trauma"],
+        "yhct_hint": "Khí trệ huyết ứ — chấn thương kinh cân và lạc mạch",
+        "yhhd_hint": "Lateral ankle sprain (ATFL injury), fracture rule out with Ottawa rules"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Sưng mắt cá đỏ nóng dữ dội một bên, tự nhiên không chấn thương",
+        "symptom_codes": ["acute_gout_ankle", "hot_ankle_swelling_no_trauma", "crystal_arthropathy_ankle"],
+        "yhct_hint": "Thấp nhiệt tý — thấp trọc ứ kết tại mắt cá, ẩm thực bất tiết",
+        "yhhd_hint": "Acute gout, pseudogout, septic arthritis at ankle"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Phù mắt cá hai bên không đau, tăng về chiều, giảm khi nằm",
+        "symptom_codes": ["bilateral_ankle_edema", "pitting_edema_bilateral", "dependent_edema"],
+        "yhct_hint": "Tỳ thận dương hư kiêm thủy thấp — thủy thấp không được vận hóa",
+        "yhhd_hint": "Heart failure, venous insufficiency, hypoalbuminemia, hypothyroidism"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Bilateral ankle edema requires evaluation for cardiac, renal, and hepatic causes"
+  },
+  {
+    "phrase_id": "OBS_B04_046",
+    "phrase_vi": "đau lưng + sốt + tiểu khó",
+    "variants_vi": ["đau thắt lưng kèm sốt tiểu buốt", "lưng đau sốt tiểu khó", "đau lưng có sốt và tiểu không ra", "lưng đau sốt và tiểu gắt"],
+    "regions": ["all"],
+    "requires_disambiguation": false,
+    "disambiguation_question": "",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đau thắt lưng một hoặc hai bên, sốt cao ≥38.5°C, ớn lạnh, tiểu buốt, tiểu gắt, nước tiểu đục hoặc có mùi",
+        "symptom_codes": ["pyelonephritis_triad", "upper_UTI", "costovertebral_angle_tenderness", "pyuria", "bacteriuria"],
+        "yhct_hint": "Thấp nhiệt xâm phạm thận hệ — bàng quang và thận bị thấp nhiệt ủng trệ cấp tính",
+        "yhhd_hint": "Acute pyelonephritis, urosepsis — URGENT: requires urine culture, blood culture, IV antibiotics"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Đau lưng dữ dội, sốt, tiểu khó, tiền sử tiểu đường hoặc suy giảm miễn dịch",
+        "symptom_codes": ["complicated_UTI_abscess", "renal_abscess", "emphysematous_pyelonephritis_risk", "immunocompromised_UTI"],
+        "yhct_hint": "Thấp nhiệt độc tà — chính khí hư, tà thực ủng trệ thận hệ, nguy cơ tạo ung nhọt",
+        "yhhd_hint": "Renal abscess, emphysematous pyelonephritis (diabetic) — RED FLAG, urgent CT scan needed"
+      }
+    ],
+    "red_flag_trigger": ["A", "B"],
+    "notes": "CRITICAL RED FLAG: Triad of back pain + fever + urinary symptoms = upper urinary tract infection. Sepsis risk is high. Requires urgent hospitalization"
+  },
+  {
+    "phrase_id": "OBS_B04_047",
+    "phrase_vi": "đau khớp + phát ban + sốt",
+    "variants_vi": ["đau khớp nổi ban và sốt", "khớp đau có sốt và nổi mẩn", "sốt đau khớp phát ban", "đau khớp và ban đỏ kèm sốt"],
+    "regions": ["all"],
+    "requires_disambiguation": false,
+    "disambiguation_question": "",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đau nhiều khớp, ban đỏ hình cánh bướm ở má, sốt, rụng tóc, loét miệng, mệt nhiều",
+        "symptom_codes": ["SLE_flare", "malar_rash_SLE", "polyarthritis_SLE", "alopecia_lupus", "oral_ulcers_SLE"],
+        "yhct_hint": "Nhiệt tý kiêm âm hư nội nhiệt — nhiệt độc tổn thương âm huyết và kinh lạc toàn thân",
+        "yhhd_hint": "Systemic Lupus Erythematosus (SLE) — URGENT: ANA, anti-dsDNA, complement levels, CBC with differential"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Đau khớp di chuyển các khớp lớn, sốt, ban đỏ dạng vòng trên thân, sau viêm họng",
+        "symptom_codes": ["acute_rheumatic_fever", "migratory_polyarthritis_large", "erythema_marginatum", "post_streptococcal_pharyngitis"],
+        "yhct_hint": "Phong tý cấp tính — phong nhiệt xâm nhập sau viêm họng liên cầu",
+        "yhhd_hint": "Acute rheumatic fever — RED FLAG: carditis risk, requires ECHO, penicillin prophylaxis"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Đau khớp không đối xứng, ban đỏ vảy da, sốt nhẹ, sau nhiễm khuẩn tiêu hóa hoặc sinh dục",
+        "symptom_codes": ["reactive_arthritis_triad", "asymmetric_oligoarthritis", "post_infectious", "skin_rash_reactive"],
+        "yhct_hint": "Thấp nhiệt tý — thấp nhiệt từ trường vị hoặc hạ tiêu xâm kinh lạc",
+        "yhhd_hint": "Reactive arthritis (post-chlamydial, post-enteric), psoriatic arthritis"
+      }
+    ],
+    "red_flag_trigger": ["A", "B"],
+    "notes": "CRITICAL RED FLAG: Joint pain + rash + fever has multiple systemic autoimmune causes that require urgent rheumatology workup"
+  },
+  {
+    "phrase_id": "OBS_B04_048",
+    "phrase_vi": "đau cổ cứng gáy và sốt đau đầu",
+    "variants_vi": ["sốt cứng cổ đau đầu", "đau đầu cứng gáy sốt", "cứng gáy sốt cao đau đầu dữ", "gáy cứng sốt nóng đầu đau"],
+    "regions": ["all"],
+    "requires_disambiguation": false,
+    "disambiguation_question": "",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Sốt cao đột ngột, đau đầu dữ dội như sét đánh, cứng gáy không cúi được, nôn mửa, sợ ánh sáng",
+        "symptom_codes": ["meningitis_classic_triad", "thunderclap_headache_option", "nuchal_rigidity", "photophobia_meningism", "Kernig_positive", "Brudzinski_positive"],
+        "yhct_hint": "Ôn tà nhiễm não — nhiệt tà xâm phạm tâm bào và tủy dịch, ngoại cảm ôn độc",
+        "yhhd_hint": "Bacterial meningitis (Neisseria meningitidis, Streptococcus pneumoniae) — IMMEDIATE EMERGENCY: blood cultures + LP + IV ceftriaxone + dexamethasone"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Đau đầu dữ dội như sét đánh, cứng gáy, không sốt hoặc sốt nhẹ, bệnh nhân mô tả là đau đầu tệ nhất trong đời",
+        "symptom_codes": ["thunderclap_headache_SAH", "worst_headache_ever", "neck_stiffness_SAH", "subarachnoid_hemorrhage"],
+        "yhct_hint": "Can phong nội động — can dương bạo vượng, phong hỏa thượng công não",
+        "yhhd_hint": "Subarachnoid hemorrhage (SAH) — CRITICAL EMERGENCY: immediate non-contrast CT head + LP if CT negative"
+      }
+    ],
+    "red_flag_trigger": ["A", "B"],
+    "notes": "CRITICAL RED FLAG: Neck stiffness + fever + severe headache = MENINGITIS. Worst headache ever + neck stiffness = SAH. Both are immediate life-threatening emergencies"
+  },
+  {
+    "phrase_id": "OBS_B04_049",
+    "phrase_vi": "đau xương đêm liên tục kèm sụt cân",
+    "variants_vi": ["đêm đau xương và sụt cân", "đau xương không ngủ được và gầy đi", "xương đau đêm có sụt cân", "đau xương mãi về đêm kèm gầy"],
+    "regions": ["all"],
+    "requires_disambiguation": false,
+    "disambiguation_question": "",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đau xương liên tục về đêm không giảm khi nghỉ, sụt cân không chủ ý, mệt mỏi, thiếu máu",
+        "symptom_codes": ["bone_pain_night_constant", "unexplained_weight_loss", "fatigue_malignancy", "anemia_malignancy", "non_mechanical_bone_pain"],
+        "yhct_hint": "Tà thực — chính khí hư suy, ác tà tích tụ tại cốt tủy hoặc cơ quan nội tạng di căn",
+        "yhhd_hint": "Bone malignancy: metastatic cancer (lung, breast, prostate, thyroid, kidney primaries), multiple myeloma — CRITICAL RED FLAG: urgent full body scan, bone marrow biopsy, PSA, mammogram"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Đau xương đêm ở người trẻ dưới 30 tuổi, sưng cứng tại chỗ, sụt cân",
+        "symptom_codes": ["primary_bone_tumor", "young_adult_bone_pain", "localized_bone_swelling", "osteosarcoma_pattern"],
+        "yhct_hint": "Cốt tủy bị tà xâm — ở người trẻ nghĩ tới u xương ác tính nguyên phát",
+        "yhhd_hint": "Primary bone sarcoma (osteosarcoma around knee/shoulder in adolescents, Ewing sarcoma) — CRITICAL RED FLAG: urgent MRI + orthopedic oncology referral"
+      }
+    ],
+    "red_flag_trigger": ["A", "B"],
+    "notes": "CRITICAL RED FLAG: Nocturnal bone pain + unexplained weight loss is a cardinal sign of malignancy. This combination should NEVER be attributed to benign causes without thorough investigation"
+  },
+  {
+    "phrase_id": "OBS_B04_050",
+    "phrase_vi": "đau khớp dai dẳng ở trẻ em",
+    "variants_vi": ["trẻ em đau khớp lâu ngày", "con đau khớp không khỏi", "bé đau khớp mãi", "trẻ nhỏ bị đau khớp"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Trẻ đau khớp kèm sốt liên tục, phát ban, hay khớp sưng nhiều nơi không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Trẻ đau và sưng nhiều khớp kéo dài trên 6 tuần, cứng khớp sáng, có thể kèm mắt đỏ",
+        "symptom_codes": ["JIA_polyarticular", "juvenile_idiopathic_arthritis", "uveitis_JIA", "prolonged_joint_swelling_child"],
+        "yhct_hint": "Phong hàn thấp tý thể trẻ em — chính khí yếu, ngoại tà xâm phạm kinh lạc cơ xương",
+        "yhhd_hint": "Juvenile Idiopathic Arthritis (JIA) — requires pediatric rheumatology, ophthalmology screening for uveitis"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Trẻ sốt cao dao động nhiều tuần, phát ban cá hồi hồng, đau khớp, gan lách to",
+        "symptom_codes": ["systemic_JIA", "quotidian_fever", "salmon_rash", "hepatosplenomegaly_child"],
+        "yhct_hint": "Nhiệt tà xâm phạm khí phận — nhiệt độc tà xâm toàn thân ở trẻ em",
+        "yhhd_hint": "Systemic JIA (Still's disease) — RED FLAG: rule out macrophage activation syndrome (MAS)"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Trẻ đau xương không đặc hiệu, mệt mỏi, xanh xao, sốt, dễ bầm tím",
+        "symptom_codes": ["childhood_bone_pain_leukemia", "pallor_child", "easy_bruising", "lymphadenopathy_child"],
+        "yhct_hint": "Tà độc xâm huyết phận — nhiệt tà xâm nhập tủy huyết",
+        "yhhd_hint": "Childhood leukemia (ALL) — CRITICAL RED FLAG: CBC with differential, bone marrow evaluation urgent"
+      }
+    ],
+    "red_flag_trigger": ["B", "C"],
+    "notes": "CRITICAL: Joint pain in children with systemic features requires urgent pediatric evaluation to exclude malignancy and systemic JIA with MAS"
+  }
+]

@@ -1,0 +1,1056 @@
+[
+  {
+    "rule_id": "PM_B05_001",
+    "benh_co_code": "wind_cold_invading_lung",
+    "benh_co_vi": "Phong hàn phạm Phế",
+    "benh_co_en": "Wind-Cold Invading Lung",
+    "zangfu_primary": "lung",
+    "zangfu_secondary": ["bladder", "large_intestine"],
+    "bat_cuong_profile": {
+      "cold": 0.8,
+      "heat": 0.0,
+      "deficiency": 0.1,
+      "excess": 0.7,
+      "exterior": 0.9,
+      "interior": 0.1
+    },
+    "required_symptoms": ["cough", "nasal_congestion_or_runny_nose"],
+    "supporting_symptoms": ["chills_predominant_over_fever", "body_aches", "no_thirst", "white_thin_sputum", "occipital_headache", "absence_of_sweating", "thin_white_tongue_coat"],
+    "contradicting_symptoms": ["fever_high_persistent", "thirst", "yellow_sputum", "sore_throat_severe", "red_tongue"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "wind_heat_invading_lung",
+        "differentiating_feature": "Phong nhiệt: sốt nổi bật hơn ớn lạnh, khát nước, đờm vàng, họng đau đỏ, lưỡi đỏ rêu vàng; Phong hàn: ớn lạnh nổi bật, không khát, đờm trắng loãng, mạch phù khẩn"
+      },
+      {
+        "benh_co_code": "wind_dryness_injuring_lung",
+        "differentiating_feature": "Phong táo: ho khan không đờm hoặc đờm ít khó khạc, khô họng mũi; Phong hàn: đờm loãng trắng, nghẹt mũi chảy nước"
+      }
+    ],
+    "derived_chung_codes": ["wind_cold_lung_pattern", "exterior_cold_excess"],
+    "phap_tri_direction": "Tân ôn giải biểu, tuyên Phế tán hàn (Acrid-Warm Release Exterior, Diffuse Lung Scatter Cold)",
+    "typical_herb_formula": "Ma Hoàng Thang hoặc Kinh Phòng Bại Độc Tán",
+    "clinical_notes": "Cảm lạnh thông thường, cúm mùa tại Việt Nam đặc biệt mùa đông-xuân miền Bắc. Phân biệt với Phong nhiệt là quan trọng vì điều trị ngược nhau (ôn tán vs thanh nhiệt). Nếu bệnh nhân ra mồ hôi dùng Quế Chi Thang thay Ma Hoàng Thang.",
+    "veto_rule": null,
+    "prevalence": "very_common"
+  },
+  {
+    "rule_id": "PM_B05_002",
+    "benh_co_code": "wind_heat_invading_lung",
+    "benh_co_vi": "Phong nhiệt phạm Phế",
+    "benh_co_en": "Wind-Heat Invading Lung",
+    "zangfu_primary": "lung",
+    "zangfu_secondary": [],
+    "bat_cuong_profile": {
+      "cold": 0.0,
+      "heat": 0.7,
+      "deficiency": 0.0,
+      "excess": 0.8,
+      "exterior": 0.9,
+      "interior": 0.2
+    },
+    "required_symptoms": ["cough", "fever_predominant_over_chills"],
+    "supporting_symptoms": ["sore_throat", "yellow_or_thick_sputum", "thirst", "nasal_congestion_yellow_discharge", "headache", "red_tongue_tip_thin_yellow_coat", "rapid_floating_pulse"],
+    "contradicting_symptoms": ["chills_predominant", "no_thirst", "white_thin_sputum", "absence_of_sore_throat"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "wind_cold_invading_lung",
+        "differentiating_feature": "Phong hàn: ớn lạnh hơn sốt, không khát, đờm trắng loãng, mạch phù khẩn; Phong nhiệt: sốt hơn ớn lạnh, khát, đờm vàng đặc, họng đỏ đau, mạch phù sác"
+      },
+      {
+        "benh_co_code": "lung_heat_excess",
+        "differentiating_feature": "Phế nhiệt nội thịnh: không có triệu chứng biểu, sốt cao hơn, không ớn lạnh, đã vào lý; Phong nhiệt phạm Phế: còn triệu chứng biểu"
+      }
+    ],
+    "derived_chung_codes": ["wind_heat_lung_pattern", "exterior_heat_excess"],
+    "phap_tri_direction": "Tân lương giải biểu, tuyên Phế thanh nhiệt (Acrid-Cool Release Exterior, Diffuse Lung Clear Heat)",
+    "typical_herb_formula": "Tang Cúc Ẩm hoặc Ngân Kiều Tán",
+    "clinical_notes": "Rất phổ biến tại Việt Nam quanh năm, đặc biệt mùa hè-thu. Tương đương viêm họng-phế quản cấp do virus. Cần phân biệt sớm với Phong hàn. Nếu nặng thêm hoặc sốt cao dai dẳng cần nghĩ đến Đàm nhiệt uất Phế (viêm phổi).",
+    "veto_rule": null,
+    "prevalence": "very_common"
+  },
+  {
+    "rule_id": "PM_B05_003",
+    "benh_co_code": "wind_dryness_injuring_lung",
+    "benh_co_vi": "Phong táo thương Phế",
+    "benh_co_en": "Wind-Dryness Injuring Lung",
+    "zangfu_primary": "lung",
+    "zangfu_secondary": ["large_intestine", "stomach"],
+    "bat_cuong_profile": {
+      "cold": 0.1,
+      "heat": 0.3,
+      "deficiency": 0.3,
+      "excess": 0.5,
+      "exterior": 0.7,
+      "interior": 0.4
+    },
+    "required_symptoms": ["dry_cough_no_sputum_or_scanty_sputum", "dry_throat_nose_mouth"],
+    "supporting_symptoms": ["mild_fever_or_aversion_to_wind", "dry_lips", "hoarse_voice", "scanty_difficult_sputum_possibly_blood_tinged", "dry_stool", "red_tongue_dry_coat"],
+    "contradicting_symptoms": ["abundant_sputum", "white_thin_sputum", "no_dryness_symptoms"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "lung_yin_deficiency",
+        "differentiating_feature": "Phế âm hư: mãn tính, không có triệu chứng biểu, gò má đỏ, sốt về chiều, đổ mồ hôi đêm; Phong táo: cấp tính, có triệu chứng biểu nhẹ, liên quan đến thời tiết khô hanh"
+      },
+      {
+        "benh_co_code": "wind_heat_invading_lung",
+        "differentiating_feature": "Phong nhiệt: đờm vàng đặc, họng sưng đau, sốt rõ; Phong táo: ho khan, khô họng mũi miệng là chủ yếu, đờm ít"
+      }
+    ],
+    "derived_chung_codes": ["wind_dryness_lung_pattern", "exterior_dryness"],
+    "phap_tri_direction": "Tân lương nhuận táo, tuyên Phế chỉ khái (Acrid-Cool Moisten Dryness, Diffuse Lung Stop Cough)",
+    "typical_herb_formula": "Tang Hạnh Thang (Táo ôn) hoặc Tang Cúc Ẩm gia Sa sâm, Mạch đông (Táo nhiệt)",
+    "clinical_notes": "Thường gặp mùa thu, hoặc khi thay đổi thời tiết sang khô hanh. Tại Việt Nam gặp ở miền Bắc mùa thu-đông. Cần phân biệt Lương táo (lạnh-khô) và Ôn táo (ấm-khô) để điều trị phù hợp.",
+    "veto_rule": null,
+    "prevalence": "common"
+  },
+  {
+    "rule_id": "PM_B05_004",
+    "benh_co_code": "lung_qi_deficiency",
+    "benh_co_vi": "Phế khí hư",
+    "benh_co_en": "Lung Qi Deficiency",
+    "zangfu_primary": "lung",
+    "zangfu_secondary": ["spleen", "kidney"],
+    "bat_cuong_profile": {
+      "cold": 0.2,
+      "heat": 0.0,
+      "deficiency": 0.9,
+      "excess": 0.1,
+      "exterior": 0.2,
+      "interior": 0.8
+    },
+    "required_symptoms": ["shortness_of_breath_on_exertion", "weak_low_voice_or_reluctance_to_speak"],
+    "supporting_symptoms": ["chronic_weak_cough", "spontaneous_sweating", "easily_catches_cold", "fatigue", "pale_face", "pale_tongue_with_white_coat", "weak_pulse"],
+    "contradicting_symptoms": ["fever", "thirst", "yellow_sputum", "strong_loud_cough", "red_tongue"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "lung_yin_deficiency",
+        "differentiating_feature": "Phế âm hư: họng khô, sốt chiều, mồ hôi trộm, lưỡi đỏ ít rêu; Phế khí hư: tự ra mồ hôi, sợ lạnh, dễ cảm, lưỡi nhạt"
+      },
+      {
+        "benh_co_code": "lung_kidney_qi_deficiency",
+        "differentiating_feature": "Phế Thận khí hư: khó thở ngay cả lúc nghỉ, không nạp khí được, đau lưng mỏi gối; Phế khí hư đơn thuần: khó thở khi gắng sức, ít biểu hiện Thận"
+      }
+    ],
+    "derived_chung_codes": ["lung_qi_deficiency_pattern", "wei_qi_deficiency"],
+    "phap_tri_direction": "Bổ Phế ích khí, cố biểu (Tonify Lung Benefit Qi, Consolidate Exterior)",
+    "typical_herb_formula": "Bổ Phế Thang hoặc Ngọc Bình Phong Tán (phòng cảm)",
+    "clinical_notes": "Gặp nhiều ở bệnh nhân COPD giai đoạn sớm, sau bệnh phổi mạn, người cao tuổi, trẻ em hay ốm. Ngọc Bình Phong Tán dùng phòng bệnh rất hiệu quả. Chú ý Phế khí hư thường kèm Tỳ khí hư (Mẫu bệnh cập tử).",
+    "veto_rule": null,
+    "prevalence": "common"
+  },
+  {
+    "rule_id": "PM_B05_005",
+    "benh_co_code": "lung_yin_deficiency",
+    "benh_co_vi": "Phế âm hư",
+    "benh_co_en": "Lung Yin Deficiency",
+    "zangfu_primary": "lung",
+    "zangfu_secondary": ["kidney", "heart"],
+    "bat_cuong_profile": {
+      "cold": 0.0,
+      "heat": 0.4,
+      "deficiency": 0.9,
+      "excess": 0.1,
+      "exterior": 0.0,
+      "interior": 0.9
+    },
+    "required_symptoms": ["dry_cough_no_sputum_or_scanty_sticky_sputum", "dry_throat"],
+    "supporting_symptoms": ["afternoon_fever_or_low_grade_fever", "night_sweats", "malar_flush", "hoarse_voice_chronic", "blood_tinged_sputum", "weight_loss", "red_tongue_scanty_coat_or_no_coat", "thready_rapid_pulse"],
+    "contradicting_symptoms": ["abundant_thin_white_sputum", "spontaneous_sweating", "pale_tongue", "chills", "no_dryness"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "lung_qi_deficiency",
+        "differentiating_feature": "Phế khí hư: tự ra mồ hôi, người lạnh, lưỡi nhạt, không có triệu chứng hư nhiệt; Phế âm hư: mồ hôi trộm, sốt chiều, gò má đỏ, lưỡi đỏ ít rêu"
+      },
+      {
+        "benh_co_code": "wind_dryness_injuring_lung",
+        "differentiating_feature": "Phong táo: cấp tính, có triệu chứng biểu; Phế âm hư: mãn tính, không có biểu chứng, có triệu chứng hư nhiệt rõ"
+      }
+    ],
+    "derived_chung_codes": ["lung_yin_deficiency_pattern", "deficiency_heat_pattern"],
+    "phap_tri_direction": "Dưỡng âm nhuận Phế, thanh hư nhiệt, chỉ khái (Nourish Yin Moisten Lung, Clear Deficiency Heat, Stop Cough)",
+    "typical_herb_formula": "Sa Sâm Mạch Đông Thang hoặc Bách Hợp Cố Kim Thang",
+    "clinical_notes": "Rất phổ biến tại Việt Nam do hậu quả lao phổi (TB) đã điều trị, hút thuốc lá mãn tính, sống trong môi trường khô nóng. Cần loại trừ lao phổi tái phát khi có ho ra máu. Nếu Phế Thận âm hư kết hợp dùng Lục Vị Địa Hoàng Hoàn gia vị.",
+    "veto_rule": {
+      "condition": "blood_tinged_sputum_significant_or_hemoptysis",
+      "action": "ESCALATE_WESTERN_MEDICINE",
+      "reason": "Ho ra máu có thể là dấu hiệu lao phổi tái phát, ung thư phổi, hoặc giãn phế quản - cần chụp X-quang phổi và xét nghiệm AFB ngay"
+    },
+    "prevalence": "common"
+  },
+  {
+    "rule_id": "PM_B05_006",
+    "benh_co_code": "lung_yang_deficiency",
+    "benh_co_vi": "Phế dương hư",
+    "benh_co_en": "Lung Yang Deficiency",
+    "zangfu_primary": "lung",
+    "zangfu_secondary": ["spleen", "kidney"],
+    "bat_cuong_profile": {
+      "cold": 0.8,
+      "heat": 0.0,
+      "deficiency": 0.9,
+      "excess": 0.1,
+      "exterior": 0.1,
+      "interior": 0.9
+    },
+    "required_symptoms": ["chronic_cough_with_clear_thin_sputum", "shortness_of_breath_worse_in_cold"],
+    "supporting_symptoms": ["aversion_to_cold", "cold_limbs", "spontaneous_sweating", "pale_complexion", "weak_voice", "pale_swollen_tongue_with_moist_white_coat", "deep_weak_pulse"],
+    "contradicting_symptoms": ["fever", "thirst", "yellow_sputum", "red_tongue", "dry_throat"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "lung_qi_deficiency",
+        "differentiating_feature": "Phế khí hư: chưa có triệu chứng hàn rõ; Phế dương hư: sợ lạnh rõ, tứ chi lạnh, bệnh nặng hơn, thường kèm Thận dương hư"
+      },
+      {
+        "benh_co_code": "cold_fluid_lodging_lung",
+        "differentiating_feature": "Hàn ẩm phục Phế: đờm loãng nhiều, âm thanh ran rít; Phế dương hư: nhấn mạnh vào triệu chứng hư hàn, ít đờm"
+      }
+    ],
+    "derived_chung_codes": ["lung_yang_deficiency_pattern", "yang_deficiency_cold"],
+    "phap_tri_direction": "Ôn Phế tán hàn, bổ dương ích khí (Warm Lung Scatter Cold, Tonify Yang Benefit Qi)",
+    "typical_herb_formula": "Cam Thảo Cán Khương Thang gia vị hoặc Linh Quế Truật Cam Thang",
+    "clinical_notes": "Ít gặp hơn các thể khác, thường là giai đoạn nặng của Phế khí hư hoặc kèm Thận dương hư. Thường thấy ở bệnh nhân COPD nặng, cao tuổi suy nhược. Ấm Phế dương cần ôn bổ kết hợp.",
+    "veto_rule": null,
+    "prevalence": "uncommon"
+  },
+  {
+    "rule_id": "PM_B05_007",
+    "benh_co_code": "lung_heat_excess",
+    "benh_co_vi": "Phế nhiệt",
+    "benh_co_en": "Lung Heat (Excess)",
+    "zangfu_primary": "lung",
+    "zangfu_secondary": ["large_intestine", "stomach"],
+    "bat_cuong_profile": {
+      "cold": 0.0,
+      "heat": 0.9,
+      "deficiency": 0.0,
+      "excess": 0.9,
+      "exterior": 0.1,
+      "interior": 0.9
+    },
+    "required_symptoms": ["cough_with_yellow_thick_sputum", "fever_no_aversion_to_cold"],
+    "supporting_symptoms": ["chest_pain_or_tightness", "thirst_for_cold_drinks", "constipation", "dark_yellow_urine", "red_tongue_with_yellow_coat", "rapid_slippery_pulse", "flaring_nostrils"],
+    "contradicting_symptoms": ["chills", "white_thin_sputum", "no_thirst", "pale_tongue"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "phlegm_heat_in_lung",
+        "differentiating_feature": "Đàm nhiệt uất Phế: đờm vàng đặc nhiều hơn, khó thở nổi bật hơn, ran ổn định hơn, nặng hơn Phế nhiệt đơn thuần"
+      },
+      {
+        "benh_co_code": "wind_heat_invading_lung",
+        "differentiating_feature": "Phong nhiệt: còn triệu chứng biểu (sợ gió, mạch phù); Phế nhiệt: không có triệu chứng biểu, bệnh đã vào lý"
+      }
+    ],
+    "derived_chung_codes": ["lung_heat_pattern", "interior_heat_excess"],
+    "phap_tri_direction": "Thanh Phế tiết nhiệt, chỉ khái bình suyễn (Clear Lung Drain Heat, Stop Cough Calm Wheezing)",
+    "typical_herb_formula": "Ma Hạnh Thạch Cam Thang hoặc Tả Bạch Tán",
+    "clinical_notes": "Tương đương viêm phế quản cấp nhiễm khuẩn hoặc giai đoạn đầu viêm phổi. Phổ biến tại Việt Nam mùa hè. Nếu sốt cao, đờm mủ nhiều, khó thở tăng → nghi Đàm nhiệt uất Phế (viêm phổi) cần đánh giá thêm.",
+    "veto_rule": null,
+    "prevalence": "common"
+  },
+  {
+    "rule_id": "PM_B05_008",
+    "benh_co_code": "phlegm_heat_in_lung",
+    "benh_co_vi": "Đàm nhiệt uất Phế",
+    "benh_co_en": "Phlegm-Heat Accumulating in Lung",
+    "zangfu_primary": "lung",
+    "zangfu_secondary": ["spleen", "stomach", "large_intestine"],
+    "bat_cuong_profile": {
+      "cold": 0.0,
+      "heat": 0.9,
+      "deficiency": 0.1,
+      "excess": 0.95,
+      "exterior": 0.0,
+      "interior": 0.95
+    },
+    "required_symptoms": ["cough_with_copious_yellow_thick_purulent_sputum", "high_fever", "dyspnea"],
+    "supporting_symptoms": ["chest_pain", "thirst_for_cold_drinks", "constipation", "dark_urine", "red_tongue_with_thick_yellow_or_greasy_coat", "slippery_rapid_pulse", "flaring_nostrils", "cyanosis_lips"],
+    "contradicting_symptoms": ["white_thin_sputum", "no_fever", "no_dyspnea", "pale_tongue"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "lung_heat_excess",
+        "differentiating_feature": "Phế nhiệt: ít đờm hơn, nhẹ hơn; Đàm nhiệt uất Phế: đờm mủ vàng nhiều, khó thở nổi bật, tương đương viêm phổi nặng hơn"
+      },
+      {
+        "benh_co_code": "phlegm_damp_obstructing_lung",
+        "differentiating_feature": "Đàm thấp trở Phế: đờm trắng loãng nhiều, không sốt hoặc sốt nhẹ; Đàm nhiệt uất Phế: đờm vàng đặc mủ, sốt cao"
+      }
+    ],
+    "derived_chung_codes": ["phlegm_heat_lung_pattern", "interior_excess_heat_phlegm"],
+    "phap_tri_direction": "Thanh nhiệt hóa đàm, tuyên Phế bình suyễn (Clear Heat Transform Phlegm, Diffuse Lung Calm Wheezing)",
+    "typical_herb_formula": "Tiểu Hãm Hung Thang hoặc Thanh Kim Hóa Đàm Thang; Phế ung: Thiên Kim Vĩ Kinh Thang",
+    "clinical_notes": "TƯƠNG ĐƯƠNG VIÊM PHỔI. Đây là thể bệnh cần đánh giá cẩn thận tại Việt Nam. Viêm phổi nặng có thể đe dọa tính mạng. Nếu có: sốt >39°C, SpO2 <92%, nhịp thở >30/phút, ý thức thay đổi, huyết áp tụt → CẦN CHUYỂN TUYẾN KHẨN. YHCT có thể hỗ trợ nhưng không thay thế kháng sinh trong viêm phổi nặng.",
+    "veto_rule": {
+      "condition": "pneumonia_red_flags_present",
+      "red_flags": ["spo2_below_92", "respiratory_rate_above_30", "high_fever_above_39_persistent", "altered_consciousness", "hypotension", "unable_to_maintain_oral_intake"],
+      "action": "ESCALATE_EMERGENCY_WESTERN_MEDICINE",
+      "reason": "Đàm nhiệt uất Phế nặng tương đương viêm phổi nặng có thể gây suy hô hấp và tử vong. Cần nhập viện cấp cứu, kháng sinh IV, oxy liệu pháp ngay lập tức.",
+      "icd10_equivalent": "J18 Pneumonia",
+      "priority": "CRITICAL"
+    },
+    "prevalence": "common"
+  },
+  {
+    "rule_id": "PM_B05_009",
+    "benh_co_code": "phlegm_damp_obstructing_lung",
+    "benh_co_vi": "Đàm thấp trở Phế",
+    "benh_co_en": "Phlegm-Damp Obstructing Lung",
+    "zangfu_primary": "lung",
+    "zangfu_secondary": ["spleen", "stomach"],
+    "bat_cuong_profile": {
+      "cold": 0.3,
+      "heat": 0.1,
+      "deficiency": 0.2,
+      "excess": 0.8,
+      "exterior": 0.0,
+      "interior": 0.9
+    },
+    "required_symptoms": ["cough_with_copious_white_or_grey_sputum", "chest_tightness_fullness"],
+    "supporting_symptoms": ["wheezing", "nausea_or_vomiting", "loss_of_appetite", "fatigue_heavy_limbs", "pale_swollen_tongue_with_thick_white_greasy_coat", "slippery_pulse"],
+    "contradicting_symptoms": ["yellow_thick_sputum", "high_fever", "thirst", "red_tongue_yellow_coat"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "phlegm_heat_in_lung",
+        "differentiating_feature": "Đàm nhiệt: đờm vàng đặc, sốt cao, lưỡi đỏ rêu vàng; Đàm thấp: đờm trắng loãng nhiều, không sốt, rêu trắng nhờn"
+      },
+      {
+        "benh_co_code": "cold_fluid_lodging_lung",
+        "differentiating_feature": "Hàn ẩm phục Phế: âm thanh ran rít rõ, khó thở cơn, thường kèm hội chứng biểu hàn; Đàm thấp trở Phế: đờm nhiều, ít ran rít hơn"
+      }
+    ],
+    "derived_chung_codes": ["phlegm_damp_lung_pattern", "damp_phlegm_interior"],
+    "phap_tri_direction": "Táo thấp hóa đàm, lý khí chỉ khái (Dry Dampness Transform Phlegm, Regulate Qi Stop Cough)",
+    "typical_herb_formula": "Nhị Trần Thang hoặc Tam Tử Dưỡng Thân Thang",
+    "clinical_notes": "Phổ biến ở bệnh nhân béo phì, ăn nhiều đồ béo ngọt, uống rượu bia. Tỳ hư sinh đàm là căn nguyên. Điều trị cần kết hợp kiện Tỳ trừ thấp. Gặp nhiều ở bệnh nhân viêm phế quản mãn tính tại Việt Nam.",
+    "veto_rule": null,
+    "prevalence": "common"
+  },
+  {
+    "rule_id": "PM_B05_010",
+    "benh_co_code": "cold_fluid_lodging_lung",
+    "benh_co_vi": "Hàn ẩm phục Phế",
+    "benh_co_en": "Cold-Fluid Lodging in Lung",
+    "zangfu_primary": "lung",
+    "zangfu_secondary": ["spleen", "kidney", "bladder"],
+    "bat_cuong_profile": {
+      "cold": 0.9,
+      "heat": 0.0,
+      "deficiency": 0.4,
+      "excess": 0.7,
+      "exterior": 0.3,
+      "interior": 0.8
+    },
+    "required_symptoms": ["wheezing_and_dyspnea_worse_with_cold", "cough_with_watery_thin_white_sputum"],
+    "supporting_symptoms": ["aversion_to_cold", "no_thirst_or_desire_for_hot_drinks", "cold_limbs", "worse_in_winter_or_with_cold_exposure", "pale_swollen_tongue_with_moist_white_coat", "wiry_tight_pulse", "audible_wheezing"],
+    "contradicting_symptoms": ["thirst_for_cold_drinks", "yellow_sputum", "fever", "red_tongue"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "phlegm_damp_obstructing_lung",
+        "differentiating_feature": "Đàm thấp trở Phế: không có yếu tố hàn rõ, không khó thở cơn điển hình; Hàn ẩm phục Phế: khó thở cơn điển hình, khởi phát hoặc nặng hơn do lạnh"
+      },
+      {
+        "benh_co_code": "lung_kidney_qi_deficiency",
+        "differentiating_feature": "Phế Thận khí hư: khó thở liên tục, không nạp khí; Hàn ẩm phục Phế: khó thở cơn, ran rít rõ khi cơn, có thể giảm giữa các cơn"
+      }
+    ],
+    "derived_chung_codes": ["cold_fluid_lung_pattern", "retained_fluid_cold"],
+    "phap_tri_direction": "Ôn Phế hóa ẩm, tuyên khí bình suyễn (Warm Lung Transform Fluid, Diffuse Qi Calm Wheezing)",
+    "typical_herb_formula": "Tiểu Thanh Long Thang (cơn cấp) hoặc Linh Quế Truật Cam Thang (giai đoạn ổn)",
+    "clinical_notes": "TƯƠNG ĐƯƠNG COPD/HEN PHẾ QUẢN với yếu tố khởi phát lạnh. Rất phổ biến tại Việt Nam, đặc biệt miền Bắc mùa đông. Bệnh nhân hay tái phát nhiều năm (phục tà). Cần phân biệt cơn cấp và giai đoạn ổn định. Cơn suyễn nặng → cần đánh giá SpO2, có thể cần thuốc giãn phế quản hiện đại.",
+    "veto_rule": {
+      "condition": "acute_severe_asthma_or_COPD_exacerbation",
+      "red_flags": ["spo2_below_90", "unable_to_complete_sentences", "use_of_accessory_muscles", "cyanosis", "silent_chest"],
+      "action": "ESCALATE_EMERGENCY_WESTERN_MEDICINE",
+      "reason": "Cơn hen/COPD nặng có thể gây suy hô hấp cấp đe dọa tính mạng. Cần xử trí cấp cứu ngay.",
+      "priority": "URGENT"
+    },
+    "prevalence": "common"
+  },
+  {
+    "rule_id": "PM_B05_011",
+    "benh_co_code": "lung_qi_rebelliously_rising",
+    "benh_co_vi": "Phế khí thượng nghịch",
+    "benh_co_en": "Lung Qi Rebelliously Rising",
+    "zangfu_primary": "lung",
+    "zangfu_secondary": ["liver", "stomach"],
+    "bat_cuong_profile": {
+      "cold": 0.1,
+      "heat": 0.2,
+      "deficiency": 0.2,
+      "excess": 0.7,
+      "exterior": 0.1,
+      "interior": 0.8
+    },
+    "required_symptoms": ["cough_paroxysmal_or_persistent", "dyspnea_on_exertion_or_at_rest"],
+    "supporting_symptoms": ["worse_with_emotions_or_stress", "chest_tightness", "hiccup_or_belching", "nausea", "sensation_of_qi_rushing_upward", "wiry_pulse"],
+    "contradicting_symptoms": ["descending_qi_sensation", "no_cough"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "lung_qi_deficiency",
+        "differentiating_feature": "Phế khí hư: khó thở do hư không đủ khí; Phế khí thượng nghịch: khó thở do khí đi lên nghịch, thường liên quan cảm xúc hoặc yếu tố kích thích"
+      }
+    ],
+    "derived_chung_codes": ["lung_qi_rebellious_pattern", "rebellious_qi_cough"],
+    "phap_tri_direction": "Giáng khí bình suyễn, chỉ khái (Descend Qi Calm Wheezing, Stop Cough)",
+    "typical_herb_formula": "Tô Tử Giáng Khí Thang hoặc Định Suyễn Thang",
+    "clinical_notes": "Cơ chế bệnh lý cốt lõi trong nhiều bệnh phổi. Phế khí thượng nghịch là biểu hiện của Phế mất tuyên giáng. Điều trị hướng giáng khí, tìm và điều trị căn nguyên kết hợp.",
+    "veto_rule": null,
+    "prevalence": "very_common"
+  },
+  {
+    "rule_id": "PM_B05_012",
+    "benh_co_code": "lung_failing_diffuse_descend",
+    "benh_co_vi": "Phế không tuyên giáng",
+    "benh_co_en": "Lung Failing to Diffuse and Descend",
+    "zangfu_primary": "lung",
+    "zangfu_secondary": ["large_intestine", "bladder", "spleen"],
+    "bat_cuong_profile": {
+      "cold": 0.2,
+      "heat": 0.2,
+      "deficiency": 0.3,
+      "excess": 0.6,
+      "exterior": 0.3,
+      "interior": 0.7
+    },
+    "required_symptoms": ["cough_and_or_dyspnea", "chest_fullness_or_tightness"],
+    "supporting_symptoms": ["nasal_congestion", "edema_face_or_body", "difficult_urination", "constipation", "reduced_sweating", "pale_or_slightly_red_tongue"],
+    "contradicting_symptoms": [],
+    "differentiates_from": [
+      {
+        "benh_co_code": "lung_qi_rebelliously_rising",
+        "differentiating_feature": "Phế khí thượng nghịch: nhấn mạnh khí nghịch lên; Phế không tuyên giáng: rộng hơn, bao gồm cả mất tuyên (không khuếch tán ra ngoài) và mất giáng (không đi xuống)"
+      }
+    ],
+    "derived_chung_codes": ["lung_diffuse_descend_failure", "lung_function_impairment"],
+    "phap_tri_direction": "Tuyên Phế giáng khí, khai thông thủy đạo (Diffuse Lung Descend Qi, Open Water Passages)",
+    "typical_herb_formula": "Tùy nguyên nhân: ngoại tà dùng Ma Hoàng Thang/Tang Cúc Ẩm; đàm trở dùng Nhị Trần Thang; hư chứng dùng Bổ Phế Thang",
+    "clinical_notes": "Đây là cơ chế bệnh sinh chung của nhiều thể Phế bệnh. Phế chủ khí, tuyên phát và túc giáng. Khi hai chức năng này mất thăng bằng, sẽ gây ho, khó thở, phù, bí tiểu, táo bón. Điều trị cần xác định nguyên nhân cụ thể.",
+    "veto_rule": null,
+    "prevalence": "very_common"
+  },
+  {
+    "rule_id": "PM_B05_013",
+    "benh_co_code": "liver_fire_invading_lung",
+    "benh_co_vi": "Can hỏa phạm Phế",
+    "benh_co_en": "Liver Fire Invading Lung (Wood acting on Metal)",
+    "zangfu_primary": "lung",
+    "zangfu_secondary": ["liver", "gallbladder"],
+    "bat_cuong_profile": {
+      "cold": 0.0,
+      "heat": 0.85,
+      "deficiency": 0.1,
+      "excess": 0.9,
+      "exterior": 0.0,
+      "interior": 0.95
+    },
+    "required_symptoms": ["cough_sudden_paroxysmal_triggered_by_anger_or_stress", "hypochondriac_pain_or_chest_pain"],
+    "supporting_symptoms": ["blood_tinged_sputum_or_hemoptysis", "irritability_anger", "bitter_taste_in_mouth", "red_face_eyes", "dry_throat", "red_tongue_with_yellow_coat", "wiry_rapid_pulse", "dizziness_headache"],
+    "contradicting_symptoms": ["chills", "no_emotional_trigger", "white_sputum", "pale_tongue"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "lung_heat_excess",
+        "differentiating_feature": "Phế nhiệt: không có yếu tố Can hỏa, không đau hạ sườn, không liên quan đến cảm xúc; Can hỏa phạm Phế: rõ yếu tố Can, đau hạ sườn, cơn ho liên quan cảm xúc"
+      }
+    ],
+    "derived_chung_codes": ["liver_fire_insulting_lung", "wood_insulting_metal"],
+    "phap_tri_direction": "Thanh Can tả hỏa, nhuận Phế chỉ khái chỉ huyết (Clear Liver Drain Fire, Moisten Lung Stop Cough Stop Bleeding)",
+    "typical_herb_formula": "Tả Bạch Tán hợp Đại Hải Thạch Hoàn hoặc Đại Hải Tán gia Đan bì, Chi tử",
+    "clinical_notes": "Gặp ở bệnh nhân hay tức giận, stress nhiều, đặc biệt trung niên. Biểu hiện ho do tức giận là triệu chứng chỉ điểm quan trọng. Ho ra máu trong bối cảnh này cần loại trừ nguyên nhân thực thể (lao, ung thư) bằng X-quang phổi.",
+    "veto_rule": {
+      "condition": "significant_hemoptysis",
+      "action": "ESCALATE_WESTERN_MEDICINE",
+      "reason": "Ho ra máu cần loại trừ lao phổi, ung thư phổi, giãn phế quản. Chụp X-quang phổi và xét nghiệm bắt buộc.",
+      "priority": "URGENT"
+    },
+    "prevalence": "uncommon"
+  },
+  {
+    "rule_id": "PM_B05_014",
+    "benh_co_code": "spleen_deficiency_phlegm_accumulating_lung",
+    "benh_co_vi": "Tỳ hư sinh đàm tích Phế",
+    "benh_co_en": "Spleen Deficiency Generating Phlegm Accumulating in Lung",
+    "zangfu_primary": "lung",
+    "zangfu_secondary": ["spleen", "stomach"],
+    "bat_cuong_profile": {
+      "cold": 0.2,
+      "heat": 0.1,
+      "deficiency": 0.7,
+      "excess": 0.5,
+      "exterior": 0.0,
+      "interior": 0.9
+    },
+    "required_symptoms": ["chronic_cough_with_sputum", "poor_appetite_or_digestive_weakness"],
+    "supporting_symptoms": ["loose_stool_or_diarrhea", "fatigue", "nausea", "abundant_white_sputum_easily_expectorated", "pale_swollen_tongue_with_teeth_marks_and_white_greasy_coat", "slippery_weak_pulse"],
+    "contradicting_symptoms": ["yellow_thick_sputum", "fever", "thirst", "red_tongue"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "phlegm_damp_obstructing_lung",
+        "differentiating_feature": "Đàm thấp trở Phế: nhấn mạnh vào tắc nghẽn Phế; Tỳ hư sinh đàm: nhấn mạnh vào Tỳ là nguồn gốc sinh đàm, triệu chứng tiêu hóa nổi bật hơn"
+      }
+    ],
+    "derived_chung_codes": ["spleen_phlegm_lung_pattern", "earth_failing_to_generate_metal"],
+    "phap_tri_direction": "Kiện Tỳ trừ thấp, hóa đàm chỉ khái (Strengthen Spleen Eliminate Dampness, Transform Phlegm Stop Cough)",
+    "typical_herb_formula": "Lục Quân Tử Thang hoặc Nhị Trần Thang hợp Tam Tử Dưỡng Thân Thang",
+    "clinical_notes": "Tỳ là nguồn sinh đàm, Phế là nơi chứa đàm. Nguyên tắc: trị đàm ở Phế nhưng gốc ở Tỳ. Phổ biến ở bệnh nhân viêm phế quản mãn có hội chứng kém hấp thu, béo phì. Kiêng đồ béo ngọt, rượu bia.",
+    "veto_rule": null,
+    "prevalence": "common"
+  },
+  {
+    "rule_id": "PM_B05_015",
+    "benh_co_code": "lung_kidney_qi_deficiency",
+    "benh_co_vi": "Phế Thận khí hư",
+    "benh_co_en": "Lung-Kidney Qi Deficiency (Combined)",
+    "zangfu_primary": "lung",
+    "zangfu_secondary": ["kidney"],
+    "bat_cuong_profile": {
+      "cold": 0.3,
+      "heat": 0.0,
+      "deficiency": 0.95,
+      "excess": 0.1,
+      "exterior": 0.0,
+      "interior": 0.95
+    },
+    "required_symptoms": ["dyspnea_at_rest_or_minimal_exertion", "failure_to_receive_qi_inhale_difficult_exhale_easier"],
+    "supporting_symptoms": ["chronic_cough_weak", "low_voice", "spontaneous_sweating", "aversion_to_cold", "low_back_pain_and_knee_weakness", "tinnitus", "nocturia", "pale_or_dark_complexion", "pale_tongue_with_white_coat", "deep_weak_pulse_especially_chi_position"],
+    "contradicting_symptoms": ["fever", "yellow_sputum", "red_tongue", "strong_loud_voice"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "lung_qi_deficiency",
+        "differentiating_feature": "Phế khí hư đơn thuần: khó thở khi gắng sức, không có triệu chứng Thận rõ; Phế Thận khí hư: khó thở ngay lúc nghỉ, không nạp khí, đau lưng mỏi gối, tiểu đêm nhiều"
+      },
+      {
+        "benh_co_code": "lung_kidney_yin_deficiency",
+        "differentiating_feature": "Phế Thận âm hư: có triệu chứng hư nhiệt (sốt chiều, mồ hôi trộm, lưỡi đỏ); Phế Thận khí hư: thiên về hư hàn, không có hư nhiệt"
+      }
+    ],
+    "derived_chung_codes": ["lung_kidney_qi_deficiency_pattern", "failure_to_receive_qi"],
+    "phap_tri_direction": "Bổ Phế ích Thận nạp khí (Tonify Lung Benefit Kidney Receive Qi)",
+    "typical_herb_formula": "Nhân Sâm Hồ Đào Thang hoặc Kim Quỹ Thận Khí Hoàn gia Nhân sâm, Ngũ vị tử",
+    "clinical_notes": "TƯƠNG ĐƯƠNG COPD GIAI ĐOẠN NẶNG/CUỐI và bệnh phổi mãn tính mất bù tại Việt Nam. Bệnh nhân khó thở ngay cả khi nghỉ ngơi. Cần đánh giá SpO2, chức năng hô hấp. Oxy liệu pháp dài hạn tại nhà thường cần thiết. YHCT hỗ trợ cải thiện chất lượng sống nhưng không thay thế điều trị hiện đại.",
+    "veto_rule": {
+      "condition": "severe_respiratory_failure",
+      "red_flags": ["spo2_below_88_at_rest", "cyanosis", "altered_consciousness", "paradoxical_breathing"],
+      "action": "ESCALATE_WESTERN_MEDICINE",
+      "reason": "Suy hô hấp mãn mất bù cần oxy liệu pháp, có thể cần thở máy. Nguy hiểm tính mạng nếu không xử trí kịp thời.",
+      "priority": "URGENT"
+    },
+    "prevalence": "common"
+  },
+  {
+    "rule_id": "PM_B05_016",
+    "benh_co_code": "lung_kidney_yin_deficiency",
+    "benh_co_vi": "Phế Thận âm hư",
+    "benh_co_en": "Lung-Kidney Yin Deficiency (Combined)",
+    "zangfu_primary": "lung",
+    "zangfu_secondary": ["kidney"],
+    "bat_cuong_profile": {
+      "cold": 0.0,
+      "heat": 0.5,
+      "deficiency": 0.95,
+      "excess": 0.05,
+      "exterior": 0.0,
+      "interior": 0.95
+    },
+    "required_symptoms": ["chronic_dry_cough", "low_back_pain_and_dizziness"],
+    "supporting_symptoms": ["afternoon_fever", "night_sweats", "malar_flush", "blood_tinged_sputum", "seminal_emission_or_irregular_menstruation", "tinnitus", "dry_throat_mouth", "red_tongue_scanty_coat", "thready_rapid_pulse"],
+    "contradicting_symptoms": ["white_thin_sputum", "chills", "pale_tongue", "spontaneous_sweating"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "lung_yin_deficiency",
+        "differentiating_feature": "Phế âm hư đơn thuần: chủ yếu triệu chứng hô hấp, ít triệu chứng Thận; Phế Thận âm hư: cả triệu chứng Phế lẫn Thận âm hư, nặng hơn"
+      }
+    ],
+    "derived_chung_codes": ["lung_kidney_yin_deficiency_pattern", "combined_yin_deficiency"],
+    "phap_tri_direction": "Tư Thận dưỡng Phế, nhuận táo chỉ khái (Nourish Kidney Yin, Moisten Dryness Stop Cough)",
+    "typical_herb_formula": "Bách Hợp Cố Kim Thang hoặc Lục Vị Địa Hoàng Hoàn gia Sa sâm, Mạch đông",
+    "clinical_notes": "Thường gặp trong và sau lao phổi, bệnh phổi mãn tính, người cao tuổi. Việt Nam có tỷ lệ lao cao nên thể này khá phổ biến. Ho ra máu cần loại trừ lao phổi.",
+    "veto_rule": {
+      "condition": "suspected_active_tuberculosis",
+      "red_flags": ["persistent_cough_over_3_weeks", "hemoptysis", "weight_loss", "night_sweats", "known_tb_contact"],
+      "action": "ESCALATE_WESTERN_MEDICINE_MANDATORY",
+      "reason": "Lao phổi là bệnh truyền nhiễm nguy hiểm, cần xét nghiệm AFB đờm, X-quang phổi, điều trị phác đồ lao chuyên biệt. YHCT không điều trị được lao phổi.",
+      "priority": "HIGH"
+    },
+    "prevalence": "common"
+  },
+  {
+    "rule_id": "PM_B05_017",
+    "benh_co_code": "lung_heat_blood_stasis",
+    "benh_co_vi": "Phế nhiệt huyết ứ",
+    "benh_co_en": "Lung Heat with Blood Stasis",
+    "zangfu_primary": "lung",
+    "zangfu_secondary": ["heart", "liver"],
+    "bat_cuong_profile": {
+      "cold": 0.0,
+      "heat": 0.8,
+      "deficiency": 0.1,
+      "excess": 0.9,
+      "exterior": 0.0,
+      "interior": 0.9
+    },
+    "required_symptoms": ["chest_pain_stabbing_or_fixed", "cough_with_blood_tinged_or_dark_sputum"],
+    "supporting_symptoms": ["fever", "cyanosis_lips_fingers", "dyspnea", "dark_purple_tongue_with_yellow_coat", "wiry_rapid_or_choppy_pulse"],
+    "contradicting_symptoms": ["no_chest_pain", "thin_white_sputum", "pale_tongue"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "phlegm_heat_in_lung",
+        "differentiating_feature": "Đàm nhiệt uất Phế: đờm mủ nhiều, ít đau ngực cố định; Phế nhiệt huyết ứ: đau ngực cố định như dao đâm, tím tái, ứ huyết rõ"
+      }
+    ],
+    "derived_chung_codes": ["lung_heat_blood_stasis_pattern"],
+    "phap_tri_direction": "Thanh nhiệt hoạt huyết, hóa ứ thông Phế (Clear Heat Activate Blood, Transform Stasis Open Lung)",
+    "typical_herb_formula": "Thiên Kim Vĩ Kinh Thang gia Đào nhân, Hồng hoa hoặc Huyết Phủ Trục Ứ Thang gia vị",
+    "clinical_notes": "Thể này tương đương viêm phổi hoại tử, áp xe phổi hoặc huyết khối phổi. Cần đánh giá X-quang phổi và D-dimer nếu nghi thuyên tắc phổi.",
+    "veto_rule": {
+      "condition": "pulmonary_embolism_or_lung_abscess_suspected",
+      "red_flags": ["sudden_onset_chest_pain", "hemoptysis", "tachycardia", "hypoxia", "pleuritic_chest_pain"],
+      "action": "ESCALATE_EMERGENCY_WESTERN_MEDICINE",
+      "reason": "Thuyên tắc phổi và áp xe phổi là các bệnh đe dọa tính mạng cần xử trí cấp cứu ngay lập tức.",
+      "priority": "CRITICAL"
+    },
+    "prevalence": "uncommon"
+  },
+  {
+    "rule_id": "PM_B05_018",
+    "benh_co_code": "lung_abscess_phlegm_heat",
+    "benh_co_vi": "Phế ung (Đàm nhiệt thành ung)",
+    "benh_co_en": "Lung Abscess (Phlegm-Heat Forming Abscess)",
+    "zangfu_primary": "lung",
+    "zangfu_secondary": ["spleen", "stomach"],
+    "bat_cuong_profile": {
+      "cold": 0.0,
+      "heat": 0.95,
+      "deficiency": 0.0,
+      "excess": 0.95,
+      "exterior": 0.0,
+      "interior": 0.95
+    },
+    "required_symptoms": ["cough_with_foul_smelling_purulent_sputum", "high_fever_persistent"],
+    "supporting_symptoms": ["chest_pain", "coughing_blood_or_pus_blood_mixture", "weight_loss", "fatigue", "red_tongue_with_thick_yellow_greasy_coat", "slippery_rapid_strong_pulse"],
+    "contradicting_symptoms": ["no_fever", "normal_sputum", "white_thin_sputum"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "phlegm_heat_in_lung",
+        "differentiating_feature": "Đàm nhiệt uất Phế: viêm phổi thông thường, đờm vàng đặc; Phế ung: đờm thối mùi, có thể có pus, sốt cao dai dẳng, tương đương áp xe phổi"
+      }
+    ],
+    "derived_chung_codes": ["lung_abscess_pattern", "phlegm_heat_abscess"],
+    "phap_tri_direction": "Thanh nhiệt giải độc, hóa đàm tiêu ung bài nùng (Clear Heat Resolve Toxin, Transform Phlegm Disperse Abscess Expel Pus)",
+    "typical_herb_formula": "Thiên Kim Vĩ Kinh Thang hoặc Như Kim Giải Độc Tán",
+    "clinical_notes": "TƯƠNG ĐƯƠNG ÁP XE PHỔI. Bệnh nặng, cần điều trị tích cực. YHCT có vai trò hỗ trợ nhưng điều trị chính là kháng sinh mạnh, dài ngày, có thể cần dẫn lưu.",
+    "veto_rule": {
+      "condition": "lung_abscess_confirmed_or_suspected",
+      "action": "ESCALATE_WESTERN_MEDICINE_MANDATORY",
+      "reason": "Áp xe phổi cần kháng sinh liều cao dài ngày, có thể cần dẫn lưu hoặc phẫu thuật. Điều trị YHCT đơn độc không đủ và có thể gây chậm trễ nguy hiểm.",
+      "priority": "HIGH"
+    },
+    "prevalence": "rare"
+  },
+  {
+    "rule_id": "PM_B05_019",
+    "benh_co_code": "lung_qi_yin_deficiency",
+    "benh_co_vi": "Phế khí âm lưỡng hư",
+    "benh_co_en": "Lung Qi and Yin Dual Deficiency",
+    "zangfu_primary": "lung",
+    "zangfu_secondary": ["spleen", "kidney"],
+    "bat_cuong_profile": {
+      "cold": 0.1,
+      "heat": 0.3,
+      "deficiency": 0.95,
+      "excess": 0.05,
+      "exterior": 0.0,
+      "interior": 0.95
+    },
+    "required_symptoms": ["shortness_of_breath", "dry_cough_or_scanty_sputum"],
+    "supporting_symptoms": ["fatigue_pronounced", "spontaneous_sweating_and_night_sweats", "dry_throat", "weak_voice", "low_grade_fever_or_afternoon_heat", "pale_or_slightly_red_tongue_with_thin_coat_or_no_coat", "thready_weak_pulse"],
+    "contradicting_symptoms": ["excessive_sputum", "high_fever", "strong_pulse"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "lung_qi_deficiency",
+        "differentiating_feature": "Phế khí hư: chưa có triệu chứng âm hư, lưỡi nhạt; Phế khí âm lưỡng hư: có cả triệu chứng hư khí lẫn hư âm"
+      },
+      {
+        "benh_co_code": "lung_yin_deficiency",
+        "differentiating_feature": "Phế âm hư: nhấn mạnh vào hư nhiệt, ít triệu chứng khí hư; Phế khí âm lưỡng hư: cả hai thành phần đều hiện diện"
+      }
+    ],
+    "derived_chung_codes": ["lung_qi_yin_dual_deficiency"],
+    "phap_tri_direction": "Ích khí dưỡng âm, nhuận Phế chỉ khái (Benefit Qi Nourish Yin, Moisten Lung Stop Cough)",
+    "typical_herb_formula": "Sinh Mạch Tán hoặc Bảo Phế Thang",
+    "clinical_notes": "Thường gặp sau bệnh phổi cấp, hóa trị xạ trị ung thư phổi, hoặc bệnh phổi mãn tính lâu ngày. Sinh Mạch Tán (Nhân sâm, Mạch đông, Ngũ vị tử) là phương thuốc cổ điển rất hiệu quả.",
+    "veto_rule": null,
+    "prevalence": "common"
+  },
+  {
+    "rule_id": "PM_B05_020",
+    "benh_co_code": "exterior_cold_interior_heat_lung",
+    "benh_co_vi": "Ngoại hàn nội nhiệt phạm Phế",
+    "benh_co_en": "Exterior Cold with Interior Heat Invading Lung",
+    "zangfu_primary": "lung",
+    "zangfu_secondary": [],
+    "bat_cuong_profile": {
+      "cold": 0.5,
+      "heat": 0.6,
+      "deficiency": 0.0,
+      "excess": 0.9,
+      "exterior": 0.6,
+      "interior": 0.6
+    },
+    "required_symptoms": ["chills_and_fever_simultaneously", "cough_with_yellow_sputum"],
+    "supporting_symptoms": ["no_sweating", "body_aches", "thirst", "irritability", "red_tongue_with_yellow_coat", "floating_rapid_pulse"],
+    "contradicting_symptoms": ["no_chills", "no_fever", "white_thin_sputum"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "wind_cold_invading_lung",
+        "differentiating_feature": "Phong hàn: thuần hàn, đờm trắng, không khát; Ngoại hàn nội nhiệt: đờm vàng, khát, lưỡi đỏ rêu vàng dù có ớn lạnh"
+      },
+      {
+        "benh_co_code": "wind_heat_invading_lung",
+        "differentiating_feature": "Phong nhiệt: sốt hơn ớn lạnh, không có hội chứng hàn biểu rõ; Ngoại hàn nội nhiệt: ớn lạnh và sốt đồng thời, không mồ hôi"
+      }
+    ],
+    "derived_chung_codes": ["exterior_cold_interior_heat_lung"],
+    "phap_tri_direction": "Giải biểu tán hàn, thanh lý nhiệt (Release Exterior Scatter Cold, Clear Interior Heat)",
+    "typical_herb_formula": "Đại Thanh Long Thang hoặc Ma Hạnh Thạch Cam Thang",
+    "clinical_notes": "Thể bệnh cảm cúm có nhiễm khuẩn thứ phát hoặc người Phế nhiệt sẵn bị cảm hàn. Cần phân biệt rõ để không dùng thuần tân ôn hoặc thuần tân lương.",
+    "veto_rule": null,
+    "prevalence": "common"
+  },
+  {
+    "rule_id": "PM_B05_021",
+    "benh_co_code": "lung_heat_injuring_collaterals_hemoptysis",
+    "benh_co_vi": "Phế nhiệt thương lạc (ho ra máu)",
+    "benh_co_en": "Lung Heat Injuring Collaterals (Hemoptysis)",
+    "zangfu_primary": "lung",
+    "zangfu_secondary": ["liver", "stomach"],
+    "bat_cuong_profile": {
+      "cold": 0.0,
+      "heat": 0.85,
+      "deficiency": 0.2,
+      "excess": 0.8,
+      "exterior": 0.0,
+      "interior": 0.95
+    },
+    "required_symptoms": ["hemoptysis_bright_red_blood", "cough"],
+    "supporting_symptoms": ["fever", "thirst", "chest_pain", "red_tongue_with_yellow_coat", "rapid_pulse"],
+    "contradicting_symptoms": ["dark_blood", "no_fever", "pale_tongue"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "lung_yin_deficiency",
+        "differentiating_feature": "Phế âm hư ho ra máu: máu ít, màu sẫm hơn, kèm triệu chứng âm hư; Phế nhiệt thương lạc: máu tươi đỏ, lượng nhiều hơn, kèm nhiệt thịnh"
+      }
+    ],
+    "derived_chung_codes": ["lung_heat_hemoptysis", "heat_injuring_vessels"],
+    "phap_tri_direction": "Thanh nhiệt lương huyết, chỉ huyết (Clear Heat Cool Blood, Stop Bleeding)",
+    "typical_herb_formula": "Tả Bạch Tán hợp Thập Khôi Tán hoặc Tứ Sinh Hoàn",
+    "clinical_notes": "Ho ra máu là triệu chứng nguy hiểm luôn cần đánh giá YHHD. Lao phổi, ung thư phổi, giãn phế quản là các nguyên nhân phổ biến tại Việt Nam cần loại trừ bắt buộc.",
+    "veto_rule": {
+      "condition": "hemoptysis_any_amount",
+      "action": "REFER_WESTERN_MEDICINE_EVALUATION",
+      "reason": "Ho ra máu bất kể lượng nhiều hay ít đều cần X-quang phổi, xét nghiệm AFB tìm lao và đánh giá YHHD để loại trừ ung thư phổi, lao, giãn phế quản.",
+      "priority": "HIGH"
+    },
+    "prevalence": "uncommon"
+  },
+  {
+    "rule_id": "PM_B05_022",
+    "benh_co_code": "phlegm_fluid_cold_lung_spleen_kidney",
+    "benh_co_vi": "Đàm ẩm hàn thấp - Phế Tỳ Thận dương hư",
+    "benh_co_en": "Cold Phlegm-Fluid Retention with Lung-Spleen-Kidney Yang Deficiency",
+    "zangfu_primary": "lung",
+    "zangfu_secondary": ["spleen", "kidney"],
+    "bat_cuong_profile": {
+      "cold": 0.9,
+      "heat": 0.0,
+      "deficiency": 0.85,
+      "excess": 0.4,
+      "exterior": 0.0,
+      "interior": 0.95
+    },
+    "required_symptoms": ["chronic_dyspnea_worse_supine", "copious_clear_thin_sputum"],
+    "supporting_symptoms": ["edema_lower_limbs_or_generalized", "palpitations", "cold_limbs", "aversion_to_cold", "decreased_urine", "pale_swollen_tongue_moist_white_coat", "deep_weak_slippery_pulse"],
+    "contradicting_symptoms": ["fever", "thirst", "yellow_sputum", "red_tongue"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "cold_fluid_lodging_lung",
+        "differentiating_feature": "Hàn ẩm phục Phế: chủ yếu Phế, ít triệu chứng Tỳ Thận dương hư và phù; Đàm ẩm Phế Tỳ Thận: liên quan ba tạng, có phù nề rõ, nặng hơn"
+      }
+    ],
+    "derived_chung_codes": ["cold_phlegm_fluid_lung_spleen_kidney"],
+    "phap_tri_direction": "Ôn dương lợi thủy, hóa đàm ẩm (Warm Yang Diuresis, Transform Phlegm-Fluid)",
+    "typical_herb_formula": "Chân Vũ Thang hoặc Linh Quế Truật Cam Thang gia vị",
+    "clinical_notes": "Tương đương tâm phế mãn (cor pulmonale), suy tim phải do bệnh phổi mãn. Phù chân, khó thở nằm, tim nhanh → cần đánh giá tim mạch YHHD. Oxy liệu pháp và lợi tiểu có thể cần thiết.",
+    "veto_rule": {
+      "condition": "cor_pulmonale_or_right_heart_failure",
+      "red_flags": ["edema_ascending", "jugular_vein_distension", "hepatomegaly", "ascites", "spo2_below_88"],
+      "action": "ESCALATE_WESTERN_MEDICINE",
+      "reason": "Suy tim phải do bệnh phổi mãn (tâm phế mãn) cần điều trị kết hợp YHHD và YHCT. Lợi tiểu, digoxin, oxy liệu pháp là nền tảng.",
+      "priority": "HIGH"
+    },
+    "prevalence": "uncommon"
+  },
+  {
+    "rule_id": "PM_B05_023",
+    "benh_co_code": "lung_wind_phlegm_obstruction",
+    "benh_co_vi": "Phong đàm trở Phế",
+    "benh_co_en": "Wind-Phlegm Obstructing Lung",
+    "zangfu_primary": "lung",
+    "zangfu_secondary": ["liver", "spleen"],
+    "bat_cuong_profile": {
+      "cold": 0.2,
+      "heat": 0.2,
+      "deficiency": 0.2,
+      "excess": 0.8,
+      "exterior": 0.5,
+      "interior": 0.6
+    },
+    "required_symptoms": ["sudden_onset_cough_and_wheezing", "profuse_sputum"],
+    "supporting_symptoms": ["itchy_throat_triggering_cough", "nasal_symptoms", "allergic_history", "exacerbation_with_weather_change_or_allergens", "white_sticky_sputum", "pale_tongue_with_white_coat", "wiry_slippery_pulse"],
+    "contradicting_symptoms": ["gradual_onset", "no_sputum", "fever_high"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "cold_fluid_lodging_lung",
+        "differentiating_feature": "Hàn ẩm phục Phế: chủ yếu khởi phát do lạnh; Phong đàm trở Phế: khởi phát do nhiều yếu tố (gió, dị nguyên, thời tiết thay đổi), thường có tiền sử dị ứng"
+      }
+    ],
+    "derived_chung_codes": ["wind_phlegm_lung_obstruction", "allergic_asthma_pattern"],
+    "phap_tri_direction": "Khu phong hóa đàm, tuyên Phế bình suyễn (Expel Wind Transform Phlegm, Diffuse Lung Calm Wheezing)",
+    "typical_herb_formula": "Tam Phục Thang hoặc Chỉ Khái Tán gia Thuyền thoái, Tế tân",
+    "clinical_notes": "Thường tương đương hen phế quản dị ứng tại Việt Nam. Quan trọng là xác định dị nguyên và tránh né. Trong cơn suyễn cấp nặng cần thuốc giãn phế quản hiện đại.",
+    "veto_rule": null,
+    "prevalence": "common"
+  },
+  {
+    "rule_id": "PM_B05_024",
+    "benh_co_code": "lung_and_heart_qi_stagnation",
+    "benh_co_vi": "Phế Tâm khí trệ huyết ứ",
+    "benh_co_en": "Lung and Heart Qi Stagnation with Blood Stasis",
+    "zangfu_primary": "lung",
+    "zangfu_secondary": ["heart"],
+    "bat_cuong_profile": {
+      "cold": 0.2,
+      "heat": 0.2,
+      "deficiency": 0.4,
+      "excess": 0.7,
+      "exterior": 0.0,
+      "interior": 0.95
+    },
+    "required_symptoms": ["dyspnea_on_exertion_or_rest", "palpitations", "chest_pain_or_tightness"],
+    "supporting_symptoms": ["cyanosis_lips_and_nails", "purple_tongue_or_dark_sublingual_veins", "choppy_or_irregular_pulse", "edema", "fatigue"],
+    "contradicting_symptoms": ["no_palpitations", "no_chest_pain", "pink_normal_complexion"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "lung_kidney_qi_deficiency",
+        "differentiating_feature": "Phế Thận khí hư: không nạp khí, đau lưng mỏi gối là chính; Phế Tâm khí trệ huyết ứ: tim đập loạn, đau ngực, tím tái là chính, có ứ huyết"
+      }
+    ],
+    "derived_chung_codes": ["heart_lung_qi_blood_stasis", "cardiopulmonary_dysfunction"],
+    "phap_tri_direction": "Ích khí hoạt huyết, hóa ứ thông mạch (Benefit Qi Activate Blood, Transform Stasis Unblock Vessels)",
+    "typical_herb_formula": "Bổ Dương Hoàn Ngũ Thang gia vị hoặc Huyết Phủ Trục Ứ Thang hợp Sinh Mạch Tán",
+    "clinical_notes": "Tương đương suy tim-phổi, tăng áp phổi, hoặc thuyên tắc phổi mãn. Cần đánh giá tim mạch đầy đủ: ECG, siêu âm tim, X-quang phổi. YHCT hỗ trợ cải thiện tuần hoàn.",
+    "veto_rule": {
+      "condition": "acute_heart_failure_or_pulmonary_embolism",
+      "red_flags": ["sudden_severe_dyspnea", "chest_pain_radiating", "hemoptysis_with_pleuritic_pain", "oxygen_saturation_drop", "tachycardia_hypotension"],
+      "action": "ESCALATE_EMERGENCY_WESTERN_MEDICINE",
+      "reason": "Suy tim cấp và thuyên tắc phổi cấp là cấp cứu nội khoa nguy hiểm tính mạng.",
+      "priority": "CRITICAL"
+    },
+    "prevalence": "uncommon"
+  },
+  {
+    "rule_id": "PM_B05_025",
+    "benh_co_code": "defensive_qi_deficiency_frequent_colds",
+    "benh_co_vi": "Vệ khí hư - hay cảm mạo",
+    "benh_co_en": "Defensive Qi Deficiency with Frequent Common Colds",
+    "zangfu_primary": "lung",
+    "zangfu_secondary": ["spleen", "kidney"],
+    "bat_cuong_profile": {
+      "cold": 0.3,
+      "heat": 0.0,
+      "deficiency": 0.85,
+      "excess": 0.1,
+      "exterior": 0.5,
+      "interior": 0.5
+    },
+    "required_symptoms": ["frequent_recurring_colds_more_than_4_times_per_year", "easily_catches_cold_with_minimal_exposure"],
+    "supporting_symptoms": ["spontaneous_sweating", "aversion_to_wind_and_cold", "fatigue", "weak_voice", "pale_complexion", "pale_tongue_with_thin_white_coat", "weak_floating_pulse"],
+    "contradicting_symptoms": ["no_history_frequent_illness", "robust_constitution", "no_sweating"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "lung_qi_deficiency",
+        "differentiating_feature": "Phế khí hư: tập trung vào triệu chứng Phế (ho, khó thở); Vệ khí hư: tập trung vào bảo vệ bên ngoài kém, hay bị cảm, ra mồ hôi tự nhiên, sợ gió"
+      }
+    ],
+    "derived_chung_codes": ["wei_qi_deficiency", "frequent_exterior_invasion"],
+    "phap_tri_direction": "Ích khí cố biểu, bổ Phế (Benefit Qi Consolidate Exterior, Tonify Lung)",
+    "typical_herb_formula": "Ngọc Bình Phong Tán (phòng bệnh) hoặc Hoàng Kỳ Kiến Trung Thang",
+    "clinical_notes": "Phổ biến ở trẻ em và người cao tuổi tại Việt Nam. Ngọc Bình Phong Tán (Hoàng kỳ, Bạch truật, Phòng phong) là thuốc phòng cảm mạo kinh điển. Dùng liên tục 2-3 tháng để tăng cường miễn dịch.",
+    "veto_rule": null,
+    "prevalence": "very_common"
+  },
+  {
+    "rule_id": "PM_B05_026",
+    "benh_co_code": "lung_heat_with_constipation_lung_large_intestine",
+    "benh_co_vi": "Phế nhiệt hạ di Đại trường",
+    "benh_co_en": "Lung Heat Transmitting Down to Large Intestine",
+    "zangfu_primary": "lung",
+    "zangfu_secondary": ["large_intestine"],
+    "bat_cuong_profile": {
+      "cold": 0.0,
+      "heat": 0.8,
+      "deficiency": 0.0,
+      "excess": 0.9,
+      "exterior": 0.1,
+      "interior": 0.9
+    },
+    "required_symptoms": ["cough_with_chest_heat", "constipation_or_dry_hard_stool"],
+    "supporting_symptoms": ["fever", "thirst", "yellow_thick_sputum", "abdominal_fullness", "dark_urine", "red_tongue_with_yellow_dry_coat", "slippery_rapid_pulse"],
+    "contradicting_symptoms": ["diarrhea", "loose_stool", "no_constipation", "white_sputum"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "lung_heat_excess",
+        "differentiating_feature": "Phế nhiệt đơn thuần: chủ yếu triệu chứng Phế; Phế nhiệt hạ di Đại trường: thêm táo bón, bụng đầy, Đại trường bị ảnh hưởng rõ"
+      }
+    ],
+    "derived_chung_codes": ["lung_large_intestine_heat", "lung_intestine_axis_heat"],
+    "phap_tri_direction": "Thanh Phế tiết nhiệt, thông lý thông tiện (Clear Lung Drain Heat, Free Interior Clear Bowels)",
+    "typical_herb_formula": "Lương Cách Tán hoặc Tả Bạch Tán hợp Ma Nhân Hoàn",
+    "clinical_notes": "Phế và Đại trường biểu lý với nhau. Thông đại tiện giúp thanh nhiệt Phế. Quan trọng trong thực hành: khi Phế nhiệt nặng kèm táo bón, thông tiện là một chiến lược điều trị.",
+    "veto_rule": null,
+    "prevalence": "common"
+  },
+  {
+    "rule_id": "PM_B05_027",
+    "benh_co_code": "large_intestine_heat_affecting_lung",
+    "benh_co_vi": "Đại trường nhiệt phản ảnh Phế",
+    "benh_co_en": "Large Intestine Heat Affecting Lung (Reverse Lung-Intestine Axis)",
+    "zangfu_primary": "lung",
+    "zangfu_secondary": ["large_intestine"],
+    "bat_cuong_profile": {
+      "cold": 0.0,
+      "heat": 0.8,
+      "deficiency": 0.0,
+      "excess": 0.9,
+      "exterior": 0.0,
+      "interior": 0.95
+    },
+    "required_symptoms": ["constipation_severe_or_dysentery_with_fever", "cough_dyspnea_aggravated"],
+    "supporting_symptoms": ["abdominal_pain_distension", "red_tongue_yellow_coat", "rapid_slippery_pulse", "high_fever"],
+    "contradicting_symptoms": ["normal_bowel_function", "no_abdominal_symptoms"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "lung_heat_with_constipation_lung_large_intestine",
+        "differentiating_feature": "Phế nhiệt hạ di: bắt đầu từ Phế rồi ảnh hưởng xuống Đại trường; Đại trường nhiệt phản ảnh Phế: bắt đầu từ Đại trường, nhiệt trở lên ảnh hưởng Phế"
+      }
+    ],
+    "derived_chung_codes": ["large_intestine_heat_lung_pattern"],
+    "phap_tri_direction": "Thông phủ tiết nhiệt, giáng Phế bình suyễn (Free Bowels Drain Heat, Descend Lung Calm Wheezing)",
+    "typical_herb_formula": "Đại Thừa Khí Thang (táo bón nặng) hoặc Bạch Đầu Ông Thang (lỵ nhiệt)",
+    "clinical_notes": "Cơ chế Phế - Đại trường biểu lý hai chiều. Bệnh nhân viêm ruột nặng kèm suy hô hấp. Thông đại tràng là chiến lược quan trọng để giảm áp lực lên Phế.",
+    "veto_rule": null,
+    "prevalence": "uncommon"
+  },
+  {
+    "rule_id": "PM_B05_028",
+    "benh_co_code": "post_febrile_lung_yin_damage",
+    "benh_co_vi": "Nhiệt bệnh hậu kỳ - Phế âm thương tổn",
+    "benh_co_en": "Post-Febrile Disease Residual Lung Yin Damage",
+    "zangfu_primary": "lung",
+    "zangfu_secondary": ["stomach", "kidney"],
+    "bat_cuong_profile": {
+      "cold": 0.0,
+      "heat": 0.3,
+      "deficiency": 0.85,
+      "excess": 0.1,
+      "exterior": 0.0,
+      "interior": 0.9
+    },
+    "required_symptoms": ["persistent_dry_cough_after_fever_illness", "dry_throat_and_mouth"],
+    "supporting_symptoms": ["low_grade_fever_or_afternoon_fever", "night_sweats", "fatigue", "poor_appetite", "dry_stool", "red_tongue_with_scanty_coat", "thready_rapid_pulse"],
+    "contradicting_symptoms": ["active_high_fever", "thick_sputum", "strong_pulse"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "lung_yin_deficiency",
+        "differentiating_feature": "Phế âm hư mãn tính: thường do bệnh phổi lâu dài; Nhiệt bệnh hậu Phế âm thương tổn: cấp hơn, có tiền sử bệnh sốt rõ ràng, Vị âm cũng thường bị ảnh hưởng"
+      }
+    ],
+    "derived_chung_codes": ["post_febrile_yin_damage_lung", "recovery_phase_lung"],
+    "phap_tri_direction": "Dưỡng âm ích Vị, nhuận Phế thanh nhiệt (Nourish Yin Benefit Stomach, Moisten Lung Clear Heat)",
+    "typical_herb_formula": "Sa Sâm Mạch Đông Thang hoặc Ích Vị Thang gia Bách hợp, Thiên môn",
+    "clinical_notes": "Giai đoạn hồi phục sau sốt xuất huyết, viêm phổi, COVID-19 tại Việt Nam. Sa Sâm Mạch Đông Thang rất thích hợp cho giai đoạn này. Chú ý phân biệt hồi phục bình thường với di chứng kéo dài.",
+    "veto_rule": null,
+    "prevalence": "common"
+  },
+  {
+    "rule_id": "PM_B05_029",
+    "benh_co_code": "summer_heat_dampness_invading_lung",
+    "benh_co_vi": "Thử thấp phạm Phế",
+    "benh_co_en": "Summer-Heat Dampness Invading Lung",
+    "zangfu_primary": "lung",
+    "zangfu_secondary": ["spleen", "stomach", "triple_burner"],
+    "bat_cuong_profile": {
+      "cold": 0.0,
+      "heat": 0.6,
+      "deficiency": 0.1,
+      "excess": 0.8,
+      "exterior": 0.6,
+      "interior": 0.5
+    },
+    "required_symptoms": ["cough_in_summer_season", "fever_with_sweating_but_fever_not_resolving"],
+    "supporting_symptoms": ["heavy_head_heavy_limbs", "chest_tightness", "nausea_vomiting", "poor_appetite", "sticky_white_or_yellow_tongue_coat", "thirst_but_not_much_drinking", "soggy_rapid_pulse"],
+    "contradicting_symptoms": ["winter_onset", "no_sweating", "cold_symptoms", "clear_thin_sputum"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "wind_heat_invading_lung",
+        "differentiating_feature": "Phong nhiệt: ít nặng đầu mình mẩy, ít buồn nôn, không đặc trưng mùa hè-ẩm thấp; Thử thấp phạm Phế: mùa hè-hè thu, nặng đầu mình, buồn nôn, rêu lưỡi nhờn"
+      }
+    ],
+    "derived_chung_codes": ["summer_heat_damp_lung", "seasonal_damp_heat_exterior"],
+    "phap_tri_direction": "Thanh thử hóa thấp, tuyên Phế hòa trung (Clear Summer-Heat Transform Dampness, Diffuse Lung Harmonize Middle)",
+    "typical_herb_formula": "Tân Gia Hương Nhu Ẩm hoặc Lục Nhất Tán hợp Tang Cúc Ẩm",
+    "clinical_notes": "Đặc biệt phổ biến tại Việt Nam mùa hè nóng ẩm, nhất là miền Nam. Thường gặp khi bệnh nhân tiếp xúc nắng nóng sau đó vào phòng máy lạnh (ngoại hàn nội thử). Kiêng ăn đồ béo ngọt, uống nhiều bia rượu.",
+    "veto_rule": null,
+    "prevalence": "common"
+  },
+  {
+    "rule_id": "PM_B05_030",
+    "benh_co_code": "lung_qi_deficiency_with_phlegm_chronic_cough",
+    "benh_co_vi": "Phế khí hư kiêm đàm - ho mãn tính",
+    "benh_co_en": "Lung Qi Deficiency with Phlegm - Chronic Cough Pattern",
+    "zangfu_primary": "lung",
+    "zangfu_secondary": ["spleen", "kidney"],
+    "bat_cuong_profile": {
+      "cold": 0.3,
+      "heat": 0.1,
+      "deficiency": 0.75,
+      "excess": 0.4,
+      "exterior": 0.0,
+      "interior": 0.9
+    },
+    "required_symptoms": ["chronic_cough_over_3_months", "sputum_easy_to_expectorate_white_or_grey"],
+    "supporting_symptoms": ["shortness_of_breath_on_exertion", "fatigue", "spontaneous_sweating", "repeated_respiratory_infections", "weak_voice", "pale_tongue_with_white_greasy_coat", "weak_slippery_pulse"],
+    "contradicting_symptoms": ["yellow_purulent_sputum", "high_fever", "red_tongue_yellow_coat"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "phlegm_damp_obstructing_lung",
+        "differentiating_feature": "Đàm thấp trở Phế: hư chứng ít nổi bật, tắc nghẽn là chính; Phế khí hư kiêm đàm: hư chứng rõ (khí đoản, mệt, tự ra mồ hôi) kết hợp với đàm"
+      },
+      {
+        "benh_co_code": "lung_qi_deficiency",
+        "differentiating_feature": "Phế khí hư đơn thuần: ít đàm hoặc không đàm; Phế khí hư kiêm đàm: có đàm rõ kết hợp với hư chứng"
+      }
+    ],
+    "derived_chung_codes": ["lung_qi_deficiency_phlegm_chronic_cough", "copd_early_tcm_pattern"],
+    "phap_tri_direction": "Bổ Phế ích khí, hóa đàm chỉ khái (Tonify Lung Benefit Qi, Transform Phlegm Stop Cough)",
+    "typical_herb_formula": "Bổ Phế Thang hợp Nhị Trần Thang hoặc Bổ Trung Ích Khí Thang gia Bán hạ, Trần bì",
+    "clinical_notes": "Tương đương COPD giai đoạn sớm-trung bình hoặc viêm phế quản mãn tính tại Việt Nam. Hút thuốc lá là nguyên nhân hàng đầu - cần tư vấn cai thuốc lá. Kết hợp kiện Tỳ (Tỳ là nguồn sinh đàm) để điều trị tận gốc. Theo dõi chức năng hô hấp định kỳ.",
+    "veto_rule": {
+      "condition": "copd_moderate_to_severe_or_acute_exacerbation",
+      "red_flags": ["fev1_below_50_percent_predicted", "frequent_exacerbations_over_2_per_year", "cor_pulmonale_signs", "spo2_below_92_stable"],
+      "action": "COMANAGE_WESTERN_MEDICINE",
+      "reason": "COPD trung bình-nặng cần điều trị YHHD phối hợp: thuốc giãn phế quản tác dụng dài, ICS nếu cần, phục hồi chức năng hô hấp. YHCT hỗ trợ giảm triệu chứng và cải thiện chất lượng sống.",
+      "priority": "MODERATE"
+    },
+    "prevalence": "very_common"
+  }
+]

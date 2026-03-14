@@ -1,0 +1,1295 @@
+[
+  {
+    "phrase_id": "OBS_B01_001",
+    "phrase_vi": "đau bụng",
+    "variants_vi": ["bụng đau", "đau quặn bụng", "bụng hay đau", "đau trong bụng"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Cơn đau bụng của bạn như thế nào và ở vị trí nào?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đau quặn từng cơn, đi ngoài xong đỡ hơn",
+        "symptom_codes": ["colicky_abdominal_pain", "pain_relieved_by_defecation"],
+        "yhct_hint": "Tỳ khí uất trệ hoặc Thực trệ Đại trường",
+        "yhhd_hint": "IBS, viêm đại tràng co thắt, gastroenteritis"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Đau âm ỉ vùng thượng vị, đói thì đau nhiều hơn",
+        "symptom_codes": ["epigastric_dull_pain", "hunger_related_pain"],
+        "yhct_hint": "Tỳ Vị hư hàn, Can khí phạm Vị",
+        "yhhd_hint": "Loét dạ dày tá tràng, gastritis mạn tính"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Đau quặn dữ dội đột ngột, chưa bao giờ đau như vậy",
+        "symptom_codes": ["sudden_severe_abdominal_pain", "worst_ever_pain"],
+        "yhct_hint": "Khí huyết bế tắc cấp tính, Hàn tà phạm lý",
+        "yhhd_hint": "Thủng tạng rỗng, tắc ruột, viêm tụy cấp, phình động mạch chủ vỡ"
+      },
+      {
+        "option_code": "D",
+        "label_vi": "Đau hạ vị kèm sốt, tiêu chảy có nhầy máu",
+        "symptom_codes": ["lower_abdominal_pain", "fever", "bloody_mucoid_stool"],
+        "yhct_hint": "Thấp nhiệt hạ chú Đại trường",
+        "yhhd_hint": "Viêm đại tràng nhiễm khuẩn, lỵ trực khuẩn, Crohn's disease"
+      }
+    ],
+    "red_flag_trigger": ["C", "D"],
+    "notes": "Đau bụng là triệu chứng cực kỳ phổ biến và đa dạng, cần hỏi kỹ vị trí, tính chất, yếu tố làm tăng/giảm đau"
+  },
+  {
+    "phrase_id": "OBS_B01_002",
+    "phrase_vi": "đau thượng vị",
+    "variants_vi": ["đau vùng trên rốn", "đau trên bụng", "đau giữa bụng trên", "đau vùng dạ dày"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Cơn đau vùng thượng vị của bạn xảy ra khi nào và có tính chất gì?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đau rát bỏng, tăng sau ăn hoặc khi nằm",
+        "symptom_codes": ["epigastric_burning_pain", "postprandial_pain", "pain_worsened_by_lying"],
+        "yhct_hint": "Vị nhiệt, Can khí phạm Vị hoá hoả",
+        "yhhd_hint": "GERD, viêm thực quản trào ngược, loét dạ dày"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Đau âm ỉ, lúc đói đau nhiều, ăn vào đỡ",
+        "symptom_codes": ["epigastric_dull_pain", "hunger_pain", "pain_relieved_by_eating"],
+        "yhct_hint": "Tỳ Vị hư hàn, Trung khí bất túc",
+        "yhhd_hint": "Loét tá tràng, duodenal ulcer"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Đau dữ dội lan ra sau lưng, nằm cúi người ra trước đỡ hơn",
+        "symptom_codes": ["severe_epigastric_pain", "radiation_to_back", "pain_relieved_by_leaning_forward"],
+        "yhct_hint": "Khí trệ huyết ứ tạng tuỵ, Thấp nhiệt uẩn kết",
+        "yhhd_hint": "Viêm tụy cấp hoặc mạn tính, ung thư tụy"
+      }
+    ],
+    "red_flag_trigger": ["C"],
+    "notes": "Phân biệt giữa đau dạ dày thông thường và viêm tụy là quan trọng về lâm sàng"
+  },
+  {
+    "phrase_id": "OBS_B01_003",
+    "phrase_vi": "đau bụng dưới",
+    "variants_vi": ["đau hạ vị", "đau bụng dưới rốn", "đau vùng bụng dưới", "bụng dưới đau"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Đau bụng dưới của bạn ở bên nào hay chính giữa, và có kèm triệu chứng gì không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đau hạ vị bên phải, đau tăng khi ấn và nhả tay",
+        "symptom_codes": ["right_lower_quadrant_pain", "rebound_tenderness"],
+        "yhct_hint": "Trường ung (Ruột thừa viêm), Nhiệt độc ứ kết",
+        "yhhd_hint": "Viêm ruột thừa cấp - cần đánh giá ngoại khoa khẩn"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Đau quặn hạ vị, đi ngoài nhiều lần, phân có nhầy",
+        "symptom_codes": ["lower_abdominal_cramping", "frequent_defecation", "mucoid_stool"],
+        "yhct_hint": "Thấp nhiệt hạ chú, Tỳ hư Thấp thịnh",
+        "yhhd_hint": "IBS, viêm đại tràng chức năng, viêm đại tràng mạn"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Đau hạ vị âm ỉ liên tục kèm sốt, tiểu buốt",
+        "symptom_codes": ["lower_abdominal_dull_pain", "fever", "dysuria"],
+        "yhct_hint": "Bàng quang Thấp nhiệt, Hạ tiêu uất nhiệt",
+        "yhhd_hint": "Nhiễm khuẩn tiết niệu, viêm vùng chậu (nữ)"
+      }
+    ],
+    "red_flag_trigger": ["A"],
+    "notes": "Ở nữ cần hỏi thêm về kinh nguyệt, thai kỳ để phân biệt nguyên nhân phụ khoa"
+  },
+  {
+    "phrase_id": "OBS_B01_004",
+    "phrase_vi": "đau quặn bụng",
+    "variants_vi": ["bụng quặn đau", "đau thắt bụng", "bụng quặn từng cơn", "đau bụng từng cơn"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Cơn đau quặn xảy ra ở đâu và kéo dài bao lâu mỗi cơn?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đau quặn quanh rốn hoặc hạ vị, đi ngoài xong dịu",
+        "symptom_codes": ["periumbilical_cramping", "pain_relieved_by_defecation"],
+        "yhct_hint": "Tỳ khí uất trệ, Thực trệ Trường vị",
+        "yhhd_hint": "IBS-D, viêm đại tràng co thắt, gastroenteritis cấp"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Đau quặn hạ vị từng cơn, phân lỏng có máu đỏ tươi",
+        "symptom_codes": ["lower_abdominal_cramping", "bloody_diarrhea", "hematochezia"],
+        "yhct_hint": "Thấp nhiệt tả lỵ, Nhiệt độc phạm Trường",
+        "yhhd_hint": "Viêm đại tràng xuất huyết, lỵ amip, lỵ trực khuẩn, IBD"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Đau quặn quanh rốn ngày càng tăng, không trung tiện được",
+        "symptom_codes": ["periumbilical_cramping_progressive", "obstipation", "no_flatus"],
+        "yhct_hint": "Trường tắc, Khí cơ bế trở",
+        "yhhd_hint": "Tắc ruột cơ học hoặc liệt ruột - cần đánh giá ngoại khoa"
+      }
+    ],
+    "red_flag_trigger": ["B", "C"],
+    "notes": "Đau quặn kèm máu hoặc không trung tiện được là dấu hiệu nguy hiểm cần xử trí khẩn"
+  },
+  {
+    "phrase_id": "OBS_B01_005",
+    "phrase_vi": "đau bụng âm ỉ",
+    "variants_vi": ["bụng âm ỉ đau", "đau bụng ỉ ỉ", "bụng cứ đau âm ỉ", "đau tức bụng"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Cơn đau âm ỉ ở vùng nào và có kèm triệu chứng gì khác không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đau âm ỉ thượng vị, chán ăn, sụt cân không rõ nguyên nhân",
+        "symptom_codes": ["epigastric_dull_ache", "anorexia", "unexplained_weight_loss"],
+        "yhct_hint": "Tỳ Vị khí hư, Ác tính Vị (nghi ung thư dạ dày)",
+        "yhhd_hint": "Ung thư dạ dày, lymphoma dạ dày - cần nội soi gấp"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Đau âm ỉ hạ sườn phải, mệt mỏi, nước tiểu vàng sậm",
+        "symptom_codes": ["right_upper_quadrant_dull_pain", "fatigue", "dark_urine"],
+        "yhct_hint": "Can Đởm Thấp nhiệt, Can khí uất kết",
+        "yhhd_hint": "Viêm gan virus, sỏi mật, viêm túi mật mạn"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Đau âm ỉ quanh rốn hoặc hạ vị, kéo dài nhiều tháng, thay đổi thói quen đi ngoài",
+        "symptom_codes": ["chronic_abdominal_dull_pain", "altered_bowel_habits"],
+        "yhct_hint": "Tỳ hư, Can Tỳ bất hoà, Thấp trệ",
+        "yhhd_hint": "IBS mạn, ung thư đại tràng (nếu trên 45 tuổi hoặc có tiền sử gia đình)"
+      }
+    ],
+    "red_flag_trigger": ["A"],
+    "notes": "Đau âm ỉ kéo dài kèm sụt cân là dấu hiệu đỏ cần loại trừ ác tính"
+  },
+  {
+    "phrase_id": "OBS_B01_006",
+    "phrase_vi": "đau hạ sườn phải",
+    "variants_vi": ["đau sườn phải", "đau mạn sườn phải", "đau vùng gan", "tức hạ sườn phải"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Cơn đau hạ sườn phải của bạn xảy ra đột ngột hay âm ỉ, và có lan đến đâu không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đau quặn dữ dội hạ sườn phải, lan lên vai phải, sau bữa ăn nhiều dầu mỡ",
+        "symptom_codes": ["right_upper_quadrant_colic", "radiation_to_right_shoulder", "postprandial_fatty_food_pain"],
+        "yhct_hint": "Đởm khí uất kết, Đởm nhiệt thấp trệ",
+        "yhhd_hint": "Sỏi mật, viêm túi mật cấp, rối loạn chức năng túi mật"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Đau tức âm ỉ hạ sườn phải kèm vàng da, mệt mỏi",
+        "symptom_codes": ["right_upper_quadrant_dull_pain", "jaundice", "fatigue"],
+        "yhct_hint": "Can Đởm Thấp nhiệt, Hoàng đản",
+        "yhhd_hint": "Viêm gan virus cấp hoặc mạn, xơ gan, ung thư gan"
+      }
+    ],
+    "red_flag_trigger": ["B"],
+    "notes": "Vàng da kèm đau hạ sườn phải luôn là dấu hiệu đỏ cần đánh giá chức năng gan"
+  },
+  {
+    "phrase_id": "OBS_B01_007",
+    "phrase_vi": "bụng đau khi ăn xong",
+    "variants_vi": ["ăn vào là đau bụng", "đau bụng sau khi ăn", "ăn xong bụng đau", "sau bữa ăn đau bụng"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Cơn đau xảy ra ngay sau ăn hay sau khoảng 1-2 tiếng? Và đau ở vùng nào?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đau thượng vị ngay sau ăn, đầy bụng, ợ hơi",
+        "symptom_codes": ["immediate_postprandial_epigastric_pain", "bloating", "belching"],
+        "yhct_hint": "Thực trệ Vị quản, Tỳ Vị khí trệ",
+        "yhhd_hint": "Viêm dạ dày mạn, rối loạn tiêu hóa chức năng, dyspepsia"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Đau quặn hạ vị sau ăn 1-2 tiếng, mót đi ngoài",
+        "symptom_codes": ["delayed_postprandial_lower_abdominal_pain", "urgency_to_defecate"],
+        "yhct_hint": "Tỳ hư Thấp thịnh, Trường phong thấp nhiệt",
+        "yhhd_hint": "IBS-D, viêm đại tràng chức năng, hội chứng đại tràng kích thích"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Thời điểm xuất hiện đau sau ăn giúp phân biệt tổn thương dạ dày vs đại tràng"
+  },
+  {
+    "phrase_id": "OBS_B01_008",
+    "phrase_vi": "đau bụng ban đêm",
+    "variants_vi": ["nửa đêm đau bụng", "đau bụng về đêm", "ban đêm hay đau bụng", "đêm đau bụng thức giấc"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Cơn đau ban đêm thường xảy ra vào lúc mấy giờ và đau ở vùng nào?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đau thượng vị lúc 1-3 giờ sáng, đói bụng, ăn hoặc uống nước đỡ",
+        "symptom_codes": ["nocturnal_epigastric_pain", "hunger_pain_at_night", "pain_relieved_by_food"],
+        "yhct_hint": "Tỳ Vị hư hàn, Vị khí bất hoà về Tý giờ (giờ Can)",
+        "yhhd_hint": "Loét tá tràng (nocturnal pain là đặc trưng)"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Đau bụng dưới kèm tiêu chảy về đêm, thức giấc phải đi ngoài",
+        "symptom_codes": ["nocturnal_diarrhea", "nocturnal_lower_abdominal_pain"],
+        "yhct_hint": "Thận dương hư, Ngũ canh tiết tả (tiêu chảy lúc 5 giờ sáng)",
+        "yhhd_hint": "IBD (Crohn's, viêm loét đại tràng), IBS - nocturnal symptoms luôn cần loại trừ thực thể"
+      }
+    ],
+    "red_flag_trigger": ["B"],
+    "notes": "Tiêu chảy ban đêm thức giấc KHÔNG bao giờ là IBS chức năng đơn thuần, cần nội soi đại tràng"
+  },
+  {
+    "phrase_id": "OBS_B01_009",
+    "phrase_vi": "đau bụng kèm sốt",
+    "variants_vi": ["đau bụng và sốt", "vừa sốt vừa đau bụng", "đau bụng có sốt", "sốt và đau bụng"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Nhiệt độ sốt bao nhiêu độ và đau ở vị trí nào trong bụng?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Sốt cao, đau bụng toàn thể hoặc khu trú, bụng cứng",
+        "symptom_codes": ["high_fever", "diffuse_abdominal_pain", "abdominal_rigidity"],
+        "yhct_hint": "Nhiệt độc nhập lý, Trường ung cấp tính",
+        "yhhd_hint": "Viêm phúc mạc cấp, thủng tạng rỗng - cấp cứu ngoại khoa"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Sốt nhẹ đến vừa, đau bụng hạ sườn phải, buồn nôn",
+        "symptom_codes": ["low_grade_fever", "right_upper_quadrant_pain", "nausea"],
+        "yhct_hint": "Can Đởm Thấp nhiệt cấp",
+        "yhhd_hint": "Viêm túi mật cấp, viêm đường mật, cholangitis"
+      }
+    ],
+    "red_flag_trigger": ["A"],
+    "notes": "Bụng cứng như gỗ kèm sốt và đau bụng là cấp cứu ngoại khoa tuyệt đối"
+  },
+  {
+    "phrase_id": "OBS_B01_010",
+    "phrase_vi": "đau bụng khi đói",
+    "variants_vi": ["đói là đau bụng", "lúc đói hay đau", "bụng đau khi chưa ăn", "đói bụng là đau"],
+    "regions": ["all"],
+    "requires_disambiguation": false,
+    "disambiguation_question": null,
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đau vùng thượng vị hoặc giữa bụng trên khi đói, ăn vào đỡ",
+        "symptom_codes": ["hunger_related_epigastric_pain", "pain_relieved_by_eating"],
+        "yhct_hint": "Tỳ Vị hư hàn, Vị dương bất túc, Can khí phạm Vị",
+        "yhhd_hint": "Loét tá tràng, loét dạ dày, viêm dạ dày mạn tính"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Đau khi đói là đặc điểm điển hình của loét tá tràng; cần hỏi thêm về test HP và tiền sử dùng NSAID"
+  },
+  {
+    "phrase_id": "OBS_B01_011",
+    "phrase_vi": "buồn nôn",
+    "variants_vi": ["muốn nôn", "hay buồn nôn", "nôn nao", "bứt rứt muốn ói", "lộn ruột"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Bạn buồn nôn liên tục hay chỉ sau khi ăn? Và có kèm triệu chứng gì khác không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Buồn nôn sau ăn kèm đầy bụng, ợ chua",
+        "symptom_codes": ["postprandial_nausea", "bloating", "acid_regurgitation"],
+        "yhct_hint": "Vị khí thượng nghịch, Tỳ Vị bất hoà",
+        "yhhd_hint": "GERD, viêm dạ dày, chậm làm trống dạ dày (gastroparesis)"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Buồn nôn buổi sáng, mệt mỏi, chậm kinh (phụ nữ)",
+        "symptom_codes": ["morning_nausea", "fatigue", "missed_period"],
+        "yhct_hint": "Thận khí hư, Xung Nhâm mất điều hoà (thai nghén)",
+        "yhhd_hint": "Thai nghén sớm - cần test thai"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Buồn nôn liên tục kèm đau đầu dữ dội, cứng gáy",
+        "symptom_codes": ["persistent_nausea", "severe_headache", "neck_stiffness"],
+        "yhct_hint": "Can phong nội động, Nhiệt nhập Tâm bào",
+        "yhhd_hint": "Viêm màng não, xuất huyết não - cấp cứu thần kinh"
+      }
+    ],
+    "red_flag_trigger": ["C"],
+    "notes": "Buồn nôn kèm dấu thần kinh khu trú hoặc cứng gáy cần loại trừ nguyên nhân thần kinh trung ương"
+  },
+  {
+    "phrase_id": "OBS_B01_012",
+    "phrase_vi": "nôn ói",
+    "variants_vi": ["bị nôn", "hay ói", "ói mửa", "mửa ra", "nôn ra", "ói ra"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Bạn nôn ra chất gì và nôn bao nhiêu lần? Có máu trong chất nôn không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Nôn ra thức ăn, dịch acid hoặc mật sau bữa ăn",
+        "symptom_codes": ["vomiting_food", "bilious_vomiting", "postprandial_vomiting"],
+        "yhct_hint": "Vị khí thượng nghịch, Thực trệ Vị quản",
+        "yhhd_hint": "Viêm dạ dày cấp, ngộ độc thực phẩm, tắc幽môn vị"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Nôn ra máu đỏ tươi hoặc máu bầm như bã cà phê",
+        "symptom_codes": ["hematemesis", "coffee_ground_vomiting"],
+        "yhct_hint": "Vị nhiệt bức huyết vọng hành, Can hoả phạm Vị",
+        "yhhd_hint": "Xuất huyết tiêu hóa trên cấp tính: loét dạ dày, giãn tĩnh mạch thực quản, hội chứng Mallory-Weiss"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Nôn liên tục không cầm, không ăn uống được, mất nước",
+        "symptom_codes": ["intractable_vomiting", "inability_to_tolerate_oral_intake", "dehydration"],
+        "yhct_hint": "Vị khí đại nghịch, Tân dịch tổn thương",
+        "yhhd_hint": "Tắc ruột, viêm tụy cấp nặng, hẹp môn vị, nôn thai nghén nặng (hyperemesis gravidarum)"
+      }
+    ],
+    "red_flag_trigger": ["B", "C"],
+    "notes": "Nôn ra máu là cấp cứu nội soi khẩn; đánh giá ngay huyết động và điều chỉnh dịch truyền"
+  },
+  {
+    "phrase_id": "OBS_B01_013",
+    "phrase_vi": "nôn ra máu",
+    "variants_vi": ["ói ra máu", "nôn máu", "khạc ra máu từ miệng kèm nôn", "chất nôn có máu"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Máu trong chất nôn màu đỏ tươi hay đỏ sẫm như bã cà phê? Và lượng máu khoảng bao nhiêu?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Nôn máu đỏ tươi lượng nhiều, có tiền sử xơ gan hoặc uống rượu nhiều",
+        "symptom_codes": ["massive_hematemesis", "history_of_cirrhosis", "alcohol_history"],
+        "yhct_hint": "Can nhiệt bức huyết, Huyết nhiệt vọng hành do thấp nhiệt tích tụ",
+        "yhhd_hint": "Vỡ giãn tĩnh mạch thực quản/dạ dày - cấp cứu nội soi khẩn ngay"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Nôn máu bầm dạng bã cà phê, đau thượng vị, dùng NSAID/rượu",
+        "symptom_codes": ["coffee_ground_hematemesis", "epigastric_pain", "nsaid_use"],
+        "yhct_hint": "Vị nhiệt ứ huyết, Can khí uất kết hoá hoả phạm Vị",
+        "yhhd_hint": "Loét dạ dày xuất huyết, viêm dạ dày xuất huyết do NSAID/rượu"
+      }
+    ],
+    "red_flag_trigger": ["A", "B"],
+    "notes": "MỌI trường hợp nôn ra máu đều là red flag, cần nhập viện và nội soi tiêu hóa trên khẩn cấp"
+  },
+  {
+    "phrase_id": "OBS_B01_014",
+    "phrase_vi": "nôn sau khi ăn",
+    "variants_vi": ["ăn vào là nôn", "ăn xong ói ngay", "ăn gì cũng nôn", "sau ăn hay bị nôn"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Nôn xảy ra ngay sau khi ăn hay sau vài tiếng? Thức ăn nôn ra còn nguyên vẹn hay đã tiêu hóa một phần?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Nôn ngay sau ăn, thức ăn còn nguyên chưa tiêu hóa",
+        "symptom_codes": ["immediate_postprandial_vomiting", "undigested_food_vomiting"],
+        "yhct_hint": "Vị khí thượng nghịch cấp, Tỳ Vị hư hàn không vận hoá được",
+        "yhhd_hint": "Hẹp môn vị, tắc nghẽn dạ dày cao"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Nôn sau ăn 2-4 tiếng, thức ăn đã một phần tiêu hóa, đầy bụng dai dẳng",
+        "symptom_codes": ["delayed_gastric_emptying", "persistent_bloating"],
+        "yhct_hint": "Tỳ Vị hư, Trung tiêu khí trệ, không vận hoá thức ăn",
+        "yhhd_hint": "Liệt dạ dày (gastroparesis) - thường gặp ở bệnh nhân tiểu đường"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Nôn thức ăn cũ từ bữa trước là gợi ý gastroparesis hoặc tắc nghẽn dạ dày"
+  },
+  {
+    "phrase_id": "OBS_B01_015",
+    "phrase_vi": "buồn nôn buổi sáng",
+    "variants_vi": ["sáng dậy buồn nôn", "buổi sáng hay nôn nao", "nôn nao buổi sáng", "sáng sớm muốn ói"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Bạn có khả năng đang mang thai không? Và buồn nôn có kèm ợ chua hay không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Buồn nôn sáng sớm, chậm kinh hoặc đang mang thai",
+        "symptom_codes": ["morning_sickness", "pregnancy_related_nausea"],
+        "yhct_hint": "Thận khí bất túc, Xung mạch khí nghịch, Vị khí thượng nghịch trong thai nghén",
+        "yhhd_hint": "Ốm nghén thai kỳ (morning sickness / hyperemesis gravidarum)"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Buồn nôn sáng sớm kèm ợ chua, đắng miệng, không mang thai",
+        "symptom_codes": ["morning_nausea_non_pregnant", "heartburn", "bitter_taste"],
+        "yhct_hint": "Đởm nhiệt phạm Vị, Vị khí thượng nghịch",
+        "yhhd_hint": "GERD, viêm dạ dày, rối loạn chức năng túi mật"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Luôn hỏi về khả năng thai nghén ở phụ nữ trong độ tuổi sinh sản"
+  },
+  {
+    "phrase_id": "OBS_B01_016",
+    "phrase_vi": "đầy bụng",
+    "variants_vi": ["bụng đầy hơi", "bụng căng đầy", "bụng đầy ăn không vào", "ăn một ít đã thấy đầy"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Bạn cảm thấy đầy bụng ngay khi bắt đầu ăn hay chỉ sau khi ăn no?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đầy bụng ngay từ đầu bữa ăn, chỉ ăn được vài miếng đã thấy no",
+        "symptom_codes": ["early_satiety", "postprandial_fullness"],
+        "yhct_hint": "Tỳ Vị khí hư, Vị khí không giáng, chức năng vận hoá kém",
+        "yhhd_hint": "Gastroparesis, ung thư dạ dày (nếu kèm sụt cân), dyspepsia chức năng"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Đầy căng bụng sau ăn, trung tiện nhiều, bụng ọc ạch",
+        "symptom_codes": ["postprandial_bloating", "excessive_flatulence", "abdominal_gurgling"],
+        "yhct_hint": "Thực trệ, Tỳ hư Thấp thịnh, khí trệ trong Trung tiêu",
+        "yhhd_hint": "Rối loạn tiêu hóa chức năng, không dung nạp lactose, SIBO"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Early satiety (no sớm) kèm sụt cân là dấu hiệu đỏ cần loại trừ ung thư dạ dày"
+  },
+  {
+    "phrase_id": "OBS_B01_017",
+    "phrase_vi": "trướng bụng",
+    "variants_vi": ["bụng trướng", "bụng to lên", "bụng phình ra", "bụng căng phồng", "bụng chướng"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Bụng to lên từ từ hay đột ngột? Bụng to đối xứng hay lệch một bên?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Bụng to dần đối xứng, gõ đục vùng thấp, có dịch trong bụng",
+        "symptom_codes": ["progressive_abdominal_distension", "ascites", "shifting_dullness"],
+        "yhct_hint": "Cổ trướng: Can Tỳ Thận ba tạng đều hư, Thuỷ độc tích tụ",
+        "yhhd_hint": "Cổ trướng do xơ gan, suy tim sung huyết, ung thư ổ bụng, lao màng bụng"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Bụng căng hơi sau ăn, trung tiện hoặc ợ hơi đỡ hơn",
+        "symptom_codes": ["gaseous_abdominal_distension", "relief_with_flatus_or_belching"],
+        "yhct_hint": "Trung tiêu khí trệ, Tỳ hư không vận hoá, Thấp trở khí cơ",
+        "yhhd_hint": "Hội chứng ruột kích thích, rối loạn tiêu hóa chức năng, SIBO"
+      }
+    ],
+    "red_flag_trigger": ["A"],
+    "notes": "Cổ trướng là dấu hiệu của bệnh nặng, cần đánh giá gan, tim và loại trừ ác tính"
+  },
+  {
+    "phrase_id": "OBS_B01_018",
+    "phrase_vi": "đầy hơi",
+    "variants_vi": ["hơi nhiều trong bụng", "xì hơi nhiều", "trung tiện nhiều", "bụng hay có hơi", "bụng ọc ạch"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Tình trạng đầy hơi có liên quan đến loại thức ăn cụ thể nào không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đầy hơi sau khi uống sữa hoặc ăn sản phẩm từ sữa, tiêu chảy kèm theo",
+        "symptom_codes": ["bloating_after_dairy", "lactose_intolerance_symptoms", "associated_diarrhea"],
+        "yhct_hint": "Tỳ hư không vận hoá thấp, Trung tiêu hư hàn",
+        "yhhd_hint": "Không dung nạp lactose"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Đầy hơi sau ăn đậu, rau cải, không liên quan đến sữa",
+        "symptom_codes": ["bloating_after_legumes_vegetables", "dietary_related_flatulence"],
+        "yhct_hint": "Tỳ hư Thấp thịnh, chức năng vận hoá kém",
+        "yhhd_hint": "Rối loạn tiêu hóa chức năng, SIBO, tăng sinh vi khuẩn ruột non"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Đầy hơi mạn tính cần hỏi kỹ chế độ ăn và xem xét SIBO nếu đáp ứng kém với điều trị thông thường"
+  },
+  {
+    "phrase_id": "OBS_B01_019",
+    "phrase_vi": "ợ hơi",
+    "variants_vi": ["hay ợ", "ợ liên tục", "ợ nhiều", "bụng cứ ợ hơi", "ợ không ngừng"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Ợ hơi thường xảy ra sau ăn hay bất cứ lúc nào? Có kèm cảm giác chua hoặc đắng không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Ợ hơi sau ăn, không chua, không đắng, bụng dễ chịu hơn",
+        "symptom_codes": ["postprandial_belching", "relief_from_belching"],
+        "yhct_hint": "Vị khí thượng nghịch nhẹ, Trung tiêu khí trệ",
+        "yhhd_hint": "Ợ hơi chức năng, nuốt không khí (aerophagia), dyspepsia"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Ợ hơi kèm vị chua hoặc đắng, nóng rát sau xương ức",
+        "symptom_codes": ["belching_with_acid_taste", "heartburn", "retrosternal_burning"],
+        "yhct_hint": "Can Đởm nhiệt uất phạm Vị, Vị nhiệt khí nghịch",
+        "yhhd_hint": "GERD, viêm dạ dày, rối loạn túi mật"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Ợ hơi đơn thuần thường là lành tính; ợ chua kèm theo mới cần điều trị"
+  },
+  {
+    "phrase_id": "OBS_B01_020",
+    "phrase_vi": "xì hơi nhiều",
+    "variants_vi": ["trung tiện nhiều lần", "hay trung tiện", "phì nhiều", "xì nhiều khí", "hơi nhiều phía dưới"],
+    "regions": ["all"],
+    "requires_disambiguation": false,
+    "disambiguation_question": null,
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Xì hơi nhiều lần trong ngày, có thể có hoặc không mùi",
+        "symptom_codes": ["excessive_flatulence", "increased_bowel_gas"],
+        "yhct_hint": "Tỳ hư Thấp thịnh, Trung tiêu vận hoá kém, khí trệ hạ tiêu",
+        "yhhd_hint": "SIBO, không dung nạp thức ăn, rối loạn tiêu hóa chức năng, IBS"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Xì hơi mùi hôi nặng bất thường kèm tiêu chảy mỡ gợi ý kém hấp thu (malabsorption)"
+  },
+  {
+    "phrase_id": "OBS_B01_021",
+    "phrase_vi": "tiêu chảy",
+    "variants_vi": ["đi ngoài lỏng", "phân lỏng", "đi chảy", "đi tháo", "tháo dạ", "phóng dạ", "đi ngoài nhiều lần"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Tiêu chảy bao nhiêu lần một ngày, phân như thế nào và kéo dài bao lâu rồi?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Tiêu chảy cấp dưới 2 tuần, phân lỏng toé nước, có thể sốt, buồn nôn",
+        "symptom_codes": ["acute_diarrhea", "watery_stool", "associated_fever_nausea"],
+        "yhct_hint": "Hàn thấp hoặc Thấp nhiệt tả, Ngoại tà phạm lý",
+        "yhhd_hint": "Nhiễm khuẩn đường tiêu hóa cấp, ngộ độc thực phẩm, viral gastroenteritis"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Tiêu chảy mạn trên 4 tuần, phân lỏng kèm nhầy máu",
+        "symptom_codes": ["chronic_diarrhea", "mucoid_bloody_stool"],
+        "yhct_hint": "Thấp nhiệt lỵ mạn, Tỳ hư Thấp nhiệt",
+        "yhhd_hint": "Viêm loét đại tràng, Crohn's disease, ung thư đại tràng"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Tiêu chảy phân mỡ bóng, mùi hôi nặng, sụt cân",
+        "symptom_codes": ["steatorrhea", "fatty_malodorous_stool", "weight_loss"],
+        "yhct_hint": "Tỳ Thận dương hư, không vận hoá thuỷ cốc",
+        "yhhd_hint": "Kém hấp thu: bệnh celiac, suy tụy ngoại tiết, Crohn's, cắt đoạn ruột non"
+      }
+    ],
+    "red_flag_trigger": ["B", "C"],
+    "notes": "Tiêu chảy mạn kèm máu hoặc phân mỡ và sụt cân là chỉ định nội soi đại tràng"
+  },
+  {
+    "phrase_id": "OBS_B01_022",
+    "phrase_vi": "đi ngoài ra máu",
+    "variants_vi": ["phân có máu", "đi cầu ra máu", "máu trong phân", "đi ngoài lẫn máu", "phân đỏ"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Máu màu gì, ở trên mặt phân hay lẫn trong phân, và lượng nhiều hay ít?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Máu đỏ tươi dính ngoài phân hoặc nhỏ giọt vào bồn cầu, không đau",
+        "symptom_codes": ["bright_red_rectal_bleeding", "painless_hematochezia", "blood_coating_stool"],
+        "yhct_hint": "Trường phong hạ huyết, Thấp nhiệt hạ tiêu",
+        "yhhd_hint": "Trĩ nội, nứt hậu môn - tuy nhiên PHẢI loại trừ ung thư đại trực tràng"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Máu lẫn trong phân hoặc phân đen hắc, không phải do ăn tiết canh",
+        "symptom_codes": ["blood_mixed_with_stool", "melena"],
+        "yhct_hint": "Tỳ bất thống huyết, Vị trường xuất huyết",
+        "yhhd_hint": "Melena gợi ý xuất huyết tiêu hóa trên; máu lẫn phân gợi ý tổn thương đại tràng trái hoặc ung thư đại tràng"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Phân có máu và nhầy kèm đau bụng quặn và sốt",
+        "symptom_codes": ["bloody_mucoid_stool", "abdominal_cramping", "fever"],
+        "yhct_hint": "Thấp nhiệt lỵ, Nhiệt độc phạm Trường",
+        "yhhd_hint": "Lỵ trực khuẩn, lỵ amíp, viêm đại tràng nhiễm khuẩn, IBD bùng phát"
+      }
+    ],
+    "red_flag_trigger": ["A", "B", "C"],
+    "notes": "MỌI trường hợp đi ngoài ra máu đều là red flag và cần đánh giá nội soi đại tràng trừ khi đã xác định rõ nguyên nhân lành tính"
+  },
+  {
+    "phrase_id": "OBS_B01_023",
+    "phrase_vi": "tiêu chảy mạn tính",
+    "variants_vi": ["đi lỏng kéo dài", "đi ngoài lỏng lâu rồi", "lâu nay hay đi phân lỏng", "đi chảy lâu dài"],
+    "regions": ["all"],
+    "requires_disambiguation": false,
+    "disambiguation_question": null,
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Tiêu chảy kéo dài trên 4 tuần, phân lỏng hoặc nát nhiều lần mỗi ngày",
+        "symptom_codes": ["chronic_diarrhea_over_4_weeks", "loose_stools_multiple_times_daily"],
+        "yhct_hint": "Tỳ Thận dương hư, Mệnh môn hoả suy không ôn ấm Tỳ thổ",
+        "yhhd_hint": "IBS-D, IBD mạn, bệnh celiac, kém hấp thu, cần nội soi và xét nghiệm toàn diện"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Tiêu chảy mạn kèm sụt cân, thiếu máu hoặc máu trong phân cần nội soi đại tràng sớm"
+  },
+  {
+    "phrase_id": "OBS_B01_024",
+    "phrase_vi": "tiêu chảy sau khi ăn",
+    "variants_vi": ["ăn vào là đi ngoài ngay", "ăn xong đi ỉa ngay", "vừa ăn xong phải đi ngoài", "bữa ăn nào cũng phải đi ngoài"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Cảm giác mót đi rất cấp bách hay chỉ đi bình thường ngay sau ăn?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Mót đi ngoài gấp ngay sau ăn, khó nhịn, phân lỏng",
+        "symptom_codes": ["postprandial_urgency", "fecal_urgency", "loose_stool"],
+        "yhct_hint": "Tỳ hư, Đại trường Thấp nhiệt, phản xạ Vị-Đại trường mạnh",
+        "yhhd_hint": "IBS-D, viêm đại tràng chức năng, gastrocolic reflex mạnh"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Tiêu chảy nhẹ sau ăn thức ăn nhiều dầu mỡ, phân vàng, bết dính",
+        "symptom_codes": ["postprandial_diarrhea_fatty_food", "yellow_greasy_stool"],
+        "yhct_hint": "Tỳ hư không vận hoá chất béo, Đởm bất lợi",
+        "yhhd_hint": "Suy tụy ngoại tiết, cắt túi mật, bệnh lý đường mật"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Cần phân biệt IBS chức năng với bệnh thực thể khi có kèm sụt cân hoặc máu trong phân"
+  },
+  {
+    "phrase_id": "OBS_B01_025",
+    "phrase_vi": "phân đen",
+    "variants_vi": ["đi ngoài phân đen", "phân đen hắc", "phân màu đen", "đi ỉa đen", "phân tối màu"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Phân đen có mùi tanh hôi đặc biệt không? Bạn có dùng thuốc sắt, bismuth hay ăn tiết không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Phân đen bóng như hắc ín, mùi tanh hôi, không dùng thuốc sắt",
+        "symptom_codes": ["melena", "tarry_stool", "not_iron_related"],
+        "yhct_hint": "Vị trường xuất huyết, Tỳ bất thống huyết, huyết nhiệt hạ hành",
+        "yhhd_hint": "Xuất huyết tiêu hóa trên: loét dạ dày chảy máu, giãn tĩnh mạch thực quản - cấp cứu"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Phân đen sau khi uống thuốc sắt hoặc bismuth hoặc ăn tiết",
+        "symptom_codes": ["drug_or_food_related_dark_stool"],
+        "yhct_hint": "Không phải bệnh lý Can Tỳ; do thuốc hoặc thức ăn",
+        "yhhd_hint": "Phân đen do thuốc/thức ăn - không nguy hiểm, không cần can thiệp"
+      }
+    ],
+    "red_flag_trigger": ["A"],
+    "notes": "Melena thật sự là cấp cứu nội soi khẩn ngay, ngay cả khi huyết động ổn định"
+  },
+  {
+    "phrase_id": "OBS_B01_026",
+    "phrase_vi": "tiêu chảy kèm nôn ói",
+    "variants_vi": ["vừa nôn vừa đi lỏng", "nôn và tiêu chảy cùng lúc", "cả nôn cả ỉa", "tả lỵ"],
+    "regions": ["all"],
+    "requires_disambiguation": false,
+    "disambiguation_question": null,
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Nôn và tiêu chảy cùng lúc, khởi phát đột ngột, có thể sốt nhẹ",
+        "symptom_codes": ["acute_gastroenteritis", "vomiting_and_diarrhea", "acute_onset"],
+        "yhct_hint": "Thương thực hoặc Thấp nhiệt tả, Ngoại tà (Thử Thấp) xâm phạm Vị Trường",
+        "yhhd_hint": "Viêm dạ dày ruột cấp do virus (norovirus, rotavirus), ngộ độc thực phẩm"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Theo dõi dấu hiệu mất nước, đặc biệt ở trẻ em và người cao tuổi"
+  },
+  {
+    "phrase_id": "OBS_B01_027",
+    "phrase_vi": "táo bón",
+    "variants_vi": ["bón", "khó đi ngoài", "đi ngoài khó", "ít đi ngoài", "bí đi cầu", "không đi được"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Bạn đi ngoài mấy ngày một lần? Phân cứng hay mềm? Và tình trạng này kéo dài bao lâu?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đi ngoài ít hơn 3 lần/tuần, phân cứng, rặn nhiều, kéo dài lâu",
+        "symptom_codes": ["infrequent_defecation", "hard_stool", "straining", "chronic_constipation"],
+        "yhct_hint": "Trường táo: Tỳ hư khí trệ, Tân dịch hao tổn, Thận hư không ôn thông Đại trường",
+        "yhhd_hint": "Táo bón mạn chức năng, IBS-C, táo bón do thuốc (opioid, canxi, sắt)"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Táo bón mới xuất hiện đột ngột, trên 45 tuổi, không rõ nguyên nhân",
+        "symptom_codes": ["new_onset_constipation", "age_over_45", "unexplained"],
+        "yhct_hint": "Khí huyết hư, Trường táo do Tà khí bế trở (cần loại trừ ác tính)",
+        "yhhd_hint": "Ung thư đại tràng, u trực tràng, hẹp ruột - cần nội soi đại tràng"
+      }
+    ],
+    "red_flag_trigger": ["B"],
+    "notes": "Táo bón mới xuất hiện ở người trên 45 tuổi là chỉ định nội soi đại tràng để loại trừ ung thư"
+  },
+  {
+    "phrase_id": "OBS_B01_028",
+    "phrase_vi": "rặn không ra phân",
+    "variants_vi": ["mót rặn nhiều", "hay mót mà không ra", "muốn đi mà không ra", "vào toilet lâu mà không được", "rặn hoài không ra"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Khi rặn có ra phân không, dù ít? Hay hoàn toàn không ra gì? Có cảm giác còn phân chưa thoát hết không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Mót rặn nhiều lần nhưng chỉ ra phân ít hoặc không ra, cảm giác chưa thoát hết",
+        "symptom_codes": ["tenesmus", "incomplete_evacuation", "straining"],
+        "yhct_hint": "Khí trệ hạ tiêu, Tỳ hư trung khí hạ hãm hoặc Thấp nhiệt trở trệ",
+        "yhhd_hint": "Hội chứng ruột kích thích-C, rối loạn sàn chậu, ung thư trực tràng (tenesmus)"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Rặn không ra phân hoàn toàn kèm đau bụng và không xì hơi được",
+        "symptom_codes": ["complete_obstipation", "no_flatus", "abdominal_pain"],
+        "yhct_hint": "Trường bế, Khí cơ hoàn toàn bế trở",
+        "yhhd_hint": "Tắc ruột cơ học hoặc liệt ruột - cấp cứu ngoại khoa"
+      }
+    ],
+    "red_flag_trigger": ["B"],
+    "notes": "Tenesmus (mót rặn đau) là triệu chứng gợi ý ung thư trực tràng cần soi trực tràng"
+  },
+  {
+    "phrase_id": "OBS_B01_029",
+    "phrase_vi": "phân dẹt như bút chì",
+    "variants_vi": ["phân mỏng dẹt", "phân nhỏ như que bút", "phân hình như dải ruy băng", "phân dẹp"],
+    "regions": ["all"],
+    "requires_disambiguation": false,
+    "disambiguation_question": null,
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Phân hình dẹt, nhỏ, mỏng như bút chì hoặc dải ruy băng",
+        "symptom_codes": ["pencil_thin_stool", "ribbon_stool", "narrow_caliber_stool"],
+        "yhct_hint": "Khí huyết uất trở hạ tiêu, cần nghi ngờ hữu hình tà (ác tính) bế trở",
+        "yhhd_hint": "Ung thư đại trực tràng gây hẹp lòng ruột - RED FLAG, cần nội soi đại tràng ngay"
+      }
+    ],
+    "red_flag_trigger": ["A"],
+    "notes": "Phân dẹt như bút chì kéo dài là một trong những dấu hiệu cổ điển của ung thư đại trực tràng"
+  },
+  {
+    "phrase_id": "OBS_B01_030",
+    "phrase_vi": "khó đi ngoài",
+    "variants_vi": ["đi cầu khó", "đi ngoài rất khó khăn", "vào nhà vệ sinh lâu", "đại tiện không thuận lợi"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Khó đi ngoài vì phân quá cứng, hay vì cảm giác tắc nghẽn ở hậu môn?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Khó đi vì phân cứng như đá sỏi, phải rặn nhiều",
+        "symptom_codes": ["hard_stool_constipation", "excessive_straining"],
+        "yhct_hint": "Tân dịch hao tổn, Huyết hư Trường táo, Nhiệt kết Đại trường",
+        "yhhd_hint": "Táo bón mạn, thiếu nước và chất xơ, táo bón do thuốc"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Phân không quá cứng nhưng cảm giác bị chặn ở hậu môn, không ra được",
+        "symptom_codes": ["obstructed_defecation_syndrome", "anorectal_obstruction_sensation"],
+        "yhct_hint": "Khí huyết trở trệ hạ tiêu, Trung khí hạ hãm",
+        "yhhd_hint": "Hội chứng đại tiện tắc nghẽn, sa trực tràng, thoát vị trực tràng, rối loạn sàn chậu"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Rối loạn sàn chậu thường bị bỏ sót; nếu không đáp ứng điều trị táo bón thông thường, cần đánh giá chức năng hậu môn-trực tràng"
+  },
+  {
+    "phrase_id": "OBS_B01_031",
+    "phrase_vi": "chán ăn",
+    "variants_vi": ["không muốn ăn", "ăn không ngon", "mất cảm giác ngon miệng", "không thấy đói", "không buồn ăn"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Chán ăn bắt đầu từ khi nào và có kèm sụt cân không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Chán ăn ngắn hạn, sau bệnh cấp tính, không sụt cân đáng kể",
+        "symptom_codes": ["short_term_anorexia", "post_illness_anorexia"],
+        "yhct_hint": "Tỳ Vị khí hư sau bệnh, Thấp trệ Trung tiêu",
+        "yhhd_hint": "Phục hồi sau bệnh nhiễm trùng, dyspepsia sau bệnh, tác dụng phụ thuốc"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Chán ăn kéo dài trên 4 tuần, sụt cân rõ ràng không chủ ý",
+        "symptom_codes": ["prolonged_anorexia", "involuntary_weight_loss"],
+        "yhct_hint": "Tỳ Vị đại hư, Can khí uất kết hoặc Ác tính tiêu hao Chính khí",
+        "yhhd_hint": "Ung thư tiêu hóa, ung thư khác, trầm cảm nặng, bệnh mạn tính tiến triển - cần đánh giá toàn diện"
+      }
+    ],
+    "red_flag_trigger": ["B"],
+    "notes": "Sụt cân không chủ ý trên 5% trọng lượng cơ thể trong 6 tháng là red flag tuyệt đối"
+  },
+  {
+    "phrase_id": "OBS_B01_032",
+    "phrase_vi": "sụt cân",
+    "variants_vi": ["gầy xuống", "mất cân", "nhẹ cân dần", "tự nhiên gầy đi", "cân nặng giảm"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Bạn sụt bao nhiêu kg trong bao nhiêu tháng? Có ăn kiêng hoặc tập luyện không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Sụt cân không chủ ý, không ăn kiêng, kèm chán ăn và mệt mỏi",
+        "symptom_codes": ["involuntary_weight_loss", "anorexia", "fatigue"],
+        "yhct_hint": "Tỳ Vị hư suy nặng, Chính khí hao tổn, nghi Ác tính hoặc bệnh mạn tính tiêu hao",
+        "yhhd_hint": "Ung thư (bất kỳ vị trí), bệnh mạn tính tiến triển, cường giáp, tiểu đường kiểm soát kém, HIV/AIDS"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Sụt cân kèm tiêu chảy mãn, phân mỡ, đầy hơi",
+        "symptom_codes": ["weight_loss_with_malabsorption", "steatorrhea", "bloating"],
+        "yhct_hint": "Tỳ Thận dương hư, không vận hoá thuỷ cốc, tinh vi không được hấp thu",
+        "yhhd_hint": "Hội chứng kém hấp thu: bệnh celiac, suy tụy, Crohn's, cắt đoạn ruột"
+      }
+    ],
+    "red_flag_trigger": ["A", "B"],
+    "notes": "Sụt cân không chủ ý luôn là red flag và cần điều tra nguyên nhân một cách hệ thống"
+  },
+  {
+    "phrase_id": "OBS_B01_033",
+    "phrase_vi": "ăn không tiêu",
+    "variants_vi": ["khó tiêu", "tiêu hoá kém", "ăn vào khó tiêu", "đồ ăn không tiêu được", "bụng nặng sau ăn"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Cảm giác khó tiêu như thế nào: đầy bụng, nóng rát, đau, hay buồn nôn?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đầy bụng trên sau ăn, cảm giác nặng nề, ợ hơi",
+        "symptom_codes": ["postprandial_fullness", "epigastric_heaviness", "belching"],
+        "yhct_hint": "Thực trệ Vị quản, Tỳ Vị khí hư không vận hoá",
+        "yhhd_hint": "Dyspepsia chức năng dạng đầy bụng sau ăn (PDS), viêm dạ dày mạn"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Nóng rát thượng vị, đau tức sau ăn, ợ chua",
+        "symptom_codes": ["epigastric_burning", "postprandial_pain", "heartburn"],
+        "yhct_hint": "Vị nhiệt, Can khí phạm Vị hoá hoả",
+        "yhhd_hint": "Dyspepsia dạng đau thượng vị (EPS), GERD, loét dạ dày"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Phân biệt hai dạng dyspepsia chức năng (PDS và EPS) theo tiêu chuẩn Rome IV"
+  },
+  {
+    "phrase_id": "OBS_B01_034",
+    "phrase_vi": "miệng đắng",
+    "variants_vi": ["đắng miệng", "miệng hay đắng", "lúc nào cũng thấy đắng", "vị đắng trong miệng"],
+    "regions": ["all"],
+    "requires_disambiguation": false,
+    "disambiguation_question": null,
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Cảm giác đắng miệng thường xuyên, đặc biệt buổi sáng",
+        "symptom_codes": ["bitter_taste", "morning_bitter_taste"],
+        "yhct_hint": "Can Đởm nhiệt, Đởm khí thượng nghịch; Tâm hoả thượng viêm",
+        "yhhd_hint": "GERD trào ngược mật, rối loạn túi mật, viêm dạ dày trào ngược mật, tác dụng phụ thuốc"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Miệng đắng mạn tính kèm buồn nôn và đau hạ sườn phải gợi ý bệnh lý túi mật hoặc trào ngược dịch mật"
+  },
+  {
+    "phrase_id": "OBS_B01_035",
+    "phrase_vi": "ăn mau no",
+    "variants_vi": ["ăn ít đã no", "chóng no", "ăn vài miếng là no", "không ăn được nhiều", "no nhanh"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Tình trạng này xuất hiện từ lúc nào? Có kèm sụt cân hoặc đau bụng không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "No sớm mạn tính, không sụt cân, không đau, sau bệnh tiêu hóa",
+        "symptom_codes": ["early_satiety_chronic", "no_weight_loss", "post_infectious"],
+        "yhct_hint": "Tỳ Vị khí hư, Vị khí không giáng, chức năng chứa đựng của Vị giảm",
+        "yhhd_hint": "Dyspepsia chức năng (FD), gastroparesis nhẹ"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "No sớm mới xuất hiện, sụt cân rõ, đau thượng vị âm ỉ",
+        "symptom_codes": ["new_onset_early_satiety", "weight_loss", "epigastric_pain"],
+        "yhct_hint": "Ác tính Vị quản tiêu hao Chính khí, Tỳ Vị đại hư",
+        "yhhd_hint": "Ung thư dạ dày, ung thư tụy, linitis plastica - RED FLAG"
+      }
+    ],
+    "red_flag_trigger": ["B"],
+    "notes": "No sớm mới xuất hiện kèm sụt cân ở người trên 40 tuổi là chỉ định nội soi dạ dày khẩn"
+  },
+  {
+    "phrase_id": "OBS_B01_036",
+    "phrase_vi": "hay đói",
+    "variants_vi": ["đói hoài", "nhanh đói", "vừa ăn xong đã đói", "hay thấy đói bụng", "đói thường xuyên"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Đói nhiều có kèm sụt cân, khát nước nhiều hoặc tiểu nhiều không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Hay đói kèm sụt cân, khát nước nhiều, tiểu nhiều",
+        "symptom_codes": ["polyphagia", "weight_loss", "polydipsia", "polyuria"],
+        "yhct_hint": "Thượng tiêu, Trung tiêu hoặc Hạ tiêu tiêu khát (Tam tiêu tiêu khát - Đái tháo đường)",
+        "yhhd_hint": "Đái tháo đường típ 1 hoặc típ 2 chưa kiểm soát"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Đói nhanh sau ăn nhưng cân nặng bình thường, không khát nhiều",
+        "symptom_codes": ["reactive_hunger", "normal_weight", "no_polyuria"],
+        "yhct_hint": "Vị hoả thịnh vượng, Vị nhiệt tiêu cốc",
+        "yhhd_hint": "Hạ đường huyết phản ứng, cường giáp, rối loạn chức năng"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Bộ ba triệu chứng: hay đói + khát nhiều + tiểu nhiều là gợi ý mạnh của đái tháo đường"
+  },
+  {
+    "phrase_id": "OBS_B01_037",
+    "phrase_vi": "ợ chua",
+    "variants_vi": ["chua miệng", "hay ợ chua", "miệng chua", "dạ dày trào ngược", "ợ ra chua"],
+    "regions": ["all"],
+    "requires_disambiguation": false,
+    "disambiguation_question": null,
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Cảm giác chua hoặc dịch acid trào lên cổ họng, thường sau ăn hoặc khi nằm",
+        "symptom_codes": ["acid_regurgitation", "sour_taste", "postprandial_or_recumbent"],
+        "yhct_hint": "Vị nhiệt khí nghịch, Can khí phạm Vị, Tỳ Vị bất hoà",
+        "yhhd_hint": "GERD, viêm dạ dày, loét dạ dày-tá tràng, thoát vị hoành"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Ợ chua mạn tính không điều trị có thể gây viêm thực quản và Barrett's esophagus"
+  },
+  {
+    "phrase_id": "OBS_B01_038",
+    "phrase_vi": "nóng rát sau xương ức",
+    "variants_vi": ["cảm giác nóng rát ngực", "ngực nóng rát", "heartburn", "rát sau xương ức", "nóng trong ngực"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Cảm giác nóng rát có lan lên cổ họng không? Và xảy ra sau ăn hay bất cứ lúc nào?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Nóng rát sau xương ức lan lên cổ, tăng sau ăn và khi nằm, giảm khi uống antacid",
+        "symptom_codes": ["heartburn", "retrosternal_burning", "radiation_to_throat", "relief_with_antacid"],
+        "yhct_hint": "Vị nhiệt khí nghịch lên Phế, Can hoả phạm Vị",
+        "yhhd_hint": "GERD điển hình, viêm thực quản trào ngược"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Đau rát sau xương ức kèm khó thở, đau lan ra cánh tay trái",
+        "symptom_codes": ["retrosternal_pain", "dyspnea", "radiation_to_left_arm"],
+        "yhct_hint": "Tâm khí hư, Tâm huyết ứ, Hung tý (đau thắt ngực do tim)",
+        "yhhd_hint": "Nhồi máu cơ tim hoặc đau thắt ngực không ổn định - CẤP CỨU"
+      }
+    ],
+    "red_flag_trigger": ["B"],
+    "notes": "Phân biệt đau thực quản với đau ngực do tim là bắt buộc; khi nghi ngờ tim, ưu tiên loại trừ ACS trước"
+  },
+  {
+    "phrase_id": "OBS_B01_039",
+    "phrase_vi": "trào ngược dạ dày",
+    "variants_vi": ["dạ dày trào lên", "hay bị trào ngược", "acid trào lên", "dịch vị trào lên", "dạ dày hay chạy lên"],
+    "regions": ["all"],
+    "requires_disambiguation": false,
+    "disambiguation_question": null,
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Dịch acid hoặc thức ăn trào ngược từ dạ dày lên thực quản và miệng",
+        "symptom_codes": ["gastroesophageal_reflux", "acid_regurgitation", "food_regurgitation"],
+        "yhct_hint": "Vị khí thượng nghịch, Can khí phạm Vị, Tỳ Vị hư hàn hoặc nhiệt",
+        "yhhd_hint": "GERD, thoát vị hoành, suy cơ thắt thực quản dưới"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Cần hỏi thêm về triệu chứng ngoài thực quản: ho mạn, khàn tiếng, hen phế quản do GERD"
+  },
+  {
+    "phrase_id": "OBS_B01_040",
+    "phrase_vi": "đau sau xương ức khi nuốt",
+    "variants_vi": ["nuốt vào đau ngực", "đau khi ăn vào", "ăn gì cũng đau ngực", "thức ăn xuống đau"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Đau khi nuốt thức ăn đặc hay cả thức ăn lỏng? Và có khó nuốt không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đau khi nuốt kèm khó nuốt thức ăn đặc, ngày càng tệ hơn",
+        "symptom_codes": ["odynophagia", "dysphagia_to_solids", "progressive_dysphagia"],
+        "yhct_hint": "Thực quản trở trệ, Đàm khí giao kết (nghi thực quản ung)",
+        "yhhd_hint": "Ung thư thực quản, hẹp thực quản do GERD - RED FLAG, cần nội soi"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Đau khi nuốt không kèm khó nuốt, rát họng, sau bệnh cảm cúm",
+        "symptom_codes": ["odynophagia_without_dysphagia", "sore_throat", "post_infectious"],
+        "yhct_hint": "Phong nhiệt phạm Phế họng, hầu tý",
+        "yhhd_hint": "Viêm thực quản do nhiễm trùng (Candida, HSV đặc biệt ở bệnh nhân suy giảm miễn dịch), viêm thực quản ái toan"
+      }
+    ],
+    "red_flag_trigger": ["A"],
+    "notes": "Khó nuốt tiến triển với thức ăn đặc là chỉ định nội soi thực quản-dạ dày khẩn"
+  },
+  {
+    "phrase_id": "OBS_B01_041",
+    "phrase_vi": "khó nuốt",
+    "variants_vi": ["nuốt khó", "nuốt không trôi", "thức ăn hay mắc ở cổ", "ăn hay bị nghẹn", "nuốt vướng"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Khó nuốt khi ăn thức ăn đặc, lỏng hay cả hai? Và khởi phát từ từ hay đột ngột?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Khó nuốt thức ăn đặc, ban đầu thức ăn to sau đó cả thức ăn nhỏ",
+        "symptom_codes": ["dysphagia_to_solids_progressive", "mechanical_dysphagia"],
+        "yhct_hint": "Thực quản khí huyết bế trở, Đàm ẩm tích tụ (nghi ung thư)",
+        "yhhd_hint": "Ung thư thực quản, hẹp thực quản lành tính (Schatzki ring, peptic stricture) - RED FLAG"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Khó nuốt cả đặc lẫn lỏng, kèm nôn thức ăn chưa tiêu",
+        "symptom_codes": ["dysphagia_to_all_consistencies", "regurgitation_undigested_food"],
+        "yhct_hint": "Khí cơ thực quản bế trở hoàn toàn, Đàm khí kết tụ",
+        "yhhd_hint": "Achalasia thực quản, rối loạn co thắt thực quản"
+      }
+    ],
+    "red_flag_trigger": ["A"],
+    "notes": "Dysphagia tiến triển là một trong 10 triệu chứng cảnh báo ung thư cần điều tra ngay"
+  },
+  {
+    "phrase_id": "OBS_B01_042",
+    "phrase_vi": "hay ợ",
+    "variants_vi": ["ợ suốt ngày", "cứ ợ mãi", "ợ liên tục", "bụng hay ợ hơi", "ợ thường xuyên"],
+    "regions": ["all"],
+    "requires_disambiguation": false,
+    "disambiguation_question": null,
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Ợ hơi nhiều lần trong ngày, thường sau ăn",
+        "symptom_codes": ["frequent_belching", "aerophagia"],
+        "yhct_hint": "Vị khí thượng nghịch, nuốt nhiều không khí (aerophagia), Trung tiêu khí trệ",
+        "yhhd_hint": "Aerophagia, nuốt không khí vô thức, GERD, dyspepsia chức năng"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Thường là vô hại; nếu kèm ợ chua hoặc nóng rát thì cần đánh giá GERD"
+  },
+  {
+    "phrase_id": "OBS_B01_043",
+    "phrase_vi": "phân nhạt màu",
+    "variants_vi": ["phân màu trắng xám", "phân nhợt nhạt", "phân trắng bệch", "phân mất màu"],
+    "regions": ["all"],
+    "requires_disambiguation": false,
+    "disambiguation_question": null,
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Phân màu trắng xám hoặc nhạt màu như đất sét, kèm nước tiểu vàng sậm",
+        "symptom_codes": ["acholic_stool", "clay_colored_stool", "dark_urine"],
+        "yhct_hint": "Can Đởm Thấp nhiệt, Đởm trắc tắc, hoàng đản tắc mật",
+        "yhhd_hint": "Tắc mật (obstructive jaundice): sỏi mật, ung thư đầu tụy, ung thư đường mật, hẹp đường mật - RED FLAG"
+      }
+    ],
+    "red_flag_trigger": ["A"],
+    "notes": "Phân nhạt màu kèm nước tiểu vàng sậm và vàng da là bộ ba triệu chứng của tắc mật - cần siêu âm và đánh giá khẩn"
+  },
+  {
+    "phrase_id": "OBS_B01_044",
+    "phrase_vi": "phân lổn nhổn",
+    "variants_vi": ["phân không thành khuôn", "phân viên nhỏ", "phân như phân dê", "phân cứng từng viên nhỏ"],
+    "regions": ["all"],
+    "requires_disambiguation": false,
+    "disambiguation_question": null,
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Phân rắn thành từng viên nhỏ cứng như phân dê (Bristol type 1-2)",
+        "symptom_codes": ["hard_pellet_stool", "bristol_type_1_2", "constipation_type_stool"],
+        "yhct_hint": "Tân dịch hao tổn, Huyết hư Trường táo, Đại trường táo nhiệt",
+        "yhhd_hint": "Táo bón mạn tính, mất nước mạn, IBS-C, táo bón chức năng"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Thang Bristol là công cụ hữu ích để đánh giá phân với bệnh nhân"
+  },
+  {
+    "phrase_id": "OBS_B01_045",
+    "phrase_vi": "thay đổi thói quen đi ngoài",
+    "variants_vi": ["thói quen đi cầu thay đổi", "thay đổi cách đi ngoài", "đi ngoài khác trước", "cách đi vệ sinh thay đổi"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Thay đổi theo hướng nào: táo bón hơn, tiêu chảy hơn, hay xen kẽ hai loại?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Thay đổi thói quen đi ngoài xen kẽ táo-lỏng, không có nguyên nhân rõ ràng",
+        "symptom_codes": ["alternating_bowel_habits", "mixed_bowel_pattern"],
+        "yhct_hint": "Can Tỳ bất hoà, Tỳ khí hư thực lẫn lộn",
+        "yhhd_hint": "IBS-M (mixed type), ung thư đại tràng giai đoạn sớm"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Thay đổi thói quen đi ngoài mới xuất hiện, trên 45 tuổi, kèm phân có máu hoặc sụt cân",
+        "symptom_codes": ["new_bowel_habit_change", "age_over_45", "rectal_bleeding_or_weight_loss"],
+        "yhct_hint": "Ác tính Đại trường, khí huyết bế trở hạ tiêu",
+        "yhhd_hint": "Ung thư đại trực tràng - RED FLAG, cần nội soi đại tràng ngay"
+      }
+    ],
+    "red_flag_trigger": ["B"],
+    "notes": "Thay đổi thói quen đại tiện kéo dài trên 4 tuần ở người trên 45 tuổi PHẢI được nội soi đại tràng"
+  },
+  {
+    "phrase_id": "OBS_B01_046",
+    "phrase_vi": "phân có nhầy",
+    "variants_vi": ["phân lẫn nhầy", "phân có dịch nhầy", "phân nhớt", "đi ngoài ra chất nhầy", "nhầy trong phân"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Chất nhầy kèm máu hay không? Và có kèm đau bụng hay sốt không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Nhầy không kèm máu, đau bụng quặn, không sốt",
+        "symptom_codes": ["mucoid_stool_without_blood", "abdominal_cramping", "no_fever"],
+        "yhct_hint": "Tỳ hư Thấp thịnh, Đại trường Thấp trệ",
+        "yhhd_hint": "IBS, viêm đại tràng chức năng, u tuyến trực tràng tiết nhầy"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Nhầy kèm máu đỏ tươi, đau quặn bụng, sốt",
+        "symptom_codes": ["bloody_mucoid_stool", "tenesmus", "fever"],
+        "yhct_hint": "Thấp nhiệt lỵ cấp tính hoặc mạn tính, Nhiệt độc phạm Trường",
+        "yhhd_hint": "Lỵ trực khuẩn, lỵ amíp, viêm loét đại tràng bùng phát, Crohn's - RED FLAG"
+      }
+    ],
+    "red_flag_trigger": ["B"],
+    "notes": "Nhầy máu kèm sốt trong cấp tính gợi ý nhiễm khuẩn xâm lấn; trong mạn tính gợi ý IBD hoặc ác tính"
+  },
+  {
+    "phrase_id": "OBS_B01_047",
+    "phrase_vi": "phân mỡ",
+    "variants_vi": ["phân nhờn bóng", "phân trôi không hết", "phân bóng mỡ", "phân mùi hôi bóng"],
+    "regions": ["all"],
+    "requires_disambiguation": false,
+    "disambiguation_question": null,
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Phân bóng mỡ, nổi trên mặt nước hoặc khó xả trôi, mùi hôi nặng",
+        "symptom_codes": ["steatorrhea", "oily_floating_stool", "malodorous_stool"],
+        "yhct_hint": "Tỳ Thận dương hư, không vận hoá chất béo, tinh vi không được hấp thu",
+        "yhhd_hint": "Kém hấp thu lipid: suy tụy ngoại tiết, bệnh celiac, Crohn's ruột non, cắt đoạn ruột non, thiếu muối mật"
+      }
+    ],
+    "red_flag_trigger": null,
+    "notes": "Steatorrhea kèm sụt cân là chỉ định định lượng mỡ phân và đánh giá chức năng tụy ngoại tiết"
+  },
+  {
+    "phrase_id": "OBS_B01_048",
+    "phrase_vi": "vàng da",
+    "variants_vi": ["da vàng", "mắt vàng", "da và mắt vàng", "người vàng", "hoàng đản"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Vàng da xuất hiện từ từ hay đột ngột? Có kèm đau bụng, sốt hoặc ngứa không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Vàng da xuất hiện nhanh kèm sốt, đau hạ sườn phải, rét run",
+        "symptom_codes": ["jaundice", "fever", "right_upper_quadrant_pain", "rigors"],
+        "yhct_hint": "Can Đởm Thấp nhiệt cấp, Đởm đạo nhiệt kết",
+        "yhhd_hint": "Viêm đường mật cấp (Charcot's triad), sỏi ống mật chủ - cấp cứu tiêu hóa"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Vàng da từ từ, ngứa nhiều, sụt cân, không sốt",
+        "symptom_codes": ["progressive_jaundice", "pruritus", "weight_loss", "no_fever"],
+        "yhct_hint": "Can Đởm bế tắc mạn, ác tính Can Đởm Tụy",
+        "yhhd_hint": "Ung thư đầu tụy, ung thư đường mật, ung thư bóng Vater - RED FLAG"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Vàng da nhẹ kèm mệt mỏi, nước tiểu vàng sậm, không đau bụng",
+        "symptom_codes": ["mild_jaundice", "dark_urine", "fatigue", "no_abdominal_pain"],
+        "yhct_hint": "Can Đởm Thấp nhiệt âm ỉ, Vị Trường Thấp nhiệt",
+        "yhhd_hint": "Viêm gan virus cấp (A, B, E), viêm gan nhiễm độc, viêm gan tự miễn"
+      }
+    ],
+    "red_flag_trigger": ["A", "B"],
+    "notes": "Vàng da luôn cần đánh giá chức năng gan và hình ảnh học; phân biệt trước gan, tại gan và sau gan"
+  },
+  {
+    "phrase_id": "OBS_B01_049",
+    "phrase_vi": "đau bụng kèm sụt cân không rõ nguyên nhân",
+    "variants_vi": ["đau bụng và gầy đi", "đau bụng mà cân giảm", "bụng đau và người gầy xuống", "đau bụng kèm mất cân"],
+    "regions": ["all"],
+    "requires_disambiguation": false,
+    "disambiguation_question": null,
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đau bụng mạn tính kèm sụt cân không chủ ý trên 5% trong 6 tháng",
+        "symptom_codes": ["chronic_abdominal_pain", "involuntary_weight_loss_significant"],
+        "yhct_hint": "Chính khí hao tổn nghiêm trọng, Tỳ Vị đại hư, ác tính tiêu hao",
+        "yhhd_hint": "Ung thư đường tiêu hóa (dạ dày, tụy, đại tràng, gan), ung thư ngoài tiêu hóa di căn ổ bụng - RED FLAG tuyệt đối"
+      }
+    ],
+    "red_flag_trigger": ["A"],
+    "notes": "Đây là một trong những bộ đôi triệu chứng báo động ung thư nguy hiểm nhất trong lâm sàng"
+  },
+  {
+    "phrase_id": "OBS_B01_050",
+    "phrase_vi": "đau bụng dữ dội đột ngột",
+    "variants_vi": ["đau bụng đột ngột rất dữ", "bụng đau không chịu nổi", "đau bụng chưa bao giờ đau như vậy", "đau bụng khủng khiếp đột ngột"],
+    "regions": ["all"],
+    "requires_disambiguation": true,
+    "disambiguation_question": "Đau ở vùng nào, lan đến đâu và bắt đầu từ bao giờ? Bụng có cứng không?",
+    "options": [
+      {
+        "option_code": "A",
+        "label_vi": "Đau thượng vị dữ dội đột ngột, bụng cứng như gỗ, bệnh nhân không dám cử động",
+        "symptom_codes": ["sudden_severe_epigastric_pain", "board_like_rigidity", "peritonism"],
+        "yhct_hint": "Trường Vị khí huyết bế tắc cấp tính, Nhiệt độc lan ra phúc mạc",
+        "yhhd_hint": "Thủng loét dạ dày tá tràng, viêm phúc mạc cấp - CẤP CỨU NGOẠI KHOA NGAY"
+      },
+      {
+        "option_code": "B",
+        "label_vi": "Đau quặn dữ dội vùng thắt lưng lan xuống bẹn và cơ quan sinh dục",
+        "symptom_codes": ["severe_flank_pain", "radiation_to_groin_genitals", "renal_colic"],
+        "yhct_hint": "Thận Bàng quang Thấp nhiệt kết thạch, Khí cơ bế trở",
+        "yhhd_hint": "Sỏi thận, sỏi niệu quản (renal colic) - cơn đau quặn thận"
+      },
+      {
+        "option_code": "C",
+        "label_vi": "Đau bụng quanh rốn dữ dội, bụng chướng, không trung tiện không đại tiện",
+        "symptom_codes": ["severe_periumbilical_pain", "abdominal_distension", "obstipation"],
+        "yhct_hint": "Trường bế cấp, Khí cơ đại trệ",
+        "yhhd_hint": "Tắc ruột cơ học cấp tính - CẤP CỨU NGOẠI KHOA"
+      }
+    ],
+    "red_flag_trigger": ["A", "B", "C"],
+    "notes": "Đau bụng dữ dội đột ngột luôn là cấp cứu cho đến khi được chứng minh ngược lại; không cho thuốc giảm đau trước khi đánh giá ngoại khoa"
+  }
+]

@@ -1,0 +1,1122 @@
+[
+  {
+    "symptom_code": "lumbar_pain_acute",
+    "name_vi": "Đau lưng cấp tính",
+    "name_en": "Acute lumbar pain",
+    "category": "musculoskeletal",
+    "icd11_approximate": "ME84.0",
+    "severity_weight": 0.6,
+    "time_sensitivity": "acute",
+    "bat_cuong_weights": {
+      "cold": 0.5,
+      "heat": 0.2,
+      "deficiency": 0.2,
+      "excess": 0.8,
+      "exterior": 0.4,
+      "interior": 0.6
+    },
+    "zangfu_weights": {
+      "liver": 0.2,
+      "heart": 0.0,
+      "spleen": 0.1,
+      "lung": 0.0,
+      "kidney": 0.7
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["kidney_qi_stagnation_cluster", "cold_damp_obstruction_cluster"],
+    "yhct_clinical_note": "Đau lưng cấp thường do Phong Hàn Thấp tà xâm phạm hoặc khí huyết ứ trệ sau chấn thương. Thận chủ cốt — lưng là phủ của Thận. Đau dữ dội, vận động khó → khí trệ huyết ứ.",
+    "yhhd_clinical_note": "Acute lumbar muscle strain, disc prolapse, or facet joint irritation. Assess for radiculopathy, cauda equina symptoms. Red flag if fever or trauma history."
+  },
+  {
+    "symptom_code": "lumbar_pain_chronic_dull",
+    "name_vi": "Đau lưng mạn tính âm ỉ",
+    "name_en": "Chronic dull lumbar pain",
+    "category": "musculoskeletal",
+    "icd11_approximate": "ME84.2",
+    "severity_weight": 0.4,
+    "time_sensitivity": "chronic",
+    "bat_cuong_weights": {
+      "cold": 0.4,
+      "heat": 0.1,
+      "deficiency": 0.7,
+      "excess": 0.2,
+      "exterior": 0.1,
+      "interior": 0.9
+    },
+    "zangfu_weights": {
+      "liver": 0.2,
+      "heart": 0.0,
+      "spleen": 0.1,
+      "lung": 0.0,
+      "kidney": 0.9
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["kidney_deficiency_cluster"],
+    "yhct_clinical_note": "Thận chủ cốt — đau lưng mạn là biểu hiện kinh điển của Thận hư. Kèm mỏi gối, ù tai → Thận âm hư hoặc Thận dương hư (phân biệt bằng lạnh/nóng).",
+    "yhhd_clinical_note": "Degenerative disc disease, lumbar spondylosis, muscle strain. Red flag if + fever, weight loss, or history of cancer."
+  },
+  {
+    "symptom_code": "lumbar_radiculopathy_L4_L5",
+    "name_vi": "Đau lưng lan xuống chân theo rễ L4-L5",
+    "name_en": "Lumbar radiculopathy L4/L5",
+    "category": "musculoskeletal",
+    "icd11_approximate": "ME84.3",
+    "severity_weight": 0.65,
+    "time_sensitivity": "subacute",
+    "bat_cuong_weights": {
+      "cold": 0.4,
+      "heat": 0.2,
+      "deficiency": 0.5,
+      "excess": 0.6,
+      "exterior": 0.2,
+      "interior": 0.8
+    },
+    "zangfu_weights": {
+      "liver": 0.4,
+      "heart": 0.0,
+      "spleen": 0.1,
+      "lung": 0.0,
+      "kidney": 0.8
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["kidney_deficiency_cluster", "liver_blood_deficiency_cluster", "cold_damp_obstruction_cluster"],
+    "yhct_clinical_note": "Đau lan theo đường kinh Bàng quang (BL) — Thận-Bàng quang tương quan. Đau từ lưng xuống hông, đùi, cẳng chân mặt ngoài → rễ L4-L5. Thận hư kết hợp Phong Hàn Thấp tý.",
+    "yhhd_clinical_note": "L4/L5 disc herniation compressing nerve root. Dermatomal sensory loss on dorsum foot, weakness of dorsiflexion (L4), extensor hallucis longus (L5). MRI confirmation required."
+  },
+  {
+    "symptom_code": "lumbar_radiculopathy_S1",
+    "name_vi": "Đau lưng lan xuống chân theo rễ S1",
+    "name_en": "Lumbar radiculopathy S1",
+    "category": "musculoskeletal",
+    "icd11_approximate": "ME84.3",
+    "severity_weight": 0.65,
+    "time_sensitivity": "subacute",
+    "bat_cuong_weights": {
+      "cold": 0.4,
+      "heat": 0.2,
+      "deficiency": 0.5,
+      "excess": 0.6,
+      "exterior": 0.2,
+      "interior": 0.8
+    },
+    "zangfu_weights": {
+      "liver": 0.3,
+      "heart": 0.0,
+      "spleen": 0.1,
+      "lung": 0.0,
+      "kidney": 0.8
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["kidney_deficiency_cluster", "bladder_meridian_obstruction_cluster"],
+    "yhct_clinical_note": "Đau lan theo kinh Bàng quang (BL) mặt sau đùi, mặt sau cẳng chân, gót chân → rễ S1. Thận-Bàng quang biểu lý. Mất phản xạ gân gót, yếu cơ gấp bàn chân.",
+    "yhhd_clinical_note": "L5/S1 disc herniation compressing S1 root. Sensory loss lateral foot and sole, absent ankle reflex, weakness of plantarflexion. Straight leg raise positive."
+  },
+  {
+    "symptom_code": "lumbar_pain_worse_lying_night",
+    "name_vi": "Đau lưng nặng hơn khi nằm ban đêm",
+    "name_en": "Lumbar pain worse lying down at night",
+    "category": "musculoskeletal",
+    "icd11_approximate": "ME84.2",
+    "severity_weight": 0.75,
+    "time_sensitivity": "urgent_evaluation",
+    "bat_cuong_weights": {
+      "cold": 0.2,
+      "heat": 0.5,
+      "deficiency": 0.4,
+      "excess": 0.6,
+      "exterior": 0.1,
+      "interior": 0.9
+    },
+    "zangfu_weights": {
+      "liver": 0.3,
+      "heart": 0.0,
+      "spleen": 0.1,
+      "lung": 0.0,
+      "kidney": 0.7
+    },
+    "red_flag_level": "L2_urgent",
+    "cluster_contribution": ["kidney_yin_deficiency_cluster", "blood_stasis_cluster"],
+    "yhct_clinical_note": "Đau về đêm nặng hơn → Âm hư nội nhiệt hoặc huyết ứ. Thận âm hư: đau âm ỉ, sốt chiều, ra mồ hôi trộm. Huyết ứ: đau cố định, dữ dội về đêm. Cần loại trừ ác tính.",
+    "yhhd_clinical_note": "Night pain unrelieved by rest is a red flag for malignancy, infection (discitis/osteomyelitis), or inflammatory spondyloarthropathy. Urgent investigation: ESR, CRP, ALP, PSA, imaging."
+  },
+  {
+    "symptom_code": "lumbar_pain_relieved_warmth",
+    "name_vi": "Đau lưng giảm khi chườm ấm",
+    "name_en": "Lumbar pain relieved by warmth",
+    "category": "musculoskeletal",
+    "icd11_approximate": "ME84.2",
+    "severity_weight": 0.4,
+    "time_sensitivity": "chronic",
+    "bat_cuong_weights": {
+      "cold": 0.8,
+      "heat": 0.0,
+      "deficiency": 0.6,
+      "excess": 0.3,
+      "exterior": 0.2,
+      "interior": 0.8
+    },
+    "zangfu_weights": {
+      "liver": 0.1,
+      "heart": 0.0,
+      "spleen": 0.2,
+      "lung": 0.0,
+      "kidney": 0.9
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["kidney_yang_deficiency_cluster", "cold_damp_obstruction_cluster"],
+    "yhct_clinical_note": "Hàn tý hoặc Thận dương hư: đau giảm khi ấm, nặng khi lạnh, chân tay lạnh, tiểu đêm nhiều, lưỡi nhợt rêu trắng. Phương tiêu biểu: Hữu Quy Hoàn, Độc Hoạt Ký Sinh Thang.",
+    "yhhd_clinical_note": "Heat-responsive lumbar pain typical of muscle spasm, degenerative disc disease, or mechanical back pain. Consistent with cold-type spondylosis. NSAID and heat therapy first line."
+  },
+  {
+    "symptom_code": "lumbar_pain_urinary_symptoms",
+    "name_vi": "Đau lưng kèm triệu chứng tiết niệu",
+    "name_en": "Lumbar pain with urinary symptoms",
+    "category": "musculoskeletal",
+    "icd11_approximate": "ME84.2",
+    "severity_weight": 0.75,
+    "time_sensitivity": "urgent_evaluation",
+    "bat_cuong_weights": {
+      "cold": 0.3,
+      "heat": 0.5,
+      "deficiency": 0.5,
+      "excess": 0.5,
+      "exterior": 0.1,
+      "interior": 0.9
+    },
+    "zangfu_weights": {
+      "liver": 0.1,
+      "heart": 0.0,
+      "spleen": 0.2,
+      "lung": 0.0,
+      "kidney": 0.95
+    },
+    "red_flag_level": "L2_urgent",
+    "cluster_contribution": ["kidney_bladder_disorder_cluster", "damp_heat_lower_jiao_cluster"],
+    "yhct_clinical_note": "Thận-Bàng quang biểu lý. Đau lưng + tiểu buốt rắt → Bàng quang thấp nhiệt. Đau lưng + tiểu đêm nhiều, yếu + phù → Thận dương hư. Phân biệt sỏi thận, viêm thận-bể thận.",
+    "yhhd_clinical_note": "Renal colic (stone), pyelonephritis, or renal mass must be excluded. Urinalysis, urine culture, renal ultrasound mandatory. Flank pain + fever + dysuria = urgent assessment."
+  },
+  {
+    "symptom_code": "sacroiliac_pain",
+    "name_vi": "Đau khớp cùng chậu",
+    "name_en": "Sacroiliac joint pain",
+    "category": "musculoskeletal",
+    "icd11_approximate": "ME84.4",
+    "severity_weight": 0.5,
+    "time_sensitivity": "subacute",
+    "bat_cuong_weights": {
+      "cold": 0.4,
+      "heat": 0.3,
+      "deficiency": 0.5,
+      "excess": 0.5,
+      "exterior": 0.2,
+      "interior": 0.8
+    },
+    "zangfu_weights": {
+      "liver": 0.3,
+      "heart": 0.0,
+      "spleen": 0.2,
+      "lung": 0.0,
+      "kidney": 0.8
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["kidney_deficiency_cluster", "cold_damp_obstruction_cluster"],
+    "yhct_clinical_note": "Vùng xương cùng thuộc Đốc mạch và Thận. Đau khớp cùng chậu → Thận hư hoặc Phong Hàn Thấp tà. Ở phụ nữ sau sinh → khí huyết hư, cân mạch thiếu dưỡng. Viêm cột sống dính khớp → Nhiệt tý.",
+    "yhhd_clinical_note": "Sacroiliac dysfunction, ankylosing spondylitis, or postpartum SIJ instability. FABER test positive. HLA-B27 if young male with inflammatory pattern. X-ray/MRI sacroiliac joints."
+  },
+  {
+    "symptom_code": "acute_monoarthritis_hot",
+    "name_vi": "Viêm khớp cấp một khớp nóng đỏ",
+    "name_en": "Acute hot monoarthritis",
+    "category": "musculoskeletal",
+    "icd11_approximate": "FA20",
+    "severity_weight": 0.8,
+    "time_sensitivity": "urgent_evaluation",
+    "bat_cuong_weights": {
+      "cold": 0.0,
+      "heat": 0.9,
+      "deficiency": 0.1,
+      "excess": 0.9,
+      "exterior": 0.3,
+      "interior": 0.7
+    },
+    "zangfu_weights": {
+      "liver": 0.5,
+      "heart": 0.1,
+      "spleen": 0.3,
+      "lung": 0.0,
+      "kidney": 0.3
+    },
+    "red_flag_level": "L2_urgent",
+    "cluster_contribution": ["damp_heat_obstruction_cluster", "heat_bi_syndrome_cluster"],
+    "yhct_clinical_note": "Nhiệt tý: khớp sưng nóng đỏ đau dữ dội. Nguyên nhân: Phong Nhiệt Thấp xâm phạm hoặc đờm nhiệt nội sinh. Phân biệt Gout (thấp nhiệt + đờm) — khớp bàn ngón chân cái. Điều trị: thanh nhiệt lợi thấp.",
+    "yhhd_clinical_note": "Septic arthritis must be excluded urgently (joint aspiration mandatory). Also consider gout, pseudogout, reactive arthritis. WBC, uric acid, synovial fluid analysis, Gram stain and culture essential."
+  },
+  {
+    "symptom_code": "chronic_polyarthritis",
+    "name_vi": "Viêm đa khớp mạn tính",
+    "name_en": "Chronic polyarthritis",
+    "category": "musculoskeletal",
+    "icd11_approximate": "FA20.1",
+    "severity_weight": 0.6,
+    "time_sensitivity": "chronic",
+    "bat_cuong_weights": {
+      "cold": 0.3,
+      "heat": 0.4,
+      "deficiency": 0.6,
+      "excess": 0.5,
+      "exterior": 0.1,
+      "interior": 0.9
+    },
+    "zangfu_weights": {
+      "liver": 0.6,
+      "heart": 0.1,
+      "spleen": 0.4,
+      "lung": 0.2,
+      "kidney": 0.6
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["liver_kidney_deficiency_cluster", "damp_obstruction_cluster", "blood_stasis_cluster"],
+    "yhct_clinical_note": "Thấp tý mạn tính: Can chủ cân — khớp cứng co rút → Can huyết hư. Thận chủ cốt — biến dạng xương → Thận hư. Thấp đờm trở trệ kinh lạc. Cần phân biệt Phong Thấp Nhiệt tý (RA) vs Hàn Thấp tý.",
+    "yhhd_clinical_note": "Rheumatoid arthritis, psoriatic arthritis, SLE arthritis, or reactive arthritis. RF, anti-CCP, ANA, HLA-B27, X-ray hands/feet. Early DMARD therapy critical to prevent joint destruction."
+  },
+  {
+    "symptom_code": "migratory_joint_pain",
+    "name_vi": "Đau khớp di chuyển",
+    "name_en": "Migratory joint pain",
+    "category": "musculoskeletal",
+    "icd11_approximate": "FA20",
+    "severity_weight": 0.6,
+    "time_sensitivity": "subacute",
+    "bat_cuong_weights": {
+      "cold": 0.2,
+      "heat": 0.4,
+      "deficiency": 0.3,
+      "excess": 0.7,
+      "exterior": 0.6,
+      "interior": 0.4
+    },
+    "zangfu_weights": {
+      "liver": 0.5,
+      "heart": 0.2,
+      "spleen": 0.3,
+      "lung": 0.3,
+      "kidney": 0.3
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["wind_bi_syndrome_cluster", "liver_wind_cluster"],
+    "yhct_clinical_note": "Phong tý: đặc trưng bởi đau khớp di chuyển, không cố định. Phong tà chủ động — hay di chuyển biến hóa. Can chủ cân, Can tàng phong. Điều trị: khu phong thông lạc, dưỡng huyết. Phòng phong Thang, Độc Hoạt Ký Sinh Thang.",
+    "yhhd_clinical_note": "Reactive arthritis (post-infection), rheumatic fever, viral arthritis (hepatitis B/C, parvovirus), early RA, or gonococcal arthritis. Throat culture, ASO titre, viral serology, blood cultures if febrile."
+  },
+  {
+    "symptom_code": "morning_stiffness_prolonged",
+    "name_vi": "Cứng khớp buổi sáng trên 1 giờ",
+    "name_en": "Morning stiffness greater than 1 hour",
+    "category": "musculoskeletal",
+    "icd11_approximate": "FA20.1",
+    "severity_weight": 0.55,
+    "time_sensitivity": "chronic",
+    "bat_cuong_weights": {
+      "cold": 0.5,
+      "heat": 0.3,
+      "deficiency": 0.5,
+      "excess": 0.5,
+      "exterior": 0.2,
+      "interior": 0.8
+    },
+    "zangfu_weights": {
+      "liver": 0.6,
+      "heart": 0.0,
+      "spleen": 0.4,
+      "lung": 0.1,
+      "kidney": 0.5
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["damp_obstruction_cluster", "liver_blood_deficiency_cluster"],
+    "yhct_clinical_note": "Cứng khớp sáng > 1 giờ → dấu hiệu viêm khớp dạng thấp hoặc viêm cột sống dính khớp. Can chủ cân — sáng sớm Can khí chưa vận hành đầy đủ, thấp trở kinh lạc → cứng khớp. Thấp tý điển hình.",
+    "yhhd_clinical_note": "Hallmark of inflammatory arthritis (RA, spondyloarthropathy). Morning stiffness >1 hour strongly suggests inflammatory rather than mechanical cause. RF, anti-CCP, ESR, CRP, HLA-B27 workup."
+  },
+  {
+    "symptom_code": "joint_crepitus_pain",
+    "name_vi": "Đau khớp kèm tiếng lạo xạo",
+    "name_en": "Joint pain with crepitus",
+    "category": "musculoskeletal",
+    "icd11_approximate": "FA05",
+    "severity_weight": 0.4,
+    "time_sensitivity": "chronic",
+    "bat_cuong_weights": {
+      "cold": 0.4,
+      "heat": 0.1,
+      "deficiency": 0.7,
+      "excess": 0.3,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.5,
+      "heart": 0.0,
+      "spleen": 0.2,
+      "lung": 0.0,
+      "kidney": 0.8
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["kidney_deficiency_cluster", "liver_kidney_deficiency_cluster"],
+    "yhct_clinical_note": "Tiếng lạo xạo khớp → sụn khớp hao mòn. Thận chủ cốt tủy, Can chủ cân — hai tạng hư → xương khớp thiếu dưỡng, sụn khớp thoái hóa. Đặc trưng Thận hư thoái hóa khớp. Bổ Can Thận là phép chính.",
+    "yhhd_clinical_note": "Osteoarthritis with cartilage degradation. Fine crepitus = cartilage loss; coarse crepitus = bone-on-bone. X-ray: joint space narrowing, osteophytes, subchondral sclerosis. Weight management, physiotherapy."
+  },
+  {
+    "symptom_code": "knee_osteoarthritis",
+    "name_vi": "Đau gối thoái hóa",
+    "name_en": "Knee osteoarthritis",
+    "category": "musculoskeletal",
+    "icd11_approximate": "FA05.0",
+    "severity_weight": 0.5,
+    "time_sensitivity": "chronic",
+    "bat_cuong_weights": {
+      "cold": 0.5,
+      "heat": 0.1,
+      "deficiency": 0.8,
+      "excess": 0.3,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.5,
+      "heart": 0.0,
+      "spleen": 0.3,
+      "lung": 0.0,
+      "kidney": 0.9
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["kidney_deficiency_cluster", "liver_kidney_deficiency_cluster", "cold_damp_obstruction_cluster"],
+    "yhct_clinical_note": "Gối là nơi Can Thận chủ quản. Đau gối mạn ở người cao tuổi → Thận tinh hư, Can huyết hư — xương khớp thiếu dưỡng. Gối lạnh nặng hơn → Thận dương hư, Hàn thấp. Huyệt Dương Lăng Tuyền (GB34) — hội huyệt cân.",
+    "yhhd_clinical_note": "Primary knee OA: medial compartment most common. Kellgren-Lawrence grading on X-ray. Management: weight loss, physiotherapy, intra-articular corticosteroids, hyaluronic acid, eventual TKR."
+  },
+  {
+    "symptom_code": "small_joint_symmetrical_arthritis",
+    "name_vi": "Viêm khớp nhỏ đối xứng",
+    "name_en": "Small joint symmetrical arthritis",
+    "category": "musculoskeletal",
+    "icd11_approximate": "FA20.1",
+    "severity_weight": 0.65,
+    "time_sensitivity": "chronic",
+    "bat_cuong_weights": {
+      "cold": 0.2,
+      "heat": 0.5,
+      "deficiency": 0.6,
+      "excess": 0.5,
+      "exterior": 0.1,
+      "interior": 0.9
+    },
+    "zangfu_weights": {
+      "liver": 0.6,
+      "heart": 0.1,
+      "spleen": 0.4,
+      "lung": 0.3,
+      "kidney": 0.5
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["liver_blood_deficiency_cluster", "damp_heat_obstruction_cluster"],
+    "yhct_clinical_note": "Viêm đa khớp nhỏ đối xứng (MCP, PIP) → điển hình Phong Thấp Nhiệt tý (viêm khớp dạng thấp). Can chủ cân — biến dạng khớp ngón tay → Can huyết hư + Thấp nhiệt trở trệ. Điều trị: thanh nhiệt lợi thấp, bổ Can huyết.",
+    "yhhd_clinical_note": "Rheumatoid arthritis classic presentation: MCP, PIP involvement, sparing DIP. Swan neck, boutonnière deformities over time. Positive RF and anti-CCP. Early DMARD (methotrexate) initiation essential."
+  },
+  {
+    "symptom_code": "large_joint_asymmetrical_arthritis",
+    "name_vi": "Viêm khớp lớn không đối xứng",
+    "name_en": "Large joint asymmetrical arthritis",
+    "category": "musculoskeletal",
+    "icd11_approximate": "FA22",
+    "severity_weight": 0.6,
+    "time_sensitivity": "subacute",
+    "bat_cuong_weights": {
+      "cold": 0.3,
+      "heat": 0.5,
+      "deficiency": 0.4,
+      "excess": 0.6,
+      "exterior": 0.3,
+      "interior": 0.7
+    },
+    "zangfu_weights": {
+      "liver": 0.5,
+      "heart": 0.1,
+      "spleen": 0.3,
+      "lung": 0.2,
+      "kidney": 0.4
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["wind_bi_syndrome_cluster", "damp_heat_obstruction_cluster"],
+    "yhct_clinical_note": "Viêm khớp lớn không đối xứng → spondyloarthropathy, viêm khớp phản ứng, viêm khớp vảy nến. Phong Thấp tà xâm phạm, Can thận hư. Phong tý (di chuyển) hoặc Thấp tý (cố định, nặng nề).",
+    "yhhd_clinical_note": "Spondyloarthropathies (AS, psoriatic arthritis, reactive arthritis, IBD-associated arthritis). HLA-B27, X-ray sacroiliac joints, skin/nail examination for psoriasis, GI history. NSAIDs first line, biologics for refractory."
+  },
+  {
+    "symptom_code": "cervical_radiculopathy",
+    "name_vi": "Đau cổ lan xuống tay theo rễ thần kinh",
+    "name_en": "Cervical radiculopathy",
+    "category": "musculoskeletal",
+    "icd11_approximate": "ME83.0",
+    "severity_weight": 0.65,
+    "time_sensitivity": "subacute",
+    "bat_cuong_weights": {
+      "cold": 0.4,
+      "heat": 0.2,
+      "deficiency": 0.5,
+      "excess": 0.5,
+      "exterior": 0.3,
+      "interior": 0.7
+    },
+    "zangfu_weights": {
+      "liver": 0.5,
+      "heart": 0.1,
+      "spleen": 0.1,
+      "lung": 0.2,
+      "kidney": 0.6
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["liver_kidney_deficiency_cluster", "cold_damp_obstruction_cluster"],
+    "yhct_clinical_note": "Đau cổ lan tay theo kinh Tiểu Trường, Đại Trường, Tam Tiêu (tay). Can chủ cân — cổ vai cứng co. Thận hư → cột sống thoái hóa. Phong Hàn Thấp tà xâm phạm. Huyệt Hậu Khê (SI3) — Đốc mạch quan trọng.",
+    "yhhd_clinical_note": "C5-C7 most commonly affected. Spurling's test positive. MRI cervical spine gold standard. C5: deltoid weakness; C6: biceps, wrist extension; C7: triceps, finger extension. Distinguish from thoracic outlet syndrome."
+  },
+  {
+    "symptom_code": "trapezius_muscle_tension",
+    "name_vi": "Căng cơ thang vai cổ",
+    "name_en": "Trapezius muscle tension",
+    "category": "musculoskeletal",
+    "icd11_approximate": "ME86",
+    "severity_weight": 0.35,
+    "time_sensitivity": "chronic",
+    "bat_cuong_weights": {
+      "cold": 0.4,
+      "heat": 0.1,
+      "deficiency": 0.4,
+      "excess": 0.6,
+      "exterior": 0.4,
+      "interior": 0.6
+    },
+    "zangfu_weights": {
+      "liver": 0.7,
+      "heart": 0.2,
+      "spleen": 0.1,
+      "lung": 0.2,
+      "kidney": 0.3
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["liver_qi_stagnation_cluster", "cold_damp_obstruction_cluster"],
+    "yhct_clinical_note": "Căng cơ thang → Can khí uất kết (căng thẳng, stress), Phong Hàn xâm phạm kinh Bàng quang và Đốc mạch. Can chủ cân — stress → Can khí uất → cân mạch co cứng. Huyệt Kiên Tỉnh (GB21), Phong Trì (GB20).",
+    "yhhd_clinical_note": "Myofascial pain syndrome with trigger points. Commonly associated with poor posture, occupational stress, psychological tension. Assess for referred headache. Trigger point injection, physiotherapy, stress management."
+  },
+  {
+    "symptom_code": "frozen_shoulder",
+    "name_vi": "Đông cứng khớp vai",
+    "name_en": "Frozen shoulder (adhesive capsulitis)",
+    "category": "musculoskeletal",
+    "icd11_approximate": "FB54.0",
+    "severity_weight": 0.55,
+    "time_sensitivity": "subacute",
+    "bat_cuong_weights": {
+      "cold": 0.5,
+      "heat": 0.1,
+      "deficiency": 0.6,
+      "excess": 0.4,
+      "exterior": 0.2,
+      "interior": 0.8
+    },
+    "zangfu_weights": {
+      "liver": 0.6,
+      "heart": 0.0,
+      "spleen": 0.1,
+      "lung": 0.3,
+      "kidney": 0.4
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["liver_blood_deficiency_cluster", "cold_damp_obstruction_cluster"],
+    "yhct_clinical_note": "Ngũ Thập Kiên (vai năm mươi) — bệnh hay gặp người 50 tuổi. Can huyết hư → cân mạch thiếu dưỡng, co rút. Phong Hàn tà xâm phạm kinh Phế, Tâm bào. Huyệt: Kiên Ngung (LI15), Kiên Trinh (SI9). Điều trị: khu phong tán hàn, dưỡng huyết thư cân.",
+    "yhhd_clinical_note": "Adhesive capsulitis: freezing (painful, 3-9 months), frozen (stiffness, 9-12 months), thawing (recovery, 12-24 months). Associated with diabetes, thyroid disease. MRI to exclude rotator cuff tear. Physiotherapy, corticosteroid injection."
+  },
+  {
+    "symptom_code": "shoulder_impingement",
+    "name_vi": "Hội chứng chèn ép khớp vai",
+    "name_en": "Shoulder impingement syndrome",
+    "category": "musculoskeletal",
+    "icd11_approximate": "FB54.1",
+    "severity_weight": 0.5,
+    "time_sensitivity": "subacute",
+    "bat_cuong_weights": {
+      "cold": 0.3,
+      "heat": 0.2,
+      "deficiency": 0.5,
+      "excess": 0.5,
+      "exterior": 0.2,
+      "interior": 0.8
+    },
+    "zangfu_weights": {
+      "liver": 0.6,
+      "heart": 0.0,
+      "spleen": 0.1,
+      "lung": 0.3,
+      "kidney": 0.3
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["liver_blood_deficiency_cluster", "qi_stagnation_blood_stasis_cluster"],
+    "yhct_clinical_note": "Đau vai khi giơ tay lên cao → chèn ép chóp xoay. Can chủ cân — thoái hóa gân chóp xoay → Can huyết hư. Kinh Phế và Đại Trường đi qua vai. Huyệt: Kiên Ngung (LI15), Tý Nhu (LI14), Kiên Liêu (TE14).",
+    "yhhd_clinical_note": "Subacromial impingement from rotator cuff tendinopathy or bursitis. Hawkins-Kennedy and Neer tests positive. Painful arc 60-120 degrees. Ultrasound shoulder, MRI if rotator cuff tear suspected. Physiotherapy, subacromial injection."
+  },
+  {
+    "symptom_code": "neck_pain_with_headache",
+    "name_vi": "Đau cổ kèm đau đầu",
+    "name_en": "Neck pain with headache",
+    "category": "musculoskeletal",
+    "icd11_approximate": "ME83",
+    "severity_weight": 0.55,
+    "time_sensitivity": "subacute",
+    "bat_cuong_weights": {
+      "cold": 0.4,
+      "heat": 0.3,
+      "deficiency": 0.5,
+      "excess": 0.5,
+      "exterior": 0.4,
+      "interior": 0.6
+    },
+    "zangfu_weights": {
+      "liver": 0.7,
+      "heart": 0.2,
+      "spleen": 0.2,
+      "lung": 0.1,
+      "kidney": 0.4
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["liver_yang_rising_cluster", "cold_damp_obstruction_cluster"],
+    "yhct_clinical_note": "Đau cổ + đau đầu → Can dương thượng cang hoặc Phong Hàn tà xâm phạm Thái dương. Kinh Bàng quang (BL) và Đốc mạch đi qua vùng cổ-đầu. Phân biệt: đau đầu vùng chẩm (BL) vs thái dương (GB) vs đỉnh đầu (Gan/LR). Huyệt: Phong Trì (GB20).",
+    "yhhd_clinical_note": "Cervicogenic headache vs tension-type headache vs migraine. C1-C3 referral pattern. Red flag: neck stiffness + fever = meningitis, thunderclap onset = subarachnoid hemorrhage. Cervical X-ray, CT if red flags."
+  },
+  {
+    "symptom_code": "torticollis_acute",
+    "name_vi": "Vẹo cổ cấp tính",
+    "name_en": "Acute torticollis",
+    "category": "musculoskeletal",
+    "icd11_approximate": "ME83.1",
+    "severity_weight": 0.5,
+    "time_sensitivity": "acute",
+    "bat_cuong_weights": {
+      "cold": 0.6,
+      "heat": 0.1,
+      "deficiency": 0.2,
+      "excess": 0.8,
+      "exterior": 0.6,
+      "interior": 0.4
+    },
+    "zangfu_weights": {
+      "liver": 0.6,
+      "heart": 0.0,
+      "spleen": 0.1,
+      "lung": 0.1,
+      "kidney": 0.3
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["wind_cold_invasion_cluster", "liver_wind_cluster"],
+    "yhct_clinical_note": "Lạc chẩm — phong hàn tà xâm phạm kinh mạch vùng cổ khi ngủ. Can chủ cân — cân mạch co cứng đột ngột. Điều trị: khu phong tán hàn, thư cân hoạt lạc. Huyệt: Hậu Khê (SI3) phối Lạc Chẩm điểm. Hiệu quả nhanh.",
+    "yhhd_clinical_note": "Acute wry neck from facet joint dysfunction or muscle spasm. Common on waking. Distinguish from atlantoaxial subluxation (trauma), Grisel syndrome (post-ENT infection in children). Cervical X-ray if trauma or neurological signs."
+  },
+  {
+    "symptom_code": "bilateral_leg_numbness",
+    "name_vi": "Tê hai chân đối xứng",
+    "name_en": "Bilateral leg numbness",
+    "category": "musculoskeletal",
+    "icd11_approximate": "MB44",
+    "severity_weight": 0.7,
+    "time_sensitivity": "urgent_evaluation",
+    "bat_cuong_weights": {
+      "cold": 0.4,
+      "heat": 0.2,
+      "deficiency": 0.7,
+      "excess": 0.3,
+      "exterior": 0.1,
+      "interior": 0.9
+    },
+    "zangfu_weights": {
+      "liver": 0.5,
+      "heart": 0.1,
+      "spleen": 0.3,
+      "lung": 0.0,
+      "kidney": 0.7
+    },
+    "red_flag_level": "L2_urgent",
+    "cluster_contribution": ["kidney_deficiency_cluster", "liver_blood_deficiency_cluster"],
+    "yhct_clinical_note": "Tê hai chân đối xứng → cần phân biệt bệnh lý tủy sống hoặc đa dây thần kinh. Can chủ cân — huyết hư tứ chi tê bì. Thận hư không dưỡng được tủy. Thấp trở kinh lạc → khí huyết không lưu thông.",
+    "yhhd_clinical_note": "Bilateral symmetrical = peripheral polyneuropathy (diabetes, B12 deficiency, alcohol) vs spinal cord compression (urgent MRI). If saddle distribution involved, cauda equina emergency. Check sensation level, reflexes, bladder function."
+  },
+  {
+    "symptom_code": "unilateral_arm_numbness_C6",
+    "name_vi": "Tê một tay theo rễ C6",
+    "name_en": "Unilateral arm numbness C6 distribution",
+    "category": "musculoskeletal",
+    "icd11_approximate": "ME83.0",
+    "severity_weight": 0.6,
+    "time_sensitivity": "subacute",
+    "bat_cuong_weights": {
+      "cold": 0.4,
+      "heat": 0.1,
+      "deficiency": 0.5,
+      "excess": 0.5,
+      "exterior": 0.3,
+      "interior": 0.7
+    },
+    "zangfu_weights": {
+      "liver": 0.5,
+      "heart": 0.1,
+      "spleen": 0.1,
+      "lung": 0.2,
+      "kidney": 0.5
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["liver_blood_deficiency_cluster", "cold_damp_obstruction_cluster"],
+    "yhct_clinical_note": "Tê ngón cái, ngón trỏ, mặt ngoài cẳng tay → phân bố kinh Phế (LU) và Đại Trường (LI). C6 rễ thần kinh cổ thoái hóa. Can huyết hư → cân mạch thiếu dưỡng. Thận hư → đĩa đệm thoái hóa chèn ép.",
+    "yhhd_clinical_note": "C6 radiculopathy: thumb, index, lateral forearm numbness, weak biceps and wrist extensors, reduced biceps reflex. Spurling's test. MRI C-spine. Distinguish from carpal tunnel (median nerve) and thoracic outlet."
+  },
+  {
+    "symptom_code": "foot_drop",
+    "name_vi": "Liệt cơ cẳng chân trước (bàn chân rơi)",
+    "name_en": "Foot drop",
+    "category": "musculoskeletal",
+    "icd11_approximate": "MB44.1",
+    "severity_weight": 0.85,
+    "time_sensitivity": "urgent_evaluation",
+    "bat_cuong_weights": {
+      "cold": 0.2,
+      "heat": 0.2,
+      "deficiency": 0.7,
+      "excess": 0.3,
+      "exterior": 0.1,
+      "interior": 0.9
+    },
+    "zangfu_weights": {
+      "liver": 0.4,
+      "heart": 0.1,
+      "spleen": 0.3,
+      "lung": 0.0,
+      "kidney": 0.7
+    },
+    "red_flag_level": "L2_urgent",
+    "cluster_contribution": ["kidney_deficiency_cluster", "liver_blood_deficiency_cluster"],
+    "yhct_clinical_note": "Bàn chân rơi → yếu cơ gấp mu chân → tổn thương rễ L4-L5 hoặc dây thần kinh mác chung. Tuy nhiên → cần loại trừ đột quỵ não (bệnh lý trung ương). Thận hư cốt nhuyễn, Can huyết hư cân mạch — vías nặng.",
+    "yhhd_clinical_note": "Foot drop (inability to dorsiflex) = L4/L5 nerve root compression, common peroneal nerve palsy (fibular head), or central (stroke, MS). Urgent MRI spine. EMG/NCS for peripheral localization. Time-sensitive if progressive."
+  },
+  {
+    "symptom_code": "carpal_tunnel_night_tingling",
+    "name_vi": "Tê bì ngón tay đêm hội chứng ống cổ tay",
+    "name_en": "Carpal tunnel syndrome night tingling",
+    "category": "musculoskeletal",
+    "icd11_approximate": "8C10.0",
+    "severity_weight": 0.45,
+    "time_sensitivity": "chronic",
+    "bat_cuong_weights": {
+      "cold": 0.3,
+      "heat": 0.1,
+      "deficiency": 0.6,
+      "excess": 0.4,
+      "exterior": 0.1,
+      "interior": 0.9
+    },
+    "zangfu_weights": {
+      "liver": 0.4,
+      "heart": 0.3,
+      "spleen": 0.4,
+      "lung": 0.3,
+      "kidney": 0.3
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["liver_blood_deficiency_cluster", "damp_obstruction_cluster"],
+    "yhct_clinical_note": "Tê ba ngón đầu bàn tay về đêm → hội chứng ống cổ tay. Đường kinh Tâm bào và Phế đi qua cổ tay. Khí huyết hư không nuôi dưỡng cân mạch, hoặc thấp trở kinh lạc. Phụ nữ mang thai, suy giáp → thấp trở. Huyệt: Đại Lăng (PC7), Nội Quan (PC6).",
+    "yhhd_clinical_note": "Median nerve compression at carpal tunnel. Phalen's and Tinel's tests. NCS/EMG diagnostic. Associated with pregnancy, hypothyroidism, diabetes, RA. Wrist splint at night, corticosteroid injection, surgical decompression if severe."
+  },
+  {
+    "symptom_code": "restless_legs_syndrome",
+    "name_vi": "Hội chứng chân không nghỉ",
+    "name_en": "Restless legs syndrome",
+    "category": "musculoskeletal",
+    "icd11_approximate": "8A00.0",
+    "severity_weight": 0.45,
+    "time_sensitivity": "chronic",
+    "bat_cuong_weights": {
+      "cold": 0.2,
+      "heat": 0.3,
+      "deficiency": 0.8,
+      "excess": 0.2,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.7,
+      "heart": 0.3,
+      "spleen": 0.2,
+      "lung": 0.0,
+      "kidney": 0.6
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["liver_blood_deficiency_cluster", "kidney_yin_deficiency_cluster"],
+    "yhct_clinical_note": "Bứt rứt chân về đêm, muốn cử động → Can huyết hư, cân mạch thiếu dưỡng. Can tàng huyết — đêm nằm huyết về Can, nhưng Can huyết hư thì cân mạch vẫn không yên. Kèm Thận âm hư → hư nhiệt nội nhiễu. Tứ Vật Thang gia giảm.",
+    "yhhd_clinical_note": "RLS: urge to move legs, worse at rest, worse at night, relieved by movement. Check ferritin (<75 mcg/L treat), B12, renal function. Associated with iron deficiency, pregnancy, renal failure. Dopamine agonists first line if primary."
+  },
+  {
+    "symptom_code": "calf_cramping_exertion",
+    "name_vi": "Chuột rút bắp chân khi gắng sức",
+    "name_en": "Calf cramping on exertion",
+    "category": "musculoskeletal",
+    "icd11_approximate": "ME86.1",
+    "severity_weight": 0.55,
+    "time_sensitivity": "urgent_evaluation",
+    "bat_cuong_weights": {
+      "cold": 0.3,
+      "heat": 0.1,
+      "deficiency": 0.5,
+      "excess": 0.5,
+      "exterior": 0.1,
+      "interior": 0.9
+    },
+    "zangfu_weights": {
+      "liver": 0.6,
+      "heart": 0.3,
+      "spleen": 0.2,
+      "lung": 0.0,
+      "kidney": 0.3
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["liver_blood_deficiency_cluster", "qi_stagnation_blood_stasis_cluster"],
+    "yhct_clinical_note": "Chuột rút khi vận động → Can huyết hư không nuôi cân, hoặc khí trệ huyết ứ kinh mạch hai chân. Nếu đau cách hồi (đau rồi hết khi nghỉ) → phân biệt bệnh mạch máu ngoại vi (huyết ứ kinh lạc). Phân biệt với đau do hẹp ống sống.",
+    "yhhd_clinical_note": "Intermittent claudication (vascular) vs neurogenic claudication (spinal stenosis) vs simple muscle cramp. Vascular: pain on walking, relieved by rest, diminished pulses, ABI <0.9. Spinal: relieved by bending forward. Urgent vascular assessment if ABI abnormal."
+  },
+  {
+    "symptom_code": "heel_pain_morning",
+    "name_vi": "Đau gót chân buổi sáng",
+    "name_en": "Heel pain worse in morning",
+    "category": "musculoskeletal",
+    "icd11_approximate": "FB56.3",
+    "severity_weight": 0.4,
+    "time_sensitivity": "chronic",
+    "bat_cuong_weights": {
+      "cold": 0.5,
+      "heat": 0.1,
+      "deficiency": 0.7,
+      "excess": 0.3,
+      "exterior": 0.1,
+      "interior": 0.9
+    },
+    "zangfu_weights": {
+      "liver": 0.3,
+      "heart": 0.0,
+      "spleen": 0.1,
+      "lung": 0.0,
+      "kidney": 0.9
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["kidney_deficiency_cluster"],
+    "yhct_clinical_note": "Gót chân thuộc kinh Thận và Bàng quang. Đau gót sáng sớm → Thận hư, cốt nhuyễn. Huyệt Thái Khê (KD3), Chiếu Hải (KD6) — huyệt Thận kinh quan trọng ở vùng gót. Bổ Thận tráng cốt là phép chính. Kèm mỏi lưng gối → Thận hư rõ.",
+    "yhhd_clinical_note": "Plantar fasciitis (most common), heel spur, Achilles tendinopathy, or retrocalcaneal bursitis. First-step pain after rest classic for plantar fasciitis. X-ray if spur suspected. Stretching, orthotics, night splint, corticosteroid injection."
+  },
+  {
+    "symptom_code": "plantar_fasciitis",
+    "name_vi": "Viêm cân gan chân",
+    "name_en": "Plantar fasciitis",
+    "category": "musculoskeletal",
+    "icd11_approximate": "FB56.3",
+    "severity_weight": 0.4,
+    "time_sensitivity": "chronic",
+    "bat_cuong_weights": {
+      "cold": 0.4,
+      "heat": 0.2,
+      "deficiency": 0.6,
+      "excess": 0.4,
+      "exterior": 0.1,
+      "interior": 0.9
+    },
+    "zangfu_weights": {
+      "liver": 0.5,
+      "heart": 0.0,
+      "spleen": 0.2,
+      "lung": 0.0,
+      "kidney": 0.7
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["liver_blood_deficiency_cluster", "kidney_deficiency_cluster"],
+    "yhct_clinical_note": "Cân gan chân — Can chủ cân. Viêm cân mạn → Can huyết hư, Thận hư không dưỡng cân cốt. Đau điểm bám gân gót (calcaneus) → huyệt Thái Khê (KD3), Côn Lôn (BL60) gần đây. Thấp nặng → Thấp trở cân mạch.",
+    "yhhd_clinical_note": "Maximal tenderness at medial calcaneal tubercle (plantar fascia insertion). Risk: obesity, flat foot, prolonged standing, tight calf. USS shows fascia >4mm. Treatment: stretching, orthotics, shockwave therapy, PRP injection."
+  },
+  {
+    "symptom_code": "bone_pain_at_night",
+    "name_vi": "Đau xương về đêm",
+    "name_en": "Bone pain at night",
+    "category": "musculoskeletal",
+    "icd11_approximate": "ME84",
+    "severity_weight": 0.8,
+    "time_sensitivity": "urgent_evaluation",
+    "bat_cuong_weights": {
+      "cold": 0.2,
+      "heat": 0.5,
+      "deficiency": 0.5,
+      "excess": 0.6,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.3,
+      "heart": 0.0,
+      "spleen": 0.2,
+      "lung": 0.1,
+      "kidney": 0.8
+    },
+    "red_flag_level": "L2_urgent",
+    "cluster_contribution": ["kidney_deficiency_cluster", "blood_stasis_cluster"],
+    "yhct_clinical_note": "Đau xương về đêm → Thận âm hư nội nhiệt, hoặc huyết ứ. Thận chủ cốt tủy — Thận âm hư không dưỡng cốt → đau âm ỉ về đêm. Huyết ứ: đau dữ dội, cố định. CẦN LOẠI TRỪ U XƯƠNG, di căn xương khẩn cấp.",
+    "yhhd_clinical_note": "Night bone pain = red flag for malignancy (primary bone tumor, metastases), osteomyelitis, Paget's disease, or severe osteoporosis fracture. Urgent: FBC, ESR, CRP, ALP, calcium, PSA, SPEP, bone scan or PET-CT."
+  },
+  {
+    "symptom_code": "diffuse_myalgia",
+    "name_vi": "Đau cơ lan tỏa toàn thân",
+    "name_en": "Diffuse myalgia",
+    "category": "musculoskeletal",
+    "icd11_approximate": "ME86",
+    "severity_weight": 0.55,
+    "time_sensitivity": "subacute",
+    "bat_cuong_weights": {
+      "cold": 0.3,
+      "heat": 0.4,
+      "deficiency": 0.6,
+      "excess": 0.4,
+      "exterior": 0.3,
+      "interior": 0.7
+    },
+    "zangfu_weights": {
+      "liver": 0.4,
+      "heart": 0.1,
+      "spleen": 0.5,
+      "lung": 0.2,
+      "kidney": 0.4
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["qi_deficiency_cluster", "damp_obstruction_cluster", "liver_blood_deficiency_cluster"],
+    "yhct_clinical_note": "Đau cơ lan tỏa → Tỳ chủ cơ nhục — Tỳ hư cơ nhục thiếu dưỡng. Phong Hàn Thấp tà xâm phạm toàn thân. Sau nhiễm trùng (cảm mạo) → ngoại tà chưa giải hết. Phân biệt fibromyalgia, viêm đa cơ, suy giáp. Kiểm tra CK, TSH.",
+    "yhhd_clinical_note": "Differential: viral myalgia (influenza), polymyalgia rheumatica (ESR markedly elevated), statin-induced myopathy, fibromyalgia, hypothyroidism. Check CK, TSH, ESR, CRP. Polymyalgia rheumatica responds dramatically to low-dose prednisolone."
+  },
+  {
+    "symptom_code": "fibromyalgia_tender_points",
+    "name_vi": "Đau điểm nhạy cảm fibromyalgia",
+    "name_en": "Fibromyalgia tender points",
+    "category": "musculoskeletal",
+    "icd11_approximate": "MG30.01",
+    "severity_weight": 0.5,
+    "time_sensitivity": "chronic",
+    "bat_cuong_weights": {
+      "cold": 0.3,
+      "heat": 0.2,
+      "deficiency": 0.8,
+      "excess": 0.2,
+      "exterior": 0.1,
+      "interior": 0.9
+    },
+    "zangfu_weights": {
+      "liver": 0.6,
+      "heart": 0.5,
+      "spleen": 0.4,
+      "lung": 0.2,
+      "kidney": 0.5
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["liver_qi_stagnation_cluster", "heart_shen_disturbance_cluster", "kidney_yin_deficiency_cluster"],
+    "yhct_clinical_note": "Fibromyalgia → Can khí uất kết + Tâm Thận bất giao. Can chủ cân, Tâm chủ thần minh — lo âu, mất ngủ, đau toàn thân. Tỳ hư khí huyết sinh hóa bất túc. Điều trị: sơ Can giải uất, dưỡng Tâm an thần, kiện Tỳ ích khí.",
+    "yhhd_clinical_note": "Fibromyalgia: widespread pain >3 months, 11/18 tender points, associated fatigue, sleep disorder, cognitive dysfunction. Exclude inflammatory, endocrine, psychiatric causes. Multimodal: aerobic exercise, CBT, duloxetine/pregabalin, sleep hygiene."
+  },
+  {
+    "symptom_code": "proximal_muscle_weakness",
+    "name_vi": "Yếu cơ gốc chi",
+    "name_en": "Proximal muscle weakness",
+    "category": "musculoskeletal",
+    "icd11_approximate": "MB43",
+    "severity_weight": 0.75,
+    "time_sensitivity": "urgent_evaluation",
+    "bat_cuong_weights": {
+      "cold": 0.2,
+      "heat": 0.3,
+      "deficiency": 0.9,
+      "excess": 0.1,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.4,
+      "heart": 0.1,
+      "spleen": 0.7,
+      "lung": 0.2,
+      "kidney": 0.5
+    },
+    "red_flag_level": "L2_urgent",
+    "cluster_contribution": ["spleen_qi_deficiency_cluster", "liver_kidney_deficiency_cluster"],
+    "yhct_clinical_note": "Yếu cơ gốc chi (vai, hông) → Tỳ chủ cơ nhục — Tỳ khí hư không dưỡng cơ. Can Thận hư → cơ cân xương yếu. Tuy nhiên, yếu cơ gốc chi cần loại trừ bệnh cơ viêm (polymyositis), suy giáp, bệnh thần kinh cơ. CK, LDH, aldolase cần kiểm tra.",
+    "yhhd_clinical_note": "Proximal weakness = myopathy until proven otherwise. Check CK (markedly elevated in polymyositis/dermatomyositis), TSH, cortisol, EMG, muscle MRI, muscle biopsy. Autoimmune: ANA, anti-Jo-1, anti-MDA5. Malignancy screen if dermatomyositis."
+  },
+  {
+    "symptom_code": "muscle_wasting",
+    "name_vi": "Teo cơ",
+    "name_en": "Muscle wasting (atrophy)",
+    "category": "musculoskeletal",
+    "icd11_approximate": "MB44.2",
+    "severity_weight": 0.75,
+    "time_sensitivity": "chronic",
+    "bat_cuong_weights": {
+      "cold": 0.1,
+      "heat": 0.2,
+      "deficiency": 0.95,
+      "excess": 0.05,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.4,
+      "heart": 0.1,
+      "spleen": 0.8,
+      "lung": 0.2,
+      "kidney": 0.6
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["spleen_qi_deficiency_cluster", "liver_kidney_deficiency_cluster"],
+    "yhct_clinical_note": "Teo cơ → Tỳ hư cực nặng (Tỳ chủ cơ nhục). Cũng liên quan đến Can Thận tinh huyết hư cực. Trong YHCT là bệnh 'nuy chứng' (atrophy syndrome). Điều trị: kiện Tỳ ích khí, bổ Can Thận, bổ tinh sinh tủy. Bổ Trung Ích Khí Thang.",
+    "yhhd_clinical_note": "Muscle wasting indicates significant pathology: disuse atrophy, denervation (motor neuron disease, peripheral neuropathy), myopathy, malnutrition, malignancy, severe chronic disease. MRI muscle, EMG/NCS, CK, comprehensive metabolic panel."
+  },
+  {
+    "symptom_code": "pathological_fracture_risk",
+    "name_vi": "Nguy cơ gãy xương bệnh lý",
+    "name_en": "Pathological fracture risk",
+    "category": "musculoskeletal",
+    "icd11_approximate": "ME84.6",
+    "severity_weight": 0.8,
+    "time_sensitivity": "urgent_evaluation",
+    "bat_cuong_weights": {
+      "cold": 0.1,
+      "heat": 0.3,
+      "deficiency": 0.9,
+      "excess": 0.2,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.3,
+      "heart": 0.0,
+      "spleen": 0.4,
+      "lung": 0.1,
+      "kidney": 0.9
+    },
+    "red_flag_level": "L2_urgent",
+    "cluster_contribution": ["kidney_deficiency_cluster", "spleen_qi_deficiency_cluster"],
+    "yhct_clinical_note": "Thận chủ cốt — Thận tinh hư cực → cốt tủy không đầy đủ, xương dễ gãy. Tỳ khí hư → không hấp thu được tinh chất dinh dưỡng. Gãy xương bệnh lý từ loãng xương hoặc di căn xương → CẦN LÀM RÕ NGUYÊN NHÂN KHẨN CẤP.",
+    "yhhd_clinical_note": "Pathological fracture through abnormal bone: metastases (breast, prostate, lung, kidney, thyroid most common), multiple myeloma, osteoporosis, Paget's disease. Bone scan, CT/MRI, SPEP, tumor markers. Orthopedic and oncology referral."
+  },
+  {
+    "symptom_code": "back_pain_with_fever",
+    "name_vi": "Đau lưng kèm sốt",
+    "name_en": "Back pain with fever",
+    "category": "musculoskeletal",
+    "icd11_approximate": "ME84",
+    "severity_weight": 0.9,
+    "time_sensitivity": "emergency",
+    "bat_cuong_weights": {
+      "cold": 0.1,
+      "heat": 0.9,
+      "deficiency": 0.2,
+      "excess": 0.9,
+      "exterior": 0.4,
+      "interior": 0.8
+    },
+    "zangfu_weights": {
+      "liver": 0.2,
+      "heart": 0.1,
+      "spleen": 0.2,
+      "lung": 0.2,
+      "kidney": 0.6
+    },
+    "red_flag_level": "L1_emergency",
+    "cluster_contribution": ["damp_heat_lower_jiao_cluster", "heat_toxin_cluster"],
+    "yhct_clinical_note": "Đau lưng + sốt → KHẨN CẤP. Có thể là viêm đĩa đệm đốt sống (spondylodiscitis), viêm tủy xương, áp xe ngoài màng cứng, viêm thận bể thận. Nhiệt độc xâm phạm kinh Thận-Bàng quang. Không trì hoãn điều trị.",
+    "yhhd_clinical_note": "EMERGENCY RED FLAG. Differential: spinal epidural abscess (fever + back pain + neurological deficit = surgical emergency), discitis/vertebral osteomyelitis, pyelonephritis, psoas abscess. Blood cultures x2, urgent MRI spine with gadolinium, neurosurgery consult."
+  },
+  {
+    "symptom_code": "back_pain_with_weight_loss",
+    "name_vi": "Đau lưng kèm sụt cân",
+    "name_en": "Back pain with unexplained weight loss",
+    "category": "musculoskeletal",
+    "icd11_approximate": "ME84",
+    "severity_weight": 0.9,
+    "time_sensitivity": "urgent_evaluation",
+    "bat_cuong_weights": {
+      "cold": 0.1,
+      "heat": 0.5,
+      "deficiency": 0.8,
+      "excess": 0.5,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.3,
+      "heart": 0.1,
+      "spleen": 0.5,
+      "lung": 0.2,
+      "kidney": 0.7
+    },
+    "red_flag_level": "L2_urgent",
+    "cluster_contribution": ["kidney_deficiency_cluster", "blood_stasis_cluster"],
+    "yhct_clinical_note": "Đau lưng + sụt cân không rõ nguyên nhân → CẦN LOẠI TRỪ ÁC TÍNH KHẨN CẤP. Tỳ hư không hấp thu, chính khí suy kiệt, tà khí thực. Huyết ứ trong YHCT có thể biểu hiện u bướu. Đây là kết hợp hai triệu chứng báo động đỏ.",
+    "yhhd_clinical_note": "RED FLAG: back pain + weight loss = malignancy until proven otherwise. Primary: multiple myeloma, lymphoma, renal cell carcinoma. Metastatic: lung, breast, prostate, thyroid. FBC, ESR, CRP, LDH, SPEP, PSA, CT chest/abdomen/pelvis, MRI spine urgently."
+  },
+  {
+    "symptom_code": "saddle_anesthesia_bowel_bladder",
+    "name_vi": "Mất cảm giác vùng yên ngựa kèm rối loạn đại tiểu tiện",
+    "name_en": "Saddle anesthesia with bowel and bladder dysfunction",
+    "category": "musculoskeletal",
+    "icd11_approximate": "ME84.3",
+    "severity_weight": 1.0,
+    "time_sensitivity": "emergency",
+    "bat_cuong_weights": {
+      "cold": 0.1,
+      "heat": 0.2,
+      "deficiency": 0.6,
+      "excess": 0.7,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.2,
+      "heart": 0.1,
+      "spleen": 0.1,
+      "lung": 0.0,
+      "kidney": 0.9
+    },
+    "red_flag_level": "L1_emergency",
+    "cluster_contribution": ["kidney_bladder_disorder_cluster"],
+    "yhct_clinical_note": "MẤT CẢM GIÁC VÙNG YÊN NGỰA + RỐI LOẠN ĐẠI TIỂU TIỆN = HỘI CHỨNG ĐUÔI NGỰA. ĐÂY LÀ CẤP CỨU NGOẠI KHOA. Không áp dụng YHCT như phương pháp duy nhất. Tổn thương nặng cơ tạng Thận-Bàng quang-Đại Trường. Phẫu thuật giải ép khẩn cấp.",
+    "yhhd_clinical_note": "CAUDA EQUINA SYNDROME = NEUROSURGICAL EMERGENCY. Saddle numbness (S3-S5), urinary retention or incontinence, fecal incontinence, bilateral leg weakness. URGENT MRI spine without delay. Decompressive surgery within 24-48 hours for best outcome. Do not delay for any investigation."
+  },
+  {
+    "symptom_code": "new_spine_pain_cancer_history",
+    "name_vi": "Đau cột sống mới ở bệnh nhân có tiền sử ung thư",
+    "name_en": "New spine pain in patient with cancer history",
+    "category": "musculoskeletal",
+    "icd11_approximate": "ME84",
+    "severity_weight": 0.95,
+    "time_sensitivity": "emergency",
+    "bat_cuong_weights": {
+      "cold": 0.1,
+      "heat": 0.4,
+      "deficiency": 0.8,
+      "excess": 0.6,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.3,
+      "heart": 0.1,
+      "spleen": 0.4,
+      "lung": 0.2,
+      "kidney": 0.8
+    },
+    "red_flag_level": "L1_emergency",
+    "cluster_contribution": ["kidney_deficiency_cluster", "blood_stasis_cluster"],
+    "yhct_clinical_note": "Đau cột sống mới ở bệnh nhân ung thư → DI CĂN XƯƠNG cho đến khi chứng minh ngược lại. Trong YHCT: huyết ứ đàm trệ tích tụ thành khối u. Chính khí suy, tà khí thực mạnh. Cần xử trí YHHĐ ưu tiên, YHCT hỗ trợ giảm đau và nâng cao thể trạng.",
+    "yhhd_clinical_note": "NEW SPINE PAIN IN CANCER PATIENT = SPINAL METASTASIS UNTIL PROVEN OTHERWISE. Risk of pathological fracture and cord compression. Urgent MRI whole spine. Common primaries: breast (osteolytic/osteoblastic), prostate (osteoblastic), lung, renal cell, thyroid. Multidisciplinary oncology input. Dexamethasone if cord compression suspected."
+  }
+]

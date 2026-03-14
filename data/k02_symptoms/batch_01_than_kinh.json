@@ -1,0 +1,1162 @@
+[
+  {
+    "id": "SYM_B01_001",
+    "symptom_code": "frontal_headache",
+    "name_vi": "Đau đầu vùng trán",
+    "name_en": "Frontal headache",
+    "category": "neurological",
+    "icd11_approximate": "MG30.0",
+    "severity_weight": 0.4,
+    "time_sensitivity": "subacute",
+    "bat_cuong_weights": {
+      "cold": 0.2,
+      "heat": 0.6,
+      "deficiency": 0.3,
+      "excess": 0.6,
+      "exterior": 0.4,
+      "interior": 0.6
+    },
+    "zangfu_weights": {
+      "liver": 0.5,
+      "heart": 0.2,
+      "spleen": 0.4,
+      "lung": 0.3,
+      "kidney": 0.2
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["tension_headache_cluster", "sinus_headache_cluster"],
+    "yhct_clinical_note": "Đau trán → Dương minh vị kinh đi qua. Kèm đầy bụng, buồn nôn → Đàm thấp tắc trở. Kèm sốt → Phong nhiệt phạm vệ",
+    "yhhd_clinical_note": "Frontal headache: sinusitis, tension-type, increased ICP. Consider sinus percussion. Persistent AM frontal headache may indicate elevated ICP."
+  },
+  {
+    "id": "SYM_B01_002",
+    "symptom_code": "temporal_headache",
+    "name_vi": "Đau đầu vùng thái dương",
+    "name_en": "Temporal headache",
+    "category": "neurological",
+    "icd11_approximate": "MG30.0",
+    "severity_weight": 0.6,
+    "time_sensitivity": "subacute",
+    "bat_cuong_weights": {
+      "cold": 0.1,
+      "heat": 0.6,
+      "deficiency": 0.3,
+      "excess": 0.6,
+      "exterior": 0.2,
+      "interior": 0.7
+    },
+    "zangfu_weights": {
+      "liver": 0.7,
+      "heart": 0.2,
+      "spleen": 0.1,
+      "lung": 0.0,
+      "kidney": 0.3
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["migraine_cluster", "liver_yang_rising_cluster"],
+    "yhct_clinical_note": "Đau thái dương → Can kinh (Thiếu dương đởm kinh) đi qua. Kèm đắng miệng, sườn đau → Can đởm uất nhiệt. Kèm mắt đỏ → Can hỏa vượng",
+    "yhhd_clinical_note": "Temporal headache: migraine (unilateral pulsating), tension-type, temporal arteritis in elderly (ESR elevated, red flag ≥50 years). TMJ dysfunction possible."
+  },
+  {
+    "id": "SYM_B01_003",
+    "symptom_code": "occipital_headache",
+    "name_vi": "Đau đầu vùng chẩm",
+    "name_en": "Occipital headache",
+    "category": "neurological",
+    "icd11_approximate": "MG30.0",
+    "severity_weight": 0.5,
+    "time_sensitivity": "subacute",
+    "bat_cuong_weights": {
+      "cold": 0.6,
+      "heat": 0.2,
+      "deficiency": 0.6,
+      "excess": 0.3,
+      "exterior": 0.5,
+      "interior": 0.6
+    },
+    "zangfu_weights": {
+      "liver": 0.3,
+      "heart": 0.1,
+      "spleen": 0.1,
+      "lung": 0.2,
+      "kidney": 0.7
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["kidney_deficiency_cluster", "cervicogenic_headache_cluster"],
+    "yhct_clinical_note": "Đau chẩm → Thái dương bàng quang kinh đi qua. Thận hư → tủy não không được nuôi dưỡng. Phong hàn xâm phạm → kinh lạc tắc trở vùng chẩm cổ",
+    "yhhd_clinical_note": "Occipital headache: cervicogenic (C2-C3 nerve), occipital neuralgia, hypertension (diastolic), posterior fossa lesion. Check cervical spine, blood pressure."
+  },
+  {
+    "id": "SYM_B01_004",
+    "symptom_code": "vertex_headache",
+    "name_vi": "Đau đầu vùng đỉnh đầu",
+    "name_en": "Vertex headache",
+    "category": "neurological",
+    "icd11_approximate": "MG30.0",
+    "severity_weight": 0.5,
+    "time_sensitivity": "subacute",
+    "bat_cuong_weights": {
+      "cold": 0.1,
+      "heat": 0.4,
+      "deficiency": 0.6,
+      "excess": 0.4,
+      "exterior": 0.1,
+      "interior": 0.8
+    },
+    "zangfu_weights": {
+      "liver": 0.8,
+      "heart": 0.2,
+      "spleen": 0.1,
+      "lung": 0.0,
+      "kidney": 0.5
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["liver_yang_rising_cluster", "kidney_deficiency_cluster"],
+    "yhct_clinical_note": "Đau đỉnh đầu → Quyết âm can kinh hội tụ tại Bách hội (GV20). Can dương vượng hoặc Can hư → khí huyết nghịch lên. Thận âm hư → không tàng tinh, can dương bù trừ",
+    "yhhd_clinical_note": "Vertex headache: migraine variant, tension-type, hypertension. Less common location — consider imaging if new-onset, progressive, or associated with postural change."
+  },
+  {
+    "id": "SYM_B01_005",
+    "symptom_code": "whole_head_headache",
+    "name_vi": "Đau đầu toàn bộ",
+    "name_en": "Whole-head (diffuse) headache",
+    "category": "neurological",
+    "icd11_approximate": "MG30.0",
+    "severity_weight": 0.5,
+    "time_sensitivity": "subacute",
+    "bat_cuong_weights": {
+      "cold": 0.3,
+      "heat": 0.5,
+      "deficiency": 0.5,
+      "excess": 0.5,
+      "exterior": 0.4,
+      "interior": 0.6
+    },
+    "zangfu_weights": {
+      "liver": 0.4,
+      "heart": 0.3,
+      "spleen": 0.5,
+      "lung": 0.3,
+      "kidney": 0.4
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["tension_headache_cluster", "phlegm_damp_cluster"],
+    "yhct_clinical_note": "Đau toàn đầu → Thường do đàm thấp che lấp, hoặc khí huyết lưỡng hư không vinh dưỡng não. Cảm mạo phong tà toàn thân cũng gây đau toàn đầu",
+    "yhhd_clinical_note": "Diffuse headache: tension-type most common, viral illness, hypertension, medication overuse headache (MOH), meningitis (with neck stiffness/fever = emergency)."
+  },
+  {
+    "id": "SYM_B01_006",
+    "symptom_code": "throbbing_pulsating_headache",
+    "name_vi": "Đau đầu mạch đập (nhói theo nhịp tim)",
+    "name_en": "Throbbing / pulsating headache",
+    "category": "neurological",
+    "icd11_approximate": "MG30.00",
+    "severity_weight": 0.6,
+    "time_sensitivity": "acute",
+    "bat_cuong_weights": {
+      "cold": 0.1,
+      "heat": 0.7,
+      "deficiency": 0.2,
+      "excess": 0.7,
+      "exterior": 0.2,
+      "interior": 0.7
+    },
+    "zangfu_weights": {
+      "liver": 0.7,
+      "heart": 0.4,
+      "spleen": 0.1,
+      "lung": 0.0,
+      "kidney": 0.3
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["migraine_cluster", "liver_yang_rising_cluster", "liver_fire_cluster"],
+    "yhct_clinical_note": "Đau nhói theo mạch đập → huyết nhiệt, can hỏa vượng. Kèm buồn nôn, sợ ánh sáng → phong dương nhiễu loạn thanh khiếu. Điển hình của thiên đầu thống (đau nửa đầu)",
+    "yhhd_clinical_note": "Throbbing headache: hallmark of migraine (ICHD-3 diagnostic criterion). Also hypertensive headache. Aggravated by physical activity. Associated photophobia/phonophobia/nausea."
+  },
+  {
+    "id": "SYM_B01_007",
+    "symptom_code": "pressing_tight_headache",
+    "name_vi": "Đau đầu kiểu bó chặt / áp lực",
+    "name_en": "Pressing / tight band headache",
+    "category": "neurological",
+    "icd11_approximate": "MG30.1",
+    "severity_weight": 0.3,
+    "time_sensitivity": "chronic",
+    "bat_cuong_weights": {
+      "cold": 0.2,
+      "heat": 0.2,
+      "deficiency": 0.5,
+      "excess": 0.4,
+      "exterior": 0.1,
+      "interior": 0.8
+    },
+    "zangfu_weights": {
+      "liver": 0.4,
+      "heart": 0.4,
+      "spleen": 0.5,
+      "lung": 0.1,
+      "kidney": 0.3
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["tension_headache_cluster", "qi_stagnation_cluster"],
+    "yhct_clinical_note": "Đau bó chặt quanh đầu → khí trệ, can khí uất kết. Kèm mệt mỏi, lo lắng → tâm tỳ lưỡng hư. Đàm thấp che lấp cũng gây cảm giác nặng đầu bó chặt",
+    "yhhd_clinical_note": "Tension-type headache (TTH): bilateral pressing/tightening quality, mild-moderate intensity, not aggravated by routine activity. Most prevalent headache type. Pericranial tenderness on palpation."
+  },
+  {
+    "id": "SYM_B01_008",
+    "symptom_code": "thunderclap_headache",
+    "name_vi": "Đau đầu dữ dội đột ngột (sét đánh)",
+    "name_en": "Thunderclap headache",
+    "category": "neurological",
+    "icd11_approximate": "MG30.2",
+    "severity_weight": 1.0,
+    "time_sensitivity": "acute",
+    "bat_cuong_weights": {
+      "cold": 0.1,
+      "heat": 0.8,
+      "deficiency": 0.1,
+      "excess": 0.9,
+      "exterior": 0.1,
+      "interior": 0.9
+    },
+    "zangfu_weights": {
+      "liver": 0.7,
+      "heart": 0.5,
+      "spleen": 0.0,
+      "lung": 0.0,
+      "kidney": 0.3
+    },
+    "red_flag_level": "L1_emergency",
+    "cluster_contribution": ["subarachnoid_hemorrhage_cluster", "neurological_emergency_cluster"],
+    "yhct_clinical_note": "Đau đầu sét đánh → CẤP CỨU y tế trước tiên. YHCT: can dương bạo thăng, phong hỏa nhiễu loạn cực cấp. Khí huyết nghịch lên não gây trở tắc đột ngột. KHÔNG trì hoãn cấp cứu để điều trị YHCT",
+    "yhhd_clinical_note": "EMERGENCY: 'worst headache of life', maximal at onset (<1 min). Subarachnoid hemorrhage until proven otherwise. Immediate CT head non-contrast → LP if CT negative. Also: RCVS, CVT, carotid/vertebral dissection, hypertensive emergency."
+  },
+  {
+    "id": "SYM_B01_009",
+    "symptom_code": "morning_headache",
+    "name_vi": "Đau đầu buổi sáng khi thức dậy",
+    "name_en": "Morning headache (on waking)",
+    "category": "neurological",
+    "icd11_approximate": "MG30.0",
+    "severity_weight": 0.5,
+    "time_sensitivity": "subacute",
+    "bat_cuong_weights": {
+      "cold": 0.2,
+      "heat": 0.4,
+      "deficiency": 0.5,
+      "excess": 0.4,
+      "exterior": 0.1,
+      "interior": 0.8
+    },
+    "zangfu_weights": {
+      "liver": 0.5,
+      "heart": 0.3,
+      "spleen": 0.3,
+      "lung": 0.2,
+      "kidney": 0.4
+    },
+    "red_flag_level": "L3_watch",
+    "cluster_contribution": ["sleep_apnea_cluster", "hypertension_cluster", "increased_icp_cluster"],
+    "yhct_clinical_note": "Đau đầu sáng sớm → âm hư không dưỡng não qua đêm, hoặc can dương vượng vào giờ Mão (5-7h). Kèm mệt không phục hồi → tâm tỳ hư. Kèm khô miệng → thận âm hư",
+    "yhhd_clinical_note": "Morning headache red flags: sleep apnea (nocturnal hypoxia/hypercapnia), increased ICP (positional, worsened by Valsalva), hypertension, depression, medication overuse. Screen with Epworth and BP measurement."
+  },
+  {
+    "id": "SYM_B01_010",
+    "symptom_code": "exertional_headache",
+    "name_vi": "Đau đầu khi gắng sức",
+    "name_en": "Exertional headache",
+    "category": "neurological",
+    "icd11_approximate": "MG30.3",
+    "severity_weight": 0.6,
+    "time_sensitivity": "acute",
+    "bat_cuong_weights": {
+      "cold": 0.1,
+      "heat": 0.5,
+      "deficiency": 0.5,
+      "excess": 0.5,
+      "exterior": 0.1,
+      "interior": 0.8
+    },
+    "zangfu_weights": {
+      "liver": 0.5,
+      "heart": 0.5,
+      "spleen": 0.1,
+      "lung": 0.3,
+      "kidney": 0.5
+    },
+    "red_flag_level": "L2_urgent",
+    "cluster_contribution": ["migraine_cluster", "increased_icp_cluster", "vascular_headache_cluster"],
+    "yhct_clinical_note": "Đau đầu khi gắng sức → khí huyết bốc lên đầu. Can dương vượng + gắng sức → can phong nội động. Thận hư → không tàng tinh, gắng sức hao thận khí",
+    "yhhd_clinical_note": "Exertional headache: primary (benign, bilateral, pulsating) vs secondary (SAH, RCVS, Chiari). New-onset exertional headache warrants brain imaging. Primary exertional responds to NSAIDs/indomethacin."
+  },
+  {
+    "id": "SYM_B01_011",
+    "symptom_code": "true_vertigo",
+    "name_vi": "Chóng mặt thật sự (cảm giác quay)",
+    "name_en": "True vertigo (rotational sensation)",
+    "category": "neurological",
+    "icd11_approximate": "AB31",
+    "severity_weight": 0.6,
+    "time_sensitivity": "acute",
+    "bat_cuong_weights": {
+      "cold": 0.2,
+      "heat": 0.4,
+      "deficiency": 0.5,
+      "excess": 0.5,
+      "exterior": 0.2,
+      "interior": 0.8
+    },
+    "zangfu_weights": {
+      "liver": 0.7,
+      "heart": 0.2,
+      "spleen": 0.5,
+      "lung": 0.1,
+      "kidney": 0.6
+    },
+    "red_flag_level": "L2_urgent",
+    "cluster_contribution": ["vertigo_cluster", "liver_yang_rising_cluster", "phlegm_damp_cluster"],
+    "yhct_clinical_note": "Chóng mặt quay → Huyễn vựng. Can dương thăng → phong dương nhiễu não. Đàm thấp trở trệ → thanh dương không thăng. Thận tinh hư → não tủy kém nuôi dưỡng. 'Không có đàm không huyễn, không có hư không huyễn'",
+    "yhhd_clinical_note": "True vertigo (illusion of motion): peripheral (BPPV most common — Dix-Hallpike test, Epley maneuver) vs central (cerebellar/brainstem — HINTS exam: Head Impulse, Nystagmus, Test of Skew). Central vertigo = neuroimaging urgent."
+  },
+  {
+    "id": "SYM_B01_012",
+    "symptom_code": "lightheadedness_presyncope",
+    "name_vi": "Choáng váng / cảm giác sắp ngất",
+    "name_en": "Lightheadedness / presyncope",
+    "category": "neurological",
+    "icd11_approximate": "MG43",
+    "severity_weight": 0.5,
+    "time_sensitivity": "acute",
+    "bat_cuong_weights": {
+      "cold": 0.1,
+      "heat": 0.2,
+      "deficiency": 0.7,
+      "excess": 0.2,
+      "exterior": 0.1,
+      "interior": 0.8
+    },
+    "zangfu_weights": {
+      "liver": 0.3,
+      "heart": 0.7,
+      "spleen": 0.5,
+      "lung": 0.2,
+      "kidney": 0.4
+    },
+    "red_flag_level": "L2_urgent",
+    "cluster_contribution": ["qi_blood_deficiency_cluster", "cardiac_syncope_cluster"],
+    "yhct_clinical_note": "Choáng váng sắp ngất → khí huyết hư suy, tâm không dưỡng não. Tỳ khí hư → huyết không hóa sinh đủ. Phân biệt với huyễn vựng (không có cảm giác quay)",
+    "yhhd_clinical_note": "Presyncope: cardiovascular (arrhythmia, structural heart disease, orthostatic hypotension), vasovagal, anemia, hypoglycemia, hyperventilation. ECG mandatory. High-risk features: exertional, cardiac history, family SCD history."
+  },
+  {
+    "id": "SYM_B01_013",
+    "symptom_code": "orthostatic_dizziness",
+    "name_vi": "Chóng mặt khi đứng dậy (tư thế)",
+    "name_en": "Orthostatic dizziness",
+    "category": "neurological",
+    "icd11_approximate": "MG43.0",
+    "severity_weight": 0.4,
+    "time_sensitivity": "subacute",
+    "bat_cuong_weights": {
+      "cold": 0.1,
+      "heat": 0.1,
+      "deficiency": 0.8,
+      "excess": 0.1,
+      "exterior": 0.0,
+      "interior": 0.9
+    },
+    "zangfu_weights": {
+      "liver": 0.3,
+      "heart": 0.6,
+      "spleen": 0.6,
+      "lung": 0.2,
+      "kidney": 0.5
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["qi_blood_deficiency_cluster", "autonomic_dysfunction_cluster"],
+    "yhct_clinical_note": "Chóng mặt đứng lên → khí huyết hư, trung khí hạ hãm. Tỳ hư không nâng đỡ → thanh khí không thăng. Điều trị: bổ trung ích khí (Bổ Trung Ích Khí Thang)",
+    "yhhd_clinical_note": "Orthostatic hypotension: BP drop ≥20/10 mmHg within 3 min of standing. Causes: dehydration, medications (antihypertensives, diuretics, alpha-blockers), autonomic neuropathy (diabetes, Parkinson), Addison disease. Lying/standing BP measurement essential."
+  },
+  {
+    "id": "SYM_B01_014",
+    "symptom_code": "continuous_dizziness",
+    "name_vi": "Chóng mặt liên tục kéo dài",
+    "name_en": "Continuous persistent dizziness",
+    "category": "neurological",
+    "icd11_approximate": "AB31.Z",
+    "severity_weight": 0.6,
+    "time_sensitivity": "subacute",
+    "bat_cuong_weights": {
+      "cold": 0.2,
+      "heat": 0.3,
+      "deficiency": 0.6,
+      "excess": 0.4,
+      "exterior": 0.1,
+      "interior": 0.9
+    },
+    "zangfu_weights": {
+      "liver": 0.6,
+      "heart": 0.3,
+      "spleen": 0.5,
+      "lung": 0.1,
+      "kidney": 0.6
+    },
+    "red_flag_level": "L2_urgent",
+    "cluster_contribution": ["vertigo_cluster", "central_vertigo_cluster"],
+    "yhct_clinical_note": "Chóng mặt liên tục → thường do hư chứng (thận âm hư, khí huyết hư) kết hợp đàm thấp. Cần phân biệt với tổn thương trung ương (MRI não). Can dương thăng mạn tính",
+    "yhhd_clinical_note": "Persistent dizziness >4 weeks: PPPD (persistent postural-perceptual dizziness — most common), central lesion (posterior fossa), bilateral vestibulopathy (gentamicin, aging). Brain MRI with contrast indicated. Vestibular rehabilitation effective for PPPD."
+  },
+  {
+    "id": "SYM_B01_015",
+    "symptom_code": "episodic_dizziness",
+    "name_vi": "Chóng mặt từng cơn",
+    "name_en": "Episodic dizziness",
+    "category": "neurological",
+    "icd11_approximate": "AB31",
+    "severity_weight": 0.5,
+    "time_sensitivity": "subacute",
+    "bat_cuong_weights": {
+      "cold": 0.2,
+      "heat": 0.4,
+      "deficiency": 0.5,
+      "excess": 0.5,
+      "exterior": 0.2,
+      "interior": 0.7
+    },
+    "zangfu_weights": {
+      "liver": 0.7,
+      "heart": 0.3,
+      "spleen": 0.4,
+      "lung": 0.1,
+      "kidney": 0.5
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["vertigo_cluster", "migraine_cluster", "liver_yang_rising_cluster"],
+    "yhct_clinical_note": "Chóng mặt từng cơn → can phong nội động bộc phát, hoặc đàm thấp bùng phát. Cơn ngắn (<1 phút) → BPPV. Cơn dài (20 phút – vài giờ) → Ménière hoặc tiền đình cơn",
+    "yhhd_clinical_note": "Episodic vertigo differential: BPPV (seconds, positional), Ménière disease (20min-12h, low-frequency hearing loss, tinnitus, aural fullness), vestibular migraine (minutes-hours, migrainous features), TIA (seconds-minutes, associated neurological symptoms)."
+  },
+  {
+    "id": "SYM_B01_016",
+    "symptom_code": "dizziness_with_nausea_vomiting",
+    "name_vi": "Chóng mặt kèm buồn nôn / nôn",
+    "name_en": "Dizziness with nausea and vomiting",
+    "category": "neurological",
+    "icd11_approximate": "AB31",
+    "severity_weight": 0.6,
+    "time_sensitivity": "acute",
+    "bat_cuong_weights": {
+      "cold": 0.2,
+      "heat": 0.3,
+      "deficiency": 0.4,
+      "excess": 0.6,
+      "exterior": 0.2,
+      "interior": 0.8
+    },
+    "zangfu_weights": {
+      "liver": 0.6,
+      "heart": 0.2,
+      "spleen": 0.7,
+      "lung": 0.1,
+      "kidney": 0.4
+    },
+    "red_flag_level": "L2_urgent",
+    "cluster_contribution": ["vertigo_cluster", "phlegm_damp_cluster", "liver_stomach_disharmony_cluster"],
+    "yhct_clinical_note": "Chóng mặt + buồn nôn → can mộc khắc tỳ thổ, vị khí không giáng. Đàm thấp nghịch lên trở trung tiêu. Bán hạ Bạch truật Thiên ma thang là phương thuốc cổ điển",
+    "yhhd_clinical_note": "Vertigo with nausea/vomiting: severe vestibular crisis (labyrinthitis, Ménière attack), cerebellar stroke (HINTS exam critical), migraine. IV antiemetics and vestibular suppressants for acute management. MRI if central features present."
+  },
+  {
+    "id": "SYM_B01_017",
+    "symptom_code": "difficulty_initiating_sleep",
+    "name_vi": "Khó vào giấc ngủ",
+    "name_en": "Difficulty initiating sleep (sleep onset insomnia)",
+    "category": "neurological",
+    "icd11_approximate": "7A00.0",
+    "severity_weight": 0.3,
+    "time_sensitivity": "chronic",
+    "bat_cuong_weights": {
+      "cold": 0.1,
+      "heat": 0.6,
+      "deficiency": 0.5,
+      "excess": 0.5,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.5,
+      "heart": 0.8,
+      "spleen": 0.3,
+      "lung": 0.2,
+      "kidney": 0.4
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["insomnia_cluster", "heart_fire_cluster", "liver_qi_stagnation_cluster"],
+    "yhct_clinical_note": "Khó vào giấc → tâm thần không yên, tâm hỏa quá vượng. Thường do can khí uất hóa hỏa, hoặc tâm thận không giao. Cần phân biệt: nhiệt chứng (khó vào giấc, lăn qua lăn lại) vs hư chứng (trằn trọc khó ngủ)",
+    "yhhd_clinical_note": "Sleep onset insomnia: anxiety disorder (hyperarousal), poor sleep hygiene, RLS (restless legs at night), circadian phase delay (adolescents/young adults), stimulant medications. CBT-I first-line treatment. Screen anxiety/depression (PHQ-9, GAD-7)."
+  },
+  {
+    "id": "SYM_B01_018",
+    "symptom_code": "early_morning_waking",
+    "name_vi": "Thức dậy sớm không ngủ lại được",
+    "name_en": "Early morning awakening insomnia",
+    "category": "neurological",
+    "icd11_approximate": "7A00.1",
+    "severity_weight": 0.4,
+    "time_sensitivity": "chronic",
+    "bat_cuong_weights": {
+      "cold": 0.1,
+      "heat": 0.3,
+      "deficiency": 0.7,
+      "excess": 0.2,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.4,
+      "heart": 0.6,
+      "spleen": 0.4,
+      "lung": 0.2,
+      "kidney": 0.6
+    },
+    "red_flag_level": "L3_watch",
+    "cluster_contribution": ["insomnia_cluster", "depression_cluster", "kidney_yin_deficiency_cluster"],
+    "yhct_clinical_note": "Thức sớm không ngủ lại → âm hư không giữ được dương, vào giờ Dần (3-5h) phế khí vượng. Thận âm hư + tâm hỏa → tâm thận bất giao. Đây là dấu hiệu kinh điển của YHCT cần bổ âm giáng hỏa",
+    "yhhd_clinical_note": "Early morning awakening: hallmark of major depressive disorder (MDD) — screen PHQ-9. Also: age-related circadian advance, alcohol dependence (withdrawal in AM), cortisol excess (Cushing). Important red flag for depression."
+  },
+  {
+    "id": "SYM_B01_019",
+    "symptom_code": "non_restorative_sleep",
+    "name_vi": "Ngủ không sâu / không phục hồi sau ngủ",
+    "name_en": "Non-restorative sleep",
+    "category": "neurological",
+    "icd11_approximate": "7A00.2",
+    "severity_weight": 0.3,
+    "time_sensitivity": "chronic",
+    "bat_cuong_weights": {
+      "cold": 0.2,
+      "heat": 0.3,
+      "deficiency": 0.7,
+      "excess": 0.3,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.3,
+      "heart": 0.6,
+      "spleen": 0.6,
+      "lung": 0.3,
+      "kidney": 0.5
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["insomnia_cluster", "qi_blood_deficiency_cluster", "sleep_apnea_cluster"],
+    "yhct_clinical_note": "Ngủ không phục hồi → tâm huyết hư hoặc tỳ hư khí huyết sinh hóa bất túc. Thần không có nơi nương tựa. Kèm mệt mỏi ban ngày, kém tập trung → khí huyết lưỡng hư",
+    "yhhd_clinical_note": "Non-restorative sleep: obstructive sleep apnea (OSA) most important secondary cause — screen with STOP-BANG questionnaire. Also: fibromyalgia (alpha-delta sleep pattern), depression, medications. Polysomnography if OSA suspected."
+  },
+  {
+    "id": "SYM_B01_020",
+    "symptom_code": "hypersomnia_excessive_daytime_sleepiness",
+    "name_vi": "Ngủ nhiều / buồn ngủ ban ngày quá mức",
+    "name_en": "Hypersomnia / excessive daytime sleepiness",
+    "category": "neurological",
+    "icd11_approximate": "7A20",
+    "severity_weight": 0.4,
+    "time_sensitivity": "subacute",
+    "bat_cuong_weights": {
+      "cold": 0.3,
+      "heat": 0.1,
+      "deficiency": 0.7,
+      "excess": 0.3,
+      "exterior": 0.0,
+      "interior": 0.9
+    },
+    "zangfu_weights": {
+      "liver": 0.2,
+      "heart": 0.3,
+      "spleen": 0.7,
+      "lung": 0.2,
+      "kidney": 0.4
+    },
+    "red_flag_level": "L3_watch",
+    "cluster_contribution": ["phlegm_damp_cluster", "sleep_apnea_cluster", "spleen_qi_deficiency_cluster"],
+    "yhct_clinical_note": "Ngủ nhiều ban ngày → tỳ hư đàm thấp, dương khí không thăng. 'Tỳ chủ tứ chi, tỳ hư tắc tứ chi vô lực, đa miên'. Kèm béo phì, phù nề → đàm thấp nội thịnh",
+    "yhhd_clinical_note": "Excessive daytime sleepiness: OSA (most common), narcolepsy (cataplexy, hypnagogic hallucinations), idiopathic hypersomnia, medications, hypothyroidism, depression. Epworth Sleepiness Scale ≥10 warrants workup. PSG + MSLT for narcolepsy."
+  },
+  {
+    "id": "SYM_B01_021",
+    "symptom_code": "vivid_dreams",
+    "name_vi": "Ngủ nhiều mơ / mơ sống động",
+    "name_en": "Vivid and frequent dreams",
+    "category": "neurological",
+    "icd11_approximate": "7B00",
+    "severity_weight": 0.2,
+    "time_sensitivity": "chronic",
+    "bat_cuong_weights": {
+      "cold": 0.1,
+      "heat": 0.5,
+      "deficiency": 0.6,
+      "excess": 0.4,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.5,
+      "heart": 0.7,
+      "spleen": 0.3,
+      "lung": 0.2,
+      "kidney": 0.3
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["insomnia_cluster", "heart_yin_deficiency_cluster"],
+    "yhct_clinical_note": "Mơ nhiều sống động → tâm huyết hư hoặc tâm âm hư, thần không yên. Can huyết hư → hồn không tàng trữ ban đêm. 'Can tàng hồn, khi ngủ hồn trở về can; can hư hồn không tàng → đa mơ'",
+    "yhhd_clinical_note": "Vivid dreams: REM sleep behavior disorder (RBD — acting out dreams, men >50, Parkinson risk marker), PTSD (traumatic nightmare content), antidepressants (SSRIs increase REM density), levodopa, beta-blockers, alcohol withdrawal."
+  },
+  {
+    "id": "SYM_B01_022",
+    "symptom_code": "nightmare_disorder",
+    "name_vi": "Ác mộng thường xuyên",
+    "name_en": "Recurrent nightmares",
+    "category": "neurological",
+    "icd11_approximate": "7B01",
+    "severity_weight": 0.3,
+    "time_sensitivity": "chronic",
+    "bat_cuong_weights": {
+      "cold": 0.1,
+      "heat": 0.6,
+      "deficiency": 0.5,
+      "excess": 0.5,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.5,
+      "heart": 0.8,
+      "spleen": 0.2,
+      "lung": 0.2,
+      "kidney": 0.3
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["insomnia_cluster", "heart_fire_cluster", "ptsd_cluster"],
+    "yhct_clinical_note": "Ác mộng thường xuyên → tâm đởm khí hư, thần kinh lo sợ. Kèm tim đập nhanh → tâm khí hư. Đởm khí hư → 'đởm chủ quyết đoán, đởm hư sinh kinh sợ'. Ôn đởm thang gia giảm",
+    "yhhd_clinical_note": "Nightmare disorder: PTSD (trauma-related, repetitive, distressing), medication-induced (beta-blockers, levodopa, some antidepressants), RBD early stage. Image Rehearsal Therapy (IRT) is first-line for nightmare disorder."
+  },
+  {
+    "id": "SYM_B01_023",
+    "symptom_code": "tinnitus",
+    "name_vi": "Ù tai",
+    "name_en": "Tinnitus",
+    "category": "neurological",
+    "icd11_approximate": "AB52",
+    "severity_weight": 0.4,
+    "time_sensitivity": "subacute",
+    "bat_cuong_weights": {
+      "cold": 0.1,
+      "heat": 0.4,
+      "deficiency": 0.6,
+      "excess": 0.4,
+      "exterior": 0.1,
+      "interior": 0.9
+    },
+    "zangfu_weights": {
+      "liver": 0.5,
+      "heart": 0.2,
+      "spleen": 0.2,
+      "lung": 0.1,
+      "kidney": 0.8
+    },
+    "red_flag_level": "L3_watch",
+    "cluster_contribution": ["kidney_deficiency_cluster", "liver_fire_cluster", "meniere_cluster"],
+    "yhct_clinical_note": "Ù tai → thận hư không tàng tinh nuôi tai (thận khai khiếu ở tai). Ù tai tiếng cao, to → can hỏa, thực chứng. Ù tai tiếng thấp, nhỏ → thận âm hư, hư chứng. 'Thận chủ nhĩ' → thận hư → nhĩ kém",
+    "yhhd_clinical_note": "Tinnitus: subjective (most common, sensorineural hearing loss, noise exposure, aging, medications — aspirin, aminoglycosides) vs objective (vascular — pulsatile tinnitus, AVM, glomus tumor). Unilateral tinnitus: acoustic neuroma screen (MRI IACs). Pulsatile tinnitus = vascular workup."
+  },
+  {
+    "id": "SYM_B01_024",
+    "symptom_code": "hearing_loss",
+    "name_vi": "Nghe kém / giảm thính lực",
+    "name_en": "Hearing loss",
+    "category": "neurological",
+    "icd11_approximate": "AB52.0",
+    "severity_weight": 0.5,
+    "time_sensitivity": "subacute",
+    "bat_cuong_weights": {
+      "cold": 0.2,
+      "heat": 0.3,
+      "deficiency": 0.7,
+      "excess": 0.3,
+      "exterior": 0.1,
+      "interior": 0.9
+    },
+    "zangfu_weights": {
+      "liver": 0.3,
+      "heart": 0.1,
+      "spleen": 0.2,
+      "lung": 0.2,
+      "kidney": 0.9
+    },
+    "red_flag_level": "L2_urgent",
+    "cluster_contribution": ["kidney_deficiency_cluster", "meniere_cluster"],
+    "yhct_clinical_note": "Nghe kém → thận tinh hư suy (thận khai khiếu ở tai). Tuổi già nghe kém dần → thận khí thiên quý cạn kiệt. Đột ngột nghe kém → phong tà hoặc đàm hỏa tắc trở kinh lạc tai",
+    "yhhd_clinical_note": "Sudden sensorineural hearing loss (SSNHL): medical emergency — oral corticosteroids within 72h. Conductive vs sensorineural (Weber/Rinne tests). Unilateral SNHL: acoustic neuroma (MRI IACs). Bilateral progressive: autoimmune inner ear disease, aminoglycoside toxicity."
+  },
+  {
+    "id": "SYM_B01_025",
+    "symptom_code": "facial_numbness",
+    "name_vi": "Tê vùng mặt",
+    "name_en": "Facial numbness",
+    "category": "neurological",
+    "icd11_approximate": "MB40.2",
+    "severity_weight": 0.6,
+    "time_sensitivity": "acute",
+    "bat_cuong_weights": {
+      "cold": 0.4,
+      "heat": 0.2,
+      "deficiency": 0.4,
+      "excess": 0.4,
+      "exterior": 0.3,
+      "interior": 0.7
+    },
+    "zangfu_weights": {
+      "liver": 0.4,
+      "heart": 0.3,
+      "spleen": 0.3,
+      "lung": 0.2,
+      "kidney": 0.3
+    },
+    "red_flag_level": "L2_urgent",
+    "cluster_contribution": ["stroke_cluster", "demyelination_cluster"],
+    "yhct_clinical_note": "Tê mặt → phong hàn hoặc phong đờm tắc kinh lạc vùng mặt. Kèm méo miệng → Liệt Bell hoặc trúng phong (TIA/Stroke). Cần phân biệt rõ trung ương vs ngoại vi",
+    "yhhd_clinical_note": "Facial numbness: V1/V2/V3 trigeminal distribution (dental, sinus, herpes zoster) vs hemifacial (brainstem TIA/stroke — contralateral body numbness). Sudden onset = stroke protocol. Multiple sclerosis in young adults (asymmetric, demyelinating)."
+  },
+  {
+    "id": "SYM_B01_026",
+    "symptom_code": "limb_numbness",
+    "name_vi": "Tê bì tay chân / chi thể",
+    "name_en": "Limb numbness",
+    "category": "neurological",
+    "icd11_approximate": "MB40",
+    "severity_weight": 0.5,
+    "time_sensitivity": "subacute",
+    "bat_cuong_weights": {
+      "cold": 0.5,
+      "heat": 0.2,
+      "deficiency": 0.6,
+      "excess": 0.3,
+      "exterior": 0.3,
+      "interior": 0.7
+    },
+    "zangfu_weights": {
+      "liver": 0.4,
+      "heart": 0.3,
+      "spleen": 0.5,
+      "lung": 0.2,
+      "kidney": 0.4
+    },
+    "red_flag_level": "L3_watch",
+    "cluster_contribution": ["qi_blood_deficiency_cluster", "peripheral_neuropathy_cluster", "stroke_cluster"],
+    "yhct_clinical_note": "Tê bì tay chân → khí huyết hư không lưu thông tứ chi, hoặc phong hàn thấp tý tắc kinh lạc. 'Huyết hành tắc tê, khí trệ tắc đau'. Tê đối xứng hai chân → thường do hư chứng hoặc thấp chứng",
+    "yhhd_clinical_note": "Limb numbness: peripheral neuropathy (symmetric distal 'stocking-glove' — DM, B12 deficiency), radiculopathy (dermatomal pattern, with neck/back pain), carpal tunnel (median nerve), TIA/stroke (sudden, unilateral, hemisensory). Urgent if sudden onset."
+  },
+  {
+    "id": "SYM_B01_027",
+    "symptom_code": "paresthesia_crawling_sensation",
+    "name_vi": "Cảm giác kiến bò / dị cảm",
+    "name_en": "Paresthesia — crawling / pins and needles sensation",
+    "category": "neurological",
+    "icd11_approximate": "MB40.1",
+    "severity_weight": 0.3,
+    "time_sensitivity": "subacute",
+    "bat_cuong_weights": {
+      "cold": 0.4,
+      "heat": 0.2,
+      "deficiency": 0.5,
+      "excess": 0.4,
+      "exterior": 0.3,
+      "interior": 0.7
+    },
+    "zangfu_weights": {
+      "liver": 0.5,
+      "heart": 0.2,
+      "spleen": 0.4,
+      "lung": 0.2,
+      "kidney": 0.3
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["peripheral_neuropathy_cluster", "liver_blood_deficiency_cluster"],
+    "yhct_clinical_note": "Kiến bò, dị cảm → can huyết hư không dưỡng cân mạch. Phong thấp tý trở tắc kinh lạc. 'Can chủ cân, can huyết hư → cân mạch thất dưỡng → tê dị cảm'. Thường kèm chân tay mỏi",
+    "yhhd_clinical_note": "Pins and needles paresthesia: peripheral nerve compression (positional — resolves with movement), peripheral neuropathy, RLS (legs at rest/night), hyperventilation (perioral + bilateral hands = respiratory alkalosis), MS (Lhermitte sign if cervical flexion triggers)."
+  },
+  {
+    "id": "SYM_B01_028",
+    "symptom_code": "paresthesia_burning_sensation",
+    "name_vi": "Cảm giác bỏng rát / nóng rát tay chân",
+    "name_en": "Paresthesia — burning sensation in extremities",
+    "category": "neurological",
+    "icd11_approximate": "MB40.10",
+    "severity_weight": 0.5,
+    "time_sensitivity": "subacute",
+    "bat_cuong_weights": {
+      "cold": 0.1,
+      "heat": 0.7,
+      "deficiency": 0.5,
+      "excess": 0.4,
+      "exterior": 0.1,
+      "interior": 0.9
+    },
+    "zangfu_weights": {
+      "liver": 0.4,
+      "heart": 0.3,
+      "spleen": 0.3,
+      "lung": 0.1,
+      "kidney": 0.7
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["kidney_yin_deficiency_cluster", "small_fiber_neuropathy_cluster"],
+    "yhct_clinical_note": "Bỏng rát tay chân → âm hư nội nhiệt, hư hỏa hun đốt kinh lạc. Đặc trưng của thận âm hư (lòng bàn tay bàn chân nóng). 'Ngũ tâm phiền nhiệt' = điển hình âm hư nội nhiệt",
+    "yhhd_clinical_note": "Burning paresthesia: small fiber neuropathy (diabetes, idiopathic — punch skin biopsy for intraepidermal nerve fiber density), erythromelalgia, B1 deficiency (alcoholism), hereditary sensory neuropathy. Distinct from large fiber neuropathy (vibration/proprioception loss)."
+  },
+  {
+    "id": "SYM_B01_029",
+    "symptom_code": "anosmia",
+    "name_vi": "Mất khứu giác",
+    "name_en": "Anosmia (loss of smell)",
+    "category": "neurological",
+    "icd11_approximate": "MA84.0",
+    "severity_weight": 0.4,
+    "time_sensitivity": "subacute",
+    "bat_cuong_weights": {
+      "cold": 0.3,
+      "heat": 0.3,
+      "deficiency": 0.4,
+      "excess": 0.5,
+      "exterior": 0.5,
+      "interior": 0.6
+    },
+    "zangfu_weights": {
+      "liver": 0.2,
+      "heart": 0.1,
+      "spleen": 0.2,
+      "lung": 0.8,
+      "kidney": 0.3
+    },
+    "red_flag_level": "L3_watch",
+    "cluster_contribution": ["lung_qi_deficiency_cluster", "post_viral_cluster"],
+    "yhct_clinical_note": "Mất khứu giác → phế khai khiếu ở mũi. Phong hàn hoặc phong nhiệt phạm phế → tà tắc thanh khiếu. Hậu COVID: phế tỳ khí hư, đàm trọc ngăn khiếu. Cần phục hồi phế khí",
+    "yhhd_clinical_note": "Anosmia: post-viral (COVID-19 — direct olfactory epithelium injury), chronic sinusitis, nasal polyps, head trauma (cribriform plate). Neurodegenerative red flag: early Parkinson disease, Alzheimer disease (olfactory bulb degeneration precedes motor symptoms). Consider MRI if unexplained."
+  },
+  {
+    "id": "SYM_B01_030",
+    "symptom_code": "visual_floaters",
+    "name_vi": "Ruồi bay / đốm sáng trước mắt",
+    "name_en": "Visual floaters and photopsia",
+    "category": "neurological",
+    "icd11_approximate": "MC10",
+    "severity_weight": 0.4,
+    "time_sensitivity": "acute",
+    "bat_cuong_weights": {
+      "cold": 0.1,
+      "heat": 0.3,
+      "deficiency": 0.6,
+      "excess": 0.3,
+      "exterior": 0.1,
+      "interior": 0.8
+    },
+    "zangfu_weights": {
+      "liver": 0.7,
+      "heart": 0.2,
+      "spleen": 0.2,
+      "lung": 0.1,
+      "kidney": 0.5
+    },
+    "red_flag_level": "L2_urgent",
+    "cluster_contribution": ["liver_blood_deficiency_cluster", "retinal_cluster"],
+    "yhct_clinical_note": "Ruồi bay → can huyết hư không dưỡng mắt (can khai khiếu ở mắt). Thận tinh hư → tinh không hóa huyết dưỡng mục. Cấp cứu khi kèm màn che → bong võng mạc",
+    "yhhd_clinical_note": "New floaters + photopsia: posterior vitreous detachment (PVD — benign, common >50y). RED FLAGS requiring SAME-DAY ophthalmology: shower of floaters, flashing lights, visual field defect (curtain/shadow) = retinal tear or detachment. Migraine aura (floaters + scotoma, resolves in <60 min)."
+  },
+  {
+    "id": "SYM_B01_031",
+    "symptom_code": "thunderclap_headache_red_flag",
+    "name_vi": "Đau đầu sét đánh (cờ đỏ thần kinh)",
+    "name_en": "Sudden thunderclap headache — neurological emergency",
+    "category": "neurological",
+    "icd11_approximate": "8B00",
+    "severity_weight": 1.0,
+    "time_sensitivity": "acute",
+    "bat_cuong_weights": {
+      "cold": 0.0,
+      "heat": 0.9,
+      "deficiency": 0.1,
+      "excess": 1.0,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.8,
+      "heart": 0.6,
+      "spleen": 0.0,
+      "lung": 0.0,
+      "kidney": 0.3
+    },
+    "red_flag_level": "L1_emergency",
+    "cluster_contribution": ["subarachnoid_hemorrhage_cluster", "neurological_emergency_cluster"],
+    "yhct_clinical_note": "ĐÂY LÀ CẤP CỨU Y TẾ. Gọi cấp cứu ngay. YHCT: phong hỏa nhiễu não bạo cấp, khí huyết nghịch thượng. KHÔNG điều trị YHCT đơn độc. Hỗ trợ YHCT chỉ sau khi đã điều trị cấp cứu y tế hiện đại",
+    "yhhd_clinical_note": "NEUROLOGICAL EMERGENCY. Subarachnoid hemorrhage (SAH) until excluded. Protocol: Immediate non-contrast CT head → if negative and suspicion high → lumbar puncture (xanthochromia, RBC). Also consider: RCVS, cerebral venous thrombosis, hypertensive emergency, vertebral/carotid artery dissection, pituitary apoplexy."
+  },
+  {
+    "id": "SYM_B01_032",
+    "symptom_code": "sudden_facial_droop",
+    "name_vi": "Méo miệng / liệt mặt đột ngột",
+    "name_en": "Sudden facial droop",
+    "category": "neurological",
+    "icd11_approximate": "8B20",
+    "severity_weight": 0.95,
+    "time_sensitivity": "acute",
+    "bat_cuong_weights": {
+      "cold": 0.2,
+      "heat": 0.5,
+      "deficiency": 0.3,
+      "excess": 0.7,
+      "exterior": 0.2,
+      "interior": 0.8
+    },
+    "zangfu_weights": {
+      "liver": 0.7,
+      "heart": 0.6,
+      "spleen": 0.2,
+      "lung": 0.1,
+      "kidney": 0.3
+    },
+    "red_flag_level": "L1_emergency",
+    "cluster_contribution": ["stroke_cluster", "neurological_emergency_cluster"],
+    "yhct_clinical_note": "Méo miệng đột ngột → TRÚNG PHONG cấp cứu. Phân biệt trung ương (toàn bộ nửa mặt kể cả trán, + yếu tay chân = đột quỵ) vs ngoại vi (Bell palsy, trán cũng liệt). Đột quỵ → gọi cấp cứu 115 ngay",
+    "yhhd_clinical_note": "STROKE PROTOCOL — activate immediately. Upper vs lower motor neuron: central (UMN — forehead spared, contralateral limb weakness) = STROKE until proven otherwise. Peripheral (LMN — complete hemifacial, including forehead) = Bell palsy, Ramsay Hunt syndrome, Lyme disease. FAST acronym: Face-Arm-Speech-Time."
+  },
+  {
+    "id": "SYM_B01_033",
+    "symptom_code": "sudden_slurred_speech",
+    "name_vi": "Nói khó / nói không rõ đột ngột",
+    "name_en": "Sudden slurred speech or dysarthria",
+    "category": "neurological",
+    "icd11_approximate": "MB22",
+    "severity_weight": 0.95,
+    "time_sensitivity": "acute",
+    "bat_cuong_weights": {
+      "cold": 0.1,
+      "heat": 0.6,
+      "deficiency": 0.3,
+      "excess": 0.8,
+      "exterior": 0.1,
+      "interior": 0.9
+    },
+    "zangfu_weights": {
+      "liver": 0.7,
+      "heart": 0.7,
+      "spleen": 0.2,
+      "lung": 0.2,
+      "kidney": 0.3
+    },
+    "red_flag_level": "L1_emergency",
+    "cluster_contribution": ["stroke_cluster", "neurological_emergency_cluster"],
+    "yhct_clinical_note": "Nói không rõ đột ngột → Trúng phong phạm tâm khai khiếu, hoặc phong đàm trở lưỡi. Kèm lưỡi lệch → điển hình trúng phong. GỌI CẤP CỨU 115 NGAY. Thời gian = não",
+    "yhhd_clinical_note": "STROKE PROTOCOL — Time is brain. Dysarthria (motor speech) vs aphasia (language processing — dominant hemisphere stroke). Sudden slurred speech: ischemic stroke, hemorrhagic stroke, TIA. thrombolysis window: 4.5 hours from symptom onset. Also: posterior fossa lesion, MS, intoxication (less acute)."
+  },
+  {
+    "id": "SYM_B01_034",
+    "symptom_code": "sudden_unilateral_weakness",
+    "name_vi": "Yếu / liệt nửa người đột ngột",
+    "name_en": "Sudden unilateral limb weakness / hemiplegia",
+    "category": "neurological",
+    "icd11_approximate": "MB43",
+    "severity_weight": 0.98,
+    "time_sensitivity": "acute",
+    "bat_cuong_weights": {
+      "cold": 0.1,
+      "heat": 0.5,
+      "deficiency": 0.3,
+      "excess": 0.8,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.7,
+      "heart": 0.5,
+      "spleen": 0.3,
+      "lung": 0.1,
+      "kidney": 0.4
+    },
+    "red_flag_level": "L1_emergency",
+    "cluster_contribution": ["stroke_cluster", "neurological_emergency_cluster"],
+    "yhct_clinical_note": "Yếu liệt nửa người đột ngột → TRÚNG PHONG CẤP CỨU. Phong dương nhiễu loạn kinh lạc, khí huyết tắc trở não. Giai đoạn cấp → y học hiện đại. YHCT hỗ trợ phục hồi sau giai đoạn cấp ổn định",
+    "yhhd_clinical_note": "NEUROLOGICAL EMERGENCY — Stroke code. Sudden contralateral hemiplegia/hemiparesis: ischemic stroke (MCA territory most common), hemorrhagic stroke. NIHSS assessment. IV tPA within 4.5h if eligible. Mechanical thrombectomy up to 24h in selected patients. Immediate CT/MRI."
+  },
+  {
+    "id": "SYM_B01_035",
+    "symptom_code": "sudden_vision_loss",
+    "name_vi": "Mất thị lực đột ngột một bên hoặc hai bên",
+    "name_en": "Sudden vision loss",
+    "category": "neurological",
+    "icd11_approximate": "9D90",
+    "severity_weight": 0.97,
+    "time_sensitivity": "acute",
+    "bat_cuong_weights": {
+      "cold": 0.1,
+      "heat": 0.6,
+      "deficiency": 0.3,
+      "excess": 0.7,
+      "exterior": 0.1,
+      "interior": 0.9
+    },
+    "zangfu_weights": {
+      "liver": 0.8,
+      "heart": 0.5,
+      "spleen": 0.1,
+      "lung": 0.1,
+      "kidney": 0.4
+    },
+    "red_flag_level": "L1_emergency",
+    "cluster_contribution": ["stroke_cluster", "ocular_emergency_cluster", "neurological_emergency_cluster"],
+    "yhct_clinical_note": "Mất thị lực đột ngột → Can khai khiếu ở mắt, can huyết không dưỡng mục. Phong hỏa hoặc huyết ứ tắc mạch mắt/não. CẤP CỨU: TIA/Stroke (amaurosis fugax), tắc động mạch võng mạc, viêm động mạch thái dương",
+    "yhhd_clinical_note": "OCULAR/NEUROLOGICAL EMERGENCY. Monocular (retinal artery occlusion — 'window of opportunity' 4-6h, ophthalmology emergency; retinal detachment; acute glaucoma — pain, red eye) vs binocular (posterior cortex stroke — occipital lobe). Amaurosis fugax (transient monocular) = TIA, urgent carotid workup."
+  },
+  {
+    "id": "SYM_B01_036",
+    "symptom_code": "altered_consciousness",
+    "name_vi": "Rối loạn ý thức / lơ mơ / mê sảng",
+    "name_en": "Altered level of consciousness / confusion / delirium",
+    "category": "neurological",
+    "icd11_approximate": "MB20",
+    "severity_weight": 0.98,
+    "time_sensitivity": "acute",
+    "bat_cuong_weights": {
+      "cold": 0.2,
+      "heat": 0.7,
+      "deficiency": 0.4,
+      "excess": 0.7,
+      "exterior": 0.2,
+      "interior": 0.9
+    },
+    "zangfu_weights": {
+      "liver": 0.6,
+      "heart": 0.9,
+      "spleen": 0.3,
+      "lung": 0.3,
+      "kidney": 0.4
+    },
+    "red_flag_level": "L1_emergency",
+    "cluster_contribution": ["neurological_emergency_cluster", "delirium_cluster"],
+    "yhct_clinical_note": "Rối loạn ý thức → tâm chủ thần minh bị tổn thương. Đàm hỏa bế tắc tâm khiếu (đàm mê tâm khiếu). Hư chứng → tâm thận dương hư, thần thoát. CẤP CỨU y học hiện đại trước tiên",
+    "yhhd_clinical_note": "EMERGENCY. Acute altered consciousness: AEIOU-TIPS mnemonic (Alcohol, Epilepsy, Insulin/glucose, Opiates, Uremia/renal; Trauma, Infection/meningitis/encephalitis, Psychiatric, Stroke/structural). GCS scoring. Immediate: glucose check, oxygen, IV access, CT head. Septic encephalopathy most common in hospitalized patients."
+  },
+  {
+    "id": "SYM_B01_037",
+    "symptom_code": "poor_concentration",
+    "name_vi": "Kém tập trung / khó chú ý",
+    "name_en": "Poor concentration and attention",
+    "category": "neurological",
+    "icd11_approximate": "MB21.2",
+    "severity_weight": 0.3,
+    "time_sensitivity": "chronic",
+    "bat_cuong_weights": {
+      "cold": 0.1,
+      "heat": 0.3,
+      "deficiency": 0.7,
+      "excess": 0.3,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.3,
+      "heart": 0.7,
+      "spleen": 0.6,
+      "lung": 0.1,
+      "kidney": 0.4
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["qi_blood_deficiency_cluster", "adhd_cluster", "depression_cluster"],
+    "yhct_clinical_note": "Kém tập trung → tâm huyết hư hoặc tỳ hư khí huyết không nuôi dưỡng tâm thần. 'Tâm chủ tư duy, tâm hư → tư duy kém'. Tỳ hư → không sinh hóa huyết → tâm không đủ huyết",
+    "yhhd_clinical_note": "Poor concentration differential: ADHD (childhood onset, pervasive), depression (with psychomotor slowing), anxiety (rumination impairs attention), sleep deprivation, hypothyroidism, B12 deficiency, early cognitive impairment. Screen PHQ-9, TSH, B12, CBC."
+  },
+  {
+    "id": "SYM_B01_038",
+    "symptom_code": "memory_impairment",
+    "name_vi": "Suy giảm trí nhớ",
+    "name_en": "Memory impairment",
+    "category": "neurological",
+    "icd11_approximate": "MB21.0",
+    "severity_weight": 0.5,
+    "time_sensitivity": "chronic",
+    "bat_cuong_weights": {
+      "cold": 0.1,
+      "heat": 0.2,
+      "deficiency": 0.8,
+      "excess": 0.2,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.3,
+      "heart": 0.6,
+      "spleen": 0.5,
+      "lung": 0.1,
+      "kidney": 0.7
+    },
+    "red_flag_level": "L3_watch",
+    "cluster_contribution": ["kidney_deficiency_cluster", "qi_blood_deficiency_cluster", "dementia_cluster"],
+    "yhct_clinical_note": "Suy giảm trí nhớ → thận tàng tinh, tinh sinh tủy, tủy dưỡng não. Thận hư → não tủy không đủ → trí nhớ kém. Tâm huyết hư → thần kinh kém dưỡng. 'Thận chủ trí, thận hư → hay quên'",
+    "yhhd_clinical_note": "Memory impairment: MCI (mild cognitive impairment — amnestic type, high Alzheimer risk) vs dementia. Reversible causes: B12 deficiency, hypothyroidism, depression (pseudodementia), NPH (triad: gait, urinary incontinence, dementia), medications. MoCA screening (≥26 normal). Brain MRI + metabolic workup."
+  },
+  {
+    "id": "SYM_B01_039",
+    "symptom_code": "persistent_anxiety",
+    "name_vi": "Lo âu kéo dài / lo lắng thường xuyên",
+    "name_en": "Persistent anxiety",
+    "category": "neurological",
+    "icd11_approximate": "6B00",
+    "severity_weight": 0.4,
+    "time_sensitivity": "chronic",
+    "bat_cuong_weights": {
+      "cold": 0.1,
+      "heat": 0.5,
+      "deficiency": 0.6,
+      "excess": 0.5,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.6,
+      "heart": 0.8,
+      "spleen": 0.4,
+      "lung": 0.3,
+      "kidney": 0.3
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["liver_qi_stagnation_cluster", "heart_yin_deficiency_cluster", "anxiety_disorder_cluster"],
+    "yhct_clinical_note": "Lo âu kéo dài → can khí uất kết, tâm thần không yên. Tâm đởm khí hư → thần kinh dễ lo sợ. 'Đởm chủ quyết đoán, đởm khí hư → kinh lo'. Kèm mất ngủ → tâm huyết hư. Ôn đởm thang, Quy tỳ thang phù hợp",
+    "yhhd_clinical_note": "Generalized anxiety disorder (GAD): excessive worry ≥6 months, ≥3 somatic symptoms (fatigue, concentration, irritability, muscle tension, sleep disturbance). Screen GAD-7. First-line: SSRIs/SNRIs + CBT. Rule out: hyperthyroidism, pheochromocytoma, stimulant use, caffeine excess."
+  },
+  {
+    "id": "SYM_B01_040",
+    "symptom_code": "irritability_emotional_lability",
+    "name_vi": "Cáu gắt / dễ nổi nóng / tâm tính thất thường",
+    "name_en": "Irritability and emotional lability",
+    "category": "neurological",
+    "icd11_approximate": "MB24.4",
+    "severity_weight": 0.3,
+    "time_sensitivity": "chronic",
+    "bat_cuong_weights": {
+      "cold": 0.0,
+      "heat": 0.7,
+      "deficiency": 0.4,
+      "excess": 0.6,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.9,
+      "heart": 0.5,
+      "spleen": 0.2,
+      "lung": 0.1,
+      "kidney": 0.3
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["liver_fire_cluster", "liver_qi_stagnation_cluster"],
+    "yhct_clinical_note": "Cáu gắt dễ nổi nóng → can hỏa vượng, can khí uất kết. 'Can chủ sơ tiết, can uất → thất sơ tiết → tình chí kém điều tiết'. Điển hình can hỏa vượng. Long đởm tả can thang nếu nhiệt thực. Long cốt mẫu lệ nếu âm hư dương vượng",
+    "yhhd_clinical_note": "Irritability: liver pathology (elevated ammonia, hepatic encephalopathy), hyperthyroidism, premenstrual dysphoric disorder (PMDD), bipolar disorder (mixed or manic phase), frontal lobe lesion (disinhibition), substance withdrawal (alcohol, benzodiazepine), TBI sequela. TSH and LFTs in workup."
+  }
+]

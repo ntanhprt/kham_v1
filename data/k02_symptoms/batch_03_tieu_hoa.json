@@ -1,0 +1,1162 @@
+[
+  {
+    "id": "SYM_B03_001",
+    "symptom_code": "epigastric_burning_pain",
+    "name_vi": "Đau rát thượng vị",
+    "name_en": "Epigastric burning pain",
+    "category": "gastrointestinal",
+    "icd11_approximate": "DA91",
+    "severity_weight": 0.5,
+    "time_sensitivity": "subacute",
+    "bat_cuong_weights": {
+      "cold": 0.1,
+      "heat": 0.8,
+      "deficiency": 0.2,
+      "excess": 0.6,
+      "exterior": 0.0,
+      "interior": 0.9
+    },
+    "zangfu_weights": {
+      "liver": 0.5,
+      "heart": 0.0,
+      "spleen": 0.7,
+      "lung": 0.0,
+      "kidney": 0.1
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["peptic_ulcer_cluster", "gerd_cluster"],
+    "yhct_clinical_note": "Vị nhiệt hoặc Can Vị bất hòa. Kèm ợ chua → Vị nhiệt; kèm tức sườn → Can khí phạm Vị",
+    "yhhd_clinical_note": "GERD, peptic ulcer, gastritis. Red flag if + weight loss or dysphagia → gastric cancer"
+  },
+  {
+    "id": "SYM_B03_002",
+    "symptom_code": "colicky_generalized_abdominal_pain",
+    "name_vi": "Đau bụng quặn từng cơn lan tỏa",
+    "name_en": "Colicky generalized abdominal pain",
+    "category": "gastrointestinal",
+    "icd11_approximate": "MD81",
+    "severity_weight": 0.6,
+    "time_sensitivity": "acute",
+    "bat_cuong_weights": {
+      "cold": 0.6,
+      "heat": 0.3,
+      "deficiency": 0.2,
+      "excess": 0.7,
+      "exterior": 0.1,
+      "interior": 0.9
+    },
+    "zangfu_weights": {
+      "liver": 0.5,
+      "heart": 0.0,
+      "spleen": 0.6,
+      "lung": 0.0,
+      "kidney": 0.2
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["ibs_cluster", "intestinal_obstruction_cluster", "gastroenteritis_cluster"],
+    "yhct_clinical_note": "Hàn ngưng khí trệ hoặc Thực trệ. Đau giảm khi chườm ấm → Hàn; đau tăng khi ấn → Thực trệ hoặc Đại trường thấp nhiệt",
+    "yhhd_clinical_note": "IBS, gastroenteritis, intestinal obstruction. Sudden onset + peritoneal signs → surgical emergency"
+  },
+  {
+    "id": "SYM_B03_003",
+    "symptom_code": "right_iliac_fossa_pain",
+    "name_vi": "Đau hố chậu phải",
+    "name_en": "Right iliac fossa pain",
+    "category": "gastrointestinal",
+    "icd11_approximate": "MD81",
+    "severity_weight": 0.8,
+    "time_sensitivity": "acute",
+    "bat_cuong_weights": {
+      "cold": 0.2,
+      "heat": 0.6,
+      "deficiency": 0.1,
+      "excess": 0.8,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.2,
+      "heart": 0.0,
+      "spleen": 0.4,
+      "lung": 0.0,
+      "kidney": 0.3
+    },
+    "red_flag_level": "L1",
+    "cluster_contribution": ["appendicitis_cluster", "ovarian_pathology_cluster", "crohn_cluster"],
+    "yhct_clinical_note": "Trường ung (viêm ruột thừa) biểu hiện nhiệt độc tụ kết. Đau cố định, từ chối ấn → Nhiệt độc nội kết Đại trường",
+    "yhhd_clinical_note": "Appendicitis until proven otherwise. McBurney point tenderness, Rovsing sign. Urgent surgical referral"
+  },
+  {
+    "id": "SYM_B03_004",
+    "symptom_code": "right_hypochondrial_pain",
+    "name_vi": "Đau hạ sườn phải",
+    "name_en": "Right hypochondrial pain",
+    "category": "gastrointestinal",
+    "icd11_approximate": "DC10",
+    "severity_weight": 0.7,
+    "time_sensitivity": "subacute",
+    "bat_cuong_weights": {
+      "cold": 0.2,
+      "heat": 0.5,
+      "deficiency": 0.2,
+      "excess": 0.7,
+      "exterior": 0.0,
+      "interior": 0.9
+    },
+    "zangfu_weights": {
+      "liver": 0.9,
+      "heart": 0.0,
+      "spleen": 0.3,
+      "lung": 0.0,
+      "kidney": 0.1
+    },
+    "red_flag_level": "L2",
+    "cluster_contribution": ["cholecystitis_cluster", "hepatitis_cluster", "cholelithiasis_cluster"],
+    "yhct_clinical_note": "Can khí uất kết hoặc Đởm thấp nhiệt. Kèm vàng da → Đởm thấp nhiệt; kèm căng tức → Can khí uất",
+    "yhhd_clinical_note": "Cholecystitis, hepatitis, cholelithiasis. Murphy sign positive → cholecystitis. Check LFTs, ultrasound"
+  },
+  {
+    "id": "SYM_B03_005",
+    "symptom_code": "diffuse_peritoneal_pain",
+    "name_vi": "Đau bụng lan tỏa toàn ổ phúc mạc",
+    "name_en": "Diffuse peritoneal pain",
+    "category": "gastrointestinal",
+    "icd11_approximate": "DB95",
+    "severity_weight": 1.0,
+    "time_sensitivity": "immediate",
+    "bat_cuong_weights": {
+      "cold": 0.2,
+      "heat": 0.7,
+      "deficiency": 0.1,
+      "excess": 0.9,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.3,
+      "heart": 0.0,
+      "spleen": 0.4,
+      "lung": 0.0,
+      "kidney": 0.2
+    },
+    "red_flag_level": "L1",
+    "cluster_contribution": ["peritonitis_cluster", "perforated_viscus_cluster"],
+    "yhct_clinical_note": "Nhiệt độc hoặc Hàn tà kết tụ phúc mạc. Trong YHCT tương đương 'Phúc thống cấp chứng', cần cấp cứu ngoại khoa",
+    "yhhd_clinical_note": "Peritonitis, perforated viscus. Board-like rigidity, rebound tenderness. Immediate surgical emergency"
+  },
+  {
+    "id": "SYM_B03_006",
+    "symptom_code": "hypogastric_cramping_pain",
+    "name_vi": "Đau quặn vùng hạ vị",
+    "name_en": "Hypogastric cramping pain",
+    "category": "gastrointestinal",
+    "icd11_approximate": "MD81",
+    "severity_weight": 0.4,
+    "time_sensitivity": "subacute",
+    "bat_cuong_weights": {
+      "cold": 0.5,
+      "heat": 0.3,
+      "deficiency": 0.4,
+      "excess": 0.5,
+      "exterior": 0.0,
+      "interior": 0.9
+    },
+    "zangfu_weights": {
+      "liver": 0.5,
+      "heart": 0.0,
+      "spleen": 0.5,
+      "lung": 0.0,
+      "kidney": 0.4
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["ibs_cluster", "ibd_cluster", "gynecological_cluster"],
+    "yhct_clinical_note": "Tỳ Vị hư hàn hoặc Can khí phạm Tỳ. Kèm đi phân lỏng → Tỳ hư; kèm kinh nguyệt → Huyết hư hàn ngưng",
+    "yhhd_clinical_note": "IBS, IBD, gynecological causes in women. Exclude ovarian pathology. Assess bowel habit changes"
+  },
+  {
+    "id": "SYM_B03_007",
+    "symptom_code": "flank_abdominal_pain",
+    "name_vi": "Đau hông sườn hai bên",
+    "name_en": "Flank abdominal pain",
+    "category": "gastrointestinal",
+    "icd11_approximate": "MD81",
+    "severity_weight": 0.5,
+    "time_sensitivity": "subacute",
+    "bat_cuong_weights": {
+      "cold": 0.3,
+      "heat": 0.4,
+      "deficiency": 0.3,
+      "excess": 0.6,
+      "exterior": 0.0,
+      "interior": 0.9
+    },
+    "zangfu_weights": {
+      "liver": 0.7,
+      "heart": 0.0,
+      "spleen": 0.3,
+      "lung": 0.0,
+      "kidney": 0.5
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["renal_colic_cluster", "ibs_cluster", "liver_pathology_cluster"],
+    "yhct_clinical_note": "Can khí uất kết hoặc Thận hư. Đau lan xuống bẹn → Thận/Bàng quang; đau tăng theo stress → Can khí",
+    "yhhd_clinical_note": "Renal colic, IBS, hepatic pathology. Radiation to groin suggests urological cause. Urinalysis essential"
+  },
+  {
+    "id": "SYM_B03_008",
+    "symptom_code": "hunger_pain_relieved_by_eating",
+    "name_vi": "Đau đói giảm khi ăn",
+    "name_en": "Hunger pain relieved by eating",
+    "category": "gastrointestinal",
+    "icd11_approximate": "DA63",
+    "severity_weight": 0.5,
+    "time_sensitivity": "subacute",
+    "bat_cuong_weights": {
+      "cold": 0.4,
+      "heat": 0.3,
+      "deficiency": 0.7,
+      "excess": 0.3,
+      "exterior": 0.0,
+      "interior": 0.9
+    },
+    "zangfu_weights": {
+      "liver": 0.3,
+      "heart": 0.0,
+      "spleen": 0.8,
+      "lung": 0.0,
+      "kidney": 0.1
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["peptic_ulcer_cluster", "duodenal_ulcer_cluster"],
+    "yhct_clinical_note": "Vị khí hư hoặc Vị âm hư. Đau giảm khi ăn điển hình → loét tá tràng. Tỳ Vị hư hàn kèm thích ấm",
+    "yhhd_clinical_note": "Classic duodenal ulcer pattern. Cyclical pain 2-3h after meals. H. pylori testing mandatory. PPI trial"
+  },
+  {
+    "id": "SYM_B03_009",
+    "symptom_code": "morning_nausea",
+    "name_vi": "Buồn nôn buổi sáng",
+    "name_en": "Morning nausea",
+    "category": "gastrointestinal",
+    "icd11_approximate": "MD90",
+    "severity_weight": 0.3,
+    "time_sensitivity": "subacute",
+    "bat_cuong_weights": {
+      "cold": 0.3,
+      "heat": 0.3,
+      "deficiency": 0.5,
+      "excess": 0.4,
+      "exterior": 0.1,
+      "interior": 0.8
+    },
+    "zangfu_weights": {
+      "liver": 0.5,
+      "heart": 0.0,
+      "spleen": 0.7,
+      "lung": 0.0,
+      "kidney": 0.3
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["pregnancy_cluster", "hepatitis_cluster", "gastroparesis_cluster"],
+    "yhct_clinical_note": "Vị khí thượng nghịch hoặc Đàm thấp khốn Tỳ. Kèm trễ kinh → nghén; kèm đầu váng → Đàm thấp",
+    "yhhd_clinical_note": "Pregnancy first trimester, hepatitis, gastroparesis. Always exclude pregnancy in women of childbearing age. Check βhCG"
+  },
+  {
+    "id": "SYM_B03_010",
+    "symptom_code": "post_meal_vomiting",
+    "name_vi": "Nôn sau ăn",
+    "name_en": "Post-meal vomiting",
+    "category": "gastrointestinal",
+    "icd11_approximate": "MD91",
+    "severity_weight": 0.6,
+    "time_sensitivity": "subacute",
+    "bat_cuong_weights": {
+      "cold": 0.3,
+      "heat": 0.4,
+      "deficiency": 0.4,
+      "excess": 0.5,
+      "exterior": 0.0,
+      "interior": 0.9
+    },
+    "zangfu_weights": {
+      "liver": 0.4,
+      "heart": 0.0,
+      "spleen": 0.8,
+      "lung": 0.0,
+      "kidney": 0.1
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["gastroparesis_cluster", "pyloric_stenosis_cluster", "gastric_outlet_obstruction_cluster"],
+    "yhct_clinical_note": "Vị khí thượng nghịch kèm Tỳ hư. Nôn thức ăn không tiêu → Thực trệ; nôn ra nước trong → Tỳ Vị hư hàn",
+    "yhhd_clinical_note": "Gastroparesis, pyloric stenosis, gastric outlet obstruction. Projectile or delayed vomiting distinctions important. Gastric emptying study"
+  },
+  {
+    "id": "SYM_B03_011",
+    "symptom_code": "bile_vomiting",
+    "name_vi": "Nôn ra mật xanh vàng",
+    "name_en": "Bile vomiting",
+    "category": "gastrointestinal",
+    "icd11_approximate": "MD91",
+    "severity_weight": 0.7,
+    "time_sensitivity": "acute",
+    "bat_cuong_weights": {
+      "cold": 0.1,
+      "heat": 0.6,
+      "deficiency": 0.2,
+      "excess": 0.7,
+      "exterior": 0.0,
+      "interior": 0.9
+    },
+    "zangfu_weights": {
+      "liver": 0.7,
+      "heart": 0.0,
+      "spleen": 0.5,
+      "lung": 0.0,
+      "kidney": 0.1
+    },
+    "red_flag_level": "L2",
+    "cluster_contribution": ["intestinal_obstruction_cluster", "cholecystitis_cluster", "post_surgical_cluster"],
+    "yhct_clinical_note": "Can Đởm uất nhiệt phạm Vị, Vị khí thượng nghịch nặng. Nôn mật liên tục → tắc ruột non",
+    "yhhd_clinical_note": "Suggests obstruction distal to sphincter of Oddi, or biliary pathology. Neonatal: bilious vomiting = surgical emergency"
+  },
+  {
+    "id": "SYM_B03_012",
+    "symptom_code": "blood_vomiting_hematemesis",
+    "name_vi": "Nôn ra máu",
+    "name_en": "Blood vomiting (hematemesis)",
+    "category": "gastrointestinal",
+    "icd11_approximate": "ME24.A0",
+    "severity_weight": 1.0,
+    "time_sensitivity": "immediate",
+    "bat_cuong_weights": {
+      "cold": 0.1,
+      "heat": 0.8,
+      "deficiency": 0.3,
+      "excess": 0.7,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.6,
+      "heart": 0.3,
+      "spleen": 0.5,
+      "lung": 0.0,
+      "kidney": 0.1
+    },
+    "red_flag_level": "L1",
+    "cluster_contribution": ["upper_gi_bleed_cluster", "peptic_ulcer_cluster", "varices_cluster", "mallory_weiss_cluster"],
+    "yhct_clinical_note": "Huyết nhiệt vong hành hoặc Can hỏa phạm Vị. Máu đỏ tươi → Can hỏa; máu nâu sẫm → Vị nhiệt. Cấp cứu",
+    "yhhd_clinical_note": "Upper GI bleed. Peptic ulcer 50%, varices 10-20%, Mallory-Weiss 5-10%. Hemodynamic stabilization, urgent endoscopy"
+  },
+  {
+    "id": "SYM_B03_013",
+    "symptom_code": "projectile_vomiting",
+    "name_vi": "Nôn vọt mạnh",
+    "name_en": "Projectile vomiting",
+    "category": "gastrointestinal",
+    "icd11_approximate": "MD91",
+    "severity_weight": 0.8,
+    "time_sensitivity": "acute",
+    "bat_cuong_weights": {
+      "cold": 0.2,
+      "heat": 0.5,
+      "deficiency": 0.1,
+      "excess": 0.8,
+      "exterior": 0.0,
+      "interior": 0.9
+    },
+    "zangfu_weights": {
+      "liver": 0.3,
+      "heart": 0.2,
+      "spleen": 0.6,
+      "lung": 0.0,
+      "kidney": 0.2
+    },
+    "red_flag_level": "L1",
+    "cluster_contribution": ["pyloric_stenosis_cluster", "raised_icp_cluster", "intestinal_obstruction_cluster"],
+    "yhct_clinical_note": "Vị khí thượng nghịch cực mạnh. Trẻ nhũ nhi → hẹp môn vị; người lớn + đau đầu dữ dội → áp lực nội sọ tăng",
+    "yhhd_clinical_note": "Pyloric stenosis in infants, raised ICP in adults. Non-bilious in infants (pyloric stenosis). Urgent imaging if neurological signs"
+  },
+  {
+    "id": "SYM_B03_014",
+    "symptom_code": "watery_diarrhea",
+    "name_vi": "Tiêu chảy phân nước",
+    "name_en": "Watery diarrhea",
+    "category": "gastrointestinal",
+    "icd11_approximate": "ME05",
+    "severity_weight": 0.5,
+    "time_sensitivity": "acute",
+    "bat_cuong_weights": {
+      "cold": 0.5,
+      "heat": 0.4,
+      "deficiency": 0.5,
+      "excess": 0.5,
+      "exterior": 0.2,
+      "interior": 0.8
+    },
+    "zangfu_weights": {
+      "liver": 0.2,
+      "heart": 0.0,
+      "spleen": 0.9,
+      "lung": 0.1,
+      "kidney": 0.4
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["acute_gastroenteritis_cluster", "cholera_cluster", "ibs_d_cluster", "malabsorption_cluster"],
+    "yhct_clinical_note": "Tỳ hư thấp thịnh hoặc Hàn thấp khốn Tỳ. Phân nước nhiều, tanh hôi → Đại trường thấp nhiệt; phân nước trong → Tỳ dương hư",
+    "yhhd_clinical_note": "Acute gastroenteritis, cholera, IBS-D, malabsorption. Assess hydration status. ORS first line. Culture if bloody or prolonged"
+  },
+  {
+    "id": "SYM_B03_015",
+    "symptom_code": "mucoid_bloody_stool",
+    "name_vi": "Phân có máu và nhầy",
+    "name_en": "Mucoid bloody stool",
+    "category": "gastrointestinal",
+    "icd11_approximate": "ME04",
+    "severity_weight": 0.8,
+    "time_sensitivity": "acute",
+    "bat_cuong_weights": {
+      "cold": 0.1,
+      "heat": 0.8,
+      "deficiency": 0.2,
+      "excess": 0.8,
+      "exterior": 0.1,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.2,
+      "heart": 0.0,
+      "spleen": 0.7,
+      "lung": 0.1,
+      "kidney": 0.2
+    },
+    "red_flag_level": "L1",
+    "cluster_contribution": ["dysentery_cluster", "ibd_cluster", "colorectal_cancer_cluster", "ischemic_colitis_cluster"],
+    "yhct_clinical_note": "Đại trường thấp nhiệt hoặc Nhiệt độc thịnh. Phân có máu mủ + mót rặn → lỵ trực khuẩn; mạn tính → viêm loét đại trực tràng",
+    "yhhd_clinical_note": "Dysentery, IBD, colorectal cancer, ischemic colitis. Stool culture, colonoscopy if chronic. Ischemic colitis in elderly with vascular disease"
+  },
+  {
+    "id": "SYM_B03_016",
+    "symptom_code": "nocturnal_diarrhea",
+    "name_vi": "Tiêu chảy về đêm",
+    "name_en": "Nocturnal diarrhea",
+    "category": "gastrointestinal",
+    "icd11_approximate": "ME05",
+    "severity_weight": 0.6,
+    "time_sensitivity": "subacute",
+    "bat_cuong_weights": {
+      "cold": 0.6,
+      "heat": 0.2,
+      "deficiency": 0.8,
+      "excess": 0.2,
+      "exterior": 0.0,
+      "interior": 0.9
+    },
+    "zangfu_weights": {
+      "liver": 0.2,
+      "heart": 0.0,
+      "spleen": 0.7,
+      "lung": 0.0,
+      "kidney": 0.8
+    },
+    "red_flag_level": "L2",
+    "cluster_contribution": ["ibd_cluster", "diabetic_neuropathy_cluster", "microscopic_colitis_cluster"],
+    "yhct_clinical_note": "Thận dương hư - ngũ canh tả (tiêu chảy lúc 5 giờ sáng). Tỳ Thận dương hư: sợ lạnh, tứ chi lạnh, lưng gối đau mỏi",
+    "yhhd_clinical_note": "IBD, diabetic autonomic neuropathy, microscopic colitis. Nocturnal diarrhea distinguishes organic from functional (IBS typically absent at night)"
+  },
+  {
+    "id": "SYM_B03_017",
+    "symptom_code": "constipation_hard_stool",
+    "name_vi": "Táo bón phân cứng khô",
+    "name_en": "Constipation with hard dry stool",
+    "category": "gastrointestinal",
+    "icd11_approximate": "ME03",
+    "severity_weight": 0.3,
+    "time_sensitivity": "chronic",
+    "bat_cuong_weights": {
+      "cold": 0.3,
+      "heat": 0.5,
+      "deficiency": 0.5,
+      "excess": 0.4,
+      "exterior": 0.0,
+      "interior": 0.9
+    },
+    "zangfu_weights": {
+      "liver": 0.4,
+      "heart": 0.1,
+      "spleen": 0.6,
+      "lung": 0.4,
+      "kidney": 0.5
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["functional_constipation_cluster", "hypothyroid_cluster", "ibs_c_cluster"],
+    "yhct_clinical_note": "Tràng táo (Đại trường táo): Trường nhiệt thương tân; hoặc Khí hư, Huyết hư, Âm hư → táo bón. Người già → Thận âm hư, Thận dương hư",
+    "yhhd_clinical_note": "Functional constipation, IBS-C, hypothyroidism, medication side effect. New onset constipation >40y warrants colonoscopy"
+  },
+  {
+    "id": "SYM_B03_018",
+    "symptom_code": "alternating_bowel_habit",
+    "name_vi": "Thay đổi thói quen đại tiện xen kẽ táo lỏng",
+    "name_en": "Alternating bowel habit (constipation and diarrhea)",
+    "category": "gastrointestinal",
+    "icd11_approximate": "DD91",
+    "severity_weight": 0.5,
+    "time_sensitivity": "subacute",
+    "bat_cuong_weights": {
+      "cold": 0.3,
+      "heat": 0.3,
+      "deficiency": 0.5,
+      "excess": 0.5,
+      "exterior": 0.0,
+      "interior": 0.9
+    },
+    "zangfu_weights": {
+      "liver": 0.7,
+      "heart": 0.0,
+      "spleen": 0.7,
+      "lung": 0.1,
+      "kidney": 0.3
+    },
+    "red_flag_level": "L2",
+    "cluster_contribution": ["ibs_cluster", "colorectal_cancer_cluster", "ibd_cluster"],
+    "yhct_clinical_note": "Can Tỳ bất hòa (Can khí phạm Tỳ). Thường kèm đau bụng giảm sau đi tiêu, căng thẳng làm nặng hơn",
+    "yhhd_clinical_note": "IBS most common, but new onset >40y or with red flags (weight loss, bleeding) → colonoscopy to exclude colorectal cancer"
+  },
+  {
+    "id": "SYM_B03_019",
+    "symptom_code": "pencil_thin_stool",
+    "name_vi": "Phân dẹt mỏng như bút chì",
+    "name_en": "Pencil-thin stool",
+    "category": "gastrointestinal",
+    "icd11_approximate": "2B90",
+    "severity_weight": 0.8,
+    "time_sensitivity": "subacute",
+    "bat_cuong_weights": {
+      "cold": 0.2,
+      "heat": 0.4,
+      "deficiency": 0.3,
+      "excess": 0.6,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.2,
+      "heart": 0.0,
+      "spleen": 0.5,
+      "lung": 0.2,
+      "kidney": 0.2
+    },
+    "red_flag_level": "L2",
+    "cluster_contribution": ["colorectal_cancer_cluster", "rectal_stricture_cluster"],
+    "yhct_clinical_note": "Trong YHCT: khối u ở Đại trường gây khí trệ huyết ứ. Triệu chứng thực thể, cần nội soi đại tràng",
+    "yhhd_clinical_note": "Strongly suggests rectal or left-sided colonic mass causing luminal narrowing. Urgent colonoscopy. Do not attribute to IBS without investigation"
+  },
+  {
+    "id": "SYM_B03_020",
+    "symptom_code": "steatorrhea",
+    "name_vi": "Phân mỡ (phân nhờn bóng, nổi váng)",
+    "name_en": "Steatorrhea (fatty, greasy stool)",
+    "category": "gastrointestinal",
+    "icd11_approximate": "DA94",
+    "severity_weight": 0.6,
+    "time_sensitivity": "subacute",
+    "bat_cuong_weights": {
+      "cold": 0.3,
+      "heat": 0.2,
+      "deficiency": 0.7,
+      "excess": 0.3,
+      "exterior": 0.0,
+      "interior": 0.9
+    },
+    "zangfu_weights": {
+      "liver": 0.4,
+      "heart": 0.0,
+      "spleen": 0.9,
+      "lung": 0.0,
+      "kidney": 0.3
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["malabsorption_cluster", "pancreatic_exocrine_insufficiency_cluster", "celiac_cluster"],
+    "yhct_clinical_note": "Tỳ hư vận hóa kém, Đàm thấp tích trệ. Tỳ không vận hóa thủy cốc → tinh vi không hấp thu, phân nhờn",
+    "yhhd_clinical_note": "Malabsorption: chronic pancreatitis, celiac disease, pancreatic exocrine insufficiency. Fecal fat test, elastase-1. Address nutritional deficiencies"
+  },
+  {
+    "id": "SYM_B03_021",
+    "symptom_code": "melena_black_tarry_stool",
+    "name_vi": "Phân đen hắc ín (tiêu ra máu cũ)",
+    "name_en": "Melena (black tarry stool)",
+    "category": "gastrointestinal",
+    "icd11_approximate": "ME24.A1",
+    "severity_weight": 0.9,
+    "time_sensitivity": "immediate",
+    "bat_cuong_weights": {
+      "cold": 0.2,
+      "heat": 0.6,
+      "deficiency": 0.4,
+      "excess": 0.6,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.4,
+      "heart": 0.3,
+      "spleen": 0.6,
+      "lung": 0.0,
+      "kidney": 0.1
+    },
+    "red_flag_level": "L1",
+    "cluster_contribution": ["upper_gi_bleed_cluster", "peptic_ulcer_cluster", "esophageal_varices_cluster"],
+    "yhct_clinical_note": "Huyết ứ Vị Trường hoặc Tỳ không thống huyết. Phân đen hôi → xuất huyết tiêu hóa trên. Bệnh nhân suy nhược → Tỳ khí hư",
+    "yhhd_clinical_note": "Upper GI bleed proximal to ligament of Treitz. Confirm with rectal exam (black sticky stool). Urgent endoscopy. Hemodynamic assessment"
+  },
+  {
+    "id": "SYM_B03_022",
+    "symptom_code": "acid_regurgitation",
+    "name_vi": "Ợ chua trào ngược",
+    "name_en": "Acid regurgitation",
+    "category": "gastrointestinal",
+    "icd11_approximate": "DA22",
+    "severity_weight": 0.3,
+    "time_sensitivity": "chronic",
+    "bat_cuong_weights": {
+      "cold": 0.1,
+      "heat": 0.7,
+      "deficiency": 0.2,
+      "excess": 0.6,
+      "exterior": 0.0,
+      "interior": 0.9
+    },
+    "zangfu_weights": {
+      "liver": 0.6,
+      "heart": 0.0,
+      "spleen": 0.7,
+      "lung": 0.1,
+      "kidney": 0.1
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["gerd_cluster", "peptic_ulcer_cluster"],
+    "yhct_clinical_note": "Vị nhiệt hoặc Can khí phạm Vị. Ợ chua sau ăn, nằm → GERD; kèm tức ngực → Can khí phạm Vị",
+    "yhhd_clinical_note": "GERD hallmark symptom. PPI trial diagnostic. Alarm features (dysphagia, weight loss) → endoscopy. Lifestyle modification first"
+  },
+  {
+    "id": "SYM_B03_023",
+    "symptom_code": "belching_eructation",
+    "name_vi": "Ợ hơi ợ nước",
+    "name_en": "Belching / eructation",
+    "category": "gastrointestinal",
+    "icd11_approximate": "DA20",
+    "severity_weight": 0.2,
+    "time_sensitivity": "chronic",
+    "bat_cuong_weights": {
+      "cold": 0.2,
+      "heat": 0.3,
+      "deficiency": 0.3,
+      "excess": 0.5,
+      "exterior": 0.0,
+      "interior": 0.8
+    },
+    "zangfu_weights": {
+      "liver": 0.5,
+      "heart": 0.0,
+      "spleen": 0.6,
+      "lung": 0.1,
+      "kidney": 0.0
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["gerd_cluster", "functional_dyspepsia_cluster", "aerophagia_cluster"],
+    "yhct_clinical_note": "Vị khí thượng nghịch, Can khí phạm Vị. Ợ nhiều sau stress → Can Vị bất hòa; kèm đầy bụng → Thực trệ hoặc Đàm thấp",
+    "yhhd_clinical_note": "Functional dyspepsia, GERD, aerophagia. Frequent belching without relief suggests supragastric belching (behavioral). Reassurance if isolated"
+  },
+  {
+    "id": "SYM_B03_024",
+    "symptom_code": "early_satiety",
+    "name_vi": "Mau no (no sớm sau vài miếng ăn)",
+    "name_en": "Early satiety",
+    "category": "gastrointestinal",
+    "icd11_approximate": "DA23",
+    "severity_weight": 0.5,
+    "time_sensitivity": "subacute",
+    "bat_cuong_weights": {
+      "cold": 0.2,
+      "heat": 0.3,
+      "deficiency": 0.6,
+      "excess": 0.4,
+      "exterior": 0.0,
+      "interior": 0.9
+    },
+    "zangfu_weights": {
+      "liver": 0.3,
+      "heart": 0.0,
+      "spleen": 0.8,
+      "lung": 0.0,
+      "kidney": 0.2
+    },
+    "red_flag_level": "L2",
+    "cluster_contribution": ["gastroparesis_cluster", "gastric_cancer_cluster", "functional_dyspepsia_cluster"],
+    "yhct_clinical_note": "Tỳ Vị khí hư, vận hóa kém, hoặc Thực trệ. Mau no kèm sụt cân → nghi ác tính. Tỳ Vị hư → không vận hóa thủy cốc",
+    "yhhd_clinical_note": "Gastroparesis, gastric cancer, functional dyspepsia. With weight loss → urgent endoscopy. Gastroparesis: postprandial fullness, nausea, bloating"
+  },
+  {
+    "id": "SYM_B03_025",
+    "symptom_code": "persistent_hiccup",
+    "name_vi": "Nấc cụt kéo dài trên 48 giờ",
+    "name_en": "Persistent hiccup (>48 hours)",
+    "category": "gastrointestinal",
+    "icd11_approximate": "MD52",
+    "severity_weight": 0.6,
+    "time_sensitivity": "subacute",
+    "bat_cuong_weights": {
+      "cold": 0.3,
+      "heat": 0.4,
+      "deficiency": 0.4,
+      "excess": 0.5,
+      "exterior": 0.0,
+      "interior": 0.9
+    },
+    "zangfu_weights": {
+      "liver": 0.4,
+      "heart": 0.1,
+      "spleen": 0.6,
+      "lung": 0.3,
+      "kidney": 0.3
+    },
+    "red_flag_level": "L2",
+    "cluster_contribution": ["gerd_cluster", "cns_lesion_cluster", "uremia_cluster", "phrenic_nerve_cluster"],
+    "yhct_clinical_note": "Vị khí thượng nghịch. Nấc do lạnh → Vị hàn; nấc sau ăn cay → Vị nhiệt; nấc lâu ngày + mệt → Vị khí hư",
+    "yhhd_clinical_note": "Persistent hiccup >48h needs investigation: GERD, CNS lesion (medulla), phrenic nerve irritation, uremia. CXR, CT head, renal function"
+  },
+  {
+    "id": "SYM_B03_026",
+    "symptom_code": "dysphagia_solids",
+    "name_vi": "Khó nuốt thức ăn đặc cứng",
+    "name_en": "Dysphagia to solid food",
+    "category": "gastrointestinal",
+    "icd11_approximate": "DA23.10",
+    "severity_weight": 0.8,
+    "time_sensitivity": "subacute",
+    "bat_cuong_weights": {
+      "cold": 0.1,
+      "heat": 0.4,
+      "deficiency": 0.4,
+      "excess": 0.6,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.4,
+      "heart": 0.1,
+      "spleen": 0.5,
+      "lung": 0.2,
+      "kidney": 0.2
+    },
+    "red_flag_level": "L1",
+    "cluster_contribution": ["esophageal_cancer_cluster", "peptic_stricture_cluster", "esophageal_ring_cluster"],
+    "yhct_clinical_note": "Cách (噎膈) - thực quản trở trệ. Can khí uất kết hoặc Đàm khí giao trở. Kèm sụt cân → ác tính. Cấp thiết nội soi",
+    "yhhd_clinical_note": "Progressive dysphagia to solids → esophageal cancer, peptic stricture, Schatzki ring. Urgent upper endoscopy. Weight loss = alarm feature"
+  },
+  {
+    "id": "SYM_B03_027",
+    "symptom_code": "dysphagia_liquids",
+    "name_vi": "Khó nuốt nước lỏng",
+    "name_en": "Dysphagia to liquids",
+    "category": "gastrointestinal",
+    "icd11_approximate": "DA23.10",
+    "severity_weight": 0.9,
+    "time_sensitivity": "acute",
+    "bat_cuong_weights": {
+      "cold": 0.1,
+      "heat": 0.3,
+      "deficiency": 0.5,
+      "excess": 0.4,
+      "exterior": 0.0,
+      "interior": 0.9
+    },
+    "zangfu_weights": {
+      "liver": 0.2,
+      "heart": 0.2,
+      "spleen": 0.3,
+      "lung": 0.5,
+      "kidney": 0.3
+    },
+    "red_flag_level": "L1",
+    "cluster_contribution": ["neurological_dysphagia_cluster", "achalasia_cluster", "motor_neuron_disease_cluster"],
+    "yhct_clinical_note": "Trong YHCT liên quan Tâm, Phế, Thận - phản ánh bệnh thần kinh. Khó nuốt lỏng → nuốt sặc → phế nhiễm. Cần đánh giá thần kinh",
+    "yhhd_clinical_note": "Neurological dysphagia (stroke, MND, Parkinson, myasthenia), achalasia. Risk of aspiration pneumonia. Speech therapy assessment, videofluoroscopy"
+  },
+  {
+    "id": "SYM_B03_028",
+    "symptom_code": "persistent_anorexia",
+    "name_vi": "Chán ăn kéo dài",
+    "name_en": "Persistent anorexia",
+    "category": "gastrointestinal",
+    "icd11_approximate": "ME62",
+    "severity_weight": 0.6,
+    "time_sensitivity": "subacute",
+    "bat_cuong_weights": {
+      "cold": 0.3,
+      "heat": 0.3,
+      "deficiency": 0.7,
+      "excess": 0.3,
+      "exterior": 0.0,
+      "interior": 0.9
+    },
+    "zangfu_weights": {
+      "liver": 0.4,
+      "heart": 0.2,
+      "spleen": 0.9,
+      "lung": 0.1,
+      "kidney": 0.3
+    },
+    "red_flag_level": "L2",
+    "cluster_contribution": ["malignancy_cluster", "depression_cluster", "chronic_disease_cluster", "hepatitis_cluster"],
+    "yhct_clinical_note": "Tỳ Vị hư, không muốn ăn. Tỳ khí hư → ăn ít, bụng đầy; Thấp nhiệt khốn Tỳ → chán ăn + miệng đắng; Can khí → không muốn ăn kèm tức ngực",
+    "yhhd_clinical_note": "Red flag if >4 weeks with weight loss → malignancy workup. Depression, chronic hepatitis, medications. Full metabolic panel, imaging"
+  },
+  {
+    "id": "SYM_B03_029",
+    "symptom_code": "polyphagia_with_weight_loss",
+    "name_vi": "Ăn nhiều nhưng sụt cân",
+    "name_en": "Polyphagia with weight loss",
+    "category": "gastrointestinal",
+    "icd11_approximate": "5A00",
+    "severity_weight": 0.7,
+    "time_sensitivity": "subacute",
+    "bat_cuong_weights": {
+      "cold": 0.0,
+      "heat": 0.8,
+      "deficiency": 0.7,
+      "excess": 0.3,
+      "exterior": 0.0,
+      "interior": 0.9
+    },
+    "zangfu_weights": {
+      "liver": 0.2,
+      "heart": 0.2,
+      "spleen": 0.6,
+      "lung": 0.5,
+      "kidney": 0.6
+    },
+    "red_flag_level": "L2",
+    "cluster_contribution": ["diabetes_mellitus_cluster", "hyperthyroidism_cluster", "malabsorption_cluster"],
+    "yhct_clinical_note": "Tiêu khát - Vị nhiệt thịnh (trung tiêu tiêu khát): ăn nhiều mau đói. Phế Vị táo nhiệt. Cần kiểm tra đường huyết và tuyến giáp",
+    "yhhd_clinical_note": "Classic triad of DM (polyuria, polydipsia, polyphagia). Hyperthyroidism: weight loss + hypermetabolism. Fasting glucose, HbA1c, TFTs"
+  },
+  {
+    "id": "SYM_B03_030",
+    "symptom_code": "post_meal_somnolence",
+    "name_vi": "Buồn ngủ sau bữa ăn",
+    "name_en": "Post-meal somnolence (food coma)",
+    "category": "gastrointestinal",
+    "icd11_approximate": "DA23",
+    "severity_weight": 0.2,
+    "time_sensitivity": "chronic",
+    "bat_cuong_weights": {
+      "cold": 0.2,
+      "heat": 0.1,
+      "deficiency": 0.7,
+      "excess": 0.3,
+      "exterior": 0.0,
+      "interior": 0.8
+    },
+    "zangfu_weights": {
+      "liver": 0.2,
+      "heart": 0.3,
+      "spleen": 0.9,
+      "lung": 0.1,
+      "kidney": 0.2
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["tpi_spleen_qi_deficiency_cluster", "reactive_hypoglycemia_cluster", "dumping_syndrome_cluster"],
+    "yhct_clinical_note": "Tỳ khí hư, khí không thăng thanh. Sau ăn khí huyết dồn về Tỳ Vị vận hóa, Tâm não thiếu khí → buồn ngủ. Đặc trưng Tỳ khí hư",
+    "yhhd_clinical_note": "Physiological postprandial dip. Pathological in reactive hypoglycemia, dumping syndrome post-gastric surgery, narcolepsy. Check glucose curve if severe"
+  },
+  {
+    "id": "SYM_B03_031",
+    "symptom_code": "specific_food_aversion",
+    "name_vi": "Sợ/ghét một loại thức ăn cụ thể",
+    "name_en": "Specific food aversion",
+    "category": "gastrointestinal",
+    "icd11_approximate": "ME62",
+    "severity_weight": 0.2,
+    "time_sensitivity": "chronic",
+    "bat_cuong_weights": {
+      "cold": 0.2,
+      "heat": 0.2,
+      "deficiency": 0.4,
+      "excess": 0.3,
+      "exterior": 0.0,
+      "interior": 0.7
+    },
+    "zangfu_weights": {
+      "liver": 0.5,
+      "heart": 0.2,
+      "spleen": 0.6,
+      "lung": 0.1,
+      "kidney": 0.2
+    },
+    "red_flag_level": null,
+    "cluster_contribution": ["food_intolerance_cluster", "ibs_cluster", "pregnancy_cluster", "anxiety_cluster"],
+    "yhct_clinical_note": "Can khí phạm Vị hoặc Tỳ Vị hư. Sợ dầu mỡ → Đởm bệnh, sợ lạnh → Vị hàn, sợ chua → Can uất. Nghén khi mang thai",
+    "yhhd_clinical_note": "Food intolerance, IBS trigger foods, pregnancy aversion. New onset aversion in older adults → investigate for underlying pathology"
+  },
+  {
+    "id": "SYM_B03_032",
+    "symptom_code": "hematemesis_gi_red_flag",
+    "name_vi": "Nôn ra máu (cờ đỏ tiêu hóa)",
+    "name_en": "Hematemesis (GI red flag)",
+    "category": "gastrointestinal",
+    "icd11_approximate": "ME24.A0",
+    "severity_weight": 1.0,
+    "time_sensitivity": "immediate",
+    "bat_cuong_weights": {
+      "cold": 0.0,
+      "heat": 0.9,
+      "deficiency": 0.3,
+      "excess": 0.7,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.7,
+      "heart": 0.3,
+      "spleen": 0.5,
+      "lung": 0.0,
+      "kidney": 0.1
+    },
+    "red_flag_level": "L1",
+    "cluster_contribution": ["upper_gi_bleed_cluster", "varices_cluster", "peptic_ulcer_cluster", "aortoenteric_fistula_cluster"],
+    "yhct_clinical_note": "Cấp cứu: Can hỏa thịnh bức huyết vong hành hoặc Tỳ hư không thống huyết. Máu tươi/đông → CITO nội soi. Ổn định huyết động trước",
+    "yhhd_clinical_note": "EMERGENCY. Rockall score, IV access x2, crossmatch, urgent OGD. Peptic ulcer 50%, varices 10-20%. IV PPI, terlipressin if varices suspected"
+  },
+  {
+    "id": "SYM_B03_033",
+    "symptom_code": "hematochezia_bright_red",
+    "name_vi": "Đi tiêu máu đỏ tươi qua hậu môn",
+    "name_en": "Hematochezia - bright red rectal bleeding",
+    "category": "gastrointestinal",
+    "icd11_approximate": "ME24.B0",
+    "severity_weight": 0.9,
+    "time_sensitivity": "acute",
+    "bat_cuong_weights": {
+      "cold": 0.1,
+      "heat": 0.8,
+      "deficiency": 0.2,
+      "excess": 0.7,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.3,
+      "heart": 0.1,
+      "spleen": 0.6,
+      "lung": 0.1,
+      "kidney": 0.1
+    },
+    "red_flag_level": "L1",
+    "cluster_contribution": ["lower_gi_bleed_cluster", "hemorrhoid_cluster", "colorectal_cancer_cluster", "diverticular_bleed_cluster"],
+    "yhct_clinical_note": "Đại trường thấp nhiệt hoặc Tỳ không thống huyết. Máu sau phân → trĩ/polyp; máu lẫn phân → ung thư đại trực tràng",
+    "yhhd_clinical_note": "Lower GI bleed. Bright red PR bleeding: hemorrhoids (most common), colorectal cancer, diverticular, IBD. Digital rectal exam, colonoscopy"
+  },
+  {
+    "id": "SYM_B03_034",
+    "symptom_code": "melena_confirmed",
+    "name_vi": "Phân đen xác nhận (melena)",
+    "name_en": "Confirmed melena",
+    "category": "gastrointestinal",
+    "icd11_approximate": "ME24.A1",
+    "severity_weight": 0.95,
+    "time_sensitivity": "immediate",
+    "bat_cuong_weights": {
+      "cold": 0.1,
+      "heat": 0.6,
+      "deficiency": 0.4,
+      "excess": 0.6,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.4,
+      "heart": 0.2,
+      "spleen": 0.6,
+      "lung": 0.0,
+      "kidney": 0.1
+    },
+    "red_flag_level": "L1",
+    "cluster_contribution": ["upper_gi_bleed_cluster", "peptic_ulcer_cluster", "small_bowel_bleed_cluster"],
+    "yhct_clinical_note": "Huyết ứ Vị Trường, Tỳ hư thống huyết thất quyền. Phân đen hắc ín, hôi → xuất huyết tiêu hóa trên ≥100mL máu. Cấp cứu nội khoa",
+    "yhhd_clinical_note": "Confirmed by rectal exam (black sticky stool, positive FOB). Proximal to ligament of Treitz (usually). Haemoglobin, cross-match, urgent OGD within 24h"
+  },
+  {
+    "id": "SYM_B03_035",
+    "symptom_code": "new_rectal_bleeding_over_40",
+    "name_vi": "Xuất huyết trực tràng mới khởi phát trên 40 tuổi",
+    "name_en": "New onset rectal bleeding in patient >40 years",
+    "category": "gastrointestinal",
+    "icd11_approximate": "ME24.B0",
+    "severity_weight": 0.8,
+    "time_sensitivity": "subacute",
+    "bat_cuong_weights": {
+      "cold": 0.1,
+      "heat": 0.5,
+      "deficiency": 0.4,
+      "excess": 0.5,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.2,
+      "heart": 0.1,
+      "spleen": 0.6,
+      "lung": 0.1,
+      "kidney": 0.2
+    },
+    "red_flag_level": "L2",
+    "cluster_contribution": ["colorectal_cancer_cluster", "diverticular_disease_cluster", "polyp_cluster"],
+    "yhct_clinical_note": "Khí hư huyết ứ Đại trường. Người trung niên trở lên: phải loại trừ ung thư đại trực tràng trước khi quy cho trĩ",
+    "yhhd_clinical_note": "Any new rectal bleeding >40y must have colonoscopy to exclude colorectal cancer. Do not attribute to hemorrhoids without endoscopic exclusion of malignancy"
+  },
+  {
+    "id": "SYM_B03_036",
+    "symptom_code": "sudden_severe_abdominal_pain",
+    "name_vi": "Đau bụng dữ dội đột ngột",
+    "name_en": "Sudden severe abdominal pain",
+    "category": "gastrointestinal",
+    "icd11_approximate": "MD81",
+    "severity_weight": 1.0,
+    "time_sensitivity": "immediate",
+    "bat_cuong_weights": {
+      "cold": 0.3,
+      "heat": 0.5,
+      "deficiency": 0.1,
+      "excess": 0.9,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "zangfu_weights": {
+      "liver": 0.4,
+      "heart": 0.2,
+      "spleen": 0.4,
+      "lung": 0.1,
+      "kidney": 0.3
+    },
+    "red_flag_level": "L1",
+    "cluster_contribution": ["perforated_viscus_cluster", "ruptured_aortic_aneurysm_cluster", "mesenteric_ischemia_cluster", "ectopic_pregnancy_cluster"],
+    "yhct_clinical_note": "Phúc thống cấp chứng - khí trệ huyết ứ cực độ, hoặc tà độc nội kết. YHCT không xử lý được cấp cứu ngoại khoa. Chuyển viện ngay",
+    "yhhd_clinical_note": "Surgical emergency until proven otherwise. AAA rupture (pulsatile mass), perforation (board-like rigidity), mesenteric ischemia (pain out of proportion), ectopic (women)"
+  },
+  {
+    "id": "SYM_B03_037",
+    "symptom_code": "jaundice",
+    "name_vi": "Vàng da vàng mắt",
+    "name_en": "Jaundice (icterus)",
+    "category": "gastrointestinal",
+    "icd11_approximate": "ME07",
+    "severity_weight": 0.8,
+    "time_sensitivity": "subacute",
+    "bat_cuong_weights": {
+      "cold": 0.2,
+      "heat": 0.7,
+      "deficiency": 0.3,
+      "excess": 0.6,
+      "exterior": 0.1,
+      "interior": 0.9
+    },
+    "zangfu_weights": {
+      "liver": 0.9,
+      "heart": 0.0,
+      "spleen": 0.5,
+      "lung": 0.0,
+      "kidney": 0.2
+    },
+    "red_flag_level": "L2",
+    "cluster_contribution": ["hepatitis_cluster", "obstructive_jaundice_cluster", "hemolytic_jaundice_cluster", "cholangiocarcinoma_cluster"],
+    "yhct_clinical_note": "Hoàng đản - Đởm thấp nhiệt (dương hoàng: vàng tươi) hoặc Hàn thấp trở trệ (âm hoàng: vàng tối). Dương hoàng tiên lượng tốt hơn âm hoàng",
+    "yhhd_clinical_note": "Pre-hepatic (hemolysis), hepatic (hepatitis, cirrhosis), post-hepatic (gallstones, pancreatic cancer). LFTs, bilirubin fractionation, ultrasound abdomen mandatory"
+  },
+  {
+    "id": "SYM_B03_038",
+    "symptom_code": "ruq_pain_radiation_shoulder",
+    "name_vi": "Đau hạ sườn phải lan lên vai phải",
+    "name_en": "RUQ pain radiating to right shoulder",
+    "category": "gastrointestinal",
+    "icd11_approximate": "DC10",
+    "severity_weight": 0.7,
+    "time_sensitivity": "acute",
+    "bat_cuong_weights": {
+      "cold": 0.2,
+      "heat": 0.6,
+      "deficiency": 0.1,
+      "excess": 0.8,
+      "exterior": 0.0,
+      "interior": 0.9
+    },
+    "zangfu_weights": {
+      "liver": 0.8,
+      "heart": 0.0,
+      "spleen": 0.2,
+      "lung": 0.1,
+      "kidney": 0.1
+    },
+    "red_flag_level": "L2",
+    "cluster_contribution": ["cholecystitis_cluster", "cholelithiasis_cluster", "hepatic_abscess_cluster"],
+    "yhct_clinical_note": "Can Đởm thấp nhiệt. Cơn đau quặn mật, lan vai phải theo kinh túc Thiếu dương. Murphy sign dương tính → viêm túi mật cấp",
+    "yhhd_clinical_note": "Biliary colic, acute cholecystitis. Referred pain via phrenic nerve (C3-5). Murphy sign. Urgent ultrasound. ERCP if common bile duct stone"
+  },
+  {
+    "id": "SYM_B03_039",
+    "symptom_code": "clay_pale_stool",
+    "name_vi": "Phân nhạt màu trắng xám như đất sét",
+    "name_en": "Clay-coloured / pale stool",
+    "category": "gastrointestinal",
+    "icd11_approximate": "ME07",
+    "severity_weight": 0.7,
+    "time_sensitivity": "subacute",
+    "bat_cuong_weights": {
+      "cold": 0.3,
+      "heat": 0.3,
+      "deficiency": 0.3,
+      "excess": 0.5,
+      "exterior": 0.0,
+      "interior": 0.9
+    },
+    "zangfu_weights": {
+      "liver": 0.8,
+      "heart": 0.0,
+      "spleen": 0.4,
+      "lung": 0.0,
+      "kidney": 0.2
+    },
+    "red_flag_level": "L2",
+    "cluster_contribution": ["obstructive_jaundice_cluster", "biliary_obstruction_cluster", "primary_sclerosing_cholangitis_cluster"],
+    "yhct_clinical_note": "Đởm thấp trở tắc - mật không xuống ruột. Phân nhạt màu + nước tiểu sậm + vàng da → Đởm đạo tắc nghẽn hoàn toàn",
+    "yhhd_clinical_note": "Acholic stool indicates biliary obstruction (no bile entering gut). Gallstones, cholangiocarcinoma, pancreatic head cancer, PSC. Urgent MRCP/ERCP"
+  },
+  {
+    "id": "SYM_B03_040",
+    "symptom_code": "dark_urine_bilirubinuria",
+    "name_vi": "Nước tiểu sậm màu như nước trà (bilirubinuria)",
+    "name_en": "Dark urine (bilirubinuria / tea-coloured urine)",
+    "category": "gastrointestinal",
+    "icd11_approximate": "ME07",
+    "severity_weight": 0.7,
+    "time_sensitivity": "subacute",
+    "bat_cuong_weights": {
+      "cold": 0.1,
+      "heat": 0.8,
+      "deficiency": 0.2,
+      "excess": 0.6,
+      "exterior": 0.0,
+      "interior": 0.9
+    },
+    "zangfu_weights": {
+      "liver": 0.9,
+      "heart": 0.0,
+      "spleen": 0.3,
+      "lung": 0.0,
+      "kidney": 0.5
+    },
+    "red_flag_level": "L2",
+    "cluster_contribution": ["hepatitis_cluster", "obstructive_jaundice_cluster", "hemolytic_cluster"],
+    "yhct_clinical_note": "Đởm thấp nhiệt - Can Đởm thấp nhiệt bức bilirubin vào máu và nước tiểu. Kèm vàng da + phân nhạt → tắc mật. Kèm sốt + đau → viêm gan/viêm đường mật",
+    "yhhd_clinical_note": "Conjugated bilirubin in urine = hepatic or post-hepatic jaundice. Urinalysis dipstick (bilirubin positive). LFTs, hepatitis serology, ultrasound abdomen"
+  }
+]

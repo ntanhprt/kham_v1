@@ -1,0 +1,1044 @@
+[
+  {
+    "rule_id": "PM_B04_001",
+    "benh_co_code": "heart_qi_deficiency",
+    "benh_co_vi": "Tâm khí hư",
+    "benh_co_en": "Heart Qi Deficiency",
+    "zangfu_primary": "heart",
+    "zangfu_secondary": [],
+    "bat_cuong_profile": {
+      "cold": 0.1,
+      "heat": 0.0,
+      "deficiency": 0.9,
+      "excess": 0.1,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "required_symptoms": ["palpitations", "shortness_of_breath_exertion"],
+    "supporting_symptoms": ["fatigue", "spontaneous_sweating", "pale_complexion", "weak_forceless_pulse", "low_soft_voice"],
+    "contradicting_symptoms": ["fever", "red_face", "strong_full_pulse", "cold_limbs", "aversion_to_cold"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "heart_yang_deficiency",
+        "differentiating_feature": "Tâm dương hư thêm lạnh rõ ràng: tay chân lạnh, sợ lạnh, mặt trắng bệch, mạch trầm trì; Tâm khí hư chỉ mệt và đánh trống ngực, không có lạnh rõ, mạch nhược nhưng không trầm trì"
+      },
+      {
+        "benh_co_code": "heart_blood_deficiency",
+        "differentiating_feature": "Tâm huyết hư nổi bật mất ngủ, hay quên, mặt xanh vàng nhạt, môi nhợt; Tâm khí hư nổi bật mệt mỏi và khó thở khi gắng sức, không nhất thiết có rối loạn giấc ngủ rõ"
+      }
+    ],
+    "derived_chung_codes": ["heart_qi_deficiency_pattern"],
+    "phap_tri_direction": "Bổ Tâm khí, an thần định chí (Tonify Heart Qi, Calm Spirit and Settle Will)",
+    "typical_herb_formula": "Tứ Quân Tử Thang gia giảm hoặc Sinh Mạch Tán (Nhân sâm, Mạch môn, Ngũ vị tử)",
+    "clinical_notes": "Rất phổ biến ở người cao tuổi, sau bệnh nặng, sau sinh. Cần phân biệt với nguyên nhân YHHD: suy tim độ I-II, rối loạn nhịp chức năng. Nếu triệu chứng nặng hoặc tiến triển cần đánh giá tim mạch YHHD.",
+    "veto_rule": null,
+    "prevalence": "very_common"
+  },
+  {
+    "rule_id": "PM_B04_002",
+    "benh_co_code": "heart_yang_deficiency",
+    "benh_co_vi": "Tâm dương hư",
+    "benh_co_en": "Heart Yang Deficiency",
+    "zangfu_primary": "heart",
+    "zangfu_secondary": [],
+    "bat_cuong_profile": {
+      "cold": 0.8,
+      "heat": 0.0,
+      "deficiency": 0.9,
+      "excess": 0.1,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "required_symptoms": ["palpitations", "aversion_to_cold", "cold_limbs"],
+    "supporting_symptoms": ["shortness_of_breath", "chest_oppression", "pale_or_dusky_complexion", "spontaneous_sweating", "deep_slow_weak_pulse", "swollen_pale_tongue"],
+    "contradicting_symptoms": ["fever", "red_face", "thirst_with_cold_drinks", "red_tongue_yellow_coating"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "heart_qi_deficiency",
+        "differentiating_feature": "Tâm khí hư không có lạnh rõ, mạch nhược nhưng không trầm trì; Tâm dương hư có hàn tượng rõ: tay chân lạnh, sợ lạnh, mặt trắng bệch, mạch trầm trì vô lực"
+      },
+      {
+        "benh_co_code": "heart_yang_collapse",
+        "differentiating_feature": "Tâm dương hư thoát là giai đoạn cực nặng với vã mồ hôi lạnh không cầm, tứ chi quyết lạnh, mạch vi muốn tuyệt hoặc sắp tuyệt; Tâm dương hư còn ở trạng thái ổn định tương đối"
+      }
+    ],
+    "derived_chung_codes": ["heart_yang_deficiency_pattern"],
+    "phap_tri_direction": "Ôn bổ Tâm dương, tán hàn thông mạch (Warm and Tonify Heart Yang, Disperse Cold, Unblock Vessels)",
+    "typical_herb_formula": "Quế Chi Cam Thảo Thang gia vị, hoặc Chân Vũ Thang nếu có thủy thũng kèm theo",
+    "clinical_notes": "Thường gặp ở người cao tuổi có bệnh tim mạch nền. Tương quan YHHD: suy tim tâm thu, bệnh mạch vành mạn, rối loạn nhịp chậm. Cần theo dõi tiến triển sang Tâm dương hư thoát.",
+    "veto_rule": null,
+    "prevalence": "common"
+  },
+  {
+    "rule_id": "PM_B04_003",
+    "benh_co_code": "heart_yang_collapse",
+    "benh_co_vi": "Tâm dương hư thoát",
+    "benh_co_en": "Heart Yang Collapse (Critical)",
+    "zangfu_primary": "heart",
+    "zangfu_secondary": ["kidney", "lung"],
+    "bat_cuong_profile": {
+      "cold": 1.0,
+      "heat": 0.0,
+      "deficiency": 1.0,
+      "excess": 0.0,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "required_symptoms": ["profuse_cold_sweating", "cold_clammy_extremities", "extremely_faint_pulse_or_absent"],
+    "supporting_symptoms": ["unconsciousness_or_near_syncope", "cyanotic_lips", "gasping_breathing", "chest_pain_severe", "gray_ashen_complexion"],
+    "contradicting_symptoms": ["fever", "strong_pulse", "warm_extremities", "red_tongue"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "heart_yang_deficiency",
+        "differentiating_feature": "Tâm dương hư còn ổn định tương đối, có thể sinh hoạt nhẹ; Tâm dương hư thoát là cấp cứu: mồ hôi lạnh vã không cầm, tứ chi quyết lạnh, mạch vi muốn tuyệt, có nguy cơ tử vong"
+      }
+    ],
+    "derived_chung_codes": ["heart_yang_collapse_pattern", "yang_collapse_critical"],
+    "phap_tri_direction": "Hồi dương cứu nghịch, ích khí cố thoát — CẤP CỨU NGAY (Rescue Yang, Reverse Counterflow, Stabilize Collapse — EMERGENCY)",
+    "typical_herb_formula": "Sâm Phụ Thang (Nhân sâm liều cao + Phụ tử) — song song cấp cứu YHHD ngay lập tức",
+    "clinical_notes": "TƯƠNG ĐƯƠNG LÂM SÀNG YHHD: Sốc tim, nhồi máu cơ tim cấp giai đoạn nặng, suy tim mất bù cấp. Đây là chứng nguy kịch — YHCT chỉ hỗ trợ, PHẢI cấp cứu YHHD ngay. Không trì hoãn chuyển viện.",
+    "veto_rule": "IF present → trigger RED_FLAG_CHECK → L1_emergency override",
+    "prevalence": "rare_but_critical"
+  },
+  {
+    "rule_id": "PM_B04_004",
+    "benh_co_code": "heart_blood_deficiency",
+    "benh_co_vi": "Tâm huyết hư",
+    "benh_co_en": "Heart Blood Deficiency",
+    "zangfu_primary": "heart",
+    "zangfu_secondary": [],
+    "bat_cuong_profile": {
+      "cold": 0.1,
+      "heat": 0.1,
+      "deficiency": 0.9,
+      "excess": 0.0,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "required_symptoms": ["palpitations", "insomnia_difficulty_falling_asleep", "pale_dull_complexion"],
+    "supporting_symptoms": ["forgetfulness", "dizziness", "pale_lips_and_nails", "dream_disturbed_sleep", "anxiety_easily_startled", "fine_weak_pulse", "pale_tongue"],
+    "contradicting_symptoms": ["red_face", "fever", "strong_full_pulse", "red_tongue_with_scanty_coating"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "heart_yin_deficiency",
+        "differentiating_feature": "Tâm âm hư có hư nhiệt rõ: nóng bàn tay chân, gò má đỏ, ra mồ hôi trộm, lưỡi đỏ ít rêu; Tâm huyết hư không có hư nhiệt, sắc mặt nhợt nhạt, lưỡi nhợt"
+      },
+      {
+        "benh_co_code": "heart_spleen_dual_deficiency",
+        "differentiating_feature": "Tỳ Tâm lưỡng hư kèm thêm triệu chứng Tỳ hư: ăn kém, bụng trướng, phân lỏng, mệt mỏi tứ chi nặng hơn; Tâm huyết hư đơn thuần các triệu chứng Tỳ không nổi bật"
+      }
+    ],
+    "derived_chung_codes": ["heart_blood_deficiency_pattern"],
+    "phap_tri_direction": "Dưỡng huyết bổ Tâm, an thần (Nourish Blood, Tonify Heart, Calm Spirit)",
+    "typical_herb_formula": "Quy Tỳ Thang hoặc Thiên Vương Bổ Tâm Đan",
+    "clinical_notes": "Rất phổ biến tại Việt Nam ở phụ nữ tuổi sinh sản, người thiếu dinh dưỡng, sau xuất huyết. Tương quan YHHD: thiếu máu thiếu sắt, rối loạn giấc ngủ chức năng. Cần đánh giá công thức máu nếu triệu chứng nặng.",
+    "veto_rule": null,
+    "prevalence": "very_common"
+  },
+  {
+    "rule_id": "PM_B04_005",
+    "benh_co_code": "heart_yin_deficiency",
+    "benh_co_vi": "Tâm âm hư",
+    "benh_co_en": "Heart Yin Deficiency",
+    "zangfu_primary": "heart",
+    "zangfu_secondary": [],
+    "bat_cuong_profile": {
+      "cold": 0.0,
+      "heat": 0.6,
+      "deficiency": 0.9,
+      "excess": 0.0,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "required_symptoms": ["palpitations", "insomnia", "night_sweats"],
+    "supporting_symptoms": ["malar_flush", "heat_in_five_centers", "dry_mouth_throat_at_night", "dream_disturbed_sleep", "anxiety_restlessness", "red_tongue_scanty_coating", "fine_rapid_pulse"],
+    "contradicting_symptoms": ["pale_complexion", "aversion_to_cold", "cold_limbs", "thick_coating"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "heart_blood_deficiency",
+        "differentiating_feature": "Tâm huyết hư không có hư nhiệt: không nóng bàn tay chân, không ra mồ hôi trộm, lưỡi nhợt; Tâm âm hư có hư nhiệt rõ ràng, lưỡi đỏ ít rêu hoặc không rêu"
+      },
+      {
+        "benh_co_code": "heart_kidney_non_communication",
+        "differentiating_feature": "Tâm Thận bất giao kèm thêm triệu chứng Thận âm hư: đau lưng, ù tai, mệt mỏi vùng thắt lưng-gối; Tâm âm hư đơn thuần chưa có biểu hiện Thận rõ"
+      },
+      {
+        "benh_co_code": "heart_fire_blazing",
+        "differentiating_feature": "Tâm hỏa vượng là thực nhiệt: miệng lưỡi lở loét, tiểu đỏ buốt, lưỡi đỏ sẫm rêu vàng, mạch sác hữu lực; Tâm âm hư là hư nhiệt, mạch tế sác vô lực"
+      }
+    ],
+    "derived_chung_codes": ["heart_yin_deficiency_pattern"],
+    "phap_tri_direction": "Tư âm giáng hỏa, dưỡng Tâm an thần (Nourish Yin, Descend Fire, Nourish Heart, Calm Spirit)",
+    "typical_herb_formula": "Thiên Vương Bổ Tâm Đan hoặc Hoàng Liên A Giao Thang",
+    "clinical_notes": "Phổ biến ở người trung niên, người căng thẳng kéo dài, mãn kinh. Trong bối cảnh Việt Nam thường gặp ở phụ nữ tuổi tiền mãn kinh với mất ngủ và bốc hỏa.",
+    "veto_rule": null,
+    "prevalence": "common"
+  },
+  {
+    "rule_id": "PM_B04_006",
+    "benh_co_code": "heart_fire_blazing",
+    "benh_co_vi": "Tâm hỏa vượng",
+    "benh_co_en": "Heart Fire Blazing",
+    "zangfu_primary": "heart",
+    "zangfu_secondary": ["small_intestine"],
+    "bat_cuong_profile": {
+      "cold": 0.0,
+      "heat": 1.0,
+      "deficiency": 0.0,
+      "excess": 0.9,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "required_symptoms": ["oral_ulcers_tongue_sores", "heart_vexation_agitation", "red_tongue_tip_or_red_tongue"],
+    "supporting_symptoms": ["thirst_cold_drinks", "dark_scanty_urine", "burning_urination", "insomnia_agitated", "flushed_face", "rapid_forceful_pulse", "yellow_tongue_coating"],
+    "contradicting_symptoms": ["pale_complexion", "aversion_to_cold", "cold_limbs", "fine_weak_pulse", "pale_tongue"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "heart_yin_deficiency",
+        "differentiating_feature": "Tâm âm hư là hư nhiệt: mạch tế sác vô lực, lưỡi đỏ không rêu, không lở loét; Tâm hỏa vượng là thực nhiệt: lở loét miệng lưỡi, mạch sác hữu lực, lưỡi đỏ sẫm rêu vàng"
+      },
+      {
+        "benh_co_code": "phlegm_fire_harassing_heart",
+        "differentiating_feature": "Đàm hỏa nhiễu Tâm kèm đàm: đờm nhiều, ngực đầy tức, có thể bồn chồn loạn ngôn; Tâm hỏa vượng thuần túy không có đàm rõ"
+      }
+    ],
+    "derived_chung_codes": ["heart_fire_blazing_pattern"],
+    "phap_tri_direction": "Thanh Tâm tả hỏa, lương huyết an thần (Clear Heart, Drain Fire, Cool Blood, Calm Spirit)",
+    "typical_herb_formula": "Đạo Xích Tán hoặc Tả Tâm Thang (Hoàng Liên, Hoàng Cầm, Đại Hoàng liều nhẹ)",
+    "clinical_notes": "Thường do stress, ăn đồ cay nóng, uống rượu nhiều. Tương quan YHHD: loét miệng tái phát, nhiễm trùng tiết niệu dưới không đặc hiệu. Lưu ý Tâm dẫn nhiệt xuống Tiểu Trường gây tiểu buốt.",
+    "veto_rule": null,
+    "prevalence": "common"
+  },
+  {
+    "rule_id": "PM_B04_007",
+    "benh_co_code": "heart_blood_stasis",
+    "benh_co_vi": "Tâm huyết ứ trở",
+    "benh_co_en": "Heart Blood Stasis",
+    "zangfu_primary": "heart",
+    "zangfu_secondary": [],
+    "bat_cuong_profile": {
+      "cold": 0.3,
+      "heat": 0.2,
+      "deficiency": 0.3,
+      "excess": 0.8,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "required_symptoms": ["chest_pain_stabbing_or_fixed", "palpitations"],
+    "supporting_symptoms": ["cyanotic_lips", "dark_purple_tongue_or_petechiae", "choppy_or_irregular_intermittent_pulse", "pain_radiating_to_shoulder_arm", "chest_oppression", "purple_nails", "dark_complexion"],
+    "contradicting_symptoms": ["bright_red_tongue_smooth_surface", "floating_pulse", "fever_chills"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "mild_chest_impediment",
+        "differentiating_feature": "Hung tý nhẹ đau ngực không liên tục, ít dữ dội, có thể chỉ nặng tức; Tâm huyết ứ trở đau thường cố định, châm chích, môi tím, lưỡi tím hoặc điểm ứ huyết"
+      },
+      {
+        "benh_co_code": "severe_chest_impediment",
+        "differentiating_feature": "Hung tý nặng là cấp cứu: đau ngực dữ dội đột ngột, lan ra vai trái cánh tay, vã mồ hôi, khó thở cấp — PHẢI kích hoạt cấp cứu YHHD ngay"
+      }
+    ],
+    "derived_chung_codes": ["heart_blood_stasis_pattern"],
+    "phap_tri_direction": "Hoạt huyết hóa ứ, thông mạch chỉ thống (Invigorate Blood, Transform Stasis, Unblock Vessels, Stop Pain)",
+    "typical_herb_formula": "Huyết Phủ Trục Ứ Thang hoặc Đan Sâm Ẩm gia giảm",
+    "clinical_notes": "Rất phổ biến ở người cao tuổi Việt Nam với bệnh mạch vành, tăng huyết áp. Tương quan YHHD: bệnh mạch vành mạn ổn định, rối loạn nhịp tim, suy tim. Cần theo dõi sát, bất kỳ diễn biến cấp tính cần đánh giá YHHD khẩn.",
+    "veto_rule": null,
+    "prevalence": "common"
+  },
+  {
+    "rule_id": "PM_B04_008",
+    "benh_co_code": "phlegm_turbidity_obstructing_heart",
+    "benh_co_vi": "Đàm trọc uất Tâm",
+    "benh_co_en": "Phlegm-Turbidity Obstructing Heart",
+    "zangfu_primary": "heart",
+    "zangfu_secondary": ["spleen", "stomach"],
+    "bat_cuong_profile": {
+      "cold": 0.2,
+      "heat": 0.1,
+      "deficiency": 0.2,
+      "excess": 0.8,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "required_symptoms": ["chest_oppression_fullness", "palpitations", "heavy_foggy_head_sensation"],
+    "supporting_symptoms": ["profuse_phlegm_sputum", "nausea_vomiting", "obesity_overweight", "fatigue_heaviness_limbs", "slippery_pulse", "greasy_white_tongue_coating", "swollen_tongue"],
+    "contradicting_symptoms": ["dry_mouth_thirst", "red_tongue_scanty_coating", "thin_pulse"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "phlegm_fire_harassing_heart",
+        "differentiating_feature": "Đàm hỏa nhiễu Tâm thêm nhiệt chứng rõ: bồn chồn kích động, mặt đỏ, rêu vàng nhờn, mạch hoạt sác; Đàm trọc uất Tâm không có nhiệt, rêu trắng nhờn, mạch hoạt hoặc huyền"
+      },
+      {
+        "benh_co_code": "heart_qi_deficiency",
+        "differentiating_feature": "Tâm khí hư chủ yếu là hư tượng: mệt mỏi, mạch nhược; Đàm trọc uất Tâm có đàm thực: ngực đầy tức, rêu nhờn, người béo phì, mạch hoạt"
+      }
+    ],
+    "derived_chung_codes": ["phlegm_turbidity_obstructing_heart_pattern"],
+    "phap_tri_direction": "Táo thấp hóa đàm, tuyên Tâm khai khiếu (Dry Dampness, Transform Phlegm, Diffuse Heart, Open Orifices)",
+    "typical_herb_formula": "Qua Lâu Giới Bạch Bán Hạ Thang hoặc Ôn Đởm Thang gia giảm",
+    "clinical_notes": "RẤT PHỔ BIẾN tại Việt Nam trong bối cảnh béo phì và hội chứng chuyển hóa ngày càng tăng. Tương quan YHHD: rối loạn mỡ máu, bệnh mạch vành liên quan béo phì, ngưng thở khi ngủ. Cần kết hợp điều chỉnh lối sống.",
+    "veto_rule": null,
+    "prevalence": "very_common"
+  },
+  {
+    "rule_id": "PM_B04_009",
+    "benh_co_code": "phlegm_fire_harassing_heart",
+    "benh_co_vi": "Đàm hỏa nhiễu Tâm",
+    "benh_co_en": "Phlegm-Fire Harassing Heart",
+    "zangfu_primary": "heart",
+    "zangfu_secondary": ["liver", "gallbladder"],
+    "bat_cuong_profile": {
+      "cold": 0.0,
+      "heat": 0.8,
+      "deficiency": 0.1,
+      "excess": 0.9,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "required_symptoms": ["agitation_restlessness_severe", "insomnia_or_incoherent_speech", "yellow_greasy_tongue_coating"],
+    "supporting_symptoms": ["palpitations_violent", "flushed_face", "bitter_taste_mouth", "thirst", "headache_distending", "abundant_phlegm", "slippery_rapid_pulse", "red_tongue"],
+    "contradicting_symptoms": ["pale_tongue", "aversion_to_cold", "weak_pulse", "clear_urine"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "phlegm_turbidity_obstructing_heart",
+        "differentiating_feature": "Đàm trọc uất Tâm không có nhiệt, rêu trắng nhờn, bệnh nhân trầm mặc hơn; Đàm hỏa nhiễu Tâm có nhiệt chứng rõ, bồn chồn kích động, có thể loạn ngôn, rêu vàng nhờn, mạch hoạt sác"
+      },
+      {
+        "benh_co_code": "heart_fire_blazing",
+        "differentiating_feature": "Tâm hỏa vượng thuần không có đàm đặc: không rêu nhờn, không đờm nhiều; Đàm hỏa nhiễu Tâm có đàm rõ ràng kèm hỏa, thường có tiền sử đàm thấp"
+      }
+    ],
+    "derived_chung_codes": ["phlegm_fire_harassing_heart_pattern"],
+    "phap_tri_direction": "Thanh nhiệt hóa đàm, tả hỏa an thần (Clear Heat, Transform Phlegm, Drain Fire, Calm Spirit)",
+    "typical_herb_formula": "Hoàng Liên Ôn Đởm Thang hoặc Mông Thạch Cổn Đàm Hoàn",
+    "clinical_notes": "Thường gặp trong rối loạn tâm thần cấp, giai đoạn hưng cảm, loạn thần cấp. Tại Việt Nam gặp trong stress nặng, thiếu ngủ kéo dài. Nếu có rối loạn hành vi nặng cần đánh giá tâm thần YHHD.",
+    "veto_rule": null,
+    "prevalence": "uncommon"
+  },
+  {
+    "rule_id": "PM_B04_010",
+    "benh_co_code": "heart_kidney_non_communication",
+    "benh_co_vi": "Tâm Thận bất giao",
+    "benh_co_en": "Heart-Kidney Non-Communication",
+    "zangfu_primary": "heart",
+    "zangfu_secondary": ["kidney"],
+    "bat_cuong_profile": {
+      "cold": 0.1,
+      "heat": 0.5,
+      "deficiency": 0.9,
+      "excess": 0.0,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "required_symptoms": ["insomnia_severe_difficulty_both_falling_and_staying_asleep", "palpitations", "lumbar_soreness_or_weakness"],
+    "supporting_symptoms": ["night_sweats", "tinnitus", "dizziness", "heat_in_five_centers", "forgetfulness", "dry_mouth_at_night", "red_tongue_scanty_coating", "fine_rapid_pulse", "spermatorrhea_in_males"],
+    "contradicting_symptoms": ["aversion_to_cold", "cold_limbs", "thick_coating", "floating_excess_pulse"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "heart_yin_deficiency",
+        "differentiating_feature": "Tâm âm hư đơn thuần chưa có biểu hiện Thận rõ; Tâm Thận bất giao phải có cả triệu chứng Thận hư: đau lưng mỏi gối, ù tai, di tinh, không còn duy trì được sự giao thông Thủy Hỏa"
+      },
+      {
+        "benh_co_code": "heart_blood_deficiency",
+        "differentiating_feature": "Tâm huyết hư mất ngủ chủ yếu khó ngủ, không có hư nhiệt, lưỡi nhợt; Tâm Thận bất giao ngủ không sâu, hay tỉnh giấc, kèm âm hư hư nhiệt rõ"
+      }
+    ],
+    "derived_chung_codes": ["heart_kidney_non_communication_pattern"],
+    "phap_tri_direction": "Tư Thận âm, giáng Tâm hỏa, giao thông Tâm Thận (Nourish Kidney Yin, Descend Heart Fire, Re-establish Heart-Kidney Communication)",
+    "typical_herb_formula": "Hoàng Liên A Giao Thang hoặc Giao Thái Hoàn (Hoàng Liên + Nhục Quế tỷ lệ nhỏ)",
+    "clinical_notes": "ĐÂY LÀ NGUYÊN NHÂN RẤT PHỔ BIẾN GÂY MẤT NGỦ TẠI VIỆT NAM, đặc biệt ở người trung niên và cao tuổi. Stress kéo dài, làm việc đêm nhiều, lạm dụng chất kích thích đều có thể gây bệnh cơ này. Phân biệt với rối loạn giấc ngủ nguyên phát, trầm cảm YHHD.",
+    "veto_rule": null,
+    "prevalence": "very_common"
+  },
+  {
+    "rule_id": "PM_B04_011",
+    "benh_co_code": "heart_spleen_dual_deficiency",
+    "benh_co_vi": "Tỳ Tâm lưỡng hư",
+    "benh_co_en": "Heart-Spleen Dual Deficiency",
+    "zangfu_primary": "heart",
+    "zangfu_secondary": ["spleen"],
+    "bat_cuong_profile": {
+      "cold": 0.1,
+      "heat": 0.0,
+      "deficiency": 0.95,
+      "excess": 0.0,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "required_symptoms": ["palpitations", "insomnia", "poor_appetite"],
+    "supporting_symptoms": ["fatigue", "forgetfulness", "pale_complexion", "loose_stools", "abdominal_bloating", "decreased_concentration", "pale_tongue_thin_coating", "fine_weak_pulse", "spontaneous_sweating"],
+    "contradicting_symptoms": ["fever", "red_tongue", "strong_pulse", "thirst_cold_drinks"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "heart_blood_deficiency",
+        "differentiating_feature": "Tâm huyết hư đơn thuần không có triệu chứng Tỳ hư; Tỳ Tâm lưỡng hư phải có cả ăn kém, bụng trướng, phân lỏng, mệt mỏi tứ chi nặng hơn do Tỳ hư không sinh huyết đủ"
+      },
+      {
+        "benh_co_code": "heart_qi_deficiency",
+        "differentiating_feature": "Tâm khí hư nổi bật khó thở khi gắng sức, đánh trống ngực; Tỳ Tâm lưỡng hư nổi bật mất ngủ, kém nhớ, ăn kém, do Tỳ khí hư không sinh hóa khí huyết"
+      }
+    ],
+    "derived_chung_codes": ["heart_spleen_dual_deficiency_pattern"],
+    "phap_tri_direction": "Bổ Tỳ dưỡng Tâm, ích khí sinh huyết, an thần (Tonify Spleen, Nourish Heart, Augment Qi, Generate Blood, Calm Spirit)",
+    "typical_herb_formula": "Quy Tỳ Thang (phương thuốc đặc hiệu)",
+    "clinical_notes": "Rất phổ biến ở Việt Nam, đặc biệt ở phụ nữ, người lao động quá mức, sinh viên stress thi cử. Là thể bệnh hay gặp nhất trong mất ngủ và lo âu mạn tính theo YHCT.",
+    "veto_rule": null,
+    "prevalence": "very_common"
+  },
+  {
+    "rule_id": "PM_B04_012",
+    "benh_co_code": "heart_lung_qi_deficiency",
+    "benh_co_vi": "Tâm Phế khí hư",
+    "benh_co_en": "Heart-Lung Qi Deficiency Combined",
+    "zangfu_primary": "heart",
+    "zangfu_secondary": ["lung"],
+    "bat_cuong_profile": {
+      "cold": 0.1,
+      "heat": 0.0,
+      "deficiency": 0.9,
+      "excess": 0.1,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "required_symptoms": ["palpitations", "shortness_of_breath_rest_or_minimal_exertion", "fatigue_severe"],
+    "supporting_symptoms": ["weak_cough", "spontaneous_sweating", "pale_complexion", "low_voice", "chest_oppression", "cyanotic_lips_mild", "weak_pulse", "pale_swollen_tongue"],
+    "contradicting_symptoms": ["fever", "productive_cough_yellow_phlegm", "strong_pulse", "red_tongue"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "heart_qi_deficiency",
+        "differentiating_feature": "Tâm khí hư đơn thuần khó thở chủ yếu khi gắng sức; Tâm Phế khí hư khó thở cả khi nghỉ hoặc gắng sức nhẹ, kèm ho yếu, giọng nhỏ, là biểu hiện nặng hơn liên quan cả Phế"
+      },
+      {
+        "benh_co_code": "heart_yang_deficiency",
+        "differentiating_feature": "Tâm dương hư có hàn tượng rõ: sợ lạnh, tay chân lạnh; Tâm Phế khí hư chủ yếu là khí hư: khó thở, mệt mỏi, không nhất thiết có lạnh rõ"
+      }
+    ],
+    "derived_chung_codes": ["heart_lung_qi_deficiency_pattern"],
+    "phap_tri_direction": "Bổ Tâm ích Phế khí, định喘 an thần (Tonify Heart and Lung Qi, Stabilize Breathing, Calm Spirit)",
+    "typical_herb_formula": "Sinh Mạch Tán kết hợp Bổ Phế Thang gia giảm",
+    "clinical_notes": "Gặp trong suy tim kết hợp bệnh phổi mạn, COPD có suy tim phải, bệnh nhân hậu COVID-19. Tương quan YHHD: suy tim sung huyết, cor pulmonale. Cần theo dõi sát SpO2 và chức năng tim phổi.",
+    "veto_rule": null,
+    "prevalence": "uncommon"
+  },
+  {
+    "rule_id": "PM_B04_013",
+    "benh_co_code": "mild_chest_impediment",
+    "benh_co_vi": "Hung tý nhẹ (흉비 giai đoạn đầu)",
+    "benh_co_en": "Mild Chest Impediment - Early Stage",
+    "zangfu_primary": "heart",
+    "zangfu_secondary": ["lung"],
+    "bat_cuong_profile": {
+      "cold": 0.3,
+      "heat": 0.1,
+      "deficiency": 0.3,
+      "excess": 0.7,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "required_symptoms": ["chest_oppression_discomfort", "intermittent_chest_pain_mild"],
+    "supporting_symptoms": ["shortness_of_breath_exertion", "palpitations", "pain_relieved_by_rest", "greasy_tongue_coating", "wiry_or_slippery_pulse"],
+    "contradicting_symptoms": ["severe_crushing_chest_pain", "radiation_to_left_arm", "diaphoresis_acute", "syncope"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "severe_chest_impediment",
+        "differentiating_feature": "Hung tý nặng: đau ngực dữ dội đột ngột, không thuyên giảm khi nghỉ, vã mồ hôi, khó thở cấp, có thể mất ý thức — LÀ CẤP CỨU; Hung tý nhẹ đau thoáng qua, giảm khi nghỉ, chưa có dấu hiệu nguy hiểm"
+      },
+      {
+        "benh_co_code": "heart_blood_stasis",
+        "differentiating_feature": "Tâm huyết ứ trở đau thường cố định, châm chích, lưỡi tím hoặc có điểm ứ; Hung tý nhẹ có thể chỉ tức nặng ngực, chưa có dấu ứ huyết rõ ràng"
+      }
+    ],
+    "derived_chung_codes": ["mild_chest_impediment_pattern"],
+    "phap_tri_direction": "Thông dương tán kết, hành khí hóa đàm (Unblock Yang, Dissipate Accumulation, Move Qi, Transform Phlegm)",
+    "typical_herb_formula": "Qua Lâu Giới Bạch Bạch Tửu Thang hoặc Qua Lâu Giới Bạch Bán Hạ Thang",
+    "clinical_notes": "Tương quan YHHD: đau thắt ngực ổn định độ I-II, bệnh mạch vành mạn chức năng còn tốt. Cần đánh giá YHHD đầy đủ trước khi điều trị YHCT. Theo dõi sát để phát hiện tiến triển sang hung tý nặng.",
+    "veto_rule": null,
+    "prevalence": "common"
+  },
+  {
+    "rule_id": "PM_B04_014",
+    "benh_co_code": "severe_chest_impediment",
+    "benh_co_vi": "Hung tý nặng (Cấp cứu — ACS tương đương)",
+    "benh_co_en": "Severe Chest Impediment - Urgent (ACS Equivalent)",
+    "zangfu_primary": "heart",
+    "zangfu_secondary": ["lung", "kidney"],
+    "bat_cuong_profile": {
+      "cold": 0.5,
+      "heat": 0.2,
+      "deficiency": 0.4,
+      "excess": 0.8,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "required_symptoms": ["severe_sudden_chest_pain_not_relieved_by_rest", "diaphoresis_cold_profuse"],
+    "supporting_symptoms": ["pain_radiating_to_left_arm_shoulder_jaw", "severe_dyspnea_at_rest", "cyanosis", "pallor_ashen", "extreme_anxiety_fear_of_death", "faint_thready_or_irregular_pulse"],
+    "contradicting_symptoms": [],
+    "differentiates_from": [
+      {
+        "benh_co_code": "mild_chest_impediment",
+        "differentiating_feature": "Hung tý nhẹ đau thoáng qua giảm khi nghỉ, không vã mồ hôi cấp, không lan vai trái; Hung tý nặng đau dữ dội không giảm khi nghỉ, vã mồ hôi lạnh, cần cấp cứu ngay lập tức"
+      },
+      {
+        "benh_co_code": "heart_yang_collapse",
+        "differentiating_feature": "Tâm dương hư thoát có thể là hệ quả của Hung tý nặng; cả hai đều là CẤP CỨU — xử trí YHHD ưu tiên tuyệt đối"
+      }
+    ],
+    "derived_chung_codes": ["severe_chest_impediment_pattern", "emergency_pattern"],
+    "phap_tri_direction": "CẤP CỨU YHHD NGAY — YHCT hỗ trợ: Thông mạch cứu nghịch, hồi dương ích khí (EMERGENCY YHHD FIRST — TCM supportive: Unblock Vessels, Rescue Counterflow, Restore Yang)",
+    "typical_herb_formula": "CHỈ HỖ TRỢ sau cấp cứu YHHD: Sâm Phụ Thang, hoặc Tô Hợp Hương Hoàn ngậm dưới lưỡi trong khi chờ cấp cứu",
+    "clinical_notes": "TƯƠNG ĐƯƠNG LÂM SÀNG YHHD: HỘI CHỨNG MẠCH VÀNH CẤP (NHỒI MÁU CƠ TIM / ĐAU THẮT NGỰC KHÔNG ỔN ĐỊNH). ĐÂY LÀ CẤP CỨU Y TẾ. PHẢI GỌI CẤP CỨU 115 HOẶC ĐƯA ĐẾN BỆNH VIỆN NGAY. Không trì hoãn để điều trị YHCT đơn độc.",
+    "veto_rule": "IF present → trigger RED_FLAG_CHECK → L1_emergency override",
+    "prevalence": "uncommon_but_critical"
+  },
+  {
+    "rule_id": "PM_B04_015",
+    "benh_co_code": "heart_deficiency_fright_anxiety",
+    "benh_co_vi": "Tâm hư kinh sợ",
+    "benh_co_en": "Heart Deficiency with Fright and Anxiety",
+    "zangfu_primary": "heart",
+    "zangfu_secondary": ["gallbladder"],
+    "bat_cuong_profile": {
+      "cold": 0.1,
+      "heat": 0.1,
+      "deficiency": 0.8,
+      "excess": 0.1,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "required_symptoms": ["palpitations_easily_startled", "timidity_fearfulness", "insomnia"],
+    "supporting_symptoms": ["anxiety_chronic", "dream_disturbed_sleep", "pale_complexion", "shortness_of_breath_on_emotion", "forgetfulness", "fine_weak_pulse", "pale_tongue"],
+    "contradicting_symptoms": ["bold_aggressive_behavior", "strong_pulse", "red_tongue_yellow_coating"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "heart_blood_deficiency",
+        "differentiating_feature": "Tâm huyết hư chủ yếu mất ngủ và nhợt nhạt; Tâm hư kinh sợ nổi bật triệu chứng sợ hãi, dễ giật mình, nhút nhát, liên quan đến Đởm khí hư không làm chủ được quyết đoán"
+      },
+      {
+        "benh_co_code": "phlegm_fire_harassing_heart",
+        "differentiating_feature": "Đàm hỏa nhiễu Tâm có thực chứng: bồn chồn kích động, rêu vàng nhờn, mạch hoạt sác; Tâm hư kinh sợ là hư chứng: nhút nhát sợ hãi, mạch nhược"
+      }
+    ],
+    "derived_chung_codes": ["heart_deficiency_fright_anxiety_pattern"],
+    "phap_tri_direction": "Bổ Tâm an thần, ích khí trấn kinh (Tonify Heart, Calm Spirit, Augment Qi, Settle Fright)",
+    "typical_herb_formula": "An Thần Định Chí Hoàn hoặc Viễn Chí Thang gia giảm",
+    "clinical_notes": "Phổ biến ở Việt Nam trong bối cảnh lo âu mạn tính, rối loạn stress sau sang chấn (PTSD), hội chứng lo âu lan tỏa. Cần phân biệt với rối loạn lo âu cần can thiệp tâm lý YHHD.",
+    "veto_rule": null,
+    "prevalence": "common"
+  },
+  {
+    "rule_id": "PM_B04_016",
+    "benh_co_code": "heart_qi_stagnation",
+    "benh_co_vi": "Tâm khí uất kết",
+    "benh_co_en": "Heart Qi Stagnation",
+    "zangfu_primary": "heart",
+    "zangfu_secondary": ["liver"],
+    "bat_cuong_profile": {
+      "cold": 0.0,
+      "heat": 0.2,
+      "deficiency": 0.2,
+      "excess": 0.7,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "required_symptoms": ["chest_oppression_emotional", "palpitations_worsened_by_stress"],
+    "supporting_symptoms": ["sighing", "emotional_lability", "hypochondrial_discomfort", "insomnia", "wiry_pulse", "thin_white_coating"],
+    "contradicting_symptoms": ["cold_limbs", "pale_tongue_swollen", "slippery_greasy_coating"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "heart_blood_stasis",
+        "differentiating_feature": "Tâm huyết ứ trở đau cố định, châm chích, lưỡi tím; Tâm khí uất kết chủ yếu tức ngực liên quan cảm xúc, chưa có ứ huyết cố định, mạch huyền hơn là sáp"
+      },
+      {
+        "benh_co_code": "mild_chest_impediment",
+        "differentiating_feature": "Hung tý nhẹ có đàm thực trở Tâm dương; Tâm khí uất chủ yếu do can khí phạm Tâm, tức ngực liên quan xúc cảm rõ, không nhất thiết có đàm"
+      }
+    ],
+    "derived_chung_codes": ["heart_qi_stagnation_pattern"],
+    "phap_tri_direction": "Sơ Can giải uất, lý khí khoan흉 (Soothe Liver, Resolve Depression, Regulate Qi, Expand Chest)",
+    "typical_herb_formula": "Sài Hồ Sơ Can Tán gia Đan sâm, Uất kim",
+    "clinical_notes": "Thường gặp trong stress tâm lý, áp lực công việc, xung đột gia đình. Phổ biến ở người trẻ và trung niên tại Việt Nam. Là giai đoạn sớm, nếu không điều trị có thể tiến triển sang huyết ứ.",
+    "veto_rule": null,
+    "prevalence": "common"
+  },
+  {
+    "rule_id": "PM_B04_017",
+    "benh_co_code": "heart_phlegm_misting_orifices",
+    "benh_co_vi": "Đàm mê Tâm khiếu",
+    "benh_co_en": "Phlegm Misting Heart Orifices",
+    "zangfu_primary": "heart",
+    "zangfu_secondary": ["spleen"],
+    "bat_cuong_profile": {
+      "cold": 0.3,
+      "heat": 0.1,
+      "deficiency": 0.2,
+      "excess": 0.8,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "required_symptoms": ["mental_confusion_or_stupor", "incoherent_speech_or_mutism"],
+    "supporting_symptoms": ["abundant_phlegm_gurgling_throat", "pale_or_dull_expression", "greasy_white_tongue_coating", "slippery_pulse", "sudden_collapse_with_phlegm"],
+    "contradicting_symptoms": ["high_fever", "red_tongue_yellow_coating", "agitation_violence"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "phlegm_fire_harassing_heart",
+        "differentiating_feature": "Đàm hỏa nhiễu Tâm kèm nhiệt: kích động, bạo lực, rêu vàng nhờn, mạch hoạt sác; Đàm mê Tâm khiếu là hàn đàm: trầm mặc, thần thái vắng, rêu trắng nhờn, mạch hoạt trì"
+      },
+      {
+        "benh_co_code": "phlegm_turbidity_obstructing_heart",
+        "differentiating_feature": "Đàm trọc uất Tâm triệu chứng nhẹ hơn, chưa đến mức rối loạn ý thức; Đàm mê Tâm khiếu có rối loạn thần chí rõ: lú lẫn, nói nhảm hoặc câm lặng"
+      }
+    ],
+    "derived_chung_codes": ["phlegm_misting_heart_orifices_pattern"],
+    "phap_tri_direction": "Hóa đàm khai khiếu, tỉnh thần (Transform Phlegm, Open Orifices, Awaken Spirit)",
+    "typical_herb_formula": "Tô Hợp Hương Hoàn (hàn đàm) hoặc Xương Bồ Uất Kim Thang",
+    "clinical_notes": "Gặp trong động kinh, tai biến mạch máu não, rối loạn tâm thần nặng. Nếu đột ngột khởi phát CẦN CẤP CỨU YHHD ngay để loại trừ đột quỵ não.",
+    "veto_rule": null,
+    "prevalence": "rare"
+  },
+  {
+    "rule_id": "PM_B04_018",
+    "benh_co_code": "heart_wind_stroke_precursor",
+    "benh_co_vi": "Tâm khí hư kiêm phong đàm tiên triệu",
+    "benh_co_en": "Heart Qi Deficiency with Wind-Phlegm Precursor Signs",
+    "zangfu_primary": "heart",
+    "zangfu_secondary": ["liver", "spleen"],
+    "bat_cuong_profile": {
+      "cold": 0.1,
+      "heat": 0.2,
+      "deficiency": 0.6,
+      "excess": 0.5,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "required_symptoms": ["palpitations_irregular", "transient_dizziness", "transient_numbness_face_limbs"],
+    "supporting_symptoms": ["sudden_transient_speech_difficulty", "transient_vision_changes", "headache_distending", "greasy_tongue_coating", "wiry_slippery_pulse", "history_hypertension"],
+    "contradicting_symptoms": ["stable_neurological_exam", "no_risk_factors"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "heart_blood_stasis",
+        "differentiating_feature": "Tâm huyết ứ trở chủ yếu triệu chứng tim; Tiền triệu phong đàm nổi bật triệu chứng thần kinh thoáng qua và đàm phong — đây là cảnh báo nguy cơ đột quỵ não"
+      }
+    ],
+    "derived_chung_codes": ["heart_qi_deficiency_wind_phlegm_precursor_pattern"],
+    "phap_tri_direction": "Bổ khí hoạt huyết, hóa đàm tức phong (Tonify Qi, Invigorate Blood, Transform Phlegm, Extinguish Wind)",
+    "typical_herb_formula": "Bổ Dương Hoàn Ngũ Thang gia giảm kết hợp hóa đàm",
+    "clinical_notes": "QUAN TRỌNG: Triệu chứng thần kinh thoáng qua (TIA) là DẤU HIỆU ĐỎ — cần đánh giá YHHD khẩn cấp để loại trừ cơn thiếu máu não thoáng qua trước khi điều trị YHCT.",
+    "veto_rule": "IF transient_neurological_symptoms present → trigger RED_FLAG_CHECK → urgent_YHHD_evaluation",
+    "prevalence": "uncommon"
+  },
+  {
+    "rule_id": "PM_B04_019",
+    "benh_co_code": "heart_water_overflowing",
+    "benh_co_vi": "Thủy khí lăng Tâm",
+    "benh_co_en": "Water Qi Overflowing to Disturb Heart",
+    "zangfu_primary": "heart",
+    "zangfu_secondary": ["kidney", "spleen"],
+    "bat_cuong_profile": {
+      "cold": 0.7,
+      "heat": 0.0,
+      "deficiency": 0.6,
+      "excess": 0.6,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "required_symptoms": ["palpitations", "edema_lower_limbs", "shortness_of_breath"],
+    "supporting_symptoms": ["cold_limbs", "oliguria", "abdominal_distension_ascites", "nausea", "pale_swollen_tongue_wet_coating", "deep_slippery_pulse", "cough_with_watery_sputum"],
+    "contradicting_symptoms": ["fever", "thirst_cold_drinks", "red_tongue", "scanty_coating"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "heart_yang_deficiency",
+        "differentiating_feature": "Tâm dương hư chưa có phù và thiểu niệu rõ; Thủy khí lăng Tâm là giai đoạn nặng hơn: dương hư không khí hóa được thủy, gây phù, thiểu niệu, nước tràn lên ngực"
+      },
+      {
+        "benh_co_code": "heart_lung_qi_deficiency",
+        "differentiating_feature": "Tâm Phế khí hư không có phù lạnh; Thủy khí lăng Tâm có phù rõ, thiểu niệu, nước khí trào lên, bệnh cảnh Thận dương hư không chủ thủy"
+      }
+    ],
+    "derived_chung_codes": ["water_overflowing_to_heart_pattern"],
+    "phap_tri_direction": "Ôn dương hóa khí, lợi thủy tiêu thũng (Warm Yang, Transform Qi, Promote Urination, Reduce Edema)",
+    "typical_herb_formula": "Chân Vũ Thang hoặc Linh Quế Truật Cam Thang",
+    "clinical_notes": "Tương quan YHHD: suy tim sung huyết mất bù, phù tim. Phù và khó thở tiến triển cần đánh giá YHHD khẩn. Theo dõi lượng nước tiểu, cân nặng hàng ngày.",
+    "veto_rule": null,
+    "prevalence": "uncommon"
+  },
+  {
+    "rule_id": "PM_B04_020",
+    "benh_co_code": "heart_cold_obstruction",
+    "benh_co_vi": "Hàn ngưng Tâm mạch",
+    "benh_co_en": "Cold Congealing in Heart Vessels",
+    "zangfu_primary": "heart",
+    "zangfu_secondary": [],
+    "bat_cuong_profile": {
+      "cold": 0.9,
+      "heat": 0.0,
+      "deficiency": 0.2,
+      "excess": 0.8,
+      "exterior": 0.1,
+      "interior": 0.9
+    },
+    "required_symptoms": ["chest_pain_sudden_worsened_by_cold", "aversion_to_cold"],
+    "supporting_symptoms": ["pain_relieved_by_warmth", "cold_limbs", "pale_or_bluish_complexion", "tight_wiry_pulse", "white_tongue_coating"],
+    "contradicting_symptoms": ["fever", "thirst", "red_tongue", "yellow_coating", "pain_worsened_by_warmth"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "heart_blood_stasis",
+        "differentiating_feature": "Tâm huyết ứ trở đau thường cố định không liên quan nhiệt độ, lưỡi tím; Hàn ngưng Tâm mạch đau rõ ràng do lạnh kích thích, ấm nóng giảm, mạch khẩn"
+      },
+      {
+        "benh_co_code": "heart_yang_deficiency",
+        "differentiating_feature": "Tâm dương hư là hư hàn mạn tính; Hàn ngưng Tâm mạch thường cấp tính hơn, hàn tà thực, đau dữ dội khi tiếp xúc lạnh đột ngột"
+      }
+    ],
+    "derived_chung_codes": ["cold_congealing_heart_vessels_pattern"],
+    "phap_tri_direction": "Tân ôn tán hàn, thông dương hành mạch (Acrid-Warm, Disperse Cold, Unblock Yang, Move Vessels)",
+    "typical_herb_formula": "Qua Lâu Giới Bạch Bạch Tửu Thang gia Quế Chi, Can Khương",
+    "clinical_notes": "Thường khởi phát mùa đông hoặc khi nhiệt độ thay đổi đột ngột. Tại Việt Nam gặp vào mùa rét đậm miền Bắc. Đau ngực cấp do lạnh cần loại trừ ACS bằng YHHD trước.",
+    "veto_rule": null,
+    "prevalence": "uncommon"
+  },
+  {
+    "rule_id": "PM_B04_021",
+    "benh_co_code": "heart_palpitations_chronic_deficiency",
+    "benh_co_vi": "Tâm hư chính xung (Chính xung mạn tính)",
+    "benh_co_en": "Chronic Palpitations from Heart Deficiency (Zheng Chong)",
+    "zangfu_primary": "heart",
+    "zangfu_secondary": [],
+    "bat_cuong_profile": {
+      "cold": 0.1,
+      "heat": 0.1,
+      "deficiency": 0.85,
+      "excess": 0.1,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "required_symptoms": ["severe_palpitations_felt_throughout_body", "palpitations_at_rest_persistent"],
+    "supporting_symptoms": ["insomnia", "shortness_of_breath", "fatigue", "anxiety", "irregular_or_intermittent_pulse", "pale_tongue"],
+    "contradicting_symptoms": ["strong_full_pulse", "fever", "red_tongue_yellow_coating"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "heart_qi_deficiency",
+        "differentiating_feature": "Tâm khí hư đánh trống ngực khi gắng sức; Chính xung đánh trống ngực mạnh ngay cả lúc nghỉ, có thể cảm thấy tim đập rung toàn thân, nặng hơn về đêm — thường liên quan rối loạn nhịp tim"
+      },
+      {
+        "benh_co_code": "heart_deficiency_fright_anxiety",
+        "differentiating_feature": "Tâm hư kinh sợ chủ yếu sợ hãi lo âu tâm lý; Chính xung nổi bật triệu chứng tim mạch thực thể: nhịp không đều, cảm giác tim đập loạn"
+      }
+    ],
+    "derived_chung_codes": ["chronic_palpitations_heart_deficiency_pattern"],
+    "phap_tri_direction": "Bổ Tâm trấn kinh, định chí an thần (Tonify Heart, Settle Palpitations, Calm Mind and Spirit)",
+    "typical_herb_formula": "Chích Cam Thảo Thang hoặc Ổn Tâm Thang gia giảm",
+    "clinical_notes": "Cần đánh giá điện tâm đồ và Holter để loại trừ rối loạn nhịp nguy hiểm trước khi điều trị YHCT. Phổ biến ở người cao tuổi Việt Nam có rối loạn nhịp chức năng.",
+    "veto_rule": null,
+    "prevalence": "common"
+  },
+  {
+    "rule_id": "PM_B04_022",
+    "benh_co_code": "heart_liver_blood_deficiency",
+    "benh_co_vi": "Tâm Can huyết hư",
+    "benh_co_en": "Heart-Liver Blood Deficiency",
+    "zangfu_primary": "heart",
+    "zangfu_secondary": ["liver"],
+    "bat_cuong_profile": {
+      "cold": 0.1,
+      "heat": 0.1,
+      "deficiency": 0.9,
+      "excess": 0.0,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "required_symptoms": ["insomnia_vivid_dreams", "palpitations", "pale_dull_complexion"],
+    "supporting_symptoms": ["dizziness_on_standing", "blurred_vision", "dry_eyes", "irregular_menstruation_scanty", "pale_nails", "numbness_limbs", "fine_weak_pulse", "pale_tongue"],
+    "contradicting_symptoms": ["red_tongue", "fever", "strong_pulse", "full_menses"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "heart_blood_deficiency",
+        "differentiating_feature": "Tâm huyết hư chỉ có triệu chứng tim; Tâm Can huyết hư kèm triệu chứng Can huyết hư: mắt khô mờ, móng tay nhợt dòn, co cứng cơ nhẹ, kinh nguyệt ít nhạt màu"
+      },
+      {
+        "benh_co_code": "heart_spleen_dual_deficiency",
+        "differentiating_feature": "Tỳ Tâm lưỡng hư nổi bật triệu chứng Tỳ: ăn kém, phân lỏng, bụng trướng; Tâm Can huyết hư nổi bật triệu chứng Can: mắt khô, móng tay nhợt, kinh không đều"
+      }
+    ],
+    "derived_chung_codes": ["heart_liver_blood_deficiency_pattern"],
+    "phap_tri_direction": "Dưỡng Can huyết, bổ Tâm an thần, tư Can nhu mạch (Nourish Liver Blood, Tonify Heart, Calm Spirit, Nourish Sinews)",
+    "typical_herb_formula": "Tứ Vật Thang hợp Toan Táo Nhân Thang gia giảm",
+    "clinical_notes": "Rất phổ biến ở phụ nữ Việt Nam tuổi sinh sản, sau sinh, sau kinh nhiều. Mất ngủ do thiếu máu là biểu hiện lâm sàng thường gặp nhất của thể bệnh này.",
+    "veto_rule": null,
+    "prevalence": "very_common"
+  },
+  {
+    "rule_id": "PM_B04_023",
+    "benh_co_code": "heart_fire_descending_small_intestine",
+    "benh_co_vi": "Tâm hỏa hạ di Tiểu Trường",
+    "benh_co_en": "Heart Fire Descending to Small Intestine",
+    "zangfu_primary": "heart",
+    "zangfu_secondary": ["small_intestine"],
+    "bat_cuong_profile": {
+      "cold": 0.0,
+      "heat": 0.9,
+      "deficiency": 0.0,
+      "excess": 0.9,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "required_symptoms": ["heart_vexation", "burning_painful_urination", "dark_red_urine"],
+    "supporting_symptoms": ["oral_ulcers", "thirst", "flushed_face", "insomnia_agitated", "red_tongue_tip", "rapid_forceful_pulse"],
+    "contradicting_symptoms": ["pale_urine", "clear_urine", "aversion_to_cold", "pale_tongue"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "heart_fire_blazing",
+        "differentiating_feature": "Tâm hỏa vượng chủ yếu triệu chứng tim và miệng; Tâm hỏa hạ di Tiểu Trường nổi bật thêm tiểu buốt đỏ — biểu hiện hỏa theo kinh Tâm-Tiểu Trường truyền xuống"
+      }
+    ],
+    "derived_chung_codes": ["heart_fire_descending_small_intestine_pattern"],
+    "phap_tri_direction": "Thanh Tâm hỏa, lợi Tiểu Trường (Clear Heart Fire, Benefit Small Intestine, Promote Urination)",
+    "typical_herb_formula": "Đạo Xích Tán (Sinh địa, Mộc thông, Cam thảo thao, Trúc diệp)",
+    "clinical_notes": "Tương quan YHHD: viêm bàng quang không đặc hiệu, viêm niệu đạo. Tiểu buốt cấp cần loại trừ nhiễm khuẩn tiết niệu bằng xét nghiệm nước tiểu trước khi điều trị YHCT.",
+    "veto_rule": null,
+    "prevalence": "common"
+  },
+  {
+    "rule_id": "PM_B04_024",
+    "benh_co_code": "heart_epilepsy_phlegm_wind",
+    "benh_co_vi": "Tâm kinh đàm phong — Giản chứng",
+    "benh_co_en": "Heart Channel Phlegm-Wind — Epilepsy Pattern",
+    "zangfu_primary": "heart",
+    "zangfu_secondary": ["liver", "spleen"],
+    "bat_cuong_profile": {
+      "cold": 0.1,
+      "heat": 0.3,
+      "deficiency": 0.3,
+      "excess": 0.8,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "required_symptoms": ["sudden_loss_of_consciousness", "convulsions_or_twitching"],
+    "supporting_symptoms": ["frothing_at_mouth", "abnormal_cry_before_attack", "upward_staring_eyes", "tongue_biting", "incontinence", "postictal_confusion", "greasy_tongue_coating", "wiry_slippery_pulse"],
+    "contradicting_symptoms": ["gradual_onset_maintained_consciousness"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "phlegm_misting_heart_orifices",
+        "differentiating_feature": "Đàm mê Tâm khiếu thường không có co giật và kêu bất thường trước; Giản chứng có chu kỳ tái phát, tiếng kêu bất thường trước cơn, co giật toàn thân điển hình"
+      }
+    ],
+    "derived_chung_codes": ["epilepsy_phlegm_wind_pattern"],
+    "phap_tri_direction": "Khai khiếu tức phong, hóa đàm định giản (Open Orifices, Extinguish Wind, Transform Phlegm, Stabilize Epilepsy)",
+    "typical_herb_formula": "Định Giản Hoàn hoặc Xương Bồ Uất Kim Thang gia giảm giữa cơn",
+    "clinical_notes": "Co giật cấp tính cần CẤP CỨU YHHD ngay để loại trừ động kinh lần đầu, u não, viêm não. YHCT chủ yếu điều trị phòng ngừa tái phát sau khi đã chẩn đoán xác định.",
+    "veto_rule": "IF acute_first_seizure → trigger RED_FLAG_CHECK → urgent_YHHD_evaluation",
+    "prevalence": "rare"
+  },
+  {
+    "rule_id": "PM_B04_025",
+    "benh_co_code": "heart_qi_yin_dual_deficiency",
+    "benh_co_vi": "Tâm khí âm lưỡng hư",
+    "benh_co_en": "Heart Qi-Yin Dual Deficiency",
+    "zangfu_primary": "heart",
+    "zangfu_secondary": [],
+    "bat_cuong_profile": {
+      "cold": 0.0,
+      "heat": 0.3,
+      "deficiency": 0.9,
+      "excess": 0.0,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "required_symptoms": ["palpitations", "shortness_of_breath", "night_sweats_and_spontaneous_sweating"],
+    "supporting_symptoms": ["fatigue", "insomnia", "dry_mouth", "heat_in_palms", "pale_or_slightly_red_tongue_scanty_coating", "fine_weak_rapid_pulse"],
+    "contradicting_symptoms": ["aversion_to_cold", "cold_limbs", "thick_coating", "strong_pulse"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "heart_qi_deficiency",
+        "differentiating_feature": "Tâm khí hư đơn thuần không có âm hư: không ra mồ hôi trộm, không khô miệng, không nóng bàn tay, lưỡi nhợt; Tâm khí âm lưỡng hư có cả khí hư và âm hư"
+      },
+      {
+        "benh_co_code": "heart_yin_deficiency",
+        "differentiating_feature": "Tâm âm hư đơn thuần không có khí hư nổi bật: không khó thở nhiều, ít mệt; Tâm khí âm lưỡng hư vừa mệt khó thở (khí hư) vừa mồ hôi trộm khô miệng (âm hư)"
+      }
+    ],
+    "derived_chung_codes": ["heart_qi_yin_dual_deficiency_pattern"],
+    "phap_tri_direction": "Ích khí dưỡng âm, bổ Tâm an thần (Augment Qi, Nourish Yin, Tonify Heart, Calm Spirit)",
+    "typical_herb_formula": "Sinh Mạch Tán gia vị (Nhân sâm/Đảng sâm, Mạch môn, Ngũ vị tử gia Đan sâm, Toan táo nhân)",
+    "clinical_notes": "Thường gặp sau bệnh nặng kéo dài, sốt cao lâu ngày, sau điều trị hóa xạ. Tại Việt Nam thường gặp ở người cao tuổi suy nhược. Sinh Mạch Tán là phương đặc hiệu kinh điển.",
+    "veto_rule": null,
+    "prevalence": "common"
+  },
+  {
+    "rule_id": "PM_B04_026",
+    "benh_co_code": "heart_kidney_yang_deficiency",
+    "benh_co_vi": "Tâm Thận dương hư",
+    "benh_co_en": "Heart-Kidney Yang Deficiency",
+    "zangfu_primary": "heart",
+    "zangfu_secondary": ["kidney"],
+    "bat_cuong_profile": {
+      "cold": 0.9,
+      "heat": 0.0,
+      "deficiency": 0.9,
+      "excess": 0.0,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "required_symptoms": ["palpitations", "cold_limbs_severe", "edema_lower_limbs"],
+    "supporting_symptoms": ["shortness_of_breath", "oliguria", "lumbar_soreness", "aversion_to_cold_extreme", "pale_swollen_tongue_wet_white_coating", "deep_weak_pulse", "impotence_or_reduced_libido"],
+    "contradicting_symptoms": ["fever", "red_tongue", "thirst_cold_drinks", "strong_pulse"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "heart_yang_deficiency",
+        "differentiating_feature": "Tâm dương hư chưa ảnh hưởng Thận; Tâm Thận dương hư có cả triệu chứng Thận dương hư: đau lưng mỏi gối, phù, thiểu niệu, liệt dương — bệnh cảnh nặng hơn"
+      },
+      {
+        "benh_co_code": "water_overflowing_to_heart",
+        "differentiating_feature": "Thủy khí lăng Tâm nhấn mạnh thủy thũng; Tâm Thận dương hư là bệnh cơ căn bản tạo ra thủy thũng — là cơ chế bệnh sinh sâu hơn"
+      }
+    ],
+    "derived_chung_codes": ["heart_kidney_yang_deficiency_pattern"],
+    "phap_tri_direction": "Ôn bổ Tâm Thận dương, hóa khí lợi thủy (Warm and Tonify Heart-Kidney Yang, Transform Qi, Benefit Water Metabolism)",
+    "typical_herb_formula": "Kim Quỹ Thận Khí Hoàn hợp Chân Vũ Thang gia giảm",
+    "clinical_notes": "Tương quan YHHD: suy tim sung huyết giai đoạn cuối, bệnh thận mạn kèm suy tim. Cần theo dõi sát chức năng thận và điện giải. Phối hợp điều trị YHHD là bắt buộc.",
+    "veto_rule": null,
+    "prevalence": "uncommon"
+  },
+  {
+    "rule_id": "PM_B04_027",
+    "benh_co_code": "heart_spirit_disturbed_liver_qi_stagnation",
+    "benh_co_vi": "Tâm thần bất an kiêm Can khí uất",
+    "benh_co_en": "Heart Spirit Disturbed with Liver Qi Stagnation",
+    "zangfu_primary": "heart",
+    "zangfu_secondary": ["liver"],
+    "bat_cuong_profile": {
+      "cold": 0.0,
+      "heat": 0.3,
+      "deficiency": 0.5,
+      "excess": 0.5,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "required_symptoms": ["insomnia_with_emotional_trigger", "palpitations_emotional", "irritability_depression_alternating"],
+    "supporting_symptoms": ["sighing", "chest_hypochondrial_distension", "anxiety", "dream_disturbed_sleep", "wiry_fine_pulse", "slightly_red_tongue_thin_coating"],
+    "contradicting_symptoms": ["aversion_to_cold", "cold_limbs", "red_tongue_yellow_greasy_coating"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "heart_deficiency_fright_anxiety",
+        "differentiating_feature": "Tâm hư kinh sợ chủ yếu hư chứng, sợ hãi nhút nhát; Tâm thần bất an kiêm Can khí uất có thêm tức giận, thở dài, sườn ngực trướng liên quan rõ đến cảm xúc"
+      },
+      {
+        "benh_co_code": "phlegm_fire_harassing_heart",
+        "differentiating_feature": "Đàm hỏa nhiễu Tâm có đàm nhiệt thực chứng, bồn chồn kích động; Tâm thần bất an kiêm Can khí uất nhẹ hơn, có hư thực xen kẽ, liên quan rõ stress tâm lý"
+      }
+    ],
+    "derived_chung_codes": ["heart_spirit_disturbed_liver_qi_stagnation_pattern"],
+    "phap_tri_direction": "Sơ Can giải uất, dưỡng Tâm an thần (Soothe Liver, Resolve Stagnation, Nourish Heart, Calm Spirit)",
+    "typical_herb_formula": "Tiêu Dao Tán hợp Toan Táo Nhân Thang gia giảm",
+    "clinical_notes": "Rất phổ biến tại Việt Nam trong bối cảnh áp lực xã hội tăng cao. Tương quan YHHD: hội chứng lo âu-trầm cảm hỗn hợp, rối loạn giấc ngủ do stress. Liệu pháp tâm lý phối hợp rất có giá trị.",
+    "veto_rule": null,
+    "prevalence": "very_common"
+  },
+  {
+    "rule_id": "PM_B04_028",
+    "benh_co_code": "heart_blood_stasis_phlegm_combined",
+    "benh_co_vi": "Tâm huyết ứ kiêm đàm trở",
+    "benh_co_en": "Heart Blood Stasis with Phlegm Obstruction Combined",
+    "zangfu_primary": "heart",
+    "zangfu_secondary": ["spleen"],
+    "bat_cuong_profile": {
+      "cold": 0.2,
+      "heat": 0.1,
+      "deficiency": 0.2,
+      "excess": 0.9,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "required_symptoms": ["chest_pain_stabbing", "chest_oppression_fullness", "palpitations"],
+    "supporting_symptoms": ["cyanotic_lips", "obesity_overweight", "phlegm_sputum", "purple_tongue_with_greasy_coating", "choppy_slippery_pulse", "nausea"],
+    "contradicting_symptoms": ["thin_tongue_coating", "fine_deficient_pulse", "no_chest_pain"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "heart_blood_stasis",
+        "differentiating_feature": "Tâm huyết ứ trở đơn thuần: lưỡi tím không nhờn, mạch sáp; Ứ huyết kiêm đàm trở: lưỡi tím có rêu nhờn, mạch sáp hoặc hoạt, béo phì, đờm nhiều — bệnh cơ phức tạp hơn"
+      },
+      {
+        "benh_co_code": "phlegm_turbidity_obstructing_heart",
+        "differentiating_feature": "Đàm trọc uất Tâm chưa có ứ huyết rõ: không đau cố định, lưỡi không tím; Ứ huyết kiêm đàm trở có đau ngực cố định châm chích kèm đàm trọc"
+      }
+    ],
+    "derived_chung_codes": ["heart_blood_stasis_phlegm_combined_pattern"],
+    "phap_tri_direction": "Hoạt huyết hóa ứ, hóa đàm thông mạch (Invigorate Blood, Transform Stasis and Phlegm, Unblock Vessels)",
+    "typical_herb_formula": "Qua Lâu Giới Bạch Bán Hạ Thang hợp Huyết Phủ Trục Ứ Thang",
+    "clinical_notes": "Thể bệnh phức tạp rất phổ biến ở người cao tuổi Việt Nam béo phì có bệnh mạch vành và rối loạn mỡ máu. Điều trị cần kiên trì, phối hợp điều trị bệnh căn YHHD và điều chỉnh lối sống.",
+    "veto_rule": null,
+    "prevalence": "common"
+  },
+  {
+    "rule_id": "PM_B04_029",
+    "benh_co_code": "heart_deficiency_postpartum",
+    "benh_co_vi": "Tâm hư hậu sản",
+    "benh_co_en": "Heart Deficiency in Postpartum Period",
+    "zangfu_primary": "heart",
+    "zangfu_secondary": ["spleen", "liver"],
+    "bat_cuong_profile": {
+      "cold": 0.1,
+      "heat": 0.1,
+      "deficiency": 0.95,
+      "excess": 0.0,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "required_symptoms": ["postpartum_palpitations", "postpartum_insomnia", "postpartum_excessive_fatigue"],
+    "supporting_symptoms": ["postpartum_depression_or_anxiety", "pale_complexion", "dizziness", "forgetfulness", "reduced_breast_milk", "fine_weak_pulse", "pale_tongue"],
+    "contradicting_symptoms": ["fever_postpartum_infection", "red_tongue_yellow_coating", "strong_pulse"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "heart_blood_deficiency",
+        "differentiating_feature": "Tâm huyết hư là thể bệnh chung; Tâm hư hậu sản đặc hiệu bối cảnh sau sinh: mất máu và tiêu hao khí huyết khi sinh, cần điều trị bổ ích khẩn để phục hồi"
+      },
+      {
+        "benh_co_code": "heart_spleen_dual_deficiency",
+        "differentiating_feature": "Tỳ Tâm lưỡng hư có thể ở mọi đối tượng; Tâm hư hậu sản đặc thù bối cảnh hậu sản, cần lưu ý loại trừ nhiễm trùng hậu sản YHHD trước khi điều trị bổ"
+      }
+    ],
+    "derived_chung_codes": ["heart_deficiency_postpartum_pattern"],
+    "phap_tri_direction": "Bổ Tâm dưỡng huyết, ích khí kiện Tỳ (Tonify Heart, Nourish Blood, Augment Qi, Strengthen Spleen)",
+    "typical_herb_formula": "Quy Tỳ Thang hoặc Bát Trân Thang gia Toan táo nhân, Viễn chí",
+    "clinical_notes": "Rất phổ biến tại Việt Nam. CẦN LOẠI TRỪ nhiễm trùng hậu sản, băng huyết hậu sản, trầm cảm sau sinh YHHD trước khi dùng thuốc bổ. Phát sốt sau sinh là dấu hiệu đỏ cần đánh giá nhiễm trùng.",
+    "veto_rule": null,
+    "prevalence": "common"
+  },
+  {
+    "rule_id": "PM_B04_030",
+    "benh_co_code": "heart_yin_deficiency_fire_agitation",
+    "benh_co_vi": "Tâm âm hư hỏa vượng — Thất miên phiền táo",
+    "benh_co_en": "Heart Yin Deficiency with Fire Agitation — Insomnia with Vexation",
+    "zangfu_primary": "heart",
+    "zangfu_secondary": ["kidney", "liver"],
+    "bat_cuong_profile": {
+      "cold": 0.0,
+      "heat": 0.7,
+      "deficiency": 0.8,
+      "excess": 0.3,
+      "exterior": 0.0,
+      "interior": 1.0
+    },
+    "required_symptoms": ["severe_insomnia_unable_to_sleep", "restless_agitation_vexation", "night_sweats"],
+    "supporting_symptoms": ["palpitations", "malar_flush", "heat_in_five_centers", "dry_mouth_throat", "irritability", "dream_disturbed_sleep_violent_dreams", "red_tongue_no_coating_or_scanty", "fine_rapid_pulse"],
+    "contradicting_symptoms": ["aversion_to_cold", "pale_tongue", "weak_slow_pulse", "thick_greasy_coating"],
+    "differentiates_from": [
+      {
+        "benh_co_code": "heart_yin_deficiency",
+        "differentiating_feature": "Tâm âm hư đơn thuần mức độ nhẹ-vừa, phiền táo ít rõ; Tâm âm hư hỏa vượng thất miên phiền táo là thể nặng hơn: mất ngủ hoàn toàn, phiền táo dữ dội, hư hỏa rõ ràng"
+      },
+      {
+        "benh_co_code": "phlegm_fire_harassing_heart",
+        "differentiating_feature": "Đàm hỏa nhiễu Tâm là thực chứng: rêu vàng nhờn, đờm nhiều, mạch hoạt sác hữu lực; Tâm âm hư hỏa vượng là hư chứng: lưỡi đỏ không rêu, mạch tế sác vô lực"
+      },
+      {
+        "benh_co_code": "heart_kidney_non_communication",
+        "differentiating_feature": "Tâm Thận bất giao nổi bật sự mất giao thông Thủy Hỏa với triệu chứng Thận rõ: đau lưng, ù tai, di tinh; Tâm âm hư hỏa vượng chủ yếu Tâm hỏa bức âm, Thận chưa suy rõ"
+      }
+    ],
+    "derived_chung_codes": ["heart_yin_deficiency_fire_agitation_pattern"],
+    "phap_tri_direction": "Tư âm thanh nhiệt, dưỡng Tâm an thần, giáng hư hỏa (Nourish Yin, Clear Heat, Tonify Heart, Calm Spirit, Descend Deficiency Fire)",
+    "typical_herb_formula": "Hoàng Liên A Giao Thang (Hoàng Liên, Hoàng Cầm, A Giao, Bạch thược, Trứng gà) — phương kinh điển Thương Hàn Luận",
+    "clinical_notes": "Thể bệnh quan trọng và phổ biến trong mất ngủ mạn tính tại Việt Nam, đặc biệt phụ nữ tiền mãn kinh và người cao tuổi. Hoàng Liên A Giao Thang là phương đặc hiệu kinh điển. Cần phân biệt với rối loạn lo âu, trầm cảm YHHD nếu triệu chứng kéo dài và ảnh hưởng nặng chức năng.",
+    "veto_rule": null,
+    "prevalence": "common"
+  }
+]

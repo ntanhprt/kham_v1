@@ -1605,4 +1605,134 @@ class YHCTEngine
         }
         return $this->coOccurrenceMatrix;
     }
+
+    // =========================================================================
+    // CLINICAL RESULTS INTEGRATION
+    // =========================================================================
+
+    /**
+     * Apply paraclinical test results to adjust pattern scores in $resultData.
+     *
+     * Algorithm (multiplicative):
+     *   - Confirming test, abnormal in expected direction → score × (1 + weight)
+     *   - Confirming test, normal (contradicts expectation) → score × (1 − weight × 0.5)
+     *   - Excluding test, abnormal → score × (1 − weight)
+     *   - Excluding test, normal → no change
+     *
+     * Modifies $resultData['chung_ranked'] scores in-place, then re-sorts and
+     * updates $resultData['primary_pattern'] to the new top match.
+     *
+     * @param array $resultData      Reference to the preliminary result_data array
+     * @param array $clinicalResults Parsed clinical results: ['tests' => [...]]
+     */
+    public function applyClinicalResults(array &$resultData, array $clinicalResults): void
+    {
+        $tests = $clinicalResults['tests'] ?? [];
+        if (empty($tests) || empty($resultData['chung_ranked'])) {
+            return;
+        }
+
+        // Build a lookup: test_code → {status, direction}
+        $testLookup = [];
+        foreach ($tests as $t) {
+            $testLookup[$t['test_code']] = $t;
+        }
+
+        // Load paraclinical_hints for all pattern codes that appear in chung_ranked
+        $codes        = array_column($resultData['chung_ranked'], 'chung_code');
+        $db           = Database::get();
+        $placeholders = implode(',', array_fill(0, count($codes), '?'));
+        $stmt         = $db->prepare(
+            "SELECT chung_code, paraclinical_hints FROM kb_patterns
+             WHERE chung_code IN ($placeholders) AND paraclinical_hints IS NOT NULL"
+        );
+        $stmt->execute($codes);
+        $hintRows = $stmt->fetchAll(PDO::FETCH_KEY_PAIR); // chung_code => hints_json
+
+        // Adjust scores
+        $adjustments = []; // chung_code => [ {test, delta, reason}, ... ]
+
+        foreach ($resultData['chung_ranked'] as &$pattern) {
+            $pCode = $pattern['chung_code'];
+            $hints = json_decode($hintRows[$pCode] ?? '[]', true) ?: [];
+            $score = $pattern['score'] ?? 0.0;
+
+            foreach ($hints as $hint) {
+                $tc = $hint['test_code'];
+                if (!isset($testLookup[$tc])) continue;
+
+                $test      = $testLookup[$tc];
+                $status    = $test['status'];     // 'normal' | 'abnormal'
+                $direction = $test['direction'];  // 'elevated' | 'decreased' | 'present' | 'absent' | 'any'
+                $relevance = $hint['relevance'];  // 'confirms' | 'excludes'
+                $weight    = (float)($hint['weight'] ?? 0.10);
+
+                // Check direction match
+                $expectedDir = $hint['abnormal_direction'] ?? 'any';
+                $dirMatch = ($expectedDir === 'any')
+                    || ($direction === 'any')
+                    || ($direction === $expectedDir);
+
+                if ($relevance === 'confirms') {
+                    if ($status === 'abnormal' && $dirMatch) {
+                        // Test confirms pattern → boost
+                        $delta = $score * $weight;
+                        $score += $delta;
+                        $adjustments[$pCode][] = [
+                            'test'   => $hint['test_name_vi'],
+                            'effect' => '+' . round($weight * 100) . '%',
+                            'reason' => 'Xác nhận chứng hội',
+                        ];
+                    } elseif ($status === 'normal' && $expectedDir !== 'any') {
+                        // Expected abnormal but normal → mild penalty
+                        $delta = $score * $weight * 0.5;
+                        $score -= $delta;
+                        $adjustments[$pCode][] = [
+                            'test'   => $hint['test_name_vi'],
+                            'effect' => '-' . round($weight * 50) . '%',
+                            'reason' => 'Kết quả bình thường (không xác nhận)',
+                        ];
+                    }
+                } elseif ($relevance === 'excludes') {
+                    if ($status === 'abnormal' && $dirMatch) {
+                        // Exclusion test is abnormal → penalize
+                        $delta = $score * $weight;
+                        $score -= $delta;
+                        $adjustments[$pCode][] = [
+                            'test'   => $hint['test_name_vi'],
+                            'effect' => '-' . round($weight * 100) . '%',
+                            'reason' => 'Loại trừ chứng hội',
+                        ];
+                    }
+                }
+            }
+
+            $pattern['score']              = max(0.0, min(1.0, $score));
+            $pattern['clinical_adjustments'] = $adjustments[$pCode] ?? [];
+        }
+        unset($pattern);
+
+        // Re-sort chung_ranked by adjusted score
+        usort($resultData['chung_ranked'], fn($a, $b) => $b['score'] <=> $a['score']);
+
+        // Update primary_pattern to reflect new top result
+        $newTop = $resultData['chung_ranked'][0] ?? null;
+        if ($newTop && isset($resultData['primary_pattern'])) {
+            // Only update if the top changed
+            if ($newTop['chung_code'] !== ($resultData['primary_pattern']['chung_code'] ?? '')) {
+                // Find full pattern data from k04Patterns
+                $full = $this->k04Patterns[$newTop['chung_code']] ?? null;
+                if ($full) {
+                    $resultData['primary_pattern'] = array_merge(
+                        $resultData['primary_pattern'],
+                        ['chung_code' => $newTop['chung_code'],
+                         'name_vi'    => $full['name_vi'] ?? $newTop['name_vi'] ?? '']
+                    );
+                }
+            }
+        }
+
+        // Store adjustment log in result for display
+        $resultData['clinical_adjustments'] = $adjustments;
+    }
 }

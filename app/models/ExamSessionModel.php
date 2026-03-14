@@ -84,7 +84,7 @@ class ExamSessionModel extends BaseModel
     public function updateSession(string $sessionId, array $data): bool
     {
         // Encode các trường JSON nếu được truyền vào dạng mảng
-        $jsonFields = ['selected_codes', 'context_flags', 'quick_answers', 'result_data'];
+        $jsonFields = ['selected_codes', 'context_flags', 'quick_answers', 'result_data', 'paraclinical_results'];
         foreach ($jsonFields as $field) {
             if (isset($data[$field]) && is_array($data[$field])) {
                 $data[$field] = json_encode($data[$field], JSON_UNESCAPED_UNICODE);
@@ -234,7 +234,7 @@ class ExamSessionModel extends BaseModel
      */
     private function decodeJsonFields(array $row): array
     {
-        $jsonFields = ['selected_codes', 'context_flags', 'quick_answers', 'result_data'];
+        $jsonFields = ['selected_codes', 'context_flags', 'quick_answers', 'result_data', 'paraclinical_results'];
         foreach ($jsonFields as $field) {
             if (isset($row[$field]) && is_string($row[$field])) {
                 $decoded = json_decode($row[$field], true);

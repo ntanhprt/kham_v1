@@ -14,6 +14,8 @@ $phapTri        = $result['phap_tri']        ?? [];
 $kiemChung      = $result['kiem_chung']      ?? [];
 $followUp       = $result['follow_up']       ?? [];
 $clusters       = $result['clusters']        ?? [];
+$paraclinical   = $result['paraclinical']    ?? [];
+$clinicalAdj    = $result['clinical_adjustments'] ?? [];
 $disclaimer     = $result['yhct_disclaimer'] ?? '';
 $chiefComplaint = $chief_complaint ?? '';
 
@@ -556,11 +558,67 @@ $levelClass = match($triageLevel) {
         </div>
         <?php endif; ?>
 
-        <!-- ⑦ FOLLOW-UP ADVICE -->
+        <!-- ⑦ CẬN LÂM SÀNG (Paraclinical Results) -->
+        <?php
+        $pclTests   = $paraclinical['tests'] ?? [];
+        $showPcl    = !empty($pclTests);
+        ?>
+        <?php if ($showPcl): ?>
+        <div class="result-section" style="background:#E3F2FD; border-color:#90CAF9;">
+            <div class="result-section-title">
+                <i class="bi bi-flask text-primary"></i> ⑦ Kết quả cận lâm sàng đã nhập
+            </div>
+            <div style="display:flex;flex-direction:column;gap:.6rem;">
+            <?php foreach ($pclTests as $t): ?>
+                <?php
+                $statusBadge = match($t['status']) {
+                    'normal'   => ['✓ Bình thường', '#2E7D32', '#E8F5E9'],
+                    'abnormal' => ['⚠ Bất thường',  '#C62828', '#FFEBEE'],
+                    default    => ['Không rõ', '#607D8B', '#ECEFF1'],
+                };
+                // Score adjustment for this test's parent pattern
+                $adjList = $clinicalAdj[$t['pattern_code']] ?? [];
+                $thisAdj = array_filter($adjList, fn($a) => str_contains($a['test'] ?? '', substr($t['test_name_vi'], 0, 15)));
+                ?>
+                <div style="background:#fff;border-radius:10px;padding:.75rem 1rem;border:1.5px solid <?= $statusBadge[2] ?>;">
+                    <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:.5rem;">
+                        <div>
+                            <strong style="font-size:.9rem;color:#1A237E;"><?= htmlspecialchars($t['test_name_vi']) ?></strong>
+                            <?php if (!empty($t['findings'])): ?>
+                            <div style="font-size:.82rem;color:#546E7A;margin-top:.2rem;"><?= htmlspecialchars($t['findings']) ?></div>
+                            <?php endif; ?>
+                        </div>
+                        <span style="font-size:.78rem;font-weight:700;color:<?= $statusBadge[1] ?>;background:<?= $statusBadge[2] ?>;padding:.2rem .65rem;border-radius:12px;white-space:nowrap;">
+                            <?= $statusBadge[0] ?>
+                        </span>
+                    </div>
+                </div>
+            <?php endforeach; ?>
+            </div>
+            <?php if (!empty($clinicalAdj)): ?>
+            <div style="margin-top:1rem;padding:.75rem;background:#fff;border-radius:10px;font-size:.82rem;color:#546E7A;">
+                <strong style="color:#1565C0;">📊 Điều chỉnh độ tin cậy dựa trên xét nghiệm:</strong>
+                <?php foreach ($clinicalAdj as $pCode => $adjs): ?>
+                    <?php if (empty($adjs)) continue; ?>
+                    <div style="margin-top:.4rem;">
+                        <span style="color:#1A237E;font-weight:600;"><?= htmlspecialchars($pCode) ?></span>:
+                        <?php foreach ($adjs as $adj): ?>
+                        <span style="margin-left:.5rem;"><?= htmlspecialchars($adj['test']) ?>
+                            <strong style="color:<?= str_starts_with($adj['effect'], '+') ? '#2E7D32' : '#C62828' ?>;"><?= htmlspecialchars($adj['effect']) ?></strong>
+                        </span>
+                        <?php endforeach; ?>
+                    </div>
+                <?php endforeach; ?>
+            </div>
+            <?php endif; ?>
+        </div>
+        <?php endif; ?>
+
+        <!-- ⑧ FOLLOW-UP ADVICE -->
         <?php if (!empty($followUp)): ?>
         <div class="result-section" style="background:#F1F8E9; border-color:#A5D6A7;">
             <div class="result-section-title">
-                <i class="bi bi-calendar-check text-success"></i> ⑦ Lời khuyên theo dõi
+                <i class="bi bi-calendar-check text-success"></i> ⑧ Lời khuyên theo dõi
             </div>
             <ul class="mb-0" style="font-size:0.9rem;">
                 <?php foreach ($followUp as $advice): ?>
@@ -581,7 +639,7 @@ $levelClass = match($triageLevel) {
         <div class="result-section" style="background:#EDE7F6; border-color:#B39DDB;">
             <div class="result-section-title">
                 <i class="bi bi-diagram-3 text-purple" style="color:#6B3FA0;"></i>
-                ⑧ Bệnh nền và biến chứng cần chú ý
+                ⑨ Bệnh nền và biến chứng cần chú ý
             </div>
 
             <?php if (!empty($underlyingDiseases)): ?>
@@ -662,7 +720,7 @@ $levelClass = match($triageLevel) {
         <?php if ($showYhhd && !$yhctSuppressed): ?>
         <div class="result-section" style="background:#E3F2FD; border-color:#90CAF9;">
             <div class="result-section-title">
-                <i class="bi bi-hospital text-primary"></i> ⑨ Tương quan Tây Y (Y học hiện đại)
+                <i class="bi bi-hospital text-primary"></i> ⑩ Tương quan Tây Y (Y học hiện đại)
             </div>
 
             <?php if (!empty($yhhdCorrelates)): ?>
@@ -746,7 +804,7 @@ $levelClass = match($triageLevel) {
         <!-- ⑩ DISCLAIMER + ACTIONS -->
         <div class="result-section" style="background:#FFF8E1; border-color:#FFE082;">
             <div class="result-section-title">
-                <i class="bi bi-shield-exclamation text-warning"></i> ⑩ Lưu ý quan trọng
+                <i class="bi bi-shield-exclamation text-warning"></i> ⑪ Lưu ý quan trọng
             </div>
             <p class="small mb-3"><?= htmlspecialchars($disclaimer) ?></p>
             <div class="d-flex flex-wrap gap-2 no-print">

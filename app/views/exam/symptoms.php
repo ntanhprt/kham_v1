@@ -2,7 +2,7 @@
 // Determine if we're on questions page or symptoms picker
 $isQuestionsPage = $is_questions_page ?? false;
 
-$stepLabels      = ['Mô tả', 'Làm rõ', 'Triệu chứng', 'Câu hỏi', 'Kết quả'];
+$stepLabels      = ['Mô tả', 'Làm rõ', 'Triệu chứng', 'Câu hỏi', 'Cận lâm sàng', 'Kết quả'];
 $currentStep     = $isQuestionsPage ? 4 : 3;
 $chiefComplaint  = $chief_complaint ?? '';
 $selectedCodes   = $selected_codes  ?? [];

@@ -461,9 +461,9 @@ class ExamController extends Controller
         // Reload session with new data
         $session['quick_answers'] = $quickAnswers;
 
-        // Run full engine analysis
-        $engine      = $this->getEngine();
-        $resultData  = $engine->analyze($session);
+        // Run preliminary analysis (no clinical data yet)
+        $engine     = $this->getEngine();
+        $resultData = $engine->analyze($session);
 
         // Apply safety filter
         $safetyFilter = new SafetyFilter();
@@ -478,14 +478,150 @@ class ExamController extends Controller
         );
         $resultData['clusters'] = $clusterMatches;
 
-        // Mark session as complete with result
+        // Save preliminary result; keep session active for paraclinical step
+        $this->sessionModel->updateSession($session['session_id'], [
+            'result_data' => json_encode($resultData, JSON_UNESCAPED_UNICODE),
+        ]);
+
+        $this->redirect('exam/paraclinical');
+    }
+
+    // =========================================================================
+    // STEP 4: PARACLINICAL — Cận lâm sàng
+    // =========================================================================
+
+    /**
+     * GET  /exam/paraclinical – Form nhập kết quả cận lâm sàng
+     * POST /exam/paraclinical – Lưu kết quả, áp dụng điều chỉnh, redirect result
+     */
+    public function paraclinical(): void
+    {
+        $this->ensureIdentity();
+        $session = $this->loadActiveSession();
+        if (!$session) {
+            $this->redirect('exam/start');
+            return;
+        }
+
+        if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+            $this->processClinical($session);
+            return;
+        }
+
+        $resultData = $session['result_data'] ?? [];
+        if (is_string($resultData)) {
+            $resultData = json_decode($resultData, true) ?? [];
+        }
+
+        $hints = $this->buildParaclinicalHints($session);
+
+        $this->render('exam/paraclinical', [
+            'title'        => 'Cận lâm sàng - ' . APP_NAME,
+            'active_nav'   => 'exam',
+            'step'         => 5,
+            'session'      => $session,
+            'hints'        => $hints,
+            'top_patterns' => array_slice($resultData['chung_ranked'] ?? [], 0, 5),
+        ]);
+    }
+
+    /**
+     * Process POST /exam/paraclinical — lưu kết quả, điều chỉnh score, complete session
+     */
+    private function processClinical(array $session): void
+    {
+        $submittedTests  = $_POST['tests'] ?? [];
+        $clinicalResults = ['tests' => [], 'submitted_at' => date('Y-m-d H:i:s')];
+
+        foreach ($submittedTests as $testCode => $entry) {
+            $status = $entry['status'] ?? 'not_done';
+            if (!in_array($status, ['normal', 'abnormal', 'not_done'], true)) {
+                $status = 'not_done';
+            }
+            if ($status === 'not_done') continue;
+
+            $clinicalResults['tests'][] = [
+                'test_code'    => preg_replace('/[^a-z0-9_]/', '', $testCode),
+                'test_name_vi' => mb_substr(strip_tags($entry['test_name_vi'] ?? $testCode), 0, 100, 'UTF-8'),
+                'status'       => $status,
+                'direction'    => $entry['direction'] ?? 'any',
+                'findings'     => mb_substr(strip_tags($entry['findings'] ?? ''), 0, 500, 'UTF-8'),
+                'pattern_code' => $entry['pattern_code'] ?? '',
+            ];
+        }
+
+        // Load preliminary result_data
+        $resultData = $session['result_data'] ?? [];
+        if (is_string($resultData)) {
+            $resultData = json_decode($resultData, true) ?? [];
+        }
+
+        // Apply clinical score adjustments to chung_ranked
+        if (!empty($clinicalResults['tests'])) {
+            $engine = $this->getEngine();
+            $engine->applyClinicalResults($resultData, $clinicalResults);
+        }
+
+        $resultData['paraclinical'] = $clinicalResults;
+
+        // Mark complete with final result
         $this->sessionModel->markComplete($session['session_id'], $resultData);
 
         $this->redirect('exam/result');
     }
 
+    /**
+     * Build grouped hint list from top candidate patterns' paraclinical_hints.
+     *
+     * @return array [ 'Xét nghiệm máu' => [ test_code => hint, ... ], ... ]
+     */
+    private function buildParaclinicalHints(array $session): array
+    {
+        $resultData = $session['result_data'] ?? [];
+        if (is_string($resultData)) {
+            $resultData = json_decode($resultData, true) ?? [];
+        }
+
+        $topPatterns = array_slice($resultData['chung_ranked'] ?? [], 0, 5);
+        if (empty($topPatterns)) return [];
+
+        $codes        = array_column($topPatterns, 'chung_code');
+        $db           = Database::get();
+        $placeholders = implode(',', array_fill(0, count($codes), '?'));
+
+        $stmt = $db->prepare(
+            "SELECT chung_code, name_vi, paraclinical_hints FROM kb_patterns
+             WHERE chung_code IN ($placeholders) AND paraclinical_hints IS NOT NULL"
+        );
+        $stmt->execute($codes);
+        $patterns = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+        // Merge hints; keep highest weight per test_code
+        $merged = [];
+        foreach ($patterns as $pat) {
+            $hints = json_decode($pat['paraclinical_hints'] ?? '[]', true) ?: [];
+            foreach ($hints as $h) {
+                $tc = $h['test_code'];
+                if (!isset($merged[$tc]) || $h['weight'] > $merged[$tc]['weight']) {
+                    $h['suggested_by_code'] = $pat['chung_code'];
+                    $h['suggested_by_name'] = $pat['name_vi'];
+                    $merged[$tc] = $h;
+                }
+            }
+        }
+
+        // Group by category_vi
+        $grouped = [];
+        foreach ($merged as $tc => $h) {
+            $cat = $h['category_vi'] ?? 'Khác';
+            $grouped[$cat][$tc] = $h;
+        }
+
+        return $grouped;
+    }
+
     // =========================================================================
-    // STEP 4: RESULT (Phase 3)
+    // STEP 5: RESULT
     // =========================================================================
 
     /**

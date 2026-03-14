@@ -4,7 +4,7 @@
  */
 $complaint = $chief_complaint ?? '';
 $questions = $questions ?? [];
-$stepLabels = ['Mô tả', 'Làm rõ', 'Triệu chứng', 'Câu hỏi', 'Kết quả'];
+$stepLabels = ['Mô tả', 'Làm rõ', 'Triệu chứng', 'Câu hỏi', 'Cận lâm sàng', 'Kết quả'];
 ?>
 <style>
 .clarify-wrap {

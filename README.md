@@ -1,6 +1,11 @@
 # Kham — Hệ thống Hỗ trợ Chẩn đoán Y Học Cổ Truyền
 
 Ứng dụng web PHP hỗ trợ chẩn đoán theo Y Học Cổ Truyền Việt Nam (YHCT), tích hợp cơ sở tri thức Bát Cương, Tạng phủ, K04 chứng hội và cảnh báo an toàn thuốc.
+![alt text](image/image1.png)
+
+![alt text](<image/image copy.png>)
+
+![alt text](image/image.png)
 
 ## Tính năng
 
